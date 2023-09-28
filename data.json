@@ -1,5 +1,11 @@
 [
   {
+    "id": "20230928",
+    "date": "2023/9/28",
+    "used": [],
+    "legend": []
+  },
+  {
     "id": "20230927",
     "date": "2023/9/27",
     "used": [
@@ -558,70 +564,6 @@
         "carname": "2J '70",
         "price": "2,500,000",
         "price_in_jpy": "250,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20230914",
-    "date": "2023/9/14",
-    "used": [
-      {
-        "makername": "Honda",
-        "carid": "821",
-        "carname": "Civic Type R (EK) '97",
-        "price": "55,600",
-        "price_in_jpy": "5,560,000",
-        "isOld": true
-      },
-      {
-        "makername": "Fiat",
-        "carid": "1527",
-        "carname": "500 1.2 8V Lounge SS '08",
-        "price": "13,800",
-        "price_in_jpy": "1,380,000",
-        "isOld": false
-      },
-      {
-        "makername": "Volkswagen",
-        "carid": "1778",
-        "carname": "Volkswagen 1200 '66",
-        "price": "31,900",
-        "price_in_jpy": "3,190,000",
-        "isOld": true
-      },
-      {
-        "makername": "Ford",
-        "carid": "3466",
-        "carname": "Sierra RS 500 Cosworth '87",
-        "price": "192,200",
-        "price_in_jpy": "19,220,000",
-        "isOld": true
-      },
-      {
-        "makername": "Dodge",
-        "carid": "1402",
-        "carname": "Viper SRT10 Coupe '06",
-        "price": "115,500",
-        "price_in_jpy": "11,550,000",
-        "isOld": false
-      },
-      {
-        "makername": "Dodge",
-        "carid": "1373",
-        "carname": "Viper GTS '02",
-        "price": "106,900",
-        "price_in_jpy": "10,690,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Jaguar",
-        "carid": "3361",
-        "carname": "E-type Coupe '61",
-        "price": "227,000",
-        "price_in_jpy": "22,700,000",
         "isOld": true
       }
     ]

@@ -1,5 +1,36 @@
 [
   {
+    "id": "20230930",
+    "date": "2023/9/30",
+    "used": [
+      {
+        "makername": "Fiat",
+        "carid": "1523",
+        "carname": "500 F '68",
+        "price": "15,200",
+        "price_in_jpy": "1,520,000",
+        "isOld": true
+      },
+      {
+        "makername": "Alfa Romeo",
+        "carid": "3530",
+        "carname": "Giulia Sprint GT Veloce '67",
+        "price": "165,200",
+        "price_in_jpy": "16,520,000",
+        "isOld": true
+      },
+      {
+        "makername": "Mitsubishi",
+        "carid": "1508",
+        "carname": "Lancer Evolution VI GSR T.M. SCP '99",
+        "price": "178,300",
+        "price_in_jpy": "17,830,000",
+        "isOld": true
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20230929",
     "date": "2023/9/29",
     "used": [
@@ -508,38 +539,6 @@
         "carname": "CLK-LM '98",
         "price": "6,500,000",
         "price_in_jpy": "650,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20230916",
-    "date": "2023/9/16",
-    "used": [
-      {
-        "makername": "Dodge",
-        "carid": "3377",
-        "carname": "Super Bee '70",
-        "price": "71,700",
-        "price_in_jpy": "7,170,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Alfa Romeo",
-        "carid": "3415",
-        "carname": "8C 2900B Touring Berlinetta '38",
-        "price": "20,000,000",
-        "price_in_jpy": "2,000,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Ferrari",
-        "carid": "1551",
-        "carname": "330 P4 '67",
-        "price": "9,500,000",
-        "price_in_jpy": "950,000,000",
         "isOld": true
       }
     ]

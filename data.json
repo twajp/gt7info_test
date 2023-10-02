@@ -1,5 +1,53 @@
 [
   {
+    "id": "20231002",
+    "date": "2023/10/2",
+    "used": [
+      {
+        "makername": "Toyota",
+        "carid": "1537",
+        "carname": "Prius G '09",
+        "price": "20,000",
+        "price_in_jpy": "2,000,000",
+        "isOld": false
+      },
+      {
+        "makername": "Audi",
+        "carid": "959",
+        "carname": "TT Coupe 3.2 quattro '03",
+        "price": "44,200",
+        "price_in_jpy": "4,420,000",
+        "isOld": false
+      },
+      {
+        "makername": "Audi",
+        "carid": "1365",
+        "carname": "R8 4.2 '07",
+        "price": "137,800",
+        "price_in_jpy": "13,780,000",
+        "isOld": false
+      },
+      {
+        "makername": "Nissan",
+        "carid": "489",
+        "carname": "R33 GT-R V-spec '97",
+        "price": "156,200",
+        "price_in_jpy": "15,620,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Suzuki",
+        "carid": "808",
+        "carname": "V6 Escudo Pikes Peak Special spec.98",
+        "price": "1,700,000",
+        "price_in_jpy": "170,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20231001",
     "date": "2023/10/1",
     "used": [
@@ -535,12 +583,6 @@
         "isOld": false
       }
     ],
-    "legend": []
-  },
-  {
-    "id": "20230918",
-    "date": "2023/9/18",
-    "used": [],
     "legend": []
   }
 ]

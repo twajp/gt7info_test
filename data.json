@@ -1,5 +1,60 @@
 [
   {
+    "id": "20231006",
+    "date": "2023/10/6",
+    "used": [
+      {
+        "makername": "Honda",
+        "carid": "135",
+        "carname": "S800 '66",
+        "price": "45,700",
+        "price_in_jpy": "4,570,000",
+        "isOld": true
+      },
+      {
+        "makername": "Autobianchi",
+        "carid": "3442",
+        "carname": "A112 Abarth '85",
+        "price": "33,000",
+        "price_in_jpy": "3,300,000",
+        "isOld": true
+      },
+      {
+        "makername": "Lancia",
+        "carid": "829",
+        "carname": "Delta HF Integrale Evoluzione '91",
+        "price": "100,300",
+        "price_in_jpy": "10,030,000",
+        "isOld": true
+      },
+      {
+        "makername": "Lamborghini",
+        "carid": "1481",
+        "carname": "Countach 25th Anniversary '88",
+        "price": "684,200",
+        "price_in_jpy": "68,420,000",
+        "isOld": true
+      },
+      {
+        "makername": "McLaren",
+        "carid": "1722",
+        "carname": "MP4-12C '10",
+        "price": "189,400",
+        "price_in_jpy": "18,940,000",
+        "isOld": false
+      },
+      {
+        "makername": "RUF",
+        "carid": "3398",
+        "carname": "CTR3 '07",
+        "price": "776,800",
+        "price_in_jpy": "77,680,000",
+        "isOld": false
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20231005",
     "date": "2023/10/5",
     "used": [
@@ -586,69 +641,5 @@
       }
     ],
     "legend": []
-  },
-  {
-    "id": "20230922",
-    "date": "2023/9/22",
-    "used": [
-      {
-        "makername": "Volkswagen",
-        "carid": "3403",
-        "carname": "Golf I GTI '83",
-        "price": "49,100",
-        "price_in_jpy": "4,910,000",
-        "isOld": true
-      },
-      {
-        "makername": "Volkswagen",
-        "carid": "1671",
-        "carname": "Sambabus Typ 2 '62",
-        "price": "59,000",
-        "price_in_jpy": "5,900,000",
-        "isOld": true
-      },
-      {
-        "makername": "Nissan",
-        "carid": "78",
-        "carname": "Silvia K's Aero (S14) '96",
-        "price": "59,000",
-        "price_in_jpy": "5,900,000",
-        "isOld": true
-      },
-      {
-        "makername": "TVR",
-        "carid": "187",
-        "carname": "Tuscan Speed 6 '00",
-        "price": "80,600",
-        "price_in_jpy": "8,060,000",
-        "isOld": true
-      },
-      {
-        "makername": "Nissan",
-        "carid": "3524",
-        "carname": "GT-R NISMO (R32) '90",
-        "price": "389,500",
-        "price_in_jpy": "38,950,000",
-        "isOld": true
-      },
-      {
-        "makername": "BMW",
-        "carid": "1399",
-        "carname": "M3 '07",
-        "price": "70,000",
-        "price_in_jpy": "7,000,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Aston Martin",
-        "carid": "3363",
-        "carname": "DB3S '53",
-        "price": "6,000,000",
-        "price_in_jpy": "600,000,000",
-        "isOld": true
-      }
-    ]
   }
 ]

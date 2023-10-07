@@ -1,5 +1,20 @@
 [
   {
+    "id": "20231007",
+    "date": "2023/10/7",
+    "used": [
+      {
+        "makername": "Toyota",
+        "carid": "3471",
+        "carname": "Celica GT-Four (ST205) '94",
+        "price": "70,300",
+        "price_in_jpy": "7,030,000",
+        "isOld": true
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20231006",
     "date": "2023/10/6",
     "used": [
@@ -626,20 +641,5 @@
         "isOld": true
       }
     ]
-  },
-  {
-    "id": "20230923",
-    "date": "2023/9/23",
-    "used": [
-      {
-        "makername": "Nissan",
-        "carid": "3513",
-        "carname": "Silvia K's Type S (S14) '94",
-        "price": "53,800",
-        "price_in_jpy": "5,380,000",
-        "isOld": true
-      }
-    ],
-    "legend": []
   }
 ]

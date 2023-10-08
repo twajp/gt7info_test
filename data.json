@@ -1,5 +1,20 @@
 [
   {
+    "id": "20231008",
+    "date": "2023/10/8",
+    "used": [
+      {
+        "makername": "Suzuki",
+        "carid": "779",
+        "carname": "Cappuccino (EA11R) '91",
+        "price": "17,700",
+        "price_in_jpy": "1,770,000",
+        "isOld": true
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20231007",
     "date": "2023/10/7",
     "used": [
@@ -558,86 +573,6 @@
         "carname": "Skyline 2000GT-R (KPGC110) '73",
         "price": "542,000",
         "price_in_jpy": "54,200,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20230924",
-    "date": "2023/9/24",
-    "used": [
-      {
-        "makername": "Suzuki",
-        "carid": "1385",
-        "carname": "Swift Sport '07",
-        "price": "13,600",
-        "price_in_jpy": "1,360,000",
-        "isOld": false
-      },
-      {
-        "makername": "MINI",
-        "carid": "3356",
-        "carname": "Mini-Cooper 'S' '65",
-        "price": "38,200",
-        "price_in_jpy": "3,820,000",
-        "isOld": true
-      },
-      {
-        "makername": "Daihatsu",
-        "carid": "145",
-        "carname": "Copen '02",
-        "price": "13,400",
-        "price_in_jpy": "1,340,000",
-        "isOld": false
-      },
-      {
-        "makername": "Toyota",
-        "carid": "843",
-        "carname": "Supra 3.0GT Turbo A '88",
-        "price": "105,500",
-        "price_in_jpy": "10,550,000",
-        "isOld": true
-      },
-      {
-        "makername": "Subaru",
-        "carid": "379",
-        "carname": "Impreza Coupe WRX Type R STi Ver.VI '99",
-        "price": "52,600",
-        "price_in_jpy": "5,260,000",
-        "isOld": true
-      },
-      {
-        "makername": "Nissan",
-        "carid": "773",
-        "carname": "R32 GT-R V-spec II '94",
-        "price": "179,900",
-        "price_in_jpy": "17,990,000",
-        "isOld": true
-      },
-      {
-        "makername": "BMW",
-        "carid": "3389",
-        "carname": "M3 '03",
-        "price": "61,900",
-        "price_in_jpy": "6,190,000",
-        "isOld": false
-      },
-      {
-        "makername": "Porsche",
-        "carid": "3431",
-        "carname": "911 Carrera RS (964) '92",
-        "price": "220,700",
-        "price_in_jpy": "22,070,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "McLaren",
-        "carid": "1540",
-        "carname": "McLaren F1 '94",
-        "price": "20,000,000",
-        "price_in_jpy": "2,000,000,000",
         "isOld": true
       }
     ]

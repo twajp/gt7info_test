@@ -1,5 +1,52 @@
 [
   {
+    "id": "20231009",
+    "date": "2023/10/9",
+    "used": [
+      {
+        "makername": "Nissan",
+        "carid": "48",
+        "carname": "Fairlady 240ZG (HS30) '71",
+        "price": "106,400",
+        "price_in_jpy": "10,640,000",
+        "isOld": true
+      },
+      {
+        "makername": "Nissan",
+        "carid": "24",
+        "carname": "180SX Type X '96",
+        "price": "58,300",
+        "price_in_jpy": "5,830,000",
+        "isOld": true
+      },
+      {
+        "makername": "Chevrolet",
+        "carid": "1542",
+        "carname": "Corvette Convertible (C3) '69",
+        "price": "48,500",
+        "price_in_jpy": "4,850,000",
+        "isOld": true
+      },
+      {
+        "makername": "Nissan",
+        "carid": "210",
+        "carname": "R34 GT-R V-spec II Nur '02",
+        "price": "396,000",
+        "price_in_jpy": "39,600,000",
+        "isOld": false
+      },
+      {
+        "makername": "AMG",
+        "carid": "1507",
+        "carname": "SLS AMG '10",
+        "price": "321,100",
+        "price_in_jpy": "32,110,000",
+        "isOld": false
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20231008",
     "date": "2023/10/8",
     "used": [
@@ -502,78 +549,6 @@
         "price": "500,000",
         "price_in_jpy": "50,000,000",
         "isOld": null
-      }
-    ]
-  },
-  {
-    "id": "20230925",
-    "date": "2023/9/25",
-    "used": [
-      {
-        "makername": "Alpine",
-        "carid": "1796",
-        "carname": "A110 '72",
-        "price": "132,900",
-        "price_in_jpy": "13,290,000",
-        "isOld": true
-      },
-      {
-        "makername": "Mitsubishi",
-        "carid": "301",
-        "carname": "Lancer Evolution IV GSR '96",
-        "price": "46,600",
-        "price_in_jpy": "4,660,000",
-        "isOld": true
-      },
-      {
-        "makername": "Honda",
-        "carid": "203",
-        "carname": "Integra Type R (DC2) '98",
-        "price": "61,400",
-        "price_in_jpy": "6,140,000",
-        "isOld": true
-      },
-      {
-        "makername": "DMC",
-        "carid": "1027",
-        "carname": "DeLorean S2 '04",
-        "price": "427,500",
-        "price_in_jpy": "42,750,000",
-        "isOld": false
-      },
-      {
-        "makername": "Porsche",
-        "carid": "3439",
-        "carname": "911 Carrera RS (993) '95",
-        "price": "215,200",
-        "price_in_jpy": "21,520,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Mercedes-Benz",
-        "carid": "3441",
-        "carname": "300 SL (W194) '52",
-        "price": "20,000,000",
-        "price_in_jpy": "2,000,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Abarth",
-        "carid": "1932",
-        "carname": "1500 Biposto Bertone B.A.T 1 '52",
-        "price": "1,000,000",
-        "price_in_jpy": "100,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Nissan",
-        "carid": "836",
-        "carname": "Skyline 2000GT-R (KPGC110) '73",
-        "price": "542,000",
-        "price_in_jpy": "54,200,000",
-        "isOld": true
       }
     ]
   }

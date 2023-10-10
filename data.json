@@ -1,5 +1,28 @@
 [
   {
+    "id": "20231010",
+    "date": "2023/10/10",
+    "used": [
+      {
+        "makername": "Maserati",
+        "carid": "1539",
+        "carname": "GranTurismo S '08",
+        "price": "137,900",
+        "price_in_jpy": "13,790,000",
+        "isOld": false
+      },
+      {
+        "makername": "BMW",
+        "carid": "1893",
+        "carname": "Z8 '01",
+        "price": "257,300",
+        "price_in_jpy": "25,730,000",
+        "isOld": false
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20231009",
     "date": "2023/10/9",
     "used": [
@@ -517,38 +540,6 @@
         "price": "1,100,000",
         "price_in_jpy": "110,000,000",
         "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20230926",
-    "date": "2023/9/26",
-    "used": [
-      {
-        "makername": "Toyota",
-        "carid": "1044",
-        "carname": "Sports 800 '65",
-        "price": "43,200",
-        "price_in_jpy": "4,320,000",
-        "isOld": true
-      },
-      {
-        "makername": "Ford",
-        "carid": "1729",
-        "carname": "Mustang Mach 1 '71",
-        "price": "37,500",
-        "price_in_jpy": "3,750,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "De Tomaso",
-        "carid": "3505",
-        "carname": "Mangusta (Christian Dior)",
-        "price": "500,000",
-        "price_in_jpy": "50,000,000",
-        "isOld": null
       }
     ]
   }

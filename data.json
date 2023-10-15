@@ -1,5 +1,45 @@
 [
   {
+    "id": "20231015",
+    "date": "2023/10/15",
+    "used": [
+      {
+        "makername": "Volkswagen",
+        "carid": "1778",
+        "carname": "Volkswagen 1200 '66",
+        "price": "31,900",
+        "price_in_jpy": "3,190,000",
+        "isOld": true
+      },
+      {
+        "makername": "Honda",
+        "carid": "137",
+        "carname": "Beat '91",
+        "price": "15,900",
+        "price_in_jpy": "1,590,000",
+        "isOld": true
+      },
+      {
+        "makername": "Mitsubishi",
+        "carid": "931",
+        "carname": "Lancer Evolution III GSR '95",
+        "price": "97,000",
+        "price_in_jpy": "9,700,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Ferrari",
+        "carid": "2017",
+        "carname": "GTO '84",
+        "price": "3,550,000",
+        "price_in_jpy": "355,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20231014",
     "date": "2023/10/14",
     "used": [
@@ -566,70 +606,6 @@
         "carname": "V6 Escudo Pikes Peak Special spec.98",
         "price": "1,700,000",
         "price_in_jpy": "170,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20231001",
-    "date": "2023/10/1",
-    "used": [
-      {
-        "makername": "Nissan",
-        "carid": "919",
-        "carname": "Silvia Q's (S13) '88",
-        "price": "34,000",
-        "price_in_jpy": "3,400,000",
-        "isOld": true
-      },
-      {
-        "makername": "Chevrolet",
-        "carid": "942",
-        "carname": "Corvette ZR-1 (C4) '89",
-        "price": "86,500",
-        "price_in_jpy": "8,650,000",
-        "isOld": true
-      },
-      {
-        "makername": "Toyota",
-        "carid": "345",
-        "carname": "Sprinter Trueno 1600GT APEX (S.Shigeno Version)",
-        "price": "105,900",
-        "price_in_jpy": "10,590,000",
-        "isOld": null
-      },
-      {
-        "makername": "Chevrolet",
-        "carid": "1480",
-        "carname": "Corvette ZR1 (C6) '09",
-        "price": "104,900",
-        "price_in_jpy": "10,490,000",
-        "isOld": false
-      },
-      {
-        "makername": "Honda",
-        "carid": "396",
-        "carname": "NSX Type R '02",
-        "price": "430,000",
-        "price_in_jpy": "43,000,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Ford",
-        "carid": "3487",
-        "carname": "Mustang Boss 429 '69",
-        "price": "337,000",
-        "price_in_jpy": "33,700,000",
-        "isOld": true
-      },
-      {
-        "makername": "Toyota",
-        "carid": "781",
-        "carname": "Celica GT-FOUR Rally Car (ST205) '95",
-        "price": "250,000",
-        "price_in_jpy": "25,000,000",
         "isOld": true
       }
     ]

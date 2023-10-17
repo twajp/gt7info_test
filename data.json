@@ -1,5 +1,61 @@
 [
   {
+    "id": "20231017",
+    "date": "2023/10/17",
+    "used": [
+      {
+        "makername": "Mazda",
+        "carid": "374",
+        "carname": "RX-7 GT-X (FC) '90",
+        "price": "70,000",
+        "price_in_jpy": "7,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Abarth",
+        "carid": "1973",
+        "carname": "Abarth 500 '09",
+        "price": "23,300",
+        "price_in_jpy": "2,330,000",
+        "isOld": false
+      },
+      {
+        "makername": "Ferrari",
+        "carid": "3434",
+        "carname": "Testarossa '91",
+        "price": "369,000",
+        "price_in_jpy": "36,900,000",
+        "isOld": true
+      },
+      {
+        "makername": "Porsche",
+        "carid": "3404",
+        "carname": "911 Carrera RS CS (993) '95",
+        "price": "411,300",
+        "price_in_jpy": "41,130,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Porsche",
+        "carid": "3446",
+        "carname": "Spyder type 550/1500RS '55",
+        "price": "4,500,000",
+        "price_in_jpy": "450,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Lamborghini",
+        "carid": "1582",
+        "carname": "Miura P400 Bertone Prototype '67",
+        "price": "3,500,000",
+        "price_in_jpy": "350,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20231016",
     "date": "2023/10/16",
     "used": [
@@ -533,46 +589,6 @@
         "carname": "Corvette (C1) '58",
         "price": "123,000",
         "price_in_jpy": "12,300,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20231003",
-    "date": "2023/10/3",
-    "used": [
-      {
-        "makername": "Honda",
-        "carid": "204",
-        "carname": "Civic Type R (EK) '98",
-        "price": "58,400",
-        "price_in_jpy": "5,840,000",
-        "isOld": true
-      },
-      {
-        "makername": "Renault",
-        "carid": "173",
-        "carname": "R5 Turbo '80",
-        "price": "154,200",
-        "price_in_jpy": "15,420,000",
-        "isOld": true
-      },
-      {
-        "makername": "BMW",
-        "carid": "3453",
-        "carname": "M3 '89",
-        "price": "83,100",
-        "price_in_jpy": "8,310,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Jaguar",
-        "carid": "1553",
-        "carname": "XJ13 '66",
-        "price": "12,000,000",
-        "price_in_jpy": "1,200,000,000",
         "isOld": true
       }
     ]

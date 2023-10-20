@@ -1,5 +1,37 @@
 [
   {
+    "id": "20231020",
+    "date": "2023/10/20",
+    "used": [
+      {
+        "makername": "Lancia",
+        "carid": "533",
+        "carname": "Stratos '73",
+        "price": "486,600",
+        "price_in_jpy": "48,660,000",
+        "isOld": true
+      },
+      {
+        "makername": "Nissan",
+        "carid": "1458",
+        "carname": "Fairlady Z (Z34) '08",
+        "price": "36,100",
+        "price_in_jpy": "3,610,000",
+        "isOld": false
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Nissan",
+        "carid": "954",
+        "carname": "R92CP '92",
+        "price": "2,000,000",
+        "price_in_jpy": "200,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20231019",
     "date": "2023/10/19",
     "used": [
@@ -500,61 +532,6 @@
         "price": "70,300",
         "price_in_jpy": "7,030,000",
         "isOld": true
-      }
-    ],
-    "legend": []
-  },
-  {
-    "id": "20231006",
-    "date": "2023/10/6",
-    "used": [
-      {
-        "makername": "Honda",
-        "carid": "135",
-        "carname": "S800 '66",
-        "price": "45,700",
-        "price_in_jpy": "4,570,000",
-        "isOld": true
-      },
-      {
-        "makername": "Autobianchi",
-        "carid": "3442",
-        "carname": "A112 Abarth '85",
-        "price": "33,000",
-        "price_in_jpy": "3,300,000",
-        "isOld": true
-      },
-      {
-        "makername": "Lancia",
-        "carid": "829",
-        "carname": "Delta HF Integrale Evoluzione '91",
-        "price": "100,300",
-        "price_in_jpy": "10,030,000",
-        "isOld": true
-      },
-      {
-        "makername": "Lamborghini",
-        "carid": "1481",
-        "carname": "Countach 25th Anniversary '88",
-        "price": "684,200",
-        "price_in_jpy": "68,420,000",
-        "isOld": true
-      },
-      {
-        "makername": "McLaren",
-        "carid": "1722",
-        "carname": "MP4-12C '10",
-        "price": "189,400",
-        "price_in_jpy": "18,940,000",
-        "isOld": false
-      },
-      {
-        "makername": "RUF",
-        "carid": "3398",
-        "carname": "CTR3 '07",
-        "price": "776,800",
-        "price_in_jpy": "77,680,000",
-        "isOld": false
       }
     ],
     "legend": []

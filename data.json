@@ -1,5 +1,45 @@
 [
   {
+    "id": "20231021",
+    "date": "2023/10/21",
+    "used": [
+      {
+        "makername": "Dodge",
+        "carid": "3377",
+        "carname": "Super Bee '70",
+        "price": "71,700",
+        "price_in_jpy": "7,170,000",
+        "isOld": true
+      },
+      {
+        "makername": "Ferrari",
+        "carid": "1410",
+        "carname": "512 BB '76",
+        "price": "284,500",
+        "price_in_jpy": "28,450,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Porsche",
+        "carid": "3365",
+        "carname": "356 A/1500 GS GT Carrera Speedster '56",
+        "price": "1,500,000",
+        "price_in_jpy": "150,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Ford",
+        "carid": "1935",
+        "carname": "GT40 Mark I '66",
+        "price": "6,700,000",
+        "price_in_jpy": "670,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20231020",
     "date": "2023/10/20",
     "used": [
@@ -516,21 +556,6 @@
         "carname": "Cappuccino (EA11R) '91",
         "price": "17,700",
         "price_in_jpy": "1,770,000",
-        "isOld": true
-      }
-    ],
-    "legend": []
-  },
-  {
-    "id": "20231007",
-    "date": "2023/10/7",
-    "used": [
-      {
-        "makername": "Toyota",
-        "carid": "3471",
-        "carname": "Celica GT-Four (ST205) '94",
-        "price": "70,300",
-        "price_in_jpy": "7,030,000",
         "isOld": true
       }
     ],

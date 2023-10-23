@@ -1,5 +1,45 @@
 [
   {
+    "id": "20231023",
+    "date": "2023/10/23",
+    "used": [
+      {
+        "makername": "Nissan",
+        "carid": "3513",
+        "carname": "Silvia K's Type S (S14) '94",
+        "price": "53,800",
+        "price_in_jpy": "5,380,000",
+        "isOld": true
+      },
+      {
+        "makername": "Mitsubishi",
+        "carid": "3384",
+        "carname": "GTO Twin Turbo '91",
+        "price": "42,000",
+        "price_in_jpy": "4,200,000",
+        "isOld": true
+      },
+      {
+        "makername": "Toyota",
+        "carid": "82",
+        "carname": "Supra RZ '97",
+        "price": "194,200",
+        "price_in_jpy": "19,420,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Alfa Romeo",
+        "carid": "1645",
+        "carname": "GIULIA TZ2 carrozzata da ZAGATO '65",
+        "price": "3,750,000",
+        "price_in_jpy": "375,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20231022",
     "date": "2023/10/22",
     "used": [
@@ -541,53 +581,6 @@
         "carname": "Z8 '01",
         "price": "257,300",
         "price_in_jpy": "25,730,000",
-        "isOld": false
-      }
-    ],
-    "legend": []
-  },
-  {
-    "id": "20231009",
-    "date": "2023/10/9",
-    "used": [
-      {
-        "makername": "Nissan",
-        "carid": "48",
-        "carname": "Fairlady 240ZG (HS30) '71",
-        "price": "106,400",
-        "price_in_jpy": "10,640,000",
-        "isOld": true
-      },
-      {
-        "makername": "Nissan",
-        "carid": "24",
-        "carname": "180SX Type X '96",
-        "price": "58,300",
-        "price_in_jpy": "5,830,000",
-        "isOld": true
-      },
-      {
-        "makername": "Chevrolet",
-        "carid": "1542",
-        "carname": "Corvette Convertible (C3) '69",
-        "price": "48,500",
-        "price_in_jpy": "4,850,000",
-        "isOld": true
-      },
-      {
-        "makername": "Nissan",
-        "carid": "210",
-        "carname": "R34 GT-R V-spec II Nur '02",
-        "price": "396,000",
-        "price_in_jpy": "39,600,000",
-        "isOld": false
-      },
-      {
-        "makername": "AMG",
-        "carid": "1507",
-        "carname": "SLS AMG '10",
-        "price": "321,100",
-        "price_in_jpy": "32,110,000",
         "isOld": false
       }
     ],

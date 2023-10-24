@@ -1,5 +1,53 @@
 [
   {
+    "id": "20231024",
+    "date": "2023/10/24",
+    "used": [
+      {
+        "makername": "Suzuki",
+        "carid": "1385",
+        "carname": "Swift Sport '07",
+        "price": "13,600",
+        "price_in_jpy": "1,360,000",
+        "isOld": false
+      },
+      {
+        "makername": "Porsche",
+        "carid": "3385",
+        "carname": "911 Turbo (930) '81",
+        "price": "218,100",
+        "price_in_jpy": "21,810,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Shelby",
+        "carid": "1925",
+        "carname": "G.T.350 '65",
+        "price": "500,000",
+        "price_in_jpy": "50,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "De Tomaso",
+        "carid": "3437",
+        "carname": "Mangusta '69",
+        "price": "333,000",
+        "price_in_jpy": "33,300,000",
+        "isOld": true
+      },
+      {
+        "makername": "Dodge",
+        "carid": "1543",
+        "carname": "Challenger R/T '70",
+        "price": "238,000",
+        "price_in_jpy": "23,800,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20231023",
     "date": "2023/10/23",
     "used": [
@@ -562,28 +610,5 @@
         "isOld": true
       }
     ]
-  },
-  {
-    "id": "20231010",
-    "date": "2023/10/10",
-    "used": [
-      {
-        "makername": "Maserati",
-        "carid": "1539",
-        "carname": "GranTurismo S '08",
-        "price": "137,900",
-        "price_in_jpy": "13,790,000",
-        "isOld": false
-      },
-      {
-        "makername": "BMW",
-        "carid": "1893",
-        "carname": "Z8 '01",
-        "price": "257,300",
-        "price_in_jpy": "25,730,000",
-        "isOld": false
-      }
-    ],
-    "legend": []
   }
 ]

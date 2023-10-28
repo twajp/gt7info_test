@@ -1,5 +1,20 @@
 [
   {
+    "id": "20231028",
+    "date": "2023/10/28",
+    "used": [
+      {
+        "makername": "BMW",
+        "carid": "1399",
+        "carname": "M3 '07",
+        "price": "70,000",
+        "price_in_jpy": "7,000,000",
+        "isOld": false
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20231027",
     "date": "2023/10/27",
     "used": [
@@ -526,54 +541,6 @@
         "carname": "GTO '84",
         "price": "3,550,000",
         "price_in_jpy": "355,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20231014",
-    "date": "2023/10/14",
-    "used": [
-      {
-        "makername": "Mazda",
-        "carid": "201",
-        "carname": "Eunos Roadster (NA) '89",
-        "price": "30,700",
-        "price_in_jpy": "3,070,000",
-        "isOld": true
-      },
-      {
-        "makername": "Honda",
-        "carid": "821",
-        "carname": "Civic Type R (EK) '97",
-        "price": "55,600",
-        "price_in_jpy": "5,560,000",
-        "isOld": true
-      },
-      {
-        "makername": "Fiat",
-        "carid": "1527",
-        "carname": "500 1.2 8V Lounge SS '08",
-        "price": "13,800",
-        "price_in_jpy": "1,380,000",
-        "isOld": false
-      },
-      {
-        "makername": "Ferrari",
-        "carid": "3443",
-        "carname": "308 GTB '75",
-        "price": "165,700",
-        "price_in_jpy": "16,570,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Plymouth",
-        "carid": "665",
-        "carname": "Superbird '70",
-        "price": "529,000",
-        "price_in_jpy": "52,900,000",
         "isOld": true
       }
     ]

@@ -1,5 +1,37 @@
 [
   {
+    "id": "20231101",
+    "date": "2023/11/1",
+    "used": [
+      {
+        "makername": "Mazda",
+        "carid": "205",
+        "carname": "RX-7 Spirit R Type A (FD) '02",
+        "price": "221,200",
+        "price_in_jpy": "22,120,000",
+        "isOld": false
+      },
+      {
+        "makername": "Alfa Romeo",
+        "carid": "1578",
+        "carname": "8C Competizione '08",
+        "price": "314,100",
+        "price_in_jpy": "31,410,000",
+        "isOld": false
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Citroen",
+        "carid": "3514",
+        "carname": "DS 21 Pallas '70",
+        "price": "49,600",
+        "price_in_jpy": "4,960,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20231031",
     "date": "2023/10/31",
     "used": [
@@ -582,21 +614,6 @@
         "price": "106,900",
         "price_in_jpy": "10,690,000",
         "isOld": false
-      }
-    ],
-    "legend": []
-  },
-  {
-    "id": "20231018",
-    "date": "2023/10/18",
-    "used": [
-      {
-        "makername": "Honda",
-        "carid": "293",
-        "carname": "NSX Type R '92",
-        "price": "402,700",
-        "price_in_jpy": "40,270,000",
-        "isOld": true
       }
     ],
     "legend": []

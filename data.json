@@ -1,5 +1,45 @@
 [
   {
+    "id": "20231103",
+    "date": "2023/11/3",
+    "used": [
+      {
+        "makername": "Renault",
+        "carid": "173",
+        "carname": "R5 Turbo '80",
+        "price": "154,200",
+        "price_in_jpy": "15,420,000",
+        "isOld": true
+      },
+      {
+        "makername": "Renault",
+        "carid": "334",
+        "carname": "Clio V6 24V '00",
+        "price": "86,100",
+        "price_in_jpy": "8,610,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Porsche",
+        "carid": "3509",
+        "carname": "911 Carrera RS (901) '73",
+        "price": "745,000",
+        "price_in_jpy": "74,500,000",
+        "isOld": true
+      },
+      {
+        "makername": "Chevrolet",
+        "carid": "31",
+        "carname": "Camaro Z28 '69",
+        "price": "116,000",
+        "price_in_jpy": "11,600,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20231102",
     "date": "2023/11/2",
     "used": [
@@ -559,38 +599,6 @@
         "carname": "GT40 Mark I '66",
         "price": "6,700,000",
         "price_in_jpy": "670,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20231020",
-    "date": "2023/10/20",
-    "used": [
-      {
-        "makername": "Lancia",
-        "carid": "533",
-        "carname": "Stratos '73",
-        "price": "486,600",
-        "price_in_jpy": "48,660,000",
-        "isOld": true
-      },
-      {
-        "makername": "Nissan",
-        "carid": "1458",
-        "carname": "Fairlady Z (Z34) '08",
-        "price": "36,100",
-        "price_in_jpy": "3,610,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Nissan",
-        "carid": "954",
-        "carname": "R92CP '92",
-        "price": "2,000,000",
-        "price_in_jpy": "200,000,000",
         "isOld": true
       }
     ]

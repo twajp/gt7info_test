@@ -1,5 +1,53 @@
 [
   {
+    "id": "20231106",
+    "date": "2023/11/6",
+    "used": [
+      {
+        "makername": "Audi",
+        "carid": "959",
+        "carname": "TT Coupe 3.2 quattro '03",
+        "price": "44,200",
+        "price_in_jpy": "4,420,000",
+        "isOld": false
+      },
+      {
+        "makername": "Chevrolet",
+        "carid": "1480",
+        "carname": "Corvette ZR1 (C6) '09",
+        "price": "104,900",
+        "price_in_jpy": "10,490,000",
+        "isOld": false
+      },
+      {
+        "makername": "Honda",
+        "carid": "396",
+        "carname": "NSX Type R '02",
+        "price": "430,000",
+        "price_in_jpy": "43,000,000",
+        "isOld": false
+      },
+      {
+        "makername": "Audi",
+        "carid": "1365",
+        "carname": "R8 4.2 '07",
+        "price": "137,800",
+        "price_in_jpy": "13,780,000",
+        "isOld": false
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Nissan",
+        "carid": "837",
+        "carname": "Skyline Hard Top 2000GT-R (KPGC10) '70",
+        "price": "167,000",
+        "price_in_jpy": "16,700,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20231105",
     "date": "2023/11/5",
     "used": [
@@ -576,46 +624,6 @@
         "carname": "Challenger R/T '70",
         "price": "238,000",
         "price_in_jpy": "23,800,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20231023",
-    "date": "2023/10/23",
-    "used": [
-      {
-        "makername": "Nissan",
-        "carid": "3513",
-        "carname": "Silvia K's Type S (S14) '94",
-        "price": "53,800",
-        "price_in_jpy": "5,380,000",
-        "isOld": true
-      },
-      {
-        "makername": "Mitsubishi",
-        "carid": "3384",
-        "carname": "GTO Twin Turbo '91",
-        "price": "42,000",
-        "price_in_jpy": "4,200,000",
-        "isOld": true
-      },
-      {
-        "makername": "Toyota",
-        "carid": "82",
-        "carname": "Supra RZ '97",
-        "price": "194,200",
-        "price_in_jpy": "19,420,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Alfa Romeo",
-        "carid": "1645",
-        "carname": "GIULIA TZ2 carrozzata da ZAGATO '65",
-        "price": "3,750,000",
-        "price_in_jpy": "375,000,000",
         "isOld": true
       }
     ]

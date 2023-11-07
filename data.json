@@ -1,5 +1,37 @@
 [
   {
+    "id": "20231107",
+    "date": "2023/11/7",
+    "used": [
+      {
+        "makername": "BMW",
+        "carid": "3453",
+        "carname": "M3 '89",
+        "price": "83,100",
+        "price_in_jpy": "8,310,000",
+        "isOld": true
+      },
+      {
+        "makername": "Nissan",
+        "carid": "489",
+        "carname": "R33 GT-R V-spec '97",
+        "price": "156,200",
+        "price_in_jpy": "15,620,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Jaguar",
+        "carid": "3376",
+        "carname": "D-type '54",
+        "price": "6,000,000",
+        "price_in_jpy": "600,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20231106",
     "date": "2023/11/6",
     "used": [
@@ -576,54 +608,6 @@
         "carname": "Sport quattro S1 Pikes Peak '87",
         "price": "1,900,000",
         "price_in_jpy": "190,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20231024",
-    "date": "2023/10/24",
-    "used": [
-      {
-        "makername": "Suzuki",
-        "carid": "1385",
-        "carname": "Swift Sport '07",
-        "price": "13,600",
-        "price_in_jpy": "1,360,000",
-        "isOld": false
-      },
-      {
-        "makername": "Porsche",
-        "carid": "3385",
-        "carname": "911 Turbo (930) '81",
-        "price": "218,100",
-        "price_in_jpy": "21,810,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Shelby",
-        "carid": "1925",
-        "carname": "G.T.350 '65",
-        "price": "500,000",
-        "price_in_jpy": "50,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "De Tomaso",
-        "carid": "3437",
-        "carname": "Mangusta '69",
-        "price": "333,000",
-        "price_in_jpy": "33,300,000",
-        "isOld": true
-      },
-      {
-        "makername": "Dodge",
-        "carid": "1543",
-        "carname": "Challenger R/T '70",
-        "price": "238,000",
-        "price_in_jpy": "23,800,000",
         "isOld": true
       }
     ]

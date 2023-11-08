@@ -1,5 +1,61 @@
 [
   {
+    "id": "20231108",
+    "date": "2023/11/8",
+    "used": [
+      {
+        "makername": "Suzuki",
+        "carid": "779",
+        "carname": "Cappuccino (EA11R) '91",
+        "price": "17,700",
+        "price_in_jpy": "1,770,000",
+        "isOld": true
+      },
+      {
+        "makername": "Subaru",
+        "carid": "451",
+        "carname": "Impreza 22B-STi '98",
+        "price": "170,400",
+        "price_in_jpy": "17,040,000",
+        "isOld": true
+      },
+      {
+        "makername": "Chevrolet",
+        "carid": "41",
+        "carname": "Corvette Stingray (C3) '69",
+        "price": "59,200",
+        "price_in_jpy": "5,920,000",
+        "isOld": true
+      },
+      {
+        "makername": "Toyota",
+        "carid": "207",
+        "carname": "MR2 GT-S '97",
+        "price": "51,500",
+        "price_in_jpy": "5,150,000",
+        "isOld": true
+      },
+      {
+        "makername": "Mercedes-Benz",
+        "carid": "1528",
+        "carname": "SLR McLaren '09",
+        "price": "499,100",
+        "price_in_jpy": "49,910,000",
+        "isOld": false
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Mercedes-Benz",
+        "carid": "3428",
+        "carname": "S Barker Tourer '29",
+        "price": "13,000,000",
+        "price_in_jpy": "1,300,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20231107",
     "date": "2023/11/7",
     "used": [
@@ -539,77 +595,5 @@
       }
     ],
     "legend": []
-  },
-  {
-    "id": "20231025",
-    "date": "2023/10/25",
-    "used": [
-      {
-        "makername": "MINI",
-        "carid": "3356",
-        "carname": "Mini-Cooper 'S' '65",
-        "price": "38,200",
-        "price_in_jpy": "3,820,000",
-        "isOld": true
-      },
-      {
-        "makername": "Daihatsu",
-        "carid": "145",
-        "carname": "Copen '02",
-        "price": "13,400",
-        "price_in_jpy": "1,340,000",
-        "isOld": false
-      },
-      {
-        "makername": "Alpine",
-        "carid": "1796",
-        "carname": "A110 '72",
-        "price": "132,900",
-        "price_in_jpy": "13,290,000",
-        "isOld": true
-      },
-      {
-        "makername": "Mitsubishi",
-        "carid": "211",
-        "carname": "Lancer Evolution V GSR '98",
-        "price": "69,200",
-        "price_in_jpy": "6,920,000",
-        "isOld": true
-      },
-      {
-        "makername": "Nissan",
-        "carid": "1384",
-        "carname": "Fairlady Z Version S (Z33) '07",
-        "price": "27,400",
-        "price_in_jpy": "2,740,000",
-        "isOld": false
-      },
-      {
-        "makername": "Ferrari",
-        "carid": "1378",
-        "carname": "F430 '06",
-        "price": "200,500",
-        "price_in_jpy": "20,050,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Shelby",
-        "carid": "315",
-        "carname": "Cobra 427 '66",
-        "price": "2,500,000",
-        "price_in_jpy": "250,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Audi",
-        "carid": "1927",
-        "carname": "Sport quattro S1 Pikes Peak '87",
-        "price": "1,900,000",
-        "price_in_jpy": "190,000,000",
-        "isOld": true
-      }
-    ]
   }
 ]

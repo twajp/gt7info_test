@@ -1,5 +1,69 @@
 [
   {
+    "id": "20231113",
+    "date": "2023/11/13",
+    "used": [
+      {
+        "makername": "Mazda",
+        "carid": "201",
+        "carname": "Eunos Roadster (NA) '89",
+        "price": "30,700",
+        "price_in_jpy": "3,070,000",
+        "isOld": true
+      },
+      {
+        "makername": "Nissan",
+        "carid": "24",
+        "carname": "180SX Type X '96",
+        "price": "58,300",
+        "price_in_jpy": "5,830,000",
+        "isOld": true
+      },
+      {
+        "makername": "Nissan",
+        "carid": "210",
+        "carname": "R34 GT-R V-spec II Nur '02",
+        "price": "396,000",
+        "price_in_jpy": "39,600,000",
+        "isOld": false
+      }
+    ],
+    "legend": [
+      {
+        "makername": "McLaren",
+        "carid": "1984",
+        "carname": "McLaren F1 GTR - BMW '95",
+        "price": "15,000,000",
+        "price_in_jpy": "1,500,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Lamborghini",
+        "carid": "1484",
+        "carname": "Countach LP400 '74",
+        "price": "1,250,000",
+        "price_in_jpy": "125,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Nissan",
+        "carid": "485",
+        "carname": "GT-R GT500 '99",
+        "price": "2,700,000",
+        "price_in_jpy": "270,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Shelby",
+        "carid": "1926",
+        "carname": "Cobra Daytona Coupe '64",
+        "price": "20,000,000",
+        "price_in_jpy": "2,000,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20231112",
     "date": "2023/11/12",
     "used": [],
@@ -511,70 +575,6 @@
         "carname": "A6GCS/53 Spyder '54",
         "price": "2,500,000",
         "price_in_jpy": "250,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20231030",
-    "date": "2023/10/30",
-    "used": [
-      {
-        "makername": "Fiat",
-        "carid": "1523",
-        "carname": "500 F '68",
-        "price": "15,200",
-        "price_in_jpy": "1,520,000",
-        "isOld": true
-      },
-      {
-        "makername": "Nissan",
-        "carid": "773",
-        "carname": "R32 GT-R V-spec II '94",
-        "price": "179,900",
-        "price_in_jpy": "17,990,000",
-        "isOld": true
-      },
-      {
-        "makername": "Mitsubishi",
-        "carid": "301",
-        "carname": "Lancer Evolution IV GSR '96",
-        "price": "46,600",
-        "price_in_jpy": "4,660,000",
-        "isOld": true
-      },
-      {
-        "makername": "Honda",
-        "carid": "203",
-        "carname": "Integra Type R (DC2) '98",
-        "price": "61,400",
-        "price_in_jpy": "6,140,000",
-        "isOld": true
-      },
-      {
-        "makername": "DMC",
-        "carid": "1027",
-        "carname": "DeLorean S2 '04",
-        "price": "427,500",
-        "price_in_jpy": "42,750,000",
-        "isOld": false
-      },
-      {
-        "makername": "Porsche",
-        "carid": "3431",
-        "carname": "911 Carrera RS (964) '92",
-        "price": "220,700",
-        "price_in_jpy": "22,070,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Alpine",
-        "carid": "3457",
-        "carname": "A220 Race Car '68",
-        "price": "330,000",
-        "price_in_jpy": "33,000,000",
         "isOld": true
       }
     ]

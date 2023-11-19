@@ -1,5 +1,11 @@
 [
   {
+    "id": "20231119",
+    "date": "2023/11/19",
+    "used": [],
+    "legend": []
+  },
+  {
     "id": "20231118",
     "date": "2023/11/18",
     "used": [
@@ -548,70 +554,6 @@
         "carname": "Skyline Hard Top 2000GT-R (KPGC10) '70",
         "price": "167,000",
         "price_in_jpy": "16,700,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20231105",
-    "date": "2023/11/5",
-    "used": [
-      {
-        "makername": "Honda",
-        "carid": "135",
-        "carname": "S800 '66",
-        "price": "45,700",
-        "price_in_jpy": "4,570,000",
-        "isOld": true
-      },
-      {
-        "makername": "Autobianchi",
-        "carid": "3442",
-        "carname": "A112 Abarth '85",
-        "price": "33,000",
-        "price_in_jpy": "3,300,000",
-        "isOld": true
-      },
-      {
-        "makername": "Lancia",
-        "carid": "829",
-        "carname": "Delta HF Integrale Evoluzione '91",
-        "price": "100,300",
-        "price_in_jpy": "10,030,000",
-        "isOld": true
-      },
-      {
-        "makername": "Chevrolet",
-        "carid": "942",
-        "carname": "Corvette ZR-1 (C4) '89",
-        "price": "86,500",
-        "price_in_jpy": "8,650,000",
-        "isOld": true
-      },
-      {
-        "makername": "Toyota",
-        "carid": "345",
-        "carname": "Sprinter Trueno 1600GT APEX (S.Shigeno Version)",
-        "price": "105,900",
-        "price_in_jpy": "10,590,000",
-        "isOld": null
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Jeep",
-        "carid": "3430",
-        "carname": "Willys MB '45",
-        "price": "30,100",
-        "price_in_jpy": "3,010,000",
-        "isOld": true
-      },
-      {
-        "makername": "Porsche",
-        "carid": "3446",
-        "carname": "Spyder type 550/1500RS '55",
-        "price": "4,500,000",
-        "price_in_jpy": "450,000,000",
         "isOld": true
       }
     ]

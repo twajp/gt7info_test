@@ -1,5 +1,37 @@
 [
   {
+    "id": "20231120",
+    "date": "2023/11/20",
+    "used": [
+      {
+        "makername": "Mitsubishi",
+        "carid": "931",
+        "carname": "Lancer Evolution III GSR '95",
+        "price": "97,000",
+        "price_in_jpy": "9,700,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Porsche",
+        "carid": "3490",
+        "carname": "Carrera GTS (904) '64",
+        "price": "2,500,000",
+        "price_in_jpy": "250,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Maserati",
+        "carid": "3421",
+        "carname": "Merak SS '80",
+        "price": "78,500",
+        "price_in_jpy": "7,850,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20231119",
     "date": "2023/11/19",
     "used": [],
@@ -506,54 +538,6 @@
         "carname": "D-type '54",
         "price": "6,000,000",
         "price_in_jpy": "600,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20231106",
-    "date": "2023/11/6",
-    "used": [
-      {
-        "makername": "Audi",
-        "carid": "959",
-        "carname": "TT Coupe 3.2 quattro '03",
-        "price": "44,200",
-        "price_in_jpy": "4,420,000",
-        "isOld": false
-      },
-      {
-        "makername": "Chevrolet",
-        "carid": "1480",
-        "carname": "Corvette ZR1 (C6) '09",
-        "price": "104,900",
-        "price_in_jpy": "10,490,000",
-        "isOld": false
-      },
-      {
-        "makername": "Honda",
-        "carid": "396",
-        "carname": "NSX Type R '02",
-        "price": "430,000",
-        "price_in_jpy": "43,000,000",
-        "isOld": false
-      },
-      {
-        "makername": "Audi",
-        "carid": "1365",
-        "carname": "R8 4.2 '07",
-        "price": "137,800",
-        "price_in_jpy": "13,780,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Nissan",
-        "carid": "837",
-        "carname": "Skyline Hard Top 2000GT-R (KPGC10) '70",
-        "price": "167,000",
-        "price_in_jpy": "16,700,000",
         "isOld": true
       }
     ]

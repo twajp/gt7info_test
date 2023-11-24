@@ -1,5 +1,77 @@
 [
   {
+    "id": "20231124",
+    "date": "2023/11/24",
+    "used": [
+      {
+        "makername": "MINI",
+        "carid": "3356",
+        "carname": "Mini-Cooper 'S' '65",
+        "price": "38,200",
+        "price_in_jpy": "3,820,000",
+        "isOld": true
+      },
+      {
+        "makername": "Daihatsu",
+        "carid": "145",
+        "carname": "Copen '02",
+        "price": "13,400",
+        "price_in_jpy": "1,340,000",
+        "isOld": false
+      },
+      {
+        "makername": "Nissan",
+        "carid": "104",
+        "carname": "Sileighty '98",
+        "price": "81,600",
+        "price_in_jpy": "8,160,000",
+        "isOld": true
+      },
+      {
+        "makername": "Lancia",
+        "carid": "533",
+        "carname": "Stratos '73",
+        "price": "486,600",
+        "price_in_jpy": "48,660,000",
+        "isOld": true
+      },
+      {
+        "makername": "Dodge",
+        "carid": "1373",
+        "carname": "Viper GTS '02",
+        "price": "106,900",
+        "price_in_jpy": "10,690,000",
+        "isOld": false
+      },
+      {
+        "makername": "Nissan",
+        "carid": "1458",
+        "carname": "Fairlady Z (Z34) '08",
+        "price": "36,100",
+        "price_in_jpy": "3,610,000",
+        "isOld": false
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Alfa Romeo",
+        "carid": "365",
+        "carname": "155 2.5 V6 TI '93",
+        "price": "800,000",
+        "price_in_jpy": "80,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Maserati",
+        "carid": "3489",
+        "carname": "A6GCS/53 Spyder '54",
+        "price": "2,500,000",
+        "price_in_jpy": "250,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20231123",
     "date": "2023/11/23",
     "used": [
@@ -529,37 +601,6 @@
         "carname": "CTR3 '07",
         "price": "776,800",
         "price_in_jpy": "77,680,000",
-        "isOld": false
-      }
-    ],
-    "legend": []
-  },
-  {
-    "id": "20231110",
-    "date": "2023/11/10",
-    "used": [
-      {
-        "makername": "BMW",
-        "carid": "3422",
-        "carname": "3.0 CSL '73",
-        "price": "203,800",
-        "price_in_jpy": "20,380,000",
-        "isOld": true
-      },
-      {
-        "makername": "Lamborghini",
-        "carid": "1481",
-        "carname": "Countach 25th Anniversary '88",
-        "price": "684,200",
-        "price_in_jpy": "68,420,000",
-        "isOld": true
-      },
-      {
-        "makername": "McLaren",
-        "carid": "1722",
-        "carname": "MP4-12C '10",
-        "price": "189,400",
-        "price_in_jpy": "18,940,000",
         "isOld": false
       }
     ],

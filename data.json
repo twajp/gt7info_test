@@ -1,5 +1,53 @@
 [
   {
+    "id": "20231125",
+    "date": "2023/11/25",
+    "used": [
+      {
+        "makername": "Alpine",
+        "carid": "1796",
+        "carname": "A110 '72",
+        "price": "132,900",
+        "price_in_jpy": "13,290,000",
+        "isOld": true
+      },
+      {
+        "makername": "Dodge",
+        "carid": "3377",
+        "carname": "Super Bee '70",
+        "price": "71,700",
+        "price_in_jpy": "7,170,000",
+        "isOld": true
+      },
+      {
+        "makername": "Ferrari",
+        "carid": "1410",
+        "carname": "512 BB '76",
+        "price": "284,500",
+        "price_in_jpy": "28,450,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Ford",
+        "carid": "1565",
+        "carname": "Mark IV Race Car '67",
+        "price": "6,750,000",
+        "price_in_jpy": "675,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Porsche",
+        "carid": "3400",
+        "carname": "911 GT1 Strassenversion '97",
+        "price": "10,000,000",
+        "price_in_jpy": "1,000,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20231124",
     "date": "2023/11/24",
     "used": [
@@ -574,36 +622,5 @@
         "isOld": true
       }
     ]
-  },
-  {
-    "id": "20231111",
-    "date": "2023/11/11",
-    "used": [
-      {
-        "makername": "BMW",
-        "carid": "3454",
-        "carname": "3.0 CSL '71",
-        "price": "136,700",
-        "price_in_jpy": "13,670,000",
-        "isOld": true
-      },
-      {
-        "makername": "Toyota",
-        "carid": "3471",
-        "carname": "Celica GT-Four (ST205) '94",
-        "price": "70,300",
-        "price_in_jpy": "7,030,000",
-        "isOld": true
-      },
-      {
-        "makername": "RUF",
-        "carid": "3398",
-        "carname": "CTR3 '07",
-        "price": "776,800",
-        "price_in_jpy": "77,680,000",
-        "isOld": false
-      }
-    ],
-    "legend": []
   }
 ]

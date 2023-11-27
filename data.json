@@ -1,5 +1,20 @@
 [
   {
+    "id": "20231127",
+    "date": "2023/11/27",
+    "used": [
+      {
+        "makername": "Mitsubishi",
+        "carid": "3384",
+        "carname": "GTO Twin Turbo '91",
+        "price": "42,000",
+        "price_in_jpy": "4,200,000",
+        "isOld": true
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20231126",
     "date": "2023/11/26",
     "used": [
@@ -596,70 +611,6 @@
         "carname": "250 GT Berlinetta passo corto '61",
         "price": "8,400,000",
         "price_in_jpy": "840,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20231113",
-    "date": "2023/11/13",
-    "used": [
-      {
-        "makername": "Mazda",
-        "carid": "201",
-        "carname": "Eunos Roadster (NA) '89",
-        "price": "30,700",
-        "price_in_jpy": "3,070,000",
-        "isOld": true
-      },
-      {
-        "makername": "Nissan",
-        "carid": "24",
-        "carname": "180SX Type X '96",
-        "price": "58,300",
-        "price_in_jpy": "5,830,000",
-        "isOld": true
-      },
-      {
-        "makername": "Nissan",
-        "carid": "210",
-        "carname": "R34 GT-R V-spec II Nur '02",
-        "price": "396,000",
-        "price_in_jpy": "39,600,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "McLaren",
-        "carid": "1984",
-        "carname": "McLaren F1 GTR - BMW '95",
-        "price": "15,000,000",
-        "price_in_jpy": "1,500,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Lamborghini",
-        "carid": "1484",
-        "carname": "Countach LP400 '74",
-        "price": "1,250,000",
-        "price_in_jpy": "125,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Nissan",
-        "carid": "485",
-        "carname": "GT-R GT500 '99",
-        "price": "2,700,000",
-        "price_in_jpy": "270,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Shelby",
-        "carid": "1926",
-        "carname": "Cobra Daytona Coupe '64",
-        "price": "20,000,000",
-        "price_in_jpy": "2,000,000,000",
         "isOld": true
       }
     ]

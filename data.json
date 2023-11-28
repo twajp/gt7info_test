@@ -1,5 +1,45 @@
 [
   {
+    "id": "20231128",
+    "date": "2023/11/28",
+    "used": [
+      {
+        "makername": "BMW",
+        "carid": "3422",
+        "carname": "3.0 CSL '73",
+        "price": "250,000",
+        "price_in_jpy": "25,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Toyota",
+        "carid": "810",
+        "carname": "Sprinter Trueno 1600GT APEX (AE86) '83",
+        "price": "52,100",
+        "price_in_jpy": "5,210,000",
+        "isOld": true
+      },
+      {
+        "makername": "Toyota",
+        "carid": "82",
+        "carname": "Supra RZ '97",
+        "price": "194,200",
+        "price_in_jpy": "19,420,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Porsche",
+        "carid": "3509",
+        "carname": "911 Carrera RS (901) '73",
+        "price": "745,000",
+        "price_in_jpy": "74,500,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20231127",
     "date": "2023/11/27",
     "used": [
@@ -539,78 +579,6 @@
         "carname": "MP4/4 '88",
         "price": "10,000,000",
         "price_in_jpy": "1,000,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20231114",
-    "date": "2023/11/14",
-    "used": [
-      {
-        "makername": "Honda",
-        "carid": "821",
-        "carname": "Civic Type R (EK) '97",
-        "price": "55,600",
-        "price_in_jpy": "5,560,000",
-        "isOld": true
-      },
-      {
-        "makername": "Fiat",
-        "carid": "1527",
-        "carname": "500 1.2 8V Lounge SS '08",
-        "price": "13,800",
-        "price_in_jpy": "1,380,000",
-        "isOld": false
-      },
-      {
-        "makername": "Volkswagen",
-        "carid": "1778",
-        "carname": "Volkswagen 1200 '66",
-        "price": "31,900",
-        "price_in_jpy": "3,190,000",
-        "isOld": true
-      },
-      {
-        "makername": "Chevrolet",
-        "carid": "1542",
-        "carname": "Corvette Convertible (C3) '69",
-        "price": "48,500",
-        "price_in_jpy": "4,850,000",
-        "isOld": true
-      },
-      {
-        "makername": "AMG",
-        "carid": "1507",
-        "carname": "SLS AMG '10",
-        "price": "321,100",
-        "price_in_jpy": "32,110,000",
-        "isOld": false
-      },
-      {
-        "makername": "Maserati",
-        "carid": "1539",
-        "carname": "GranTurismo S '08",
-        "price": "137,900",
-        "price_in_jpy": "13,790,000",
-        "isOld": false
-      },
-      {
-        "makername": "BMW",
-        "carid": "1893",
-        "carname": "Z8 '01",
-        "price": "257,300",
-        "price_in_jpy": "25,730,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Ferrari",
-        "carid": "1931",
-        "carname": "250 GT Berlinetta passo corto '61",
-        "price": "8,400,000",
-        "price_in_jpy": "840,000,000",
         "isOld": true
       }
     ]

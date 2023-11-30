@@ -1,5 +1,45 @@
 [
   {
+    "id": "20231130",
+    "date": "2023/11/30",
+    "used": [
+      {
+        "makername": "Fiat",
+        "carid": "1523",
+        "carname": "500 F '68",
+        "price": "15,200",
+        "price_in_jpy": "1,520,000",
+        "isOld": true
+      },
+      {
+        "makername": "Alfa Romeo",
+        "carid": "3530",
+        "carname": "Giulia Sprint GT Veloce '67",
+        "price": "165,200",
+        "price_in_jpy": "16,520,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Ferrari",
+        "carid": "3362",
+        "carname": "F50 '95",
+        "price": "4,750,000",
+        "price_in_jpy": "475,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Porsche",
+        "carid": "3519",
+        "carname": "959 '87",
+        "price": "1,750,000",
+        "price_in_jpy": "175,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20231129",
     "date": "2023/11/29",
     "used": [
@@ -506,61 +546,6 @@
         "carname": "458 Italia '09",
         "price": "244,900",
         "price_in_jpy": "24,490,000",
-        "isOld": false
-      }
-    ],
-    "legend": []
-  },
-  {
-    "id": "20231116",
-    "date": "2023/11/16",
-    "used": [
-      {
-        "makername": "Abarth",
-        "carid": "1973",
-        "carname": "Abarth 500 '09",
-        "price": "23,300",
-        "price_in_jpy": "2,330,000",
-        "isOld": false
-      },
-      {
-        "makername": "MINI",
-        "carid": "1370",
-        "carname": "MINI Cooper S '05",
-        "price": "21,900",
-        "price_in_jpy": "2,190,000",
-        "isOld": false
-      },
-      {
-        "makername": "Nissan",
-        "carid": "1448",
-        "carname": "SILVIA spec-R Aero (S15) '02",
-        "price": "59,900",
-        "price_in_jpy": "5,990,000",
-        "isOld": false
-      },
-      {
-        "makername": "Volkswagen",
-        "carid": "1773",
-        "carname": "Scirocco R '10",
-        "price": "40,500",
-        "price_in_jpy": "4,050,000",
-        "isOld": false
-      },
-      {
-        "makername": "Honda",
-        "carid": "1689",
-        "carname": "Civic Type R (EK) Touring Car",
-        "price": "114,900",
-        "price_in_jpy": "11,490,000",
-        "isOld": null
-      },
-      {
-        "makername": "Porsche",
-        "carid": "3359",
-        "carname": "911 GT3 (997) '09",
-        "price": "138,000",
-        "price_in_jpy": "13,800,000",
         "isOld": false
       }
     ],

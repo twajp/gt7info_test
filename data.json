@@ -1,5 +1,44 @@
 [
   {
+    "id": "20231202",
+    "date": "2023/12/2",
+    "used": [
+      {
+        "makername": "Toyota",
+        "carid": "1537",
+        "carname": "Prius G '09",
+        "price": "20,000",
+        "price_in_jpy": "2,000,000",
+        "isOld": false
+      },
+      {
+        "makername": "Honda",
+        "carid": "204",
+        "carname": "Civic Type R (EK) '98",
+        "price": "58,400",
+        "price_in_jpy": "5,840,000",
+        "isOld": true
+      },
+      {
+        "makername": "Nissan",
+        "carid": "3524",
+        "carname": "GT-R NISMO (R32) '90",
+        "price": "389,500",
+        "price_in_jpy": "38,950,000",
+        "isOld": true
+      },
+      {
+        "makername": "BMW",
+        "carid": "1399",
+        "carname": "M3 '07",
+        "price": "70,000",
+        "price_in_jpy": "7,000,000",
+        "isOld": false
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20231201",
     "date": "2023/12/1",
     "used": [
@@ -543,29 +582,6 @@
     "id": "20231119",
     "date": "2023/11/19",
     "used": [],
-    "legend": []
-  },
-  {
-    "id": "20231118",
-    "date": "2023/11/18",
-    "used": [
-      {
-        "makername": "Pontiac",
-        "carid": "1985",
-        "carname": "Firebird Trans Am '78",
-        "price": "87,400",
-        "price_in_jpy": "8,740,000",
-        "isOld": true
-      },
-      {
-        "makername": "Ferrari",
-        "carid": "3443",
-        "carname": "308 GTB '75",
-        "price": "165,700",
-        "price_in_jpy": "16,570,000",
-        "isOld": true
-      }
-    ],
     "legend": []
   }
 ]

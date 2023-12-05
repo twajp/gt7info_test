@@ -1,5 +1,45 @@
 [
   {
+    "id": "20231205",
+    "date": "2023/12/5",
+    "used": [
+      {
+        "makername": "Ferrari",
+        "carid": "1895",
+        "carname": "Dino 246 GT '71",
+        "price": "400,000",
+        "price_in_jpy": "40,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Honda",
+        "carid": "135",
+        "carname": "S800 '66",
+        "price": "45,700",
+        "price_in_jpy": "4,570,000",
+        "isOld": true
+      },
+      {
+        "makername": "Ford",
+        "carid": "1729",
+        "carname": "Mustang Mach 1 '71",
+        "price": "37,500",
+        "price_in_jpy": "3,750,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Shelby",
+        "carid": "315",
+        "carname": "Cobra 427 '66",
+        "price": "2,500,000",
+        "price_in_jpy": "250,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20231204",
     "date": "2023/12/4",
     "used": [
@@ -609,53 +649,5 @@
       }
     ],
     "legend": []
-  },
-  {
-    "id": "20231121",
-    "date": "2023/11/21",
-    "used": [
-      {
-        "makername": "Lamborghini",
-        "carid": "1481",
-        "carname": "Countach 25th Anniversary '88",
-        "price": "800,000",
-        "price_in_jpy": "80,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Toyota",
-        "carid": "63",
-        "carname": "Corolla Levin 1600GT APEX (AE86) '83",
-        "price": "49,300",
-        "price_in_jpy": "4,930,000",
-        "isOld": true
-      },
-      {
-        "makername": "Ferrari",
-        "carid": "3434",
-        "carname": "Testarossa '91",
-        "price": "369,000",
-        "price_in_jpy": "36,900,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "NISMO",
-        "carid": "3520",
-        "carname": "400R '95",
-        "price": "1,800,000",
-        "price_in_jpy": "180,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Toyota",
-        "carid": "1470",
-        "carname": "Supra GT500 '97",
-        "price": "1,800,000",
-        "price_in_jpy": "180,000,000",
-        "isOld": true
-      }
-    ]
   }
 ]

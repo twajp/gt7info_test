@@ -1,5 +1,44 @@
 [
   {
+    "id": "20231206",
+    "date": "2023/12/6",
+    "used": [
+      {
+        "makername": "Autobianchi",
+        "carid": "3442",
+        "carname": "A112 Abarth '85",
+        "price": "33,000",
+        "price_in_jpy": "3,300,000",
+        "isOld": true
+      },
+      {
+        "makername": "Lancia",
+        "carid": "829",
+        "carname": "Delta HF Integrale Evoluzione '91",
+        "price": "100,300",
+        "price_in_jpy": "10,030,000",
+        "isOld": true
+      },
+      {
+        "makername": "Porsche",
+        "carid": "3439",
+        "carname": "911 Carrera RS (993) '95",
+        "price": "215,200",
+        "price_in_jpy": "21,520,000",
+        "isOld": true
+      },
+      {
+        "makername": "Mazda",
+        "carid": "205",
+        "carname": "RX-7 Spirit R Type A (FD) '02",
+        "price": "221,200",
+        "price_in_jpy": "22,120,000",
+        "isOld": false
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20231205",
     "date": "2023/12/5",
     "used": [
@@ -615,37 +654,6 @@
         "price": "115,500",
         "price_in_jpy": "11,550,000",
         "isOld": false
-      }
-    ],
-    "legend": []
-  },
-  {
-    "id": "20231122",
-    "date": "2023/11/22",
-    "used": [
-      {
-        "makername": "Volkswagen",
-        "carid": "3403",
-        "carname": "Golf I GTI '83",
-        "price": "49,100",
-        "price_in_jpy": "4,910,000",
-        "isOld": true
-      },
-      {
-        "makername": "Volkswagen",
-        "carid": "1671",
-        "carname": "Sambabus Typ 2 '62",
-        "price": "59,000",
-        "price_in_jpy": "5,900,000",
-        "isOld": true
-      },
-      {
-        "makername": "Porsche",
-        "carid": "3404",
-        "carname": "911 Carrera RS CS (993) '95",
-        "price": "411,300",
-        "price_in_jpy": "41,130,000",
-        "isOld": true
       }
     ],
     "legend": []

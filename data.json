@@ -1,5 +1,61 @@
 [
   {
+    "id": "20231207",
+    "date": "2023/12/7",
+    "used": [
+      {
+        "makername": "Alfa Romeo",
+        "carid": "1578",
+        "carname": "8C Competizione '08",
+        "price": "314,100",
+        "price_in_jpy": "31,410,000",
+        "isOld": false
+      },
+      {
+        "makername": "Lamborghini",
+        "carid": "1990",
+        "carname": "Diablo GT '00",
+        "price": "817,800",
+        "price_in_jpy": "81,780,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Ferrari",
+        "carid": "2011",
+        "carname": "500 Mondial Pinin Farina Coupe '54",
+        "price": "2,700,000",
+        "price_in_jpy": "270,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Jaguar",
+        "carid": "3361",
+        "carname": "E-type Coupe '61",
+        "price": "227,000",
+        "price_in_jpy": "22,700,000",
+        "isOld": true
+      },
+      {
+        "makername": "Porsche",
+        "carid": "3410",
+        "carname": "917K '70",
+        "price": "18,000,000",
+        "price_in_jpy": "1,800,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Chaparral",
+        "carid": "1069",
+        "carname": "2J '70",
+        "price": "2,500,000",
+        "price_in_jpy": "250,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20231206",
     "date": "2023/12/6",
     "used": [
@@ -594,68 +650,5 @@
         "isOld": true
       }
     ]
-  },
-  {
-    "id": "20231123",
-    "date": "2023/11/23",
-    "used": [
-      {
-        "makername": "Nissan",
-        "carid": "3513",
-        "carname": "Silvia K's Type S (S14) '94",
-        "price": "53,800",
-        "price_in_jpy": "5,380,000",
-        "isOld": true
-      },
-      {
-        "makername": "Suzuki",
-        "carid": "1385",
-        "carname": "Swift Sport '07",
-        "price": "13,600",
-        "price_in_jpy": "1,360,000",
-        "isOld": false
-      },
-      {
-        "makername": "Honda",
-        "carid": "514",
-        "carname": "S2000 '99",
-        "price": "97,200",
-        "price_in_jpy": "9,720,000",
-        "isOld": true
-      },
-      {
-        "makername": "Ford",
-        "carid": "3466",
-        "carname": "Sierra RS 500 Cosworth '87",
-        "price": "192,200",
-        "price_in_jpy": "19,220,000",
-        "isOld": true
-      },
-      {
-        "makername": "Honda",
-        "carid": "293",
-        "carname": "NSX Type R '92",
-        "price": "402,700",
-        "price_in_jpy": "40,270,000",
-        "isOld": true
-      },
-      {
-        "makername": "Porsche",
-        "carid": "3358",
-        "carname": "911 GT3 (996) '01",
-        "price": "155,600",
-        "price_in_jpy": "15,560,000",
-        "isOld": false
-      },
-      {
-        "makername": "Dodge",
-        "carid": "1402",
-        "carname": "Viper SRT10 Coupe '06",
-        "price": "115,500",
-        "price_in_jpy": "11,550,000",
-        "isOld": false
-      }
-    ],
-    "legend": []
   }
 ]

@@ -1,5 +1,29 @@
 [
   {
+    "id": "20231208",
+    "date": "2023/12/8",
+    "used": [
+      {
+        "makername": "Suzuki",
+        "carid": "779",
+        "carname": "Cappuccino (EA11R) '91",
+        "price": "17,700",
+        "price_in_jpy": "1,770,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Ferrari",
+        "carid": "1551",
+        "carname": "330 P4 '67",
+        "price": "20,000,000",
+        "price_in_jpy": "2,000,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20231207",
     "date": "2023/12/7",
     "used": [
@@ -575,78 +599,6 @@
         "carname": "911 GT1 Strassenversion '97",
         "price": "10,000,000",
         "price_in_jpy": "1,000,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20231124",
-    "date": "2023/11/24",
-    "used": [
-      {
-        "makername": "MINI",
-        "carid": "3356",
-        "carname": "Mini-Cooper 'S' '65",
-        "price": "38,200",
-        "price_in_jpy": "3,820,000",
-        "isOld": true
-      },
-      {
-        "makername": "Daihatsu",
-        "carid": "145",
-        "carname": "Copen '02",
-        "price": "13,400",
-        "price_in_jpy": "1,340,000",
-        "isOld": false
-      },
-      {
-        "makername": "Nissan",
-        "carid": "104",
-        "carname": "Sileighty '98",
-        "price": "81,600",
-        "price_in_jpy": "8,160,000",
-        "isOld": true
-      },
-      {
-        "makername": "Lancia",
-        "carid": "533",
-        "carname": "Stratos '73",
-        "price": "486,600",
-        "price_in_jpy": "48,660,000",
-        "isOld": true
-      },
-      {
-        "makername": "Dodge",
-        "carid": "1373",
-        "carname": "Viper GTS '02",
-        "price": "106,900",
-        "price_in_jpy": "10,690,000",
-        "isOld": false
-      },
-      {
-        "makername": "Nissan",
-        "carid": "1458",
-        "carname": "Fairlady Z (Z34) '08",
-        "price": "36,100",
-        "price_in_jpy": "3,610,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Alfa Romeo",
-        "carid": "365",
-        "carname": "155 2.5 V6 TI '93",
-        "price": "800,000",
-        "price_in_jpy": "80,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Maserati",
-        "carid": "3489",
-        "carname": "A6GCS/53 Spyder '54",
-        "price": "2,500,000",
-        "price_in_jpy": "250,000,000",
         "isOld": true
       }
     ]

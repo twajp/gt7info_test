@@ -1,5 +1,37 @@
 [
   {
+    "id": "20231210",
+    "date": "2023/12/10",
+    "used": [
+      {
+        "makername": "Chevrolet",
+        "carid": "942",
+        "carname": "Corvette ZR-1 (C4) '89",
+        "price": "86,500",
+        "price_in_jpy": "8,650,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Ford",
+        "carid": "3444",
+        "carname": "1932 Ford Roadster Hot Rod",
+        "price": "400,000",
+        "price_in_jpy": "40,000,000",
+        "isOld": null
+      },
+      {
+        "makername": "McLaren",
+        "carid": "1540",
+        "carname": "McLaren F1 '94",
+        "price": "20,000,000",
+        "price_in_jpy": "2,000,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20231209",
     "date": "2023/12/9",
     "used": [
@@ -537,61 +569,5 @@
       }
     ],
     "legend": []
-  },
-  {
-    "id": "20231126",
-    "date": "2023/11/26",
-    "used": [
-      {
-        "makername": "Toyota",
-        "carid": "1044",
-        "carname": "Sports 800 '65",
-        "price": "43,200",
-        "price_in_jpy": "4,320,000",
-        "isOld": true
-      },
-      {
-        "makername": "Subaru",
-        "carid": "3432",
-        "carname": "Impreza Sedan WRX STi '04",
-        "price": "45,300",
-        "price_in_jpy": "4,530,000",
-        "isOld": false
-      },
-      {
-        "makername": "Ferrari",
-        "carid": "1895",
-        "carname": "Dino 246 GT '71",
-        "price": "359,500",
-        "price_in_jpy": "35,950,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Porsche",
-        "carid": "3375",
-        "carname": "356 A/1500 GS Carrera '56",
-        "price": "615,000",
-        "price_in_jpy": "61,500,000",
-        "isOld": true
-      },
-      {
-        "makername": "Mazda",
-        "carid": "1975",
-        "carname": "RX500 '70",
-        "price": "600,000",
-        "price_in_jpy": "60,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Plymouth",
-        "carid": "1900",
-        "carname": "XNR Ghia Roadster '60",
-        "price": "1,600,000",
-        "price_in_jpy": "160,000,000",
-        "isOld": true
-      }
-    ]
   }
 ]

@@ -1,5 +1,77 @@
 [
   {
+    "id": "20231214",
+    "date": "2023/12/14",
+    "used": [
+      {
+        "makername": "Mazda",
+        "carid": "201",
+        "carname": "Eunos Roadster (NA) '89",
+        "price": "30,700",
+        "price_in_jpy": "3,070,000",
+        "isOld": true
+      },
+      {
+        "makername": "Honda",
+        "carid": "821",
+        "carname": "Civic Type R (EK) '97",
+        "price": "55,600",
+        "price_in_jpy": "5,560,000",
+        "isOld": true
+      },
+      {
+        "makername": "Fiat",
+        "carid": "1527",
+        "carname": "500 1.2 8V Lounge SS '08",
+        "price": "13,800",
+        "price_in_jpy": "1,380,000",
+        "isOld": false
+      },
+      {
+        "makername": "Volkswagen",
+        "carid": "1778",
+        "carname": "Volkswagen 1200 '66",
+        "price": "31,900",
+        "price_in_jpy": "3,190,000",
+        "isOld": true
+      },
+      {
+        "makername": "Honda",
+        "carid": "688",
+        "carname": "Integra Type R (DC2) '95",
+        "price": "54,300",
+        "price_in_jpy": "5,430,000",
+        "isOld": true
+      },
+      {
+        "makername": "De Tomaso",
+        "carid": "3341",
+        "carname": "Pantera '71",
+        "price": "177,300",
+        "price_in_jpy": "17,730,000",
+        "isOld": true
+      },
+      {
+        "makername": "Mercedes-Benz",
+        "carid": "1528",
+        "carname": "SLR McLaren '09",
+        "price": "499,100",
+        "price_in_jpy": "49,910,000",
+        "isOld": false
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Aston Martin",
+        "carid": "3363",
+        "carname": "DB3S '53",
+        "price": "6,000,000",
+        "price_in_jpy": "600,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20231213",
     "date": "2023/12/13",
     "used": [
@@ -566,46 +638,6 @@
         "carname": "XJ220 '92",
         "price": "615,000",
         "price_in_jpy": "61,500,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20231130",
-    "date": "2023/11/30",
-    "used": [
-      {
-        "makername": "Fiat",
-        "carid": "1523",
-        "carname": "500 F '68",
-        "price": "15,200",
-        "price_in_jpy": "1,520,000",
-        "isOld": true
-      },
-      {
-        "makername": "Alfa Romeo",
-        "carid": "3530",
-        "carname": "Giulia Sprint GT Veloce '67",
-        "price": "165,200",
-        "price_in_jpy": "16,520,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Ferrari",
-        "carid": "3362",
-        "carname": "F50 '95",
-        "price": "4,750,000",
-        "price_in_jpy": "475,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Porsche",
-        "carid": "3519",
-        "carname": "959 '87",
-        "price": "1,750,000",
-        "price_in_jpy": "175,000,000",
         "isOld": true
       }
     ]

@@ -1,5 +1,45 @@
 [
   {
+    "id": "20231215",
+    "date": "2023/12/15",
+    "used": [
+      {
+        "makername": "Honda",
+        "carid": "137",
+        "carname": "Beat '91",
+        "price": "15,900",
+        "price_in_jpy": "1,590,000",
+        "isOld": true
+      },
+      {
+        "makername": "Nissan",
+        "carid": "1461",
+        "carname": "Silvia K's Dia Selection (S13) '90",
+        "price": "48,200",
+        "price_in_jpy": "4,820,000",
+        "isOld": true
+      },
+      {
+        "makername": "Lamborghini",
+        "carid": "1481",
+        "carname": "Countach 25th Anniversary '88",
+        "price": "684,200",
+        "price_in_jpy": "68,420,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "De Tomaso",
+        "carid": "3505",
+        "carname": "Mangusta (Christian Dior)",
+        "price": "500,000",
+        "price_in_jpy": "50,000,000",
+        "isOld": null
+      }
+    ]
+  },
+  {
     "id": "20231214",
     "date": "2023/12/14",
     "used": [
@@ -593,53 +633,5 @@
       }
     ],
     "legend": []
-  },
-  {
-    "id": "20231201",
-    "date": "2023/12/1",
-    "used": [
-      {
-        "makername": "Nissan",
-        "carid": "919",
-        "carname": "Silvia Q's (S13) '88",
-        "price": "34,000",
-        "price_in_jpy": "3,400,000",
-        "isOld": true
-      },
-      {
-        "makername": "Nissan",
-        "carid": "78",
-        "carname": "Silvia K's Aero (S14) '96",
-        "price": "59,000",
-        "price_in_jpy": "5,900,000",
-        "isOld": true
-      },
-      {
-        "makername": "Ford",
-        "carid": "1426",
-        "carname": "Ford GT '06",
-        "price": "409,800",
-        "price_in_jpy": "40,980,000",
-        "isOld": false
-      },
-      {
-        "makername": "TVR",
-        "carid": "187",
-        "carname": "Tuscan Speed 6 '00",
-        "price": "80,600",
-        "price_in_jpy": "8,060,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Jaguar",
-        "carid": "543",
-        "carname": "XJ220 '92",
-        "price": "615,000",
-        "price_in_jpy": "61,500,000",
-        "isOld": true
-      }
-    ]
   }
 ]

@@ -1,5 +1,45 @@
 [
   {
+    "id": "20231216",
+    "date": "2023/12/16",
+    "used": [
+      {
+        "makername": "Toyota",
+        "carid": "3471",
+        "carname": "Celica GT-Four (ST205) '94",
+        "price": "70,300",
+        "price_in_jpy": "7,030,000",
+        "isOld": true
+      },
+      {
+        "makername": "McLaren",
+        "carid": "1722",
+        "carname": "MP4-12C '10",
+        "price": "189,400",
+        "price_in_jpy": "18,940,000",
+        "isOld": false
+      },
+      {
+        "makername": "RUF",
+        "carid": "3398",
+        "carname": "CTR3 '07",
+        "price": "776,800",
+        "price_in_jpy": "77,680,000",
+        "isOld": false
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Ferrari",
+        "carid": "2018",
+        "carname": "365 GTB4 '71",
+        "price": "640,000",
+        "price_in_jpy": "64,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20231215",
     "date": "2023/12/15",
     "used": [
@@ -594,44 +634,5 @@
         "isOld": true
       }
     ]
-  },
-  {
-    "id": "20231202",
-    "date": "2023/12/2",
-    "used": [
-      {
-        "makername": "Toyota",
-        "carid": "1537",
-        "carname": "Prius G '09",
-        "price": "20,000",
-        "price_in_jpy": "2,000,000",
-        "isOld": false
-      },
-      {
-        "makername": "Honda",
-        "carid": "204",
-        "carname": "Civic Type R (EK) '98",
-        "price": "58,400",
-        "price_in_jpy": "5,840,000",
-        "isOld": true
-      },
-      {
-        "makername": "Nissan",
-        "carid": "3524",
-        "carname": "GT-R NISMO (R32) '90",
-        "price": "389,500",
-        "price_in_jpy": "38,950,000",
-        "isOld": true
-      },
-      {
-        "makername": "BMW",
-        "carid": "1399",
-        "carname": "M3 '07",
-        "price": "70,000",
-        "price_in_jpy": "7,000,000",
-        "isOld": false
-      }
-    ],
-    "legend": []
   }
 ]

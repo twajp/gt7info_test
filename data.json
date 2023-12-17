@@ -1,5 +1,29 @@
 [
   {
+    "id": "20231217",
+    "date": "2023/12/17",
+    "used": [
+      {
+        "makername": "Abarth",
+        "carid": "1973",
+        "carname": "Abarth 500 '09",
+        "price": "23,300",
+        "price_in_jpy": "2,330,000",
+        "isOld": false
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Abarth",
+        "carid": "1932",
+        "carname": "1500 Biposto Bertone B.A.T 1 '52",
+        "price": "1,000,000",
+        "price_in_jpy": "100,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20231216",
     "date": "2023/12/16",
     "used": [
@@ -599,38 +623,6 @@
         "carname": "962 C '88",
         "price": "1,500,000",
         "price_in_jpy": "150,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20231203",
-    "date": "2023/12/3",
-    "used": [
-      {
-        "makername": "Renault",
-        "carid": "173",
-        "carname": "R5 Turbo '80",
-        "price": "154,200",
-        "price_in_jpy": "15,420,000",
-        "isOld": true
-      },
-      {
-        "makername": "Toyota",
-        "carid": "843",
-        "carname": "Supra 3.0GT Turbo A '88",
-        "price": "105,500",
-        "price_in_jpy": "10,550,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Chevrolet",
-        "carid": "818",
-        "carname": "Corvette (C2) '63",
-        "price": "249,000",
-        "price_in_jpy": "24,900,000",
         "isOld": true
       }
     ]

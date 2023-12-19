@@ -1,5 +1,101 @@
 [
   {
+    "id": "20231219",
+    "date": "2023/12/19",
+    "used": [
+      {
+        "makername": "Ferrari",
+        "carid": "3434",
+        "carname": "Testarossa '91",
+        "price": "450,000",
+        "price_in_jpy": "45,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Pontiac",
+        "carid": "1985",
+        "carname": "Firebird Trans Am '78",
+        "price": "87,400",
+        "price_in_jpy": "8,740,000",
+        "isOld": true
+      },
+      {
+        "makername": "Nissan",
+        "carid": "24",
+        "carname": "180SX Type X '96",
+        "price": "58,300",
+        "price_in_jpy": "5,830,000",
+        "isOld": true
+      },
+      {
+        "makername": "Chevrolet",
+        "carid": "1542",
+        "carname": "Corvette Convertible (C3) '69",
+        "price": "48,500",
+        "price_in_jpy": "4,850,000",
+        "isOld": true
+      },
+      {
+        "makername": "Nissan",
+        "carid": "210",
+        "carname": "R34 GT-R V-spec II Nur '02",
+        "price": "396,000",
+        "price_in_jpy": "39,600,000",
+        "isOld": false
+      },
+      {
+        "makername": "AMG",
+        "carid": "1507",
+        "carname": "SLS AMG '10",
+        "price": "321,100",
+        "price_in_jpy": "32,110,000",
+        "isOld": false
+      },
+      {
+        "makername": "Maserati",
+        "carid": "1539",
+        "carname": "GranTurismo S '08",
+        "price": "137,900",
+        "price_in_jpy": "13,790,000",
+        "isOld": false
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Ford",
+        "carid": "1935",
+        "carname": "GT40 Mark I '66",
+        "price": "6,700,000",
+        "price_in_jpy": "670,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "AMG",
+        "carid": "3397",
+        "carname": "CLK-LM '98",
+        "price": "8,500,000",
+        "price_in_jpy": "850,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Alfa Romeo",
+        "carid": "3415",
+        "carname": "8C 2900B Touring Berlinetta '38",
+        "price": "20,000,000",
+        "price_in_jpy": "2,000,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Peugeot",
+        "carid": "105",
+        "carname": "205 Turbo 16 Evolution 2 '86",
+        "price": "1,100,000",
+        "price_in_jpy": "110,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20231218",
     "date": "2023/12/18",
     "used": [],
@@ -521,45 +617,5 @@
       }
     ],
     "legend": []
-  },
-  {
-    "id": "20231205",
-    "date": "2023/12/5",
-    "used": [
-      {
-        "makername": "Ferrari",
-        "carid": "1895",
-        "carname": "Dino 246 GT '71",
-        "price": "400,000",
-        "price_in_jpy": "40,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Honda",
-        "carid": "135",
-        "carname": "S800 '66",
-        "price": "45,700",
-        "price_in_jpy": "4,570,000",
-        "isOld": true
-      },
-      {
-        "makername": "Ford",
-        "carid": "1729",
-        "carname": "Mustang Mach 1 '71",
-        "price": "37,500",
-        "price_in_jpy": "3,750,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Shelby",
-        "carid": "315",
-        "carname": "Cobra 427 '66",
-        "price": "2,500,000",
-        "price_in_jpy": "250,000,000",
-        "isOld": true
-      }
-    ]
   }
 ]

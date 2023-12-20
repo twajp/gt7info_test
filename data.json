@@ -1,5 +1,28 @@
 [
   {
+    "id": "20231220",
+    "date": "2023/12/20",
+    "used": [
+      {
+        "makername": "Nissan",
+        "carid": "709",
+        "carname": "Fairlady Z 300ZX TT 2seater '89",
+        "price": "57,400",
+        "price_in_jpy": "5,740,000",
+        "isOld": true
+      },
+      {
+        "makername": "BMW",
+        "carid": "1893",
+        "carname": "Z8 '01",
+        "price": "257,300",
+        "price_in_jpy": "25,730,000",
+        "isOld": false
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20231219",
     "date": "2023/12/19",
     "used": [
@@ -70,7 +93,7 @@
         "isOld": true
       },
       {
-        "makername": "AMG",
+        "makername": "Mercedes-Benz",
         "carid": "3397",
         "carname": "CLK-LM '98",
         "price": "8,500,000",
@@ -578,44 +601,5 @@
         "isOld": true
       }
     ]
-  },
-  {
-    "id": "20231206",
-    "date": "2023/12/6",
-    "used": [
-      {
-        "makername": "Autobianchi",
-        "carid": "3442",
-        "carname": "A112 Abarth '85",
-        "price": "33,000",
-        "price_in_jpy": "3,300,000",
-        "isOld": true
-      },
-      {
-        "makername": "Lancia",
-        "carid": "829",
-        "carname": "Delta HF Integrale Evoluzione '91",
-        "price": "100,300",
-        "price_in_jpy": "10,030,000",
-        "isOld": true
-      },
-      {
-        "makername": "Porsche",
-        "carid": "3439",
-        "carname": "911 Carrera RS (993) '95",
-        "price": "215,200",
-        "price_in_jpy": "21,520,000",
-        "isOld": true
-      },
-      {
-        "makername": "Mazda",
-        "carid": "205",
-        "carname": "RX-7 Spirit R Type A (FD) '02",
-        "price": "221,200",
-        "price_in_jpy": "22,120,000",
-        "isOld": false
-      }
-    ],
-    "legend": []
   }
 ]

@@ -1,5 +1,60 @@
 [
   {
+    "id": "20231222",
+    "date": "2023/12/22",
+    "used": [
+      {
+        "makername": "Toyota",
+        "carid": "63",
+        "carname": "Corolla Levin 1600GT APEX (AE86) '83",
+        "price": "49,300",
+        "price_in_jpy": "4,930,000",
+        "isOld": true
+      },
+      {
+        "makername": "Volkswagen",
+        "carid": "3403",
+        "carname": "Golf I GTI '83",
+        "price": "49,100",
+        "price_in_jpy": "4,910,000",
+        "isOld": true
+      },
+      {
+        "makername": "Volkswagen",
+        "carid": "1671",
+        "carname": "Sambabus Typ 2 '62",
+        "price": "59,000",
+        "price_in_jpy": "5,900,000",
+        "isOld": true
+      },
+      {
+        "makername": "Volkswagen",
+        "carid": "1773",
+        "carname": "Scirocco R '10",
+        "price": "40,500",
+        "price_in_jpy": "4,050,000",
+        "isOld": false
+      },
+      {
+        "makername": "BMW",
+        "carid": "3344",
+        "carname": "M3 Sport Evolution '89",
+        "price": "179,000",
+        "price_in_jpy": "17,900,000",
+        "isOld": true
+      },
+      {
+        "makername": "Lamborghini",
+        "carid": "1545",
+        "carname": "Murcielago LP 640 '09",
+        "price": "314,000",
+        "price_in_jpy": "31,400,000",
+        "isOld": false
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20231221",
     "date": "2023/12/21",
     "used": [
@@ -569,29 +624,5 @@
       }
     ],
     "legend": []
-  },
-  {
-    "id": "20231208",
-    "date": "2023/12/8",
-    "used": [
-      {
-        "makername": "Suzuki",
-        "carid": "779",
-        "carname": "Cappuccino (EA11R) '91",
-        "price": "17,700",
-        "price_in_jpy": "1,770,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Ferrari",
-        "carid": "1551",
-        "carname": "330 P4 '67",
-        "price": "20,000,000",
-        "price_in_jpy": "2,000,000,000",
-        "isOld": true
-      }
-    ]
   }
 ]

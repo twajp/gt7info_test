@@ -1,5 +1,36 @@
 [
   {
+    "id": "20231223",
+    "date": "2023/12/23",
+    "used": [
+      {
+        "makername": "Nissan",
+        "carid": "3513",
+        "carname": "Silvia K's Type S (S14) '94",
+        "price": "53,800",
+        "price_in_jpy": "5,380,000",
+        "isOld": true
+      },
+      {
+        "makername": "Ferrari",
+        "carid": "3443",
+        "carname": "308 GTB '75",
+        "price": "165,700",
+        "price_in_jpy": "16,570,000",
+        "isOld": true
+      },
+      {
+        "makername": "Ferrari",
+        "carid": "1504",
+        "carname": "458 Italia '09",
+        "price": "244,900",
+        "price_in_jpy": "24,490,000",
+        "isOld": false
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20231222",
     "date": "2023/12/22",
     "used": [
@@ -585,44 +616,5 @@
         "isOld": true
       }
     ]
-  },
-  {
-    "id": "20231209",
-    "date": "2023/12/9",
-    "used": [
-      {
-        "makername": "Nissan",
-        "carid": "48",
-        "carname": "Fairlady 240ZG (HS30) '71",
-        "price": "106,400",
-        "price_in_jpy": "10,640,000",
-        "isOld": true
-      },
-      {
-        "makername": "Renault",
-        "carid": "334",
-        "carname": "Clio V6 24V '00",
-        "price": "86,100",
-        "price_in_jpy": "8,610,000",
-        "isOld": true
-      },
-      {
-        "makername": "Mazda",
-        "carid": "374",
-        "carname": "RX-7 GT-X (FC) '90",
-        "price": "60,200",
-        "price_in_jpy": "6,020,000",
-        "isOld": true
-      },
-      {
-        "makername": "Mitsubishi",
-        "carid": "1508",
-        "carname": "Lancer Evolution VI GSR T.M. SCP '99",
-        "price": "178,300",
-        "price_in_jpy": "17,830,000",
-        "isOld": true
-      }
-    ],
-    "legend": []
   }
 ]

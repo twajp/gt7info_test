@@ -1,5 +1,61 @@
 [
   {
+    "id": "20231225",
+    "date": "2023/12/25",
+    "used": [
+      {
+        "makername": "Honda",
+        "carid": "135",
+        "carname": "S800 '66",
+        "price": "58,000",
+        "price_in_jpy": "5,800,000",
+        "isOld": true
+      },
+      {
+        "makername": "Daihatsu",
+        "carid": "145",
+        "carname": "Copen '02",
+        "price": "13,400",
+        "price_in_jpy": "1,340,000",
+        "isOld": false
+      },
+      {
+        "makername": "Alpine",
+        "carid": "1796",
+        "carname": "A110 '72",
+        "price": "132,900",
+        "price_in_jpy": "13,290,000",
+        "isOld": true
+      },
+      {
+        "makername": "Mitsubishi",
+        "carid": "931",
+        "carname": "Lancer Evolution III GSR '95",
+        "price": "97,000",
+        "price_in_jpy": "9,700,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "McLaren",
+        "carid": "3475",
+        "carname": "MP4/4 '88",
+        "price": "10,000,000",
+        "price_in_jpy": "1,000,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Suzuki",
+        "carid": "808",
+        "carname": "V6 Escudo Pikes Peak Special spec.98",
+        "price": "1,700,000",
+        "price_in_jpy": "170,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20231224",
     "date": "2023/12/24",
     "used": [
@@ -585,44 +641,5 @@
         "isOld": true
       }
     ]
-  },
-  {
-    "id": "20231211",
-    "date": "2023/12/11",
-    "used": [
-      {
-        "makername": "BMW",
-        "carid": "3422",
-        "carname": "3.0 CSL '73",
-        "price": "203,800",
-        "price_in_jpy": "20,380,000",
-        "isOld": true
-      },
-      {
-        "makername": "Toyota",
-        "carid": "345",
-        "carname": "Sprinter Trueno 1600GT APEX (S.Shigeno Version)",
-        "price": "105,900",
-        "price_in_jpy": "10,590,000",
-        "isOld": null
-      },
-      {
-        "makername": "Chevrolet",
-        "carid": "1480",
-        "carname": "Corvette ZR1 (C6) '09",
-        "price": "104,900",
-        "price_in_jpy": "10,490,000",
-        "isOld": false
-      },
-      {
-        "makername": "Honda",
-        "carid": "396",
-        "carname": "NSX Type R '02",
-        "price": "430,000",
-        "price_in_jpy": "43,000,000",
-        "isOld": false
-      }
-    ],
-    "legend": []
   }
 ]

@@ -1,5 +1,29 @@
 [
   {
+    "id": "20231226",
+    "date": "2023/12/26",
+    "used": [
+      {
+        "makername": "Toyota",
+        "carid": "1044",
+        "carname": "Sports 800 '65",
+        "price": "43,200",
+        "price_in_jpy": "4,320,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Jaguar",
+        "carid": "1553",
+        "carname": "XJ13 '66",
+        "price": "12,000,000",
+        "price_in_jpy": "1,200,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20231225",
     "date": "2023/12/25",
     "used": [
@@ -569,77 +593,5 @@
       }
     ],
     "legend": []
-  },
-  {
-    "id": "20231212",
-    "date": "2023/12/12",
-    "used": [
-      {
-        "makername": "Ferrari",
-        "carid": "3443",
-        "carname": "308 GTB '75",
-        "price": "200,000",
-        "price_in_jpy": "20,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "BMW",
-        "carid": "3454",
-        "carname": "3.0 CSL '71",
-        "price": "136,700",
-        "price_in_jpy": "13,670,000",
-        "isOld": true
-      },
-      {
-        "makername": "Audi",
-        "carid": "959",
-        "carname": "TT Coupe 3.2 quattro '03",
-        "price": "44,200",
-        "price_in_jpy": "4,420,000",
-        "isOld": false
-      },
-      {
-        "makername": "BMW",
-        "carid": "3453",
-        "carname": "M3 '89",
-        "price": "83,100",
-        "price_in_jpy": "8,310,000",
-        "isOld": true
-      },
-      {
-        "makername": "Audi",
-        "carid": "1365",
-        "carname": "R8 4.2 '07",
-        "price": "137,800",
-        "price_in_jpy": "13,780,000",
-        "isOld": false
-      },
-      {
-        "makername": "Nissan",
-        "carid": "489",
-        "carname": "R33 GT-R V-spec '97",
-        "price": "156,200",
-        "price_in_jpy": "15,620,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Porsche",
-        "carid": "3446",
-        "carname": "Spyder type 550/1500RS '55",
-        "price": "4,500,000",
-        "price_in_jpy": "450,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Mercedes-Benz",
-        "carid": "3441",
-        "carname": "300 SL (W194) '52",
-        "price": "20,000,000",
-        "price_in_jpy": "2,000,000,000",
-        "isOld": true
-      }
-    ]
   }
 ]

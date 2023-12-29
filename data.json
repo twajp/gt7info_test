@@ -1,5 +1,61 @@
 [
   {
+    "id": "20231229",
+    "date": "2023/12/29",
+    "used": [
+      {
+        "makername": "Toyota",
+        "carid": "810",
+        "carname": "Sprinter Trueno 1600GT APEX (AE86) '83",
+        "price": "52,100",
+        "price_in_jpy": "5,210,000",
+        "isOld": true
+      },
+      {
+        "makername": "Alfa Romeo",
+        "carid": "1933",
+        "carname": "MiTo '09",
+        "price": "21,100",
+        "price_in_jpy": "2,110,000",
+        "isOld": false
+      },
+      {
+        "makername": "Nissan",
+        "carid": "104",
+        "carname": "Sileighty '98",
+        "price": "81,600",
+        "price_in_jpy": "8,160,000",
+        "isOld": true
+      },
+      {
+        "makername": "Lancia",
+        "carid": "533",
+        "carname": "Stratos '73",
+        "price": "486,600",
+        "price_in_jpy": "48,660,000",
+        "isOld": true
+      },
+      {
+        "makername": "Dodge",
+        "carid": "1373",
+        "carname": "Viper GTS '02",
+        "price": "106,900",
+        "price_in_jpy": "10,690,000",
+        "isOld": false
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Toyota",
+        "carid": "604",
+        "carname": "2000GT '67",
+        "price": "936,000",
+        "price_in_jpy": "93,600,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20231228",
     "date": "2023/12/28",
     "used": [
@@ -535,46 +591,6 @@
         "price": "640,000",
         "price_in_jpy": "64,000,000",
         "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20231215",
-    "date": "2023/12/15",
-    "used": [
-      {
-        "makername": "Honda",
-        "carid": "137",
-        "carname": "Beat '91",
-        "price": "15,900",
-        "price_in_jpy": "1,590,000",
-        "isOld": true
-      },
-      {
-        "makername": "Nissan",
-        "carid": "1461",
-        "carname": "Silvia K's Dia Selection (S13) '90",
-        "price": "48,200",
-        "price_in_jpy": "4,820,000",
-        "isOld": true
-      },
-      {
-        "makername": "Lamborghini",
-        "carid": "1481",
-        "carname": "Countach 25th Anniversary '88",
-        "price": "684,200",
-        "price_in_jpy": "68,420,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "De Tomaso",
-        "carid": "3505",
-        "carname": "Mangusta (Christian Dior)",
-        "price": "500,000",
-        "price_in_jpy": "50,000,000",
-        "isOld": null
       }
     ]
   }

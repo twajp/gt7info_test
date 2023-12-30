@@ -1,5 +1,28 @@
 [
   {
+    "id": "20231230",
+    "date": "2023/12/30",
+    "used": [
+      {
+        "makername": "Fiat",
+        "carid": "1523",
+        "carname": "500 F '68",
+        "price": "15,200",
+        "price_in_jpy": "1,520,000",
+        "isOld": true
+      },
+      {
+        "makername": "Nissan",
+        "carid": "1458",
+        "carname": "Fairlady Z (Z34) '08",
+        "price": "36,100",
+        "price_in_jpy": "3,610,000",
+        "isOld": false
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20231229",
     "date": "2023/12/29",
     "used": [
@@ -550,46 +573,6 @@
         "carname": "1500 Biposto Bertone B.A.T 1 '52",
         "price": "1,000,000",
         "price_in_jpy": "100,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20231216",
-    "date": "2023/12/16",
-    "used": [
-      {
-        "makername": "Toyota",
-        "carid": "3471",
-        "carname": "Celica GT-Four (ST205) '94",
-        "price": "70,300",
-        "price_in_jpy": "7,030,000",
-        "isOld": true
-      },
-      {
-        "makername": "McLaren",
-        "carid": "1722",
-        "carname": "MP4-12C '10",
-        "price": "189,400",
-        "price_in_jpy": "18,940,000",
-        "isOld": false
-      },
-      {
-        "makername": "RUF",
-        "carid": "3398",
-        "carname": "CTR3 '07",
-        "price": "776,800",
-        "price_in_jpy": "77,680,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Ferrari",
-        "carid": "2018",
-        "carname": "365 GTB4 '71",
-        "price": "640,000",
-        "price_in_jpy": "64,000,000",
         "isOld": true
       }
     ]

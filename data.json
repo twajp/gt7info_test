@@ -1,5 +1,61 @@
 [
   {
+    "id": "20231231",
+    "date": "2023/12/31",
+    "used": [
+      {
+        "makername": "Alfa Romeo",
+        "carid": "3530",
+        "carname": "Giulia Sprint GT Veloce '67",
+        "price": "165,200",
+        "price_in_jpy": "16,520,000",
+        "isOld": true
+      },
+      {
+        "makername": "Nissan",
+        "carid": "919",
+        "carname": "Silvia Q's (S13) '88",
+        "price": "34,000",
+        "price_in_jpy": "3,400,000",
+        "isOld": true
+      },
+      {
+        "makername": "Dodge",
+        "carid": "3377",
+        "carname": "Super Bee '70",
+        "price": "71,700",
+        "price_in_jpy": "7,170,000",
+        "isOld": true
+      },
+      {
+        "makername": "Subaru",
+        "carid": "3432",
+        "carname": "Impreza Sedan WRX STi '04",
+        "price": "45,300",
+        "price_in_jpy": "4,530,000",
+        "isOld": false
+      },
+      {
+        "makername": "Ferrari",
+        "carid": "1410",
+        "carname": "512 BB '76",
+        "price": "284,500",
+        "price_in_jpy": "28,450,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Jaguar",
+        "carid": "1067",
+        "carname": "XJR-9 '88",
+        "price": "3,000,000",
+        "price_in_jpy": "300,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20231230",
     "date": "2023/12/30",
     "used": [
@@ -549,30 +605,6 @@
         "carname": "Skyline 2000GT-R (KPGC110) '73",
         "price": "542,000",
         "price_in_jpy": "54,200,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20231217",
-    "date": "2023/12/17",
-    "used": [
-      {
-        "makername": "Abarth",
-        "carid": "1973",
-        "carname": "Abarth 500 '09",
-        "price": "23,300",
-        "price_in_jpy": "2,330,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Abarth",
-        "carid": "1932",
-        "carname": "1500 Biposto Bertone B.A.T 1 '52",
-        "price": "1,000,000",
-        "price_in_jpy": "100,000,000",
         "isOld": true
       }
     ]

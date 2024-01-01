@@ -1,5 +1,53 @@
 [
   {
+    "id": "20240101",
+    "date": "2024/1/1",
+    "used": [
+      {
+        "makername": "Renault",
+        "carid": "334",
+        "carname": "Clio V6 24V '00",
+        "price": "100,000",
+        "price_in_jpy": "10,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Ferrari",
+        "carid": "1895",
+        "carname": "Dino 246 GT '71",
+        "price": "359,500",
+        "price_in_jpy": "35,950,000",
+        "isOld": true
+      },
+      {
+        "makername": "Mitsubishi",
+        "carid": "3384",
+        "carname": "GTO Twin Turbo '91",
+        "price": "42,000",
+        "price_in_jpy": "4,200,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Honda",
+        "carid": "3525",
+        "carname": "RA272 '65",
+        "price": "2,500,000",
+        "price_in_jpy": "250,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Pontiac",
+        "carid": "3462",
+        "carname": "GTO 'The Judge' '69",
+        "price": "279,000",
+        "price_in_jpy": "27,900,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20231231",
     "date": "2023/12/31",
     "used": [
@@ -590,21 +638,6 @@
         "carname": "205 Turbo 16 Evolution 2 '86",
         "price": "1,100,000",
         "price_in_jpy": "110,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20231218",
-    "date": "2023/12/18",
-    "used": [],
-    "legend": [
-      {
-        "makername": "Nissan",
-        "carid": "836",
-        "carname": "Skyline 2000GT-R (KPGC110) '73",
-        "price": "542,000",
-        "price_in_jpy": "54,200,000",
         "isOld": true
       }
     ]

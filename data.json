@@ -1,5 +1,45 @@
 [
   {
+    "id": "20240103",
+    "date": "2024/1/3",
+    "used": [
+      {
+        "makername": "Abarth",
+        "carid": "3438",
+        "carname": "Abarth 595 SS '70",
+        "price": "48,900",
+        "price_in_jpy": "4,890,000",
+        "isOld": true
+      },
+      {
+        "makername": "Porsche",
+        "carid": "3385",
+        "carname": "911 Turbo (930) '81",
+        "price": "218,100",
+        "price_in_jpy": "21,810,000",
+        "isOld": true
+      },
+      {
+        "makername": "Mitsubishi",
+        "carid": "211",
+        "carname": "Lancer Evolution V GSR '98",
+        "price": "69,200",
+        "price_in_jpy": "6,920,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Ferrari",
+        "carid": "1409",
+        "carname": "F40 '92",
+        "price": "3,300,000",
+        "price_in_jpy": "330,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240102",
     "date": "2024/1/2",
     "used": [
@@ -570,28 +610,5 @@
         "isOld": true
       }
     ]
-  },
-  {
-    "id": "20231220",
-    "date": "2023/12/20",
-    "used": [
-      {
-        "makername": "Nissan",
-        "carid": "709",
-        "carname": "Fairlady Z 300ZX TT 2seater '89",
-        "price": "57,400",
-        "price_in_jpy": "5,740,000",
-        "isOld": true
-      },
-      {
-        "makername": "BMW",
-        "carid": "1893",
-        "carname": "Z8 '01",
-        "price": "257,300",
-        "price_in_jpy": "25,730,000",
-        "isOld": false
-      }
-    ],
-    "legend": []
   }
 ]

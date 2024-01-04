@@ -1,5 +1,37 @@
 [
   {
+    "id": "20240104",
+    "date": "2024/1/4",
+    "used": [
+      {
+        "makername": "Nissan",
+        "carid": "1384",
+        "carname": "Fairlady Z Version S (Z33) '07",
+        "price": "27,400",
+        "price_in_jpy": "2,740,000",
+        "isOld": false
+      },
+      {
+        "makername": "Ferrari",
+        "carid": "1378",
+        "carname": "F430 '06",
+        "price": "200,500",
+        "price_in_jpy": "20,050,000",
+        "isOld": false
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Ford",
+        "carid": "1565",
+        "carname": "Mark IV Race Car '67",
+        "price": "6,750,000",
+        "price_in_jpy": "675,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240103",
     "date": "2024/1/3",
     "used": [
@@ -562,53 +594,5 @@
       }
     ],
     "legend": []
-  },
-  {
-    "id": "20231221",
-    "date": "2023/12/21",
-    "used": [
-      {
-        "makername": "MINI",
-        "carid": "1370",
-        "carname": "MINI Cooper S '05",
-        "price": "21,900",
-        "price_in_jpy": "2,190,000",
-        "isOld": false
-      },
-      {
-        "makername": "Nissan",
-        "carid": "1448",
-        "carname": "SILVIA spec-R Aero (S15) '02",
-        "price": "59,900",
-        "price_in_jpy": "5,990,000",
-        "isOld": false
-      },
-      {
-        "makername": "Honda",
-        "carid": "1689",
-        "carname": "Civic Type R (EK) Touring Car",
-        "price": "114,900",
-        "price_in_jpy": "11,490,000",
-        "isOld": null
-      },
-      {
-        "makername": "Porsche",
-        "carid": "3359",
-        "carname": "911 GT3 (997) '09",
-        "price": "138,000",
-        "price_in_jpy": "13,800,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "BMW",
-        "carid": "216",
-        "carname": "McLaren F1 GTR Race Car '97",
-        "price": "14,000,000",
-        "price_in_jpy": "1,400,000,000",
-        "isOld": true
-      }
-    ]
   }
 ]

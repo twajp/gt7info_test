@@ -1,5 +1,20 @@
 [
   {
+    "id": "20240107",
+    "date": "2024/1/7",
+    "used": [
+      {
+        "makername": "BMW",
+        "carid": "1399",
+        "carname": "M3 '07",
+        "price": "70,000",
+        "price_in_jpy": "7,000,000",
+        "isOld": false
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20240106",
     "date": "2024/1/6",
     "used": [
@@ -569,46 +584,6 @@
         "carname": "V6 Escudo Pikes Peak Special spec.98",
         "price": "1,700,000",
         "price_in_jpy": "170,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20231224",
-    "date": "2023/12/24",
-    "used": [
-      {
-        "makername": "Suzuki",
-        "carid": "1385",
-        "carname": "Swift Sport '07",
-        "price": "13,600",
-        "price_in_jpy": "1,360,000",
-        "isOld": false
-      },
-      {
-        "makername": "MINI",
-        "carid": "3356",
-        "carname": "Mini-Cooper 'S' '65",
-        "price": "38,200",
-        "price_in_jpy": "3,820,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Ford",
-        "carid": "3487",
-        "carname": "Mustang Boss 429 '69",
-        "price": "337,000",
-        "price_in_jpy": "33,700,000",
-        "isOld": true
-      },
-      {
-        "makername": "Toyota",
-        "carid": "781",
-        "carname": "Celica GT-FOUR Rally Car (ST205) '95",
-        "price": "250,000",
-        "price_in_jpy": "25,000,000",
         "isOld": true
       }
     ]

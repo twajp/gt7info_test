@@ -1,5 +1,36 @@
 [
   {
+    "id": "20240109",
+    "date": "2024/1/9",
+    "used": [
+      {
+        "makername": "Nissan",
+        "carid": "48",
+        "carname": "Fairlady 240ZG (HS30) '71",
+        "price": "106,400",
+        "price_in_jpy": "10,640,000",
+        "isOld": true
+      },
+      {
+        "makername": "DMC",
+        "carid": "1027",
+        "carname": "DeLorean S2 '04",
+        "price": "427,500",
+        "price_in_jpy": "42,750,000",
+        "isOld": false
+      },
+      {
+        "makername": "Ford",
+        "carid": "1729",
+        "carname": "Mustang Mach 1 '71",
+        "price": "37,500",
+        "price_in_jpy": "3,750,000",
+        "isOld": true
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20240108",
     "date": "2024/1/8",
     "used": [
@@ -587,29 +618,5 @@
       }
     ],
     "legend": []
-  },
-  {
-    "id": "20231226",
-    "date": "2023/12/26",
-    "used": [
-      {
-        "makername": "Toyota",
-        "carid": "1044",
-        "carname": "Sports 800 '65",
-        "price": "43,200",
-        "price_in_jpy": "4,320,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Jaguar",
-        "carid": "1553",
-        "carname": "XJ13 '66",
-        "price": "12,000,000",
-        "price_in_jpy": "1,200,000,000",
-        "isOld": true
-      }
-    ]
   }
 ]

@@ -1,5 +1,37 @@
 [
   {
+    "id": "20240111",
+    "date": "2024/1/11",
+    "used": [
+      {
+        "makername": "BMW",
+        "carid": "3454",
+        "carname": "3.0 CSL '71",
+        "price": "136,700",
+        "price_in_jpy": "13,670,000",
+        "isOld": true
+      },
+      {
+        "makername": "Alfa Romeo",
+        "carid": "1578",
+        "carname": "8C Competizione '08",
+        "price": "314,100",
+        "price_in_jpy": "31,410,000",
+        "isOld": false
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Lamborghini",
+        "carid": "1582",
+        "carname": "Miura P400 Bertone Prototype '67",
+        "price": "3,500,000",
+        "price_in_jpy": "350,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240110",
     "date": "2024/1/10",
     "used": [
@@ -568,70 +600,6 @@
         "carname": "2000GT '67",
         "price": "936,000",
         "price_in_jpy": "93,600,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20231228",
-    "date": "2023/12/28",
-    "used": [
-      {
-        "makername": "Honda",
-        "carid": "514",
-        "carname": "S2000 '99",
-        "price": "97,200",
-        "price_in_jpy": "9,720,000",
-        "isOld": true
-      },
-      {
-        "makername": "Ford",
-        "carid": "3466",
-        "carname": "Sierra RS 500 Cosworth '87",
-        "price": "192,200",
-        "price_in_jpy": "19,220,000",
-        "isOld": true
-      },
-      {
-        "makername": "Honda",
-        "carid": "293",
-        "carname": "NSX Type R '92",
-        "price": "402,700",
-        "price_in_jpy": "40,270,000",
-        "isOld": true
-      },
-      {
-        "makername": "Porsche",
-        "carid": "3358",
-        "carname": "911 GT3 (996) '01",
-        "price": "155,600",
-        "price_in_jpy": "15,560,000",
-        "isOld": false
-      },
-      {
-        "makername": "Dodge",
-        "carid": "1402",
-        "carname": "Viper SRT10 Coupe '06",
-        "price": "115,500",
-        "price_in_jpy": "11,550,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Ferrari",
-        "carid": "2010",
-        "carname": "250 GTO '62",
-        "price": "20,000,000",
-        "price_in_jpy": "2,000,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Chevrolet",
-        "carid": "3464",
-        "carname": "Corvette (C1) '58",
-        "price": "123,000",
-        "price_in_jpy": "12,300,000",
         "isOld": true
       }
     ]

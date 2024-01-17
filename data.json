@@ -1,5 +1,28 @@
 [
   {
+    "id": "20240117",
+    "date": "2024/1/17",
+    "used": [
+      {
+        "makername": "Subaru",
+        "carid": "451",
+        "carname": "Impreza 22B-STi '98",
+        "price": "170,400",
+        "price_in_jpy": "17,040,000",
+        "isOld": true
+      },
+      {
+        "makername": "Chevrolet",
+        "carid": "41",
+        "carname": "Corvette Stingray (C3) '69",
+        "price": "59,200",
+        "price_in_jpy": "5,920,000",
+        "isOld": true
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20240116",
     "date": "2024/1/16",
     "used": [
@@ -583,46 +606,6 @@
         "carname": "Mark IV Race Car '67",
         "price": "6,750,000",
         "price_in_jpy": "675,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240103",
-    "date": "2024/1/3",
-    "used": [
-      {
-        "makername": "Abarth",
-        "carid": "3438",
-        "carname": "Abarth 595 SS '70",
-        "price": "48,900",
-        "price_in_jpy": "4,890,000",
-        "isOld": true
-      },
-      {
-        "makername": "Porsche",
-        "carid": "3385",
-        "carname": "911 Turbo (930) '81",
-        "price": "218,100",
-        "price_in_jpy": "21,810,000",
-        "isOld": true
-      },
-      {
-        "makername": "Mitsubishi",
-        "carid": "211",
-        "carname": "Lancer Evolution V GSR '98",
-        "price": "69,200",
-        "price_in_jpy": "6,920,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Ferrari",
-        "carid": "1409",
-        "carname": "F40 '92",
-        "price": "3,300,000",
-        "price_in_jpy": "330,000,000",
         "isOld": true
       }
     ]

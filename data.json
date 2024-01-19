@@ -1,5 +1,45 @@
 [
   {
+    "id": "20240119",
+    "date": "2024/1/19",
+    "used": [
+      {
+        "makername": "De Tomaso",
+        "carid": "3341",
+        "carname": "Pantera '71",
+        "price": "177,300",
+        "price_in_jpy": "17,730,000",
+        "isOld": true
+      },
+      {
+        "makername": "Lamborghini",
+        "carid": "1481",
+        "carname": "Countach 25th Anniversary '88",
+        "price": "684,200",
+        "price_in_jpy": "68,420,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Shelby",
+        "carid": "315",
+        "carname": "Cobra 427 '66",
+        "price": "2,500,000",
+        "price_in_jpy": "250,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Audi",
+        "carid": "1927",
+        "carname": "Sport quattro S1 Pikes Peak '87",
+        "price": "1,900,000",
+        "price_in_jpy": "190,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240118",
     "date": "2024/1/18",
     "used": [
@@ -558,70 +598,6 @@
         "carname": "Sauber Mercedes C9 '89",
         "price": "3,500,000",
         "price_in_jpy": "350,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240105",
-    "date": "2024/1/5",
-    "used": [
-      {
-        "makername": "Honda",
-        "carid": "135",
-        "carname": "S800 '66",
-        "price": "45,700",
-        "price_in_jpy": "4,570,000",
-        "isOld": true
-      },
-      {
-        "makername": "Autobianchi",
-        "carid": "3442",
-        "carname": "A112 Abarth '85",
-        "price": "33,000",
-        "price_in_jpy": "3,300,000",
-        "isOld": true
-      },
-      {
-        "makername": "Lancia",
-        "carid": "829",
-        "carname": "Delta HF Integrale Evoluzione '91",
-        "price": "100,300",
-        "price_in_jpy": "10,030,000",
-        "isOld": true
-      },
-      {
-        "makername": "Nissan",
-        "carid": "78",
-        "carname": "Silvia K's Aero (S14) '96",
-        "price": "59,000",
-        "price_in_jpy": "5,900,000",
-        "isOld": true
-      },
-      {
-        "makername": "Ford",
-        "carid": "1426",
-        "carname": "Ford GT '06",
-        "price": "409,800",
-        "price_in_jpy": "40,980,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Renault",
-        "carid": "1986",
-        "carname": "R8 Gordini '66",
-        "price": "32,500",
-        "price_in_jpy": "3,250,000",
-        "isOld": true
-      },
-      {
-        "makername": "Mazda",
-        "carid": "296",
-        "carname": "787B '91",
-        "price": "3,300,000",
-        "price_in_jpy": "330,000,000",
         "isOld": true
       }
     ]

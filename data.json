@@ -1,5 +1,28 @@
 [
   {
+    "id": "20240120",
+    "date": "2024/1/20",
+    "used": [
+      {
+        "makername": "Toyota",
+        "carid": "3471",
+        "carname": "Celica GT-Four (ST205) '94",
+        "price": "70,300",
+        "price_in_jpy": "7,030,000",
+        "isOld": true
+      },
+      {
+        "makername": "McLaren",
+        "carid": "1722",
+        "carname": "MP4-12C '10",
+        "price": "189,400",
+        "price_in_jpy": "18,940,000",
+        "isOld": false
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20240119",
     "date": "2024/1/19",
     "used": [
@@ -561,45 +584,5 @@
       }
     ],
     "legend": []
-  },
-  {
-    "id": "20240106",
-    "date": "2024/1/6",
-    "used": [
-      {
-        "makername": "TVR",
-        "carid": "187",
-        "carname": "Tuscan Speed 6 '00",
-        "price": "80,600",
-        "price_in_jpy": "8,060,000",
-        "isOld": true
-      },
-      {
-        "makername": "Nissan",
-        "carid": "3524",
-        "carname": "GT-R NISMO (R32) '90",
-        "price": "389,500",
-        "price_in_jpy": "38,950,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Chevrolet",
-        "carid": "2059",
-        "carname": "Corvette Stingray Racer Concept '59",
-        "price": "4,000,000",
-        "price_in_jpy": "400,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Mercedes-Benz",
-        "carid": "998",
-        "carname": "Sauber Mercedes C9 '89",
-        "price": "3,500,000",
-        "price_in_jpy": "350,000,000",
-        "isOld": true
-      }
-    ]
   }
 ]

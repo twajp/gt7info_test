@@ -1,5 +1,45 @@
 [
   {
+    "id": "20240121",
+    "date": "2024/1/21",
+    "used": [
+      {
+        "makername": "Toyota",
+        "carid": "63",
+        "carname": "Corolla Levin 1600GT APEX (AE86) '83",
+        "price": "49,300",
+        "price_in_jpy": "4,930,000",
+        "isOld": true
+      },
+      {
+        "makername": "Volkswagen",
+        "carid": "3403",
+        "carname": "Golf I GTI '83",
+        "price": "49,100",
+        "price_in_jpy": "4,910,000",
+        "isOld": true
+      },
+      {
+        "makername": "RUF",
+        "carid": "3398",
+        "carname": "CTR3 '07",
+        "price": "776,800",
+        "price_in_jpy": "77,680,000",
+        "isOld": false
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Ferrari",
+        "carid": "1551",
+        "carname": "330 P4 '67",
+        "price": "20,000,000",
+        "price_in_jpy": "2,000,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240120",
     "date": "2024/1/20",
     "used": [
@@ -569,20 +609,5 @@
         "isOld": true
       }
     ]
-  },
-  {
-    "id": "20240107",
-    "date": "2024/1/7",
-    "used": [
-      {
-        "makername": "BMW",
-        "carid": "1399",
-        "carname": "M3 '07",
-        "price": "70,000",
-        "price_in_jpy": "7,000,000",
-        "isOld": false
-      }
-    ],
-    "legend": []
   }
 ]

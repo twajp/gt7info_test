@@ -1,5 +1,37 @@
 [
   {
+    "id": "20240122",
+    "date": "2024/1/22",
+    "used": [
+      {
+        "makername": "Volkswagen",
+        "carid": "1671",
+        "carname": "Sambabus Typ 2 '62",
+        "price": "59,000",
+        "price_in_jpy": "5,900,000",
+        "isOld": true
+      },
+      {
+        "makername": "Nissan",
+        "carid": "3513",
+        "carname": "Silvia K's Type S (S14) '94",
+        "price": "53,800",
+        "price_in_jpy": "5,380,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Alpine",
+        "carid": "3457",
+        "carname": "A220 Race Car '68",
+        "price": "330,000",
+        "price_in_jpy": "33,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240121",
     "date": "2024/1/21",
     "used": [
@@ -529,85 +561,5 @@
       }
     ],
     "legend": []
-  },
-  {
-    "id": "20240108",
-    "date": "2024/1/8",
-    "used": [
-      {
-        "makername": "Suzuki",
-        "carid": "779",
-        "carname": "Cappuccino (EA11R) '91",
-        "price": "17,700",
-        "price_in_jpy": "1,770,000",
-        "isOld": true
-      },
-      {
-        "makername": "Toyota",
-        "carid": "843",
-        "carname": "Supra 3.0GT Turbo A '88",
-        "price": "105,500",
-        "price_in_jpy": "10,550,000",
-        "isOld": true
-      },
-      {
-        "makername": "Subaru",
-        "carid": "379",
-        "carname": "Impreza Coupe WRX Type R STi Ver.VI '99",
-        "price": "52,600",
-        "price_in_jpy": "5,260,000",
-        "isOld": true
-      },
-      {
-        "makername": "Nissan",
-        "carid": "773",
-        "carname": "R32 GT-R V-spec II '94",
-        "price": "179,900",
-        "price_in_jpy": "17,990,000",
-        "isOld": true
-      },
-      {
-        "makername": "Mitsubishi",
-        "carid": "301",
-        "carname": "Lancer Evolution IV GSR '96",
-        "price": "46,600",
-        "price_in_jpy": "4,660,000",
-        "isOld": true
-      },
-      {
-        "makername": "Honda",
-        "carid": "203",
-        "carname": "Integra Type R (DC2) '98",
-        "price": "61,400",
-        "price_in_jpy": "6,140,000",
-        "isOld": true
-      },
-      {
-        "makername": "BMW",
-        "carid": "3389",
-        "carname": "M3 '03",
-        "price": "61,900",
-        "price_in_jpy": "6,190,000",
-        "isOld": false
-      },
-      {
-        "makername": "Porsche",
-        "carid": "3431",
-        "carname": "911 Carrera RS (964) '92",
-        "price": "220,700",
-        "price_in_jpy": "22,070,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Plymouth",
-        "carid": "665",
-        "carname": "Superbird '70",
-        "price": "529,000",
-        "price_in_jpy": "52,900,000",
-        "isOld": true
-      }
-    ]
   }
 ]

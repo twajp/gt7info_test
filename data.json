@@ -1,5 +1,61 @@
 [
   {
+    "id": "20240123",
+    "date": "2024/1/23",
+    "used": [
+      {
+        "makername": "Honda",
+        "carid": "293",
+        "carname": "NSX Type R '92",
+        "price": "450,000",
+        "price_in_jpy": "45,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Suzuki",
+        "carid": "1385",
+        "carname": "Swift Sport '07",
+        "price": "13,600",
+        "price_in_jpy": "1,360,000",
+        "isOld": false
+      },
+      {
+        "makername": "Nissan",
+        "carid": "24",
+        "carname": "180SX Type X '96",
+        "price": "58,300",
+        "price_in_jpy": "5,830,000",
+        "isOld": true
+      },
+      {
+        "makername": "Chevrolet",
+        "carid": "1542",
+        "carname": "Corvette Convertible (C3) '69",
+        "price": "48,500",
+        "price_in_jpy": "4,850,000",
+        "isOld": true
+      },
+      {
+        "makername": "Nissan",
+        "carid": "210",
+        "carname": "R34 GT-R V-spec II Nur '02",
+        "price": "396,000",
+        "price_in_jpy": "39,600,000",
+        "isOld": false
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Maserati",
+        "carid": "3421",
+        "carname": "Merak SS '80",
+        "price": "78,500",
+        "price_in_jpy": "7,850,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240122",
     "date": "2024/1/22",
     "used": [
@@ -530,36 +586,5 @@
         "isOld": true
       }
     ]
-  },
-  {
-    "id": "20240109",
-    "date": "2024/1/9",
-    "used": [
-      {
-        "makername": "Nissan",
-        "carid": "48",
-        "carname": "Fairlady 240ZG (HS30) '71",
-        "price": "106,400",
-        "price_in_jpy": "10,640,000",
-        "isOld": true
-      },
-      {
-        "makername": "DMC",
-        "carid": "1027",
-        "carname": "DeLorean S2 '04",
-        "price": "427,500",
-        "price_in_jpy": "42,750,000",
-        "isOld": false
-      },
-      {
-        "makername": "Ford",
-        "carid": "1729",
-        "carname": "Mustang Mach 1 '71",
-        "price": "37,500",
-        "price_in_jpy": "3,750,000",
-        "isOld": true
-      }
-    ],
-    "legend": []
   }
 ]

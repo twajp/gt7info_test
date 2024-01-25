@@ -1,5 +1,45 @@
 [
   {
+    "id": "20240125",
+    "date": "2024/1/25",
+    "used": [
+      {
+        "makername": "Alpine",
+        "carid": "1796",
+        "carname": "A110 '72",
+        "price": "132,900",
+        "price_in_jpy": "13,290,000",
+        "isOld": true
+      },
+      {
+        "makername": "MINI",
+        "carid": "1370",
+        "carname": "MINI Cooper S '05",
+        "price": "21,900",
+        "price_in_jpy": "2,190,000",
+        "isOld": false
+      },
+      {
+        "makername": "Honda",
+        "carid": "1689",
+        "carname": "Civic Type R (EK) Touring Car",
+        "price": "114,900",
+        "price_in_jpy": "11,490,000",
+        "isOld": null
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Honda",
+        "carid": "3525",
+        "carname": "RA272 '65",
+        "price": "2,500,000",
+        "price_in_jpy": "250,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240124",
     "date": "2024/1/24",
     "used": [
@@ -575,38 +615,6 @@
         "carname": "R92CP '92",
         "price": "2,000,000",
         "price_in_jpy": "200,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240111",
-    "date": "2024/1/11",
-    "used": [
-      {
-        "makername": "BMW",
-        "carid": "3454",
-        "carname": "3.0 CSL '71",
-        "price": "136,700",
-        "price_in_jpy": "13,670,000",
-        "isOld": true
-      },
-      {
-        "makername": "Alfa Romeo",
-        "carid": "1578",
-        "carname": "8C Competizione '08",
-        "price": "314,100",
-        "price_in_jpy": "31,410,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Lamborghini",
-        "carid": "1582",
-        "carname": "Miura P400 Bertone Prototype '67",
-        "price": "3,500,000",
-        "price_in_jpy": "350,000,000",
         "isOld": true
       }
     ]

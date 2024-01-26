@@ -1,5 +1,69 @@
 [
   {
+    "id": "20240126",
+    "date": "2024/1/26",
+    "used": [
+      {
+        "makername": "Toyota",
+        "carid": "1044",
+        "carname": "Sports 800 '65",
+        "price": "43,200",
+        "price_in_jpy": "4,320,000",
+        "isOld": true
+      },
+      {
+        "makername": "Nissan",
+        "carid": "1448",
+        "carname": "SILVIA spec-R Aero (S15) '02",
+        "price": "59,900",
+        "price_in_jpy": "5,990,000",
+        "isOld": false
+      },
+      {
+        "makername": "Volkswagen",
+        "carid": "1773",
+        "carname": "Scirocco R '10",
+        "price": "40,500",
+        "price_in_jpy": "4,050,000",
+        "isOld": false
+      },
+      {
+        "makername": "BMW",
+        "carid": "3344",
+        "carname": "M3 Sport Evolution '89",
+        "price": "179,000",
+        "price_in_jpy": "17,900,000",
+        "isOld": true
+      },
+      {
+        "makername": "Porsche",
+        "carid": "3359",
+        "carname": "911 GT3 (997) '09",
+        "price": "138,000",
+        "price_in_jpy": "13,800,000",
+        "isOld": false
+      },
+      {
+        "makername": "Lamborghini",
+        "carid": "1545",
+        "carname": "Murcielago LP 640 '09",
+        "price": "314,000",
+        "price_in_jpy": "31,400,000",
+        "isOld": false
+      }
+    ],
+    "legend": [
+      {
+        "makername": "NISMO",
+        "carid": "3520",
+        "carname": "400R '95",
+        "price": "1,800,000",
+        "price_in_jpy": "180,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240125",
     "date": "2024/1/25",
     "used": [
@@ -591,30 +655,6 @@
         "carname": "GT40 Mark I '66",
         "price": "6,700,000",
         "price_in_jpy": "670,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240112",
-    "date": "2024/1/12",
-    "used": [
-      {
-        "makername": "Lamborghini",
-        "carid": "1990",
-        "carname": "Diablo GT '00",
-        "price": "817,800",
-        "price_in_jpy": "81,780,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Nissan",
-        "carid": "954",
-        "carname": "R92CP '92",
-        "price": "2,000,000",
-        "price_in_jpy": "200,000,000",
         "isOld": true
       }
     ]

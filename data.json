@@ -1,5 +1,29 @@
 [
   {
+    "id": "20240131",
+    "date": "2024/1/31",
+    "used": [
+      {
+        "makername": "Ferrari",
+        "carid": "3434",
+        "carname": "Testarossa '91",
+        "price": "369,000",
+        "price_in_jpy": "36,900,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Mercedes-Benz",
+        "carid": "575",
+        "carname": "190 E 2.5-16 Evolution II '91",
+        "price": "300,000",
+        "price_in_jpy": "30,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240130",
     "date": "2024/1/30",
     "used": [
@@ -540,28 +564,5 @@
         "isOld": true
       }
     ]
-  },
-  {
-    "id": "20240117",
-    "date": "2024/1/17",
-    "used": [
-      {
-        "makername": "Subaru",
-        "carid": "451",
-        "carname": "Impreza 22B-STi '98",
-        "price": "170,400",
-        "price_in_jpy": "17,040,000",
-        "isOld": true
-      },
-      {
-        "makername": "Chevrolet",
-        "carid": "41",
-        "carname": "Corvette Stingray (C3) '69",
-        "price": "59,200",
-        "price_in_jpy": "5,920,000",
-        "isOld": true
-      }
-    ],
-    "legend": []
   }
 ]

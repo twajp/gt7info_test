@@ -1,5 +1,76 @@
 [
   {
+    "id": "20240202",
+    "date": "2024/2/2",
+    "used": [
+      {
+        "makername": "Renault",
+        "carid": "173",
+        "carname": "R5 Turbo '80",
+        "price": "154,200",
+        "price_in_jpy": "15,420,000",
+        "isOld": true
+      },
+      {
+        "makername": "Ford",
+        "carid": "3466",
+        "carname": "Sierra RS 500 Cosworth '87",
+        "price": "192,200",
+        "price_in_jpy": "19,220,000",
+        "isOld": true
+      },
+      {
+        "makername": "Nissan",
+        "carid": "104",
+        "carname": "Sileighty '98",
+        "price": "81,600",
+        "price_in_jpy": "8,160,000",
+        "isOld": true
+      },
+      {
+        "makername": "Lancia",
+        "carid": "533",
+        "carname": "Stratos '73",
+        "price": "486,600",
+        "price_in_jpy": "48,660,000",
+        "isOld": true
+      },
+      {
+        "makername": "Honda",
+        "carid": "293",
+        "carname": "NSX Type R '92",
+        "price": "402,700",
+        "price_in_jpy": "40,270,000",
+        "isOld": true
+      },
+      {
+        "makername": "Porsche",
+        "carid": "3358",
+        "carname": "911 GT3 (996) '01",
+        "price": "155,600",
+        "price_in_jpy": "15,560,000",
+        "isOld": false
+      },
+      {
+        "makername": "Dodge",
+        "carid": "1402",
+        "carname": "Viper SRT10 Coupe '06",
+        "price": "115,500",
+        "price_in_jpy": "11,550,000",
+        "isOld": false
+      },
+      {
+        "makername": "Dodge",
+        "carid": "1373",
+        "carname": "Viper GTS '02",
+        "price": "106,900",
+        "price_in_jpy": "10,690,000",
+        "isOld": false
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20240201",
     "date": "2024/2/1",
     "used": [
@@ -532,45 +603,5 @@
       }
     ],
     "legend": []
-  },
-  {
-    "id": "20240119",
-    "date": "2024/1/19",
-    "used": [
-      {
-        "makername": "De Tomaso",
-        "carid": "3341",
-        "carname": "Pantera '71",
-        "price": "177,300",
-        "price_in_jpy": "17,730,000",
-        "isOld": true
-      },
-      {
-        "makername": "Lamborghini",
-        "carid": "1481",
-        "carname": "Countach 25th Anniversary '88",
-        "price": "684,200",
-        "price_in_jpy": "68,420,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Shelby",
-        "carid": "315",
-        "carname": "Cobra 427 '66",
-        "price": "2,500,000",
-        "price_in_jpy": "250,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Audi",
-        "carid": "1927",
-        "carname": "Sport quattro S1 Pikes Peak '87",
-        "price": "1,900,000",
-        "price_in_jpy": "190,000,000",
-        "isOld": true
-      }
-    ]
   }
 ]

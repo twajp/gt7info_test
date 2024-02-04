@@ -1,5 +1,44 @@
 [
   {
+    "id": "20240204",
+    "date": "2024/2/4",
+    "used": [
+      {
+        "makername": "Honda",
+        "carid": "135",
+        "carname": "S800 '66",
+        "price": "45,700",
+        "price_in_jpy": "4,570,000",
+        "isOld": true
+      },
+      {
+        "makername": "Dodge",
+        "carid": "3377",
+        "carname": "Super Bee '70",
+        "price": "71,700",
+        "price_in_jpy": "7,170,000",
+        "isOld": true
+      },
+      {
+        "makername": "Subaru",
+        "carid": "3432",
+        "carname": "Impreza Sedan WRX STi '04",
+        "price": "45,300",
+        "price_in_jpy": "4,530,000",
+        "isOld": false
+      },
+      {
+        "makername": "Ferrari",
+        "carid": "1410",
+        "carname": "512 BB '76",
+        "price": "284,500",
+        "price_in_jpy": "28,450,000",
+        "isOld": true
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20240203",
     "date": "2024/2/3",
     "used": [
@@ -569,46 +608,6 @@
         "carname": "A220 Race Car '68",
         "price": "330,000",
         "price_in_jpy": "33,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240121",
-    "date": "2024/1/21",
-    "used": [
-      {
-        "makername": "Toyota",
-        "carid": "63",
-        "carname": "Corolla Levin 1600GT APEX (AE86) '83",
-        "price": "49,300",
-        "price_in_jpy": "4,930,000",
-        "isOld": true
-      },
-      {
-        "makername": "Volkswagen",
-        "carid": "3403",
-        "carname": "Golf I GTI '83",
-        "price": "49,100",
-        "price_in_jpy": "4,910,000",
-        "isOld": true
-      },
-      {
-        "makername": "RUF",
-        "carid": "3398",
-        "carname": "CTR3 '07",
-        "price": "776,800",
-        "price_in_jpy": "77,680,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Ferrari",
-        "carid": "1551",
-        "carname": "330 P4 '67",
-        "price": "20,000,000",
-        "price_in_jpy": "2,000,000,000",
         "isOld": true
       }
     ]

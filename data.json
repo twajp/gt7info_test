@@ -1,5 +1,61 @@
 [
   {
+    "id": "20240206",
+    "date": "2024/2/6",
+    "used": [
+      {
+        "makername": "Nissan",
+        "carid": "709",
+        "carname": "Fairlady Z 300ZX TT 2seater '89",
+        "price": "70,000",
+        "price_in_jpy": "7,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Mitsubishi",
+        "carid": "3384",
+        "carname": "GTO Twin Turbo '91",
+        "price": "42,000",
+        "price_in_jpy": "4,200,000",
+        "isOld": true
+      },
+      {
+        "makername": "Toyota",
+        "carid": "82",
+        "carname": "Supra RZ '97",
+        "price": "194,200",
+        "price_in_jpy": "19,420,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Nissan",
+        "carid": "954",
+        "carname": "R92CP '92",
+        "price": "2,000,000",
+        "price_in_jpy": "200,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Jaguar",
+        "carid": "1553",
+        "carname": "XJ13 '66",
+        "price": "12,000,000",
+        "price_in_jpy": "1,200,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Lamborghini",
+        "carid": "1484",
+        "carname": "Countach LP400 '74",
+        "price": "1,250,000",
+        "price_in_jpy": "125,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240205",
     "date": "2024/2/5",
     "used": [
@@ -560,62 +616,6 @@
         "carname": "DS 21 Pallas '70",
         "price": "49,600",
         "price_in_jpy": "4,960,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240123",
-    "date": "2024/1/23",
-    "used": [
-      {
-        "makername": "Honda",
-        "carid": "293",
-        "carname": "NSX Type R '92",
-        "price": "450,000",
-        "price_in_jpy": "45,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Suzuki",
-        "carid": "1385",
-        "carname": "Swift Sport '07",
-        "price": "13,600",
-        "price_in_jpy": "1,360,000",
-        "isOld": false
-      },
-      {
-        "makername": "Nissan",
-        "carid": "24",
-        "carname": "180SX Type X '96",
-        "price": "58,300",
-        "price_in_jpy": "5,830,000",
-        "isOld": true
-      },
-      {
-        "makername": "Chevrolet",
-        "carid": "1542",
-        "carname": "Corvette Convertible (C3) '69",
-        "price": "48,500",
-        "price_in_jpy": "4,850,000",
-        "isOld": true
-      },
-      {
-        "makername": "Nissan",
-        "carid": "210",
-        "carname": "R34 GT-R V-spec II Nur '02",
-        "price": "396,000",
-        "price_in_jpy": "39,600,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Maserati",
-        "carid": "3421",
-        "carname": "Merak SS '80",
-        "price": "78,500",
-        "price_in_jpy": "7,850,000",
         "isOld": true
       }
     ]

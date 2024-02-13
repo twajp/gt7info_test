@@ -1,5 +1,109 @@
 [
   {
+    "id": "20240213",
+    "date": "2024/2/13",
+    "used": [
+      {
+        "makername": "Porsche",
+        "carid": "3404",
+        "carname": "911 Carrera RS CS (993) '95",
+        "price": "500,000",
+        "price_in_jpy": "50,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Mazda",
+        "carid": "201",
+        "carname": "Eunos Roadster (NA) '89",
+        "price": "30,700",
+        "price_in_jpy": "3,070,000",
+        "isOld": true
+      },
+      {
+        "makername": "Honda",
+        "carid": "821",
+        "carname": "Civic Type R (EK) '97",
+        "price": "55,600",
+        "price_in_jpy": "5,560,000",
+        "isOld": true
+      },
+      {
+        "makername": "Fiat",
+        "carid": "1527",
+        "carname": "500 1.2 8V Lounge SS '08",
+        "price": "13,800",
+        "price_in_jpy": "1,380,000",
+        "isOld": false
+      },
+      {
+        "makername": "Volkswagen",
+        "carid": "1778",
+        "carname": "Volkswagen 1200 '66",
+        "price": "31,900",
+        "price_in_jpy": "3,190,000",
+        "isOld": true
+      },
+      {
+        "makername": "Honda",
+        "carid": "203",
+        "carname": "Integra Type R (DC2) '98",
+        "price": "61,400",
+        "price_in_jpy": "6,140,000",
+        "isOld": true
+      },
+      {
+        "makername": "DMC",
+        "carid": "1027",
+        "carname": "DeLorean S2 '04",
+        "price": "427,500",
+        "price_in_jpy": "42,750,000",
+        "isOld": false
+      },
+      {
+        "makername": "Porsche",
+        "carid": "3431",
+        "carname": "911 Carrera RS (964) '92",
+        "price": "220,700",
+        "price_in_jpy": "22,070,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Ford",
+        "carid": "1935",
+        "carname": "GT40 Mark I '66",
+        "price": "6,700,000",
+        "price_in_jpy": "670,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Aston Martin",
+        "carid": "3445",
+        "carname": "DB5 '64",
+        "price": "929,000",
+        "price_in_jpy": "92,900,000",
+        "isOld": true
+      },
+      {
+        "makername": "Nissan",
+        "carid": "3493",
+        "carname": "Skyline Super Silhouette Group 5 '84",
+        "price": "1,150,000",
+        "price_in_jpy": "115,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "McLaren",
+        "carid": "3475",
+        "carname": "MP4/4 '88",
+        "price": "10,000,000",
+        "price_in_jpy": "1,000,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240212",
     "date": "2024/2/12",
     "used": [
@@ -542,46 +646,6 @@
         "carname": "190 E 2.5-16 Evolution II '91",
         "price": "300,000",
         "price_in_jpy": "30,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240130",
-    "date": "2024/1/30",
-    "used": [
-      {
-        "makername": "Fiat",
-        "carid": "1523",
-        "carname": "500 F '68",
-        "price": "15,200",
-        "price_in_jpy": "1,520,000",
-        "isOld": true
-      },
-      {
-        "makername": "Alfa Romeo",
-        "carid": "3530",
-        "carname": "Giulia Sprint GT Veloce '67",
-        "price": "165,200",
-        "price_in_jpy": "16,520,000",
-        "isOld": true
-      },
-      {
-        "makername": "Nissan",
-        "carid": "919",
-        "carname": "Silvia Q's (S13) '88",
-        "price": "34,000",
-        "price_in_jpy": "3,400,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Nissan",
-        "carid": "837",
-        "carname": "Skyline Hard Top 2000GT-R (KPGC10) '70",
-        "price": "167,000",
-        "price_in_jpy": "16,700,000",
         "isOld": true
       }
     ]

@@ -1,5 +1,44 @@
 [
   {
+    "id": "20240214",
+    "date": "2024/2/14",
+    "used": [
+      {
+        "makername": "Honda",
+        "carid": "137",
+        "carname": "Beat '91",
+        "price": "15,900",
+        "price_in_jpy": "1,590,000",
+        "isOld": true
+      },
+      {
+        "makername": "Nissan",
+        "carid": "1461",
+        "carname": "Silvia K's Dia Selection (S13) '90",
+        "price": "48,200",
+        "price_in_jpy": "4,820,000",
+        "isOld": true
+      },
+      {
+        "makername": "Ford",
+        "carid": "1729",
+        "carname": "Mustang Mach 1 '71",
+        "price": "37,500",
+        "price_in_jpy": "3,750,000",
+        "isOld": true
+      },
+      {
+        "makername": "Porsche",
+        "carid": "3439",
+        "carname": "911 Carrera RS (993) '95",
+        "price": "215,200",
+        "price_in_jpy": "21,520,000",
+        "isOld": true
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20240213",
     "date": "2024/2/13",
     "used": [
@@ -622,30 +661,6 @@
         "carname": "S Barker Tourer '29",
         "price": "13,000,000",
         "price_in_jpy": "1,300,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240131",
-    "date": "2024/1/31",
-    "used": [
-      {
-        "makername": "Ferrari",
-        "carid": "3434",
-        "carname": "Testarossa '91",
-        "price": "369,000",
-        "price_in_jpy": "36,900,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Mercedes-Benz",
-        "carid": "575",
-        "carname": "190 E 2.5-16 Evolution II '91",
-        "price": "300,000",
-        "price_in_jpy": "30,000,000",
         "isOld": true
       }
     ]

@@ -1,5 +1,11 @@
 [
   {
+    "id": "20240218",
+    "date": "2024/2/18",
+    "used": [],
+    "legend": []
+  },
+  {
     "id": "20240217",
     "date": "2024/2/17",
     "used": [
@@ -577,44 +583,5 @@
         "isOld": true
       }
     ]
-  },
-  {
-    "id": "20240204",
-    "date": "2024/2/4",
-    "used": [
-      {
-        "makername": "Honda",
-        "carid": "135",
-        "carname": "S800 '66",
-        "price": "45,700",
-        "price_in_jpy": "4,570,000",
-        "isOld": true
-      },
-      {
-        "makername": "Dodge",
-        "carid": "3377",
-        "carname": "Super Bee '70",
-        "price": "71,700",
-        "price_in_jpy": "7,170,000",
-        "isOld": true
-      },
-      {
-        "makername": "Subaru",
-        "carid": "3432",
-        "carname": "Impreza Sedan WRX STi '04",
-        "price": "45,300",
-        "price_in_jpy": "4,530,000",
-        "isOld": false
-      },
-      {
-        "makername": "Ferrari",
-        "carid": "1410",
-        "carname": "512 BB '76",
-        "price": "284,500",
-        "price_in_jpy": "28,450,000",
-        "isOld": true
-      }
-    ],
-    "legend": []
   }
 ]

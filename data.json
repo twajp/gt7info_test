@@ -1,5 +1,29 @@
 [
   {
+    "id": "20240219",
+    "date": "2024/2/19",
+    "used": [
+      {
+        "makername": "Chevrolet",
+        "carid": "942",
+        "carname": "Corvette ZR-1 (C4) '89",
+        "price": "86,500",
+        "price_in_jpy": "8,650,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Alfa Romeo",
+        "carid": "365",
+        "carname": "155 2.5 V6 TI '93",
+        "price": "800,000",
+        "price_in_jpy": "80,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240218",
     "date": "2024/2/18",
     "used": [],
@@ -540,46 +564,6 @@
         "carname": "Countach LP400 '74",
         "price": "1,250,000",
         "price_in_jpy": "125,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240205",
-    "date": "2024/2/5",
-    "used": [
-      {
-        "makername": "Autobianchi",
-        "carid": "3442",
-        "carname": "A112 Abarth '85",
-        "price": "33,000",
-        "price_in_jpy": "3,300,000",
-        "isOld": true
-      },
-      {
-        "makername": "Lancia",
-        "carid": "829",
-        "carname": "Delta HF Integrale Evoluzione '91",
-        "price": "100,300",
-        "price_in_jpy": "10,030,000",
-        "isOld": true
-      },
-      {
-        "makername": "Ferrari",
-        "carid": "1895",
-        "carname": "Dino 246 GT '71",
-        "price": "359,500",
-        "price_in_jpy": "35,950,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "McLaren",
-        "carid": "1984",
-        "carname": "McLaren F1 GTR - BMW '95",
-        "price": "15,000,000",
-        "price_in_jpy": "1,500,000,000",
         "isOld": true
       }
     ]

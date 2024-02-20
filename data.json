@@ -1,5 +1,85 @@
 [
   {
+    "id": "20240220",
+    "date": "2024/2/20",
+    "used": [
+      {
+        "makername": "Dodge",
+        "carid": "3377",
+        "carname": "Super Bee '70",
+        "price": "80,000",
+        "price_in_jpy": "8,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Toyota",
+        "carid": "63",
+        "carname": "Corolla Levin 1600GT APEX (AE86) '83",
+        "price": "49,300",
+        "price_in_jpy": "4,930,000",
+        "isOld": true
+      },
+      {
+        "makername": "Audi",
+        "carid": "959",
+        "carname": "TT Coupe 3.2 quattro '03",
+        "price": "44,200",
+        "price_in_jpy": "4,420,000",
+        "isOld": false
+      },
+      {
+        "makername": "BMW",
+        "carid": "3453",
+        "carname": "M3 '89",
+        "price": "83,100",
+        "price_in_jpy": "8,310,000",
+        "isOld": true
+      },
+      {
+        "makername": "Toyota",
+        "carid": "345",
+        "carname": "Sprinter Trueno 1600GT APEX (S.Shigeno Version)",
+        "price": "105,900",
+        "price_in_jpy": "10,590,000",
+        "isOld": null
+      },
+      {
+        "makername": "Chevrolet",
+        "carid": "1480",
+        "carname": "Corvette ZR1 (C6) '09",
+        "price": "104,900",
+        "price_in_jpy": "10,490,000",
+        "isOld": false
+      },
+      {
+        "makername": "Honda",
+        "carid": "396",
+        "carname": "NSX Type R '02",
+        "price": "430,000",
+        "price_in_jpy": "43,000,000",
+        "isOld": false
+      },
+      {
+        "makername": "Audi",
+        "carid": "1365",
+        "carname": "R8 4.2 '07",
+        "price": "137,800",
+        "price_in_jpy": "13,780,000",
+        "isOld": false
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Shelby",
+        "carid": "315",
+        "carname": "Cobra 427 '66",
+        "price": "2,500,000",
+        "price_in_jpy": "250,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240219",
     "date": "2024/2/19",
     "used": [
@@ -508,62 +588,6 @@
         "carname": "Charger R/T 426 Hemi '68",
         "price": "158,000",
         "price_in_jpy": "15,800,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240206",
-    "date": "2024/2/6",
-    "used": [
-      {
-        "makername": "Nissan",
-        "carid": "709",
-        "carname": "Fairlady Z 300ZX TT 2seater '89",
-        "price": "70,000",
-        "price_in_jpy": "7,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Mitsubishi",
-        "carid": "3384",
-        "carname": "GTO Twin Turbo '91",
-        "price": "42,000",
-        "price_in_jpy": "4,200,000",
-        "isOld": true
-      },
-      {
-        "makername": "Toyota",
-        "carid": "82",
-        "carname": "Supra RZ '97",
-        "price": "194,200",
-        "price_in_jpy": "19,420,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Nissan",
-        "carid": "954",
-        "carname": "R92CP '92",
-        "price": "2,000,000",
-        "price_in_jpy": "200,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Jaguar",
-        "carid": "1553",
-        "carname": "XJ13 '66",
-        "price": "12,000,000",
-        "price_in_jpy": "1,200,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Lamborghini",
-        "carid": "1484",
-        "carname": "Countach LP400 '74",
-        "price": "1,250,000",
-        "price_in_jpy": "125,000,000",
         "isOld": true
       }
     ]

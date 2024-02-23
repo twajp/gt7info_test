@@ -1,5 +1,36 @@
 [
   {
+    "id": "20240223",
+    "date": "2024/2/23",
+    "used": [
+      {
+        "makername": "Suzuki",
+        "carid": "1385",
+        "carname": "Swift Sport '07",
+        "price": "13,600",
+        "price_in_jpy": "1,360,000",
+        "isOld": false
+      },
+      {
+        "makername": "MINI",
+        "carid": "3356",
+        "carname": "Mini-Cooper 'S' '65",
+        "price": "38,200",
+        "price_in_jpy": "3,820,000",
+        "isOld": true
+      },
+      {
+        "makername": "De Tomaso",
+        "carid": "3341",
+        "carname": "Pantera '71",
+        "price": "177,300",
+        "price_in_jpy": "17,730,000",
+        "isOld": true
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20240222",
     "date": "2024/2/22",
     "used": [
@@ -605,38 +636,6 @@
         "carname": "Fairlady Z 432 '69",
         "price": "190,000",
         "price_in_jpy": "19,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240209",
-    "date": "2024/2/9",
-    "used": [
-      {
-        "makername": "BMW",
-        "carid": "3422",
-        "carname": "3.0 CSL '73",
-        "price": "203,800",
-        "price_in_jpy": "20,380,000",
-        "isOld": true
-      },
-      {
-        "makername": "Nissan",
-        "carid": "78",
-        "carname": "Silvia K's Aero (S14) '96",
-        "price": "59,000",
-        "price_in_jpy": "5,900,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Nissan",
-        "carid": "485",
-        "carname": "GT-R GT500 '99",
-        "price": "2,700,000",
-        "price_in_jpy": "270,000,000",
         "isOld": true
       }
     ]

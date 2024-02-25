@@ -1,5 +1,45 @@
 [
   {
+    "id": "20240225",
+    "date": "2024/2/25",
+    "used": [
+      {
+        "makername": "Toyota",
+        "carid": "1044",
+        "carname": "Sports 800 '65",
+        "price": "43,200",
+        "price_in_jpy": "4,320,000",
+        "isOld": true
+      },
+      {
+        "makername": "McLaren",
+        "carid": "1722",
+        "carname": "MP4-12C '10",
+        "price": "189,400",
+        "price_in_jpy": "18,940,000",
+        "isOld": false
+      },
+      {
+        "makername": "RUF",
+        "carid": "3398",
+        "carname": "CTR3 '07",
+        "price": "776,800",
+        "price_in_jpy": "77,680,000",
+        "isOld": false
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Ferrari",
+        "carid": "3362",
+        "carname": "F50 '95",
+        "price": "4,750,000",
+        "price_in_jpy": "475,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240224",
     "date": "2024/2/24",
     "used": [
@@ -612,29 +652,6 @@
         "carname": "M3 '03",
         "price": "61,900",
         "price_in_jpy": "6,190,000",
-        "isOld": false
-      }
-    ],
-    "legend": []
-  },
-  {
-    "id": "20240211",
-    "date": "2024/2/11",
-    "used": [
-      {
-        "makername": "Nissan",
-        "carid": "3524",
-        "carname": "GT-R NISMO (R32) '90",
-        "price": "389,500",
-        "price_in_jpy": "38,950,000",
-        "isOld": true
-      },
-      {
-        "makername": "BMW",
-        "carid": "1399",
-        "carname": "M3 '07",
-        "price": "70,000",
-        "price_in_jpy": "7,000,000",
         "isOld": false
       }
     ],

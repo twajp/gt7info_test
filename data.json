@@ -1,5 +1,20 @@
 [
   {
+    "id": "20240226",
+    "date": "2024/2/26",
+    "used": [],
+    "legend": [
+      {
+        "makername": "Porsche",
+        "carid": "3519",
+        "carname": "959 '87",
+        "price": "1,750,000",
+        "price_in_jpy": "175,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240225",
     "date": "2024/2/25",
     "used": [
@@ -609,52 +624,5 @@
         "isOld": true
       }
     ]
-  },
-  {
-    "id": "20240212",
-    "date": "2024/2/12",
-    "used": [
-      {
-        "makername": "Toyota",
-        "carid": "843",
-        "carname": "Supra 3.0GT Turbo A '88",
-        "price": "105,500",
-        "price_in_jpy": "10,550,000",
-        "isOld": true
-      },
-      {
-        "makername": "Subaru",
-        "carid": "379",
-        "carname": "Impreza Coupe WRX Type R STi Ver.VI '99",
-        "price": "52,600",
-        "price_in_jpy": "5,260,000",
-        "isOld": true
-      },
-      {
-        "makername": "Nissan",
-        "carid": "773",
-        "carname": "R32 GT-R V-spec II '94",
-        "price": "179,900",
-        "price_in_jpy": "17,990,000",
-        "isOld": true
-      },
-      {
-        "makername": "Mitsubishi",
-        "carid": "301",
-        "carname": "Lancer Evolution IV GSR '96",
-        "price": "46,600",
-        "price_in_jpy": "4,660,000",
-        "isOld": true
-      },
-      {
-        "makername": "BMW",
-        "carid": "3389",
-        "carname": "M3 '03",
-        "price": "61,900",
-        "price_in_jpy": "6,190,000",
-        "isOld": false
-      }
-    ],
-    "legend": []
   }
 ]

@@ -1,5 +1,36 @@
 [
   {
+    "id": "20240302",
+    "date": "2024/3/2",
+    "used": [
+      {
+        "makername": "BMW",
+        "carid": "3344",
+        "carname": "M3 Sport Evolution '89",
+        "price": "179,000",
+        "price_in_jpy": "17,900,000",
+        "isOld": true
+      },
+      {
+        "makername": "Lamborghini",
+        "carid": "1545",
+        "carname": "Murcielago LP 640 '09",
+        "price": "314,000",
+        "price_in_jpy": "31,400,000",
+        "isOld": false
+      },
+      {
+        "makername": "Ferrari",
+        "carid": "1504",
+        "carname": "458 Italia '09",
+        "price": "244,900",
+        "price_in_jpy": "24,490,000",
+        "isOld": false
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20240301",
     "date": "2024/3/1",
     "used": [
@@ -602,61 +633,5 @@
     "date": "2024/2/18",
     "used": [],
     "legend": []
-  },
-  {
-    "id": "20240217",
-    "date": "2024/2/17",
-    "used": [
-      {
-        "makername": "Pontiac",
-        "carid": "1985",
-        "carname": "Firebird Trans Am '78",
-        "price": "87,400",
-        "price_in_jpy": "8,740,000",
-        "isOld": true
-      },
-      {
-        "makername": "Renault",
-        "carid": "334",
-        "carname": "Clio V6 24V '00",
-        "price": "86,100",
-        "price_in_jpy": "8,610,000",
-        "isOld": true
-      },
-      {
-        "makername": "Mazda",
-        "carid": "374",
-        "carname": "RX-7 GT-X (FC) '90",
-        "price": "60,200",
-        "price_in_jpy": "6,020,000",
-        "isOld": true
-      },
-      {
-        "makername": "Mitsubishi",
-        "carid": "1508",
-        "carname": "Lancer Evolution VI GSR T.M. SCP '99",
-        "price": "178,300",
-        "price_in_jpy": "17,830,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Maserati",
-        "carid": "3421",
-        "carname": "Merak SS '80",
-        "price": "78,500",
-        "price_in_jpy": "7,850,000",
-        "isOld": true
-      },
-      {
-        "makername": "Toyota",
-        "carid": "1470",
-        "carname": "Supra GT500 '97",
-        "price": "1,800,000",
-        "price_in_jpy": "180,000,000",
-        "isOld": true
-      }
-    ]
   }
 ]

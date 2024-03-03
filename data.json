@@ -1,5 +1,44 @@
 [
   {
+    "id": "20240303",
+    "date": "2024/3/3",
+    "used": [
+      {
+        "makername": "Toyota",
+        "carid": "1537",
+        "carname": "Prius G '09",
+        "price": "20,000",
+        "price_in_jpy": "2,000,000",
+        "isOld": false
+      },
+      {
+        "makername": "Honda",
+        "carid": "204",
+        "carname": "Civic Type R (EK) '98",
+        "price": "58,400",
+        "price_in_jpy": "5,840,000",
+        "isOld": true
+      },
+      {
+        "makername": "Renault",
+        "carid": "173",
+        "carname": "R5 Turbo '80",
+        "price": "154,200",
+        "price_in_jpy": "15,420,000",
+        "isOld": true
+      },
+      {
+        "makername": "Ferrari",
+        "carid": "3443",
+        "carname": "308 GTB '75",
+        "price": "165,700",
+        "price_in_jpy": "16,570,000",
+        "isOld": true
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20240302",
     "date": "2024/3/2",
     "used": [
@@ -627,11 +666,5 @@
         "isOld": true
       }
     ]
-  },
-  {
-    "id": "20240218",
-    "date": "2024/2/18",
-    "used": [],
-    "legend": []
   }
 ]

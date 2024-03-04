@@ -1,5 +1,37 @@
 [
   {
+    "id": "20240304",
+    "date": "2024/3/4",
+    "used": [
+      {
+        "makername": "Abarth",
+        "carid": "3438",
+        "carname": "Abarth 595 SS '70",
+        "price": "48,900",
+        "price_in_jpy": "4,890,000",
+        "isOld": true
+      },
+      {
+        "makername": "Mitsubishi",
+        "carid": "931",
+        "carname": "Lancer Evolution III GSR '95",
+        "price": "97,000",
+        "price_in_jpy": "9,700,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Ferrari",
+        "carid": "2011",
+        "carname": "500 Mondial Pinin Farina Coupe '54",
+        "price": "2,700,000",
+        "price_in_jpy": "270,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240303",
     "date": "2024/3/3",
     "used": [
@@ -639,30 +671,6 @@
         "carname": "Cobra 427 '66",
         "price": "2,500,000",
         "price_in_jpy": "250,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240219",
-    "date": "2024/2/19",
-    "used": [
-      {
-        "makername": "Chevrolet",
-        "carid": "942",
-        "carname": "Corvette ZR-1 (C4) '89",
-        "price": "86,500",
-        "price_in_jpy": "8,650,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Alfa Romeo",
-        "carid": "365",
-        "carname": "155 2.5 V6 TI '93",
-        "price": "800,000",
-        "price_in_jpy": "80,000,000",
         "isOld": true
       }
     ]

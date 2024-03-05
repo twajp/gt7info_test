@@ -1,5 +1,53 @@
 [
   {
+    "id": "20240305",
+    "date": "2024/3/5",
+    "used": [
+      {
+        "makername": "TVR",
+        "carid": "187",
+        "carname": "Tuscan Speed 6 '00",
+        "price": "95,000",
+        "price_in_jpy": "9,500,000",
+        "isOld": true
+      },
+      {
+        "makername": "Honda",
+        "carid": "135",
+        "carname": "S800 '66",
+        "price": "45,700",
+        "price_in_jpy": "4,570,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Lamborghini",
+        "carid": "1582",
+        "carname": "Miura P400 Bertone Prototype '67",
+        "price": "3,750,000",
+        "price_in_jpy": "375,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Jaguar",
+        "carid": "3361",
+        "carname": "E-type Coupe '61",
+        "price": "227,000",
+        "price_in_jpy": "22,700,000",
+        "isOld": true
+      },
+      {
+        "makername": "Porsche",
+        "carid": "3410",
+        "carname": "917K '70",
+        "price": "18,000,000",
+        "price_in_jpy": "1,800,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240304",
     "date": "2024/3/4",
     "used": [
@@ -589,86 +637,6 @@
         "makername": "Maserati",
         "carid": "3489",
         "carname": "A6GCS/53 Spyder '54",
-        "price": "2,500,000",
-        "price_in_jpy": "250,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240220",
-    "date": "2024/2/20",
-    "used": [
-      {
-        "makername": "Dodge",
-        "carid": "3377",
-        "carname": "Super Bee '70",
-        "price": "80,000",
-        "price_in_jpy": "8,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Toyota",
-        "carid": "63",
-        "carname": "Corolla Levin 1600GT APEX (AE86) '83",
-        "price": "49,300",
-        "price_in_jpy": "4,930,000",
-        "isOld": true
-      },
-      {
-        "makername": "Audi",
-        "carid": "959",
-        "carname": "TT Coupe 3.2 quattro '03",
-        "price": "44,200",
-        "price_in_jpy": "4,420,000",
-        "isOld": false
-      },
-      {
-        "makername": "BMW",
-        "carid": "3453",
-        "carname": "M3 '89",
-        "price": "83,100",
-        "price_in_jpy": "8,310,000",
-        "isOld": true
-      },
-      {
-        "makername": "Toyota",
-        "carid": "345",
-        "carname": "Sprinter Trueno 1600GT APEX (S.Shigeno Version)",
-        "price": "105,900",
-        "price_in_jpy": "10,590,000",
-        "isOld": null
-      },
-      {
-        "makername": "Chevrolet",
-        "carid": "1480",
-        "carname": "Corvette ZR1 (C6) '09",
-        "price": "104,900",
-        "price_in_jpy": "10,490,000",
-        "isOld": false
-      },
-      {
-        "makername": "Honda",
-        "carid": "396",
-        "carname": "NSX Type R '02",
-        "price": "430,000",
-        "price_in_jpy": "43,000,000",
-        "isOld": false
-      },
-      {
-        "makername": "Audi",
-        "carid": "1365",
-        "carname": "R8 4.2 '07",
-        "price": "137,800",
-        "price_in_jpy": "13,780,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Shelby",
-        "carid": "315",
-        "carname": "Cobra 427 '66",
         "price": "2,500,000",
         "price_in_jpy": "250,000,000",
         "isOld": true

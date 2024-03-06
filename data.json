@@ -1,5 +1,45 @@
 [
   {
+    "id": "20240306",
+    "date": "2024/3/6",
+    "used": [
+      {
+        "makername": "Autobianchi",
+        "carid": "3442",
+        "carname": "A112 Abarth '85",
+        "price": "33,000",
+        "price_in_jpy": "3,300,000",
+        "isOld": true
+      },
+      {
+        "makername": "Lancia",
+        "carid": "829",
+        "carname": "Delta HF Integrale Evoluzione '91",
+        "price": "100,300",
+        "price_in_jpy": "10,030,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Chaparral",
+        "carid": "1069",
+        "carname": "2J '70",
+        "price": "2,500,000",
+        "price_in_jpy": "250,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Ferrari",
+        "carid": "1551",
+        "carname": "330 P4 '67",
+        "price": "20,000,000",
+        "price_in_jpy": "2,000,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240305",
     "date": "2024/3/5",
     "used": [
@@ -599,46 +639,6 @@
         "carname": "356 A/1500 GS Carrera '56",
         "price": "615,000",
         "price_in_jpy": "61,500,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240221",
-    "date": "2024/2/21",
-    "used": [
-      {
-        "makername": "Volkswagen",
-        "carid": "3403",
-        "carname": "Golf I GTI '83",
-        "price": "49,100",
-        "price_in_jpy": "4,910,000",
-        "isOld": true
-      },
-      {
-        "makername": "Volkswagen",
-        "carid": "1671",
-        "carname": "Sambabus Typ 2 '62",
-        "price": "59,000",
-        "price_in_jpy": "5,900,000",
-        "isOld": true
-      },
-      {
-        "makername": "Nissan",
-        "carid": "489",
-        "carname": "R33 GT-R V-spec '97",
-        "price": "156,200",
-        "price_in_jpy": "15,620,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Maserati",
-        "carid": "3489",
-        "carname": "A6GCS/53 Spyder '54",
-        "price": "2,500,000",
-        "price_in_jpy": "250,000,000",
         "isOld": true
       }
     ]

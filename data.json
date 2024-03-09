@@ -1,5 +1,36 @@
 [
   {
+    "id": "20240309",
+    "date": "2024/3/9",
+    "used": [
+      {
+        "makername": "Lancia",
+        "carid": "533",
+        "carname": "Stratos '73",
+        "price": "486,600",
+        "price_in_jpy": "48,660,000",
+        "isOld": true
+      },
+      {
+        "makername": "Dodge",
+        "carid": "1373",
+        "carname": "Viper GTS '02",
+        "price": "106,900",
+        "price_in_jpy": "10,690,000",
+        "isOld": false
+      },
+      {
+        "makername": "Nissan",
+        "carid": "1458",
+        "carname": "Fairlady Z (Z34) '08",
+        "price": "36,100",
+        "price_in_jpy": "3,610,000",
+        "isOld": false
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20240308",
     "date": "2024/3/8",
     "used": [
@@ -583,62 +614,6 @@
         "carname": "F50 '95",
         "price": "4,750,000",
         "price_in_jpy": "475,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240224",
-    "date": "2024/2/24",
-    "used": [
-      {
-        "makername": "Daihatsu",
-        "carid": "145",
-        "carname": "Copen '02",
-        "price": "13,400",
-        "price_in_jpy": "1,340,000",
-        "isOld": false
-      },
-      {
-        "makername": "Alpine",
-        "carid": "1796",
-        "carname": "A110 '72",
-        "price": "132,900",
-        "price_in_jpy": "13,290,000",
-        "isOld": true
-      },
-      {
-        "makername": "Toyota",
-        "carid": "3471",
-        "carname": "Celica GT-Four (ST205) '94",
-        "price": "70,300",
-        "price_in_jpy": "7,030,000",
-        "isOld": true
-      },
-      {
-        "makername": "Lamborghini",
-        "carid": "1481",
-        "carname": "Countach 25th Anniversary '88",
-        "price": "684,200",
-        "price_in_jpy": "68,420,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Mazda",
-        "carid": "1975",
-        "carname": "RX500 '70",
-        "price": "600,000",
-        "price_in_jpy": "60,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Plymouth",
-        "carid": "1900",
-        "carname": "XNR Ghia Roadster '60",
-        "price": "1,600,000",
-        "price_in_jpy": "160,000,000",
         "isOld": true
       }
     ]

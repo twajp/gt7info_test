@@ -1,5 +1,36 @@
 [
   {
+    "id": "20240310",
+    "date": "2024/3/10",
+    "used": [
+      {
+        "makername": "Nissan",
+        "carid": "48",
+        "carname": "Fairlady 240ZG (HS30) '71",
+        "price": "106,400",
+        "price_in_jpy": "10,640,000",
+        "isOld": true
+      },
+      {
+        "makername": "Dodge",
+        "carid": "3377",
+        "carname": "Super Bee '70",
+        "price": "71,700",
+        "price_in_jpy": "7,170,000",
+        "isOld": true
+      },
+      {
+        "makername": "Subaru",
+        "carid": "3432",
+        "carname": "Impreza Sedan WRX STi '04",
+        "price": "45,300",
+        "price_in_jpy": "4,530,000",
+        "isOld": false
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20240309",
     "date": "2024/3/9",
     "used": [
@@ -574,46 +605,6 @@
         "carname": "959 '87",
         "price": "1,750,000",
         "price_in_jpy": "175,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240225",
-    "date": "2024/2/25",
-    "used": [
-      {
-        "makername": "Toyota",
-        "carid": "1044",
-        "carname": "Sports 800 '65",
-        "price": "43,200",
-        "price_in_jpy": "4,320,000",
-        "isOld": true
-      },
-      {
-        "makername": "McLaren",
-        "carid": "1722",
-        "carname": "MP4-12C '10",
-        "price": "189,400",
-        "price_in_jpy": "18,940,000",
-        "isOld": false
-      },
-      {
-        "makername": "RUF",
-        "carid": "3398",
-        "carname": "CTR3 '07",
-        "price": "776,800",
-        "price_in_jpy": "77,680,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Ferrari",
-        "carid": "3362",
-        "carname": "F50 '95",
-        "price": "4,750,000",
-        "price_in_jpy": "475,000,000",
         "isOld": true
       }
     ]

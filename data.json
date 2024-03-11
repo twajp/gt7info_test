@@ -1,5 +1,45 @@
 [
   {
+    "id": "20240311",
+    "date": "2024/3/11",
+    "used": [
+      {
+        "makername": "BMW",
+        "carid": "3422",
+        "carname": "3.0 CSL '73",
+        "price": "203,800",
+        "price_in_jpy": "20,380,000",
+        "isOld": true
+      },
+      {
+        "makername": "Ferrari",
+        "carid": "1895",
+        "carname": "Dino 246 GT '71",
+        "price": "359,500",
+        "price_in_jpy": "35,950,000",
+        "isOld": true
+      },
+      {
+        "makername": "Ferrari",
+        "carid": "1410",
+        "carname": "512 BB '76",
+        "price": "284,500",
+        "price_in_jpy": "28,450,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "De Tomaso",
+        "carid": "3505",
+        "carname": "Mangusta (Christian Dior)",
+        "price": "500,000",
+        "price_in_jpy": "50,000,000",
+        "isOld": null
+      }
+    ]
+  },
+  {
     "id": "20240310",
     "date": "2024/3/10",
     "used": [
@@ -590,21 +630,6 @@
         "carname": "Countach LP400 '74",
         "price": "1,250,000",
         "price_in_jpy": "125,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240226",
-    "date": "2024/2/26",
-    "used": [],
-    "legend": [
-      {
-        "makername": "Porsche",
-        "carid": "3519",
-        "carname": "959 '87",
-        "price": "1,750,000",
-        "price_in_jpy": "175,000,000",
         "isOld": true
       }
     ]

@@ -1,5 +1,53 @@
 [
   {
+    "id": "20240312",
+    "date": "2024/3/12",
+    "used": [
+      {
+        "makername": "Chevrolet",
+        "carid": "1542",
+        "carname": "Corvette Convertible (C3) '69",
+        "price": "65,000",
+        "price_in_jpy": "6,500,000",
+        "isOld": true
+      },
+      {
+        "makername": "BMW",
+        "carid": "3454",
+        "carname": "3.0 CSL '71",
+        "price": "136,700",
+        "price_in_jpy": "13,670,000",
+        "isOld": true
+      },
+      {
+        "makername": "Mitsubishi",
+        "carid": "3384",
+        "carname": "GTO Twin Turbo '91",
+        "price": "42,000",
+        "price_in_jpy": "4,200,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Dodge",
+        "carid": "1543",
+        "carname": "Challenger R/T '70",
+        "price": "233,000",
+        "price_in_jpy": "23,300,000",
+        "isOld": true
+      },
+      {
+        "makername": "Ferrari",
+        "carid": "2018",
+        "carname": "365 GTB4 '71",
+        "price": "640,000",
+        "price_in_jpy": "64,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240311",
     "date": "2024/3/11",
     "used": [
@@ -574,62 +622,6 @@
         "carname": "XJ220 '92",
         "price": "615,000",
         "price_in_jpy": "61,500,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240227",
-    "date": "2024/2/27",
-    "used": [
-      {
-        "makername": "Ferrari",
-        "carid": "1410",
-        "carname": "512 BB '76",
-        "price": "350,000",
-        "price_in_jpy": "35,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Toyota",
-        "carid": "810",
-        "carname": "Sprinter Trueno 1600GT APEX (AE86) '83",
-        "price": "52,100",
-        "price_in_jpy": "5,210,000",
-        "isOld": true
-      },
-      {
-        "makername": "Nissan",
-        "carid": "24",
-        "carname": "180SX Type X '96",
-        "price": "58,300",
-        "price_in_jpy": "5,830,000",
-        "isOld": true
-      },
-      {
-        "makername": "Chevrolet",
-        "carid": "1542",
-        "carname": "Corvette Convertible (C3) '69",
-        "price": "48,500",
-        "price_in_jpy": "4,850,000",
-        "isOld": true
-      },
-      {
-        "makername": "Nissan",
-        "carid": "210",
-        "carname": "R34 GT-R V-spec II Nur '02",
-        "price": "396,000",
-        "price_in_jpy": "39,600,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Lamborghini",
-        "carid": "1484",
-        "carname": "Countach LP400 '74",
-        "price": "1,250,000",
-        "price_in_jpy": "125,000,000",
         "isOld": true
       }
     ]

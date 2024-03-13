@@ -1,5 +1,28 @@
 [
   {
+    "id": "20240313",
+    "date": "2024/3/13",
+    "used": [
+      {
+        "makername": "Porsche",
+        "carid": "3385",
+        "carname": "911 Turbo (930) '81",
+        "price": "218,100",
+        "price_in_jpy": "21,810,000",
+        "isOld": true
+      },
+      {
+        "makername": "Toyota",
+        "carid": "82",
+        "carname": "Supra RZ '97",
+        "price": "194,200",
+        "price_in_jpy": "19,420,000",
+        "isOld": true
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20240312",
     "date": "2024/3/12",
     "used": [
@@ -582,46 +605,6 @@
         "carname": "Corvette (C2) '63",
         "price": "249,000",
         "price_in_jpy": "24,900,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240228",
-    "date": "2024/2/28",
-    "used": [
-      {
-        "makername": "Alfa Romeo",
-        "carid": "1933",
-        "carname": "MiTo '09",
-        "price": "21,100",
-        "price_in_jpy": "2,110,000",
-        "isOld": false
-      },
-      {
-        "makername": "AMG",
-        "carid": "1507",
-        "carname": "SLS AMG '10",
-        "price": "321,100",
-        "price_in_jpy": "32,110,000",
-        "isOld": false
-      },
-      {
-        "makername": "Maserati",
-        "carid": "1539",
-        "carname": "GranTurismo S '08",
-        "price": "137,900",
-        "price_in_jpy": "13,790,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Jaguar",
-        "carid": "543",
-        "carname": "XJ220 '92",
-        "price": "615,000",
-        "price_in_jpy": "61,500,000",
         "isOld": true
       }
     ]

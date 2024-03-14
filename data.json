@@ -1,5 +1,61 @@
 [
   {
+    "id": "20240314",
+    "date": "2024/3/14",
+    "used": [
+      {
+        "makername": "Mazda",
+        "carid": "201",
+        "carname": "Eunos Roadster (NA) '89",
+        "price": "30,700",
+        "price_in_jpy": "3,070,000",
+        "isOld": true
+      },
+      {
+        "makername": "Honda",
+        "carid": "821",
+        "carname": "Civic Type R (EK) '97",
+        "price": "55,600",
+        "price_in_jpy": "5,560,000",
+        "isOld": true
+      },
+      {
+        "makername": "Fiat",
+        "carid": "1527",
+        "carname": "500 1.2 8V Lounge SS '08",
+        "price": "13,800",
+        "price_in_jpy": "1,380,000",
+        "isOld": false
+      },
+      {
+        "makername": "Mitsubishi",
+        "carid": "211",
+        "carname": "Lancer Evolution V GSR '98",
+        "price": "69,200",
+        "price_in_jpy": "6,920,000",
+        "isOld": true
+      },
+      {
+        "makername": "Nissan",
+        "carid": "1384",
+        "carname": "Fairlady Z Version S (Z33) '07",
+        "price": "27,400",
+        "price_in_jpy": "2,740,000",
+        "isOld": false
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Abarth",
+        "carid": "1932",
+        "carname": "1500 Biposto Bertone B.A.T 1 '52",
+        "price": "1,000,000",
+        "price_in_jpy": "100,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240313",
     "date": "2024/3/13",
     "used": [
@@ -525,86 +581,6 @@
         "carname": "962 C '88",
         "price": "1,500,000",
         "price_in_jpy": "150,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240229",
-    "date": "2024/2/29",
-    "used": [
-      {
-        "makername": "Audi",
-        "carid": "1541",
-        "carname": "TTS Coupe '09",
-        "price": "63,800",
-        "price_in_jpy": "6,380,000",
-        "isOld": false
-      },
-      {
-        "makername": "Mitsubishi",
-        "carid": "3424",
-        "carname": "Lancer Evolution IX MR GSR '06",
-        "price": "92,000",
-        "price_in_jpy": "9,200,000",
-        "isOld": false
-      },
-      {
-        "makername": "Renault",
-        "carid": "3547",
-        "carname": "R4 GTL '85",
-        "price": "24,400",
-        "price_in_jpy": "2,440,000",
-        "isOld": true
-      },
-      {
-        "makername": "Fiat",
-        "carid": "1523",
-        "carname": "500 F '68",
-        "price": "15,200",
-        "price_in_jpy": "1,520,000",
-        "isOld": true
-      },
-      {
-        "makername": "Alfa Romeo",
-        "carid": "3530",
-        "carname": "Giulia Sprint GT Veloce '67",
-        "price": "165,200",
-        "price_in_jpy": "16,520,000",
-        "isOld": true
-      },
-      {
-        "makername": "Nissan",
-        "carid": "709",
-        "carname": "Fairlady Z 300ZX TT 2seater '89",
-        "price": "57,400",
-        "price_in_jpy": "5,740,000",
-        "isOld": true
-      },
-      {
-        "makername": "MINI",
-        "carid": "1370",
-        "carname": "MINI Cooper S '05",
-        "price": "21,900",
-        "price_in_jpy": "2,190,000",
-        "isOld": false
-      },
-      {
-        "makername": "BMW",
-        "carid": "1893",
-        "carname": "Z8 '01",
-        "price": "257,300",
-        "price_in_jpy": "25,730,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Chevrolet",
-        "carid": "818",
-        "carname": "Corvette (C2) '63",
-        "price": "249,000",
-        "price_in_jpy": "24,900,000",
         "isOld": true
       }
     ]

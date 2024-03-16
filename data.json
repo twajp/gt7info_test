@@ -1,5 +1,69 @@
 [
   {
+    "id": "20240316",
+    "date": "2024/3/16",
+    "used": [
+      {
+        "makername": "Nissan",
+        "carid": "78",
+        "carname": "Silvia K's Aero (S14) '96",
+        "price": "59,000",
+        "price_in_jpy": "5,900,000",
+        "isOld": true
+      },
+      {
+        "makername": "Ford",
+        "carid": "1426",
+        "carname": "Ford GT '06",
+        "price": "409,800",
+        "price_in_jpy": "40,980,000",
+        "isOld": false
+      },
+      {
+        "makername": "TVR",
+        "carid": "187",
+        "carname": "Tuscan Speed 6 '00",
+        "price": "80,600",
+        "price_in_jpy": "8,060,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Nissan",
+        "carid": "836",
+        "carname": "Skyline 2000GT-R (KPGC110) '73",
+        "price": "542,000",
+        "price_in_jpy": "54,200,000",
+        "isOld": true
+      },
+      {
+        "makername": "Mercedes-Benz",
+        "carid": "3397",
+        "carname": "CLK-LM '98",
+        "price": "8,500,000",
+        "price_in_jpy": "850,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Alfa Romeo",
+        "carid": "3415",
+        "carname": "8C 2900B Touring Berlinetta '38",
+        "price": "20,000,000",
+        "price_in_jpy": "2,000,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Peugeot",
+        "carid": "105",
+        "carname": "205 Turbo 16 Evolution 2 '86",
+        "price": "1,100,000",
+        "price_in_jpy": "110,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240315",
     "date": "2024/3/15",
     "used": [
@@ -533,37 +597,6 @@
         "price": "165,700",
         "price_in_jpy": "16,570,000",
         "isOld": true
-      }
-    ],
-    "legend": []
-  },
-  {
-    "id": "20240302",
-    "date": "2024/3/2",
-    "used": [
-      {
-        "makername": "BMW",
-        "carid": "3344",
-        "carname": "M3 Sport Evolution '89",
-        "price": "179,000",
-        "price_in_jpy": "17,900,000",
-        "isOld": true
-      },
-      {
-        "makername": "Lamborghini",
-        "carid": "1545",
-        "carname": "Murcielago LP 640 '09",
-        "price": "314,000",
-        "price_in_jpy": "31,400,000",
-        "isOld": false
-      },
-      {
-        "makername": "Ferrari",
-        "carid": "1504",
-        "carname": "458 Italia '09",
-        "price": "244,900",
-        "price_in_jpy": "24,490,000",
-        "isOld": false
       }
     ],
     "legend": []

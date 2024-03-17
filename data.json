@@ -1,5 +1,45 @@
 [
   {
+    "id": "20240317",
+    "date": "2024/3/17",
+    "used": [
+      {
+        "makername": "Abarth",
+        "carid": "1973",
+        "carname": "Abarth 500 '09",
+        "price": "23,300",
+        "price_in_jpy": "2,330,000",
+        "isOld": false
+      },
+      {
+        "makername": "Nissan",
+        "carid": "3524",
+        "carname": "GT-R NISMO (R32) '90",
+        "price": "389,500",
+        "price_in_jpy": "38,950,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "BMW",
+        "carid": "216",
+        "carname": "McLaren F1 GTR Race Car '97",
+        "price": "14,000,000",
+        "price_in_jpy": "1,400,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Ford",
+        "carid": "3487",
+        "carname": "Mustang Boss 429 '69",
+        "price": "317,000",
+        "price_in_jpy": "31,700,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240316",
     "date": "2024/3/16",
     "used": [
@@ -561,44 +601,5 @@
         "isOld": true
       }
     ]
-  },
-  {
-    "id": "20240303",
-    "date": "2024/3/3",
-    "used": [
-      {
-        "makername": "Toyota",
-        "carid": "1537",
-        "carname": "Prius G '09",
-        "price": "20,000",
-        "price_in_jpy": "2,000,000",
-        "isOld": false
-      },
-      {
-        "makername": "Honda",
-        "carid": "204",
-        "carname": "Civic Type R (EK) '98",
-        "price": "58,400",
-        "price_in_jpy": "5,840,000",
-        "isOld": true
-      },
-      {
-        "makername": "Renault",
-        "carid": "173",
-        "carname": "R5 Turbo '80",
-        "price": "154,200",
-        "price_in_jpy": "15,420,000",
-        "isOld": true
-      },
-      {
-        "makername": "Ferrari",
-        "carid": "3443",
-        "carname": "308 GTB '75",
-        "price": "165,700",
-        "price_in_jpy": "16,570,000",
-        "isOld": true
-      }
-    ],
-    "legend": []
   }
 ]

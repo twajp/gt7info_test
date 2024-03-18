@@ -1,5 +1,61 @@
 [
   {
+    "id": "20240318",
+    "date": "2024/3/18",
+    "used": [
+      {
+        "makername": "Toyota",
+        "carid": "843",
+        "carname": "Supra 3.0GT Turbo A '88",
+        "price": "105,500",
+        "price_in_jpy": "10,550,000",
+        "isOld": true
+      },
+      {
+        "makername": "Subaru",
+        "carid": "379",
+        "carname": "Impreza Coupe WRX Type R STi Ver.VI '99",
+        "price": "52,600",
+        "price_in_jpy": "5,260,000",
+        "isOld": true
+      },
+      {
+        "makername": "Nissan",
+        "carid": "773",
+        "carname": "R32 GT-R V-spec II '94",
+        "price": "179,900",
+        "price_in_jpy": "17,990,000",
+        "isOld": true
+      },
+      {
+        "makername": "Mitsubishi",
+        "carid": "301",
+        "carname": "Lancer Evolution IV GSR '96",
+        "price": "46,600",
+        "price_in_jpy": "4,660,000",
+        "isOld": true
+      },
+      {
+        "makername": "BMW",
+        "carid": "1399",
+        "carname": "M3 '07",
+        "price": "70,000",
+        "price_in_jpy": "7,000,000",
+        "isOld": false
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Toyota",
+        "carid": "781",
+        "carname": "Celica GT-FOUR Rally Car (ST205) '95",
+        "price": "250,000",
+        "price_in_jpy": "25,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240317",
     "date": "2024/3/17",
     "used": [
@@ -566,38 +622,6 @@
         "carname": "917K '70",
         "price": "18,000,000",
         "price_in_jpy": "1,800,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240304",
-    "date": "2024/3/4",
-    "used": [
-      {
-        "makername": "Abarth",
-        "carid": "3438",
-        "carname": "Abarth 595 SS '70",
-        "price": "48,900",
-        "price_in_jpy": "4,890,000",
-        "isOld": true
-      },
-      {
-        "makername": "Mitsubishi",
-        "carid": "931",
-        "carname": "Lancer Evolution III GSR '95",
-        "price": "97,000",
-        "price_in_jpy": "9,700,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Ferrari",
-        "carid": "2011",
-        "carname": "500 Mondial Pinin Farina Coupe '54",
-        "price": "2,700,000",
-        "price_in_jpy": "270,000,000",
         "isOld": true
       }
     ]

@@ -1,5 +1,20 @@
 [
   {
+    "id": "20240320",
+    "date": "2024/3/20",
+    "used": [
+      {
+        "makername": "Ford",
+        "carid": "1729",
+        "carname": "Mustang Mach 1 '71",
+        "price": "37,500",
+        "price_in_jpy": "3,750,000",
+        "isOld": true
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20240319",
     "date": "2024/3/19",
     "used": [
@@ -598,46 +613,6 @@
         "carname": "DB3S '53",
         "price": "6,000,000",
         "price_in_jpy": "600,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240306",
-    "date": "2024/3/6",
-    "used": [
-      {
-        "makername": "Autobianchi",
-        "carid": "3442",
-        "carname": "A112 Abarth '85",
-        "price": "33,000",
-        "price_in_jpy": "3,300,000",
-        "isOld": true
-      },
-      {
-        "makername": "Lancia",
-        "carid": "829",
-        "carname": "Delta HF Integrale Evoluzione '91",
-        "price": "100,300",
-        "price_in_jpy": "10,030,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Chaparral",
-        "carid": "1069",
-        "carname": "2J '70",
-        "price": "2,500,000",
-        "price_in_jpy": "250,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Ferrari",
-        "carid": "1551",
-        "carname": "330 P4 '67",
-        "price": "20,000,000",
-        "price_in_jpy": "2,000,000,000",
         "isOld": true
       }
     ]

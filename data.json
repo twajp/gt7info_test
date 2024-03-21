@@ -1,5 +1,45 @@
 [
   {
+    "id": "20240321",
+    "date": "2024/3/21",
+    "used": [
+      {
+        "makername": "Porsche",
+        "carid": "3439",
+        "carname": "911 Carrera RS (993) '95",
+        "price": "215,200",
+        "price_in_jpy": "21,520,000",
+        "isOld": true
+      },
+      {
+        "makername": "Mazda",
+        "carid": "205",
+        "carname": "RX-7 Spirit R Type A (FD) '02",
+        "price": "221,200",
+        "price_in_jpy": "22,120,000",
+        "isOld": false
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Plymouth",
+        "carid": "665",
+        "carname": "Superbird '70",
+        "price": "529,000",
+        "price_in_jpy": "52,900,000",
+        "isOld": true
+      },
+      {
+        "makername": "Suzuki",
+        "carid": "808",
+        "carname": "V6 Escudo Pikes Peak Special spec.98",
+        "price": "1,700,000",
+        "price_in_jpy": "170,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240320",
     "date": "2024/3/20",
     "used": [
@@ -560,61 +600,5 @@
       }
     ],
     "legend": []
-  },
-  {
-    "id": "20240307",
-    "date": "2024/3/7",
-    "used": [
-      {
-        "makername": "Honda",
-        "carid": "514",
-        "carname": "S2000 '99",
-        "price": "97,200",
-        "price_in_jpy": "9,720,000",
-        "isOld": true
-      },
-      {
-        "makername": "Ferrari",
-        "carid": "3434",
-        "carname": "Testarossa '91",
-        "price": "369,000",
-        "price_in_jpy": "36,900,000",
-        "isOld": true
-      },
-      {
-        "makername": "Porsche",
-        "carid": "3404",
-        "carname": "911 Carrera RS CS (993) '95",
-        "price": "411,300",
-        "price_in_jpy": "41,130,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Ford",
-        "carid": "3444",
-        "carname": "1932 Ford Roadster Hot Rod",
-        "price": "400,000",
-        "price_in_jpy": "40,000,000",
-        "isOld": null
-      },
-      {
-        "makername": "McLaren",
-        "carid": "1540",
-        "carname": "McLaren F1 '94",
-        "price": "20,000,000",
-        "price_in_jpy": "2,000,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Aston Martin",
-        "carid": "3363",
-        "carname": "DB3S '53",
-        "price": "6,000,000",
-        "price_in_jpy": "600,000,000",
-        "isOld": true
-      }
-    ]
   }
 ]

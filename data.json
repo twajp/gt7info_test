@@ -1,5 +1,37 @@
 [
   {
+    "id": "20240325",
+    "date": "2024/3/25",
+    "used": [
+      {
+        "makername": "Daihatsu",
+        "carid": "145",
+        "carname": "Copen '02",
+        "price": "13,400",
+        "price_in_jpy": "1,340,000",
+        "isOld": false
+      },
+      {
+        "makername": "Alpine",
+        "carid": "1796",
+        "carname": "A110 '72",
+        "price": "132,900",
+        "price_in_jpy": "13,290,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Ferrari",
+        "carid": "2010",
+        "carname": "250 GTO '62",
+        "price": "20,000,000",
+        "price_in_jpy": "2,000,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240324",
     "date": "2024/3/24",
     "used": [
@@ -559,46 +591,6 @@
         "price": "640,000",
         "price_in_jpy": "64,000,000",
         "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240311",
-    "date": "2024/3/11",
-    "used": [
-      {
-        "makername": "BMW",
-        "carid": "3422",
-        "carname": "3.0 CSL '73",
-        "price": "203,800",
-        "price_in_jpy": "20,380,000",
-        "isOld": true
-      },
-      {
-        "makername": "Ferrari",
-        "carid": "1895",
-        "carname": "Dino 246 GT '71",
-        "price": "359,500",
-        "price_in_jpy": "35,950,000",
-        "isOld": true
-      },
-      {
-        "makername": "Ferrari",
-        "carid": "1410",
-        "carname": "512 BB '76",
-        "price": "284,500",
-        "price_in_jpy": "28,450,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "De Tomaso",
-        "carid": "3505",
-        "carname": "Mangusta (Christian Dior)",
-        "price": "500,000",
-        "price_in_jpy": "50,000,000",
-        "isOld": null
       }
     ]
   }

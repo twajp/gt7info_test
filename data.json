@@ -1,5 +1,44 @@
 [
   {
+    "id": "20240328",
+    "date": "2024/3/28",
+    "used": [
+      {
+        "makername": "Subaru",
+        "carid": "451",
+        "carname": "Impreza 22B-STi '98",
+        "price": "170,400",
+        "price_in_jpy": "17,040,000",
+        "isOld": true
+      },
+      {
+        "makername": "Chevrolet",
+        "carid": "41",
+        "carname": "Corvette Stingray (C3) '69",
+        "price": "59,200",
+        "price_in_jpy": "5,920,000",
+        "isOld": true
+      },
+      {
+        "makername": "Toyota",
+        "carid": "207",
+        "carname": "MR2 GT-S '97",
+        "price": "51,500",
+        "price_in_jpy": "5,150,000",
+        "isOld": true
+      },
+      {
+        "makername": "Honda",
+        "carid": "688",
+        "carname": "Integra Type R (DC2) '95",
+        "price": "54,300",
+        "price_in_jpy": "5,430,000",
+        "isOld": true
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20240327",
     "date": "2024/3/27",
     "used": [
@@ -610,61 +649,5 @@
       }
     ],
     "legend": []
-  },
-  {
-    "id": "20240314",
-    "date": "2024/3/14",
-    "used": [
-      {
-        "makername": "Mazda",
-        "carid": "201",
-        "carname": "Eunos Roadster (NA) '89",
-        "price": "30,700",
-        "price_in_jpy": "3,070,000",
-        "isOld": true
-      },
-      {
-        "makername": "Honda",
-        "carid": "821",
-        "carname": "Civic Type R (EK) '97",
-        "price": "55,600",
-        "price_in_jpy": "5,560,000",
-        "isOld": true
-      },
-      {
-        "makername": "Fiat",
-        "carid": "1527",
-        "carname": "500 1.2 8V Lounge SS '08",
-        "price": "13,800",
-        "price_in_jpy": "1,380,000",
-        "isOld": false
-      },
-      {
-        "makername": "Mitsubishi",
-        "carid": "211",
-        "carname": "Lancer Evolution V GSR '98",
-        "price": "69,200",
-        "price_in_jpy": "6,920,000",
-        "isOld": true
-      },
-      {
-        "makername": "Nissan",
-        "carid": "1384",
-        "carname": "Fairlady Z Version S (Z33) '07",
-        "price": "27,400",
-        "price_in_jpy": "2,740,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Abarth",
-        "carid": "1932",
-        "carname": "1500 Biposto Bertone B.A.T 1 '52",
-        "price": "1,000,000",
-        "price_in_jpy": "100,000,000",
-        "isOld": true
-      }
-    ]
   }
 ]

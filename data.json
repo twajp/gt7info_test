@@ -1,5 +1,29 @@
 [
   {
+    "id": "20240403",
+    "date": "2024/4/3",
+    "used": [
+      {
+        "makername": "Nissan",
+        "carid": "210",
+        "carname": "R34 GT-R V-spec II Nur '02",
+        "price": "396,600",
+        "price_in_jpy": "39,660,000",
+        "isOld": false
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Chevrolet",
+        "carid": "2059",
+        "carname": "Corvette Stingray Racer Concept '59",
+        "price": "4,000,000",
+        "price_in_jpy": "400,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240402",
     "date": "2024/4/2",
     "used": [
@@ -586,20 +610,5 @@
         "isOld": true
       }
     ]
-  },
-  {
-    "id": "20240320",
-    "date": "2024/3/20",
-    "used": [
-      {
-        "makername": "Ford",
-        "carid": "1729",
-        "carname": "Mustang Mach 1 '71",
-        "price": "37,500",
-        "price_in_jpy": "3,750,000",
-        "isOld": true
-      }
-    ],
-    "legend": []
   }
 ]

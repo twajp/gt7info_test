@@ -1,5 +1,36 @@
 [
   {
+    "id": "20240406",
+    "date": "2024/4/6",
+    "used": [
+      {
+        "makername": "Lancia",
+        "carid": "829",
+        "carname": "Delta HF Integrale Evoluzione '91",
+        "price": "101,900",
+        "price_in_jpy": "10,190,000",
+        "isOld": true
+      },
+      {
+        "makername": "Nissan",
+        "carid": "104",
+        "carname": "Sileighty '98",
+        "price": "72,400",
+        "price_in_jpy": "7,240,000",
+        "isOld": true
+      },
+      {
+        "makername": "Porsche",
+        "carid": "3359",
+        "carname": "911 GT3 (997) '09",
+        "price": "142,500",
+        "price_in_jpy": "14,250,000",
+        "isOld": false
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20240405",
     "date": "2024/4/5",
     "used": [
@@ -623,37 +654,6 @@
         "carname": "Lancer Evolution VI GSR T.M. SCP '99",
         "price": "178,300",
         "price_in_jpy": "17,830,000",
-        "isOld": true
-      }
-    ],
-    "legend": []
-  },
-  {
-    "id": "20240323",
-    "date": "2024/3/23",
-    "used": [
-      {
-        "makername": "Volkswagen",
-        "carid": "1671",
-        "carname": "Sambabus Typ 2 '62",
-        "price": "59,000",
-        "price_in_jpy": "5,900,000",
-        "isOld": true
-      },
-      {
-        "makername": "Nissan",
-        "carid": "3513",
-        "carname": "Silvia K's Type S (S14) '94",
-        "price": "53,800",
-        "price_in_jpy": "5,380,000",
-        "isOld": true
-      },
-      {
-        "makername": "Renault",
-        "carid": "334",
-        "carname": "Clio V6 24V '00",
-        "price": "86,100",
-        "price_in_jpy": "8,610,000",
         "isOld": true
       }
     ],

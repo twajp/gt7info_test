@@ -1,5 +1,44 @@
 [
   {
+    "id": "20240407",
+    "date": "2024/4/7",
+    "used": [
+      {
+        "makername": "Lancia",
+        "carid": "533",
+        "carname": "Stratos '73",
+        "price": "495,800",
+        "price_in_jpy": "49,580,000",
+        "isOld": true
+      },
+      {
+        "makername": "Dodge",
+        "carid": "3377",
+        "carname": "Super Bee '70",
+        "price": "71,900",
+        "price_in_jpy": "7,190,000",
+        "isOld": true
+      },
+      {
+        "makername": "Lamborghini",
+        "carid": "1545",
+        "carname": "Murcielago LP 640 '09",
+        "price": "337,200",
+        "price_in_jpy": "33,720,000",
+        "isOld": false
+      },
+      {
+        "makername": "Ferrari",
+        "carid": "1504",
+        "carname": "458 Italia '09",
+        "price": "248,000",
+        "price_in_jpy": "24,800,000",
+        "isOld": false
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20240406",
     "date": "2024/4/6",
     "used": [
@@ -619,44 +658,5 @@
         "isOld": true
       }
     ]
-  },
-  {
-    "id": "20240324",
-    "date": "2024/3/24",
-    "used": [
-      {
-        "makername": "Suzuki",
-        "carid": "1385",
-        "carname": "Swift Sport '07",
-        "price": "13,600",
-        "price_in_jpy": "1,360,000",
-        "isOld": false
-      },
-      {
-        "makername": "MINI",
-        "carid": "3356",
-        "carname": "Mini-Cooper 'S' '65",
-        "price": "38,200",
-        "price_in_jpy": "3,820,000",
-        "isOld": true
-      },
-      {
-        "makername": "Mazda",
-        "carid": "374",
-        "carname": "RX-7 GT-X (FC) '90",
-        "price": "60,200",
-        "price_in_jpy": "6,020,000",
-        "isOld": true
-      },
-      {
-        "makername": "Mitsubishi",
-        "carid": "1508",
-        "carname": "Lancer Evolution VI GSR T.M. SCP '99",
-        "price": "178,300",
-        "price_in_jpy": "17,830,000",
-        "isOld": true
-      }
-    ],
-    "legend": []
   }
 ]

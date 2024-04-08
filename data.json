@@ -1,5 +1,61 @@
 [
   {
+    "id": "20240408",
+    "date": "2024/4/8",
+    "used": [
+      {
+        "makername": "Suzuki",
+        "carid": "779",
+        "carname": "Cappuccino (EA11R) '91",
+        "price": "17,700",
+        "price_in_jpy": "1,770,000",
+        "isOld": true
+      },
+      {
+        "makername": "Nissan",
+        "carid": "48",
+        "carname": "Fairlady 240ZG (HS30) '71",
+        "price": "98,500",
+        "price_in_jpy": "9,850,000",
+        "isOld": true
+      },
+      {
+        "makername": "Subaru",
+        "carid": "3432",
+        "carname": "Impreza Sedan WRX STi '04",
+        "price": "47,100",
+        "price_in_jpy": "4,710,000",
+        "isOld": false
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Mercedes-Benz",
+        "carid": "3441",
+        "carname": "300 SL (W194) '52",
+        "price": "20,000,000",
+        "price_in_jpy": "2,000,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Nissan",
+        "carid": "954",
+        "carname": "R92CP '92",
+        "price": "2,000,000",
+        "price_in_jpy": "200,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Ford",
+        "carid": "1935",
+        "carname": "GT40 Mark I '66",
+        "price": "6,700,000",
+        "price_in_jpy": "670,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240407",
     "date": "2024/4/7",
     "used": [
@@ -623,38 +679,6 @@
         "carname": "2000GT '67",
         "price": "936,000",
         "price_in_jpy": "93,600,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240325",
-    "date": "2024/3/25",
-    "used": [
-      {
-        "makername": "Daihatsu",
-        "carid": "145",
-        "carname": "Copen '02",
-        "price": "13,400",
-        "price_in_jpy": "1,340,000",
-        "isOld": false
-      },
-      {
-        "makername": "Alpine",
-        "carid": "1796",
-        "carname": "A110 '72",
-        "price": "132,900",
-        "price_in_jpy": "13,290,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Ferrari",
-        "carid": "2010",
-        "carname": "250 GTO '62",
-        "price": "20,000,000",
-        "price_in_jpy": "2,000,000,000",
         "isOld": true
       }
     ]

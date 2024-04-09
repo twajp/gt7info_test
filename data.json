@@ -1,5 +1,29 @@
 [
   {
+    "id": "20240409",
+    "date": "2024/4/9",
+    "used": [
+      {
+        "makername": "Porsche",
+        "carid": "3439",
+        "carname": "911 Carrera RS (993) '95",
+        "price": "260,000",
+        "price_in_jpy": "26,000,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Lamborghini",
+        "carid": "1484",
+        "carname": "Countach LP400 '74",
+        "price": "1,250,000",
+        "price_in_jpy": "125,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240408",
     "date": "2024/4/8",
     "used": [
@@ -599,86 +623,6 @@
         "carname": "300 SEL 6.8 AMG '71",
         "price": "700,000",
         "price_in_jpy": "70,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240326",
-    "date": "2024/3/26",
-    "used": [
-      {
-        "makername": "BMW",
-        "carid": "3422",
-        "carname": "3.0 CSL '73",
-        "price": "250,000",
-        "price_in_jpy": "25,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Audi",
-        "carid": "959",
-        "carname": "TT Coupe 3.2 quattro '03",
-        "price": "44,200",
-        "price_in_jpy": "4,420,000",
-        "isOld": false
-      },
-      {
-        "makername": "BMW",
-        "carid": "3453",
-        "carname": "M3 '89",
-        "price": "83,100",
-        "price_in_jpy": "8,310,000",
-        "isOld": true
-      },
-      {
-        "makername": "Chevrolet",
-        "carid": "942",
-        "carname": "Corvette ZR-1 (C4) '89",
-        "price": "86,500",
-        "price_in_jpy": "8,650,000",
-        "isOld": true
-      },
-      {
-        "makername": "Toyota",
-        "carid": "345",
-        "carname": "Sprinter Trueno 1600GT APEX (S.Shigeno Version)",
-        "price": "105,900",
-        "price_in_jpy": "10,590,000",
-        "isOld": null
-      },
-      {
-        "makername": "Chevrolet",
-        "carid": "1480",
-        "carname": "Corvette ZR1 (C6) '09",
-        "price": "104,900",
-        "price_in_jpy": "10,490,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Nissan",
-        "carid": "485",
-        "carname": "GT-R GT500 '99",
-        "price": "2,700,000",
-        "price_in_jpy": "270,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Chevrolet",
-        "carid": "3464",
-        "carname": "Corvette (C1) '58",
-        "price": "121,000",
-        "price_in_jpy": "12,100,000",
-        "isOld": true
-      },
-      {
-        "makername": "Toyota",
-        "carid": "604",
-        "carname": "2000GT '67",
-        "price": "936,000",
-        "price_in_jpy": "93,600,000",
         "isOld": true
       }
     ]

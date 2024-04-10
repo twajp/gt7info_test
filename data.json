@@ -1,5 +1,36 @@
 [
   {
+    "id": "20240410",
+    "date": "2024/4/10",
+    "used": [
+      {
+        "makername": "BMW",
+        "carid": "3422",
+        "carname": "3.0 CSL '73",
+        "price": "211,200",
+        "price_in_jpy": "21,120,000",
+        "isOld": true
+      },
+      {
+        "makername": "Ferrari",
+        "carid": "1895",
+        "carname": "Dino 246 GT '71",
+        "price": "343,900",
+        "price_in_jpy": "34,390,000",
+        "isOld": true
+      },
+      {
+        "makername": "Mitsubishi",
+        "carid": "3384",
+        "carname": "GTO Twin Turbo '91",
+        "price": "40,000",
+        "price_in_jpy": "4,000,000",
+        "isOld": true
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20240409",
     "date": "2024/4/9",
     "used": [
@@ -562,69 +593,5 @@
       }
     ],
     "legend": []
-  },
-  {
-    "id": "20240327",
-    "date": "2024/3/27",
-    "used": [
-      {
-        "makername": "Toyota",
-        "carid": "1044",
-        "carname": "Sports 800 '65",
-        "price": "43,200",
-        "price_in_jpy": "4,320,000",
-        "isOld": true
-      },
-      {
-        "makername": "Honda",
-        "carid": "396",
-        "carname": "NSX Type R '02",
-        "price": "430,000",
-        "price_in_jpy": "43,000,000",
-        "isOld": false
-      },
-      {
-        "makername": "Audi",
-        "carid": "1365",
-        "carname": "R8 4.2 '07",
-        "price": "137,800",
-        "price_in_jpy": "13,780,000",
-        "isOld": false
-      },
-      {
-        "makername": "Nissan",
-        "carid": "489",
-        "carname": "R33 GT-R V-spec '97",
-        "price": "156,200",
-        "price_in_jpy": "15,620,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Jaguar",
-        "carid": "1067",
-        "carname": "XJR-9 '88",
-        "price": "3,000,000",
-        "price_in_jpy": "300,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Pontiac",
-        "carid": "3462",
-        "carname": "GTO 'The Judge' '69",
-        "price": "279,000",
-        "price_in_jpy": "27,900,000",
-        "isOld": true
-      },
-      {
-        "makername": "AMG",
-        "carid": "3388",
-        "carname": "300 SEL 6.8 AMG '71",
-        "price": "700,000",
-        "price_in_jpy": "70,000,000",
-        "isOld": true
-      }
-    ]
   }
 ]

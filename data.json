@@ -1,5 +1,53 @@
 [
   {
+    "id": "20240411",
+    "date": "2024/4/11",
+    "used": [
+      {
+        "makername": "BMW",
+        "carid": "3454",
+        "carname": "3.0 CSL '71",
+        "price": "141,500",
+        "price_in_jpy": "14,150,000",
+        "isOld": true
+      },
+      {
+        "makername": "Mazda",
+        "carid": "201",
+        "carname": "Eunos Roadster (NA) '89",
+        "price": "26,500",
+        "price_in_jpy": "2,650,000",
+        "isOld": true
+      },
+      {
+        "makername": "Porsche",
+        "carid": "3385",
+        "carname": "911 Turbo (930) '81",
+        "price": "215,600",
+        "price_in_jpy": "21,560,000",
+        "isOld": true
+      },
+      {
+        "makername": "Ferrari",
+        "carid": "3434",
+        "carname": "Testarossa '91",
+        "price": "372,000",
+        "price_in_jpy": "37,200,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Dodge",
+        "carid": "1543",
+        "carname": "Challenger R/T '70",
+        "price": "233,000",
+        "price_in_jpy": "23,300,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240410",
     "date": "2024/4/10",
     "used": [
@@ -554,44 +602,5 @@
         "isOld": true
       }
     ]
-  },
-  {
-    "id": "20240328",
-    "date": "2024/3/28",
-    "used": [
-      {
-        "makername": "Subaru",
-        "carid": "451",
-        "carname": "Impreza 22B-STi '98",
-        "price": "170,400",
-        "price_in_jpy": "17,040,000",
-        "isOld": true
-      },
-      {
-        "makername": "Chevrolet",
-        "carid": "41",
-        "carname": "Corvette Stingray (C3) '69",
-        "price": "59,200",
-        "price_in_jpy": "5,920,000",
-        "isOld": true
-      },
-      {
-        "makername": "Toyota",
-        "carid": "207",
-        "carname": "MR2 GT-S '97",
-        "price": "51,500",
-        "price_in_jpy": "5,150,000",
-        "isOld": true
-      },
-      {
-        "makername": "Honda",
-        "carid": "688",
-        "carname": "Integra Type R (DC2) '95",
-        "price": "54,300",
-        "price_in_jpy": "5,430,000",
-        "isOld": true
-      }
-    ],
-    "legend": []
   }
 ]

@@ -1,5 +1,36 @@
 [
   {
+    "id": "20240413",
+    "date": "2024/4/13",
+    "used": [
+      {
+        "makername": "Honda",
+        "carid": "821",
+        "carname": "Civic Type R (EK) '97",
+        "price": "58,100",
+        "price_in_jpy": "5,810,000",
+        "isOld": true
+      },
+      {
+        "makername": "Mitsubishi",
+        "carid": "211",
+        "carname": "Lancer Evolution V GSR '98",
+        "price": "77,500",
+        "price_in_jpy": "7,750,000",
+        "isOld": true
+      },
+      {
+        "makername": "Honda",
+        "carid": "293",
+        "carname": "NSX Type R '92",
+        "price": "398,700",
+        "price_in_jpy": "39,870,000",
+        "isOld": true
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20240412",
     "date": "2024/4/12",
     "used": [
@@ -551,30 +582,6 @@
         "carname": "R8 Gordini '66",
         "price": "32,500",
         "price_in_jpy": "3,250,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240330",
-    "date": "2024/3/30",
-    "used": [
-      {
-        "makername": "Lamborghini",
-        "carid": "1481",
-        "carname": "Countach 25th Anniversary '88",
-        "price": "711,800",
-        "price_in_jpy": "71,180,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Ford",
-        "carid": "1565",
-        "carname": "Mark IV Race Car '67",
-        "price": "6,750,000",
-        "price_in_jpy": "675,000,000",
         "isOld": true
       }
     ]

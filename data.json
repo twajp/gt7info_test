@@ -1,5 +1,69 @@
 [
   {
+    "id": "20240417",
+    "date": "2024/4/17",
+    "used": [
+      {
+        "makername": "Abarth",
+        "carid": "1973",
+        "carname": "Abarth 500 '09",
+        "price": "22,100",
+        "price_in_jpy": "2,210,000",
+        "isOld": false
+      },
+      {
+        "makername": "Renault",
+        "carid": "3547",
+        "carname": "R4 GTL '85",
+        "price": "24,100",
+        "price_in_jpy": "2,410,000",
+        "isOld": true
+      },
+      {
+        "makername": "Honda",
+        "carid": "203",
+        "carname": "Integra Type R (DC2) '98",
+        "price": "62,100",
+        "price_in_jpy": "6,210,000",
+        "isOld": true
+      },
+      {
+        "makername": "Ford",
+        "carid": "1729",
+        "carname": "Mustang Mach 1 '71",
+        "price": "36,800",
+        "price_in_jpy": "3,680,000",
+        "isOld": true
+      },
+      {
+        "makername": "Chevrolet",
+        "carid": "1542",
+        "carname": "Corvette Convertible (C3) '69",
+        "price": "50,900",
+        "price_in_jpy": "5,090,000",
+        "isOld": true
+      },
+      {
+        "makername": "Ferrari",
+        "carid": "1410",
+        "carname": "512 BB '76",
+        "price": "309,000",
+        "price_in_jpy": "30,900,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Honda",
+        "carid": "3525",
+        "carname": "RA272 '65",
+        "price": "2,500,000",
+        "price_in_jpy": "250,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240416",
     "date": "2024/4/16",
     "used": [
@@ -607,30 +671,6 @@
         "carname": "Sauber Mercedes C9 '89",
         "price": "3,500,000",
         "price_in_jpy": "350,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240403",
-    "date": "2024/4/3",
-    "used": [
-      {
-        "makername": "Nissan",
-        "carid": "210",
-        "carname": "R34 GT-R V-spec II Nur '02",
-        "price": "396,600",
-        "price_in_jpy": "39,660,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Chevrolet",
-        "carid": "2059",
-        "carname": "Corvette Stingray Racer Concept '59",
-        "price": "4,000,000",
-        "price_in_jpy": "400,000,000",
         "isOld": true
       }
     ]

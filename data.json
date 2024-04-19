@@ -1,5 +1,37 @@
 [
   {
+    "id": "20240419",
+    "date": "2024/4/19",
+    "used": [
+      {
+        "makername": "Toyota",
+        "carid": "82",
+        "carname": "Supra RZ '97",
+        "price": "192,300",
+        "price_in_jpy": "19,230,000",
+        "isOld": true
+      },
+      {
+        "makername": "Nissan",
+        "carid": "1384",
+        "carname": "Fairlady Z Version S (Z33) '07",
+        "price": "26,800",
+        "price_in_jpy": "2,680,000",
+        "isOld": false
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Audi",
+        "carid": "1927",
+        "carname": "Sport quattro S1 Pikes Peak '87",
+        "price": "1,900,000",
+        "price_in_jpy": "190,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240418",
     "date": "2024/4/18",
     "used": [
@@ -562,85 +594,5 @@
       }
     ],
     "legend": []
-  },
-  {
-    "id": "20240405",
-    "date": "2024/4/5",
-    "used": [
-      {
-        "makername": "Honda",
-        "carid": "135",
-        "carname": "S800 '66",
-        "price": "49,600",
-        "price_in_jpy": "4,960,000",
-        "isOld": true
-      },
-      {
-        "makername": "Autobianchi",
-        "carid": "3442",
-        "carname": "A112 Abarth '85",
-        "price": "31,800",
-        "price_in_jpy": "3,180,000",
-        "isOld": true
-      },
-      {
-        "makername": "Ford",
-        "carid": "3466",
-        "carname": "Sierra RS 500 Cosworth '87",
-        "price": "193,500",
-        "price_in_jpy": "19,350,000",
-        "isOld": true
-      },
-      {
-        "makername": "Maserati",
-        "carid": "1539",
-        "carname": "GranTurismo S '08",
-        "price": "147,400",
-        "price_in_jpy": "14,740,000",
-        "isOld": false
-      },
-      {
-        "makername": "BMW",
-        "carid": "1893",
-        "carname": "Z8 '01",
-        "price": "259,100",
-        "price_in_jpy": "25,910,000",
-        "isOld": false
-      },
-      {
-        "makername": "Honda",
-        "carid": "1689",
-        "carname": "Civic Type R (EK) Touring Car",
-        "price": "115,400",
-        "price_in_jpy": "11,540,000",
-        "isOld": null
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Plymouth",
-        "carid": "665",
-        "carname": "Superbird '70",
-        "price": "529,000",
-        "price_in_jpy": "52,900,000",
-        "isOld": true
-      },
-      {
-        "makername": "Ferrari",
-        "carid": "2017",
-        "carname": "GTO '84",
-        "price": "3,550,000",
-        "price_in_jpy": "355,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Lamborghini",
-        "carid": "1582",
-        "carname": "Miura P400 Bertone Prototype '67",
-        "price": "3,750,000",
-        "price_in_jpy": "375,000,000",
-        "isOld": true
-      }
-    ]
   }
 ]

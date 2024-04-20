@@ -1,5 +1,20 @@
 [
   {
+    "id": "20240420",
+    "date": "2024/4/20",
+    "used": [],
+    "legend": [
+      {
+        "makername": "Ferrari",
+        "carid": "1551",
+        "carname": "330 P4 '67",
+        "price": "20,000,000",
+        "price_in_jpy": "2,000,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240419",
     "date": "2024/4/19",
     "used": [
@@ -559,37 +574,6 @@
         "carname": "458 Italia '09",
         "price": "248,000",
         "price_in_jpy": "24,800,000",
-        "isOld": false
-      }
-    ],
-    "legend": []
-  },
-  {
-    "id": "20240406",
-    "date": "2024/4/6",
-    "used": [
-      {
-        "makername": "Lancia",
-        "carid": "829",
-        "carname": "Delta HF Integrale Evoluzione '91",
-        "price": "101,900",
-        "price_in_jpy": "10,190,000",
-        "isOld": true
-      },
-      {
-        "makername": "Nissan",
-        "carid": "104",
-        "carname": "Sileighty '98",
-        "price": "72,400",
-        "price_in_jpy": "7,240,000",
-        "isOld": true
-      },
-      {
-        "makername": "Porsche",
-        "carid": "3359",
-        "carname": "911 GT3 (997) '09",
-        "price": "142,500",
-        "price_in_jpy": "14,250,000",
         "isOld": false
       }
     ],

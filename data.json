@@ -1,5 +1,69 @@
 [
   {
+    "id": "20240423",
+    "date": "2024/4/23",
+    "used": [
+      {
+        "makername": "Ferrari",
+        "carid": "3434",
+        "carname": "Testarossa '91",
+        "price": "450,000",
+        "price_in_jpy": "45,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Daihatsu",
+        "carid": "145",
+        "carname": "Copen '02",
+        "price": "13,000",
+        "price_in_jpy": "1,300,000",
+        "isOld": false
+      },
+      {
+        "makername": "Toyota",
+        "carid": "3471",
+        "carname": "Celica GT-Four (ST205) '94",
+        "price": "80,700",
+        "price_in_jpy": "8,070,000",
+        "isOld": true
+      },
+      {
+        "makername": "Nissan",
+        "carid": "3524",
+        "carname": "GT-R NISMO (R32) '90",
+        "price": "390,000",
+        "price_in_jpy": "39,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "BMW",
+        "carid": "1399",
+        "carname": "M3 '07",
+        "price": "69,900",
+        "price_in_jpy": "6,990,000",
+        "isOld": false
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Ferrari",
+        "carid": "2018",
+        "carname": "365 GTB4 '71",
+        "price": "640,000",
+        "price_in_jpy": "64,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Porsche",
+        "carid": "3509",
+        "carname": "911 Carrera RS (901) '73",
+        "price": "745,000",
+        "price_in_jpy": "74,500,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240422",
     "date": "2024/4/22",
     "used": [
@@ -546,29 +610,5 @@
       }
     ],
     "legend": []
-  },
-  {
-    "id": "20240409",
-    "date": "2024/4/9",
-    "used": [
-      {
-        "makername": "Porsche",
-        "carid": "3439",
-        "carname": "911 Carrera RS (993) '95",
-        "price": "260,000",
-        "price_in_jpy": "26,000,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Lamborghini",
-        "carid": "1484",
-        "carname": "Countach LP400 '74",
-        "price": "1,250,000",
-        "price_in_jpy": "125,000,000",
-        "isOld": true
-      }
-    ]
   }
 ]

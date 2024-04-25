@@ -1,5 +1,68 @@
 [
   {
+    "id": "20240425",
+    "date": "2024/4/25",
+    "used": [
+      {
+        "makername": "Honda",
+        "carid": "821",
+        "carname": "Civic Type R (EK) '97",
+        "price": "65,000",
+        "price_in_jpy": "6,500,000",
+        "isOld": true
+      },
+      {
+        "makername": "Honda",
+        "carid": "204",
+        "carname": "Civic Type R (EK) '98",
+        "price": "65,000",
+        "price_in_jpy": "6,500,000",
+        "isOld": true
+      },
+      {
+        "makername": "Honda",
+        "carid": "1689",
+        "carname": "Civic Type R (EK) Touring Car",
+        "price": "140,000",
+        "price_in_jpy": "14,000,000",
+        "isOld": null
+      },
+      {
+        "makername": "Nissan",
+        "carid": "3513",
+        "carname": "Silvia K's Type S (S14) '94",
+        "price": "53,900",
+        "price_in_jpy": "5,390,000",
+        "isOld": true
+      },
+      {
+        "makername": "MINI",
+        "carid": "1370",
+        "carname": "MINI Cooper S '05",
+        "price": "21,900",
+        "price_in_jpy": "2,190,000",
+        "isOld": false
+      },
+      {
+        "makername": "Renault",
+        "carid": "334",
+        "carname": "Clio V6 24V '00",
+        "price": "82,300",
+        "price_in_jpy": "8,230,000",
+        "isOld": true
+      },
+      {
+        "makername": "Honda",
+        "carid": "396",
+        "carname": "NSX Type R '02",
+        "price": "431,600",
+        "price_in_jpy": "43,160,000",
+        "isOld": false
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20240424",
     "date": "2024/4/24",
     "used": [
@@ -608,54 +671,6 @@
         "carname": "356 A/1500 GS GT Carrera Speedster '56",
         "price": "1,500,000",
         "price_in_jpy": "150,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240411",
-    "date": "2024/4/11",
-    "used": [
-      {
-        "makername": "BMW",
-        "carid": "3454",
-        "carname": "3.0 CSL '71",
-        "price": "141,500",
-        "price_in_jpy": "14,150,000",
-        "isOld": true
-      },
-      {
-        "makername": "Mazda",
-        "carid": "201",
-        "carname": "Eunos Roadster (NA) '89",
-        "price": "26,500",
-        "price_in_jpy": "2,650,000",
-        "isOld": true
-      },
-      {
-        "makername": "Porsche",
-        "carid": "3385",
-        "carname": "911 Turbo (930) '81",
-        "price": "215,600",
-        "price_in_jpy": "21,560,000",
-        "isOld": true
-      },
-      {
-        "makername": "Ferrari",
-        "carid": "3434",
-        "carname": "Testarossa '91",
-        "price": "372,000",
-        "price_in_jpy": "37,200,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Dodge",
-        "carid": "1543",
-        "carname": "Challenger R/T '70",
-        "price": "233,000",
-        "price_in_jpy": "23,300,000",
         "isOld": true
       }
     ]

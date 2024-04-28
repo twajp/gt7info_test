@@ -1,5 +1,20 @@
 [
   {
+    "id": "20240428",
+    "date": "2024/4/28",
+    "used": [],
+    "legend": [
+      {
+        "makername": "Mercedes-Benz",
+        "carid": "575",
+        "carname": "190 E 2.5-16 Evolution II '91",
+        "price": "300,000",
+        "price_in_jpy": "30,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240427",
     "date": "2024/4/27",
     "used": [
@@ -631,78 +646,6 @@
         "carname": "DS 21 Pallas '70",
         "price": "49,600",
         "price_in_jpy": "4,960,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240414",
-    "date": "2024/4/14",
-    "used": [
-      {
-        "makername": "Fiat",
-        "carid": "1527",
-        "carname": "500 1.2 8V Lounge SS '08",
-        "price": "13,300",
-        "price_in_jpy": "1,330,000",
-        "isOld": false
-      },
-      {
-        "makername": "Nissan",
-        "carid": "78",
-        "carname": "Silvia K's Aero (S14) '96",
-        "price": "59,300",
-        "price_in_jpy": "5,930,000",
-        "isOld": true
-      },
-      {
-        "makername": "Porsche",
-        "carid": "3358",
-        "carname": "911 GT3 (996) '01",
-        "price": "155,500",
-        "price_in_jpy": "15,550,000",
-        "isOld": false
-      },
-      {
-        "makername": "Dodge",
-        "carid": "1402",
-        "carname": "Viper SRT10 Coupe '06",
-        "price": "115,000",
-        "price_in_jpy": "11,500,000",
-        "isOld": false
-      },
-      {
-        "makername": "Mitsubishi",
-        "carid": "3424",
-        "carname": "Lancer Evolution IX MR GSR '06",
-        "price": "99,700",
-        "price_in_jpy": "9,970,000",
-        "isOld": false
-      },
-      {
-        "makername": "Dodge",
-        "carid": "1373",
-        "carname": "Viper GTS '02",
-        "price": "105,600",
-        "price_in_jpy": "10,560,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Alfa Romeo",
-        "carid": "1645",
-        "carname": "GIULIA TZ2 carrozzata da ZAGATO '65",
-        "price": "3,750,000",
-        "price_in_jpy": "375,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Shelby",
-        "carid": "1925",
-        "carname": "G.T.350 '65",
-        "price": "460,000",
-        "price_in_jpy": "46,000,000",
         "isOld": true
       }
     ]

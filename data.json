@@ -1,5 +1,28 @@
 [
   {
+    "id": "20240503",
+    "date": "2024/5/3",
+    "used": [],
+    "legend": [
+      {
+        "makername": "Lamborghini",
+        "carid": "1484",
+        "carname": "Countach LP400 '74",
+        "price": "1,250,000",
+        "price_in_jpy": "125,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Dodge",
+        "carid": "3538",
+        "carname": "Charger R/T 426 Hemi '68",
+        "price": "158,000",
+        "price_in_jpy": "15,800,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240502",
     "date": "2024/5/2",
     "used": [
@@ -614,38 +637,6 @@
         "carname": "330 P4 '67",
         "price": "20,000,000",
         "price_in_jpy": "2,000,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240419",
-    "date": "2024/4/19",
-    "used": [
-      {
-        "makername": "Toyota",
-        "carid": "82",
-        "carname": "Supra RZ '97",
-        "price": "192,300",
-        "price_in_jpy": "19,230,000",
-        "isOld": true
-      },
-      {
-        "makername": "Nissan",
-        "carid": "1384",
-        "carname": "Fairlady Z Version S (Z33) '07",
-        "price": "26,800",
-        "price_in_jpy": "2,680,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Audi",
-        "carid": "1927",
-        "carname": "Sport quattro S1 Pikes Peak '87",
-        "price": "1,900,000",
-        "price_in_jpy": "190,000,000",
         "isOld": true
       }
     ]

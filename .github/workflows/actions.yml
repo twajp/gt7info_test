@@ -5,7 +5,7 @@ on:
     - cron: 54 23 * * *
   push:
     branches:
-      - main
+      - master
   workflow_dispatch:
 
 jobs:

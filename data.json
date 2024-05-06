@@ -1,5 +1,44 @@
 [
   {
+    "id": "20240506",
+    "date": "2024/5/6",
+    "used": [
+      {
+        "makername": "Abarth",
+        "carid": "3438",
+        "carname": "Abarth 595 SS '70",
+        "price": "57,000",
+        "price_in_jpy": "5,700,000",
+        "isOld": true
+      },
+      {
+        "makername": "Honda",
+        "carid": "135",
+        "carname": "S800 '66",
+        "price": "49,600",
+        "price_in_jpy": "4,960,000",
+        "isOld": true
+      },
+      {
+        "makername": "Ferrari",
+        "carid": "3443",
+        "carname": "308 GTB '75",
+        "price": "166,400",
+        "price_in_jpy": "16,640,000",
+        "isOld": true
+      },
+      {
+        "makername": "Mitsubishi",
+        "carid": "931",
+        "carname": "Lancer Evolution III GSR '95",
+        "price": "87,800",
+        "price_in_jpy": "8,780,000",
+        "isOld": true
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20240505",
     "date": "2024/5/5",
     "used": [
@@ -606,54 +645,6 @@
         "carname": "911 Carrera RS (901) '73",
         "price": "745,000",
         "price_in_jpy": "74,500,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240422",
-    "date": "2024/4/22",
-    "used": [
-      {
-        "makername": "Pontiac",
-        "carid": "1985",
-        "carname": "Firebird Trans Am '78",
-        "price": "81,700",
-        "price_in_jpy": "8,170,000",
-        "isOld": true
-      },
-      {
-        "makername": "Mitsubishi",
-        "carid": "1508",
-        "carname": "Lancer Evolution VI GSR T.M. SCP '99",
-        "price": "168,100",
-        "price_in_jpy": "16,810,000",
-        "isOld": true
-      },
-      {
-        "makername": "Ford",
-        "carid": "1426",
-        "carname": "Ford GT '06",
-        "price": "399,300",
-        "price_in_jpy": "39,930,000",
-        "isOld": false
-      },
-      {
-        "makername": "TVR",
-        "carid": "187",
-        "carname": "Tuscan Speed 6 '00",
-        "price": "72,500",
-        "price_in_jpy": "7,250,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "NISMO",
-        "carid": "3520",
-        "carname": "400R '95",
-        "price": "1,800,000",
-        "price_in_jpy": "180,000,000",
         "isOld": true
       }
     ]

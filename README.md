@@ -6,6 +6,6 @@ Cars available only as used cars are highlighted in red.
 Cars with unknown year are highlighted in yellow.  
 
 ## Links
-[For GT7 Global Version](https://twajp.github.io/test/)  
-[For GT7 Japanese Version](https://twajp.github.io/test/jp)  
-[Simple (No Price Column)](https://twajp.github.io/test/simple)  
+[For GT7 Global Version](https://twajp.github.io/gt7info_test/)  
+[For GT7 Japanese Version](https://twajp.github.io/gt7info_test/jp)  
+[Simple (No Price Column)](https://twajp.github.io/gt7info_test/simple)  

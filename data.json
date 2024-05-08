@@ -1,5 +1,45 @@
 [
   {
+    "id": "20240508",
+    "date": "2024/5/8",
+    "used": [
+      {
+        "makername": "Lancia",
+        "carid": "829",
+        "carname": "Delta HF Integrale Evoluzione '91",
+        "price": "101,900",
+        "price_in_jpy": "10,190,000",
+        "isOld": true
+      },
+      {
+        "makername": "Ford",
+        "carid": "3466",
+        "carname": "Sierra RS 500 Cosworth '87",
+        "price": "193,500",
+        "price_in_jpy": "19,350,000",
+        "isOld": true
+      },
+      {
+        "makername": "Nissan",
+        "carid": "104",
+        "carname": "Sileighty '98",
+        "price": "72,400",
+        "price_in_jpy": "7,240,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Ferrari",
+        "carid": "1931",
+        "carname": "250 GT Berlinetta passo corto '61",
+        "price": "8,400,000",
+        "price_in_jpy": "840,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240507",
     "date": "2024/5/7",
     "used": [
@@ -552,85 +592,5 @@
       }
     ],
     "legend": []
-  },
-  {
-    "id": "20240424",
-    "date": "2024/4/24",
-    "used": [
-      {
-        "makername": "Suzuki",
-        "carid": "1385",
-        "carname": "Swift Sport '07",
-        "price": "12,200",
-        "price_in_jpy": "1,220,000",
-        "isOld": false
-      },
-      {
-        "makername": "Volkswagen",
-        "carid": "3403",
-        "carname": "Golf I GTI '83",
-        "price": "46,700",
-        "price_in_jpy": "4,670,000",
-        "isOld": true
-      },
-      {
-        "makername": "Alpine",
-        "carid": "1796",
-        "carname": "A110 '72",
-        "price": "137,500",
-        "price_in_jpy": "13,750,000",
-        "isOld": true
-      },
-      {
-        "makername": "Nissan",
-        "carid": "24",
-        "carname": "180SX Type X '96",
-        "price": "48,500",
-        "price_in_jpy": "4,850,000",
-        "isOld": true
-      },
-      {
-        "makername": "DMC",
-        "carid": "1027",
-        "carname": "DeLorean S2 '04",
-        "price": "451,600",
-        "price_in_jpy": "45,160,000",
-        "isOld": false
-      },
-      {
-        "makername": "Porsche",
-        "carid": "3431",
-        "carname": "911 Carrera RS (964) '92",
-        "price": "226,500",
-        "price_in_jpy": "22,650,000",
-        "isOld": true
-      },
-      {
-        "makername": "Audi",
-        "carid": "1541",
-        "carname": "TTS Coupe '09",
-        "price": "63,100",
-        "price_in_jpy": "6,310,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Chevrolet",
-        "carid": "31",
-        "carname": "Camaro Z28 '69",
-        "price": "119,000",
-        "price_in_jpy": "11,900,000",
-        "isOld": true
-      },
-      {
-        "makername": "Jeep",
-        "carid": "3430",
-        "carname": "Willys MB '45",
-        "price": "30,100",
-        "price_in_jpy": "3,010,000",
-        "isOld": true
-      }
-    ]
   }
 ]

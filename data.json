@@ -1,5 +1,29 @@
 [
   {
+    "id": "20240524",
+    "date": "2024/5/24",
+    "used": [
+      {
+        "makername": "Nissan",
+        "carid": "1458",
+        "carname": "Fairlady Z (Z34) '08",
+        "price": "36,000",
+        "price_in_jpy": "3,600,000",
+        "isOld": false
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Porsche",
+        "carid": "3519",
+        "carname": "959 '87",
+        "price": "1,750,000",
+        "price_in_jpy": "175,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240523",
     "date": "2024/5/23",
     "used": [
@@ -560,46 +584,6 @@
         "carname": "Skyline Super Silhouette Group 5 '84",
         "price": "1,150,000",
         "price_in_jpy": "115,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240510",
-    "date": "2024/5/10",
-    "used": [
-      {
-        "makername": "Dodge",
-        "carid": "3377",
-        "carname": "Super Bee '70",
-        "price": "71,900",
-        "price_in_jpy": "7,190,000",
-        "isOld": true
-      },
-      {
-        "makername": "Porsche",
-        "carid": "3439",
-        "carname": "911 Carrera RS (993) '95",
-        "price": "215,600",
-        "price_in_jpy": "21,560,000",
-        "isOld": true
-      },
-      {
-        "makername": "McLaren",
-        "carid": "1722",
-        "carname": "MP4-12C '10",
-        "price": "197,300",
-        "price_in_jpy": "19,730,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Toyota",
-        "carid": "116",
-        "carname": "GT-One (TS020) '99",
-        "price": "2,500,000",
-        "price_in_jpy": "250,000,000",
         "isOld": true
       }
     ]

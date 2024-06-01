@@ -1,5 +1,77 @@
 [
   {
+    "id": "20240601",
+    "date": "2024/6/1",
+    "used": [
+      {
+        "makername": "Fiat",
+        "carid": "1523",
+        "carname": "500 F '68",
+        "price": "17,800",
+        "price_in_jpy": "1,780,000",
+        "isOld": true
+      },
+      {
+        "makername": "Subaru",
+        "carid": "451",
+        "carname": "Impreza 22B-STi '98",
+        "price": "177,300",
+        "price_in_jpy": "17,730,000",
+        "isOld": true
+      },
+      {
+        "makername": "Chevrolet",
+        "carid": "41",
+        "carname": "Corvette Stingray (C3) '69",
+        "price": "51,500",
+        "price_in_jpy": "5,150,000",
+        "isOld": true
+      },
+      {
+        "makername": "BMW",
+        "carid": "1399",
+        "carname": "M3 '07",
+        "price": "69,900",
+        "price_in_jpy": "6,990,000",
+        "isOld": false
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Chevrolet",
+        "carid": "36",
+        "carname": "Chevelle SS 454 Sport Coupé '70",
+        "price": "172,000",
+        "price_in_jpy": "17,200,000",
+        "isOld": true
+      },
+      {
+        "makername": "Porsche",
+        "carid": "3410",
+        "carname": "917K '70",
+        "price": "18,000,000",
+        "price_in_jpy": "1,800,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Chaparral",
+        "carid": "1069",
+        "carname": "2J '70",
+        "price": "2,500,000",
+        "price_in_jpy": "250,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Ferrari",
+        "carid": "1551",
+        "carname": "330 P4 '67",
+        "price": "20,000,000",
+        "price_in_jpy": "2,000,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240531",
     "date": "2024/5/31",
     "used": [
@@ -632,38 +704,6 @@
         "carname": "A6GCS/53 Spyder '54",
         "price": "2,500,000",
         "price_in_jpy": "250,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240518",
-    "date": "2024/5/18",
-    "used": [
-      {
-        "makername": "Toyota",
-        "carid": "843",
-        "carname": "Supra 3.0GT Turbo A '88",
-        "price": "115,900",
-        "price_in_jpy": "11,590,000",
-        "isOld": true
-      },
-      {
-        "makername": "Subaru",
-        "carid": "379",
-        "carname": "Impreza Coupe WRX Type R STi Ver.VI '99",
-        "price": "53,600",
-        "price_in_jpy": "5,360,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Jaguar",
-        "carid": "543",
-        "carname": "XJ220 '92",
-        "price": "615,000",
-        "price_in_jpy": "61,500,000",
         "isOld": true
       }
     ]

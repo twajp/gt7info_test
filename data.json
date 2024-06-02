@@ -1,5 +1,44 @@
 [
   {
+    "id": "20240602",
+    "date": "2024/6/2",
+    "used": [
+      {
+        "makername": "Alfa Romeo",
+        "carid": "3530",
+        "carname": "Giulia Sprint GT Veloce '67",
+        "price": "167,300",
+        "price_in_jpy": "16,730,000",
+        "isOld": true
+      },
+      {
+        "makername": "Porsche",
+        "carid": "3431",
+        "carname": "911 Carrera RS (964) '92",
+        "price": "226,500",
+        "price_in_jpy": "22,650,000",
+        "isOld": true
+      },
+      {
+        "makername": "Audi",
+        "carid": "1541",
+        "carname": "TTS Coupe '09",
+        "price": "63,100",
+        "price_in_jpy": "6,310,000",
+        "isOld": false
+      },
+      {
+        "makername": "Honda",
+        "carid": "396",
+        "carname": "NSX Type R '02",
+        "price": "431,600",
+        "price_in_jpy": "43,160,000",
+        "isOld": false
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20240601",
     "date": "2024/6/1",
     "used": [
@@ -656,54 +695,6 @@
         "carname": "XNR Ghia Roadster '60",
         "price": "1,600,000",
         "price_in_jpy": "160,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240519",
-    "date": "2024/5/19",
-    "used": [
-      {
-        "makername": "Abarth",
-        "carid": "1973",
-        "carname": "Abarth 500 '09",
-        "price": "22,100",
-        "price_in_jpy": "2,210,000",
-        "isOld": false
-      },
-      {
-        "makername": "Nissan",
-        "carid": "773",
-        "carname": "R32 GT-R V-spec II '94",
-        "price": "176,500",
-        "price_in_jpy": "17,650,000",
-        "isOld": true
-      },
-      {
-        "makername": "Mitsubishi",
-        "carid": "301",
-        "carname": "Lancer Evolution IV GSR '96",
-        "price": "44,200",
-        "price_in_jpy": "4,420,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Mazda",
-        "carid": "1975",
-        "carname": "RX500 '70",
-        "price": "600,000",
-        "price_in_jpy": "60,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Maserati",
-        "carid": "3489",
-        "carname": "A6GCS/53 Spyder '54",
-        "price": "2,500,000",
-        "price_in_jpy": "250,000,000",
         "isOld": true
       }
     ]

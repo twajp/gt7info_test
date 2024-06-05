@@ -1,5 +1,45 @@
 [
   {
+    "id": "20240605",
+    "date": "2024/6/5",
+    "used": [
+      {
+        "makername": "Nissan",
+        "carid": "919",
+        "carname": "Silvia Q's (S13) '88",
+        "price": "31,900",
+        "price_in_jpy": "3,190,000",
+        "isOld": true
+      },
+      {
+        "makername": "Toyota",
+        "carid": "1537",
+        "carname": "Prius G '09",
+        "price": "21,400",
+        "price_in_jpy": "2,140,000",
+        "isOld": false
+      },
+      {
+        "makername": "Honda",
+        "carid": "204",
+        "carname": "Civic Type R (EK) '98",
+        "price": "47,400",
+        "price_in_jpy": "4,740,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "McLaren",
+        "carid": "1540",
+        "carname": "McLaren F1 '94",
+        "price": "20,000,000",
+        "price_in_jpy": "2,000,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240604",
     "date": "2024/6/4",
     "used": [
@@ -606,54 +646,6 @@
         "carname": "356 A/1500 GS Carrera '56",
         "price": "615,000",
         "price_in_jpy": "61,500,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240522",
-    "date": "2024/5/22",
-    "used": [
-      {
-        "makername": "Toyota",
-        "carid": "63",
-        "carname": "Corolla Levin 1600GT APEX (AE86) '83",
-        "price": "46,800",
-        "price_in_jpy": "4,680,000",
-        "isOld": true
-      },
-      {
-        "makername": "Chevrolet",
-        "carid": "1542",
-        "carname": "Corvette Convertible (C3) '69",
-        "price": "50,900",
-        "price_in_jpy": "5,090,000",
-        "isOld": true
-      },
-      {
-        "makername": "Honda",
-        "carid": "293",
-        "carname": "NSX Type R '92",
-        "price": "398,700",
-        "price_in_jpy": "39,870,000",
-        "isOld": true
-      },
-      {
-        "makername": "Porsche",
-        "carid": "3358",
-        "carname": "911 GT3 (996) '01",
-        "price": "155,500",
-        "price_in_jpy": "15,550,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Porsche",
-        "carid": "3400",
-        "carname": "911 GT1 Strassenversion '97",
-        "price": "10,000,000",
-        "price_in_jpy": "1,000,000,000",
         "isOld": true
       }
     ]

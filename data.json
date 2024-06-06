@@ -1,5 +1,85 @@
 [
   {
+    "id": "20240606",
+    "date": "2024/6/6",
+    "used": [
+      {
+        "makername": "Lamborghini",
+        "carid": "1990",
+        "carname": "Diablo GT '00",
+        "price": "789,300",
+        "price_in_jpy": "78,930,000",
+        "isOld": true
+      },
+      {
+        "makername": "Porsche",
+        "carid": "3439",
+        "carname": "911 Carrera RS (993) '95",
+        "price": "260,000",
+        "price_in_jpy": "26,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Renault",
+        "carid": "173",
+        "carname": "R5 Turbo '80",
+        "price": "147,400",
+        "price_in_jpy": "14,740,000",
+        "isOld": true
+      },
+      {
+        "makername": "Chevrolet",
+        "carid": "942",
+        "carname": "Corvette ZR-1 (C4) '89",
+        "price": "86,100",
+        "price_in_jpy": "8,610,000",
+        "isOld": true
+      },
+      {
+        "makername": "BMW",
+        "carid": "3389",
+        "carname": "M3 '03",
+        "price": "72,800",
+        "price_in_jpy": "7,280,000",
+        "isOld": false
+      }
+    ],
+    "legend": [
+      {
+        "makername": "BMW",
+        "carid": "216",
+        "carname": "McLaren F1 GTR Race Car '97",
+        "price": "20,000,000",
+        "price_in_jpy": "2,000,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "McLaren",
+        "carid": "1984",
+        "carname": "McLaren F1 GTR - BMW '95",
+        "price": "15,000,000",
+        "price_in_jpy": "1,500,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Ferrari",
+        "carid": "1409",
+        "carname": "F40 '92",
+        "price": "3,100,000",
+        "price_in_jpy": "310,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Aston Martin",
+        "carid": "3363",
+        "carname": "DB3S '53",
+        "price": "6,000,000",
+        "price_in_jpy": "600,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240605",
     "date": "2024/6/5",
     "used": [
@@ -598,54 +678,6 @@
         "carname": "959 '87",
         "price": "1,750,000",
         "price_in_jpy": "175,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240523",
-    "date": "2024/5/23",
-    "used": [
-      {
-        "makername": "Toyota",
-        "carid": "1044",
-        "carname": "Sports 800 '65",
-        "price": "48,100",
-        "price_in_jpy": "4,810,000",
-        "isOld": true
-      },
-      {
-        "makername": "Dodge",
-        "carid": "1402",
-        "carname": "Viper SRT10 Coupe '06",
-        "price": "115,000",
-        "price_in_jpy": "11,500,000",
-        "isOld": false
-      },
-      {
-        "makername": "Mitsubishi",
-        "carid": "3424",
-        "carname": "Lancer Evolution IX MR GSR '06",
-        "price": "99,700",
-        "price_in_jpy": "9,970,000",
-        "isOld": false
-      },
-      {
-        "makername": "Dodge",
-        "carid": "1373",
-        "carname": "Viper GTS '02",
-        "price": "105,600",
-        "price_in_jpy": "10,560,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Porsche",
-        "carid": "3375",
-        "carname": "356 A/1500 GS Carrera '56",
-        "price": "615,000",
-        "price_in_jpy": "61,500,000",
         "isOld": true
       }
     ]

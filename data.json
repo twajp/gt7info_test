@@ -1,5 +1,44 @@
 [
   {
+    "id": "20240607",
+    "date": "2024/6/7",
+    "used": [
+      {
+        "makername": "Abarth",
+        "carid": "3438",
+        "carname": "Abarth 595 SS '70",
+        "price": "57,000",
+        "price_in_jpy": "5,700,000",
+        "isOld": true
+      },
+      {
+        "makername": "Honda",
+        "carid": "135",
+        "carname": "S800 '66",
+        "price": "49,600",
+        "price_in_jpy": "4,960,000",
+        "isOld": true
+      },
+      {
+        "makername": "BMW",
+        "carid": "3344",
+        "carname": "M3 Sport Evolution '89",
+        "price": "179,700",
+        "price_in_jpy": "17,970,000",
+        "isOld": true
+      },
+      {
+        "makername": "Audi",
+        "carid": "1365",
+        "carname": "R8 4.2 '07",
+        "price": "137,600",
+        "price_in_jpy": "13,760,000",
+        "isOld": false
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20240606",
     "date": "2024/6/6",
     "used": [
@@ -654,30 +693,6 @@
         "carname": "155 2.5 V6 TI '93",
         "price": "800,000",
         "price_in_jpy": "80,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240524",
-    "date": "2024/5/24",
-    "used": [
-      {
-        "makername": "Nissan",
-        "carid": "1458",
-        "carname": "Fairlady Z (Z34) '08",
-        "price": "36,000",
-        "price_in_jpy": "3,600,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Porsche",
-        "carid": "3519",
-        "carname": "959 '87",
-        "price": "1,750,000",
-        "price_in_jpy": "175,000,000",
         "isOld": true
       }
     ]

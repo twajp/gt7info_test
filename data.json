@@ -1,5 +1,53 @@
 [
   {
+    "id": "20240608",
+    "date": "2024/6/8",
+    "used": [
+      {
+        "makername": "Autobianchi",
+        "carid": "3442",
+        "carname": "A112 Abarth '85",
+        "price": "31,800",
+        "price_in_jpy": "3,180,000",
+        "isOld": true
+      },
+      {
+        "makername": "Lancia",
+        "carid": "829",
+        "carname": "Delta HF Integrale Evoluzione '91",
+        "price": "101,900",
+        "price_in_jpy": "10,190,000",
+        "isOld": true
+      },
+      {
+        "makername": "Ferrari",
+        "carid": "3443",
+        "carname": "308 GTB '75",
+        "price": "166,400",
+        "price_in_jpy": "16,640,000",
+        "isOld": true
+      },
+      {
+        "makername": "Mitsubishi",
+        "carid": "931",
+        "carname": "Lancer Evolution III GSR '95",
+        "price": "87,800",
+        "price_in_jpy": "8,780,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "De Tomaso",
+        "carid": "3505",
+        "carname": "Mangusta (Christian Dior)",
+        "price": "500,000",
+        "price_in_jpy": "50,000,000",
+        "isOld": null
+      }
+    ]
+  },
+  {
     "id": "20240607",
     "date": "2024/6/7",
     "used": [
@@ -648,53 +696,5 @@
       }
     ],
     "legend": []
-  },
-  {
-    "id": "20240525",
-    "date": "2024/5/25",
-    "used": [
-      {
-        "makername": "Pontiac",
-        "carid": "1985",
-        "carname": "Firebird Trans Am '78",
-        "price": "81,700",
-        "price_in_jpy": "8,170,000",
-        "isOld": true
-      },
-      {
-        "makername": "Daihatsu",
-        "carid": "145",
-        "carname": "Copen '02",
-        "price": "13,000",
-        "price_in_jpy": "1,300,000",
-        "isOld": false
-      },
-      {
-        "makername": "Mazda",
-        "carid": "374",
-        "carname": "RX-7 GT-X (FC) '90",
-        "price": "61,100",
-        "price_in_jpy": "6,110,000",
-        "isOld": true
-      },
-      {
-        "makername": "Mitsubishi",
-        "carid": "1508",
-        "carname": "Lancer Evolution VI GSR T.M. SCP '99",
-        "price": "168,100",
-        "price_in_jpy": "16,810,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Alfa Romeo",
-        "carid": "365",
-        "carname": "155 2.5 V6 TI '93",
-        "price": "800,000",
-        "price_in_jpy": "80,000,000",
-        "isOld": true
-      }
-    ]
   }
 ]

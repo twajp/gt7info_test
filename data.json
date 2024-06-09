@@ -1,5 +1,20 @@
 [
   {
+    "id": "20240609",
+    "date": "2024/6/9",
+    "used": [
+      {
+        "makername": "Toyota",
+        "carid": "345",
+        "carname": "Sprinter Trueno 1600GT APEX (S.Shigeno Version)",
+        "price": "97,800",
+        "price_in_jpy": "9,780,000",
+        "isOld": null
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20240608",
     "date": "2024/6/8",
     "used": [
@@ -638,61 +653,6 @@
         "price": "451,600",
         "price_in_jpy": "45,160,000",
         "isOld": false
-      }
-    ],
-    "legend": []
-  },
-  {
-    "id": "20240526",
-    "date": "2024/5/26",
-    "used": [
-      {
-        "makername": "Suzuki",
-        "carid": "1385",
-        "carname": "Swift Sport '07",
-        "price": "12,200",
-        "price_in_jpy": "1,220,000",
-        "isOld": false
-      },
-      {
-        "makername": "Volkswagen",
-        "carid": "3403",
-        "carname": "Golf I GTI '83",
-        "price": "46,700",
-        "price_in_jpy": "4,670,000",
-        "isOld": true
-      },
-      {
-        "makername": "Alpine",
-        "carid": "1796",
-        "carname": "A110 '72",
-        "price": "137,500",
-        "price_in_jpy": "13,750,000",
-        "isOld": true
-      },
-      {
-        "makername": "Toyota",
-        "carid": "3471",
-        "carname": "Celica GT-Four (ST205) '94",
-        "price": "80,700",
-        "price_in_jpy": "8,070,000",
-        "isOld": true
-      },
-      {
-        "makername": "Nissan",
-        "carid": "24",
-        "carname": "180SX Type X '96",
-        "price": "48,500",
-        "price_in_jpy": "4,850,000",
-        "isOld": true
-      },
-      {
-        "makername": "Ferrari",
-        "carid": "1410",
-        "carname": "512 BB '76",
-        "price": "309,000",
-        "price_in_jpy": "30,900,000",
-        "isOld": true
       }
     ],
     "legend": []

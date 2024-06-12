@@ -1,5 +1,45 @@
 [
   {
+    "id": "20240612",
+    "date": "2024/6/12",
+    "used": [
+      {
+        "makername": "Nissan",
+        "carid": "48",
+        "carname": "Fairlady 240ZG (HS30) '71",
+        "price": "98,500",
+        "price_in_jpy": "9,850,000",
+        "isOld": true
+      },
+      {
+        "makername": "BMW",
+        "carid": "3422",
+        "carname": "3.0 CSL '73",
+        "price": "211,200",
+        "price_in_jpy": "21,120,000",
+        "isOld": true
+      },
+      {
+        "makername": "Dodge",
+        "carid": "3377",
+        "carname": "Super Bee '70",
+        "price": "71,900",
+        "price_in_jpy": "7,190,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Peugeot",
+        "carid": "105",
+        "carname": "205 Turbo 16 Evolution 2 '86",
+        "price": "1,100,000",
+        "price_in_jpy": "110,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240611",
     "date": "2024/6/11",
     "used": [
@@ -674,52 +714,5 @@
         "isOld": true
       }
     ]
-  },
-  {
-    "id": "20240529",
-    "date": "2024/5/29",
-    "used": [
-      {
-        "makername": "Toyota",
-        "carid": "810",
-        "carname": "Sprinter Trueno 1600GT APEX (AE86) '83",
-        "price": "48,900",
-        "price_in_jpy": "4,890,000",
-        "isOld": true
-      },
-      {
-        "makername": "Audi",
-        "carid": "959",
-        "carname": "TT Coupe 3.2 quattro '03",
-        "price": "45,400",
-        "price_in_jpy": "4,540,000",
-        "isOld": false
-      },
-      {
-        "makername": "Nissan",
-        "carid": "709",
-        "carname": "Fairlady Z 300ZX TT 2seater '89",
-        "price": "62,300",
-        "price_in_jpy": "6,230,000",
-        "isOld": true
-      },
-      {
-        "makername": "Toyota",
-        "carid": "82",
-        "carname": "Supra RZ '97",
-        "price": "192,300",
-        "price_in_jpy": "19,230,000",
-        "isOld": true
-      },
-      {
-        "makername": "Nissan",
-        "carid": "1384",
-        "carname": "Fairlady Z Version S (Z33) '07",
-        "price": "26,800",
-        "price_in_jpy": "2,680,000",
-        "isOld": false
-      }
-    ],
-    "legend": []
   }
 ]

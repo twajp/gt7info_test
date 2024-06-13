@@ -1,5 +1,29 @@
 [
   {
+    "id": "20240613",
+    "date": "2024/6/13",
+    "used": [
+      {
+        "makername": "Mercedes-Benz",
+        "carid": "1528",
+        "carname": "SLR McLaren '09",
+        "price": "493,500",
+        "price_in_jpy": "49,350,000",
+        "isOld": false
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Ferrari",
+        "carid": "3362",
+        "carname": "F50 '95",
+        "price": "4,450,000",
+        "price_in_jpy": "445,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240612",
     "date": "2024/6/12",
     "used": [
@@ -615,102 +639,6 @@
         "carname": "E-type Coupe '61",
         "price": "227,000",
         "price_in_jpy": "22,700,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240530",
-    "date": "2024/5/30",
-    "used": [
-      {
-        "makername": "Honda",
-        "carid": "37",
-        "carname": "Civic SiR-II (EG) '93",
-        "price": "52,100",
-        "price_in_jpy": "5,210,000",
-        "isOld": true
-      },
-      {
-        "makername": "Nissan",
-        "carid": "102",
-        "carname": "Skyline GTS-R (R31) '87",
-        "price": "176,600",
-        "price_in_jpy": "17,660,000",
-        "isOld": true
-      },
-      {
-        "makername": "Volvo",
-        "carid": "3549",
-        "carname": "240 SE Estate '93",
-        "price": "40,800",
-        "price_in_jpy": "4,080,000",
-        "isOld": true
-      },
-      {
-        "makername": "Honda",
-        "carid": "137",
-        "carname": "Beat '91",
-        "price": "20,000",
-        "price_in_jpy": "2,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Suzuki",
-        "carid": "779",
-        "carname": "Cappuccino (EA11R) '91",
-        "price": "20,000",
-        "price_in_jpy": "2,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Ferrari",
-        "carid": "1378",
-        "carname": "F430 '06",
-        "price": "201,100",
-        "price_in_jpy": "20,110,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Honda",
-        "carid": "140",
-        "carname": "NSX GT500 '00",
-        "price": "1,500,000",
-        "price_in_jpy": "150,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Toyota",
-        "carid": "1470",
-        "carname": "Supra GT500 '97",
-        "price": "1,800,000",
-        "price_in_jpy": "180,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Nissan",
-        "carid": "485",
-        "carname": "GT-R GT500 '99",
-        "price": "2,500,000",
-        "price_in_jpy": "250,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Porsche",
-        "carid": "3373",
-        "carname": "962 C '88",
-        "price": "1,500,000",
-        "price_in_jpy": "150,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Ferrari",
-        "carid": "2011",
-        "carname": "500 Mondial Pinin Farina Coupe '54",
-        "price": "2,700,000",
-        "price_in_jpy": "270,000,000",
         "isOld": true
       }
     ]

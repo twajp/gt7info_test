@@ -1,5 +1,36 @@
 [
   {
+    "id": "20240614",
+    "date": "2024/6/14",
+    "used": [
+      {
+        "makername": "BMW",
+        "carid": "3454",
+        "carname": "3.0 CSL '71",
+        "price": "141,500",
+        "price_in_jpy": "14,150,000",
+        "isOld": true
+      },
+      {
+        "makername": "Subaru",
+        "carid": "3432",
+        "carname": "Impreza Sedan WRX STi '04",
+        "price": "47,100",
+        "price_in_jpy": "4,710,000",
+        "isOld": false
+      },
+      {
+        "makername": "Ferrari",
+        "carid": "1895",
+        "carname": "Dino 246 GT '71",
+        "price": "343,900",
+        "price_in_jpy": "34,390,000",
+        "isOld": true
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20240613",
     "date": "2024/6/13",
     "used": [
@@ -583,62 +614,6 @@
         "carname": "330 P4 '67",
         "price": "20,000,000",
         "price_in_jpy": "2,000,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240531",
-    "date": "2024/5/31",
-    "used": [
-      {
-        "makername": "Alfa Romeo",
-        "carid": "1933",
-        "carname": "MiTo '09",
-        "price": "22,400",
-        "price_in_jpy": "2,240,000",
-        "isOld": false
-      },
-      {
-        "makername": "BMW",
-        "carid": "3453",
-        "carname": "M3 '89",
-        "price": "75,700",
-        "price_in_jpy": "7,570,000",
-        "isOld": true
-      },
-      {
-        "makername": "Ford",
-        "carid": "1426",
-        "carname": "Ford GT '06",
-        "price": "399,300",
-        "price_in_jpy": "39,930,000",
-        "isOld": false
-      },
-      {
-        "makername": "TVR",
-        "carid": "187",
-        "carname": "Tuscan Speed 6 '00",
-        "price": "72,500",
-        "price_in_jpy": "7,250,000",
-        "isOld": true
-      },
-      {
-        "makername": "Nissan",
-        "carid": "3524",
-        "carname": "GT-R NISMO (R32) '90",
-        "price": "390,000",
-        "price_in_jpy": "39,000,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Jaguar",
-        "carid": "3361",
-        "carname": "E-type Coupe '61",
-        "price": "227,000",
-        "price_in_jpy": "22,700,000",
         "isOld": true
       }
     ]

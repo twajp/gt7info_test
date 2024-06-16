@@ -1,5 +1,61 @@
 [
   {
+    "id": "20240616",
+    "date": "2024/6/16",
+    "used": [
+      {
+        "makername": "Mazda",
+        "carid": "201",
+        "carname": "Eunos Roadster (NA) '89",
+        "price": "26,500",
+        "price_in_jpy": "2,650,000",
+        "isOld": true
+      },
+      {
+        "makername": "Honda",
+        "carid": "821",
+        "carname": "Civic Type R (EK) '97",
+        "price": "58,100",
+        "price_in_jpy": "5,810,000",
+        "isOld": true
+      },
+      {
+        "makername": "Lamborghini",
+        "carid": "1481",
+        "carname": "Countach 25th Anniversary '88",
+        "price": "711,800",
+        "price_in_jpy": "71,180,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "BMW",
+        "carid": "216",
+        "carname": "McLaren F1 GTR Race Car '97",
+        "price": "20,000,000",
+        "price_in_jpy": "2,000,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Ford",
+        "carid": "3487",
+        "carname": "Mustang Boss 429 '69",
+        "price": "346,000",
+        "price_in_jpy": "34,600,000",
+        "isOld": true
+      },
+      {
+        "makername": "Toyota",
+        "carid": "781",
+        "carname": "Celica GT-FOUR Rally Car (ST205) '95",
+        "price": "250,000",
+        "price_in_jpy": "25,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240615",
     "date": "2024/6/15",
     "used": [],
@@ -509,45 +565,6 @@
         "price": "162,200",
         "price_in_jpy": "16,220,000",
         "isOld": true
-      }
-    ],
-    "legend": []
-  },
-  {
-    "id": "20240602",
-    "date": "2024/6/2",
-    "used": [
-      {
-        "makername": "Alfa Romeo",
-        "carid": "3530",
-        "carname": "Giulia Sprint GT Veloce '67",
-        "price": "167,300",
-        "price_in_jpy": "16,730,000",
-        "isOld": true
-      },
-      {
-        "makername": "Porsche",
-        "carid": "3431",
-        "carname": "911 Carrera RS (964) '92",
-        "price": "226,500",
-        "price_in_jpy": "22,650,000",
-        "isOld": true
-      },
-      {
-        "makername": "Audi",
-        "carid": "1541",
-        "carname": "TTS Coupe '09",
-        "price": "63,100",
-        "price_in_jpy": "6,310,000",
-        "isOld": false
-      },
-      {
-        "makername": "Honda",
-        "carid": "396",
-        "carname": "NSX Type R '02",
-        "price": "431,600",
-        "price_in_jpy": "43,160,000",
-        "isOld": false
       }
     ],
     "legend": []

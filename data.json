@@ -1,5 +1,28 @@
 [
   {
+    "id": "20240618",
+    "date": "2024/6/18",
+    "used": [
+      {
+        "makername": "Mitsubishi",
+        "carid": "211",
+        "carname": "Lancer Evolution V GSR '98",
+        "price": "77,500",
+        "price_in_jpy": "7,750,000",
+        "isOld": true
+      },
+      {
+        "makername": "Porsche",
+        "carid": "3439",
+        "carname": "911 Carrera RS (993) '95",
+        "price": "215,600",
+        "price_in_jpy": "21,560,000",
+        "isOld": true
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20240617",
     "date": "2024/6/17",
     "used": [
@@ -558,38 +581,6 @@
         "price": "20,000,000",
         "price_in_jpy": "2,000,000,000",
         "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240604",
-    "date": "2024/6/4",
-    "used": [
-      {
-        "makername": "Nissan",
-        "carid": "1448",
-        "carname": "SILVIA spec-R Aero (S15) '02",
-        "price": "61,100",
-        "price_in_jpy": "6,110,000",
-        "isOld": false
-      },
-      {
-        "makername": "Volkswagen",
-        "carid": "1773",
-        "carname": "Scirocco R '10",
-        "price": "42,000",
-        "price_in_jpy": "4,200,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Ford",
-        "carid": "3444",
-        "carname": "1932 Ford Roadster Hot Rod",
-        "price": "400,000",
-        "price_in_jpy": "40,000,000",
-        "isOld": null
       }
     ]
   }

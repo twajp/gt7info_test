@@ -1,5 +1,69 @@
 [
   {
+    "id": "20240619",
+    "date": "2024/6/19",
+    "used": [
+      {
+        "makername": "Abarth",
+        "carid": "1973",
+        "carname": "Abarth 500 '09",
+        "price": "22,100",
+        "price_in_jpy": "2,210,000",
+        "isOld": false
+      },
+      {
+        "makername": "Nissan",
+        "carid": "78",
+        "carname": "Silvia K's Aero (S14) '96",
+        "price": "59,300",
+        "price_in_jpy": "5,930,000",
+        "isOld": true
+      },
+      {
+        "makername": "McLaren",
+        "carid": "1722",
+        "carname": "MP4-12C '10",
+        "price": "197,300",
+        "price_in_jpy": "19,730,000",
+        "isOld": false
+      },
+      {
+        "makername": "RUF",
+        "carid": "3398",
+        "carname": "CTR3 '07",
+        "price": "801,800",
+        "price_in_jpy": "80,180,000",
+        "isOld": false
+      },
+      {
+        "makername": "Nissan",
+        "carid": "210",
+        "carname": "R34 GT-R V-spec II Nur '02",
+        "price": "396,600",
+        "price_in_jpy": "39,660,000",
+        "isOld": false
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Suzuki",
+        "carid": "808",
+        "carname": "V6 Escudo Pikes Peak Special spec.98",
+        "price": "1,700,000",
+        "price_in_jpy": "170,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Jaguar",
+        "carid": "1553",
+        "carname": "XJ13 '66",
+        "price": "12,000,000",
+        "price_in_jpy": "1,200,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240618",
     "date": "2024/6/18",
     "used": [
@@ -540,46 +604,6 @@
         "carname": "DB3S '53",
         "price": "6,000,000",
         "price_in_jpy": "600,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240605",
-    "date": "2024/6/5",
-    "used": [
-      {
-        "makername": "Nissan",
-        "carid": "919",
-        "carname": "Silvia Q's (S13) '88",
-        "price": "31,900",
-        "price_in_jpy": "3,190,000",
-        "isOld": true
-      },
-      {
-        "makername": "Toyota",
-        "carid": "1537",
-        "carname": "Prius G '09",
-        "price": "21,400",
-        "price_in_jpy": "2,140,000",
-        "isOld": false
-      },
-      {
-        "makername": "Honda",
-        "carid": "204",
-        "carname": "Civic Type R (EK) '98",
-        "price": "47,400",
-        "price_in_jpy": "4,740,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "McLaren",
-        "carid": "1540",
-        "carname": "McLaren F1 '94",
-        "price": "20,000,000",
-        "price_in_jpy": "2,000,000,000",
         "isOld": true
       }
     ]

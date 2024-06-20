@@ -1,5 +1,20 @@
 [
   {
+    "id": "20240620",
+    "date": "2024/6/20",
+    "used": [],
+    "legend": [
+      {
+        "makername": "Ferrari",
+        "carid": "2010",
+        "carname": "250 GTO '62",
+        "price": "20,000,000",
+        "price_in_jpy": "2,000,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240619",
     "date": "2024/6/19",
     "used": [
@@ -527,85 +542,5 @@
       }
     ],
     "legend": []
-  },
-  {
-    "id": "20240606",
-    "date": "2024/6/6",
-    "used": [
-      {
-        "makername": "Lamborghini",
-        "carid": "1990",
-        "carname": "Diablo GT '00",
-        "price": "789,300",
-        "price_in_jpy": "78,930,000",
-        "isOld": true
-      },
-      {
-        "makername": "Porsche",
-        "carid": "3439",
-        "carname": "911 Carrera RS (993) '95",
-        "price": "260,000",
-        "price_in_jpy": "26,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Renault",
-        "carid": "173",
-        "carname": "R5 Turbo '80",
-        "price": "147,400",
-        "price_in_jpy": "14,740,000",
-        "isOld": true
-      },
-      {
-        "makername": "Chevrolet",
-        "carid": "942",
-        "carname": "Corvette ZR-1 (C4) '89",
-        "price": "86,100",
-        "price_in_jpy": "8,610,000",
-        "isOld": true
-      },
-      {
-        "makername": "BMW",
-        "carid": "3389",
-        "carname": "M3 '03",
-        "price": "72,800",
-        "price_in_jpy": "7,280,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "BMW",
-        "carid": "216",
-        "carname": "McLaren F1 GTR Race Car '97",
-        "price": "20,000,000",
-        "price_in_jpy": "2,000,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "McLaren",
-        "carid": "1984",
-        "carname": "McLaren F1 GTR - BMW '95",
-        "price": "15,000,000",
-        "price_in_jpy": "1,500,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Ferrari",
-        "carid": "1409",
-        "carname": "F40 '92",
-        "price": "3,100,000",
-        "price_in_jpy": "310,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Aston Martin",
-        "carid": "3363",
-        "carname": "DB3S '53",
-        "price": "6,000,000",
-        "price_in_jpy": "600,000,000",
-        "isOld": true
-      }
-    ]
   }
 ]

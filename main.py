@@ -6,6 +6,17 @@ from dateutil import tz
 from shutil import copyfile
 import requests
 from jinja2 import Environment, FileSystemLoader
+from time import sleep
+
+
+def DetectUpdate():
+    while (True):
+        url = 'https://raw.githubusercontent.com/ddm999/gt7info/web-new/_data/used/'
+        filename = datetime.now().date().strftime('%y-%m-%d')+'.csv'
+        urlData = requests.get(url+filename).content
+        if urlData != b'404: Not Found':
+            break
+        sleep(1)
 
 
 def LoadCSV(directory, filename):
@@ -14,7 +25,6 @@ def LoadCSV(directory, filename):
     decoded_content = download.content.decode('utf-8')
     cr = csv.reader(decoded_content.splitlines(), delimiter=',')
     data = list(cr)
-
     return data
 
 
@@ -45,6 +55,8 @@ def MakeNewCarList(data, carList, makerList):
                                 {"makername": makername, "carid": carid, "carname": carname, "price": price, "price_in_jpy": price_in_jpy, "isOld": isOld})
     return res
 
+
+DetectUpdate()
 
 carList = LoadCSV("db/", "cars.csv")
 makerList = LoadCSV("db/", "maker.csv")

@@ -14,7 +14,7 @@ def DetectUpdate():
     while (True):
         url = 'https://raw.githubusercontent.com/ddm999/gt7info/web-new/_data/used/'
         JST = timezone(timedelta(hours=+9), 'JST')
-        filename = datetime.now(JST).date().strftime('%y-%m-%d')+'.csv'
+        filename = datetime.now().date().strftime('%y-%m-%d')+'.csv'
         urlData = requests.get(url+filename).content
         if urlData != b'404: Not Found':
             break

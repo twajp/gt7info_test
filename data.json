@@ -1,5 +1,53 @@
 [
   {
+    "id": "20240622",
+    "date": "2024/6/22",
+    "used": [
+      {
+        "makername": "Honda",
+        "carid": "203",
+        "carname": "Integra Type R (DC2) '98",
+        "price": "62,100",
+        "price_in_jpy": "6,210,000",
+        "isOld": true
+      },
+      {
+        "makername": "Ford",
+        "carid": "1729",
+        "carname": "Mustang Mach 1 '71",
+        "price": "36,800",
+        "price_in_jpy": "3,680,000",
+        "isOld": true
+      },
+      {
+        "makername": "Honda",
+        "carid": "1689",
+        "carname": "Civic Type R (EK) Touring Car",
+        "price": "115,400",
+        "price_in_jpy": "11,540,000",
+        "isOld": null
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Toyota",
+        "carid": "604",
+        "carname": "2000GT '67",
+        "price": "992,000",
+        "price_in_jpy": "99,200,000",
+        "isOld": true
+      },
+      {
+        "makername": "Jaguar",
+        "carid": "1067",
+        "carname": "XJR-9 '88",
+        "price": "3,000,000",
+        "price_in_jpy": "300,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240621",
     "date": "2024/6/21",
     "used": [
@@ -543,53 +591,5 @@
       }
     ],
     "legend": []
-  },
-  {
-    "id": "20240608",
-    "date": "2024/6/8",
-    "used": [
-      {
-        "makername": "Autobianchi",
-        "carid": "3442",
-        "carname": "A112 Abarth '85",
-        "price": "31,800",
-        "price_in_jpy": "3,180,000",
-        "isOld": true
-      },
-      {
-        "makername": "Lancia",
-        "carid": "829",
-        "carname": "Delta HF Integrale Evoluzione '91",
-        "price": "101,900",
-        "price_in_jpy": "10,190,000",
-        "isOld": true
-      },
-      {
-        "makername": "Ferrari",
-        "carid": "3443",
-        "carname": "308 GTB '75",
-        "price": "166,400",
-        "price_in_jpy": "16,640,000",
-        "isOld": true
-      },
-      {
-        "makername": "Mitsubishi",
-        "carid": "931",
-        "carname": "Lancer Evolution III GSR '95",
-        "price": "87,800",
-        "price_in_jpy": "8,780,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "De Tomaso",
-        "carid": "3505",
-        "carname": "Mangusta (Christian Dior)",
-        "price": "500,000",
-        "price_in_jpy": "50,000,000",
-        "isOld": null
-      }
-    ]
   }
 ]

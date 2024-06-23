@@ -1,5 +1,37 @@
 [
   {
+    "id": "20240623",
+    "date": "2024/6/23",
+    "used": [
+      {
+        "makername": "Toyota",
+        "carid": "63",
+        "carname": "Corolla Levin 1600GT APEX (AE86) '83",
+        "price": "46,800",
+        "price_in_jpy": "4,680,000",
+        "isOld": true
+      },
+      {
+        "makername": "Porsche",
+        "carid": "3359",
+        "carname": "911 GT3 (997) '09",
+        "price": "142,500",
+        "price_in_jpy": "14,250,000",
+        "isOld": false
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Pontiac",
+        "carid": "3462",
+        "carname": "GTO 'The Judge' '69",
+        "price": "268,000",
+        "price_in_jpy": "26,800,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240622",
     "date": "2024/6/22",
     "used": [
@@ -576,20 +608,5 @@
         "isOld": true
       }
     ]
-  },
-  {
-    "id": "20240609",
-    "date": "2024/6/9",
-    "used": [
-      {
-        "makername": "Toyota",
-        "carid": "345",
-        "carname": "Sprinter Trueno 1600GT APEX (S.Shigeno Version)",
-        "price": "97,800",
-        "price_in_jpy": "9,780,000",
-        "isOld": null
-      }
-    ],
-    "legend": []
   }
 ]

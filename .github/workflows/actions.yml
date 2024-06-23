@@ -2,7 +2,7 @@ name: Update GitHub Pages
 
 on:
   schedule:
-    - cron: 57 23 * * *
+    - cron: 55 23 * * *
   push:
     branches:
       - master

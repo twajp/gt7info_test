@@ -6,7 +6,6 @@ from dateutil import tz
 from shutil import copyfile
 import requests
 from jinja2 import Environment, FileSystemLoader
-from time import sleep
 
 
 def LoadCSV(directory, filename):
@@ -15,6 +14,7 @@ def LoadCSV(directory, filename):
     decoded_content = download.content.decode('utf-8')
     cr = csv.reader(decoded_content.splitlines(), delimiter=',')
     data = list(cr)
+
     return data
 
 
@@ -48,11 +48,10 @@ def MakeNewCarList(data, carList, makerList):
 
 carList = LoadCSV("db/", "cars.csv")
 makerList = LoadCSV("db/", "maker.csv")
-today = datetime.now(datetime.UTC).date()
+today = datetime.now(timezone.utc).date()
 JST = tz.gettz("Asia/Tokyo")
-UTC = tz.gettz("UTC")
-timestamp = datetime.now(datetime.UTC).strftime("%Y/%-m/%-d %-H:%M") + " (UTC)"
-timestamp_jp = datetime.now(datetime.UTC).replace(tzinfo=UTC).astimezone(JST).replace(tzinfo=None).strftime("%Y/%-m/%-d %-H:%M") + " (JST)"
+timestamp = datetime.now(timezone.utc).strftime("%Y/%-m/%-d %-H:%M") + " (UTC)"
+timestamp_jp = datetime.now(timezone.utc).astimezone(JST).strftime("%Y/%-m/%-d %-H:%M") + " (JST)"
 # start_date = datetime.date(year=2022,month=6,day=28)
 # how_many_days = (today-start_date).days + 1
 how_many_days = 14

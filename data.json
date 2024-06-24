@@ -1,5 +1,36 @@
 [
   {
+    "id": "20240624",
+    "date": "2024/6/24",
+    "used": [
+      {
+        "makername": "Toyota",
+        "carid": "1044",
+        "carname": "Sports 800 '65",
+        "price": "48,100",
+        "price_in_jpy": "4,810,000",
+        "isOld": true
+      },
+      {
+        "makername": "Chevrolet",
+        "carid": "1542",
+        "carname": "Corvette Convertible (C3) '69",
+        "price": "50,900",
+        "price_in_jpy": "5,090,000",
+        "isOld": true
+      },
+      {
+        "makername": "Lamborghini",
+        "carid": "1545",
+        "carname": "Murcielago LP 640 '09",
+        "price": "337,200",
+        "price_in_jpy": "33,720,000",
+        "isOld": false
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20240623",
     "date": "2024/6/23",
     "used": [
@@ -525,86 +556,6 @@
         "carname": "8C 2900B Touring Berlinetta '38",
         "price": "20,000,000",
         "price_in_jpy": "2,000,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240610",
-    "date": "2024/6/10",
-    "used": [
-      {
-        "makername": "Suzuki",
-        "carid": "779",
-        "carname": "Cappuccino (EA11R) '91",
-        "price": "17,700",
-        "price_in_jpy": "1,770,000",
-        "isOld": true
-      },
-      {
-        "makername": "Honda",
-        "carid": "514",
-        "carname": "S2000 '99",
-        "price": "100,100",
-        "price_in_jpy": "10,010,000",
-        "isOld": true
-      },
-      {
-        "makername": "Ford",
-        "carid": "3466",
-        "carname": "Sierra RS 500 Cosworth '87",
-        "price": "193,500",
-        "price_in_jpy": "19,350,000",
-        "isOld": true
-      },
-      {
-        "makername": "Alfa Romeo",
-        "carid": "1578",
-        "carname": "8C Competizione '08",
-        "price": "287,200",
-        "price_in_jpy": "28,720,000",
-        "isOld": false
-      },
-      {
-        "makername": "Nissan",
-        "carid": "489",
-        "carname": "R33 GT-R V-spec '97",
-        "price": "155,200",
-        "price_in_jpy": "15,520,000",
-        "isOld": true
-      },
-      {
-        "makername": "Mazda",
-        "carid": "205",
-        "carname": "RX-7 Spirit R Type A (FD) '02",
-        "price": "214,300",
-        "price_in_jpy": "21,430,000",
-        "isOld": false
-      },
-      {
-        "makername": "Chevrolet",
-        "carid": "1480",
-        "carname": "Corvette ZR1 (C6) '09",
-        "price": "98,400",
-        "price_in_jpy": "9,840,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Ferrari",
-        "carid": "2018",
-        "carname": "365 GTB4 '71",
-        "price": "610,000",
-        "price_in_jpy": "61,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Abarth",
-        "carid": "1932",
-        "carname": "1500 Biposto Bertone B.A.T 1 '52",
-        "price": "1,000,000",
-        "price_in_jpy": "100,000,000",
         "isOld": true
       }
     ]

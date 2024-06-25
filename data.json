@@ -1,5 +1,45 @@
 [
   {
+    "id": "20240625",
+    "date": "2024/6/25",
+    "used": [
+      {
+        "makername": "Mitsubishi",
+        "carid": "931",
+        "carname": "Lancer Evolution III GSR '95",
+        "price": "100,000",
+        "price_in_jpy": "10,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Ferrari",
+        "carid": "1504",
+        "carname": "458 Italia '09",
+        "price": "248,000",
+        "price_in_jpy": "24,800,000",
+        "isOld": false
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Nissan",
+        "carid": "837",
+        "carname": "Skyline Hard Top 2000GT-R (KPGC10) '70",
+        "price": "194,000",
+        "price_in_jpy": "19,400,000",
+        "isOld": true
+      },
+      {
+        "makername": "AMG",
+        "carid": "3388",
+        "carname": "300 SEL 6.8 AMG '71",
+        "price": "700,000",
+        "price_in_jpy": "70,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240624",
     "date": "2024/6/24",
     "used": [
@@ -508,54 +548,6 @@
         "carname": "205 Turbo 16 Evolution 2 '86",
         "price": "1,100,000",
         "price_in_jpy": "110,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240611",
-    "date": "2024/6/11",
-    "used": [
-      {
-        "makername": "Nissan",
-        "carid": "104",
-        "carname": "Sileighty '98",
-        "price": "72,400",
-        "price_in_jpy": "7,240,000",
-        "isOld": true
-      },
-      {
-        "makername": "Lancia",
-        "carid": "533",
-        "carname": "Stratos '73",
-        "price": "495,800",
-        "price_in_jpy": "49,580,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Nissan",
-        "carid": "836",
-        "carname": "Skyline 2000GT-R (KPGC110) '73",
-        "price": "542,000",
-        "price_in_jpy": "54,200,000",
-        "isOld": true
-      },
-      {
-        "makername": "Mercedes-Benz",
-        "carid": "3397",
-        "carname": "CLK-LM '98",
-        "price": "8,500,000",
-        "price_in_jpy": "850,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Alfa Romeo",
-        "carid": "3415",
-        "carname": "8C 2900B Touring Berlinetta '38",
-        "price": "20,000,000",
-        "price_in_jpy": "2,000,000,000",
         "isOld": true
       }
     ]

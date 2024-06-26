@@ -26,6 +26,7 @@ jobs:
           pip install -r requirements.txt
           
       - name: Run wait.py
+        if: github.event_name != 'schedule'
         run: python wait.py
           
       - name: Run main.py

@@ -28,9 +28,13 @@ jobs:
       - name: Run wait.py
         if: github.event_name == 'schedule'
         run: python wait.py
-          
-      - name: Run main.py
-        run: python main.py
+
+      - name: Run main.py with retry
+        uses: nick-fields/retry@v3
+        with:
+          timeout_minutes: 10
+          max_attempts: 3
+          command: python main.py
         
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4

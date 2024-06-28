@@ -1,5 +1,45 @@
 [
   {
+    "id": "20240628",
+    "date": "2024/6/28",
+    "used": [
+      {
+        "makername": "Nissan",
+        "carid": "3513",
+        "carname": "Silvia K's Type S (S14) '94",
+        "price": "53,900",
+        "price_in_jpy": "5,390,000",
+        "isOld": true
+      },
+      {
+        "makername": "Toyota",
+        "carid": "3471",
+        "carname": "Celica GT-Four (ST205) '94",
+        "price": "80,700",
+        "price_in_jpy": "8,070,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Ford",
+        "carid": "1565",
+        "carname": "Mark IV Race Car '67",
+        "price": "6,750,000",
+        "price_in_jpy": "675,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Renault",
+        "carid": "1986",
+        "carname": "R8 Gordini '66",
+        "price": "32,500",
+        "price_in_jpy": "3,250,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240627",
     "date": "2024/6/27",
     "used": [
@@ -551,37 +591,6 @@
     "id": "20240615",
     "date": "2024/6/15",
     "used": [],
-    "legend": []
-  },
-  {
-    "id": "20240614",
-    "date": "2024/6/14",
-    "used": [
-      {
-        "makername": "BMW",
-        "carid": "3454",
-        "carname": "3.0 CSL '71",
-        "price": "141,500",
-        "price_in_jpy": "14,150,000",
-        "isOld": true
-      },
-      {
-        "makername": "Subaru",
-        "carid": "3432",
-        "carname": "Impreza Sedan WRX STi '04",
-        "price": "47,100",
-        "price_in_jpy": "4,710,000",
-        "isOld": false
-      },
-      {
-        "makername": "Ferrari",
-        "carid": "1895",
-        "carname": "Dino 246 GT '71",
-        "price": "343,900",
-        "price_in_jpy": "34,390,000",
-        "isOld": true
-      }
-    ],
     "legend": []
   }
 ]

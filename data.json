@@ -1,5 +1,45 @@
 [
   {
+    "id": "20240702",
+    "date": "2024/7/2",
+    "used": [
+      {
+        "makername": "Alfa Romeo",
+        "carid": "1933",
+        "carname": "MiTo '09",
+        "price": "22,400",
+        "price_in_jpy": "2,240,000",
+        "isOld": false
+      },
+      {
+        "makername": "Nissan",
+        "carid": "1458",
+        "carname": "Fairlady Z (Z34) '08",
+        "price": "36,000",
+        "price_in_jpy": "3,600,000",
+        "isOld": false
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Plymouth",
+        "carid": "665",
+        "carname": "Superbird '70",
+        "price": "402,000",
+        "price_in_jpy": "40,200,000",
+        "isOld": true
+      },
+      {
+        "makername": "Ferrari",
+        "carid": "2017",
+        "carname": "GTO '84",
+        "price": "3,500,000",
+        "price_in_jpy": "350,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240701",
     "date": "2024/7/1",
     "used": [
@@ -619,28 +659,5 @@
         "isOld": true
       }
     ]
-  },
-  {
-    "id": "20240618",
-    "date": "2024/6/18",
-    "used": [
-      {
-        "makername": "Mitsubishi",
-        "carid": "211",
-        "carname": "Lancer Evolution V GSR '98",
-        "price": "77,500",
-        "price_in_jpy": "7,750,000",
-        "isOld": true
-      },
-      {
-        "makername": "Porsche",
-        "carid": "3439",
-        "carname": "911 Carrera RS (993) '95",
-        "price": "215,600",
-        "price_in_jpy": "21,560,000",
-        "isOld": true
-      }
-    ],
-    "legend": []
   }
 ]

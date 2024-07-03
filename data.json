@@ -1,5 +1,28 @@
 [
   {
+    "id": "20240703",
+    "date": "2024/7/3",
+    "used": [
+      {
+        "makername": "Fiat",
+        "carid": "1523",
+        "carname": "500 F '68",
+        "price": "17,800",
+        "price_in_jpy": "1,780,000",
+        "isOld": true
+      },
+      {
+        "makername": "BMW",
+        "carid": "3453",
+        "carname": "M3 '89",
+        "price": "75,700",
+        "price_in_jpy": "7,570,000",
+        "isOld": true
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20240702",
     "date": "2024/7/2",
     "used": [
@@ -592,70 +615,6 @@
         "carname": "250 GTO '62",
         "price": "20,000,000",
         "price_in_jpy": "2,000,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240619",
-    "date": "2024/6/19",
-    "used": [
-      {
-        "makername": "Abarth",
-        "carid": "1973",
-        "carname": "Abarth 500 '09",
-        "price": "22,100",
-        "price_in_jpy": "2,210,000",
-        "isOld": false
-      },
-      {
-        "makername": "Nissan",
-        "carid": "78",
-        "carname": "Silvia K's Aero (S14) '96",
-        "price": "59,300",
-        "price_in_jpy": "5,930,000",
-        "isOld": true
-      },
-      {
-        "makername": "McLaren",
-        "carid": "1722",
-        "carname": "MP4-12C '10",
-        "price": "197,300",
-        "price_in_jpy": "19,730,000",
-        "isOld": false
-      },
-      {
-        "makername": "RUF",
-        "carid": "3398",
-        "carname": "CTR3 '07",
-        "price": "801,800",
-        "price_in_jpy": "80,180,000",
-        "isOld": false
-      },
-      {
-        "makername": "Nissan",
-        "carid": "210",
-        "carname": "R34 GT-R V-spec II Nur '02",
-        "price": "396,600",
-        "price_in_jpy": "39,660,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Suzuki",
-        "carid": "808",
-        "carname": "V6 Escudo Pikes Peak Special spec.98",
-        "price": "1,700,000",
-        "price_in_jpy": "170,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Jaguar",
-        "carid": "1553",
-        "carname": "XJ13 '66",
-        "price": "12,000,000",
-        "price_in_jpy": "1,200,000,000",
         "isOld": true
       }
     ]

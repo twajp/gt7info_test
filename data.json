@@ -1,5 +1,53 @@
 [
   {
+    "id": "20240704",
+    "date": "2024/7/4",
+    "used": [
+      {
+        "makername": "Alfa Romeo",
+        "carid": "3530",
+        "carname": "Giulia Sprint GT Veloce '67",
+        "price": "167,300",
+        "price_in_jpy": "16,730,000",
+        "isOld": true
+      },
+      {
+        "makername": "Subaru",
+        "carid": "451",
+        "carname": "Impreza 22B-STi '98",
+        "price": "177,300",
+        "price_in_jpy": "17,730,000",
+        "isOld": true
+      },
+      {
+        "makername": "Ferrari",
+        "carid": "1410",
+        "carname": "512 BB '76",
+        "price": "309,000",
+        "price_in_jpy": "30,900,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Lamborghini",
+        "carid": "1582",
+        "carname": "Miura P400 Bertone Prototype '67",
+        "price": "3,750,000",
+        "price_in_jpy": "375,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Mercedes-Benz",
+        "carid": "3441",
+        "carname": "300 SL (W194) '52",
+        "price": "20,000,000",
+        "price_in_jpy": "2,000,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240703",
     "date": "2024/7/3",
     "used": [
@@ -600,21 +648,6 @@
         "carname": "Corvette (C1) '58",
         "price": "119,000",
         "price_in_jpy": "11,900,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240620",
-    "date": "2024/6/20",
-    "used": [],
-    "legend": [
-      {
-        "makername": "Ferrari",
-        "carid": "2010",
-        "carname": "250 GTO '62",
-        "price": "20,000,000",
-        "price_in_jpy": "2,000,000,000",
         "isOld": true
       }
     ]

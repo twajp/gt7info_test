@@ -1,5 +1,20 @@
 [
   {
+    "id": "20240705",
+    "date": "2024/7/5",
+    "used": [
+      {
+        "makername": "Chevrolet",
+        "carid": "41",
+        "carname": "Corvette Stingray (C3) '69",
+        "price": "51,500",
+        "price_in_jpy": "5,150,000",
+        "isOld": true
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20240704",
     "date": "2024/7/4",
     "used": [
@@ -560,94 +575,6 @@
         "carname": "XJR-9 '88",
         "price": "3,000,000",
         "price_in_jpy": "300,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240621",
-    "date": "2024/6/21",
-    "used": [
-      {
-        "makername": "Renault",
-        "carid": "3547",
-        "carname": "R4 GTL '85",
-        "price": "24,100",
-        "price_in_jpy": "2,410,000",
-        "isOld": true
-      },
-      {
-        "makername": "Volkswagen",
-        "carid": "1671",
-        "carname": "Sambabus Typ 2 '62",
-        "price": "57,100",
-        "price_in_jpy": "5,710,000",
-        "isOld": true
-      },
-      {
-        "makername": "Toyota",
-        "carid": "843",
-        "carname": "Supra 3.0GT Turbo A '88",
-        "price": "115,900",
-        "price_in_jpy": "11,590,000",
-        "isOld": true
-      },
-      {
-        "makername": "Subaru",
-        "carid": "379",
-        "carname": "Impreza Coupe WRX Type R STi Ver.VI '99",
-        "price": "53,600",
-        "price_in_jpy": "5,360,000",
-        "isOld": true
-      },
-      {
-        "makername": "Nissan",
-        "carid": "773",
-        "carname": "R32 GT-R V-spec II '94",
-        "price": "176,500",
-        "price_in_jpy": "17,650,000",
-        "isOld": true
-      },
-      {
-        "makername": "Mitsubishi",
-        "carid": "301",
-        "carname": "Lancer Evolution IV GSR '96",
-        "price": "44,200",
-        "price_in_jpy": "4,420,000",
-        "isOld": true
-      },
-      {
-        "makername": "AMG",
-        "carid": "1507",
-        "carname": "SLS AMG '10",
-        "price": "308,300",
-        "price_in_jpy": "30,830,000",
-        "isOld": false
-      },
-      {
-        "makername": "Maserati",
-        "carid": "1539",
-        "carname": "GranTurismo S '08",
-        "price": "147,400",
-        "price_in_jpy": "14,740,000",
-        "isOld": false
-      },
-      {
-        "makername": "BMW",
-        "carid": "1893",
-        "carname": "Z8 '01",
-        "price": "259,100",
-        "price_in_jpy": "25,910,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Chevrolet",
-        "carid": "3464",
-        "carname": "Corvette (C1) '58",
-        "price": "119,000",
-        "price_in_jpy": "11,900,000",
         "isOld": true
       }
     ]

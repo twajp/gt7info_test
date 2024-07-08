@@ -1,5 +1,20 @@
 [
   {
+    "id": "20240708",
+    "date": "2024/7/8",
+    "used": [
+      {
+        "makername": "Renault",
+        "carid": "173",
+        "carname": "R5 Turbo '80",
+        "price": "147,400",
+        "price_in_jpy": "14,740,000",
+        "isOld": true
+      }
+    ],
+    "legend": []
+  },
+  {
     "id": "20240707",
     "date": "2024/7/7",
     "used": [
@@ -578,36 +593,5 @@
         "isOld": true
       }
     ]
-  },
-  {
-    "id": "20240624",
-    "date": "2024/6/24",
-    "used": [
-      {
-        "makername": "Toyota",
-        "carid": "1044",
-        "carname": "Sports 800 '65",
-        "price": "48,100",
-        "price_in_jpy": "4,810,000",
-        "isOld": true
-      },
-      {
-        "makername": "Chevrolet",
-        "carid": "1542",
-        "carname": "Corvette Convertible (C3) '69",
-        "price": "50,900",
-        "price_in_jpy": "5,090,000",
-        "isOld": true
-      },
-      {
-        "makername": "Lamborghini",
-        "carid": "1545",
-        "carname": "Murcielago LP 640 '09",
-        "price": "337,200",
-        "price_in_jpy": "33,720,000",
-        "isOld": false
-      }
-    ],
-    "legend": []
   }
 ]

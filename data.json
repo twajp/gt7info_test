@@ -1,5 +1,37 @@
 [
   {
+    "id": "20240712",
+    "date": "2024/7/12",
+    "used": [
+      {
+        "makername": "Suzuki",
+        "carid": "779",
+        "carname": "Cappuccino (EA11R) '91",
+        "price": "17,700",
+        "price_in_jpy": "1,770,000",
+        "isOld": true
+      },
+      {
+        "makername": "Mitsubishi",
+        "carid": "931",
+        "carname": "Lancer Evolution III GSR '95",
+        "price": "87,800",
+        "price_in_jpy": "8,780,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Alpine",
+        "carid": "3457",
+        "carname": "A220 Race Car '68",
+        "price": "330,000",
+        "price_in_jpy": "33,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240711",
     "date": "2024/7/11",
     "used": [
@@ -598,46 +630,6 @@
         "carname": "787B '91",
         "price": "3,300,000",
         "price_in_jpy": "330,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240628",
-    "date": "2024/6/28",
-    "used": [
-      {
-        "makername": "Nissan",
-        "carid": "3513",
-        "carname": "Silvia K's Type S (S14) '94",
-        "price": "53,900",
-        "price_in_jpy": "5,390,000",
-        "isOld": true
-      },
-      {
-        "makername": "Toyota",
-        "carid": "3471",
-        "carname": "Celica GT-Four (ST205) '94",
-        "price": "80,700",
-        "price_in_jpy": "8,070,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Ford",
-        "carid": "1565",
-        "carname": "Mark IV Race Car '67",
-        "price": "6,750,000",
-        "price_in_jpy": "675,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Renault",
-        "carid": "1986",
-        "carname": "R8 Gordini '66",
-        "price": "32,500",
-        "price_in_jpy": "3,250,000",
         "isOld": true
       }
     ]

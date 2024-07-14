@@ -1,5 +1,53 @@
 [
   {
+    "id": "20240714",
+    "date": "2024/7/14",
+    "used": [
+      {
+        "makername": "Nissan",
+        "carid": "48",
+        "carname": "Fairlady 240ZG (HS30) '71",
+        "price": "98,500",
+        "price_in_jpy": "9,850,000",
+        "isOld": true
+      },
+      {
+        "makername": "BMW",
+        "carid": "3422",
+        "carname": "3.0 CSL '73",
+        "price": "211,200",
+        "price_in_jpy": "21,120,000",
+        "isOld": true
+      },
+      {
+        "makername": "Nissan",
+        "carid": "104",
+        "carname": "Sileighty '98",
+        "price": "72,400",
+        "price_in_jpy": "7,240,000",
+        "isOld": true
+      },
+      {
+        "makername": "Lancia",
+        "carid": "533",
+        "carname": "Stratos '73",
+        "price": "495,800",
+        "price_in_jpy": "49,580,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Porsche",
+        "carid": "3509",
+        "carname": "911 Carrera RS (901) '73",
+        "price": "750,000",
+        "price_in_jpy": "75,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240713",
     "date": "2024/7/13",
     "used": [
@@ -545,77 +593,5 @@
       }
     ],
     "legend": []
-  },
-  {
-    "id": "20240630",
-    "date": "2024/6/30",
-    "used": [
-      {
-        "makername": "Toyota",
-        "carid": "810",
-        "carname": "Sprinter Trueno 1600GT APEX (AE86) '83",
-        "price": "48,900",
-        "price_in_jpy": "4,890,000",
-        "isOld": true
-      },
-      {
-        "makername": "MINI",
-        "carid": "1370",
-        "carname": "MINI Cooper S '05",
-        "price": "21,900",
-        "price_in_jpy": "2,190,000",
-        "isOld": false
-      },
-      {
-        "makername": "Porsche",
-        "carid": "3404",
-        "carname": "911 Carrera RS CS (993) '95",
-        "price": "409,500",
-        "price_in_jpy": "40,950,000",
-        "isOld": true
-      },
-      {
-        "makername": "Honda",
-        "carid": "293",
-        "carname": "NSX Type R '92",
-        "price": "398,700",
-        "price_in_jpy": "39,870,000",
-        "isOld": true
-      },
-      {
-        "makername": "Porsche",
-        "carid": "3358",
-        "carname": "911 GT3 (996) '01",
-        "price": "155,500",
-        "price_in_jpy": "15,550,000",
-        "isOld": false
-      },
-      {
-        "makername": "Dodge",
-        "carid": "1402",
-        "carname": "Viper SRT10 Coupe '06",
-        "price": "115,000",
-        "price_in_jpy": "11,500,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Chevrolet",
-        "carid": "2059",
-        "carname": "Corvette Stingray Racer Concept '59",
-        "price": "4,000,000",
-        "price_in_jpy": "400,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Mercedes-Benz",
-        "carid": "998",
-        "carname": "Sauber Mercedes C9 '89",
-        "price": "3,500,000",
-        "price_in_jpy": "350,000,000",
-        "isOld": true
-      }
-    ]
   }
 ]

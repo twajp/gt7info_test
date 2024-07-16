@@ -1,5 +1,53 @@
 [
   {
+    "id": "20240716",
+    "date": "2024/7/16",
+    "used": [
+      {
+        "makername": "Nissan",
+        "carid": "3513",
+        "carname": "Silvia K's Type S (S14) '94",
+        "price": "60,000",
+        "price_in_jpy": "6,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "BMW",
+        "carid": "3454",
+        "carname": "3.0 CSL '71",
+        "price": "141,500",
+        "price_in_jpy": "14,150,000",
+        "isOld": true
+      },
+      {
+        "makername": "Audi",
+        "carid": "1365",
+        "carname": "R8 4.2 '07",
+        "price": "137,600",
+        "price_in_jpy": "13,760,000",
+        "isOld": false
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Honda",
+        "carid": "3525",
+        "carname": "RA272 '65",
+        "price": "2,500,000",
+        "price_in_jpy": "250,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "NISMO",
+        "carid": "3520",
+        "carname": "400R '95",
+        "price": "1,800,000",
+        "price_in_jpy": "180,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240715",
     "date": "2024/7/15",
     "used": [
@@ -537,45 +585,5 @@
       }
     ],
     "legend": []
-  },
-  {
-    "id": "20240702",
-    "date": "2024/7/2",
-    "used": [
-      {
-        "makername": "Alfa Romeo",
-        "carid": "1933",
-        "carname": "MiTo '09",
-        "price": "22,400",
-        "price_in_jpy": "2,240,000",
-        "isOld": false
-      },
-      {
-        "makername": "Nissan",
-        "carid": "1458",
-        "carname": "Fairlady Z (Z34) '08",
-        "price": "36,000",
-        "price_in_jpy": "3,600,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Plymouth",
-        "carid": "665",
-        "carname": "Superbird '70",
-        "price": "402,000",
-        "price_in_jpy": "40,200,000",
-        "isOld": true
-      },
-      {
-        "makername": "Ferrari",
-        "carid": "2017",
-        "carname": "GTO '84",
-        "price": "3,500,000",
-        "price_in_jpy": "350,000,000",
-        "isOld": true
-      }
-    ]
   }
 ]

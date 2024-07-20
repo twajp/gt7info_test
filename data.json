@@ -1,5 +1,109 @@
 [
   {
+    "id": "20240720",
+    "date": "2024/7/20",
+    "used": [
+      {
+        "makername": "Mitsubishi",
+        "carid": "3384",
+        "carname": "GTO Twin Turbo '91",
+        "price": "40,000",
+        "price_in_jpy": "4,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Chevrolet",
+        "carid": "1480",
+        "carname": "Corvette ZR1 (C6) '09",
+        "price": "98,400",
+        "price_in_jpy": "9,840,000",
+        "isOld": false
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Jeep",
+        "carid": "3430",
+        "carname": "Willys MB '45",
+        "price": "30,100",
+        "price_in_jpy": "3,010,000",
+        "isOld": true
+      },
+      {
+        "makername": "De Tomaso",
+        "carid": "3437",
+        "carname": "Mangusta '69",
+        "price": "315,000",
+        "price_in_jpy": "31,500,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
+    "id": "20240719",
+    "date": "2024/7/19",
+    "used": [
+      {
+        "makername": "Fiat",
+        "carid": "1527",
+        "carname": "500 1.2 8V Lounge SS '08",
+        "price": "13,300",
+        "price_in_jpy": "1,330,000",
+        "isOld": false
+      },
+      {
+        "makername": "Volkswagen",
+        "carid": "1778",
+        "carname": "Volkswagen 1200 '66",
+        "price": "35,800",
+        "price_in_jpy": "3,580,000",
+        "isOld": true
+      },
+      {
+        "makername": "Honda",
+        "carid": "137",
+        "carname": "Beat '91",
+        "price": "16,800",
+        "price_in_jpy": "1,680,000",
+        "isOld": true
+      },
+      {
+        "makername": "Nissan",
+        "carid": "1461",
+        "carname": "Silvia K's Dia Selection (S13) '90",
+        "price": "49,700",
+        "price_in_jpy": "4,970,000",
+        "isOld": true
+      },
+      {
+        "makername": "Nissan",
+        "carid": "489",
+        "carname": "R33 GT-R V-spec '97",
+        "price": "155,200",
+        "price_in_jpy": "15,520,000",
+        "isOld": true
+      },
+      {
+        "makername": "Mazda",
+        "carid": "205",
+        "carname": "RX-7 Spirit R Type A (FD) '02",
+        "price": "214,300",
+        "price_in_jpy": "21,430,000",
+        "isOld": false
+      }
+    ],
+    "legend": [
+      {
+        "makername": "Shelby",
+        "carid": "315",
+        "carname": "Cobra 427 '66",
+        "price": "2,500,000",
+        "price_in_jpy": "250,000,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240718",
     "date": "2024/7/18",
     "used": [
@@ -511,77 +615,6 @@
         "price": "26,800",
         "price_in_jpy": "2,680,000",
         "isOld": false
-      }
-    ],
-    "legend": []
-  },
-  {
-    "id": "20240706",
-    "date": "2024/7/6",
-    "used": [
-      {
-        "makername": "Nissan",
-        "carid": "919",
-        "carname": "Silvia Q's (S13) '88",
-        "price": "31,900",
-        "price_in_jpy": "3,190,000",
-        "isOld": true
-      },
-      {
-        "makername": "Toyota",
-        "carid": "207",
-        "carname": "MR2 GT-S '97",
-        "price": "58,100",
-        "price_in_jpy": "5,810,000",
-        "isOld": true
-      },
-      {
-        "makername": "Honda",
-        "carid": "688",
-        "carname": "Integra Type R (DC2) '95",
-        "price": "61,200",
-        "price_in_jpy": "6,120,000",
-        "isOld": true
-      },
-      {
-        "makername": "De Tomaso",
-        "carid": "3341",
-        "carname": "Pantera '71",
-        "price": "162,200",
-        "price_in_jpy": "16,220,000",
-        "isOld": true
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Nissan",
-        "carid": "954",
-        "carname": "R92CP '92",
-        "price": "2,000,000",
-        "price_in_jpy": "200,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Ford",
-        "carid": "1935",
-        "carname": "GT40 Mark I '66",
-        "price": "6,700,000",
-        "price_in_jpy": "670,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240705",
-    "date": "2024/7/5",
-    "used": [
-      {
-        "makername": "Chevrolet",
-        "carid": "41",
-        "carname": "Corvette Stingray (C3) '69",
-        "price": "51,500",
-        "price_in_jpy": "5,150,000",
-        "isOld": true
       }
     ],
     "legend": []

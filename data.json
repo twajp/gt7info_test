@@ -1,5 +1,61 @@
 [
   {
+    "id": "20240723",
+    "date": "2024/7/23",
+    "used": [
+      {
+        "makername": "Chevrolet",
+        "carid": "41",
+        "carname": "Corvette Stingray (C3) '69",
+        "price": "71,500",
+        "price_in_jpy": "7,150,000",
+        "isOld": true
+      },
+      {
+        "makername": "Renault",
+        "carid": "3547",
+        "carname": "R4 GTL '85",
+        "price": "24,100",
+        "price_in_jpy": "2,410,000",
+        "isOld": true
+      },
+      {
+        "makername": "Volkswagen",
+        "carid": "1671",
+        "carname": "Sambabus Typ 2 '62",
+        "price": "57,100",
+        "price_in_jpy": "5,710,000",
+        "isOld": true
+      },
+      {
+        "makername": "Nissan",
+        "carid": "78",
+        "carname": "Silvia K's Aero (S14) '96",
+        "price": "59,300",
+        "price_in_jpy": "5,930,000",
+        "isOld": true
+      }
+    ],
+    "legend": [
+      {
+        "makername": "McLaren",
+        "carid": "1540",
+        "carname": "McLaren F1 '94",
+        "price": "20,000,000",
+        "price_in_jpy": "2,000,000,000",
+        "isOld": true
+      },
+      {
+        "makername": "Nissan",
+        "carid": "837",
+        "carname": "Skyline Hard Top 2000GT-R (KPGC10) '70",
+        "price": "194,000",
+        "price_in_jpy": "19,400,000",
+        "isOld": true
+      }
+    ]
+  },
+  {
     "id": "20240722",
     "date": "2024/7/22",
     "used": [
@@ -536,86 +592,6 @@
         "carname": "GIULIA TZ2 carrozzata da ZAGATO '65",
         "price": "3,800,000",
         "price_in_jpy": "380,000,000",
-        "isOld": true
-      }
-    ]
-  },
-  {
-    "id": "20240709",
-    "date": "2024/7/9",
-    "used": [
-      {
-        "makername": "Ferrari",
-        "carid": "3434",
-        "carname": "Testarossa '91",
-        "price": "450,000",
-        "price_in_jpy": "45,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "Abarth",
-        "carid": "3438",
-        "carname": "Abarth 595 SS '70",
-        "price": "57,000",
-        "price_in_jpy": "5,700,000",
-        "isOld": true
-      },
-      {
-        "makername": "Honda",
-        "carid": "135",
-        "carname": "S800 '66",
-        "price": "49,600",
-        "price_in_jpy": "4,960,000",
-        "isOld": true
-      },
-      {
-        "makername": "Ferrari",
-        "carid": "1378",
-        "carname": "F430 '06",
-        "price": "201,100",
-        "price_in_jpy": "20,110,000",
-        "isOld": false
-      },
-      {
-        "makername": "Ford",
-        "carid": "1426",
-        "carname": "Ford GT '06",
-        "price": "399,300",
-        "price_in_jpy": "39,930,000",
-        "isOld": false
-      },
-      {
-        "makername": "TVR",
-        "carid": "187",
-        "carname": "Tuscan Speed 6 '00",
-        "price": "72,500",
-        "price_in_jpy": "7,250,000",
-        "isOld": true
-      },
-      {
-        "makername": "Nissan",
-        "carid": "3524",
-        "carname": "GT-R NISMO (R32) '90",
-        "price": "390,000",
-        "price_in_jpy": "39,000,000",
-        "isOld": true
-      },
-      {
-        "makername": "BMW",
-        "carid": "1399",
-        "carname": "M3 '07",
-        "price": "69,900",
-        "price_in_jpy": "6,990,000",
-        "isOld": false
-      }
-    ],
-    "legend": [
-      {
-        "makername": "Ferrari",
-        "carid": "2018",
-        "carname": "365 GTB4 '71",
-        "price": "610,000",
-        "price_in_jpy": "61,000,000",
         "isOld": true
       }
     ]

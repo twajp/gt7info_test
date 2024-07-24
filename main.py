@@ -114,8 +114,8 @@ db["used"] = dict(sorted(db["used"].items(), key=lambda item: (today - datetime.
 db["legend"] = dict(sorted(db["legend"].items(), key=lambda item: (today - datetime.strptime(item[1]["lastAppeared"], "%Y/%m/%d").date()).days, reverse=True))
 
 db_top = {}
-db_top["used"] = Select(db["used"], percentage=10)
-db_top["legend"] = Select(db["legend"], percentage=10)
+db_top["used"] = Select(db["used"], percentage=20)
+db_top["legend"] = Select(db["legend"], percentage=20)
 
 
 env = Environment(loader=FileSystemLoader("."))

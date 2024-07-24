@@ -54,7 +54,7 @@ def MakeNewCarList(data, carList, makerList):
     return res
 
 
-def update_db(dealer):
+def UpdateDB(dealer):
     for day in reversed(data):
         for car in day[dealer]:
             db[dealer][car["carid"]] = {
@@ -67,8 +67,8 @@ def update_db(dealer):
             }
 
 
-def get_top_10_percent(cars_dict):
-    num_top_cars = max(1, int(len(cars_dict) * 0.1))  # At least one car if the list is non-empty
+def Select(cars_dict, percentage):
+    num_top_cars = int(len(cars_dict) / 100 * percentage)
     db_top = dict(list(cars_dict.items())[:num_top_cars])
     for car_id, car_info in db_top.items():
         db_top[car_id].update({"sinceLastAppeared": (today - datetime.strptime(car_info['lastAppeared'], '%Y/%m/%d').date()).days})
@@ -107,15 +107,15 @@ for i in range(how_many_days):
     print(f"Day {i}")
 
 
-update_db("used")
-update_db("legend")
+UpdateDB("used")
+UpdateDB("legend")
 
 db["used"] = dict(sorted(db["used"].items(), key=lambda item: (today - datetime.strptime(item[1]["lastAppeared"], "%Y/%m/%d").date()).days, reverse=True))
 db["legend"] = dict(sorted(db["legend"].items(), key=lambda item: (today - datetime.strptime(item[1]["lastAppeared"], "%Y/%m/%d").date()).days, reverse=True))
 
 db_top = {}
-db_top["used"] = get_top_10_percent(db["used"])
-db_top["legend"] = get_top_10_percent(db["legend"])
+db_top["used"] = Select(db["used"], percentage=10)
+db_top["legend"] = Select(db["legend"], percentage=10)
 
 
 env = Environment(loader=FileSystemLoader("."))

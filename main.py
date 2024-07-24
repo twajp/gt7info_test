@@ -85,7 +85,7 @@ timestamp = datetime.now(timezone.utc).strftime("%Y/%-m/%-d %-H:%M") + " (UTC)"
 timestamp_jp = datetime.now(timezone.utc).astimezone(JST).strftime("%Y/%-m/%-d %-H:%M") + " (JST)"
 # start_date = datetime.date(year=2022,month=6,day=28)
 # how_many_days = (today-start_date).days + 1
-how_many_days = 100
+how_many_days = 14
 data = []
 
 for i in range(how_many_days):

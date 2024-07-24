@@ -118,8 +118,8 @@ db_top['used'] = Select(db['used'], percentage=20)
 db_top['legend'] = Select(db['legend'], percentage=10)
 
 # Filter out cars where isOld is False
-db_top['used'] = {k: v for k, v in db_top['used'].items() if not v['isOld'] == False}
-db_top['legend'] = {k: v for k, v in db_top['legend'].items() if not v['isOld'] == False}
+db_top['used'] = {k: v for k, v in db_top['used'].items() if v['isOld'] != False}
+db_top['legend'] = {k: v for k, v in db_top['legend'].items() if v['isOld'] != False}
 
 env = Environment(loader=FileSystemLoader('.'))
 template = env.get_template('template.html')

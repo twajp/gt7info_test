@@ -115,7 +115,7 @@ db["legend"] = dict(sorted(db["legend"].items(), key=lambda item: (today - datet
 
 db_top = {}
 db_top["used"] = Select(db["used"], percentage=20)
-db_top["legend"] = Select(db["legend"], percentage=20)
+db_top["legend"] = Select(db["legend"], percentage=10)
 
 
 env = Environment(loader=FileSystemLoader("."))

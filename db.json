@@ -105,7 +105,8 @@
       "price": "259,100",
       "price_in_jpy": "25,910,000",
       "isOld": false,
-      "lastAppeared": "2024/6/21"
+      "lastAppeared": "2024/6/21",
+      "sinceLastAppeared": 33
     },
     "203": {
       "makername": "Honda",
@@ -113,7 +114,8 @@
       "price": "62,100",
       "price_in_jpy": "6,210,000",
       "isOld": true,
-      "lastAppeared": "2024/6/22"
+      "lastAppeared": "2024/6/22",
+      "sinceLastAppeared": 32
     },
     "1729": {
       "makername": "Ford",
@@ -121,7 +123,8 @@
       "price": "36,800",
       "price_in_jpy": "3,680,000",
       "isOld": true,
-      "lastAppeared": "2024/6/22"
+      "lastAppeared": "2024/6/22",
+      "sinceLastAppeared": 32
     },
     "1689": {
       "makername": "Honda",
@@ -129,7 +132,8 @@
       "price": "115,400",
       "price_in_jpy": "11,540,000",
       "isOld": null,
-      "lastAppeared": "2024/6/22"
+      "lastAppeared": "2024/6/22",
+      "sinceLastAppeared": 32
     },
     "63": {
       "makername": "Toyota",
@@ -137,7 +141,8 @@
       "price": "46,800",
       "price_in_jpy": "4,680,000",
       "isOld": true,
-      "lastAppeared": "2024/6/23"
+      "lastAppeared": "2024/6/23",
+      "sinceLastAppeared": 31
     },
     "3359": {
       "makername": "Porsche",
@@ -145,7 +150,8 @@
       "price": "142,500",
       "price_in_jpy": "14,250,000",
       "isOld": false,
-      "lastAppeared": "2024/6/23"
+      "lastAppeared": "2024/6/23",
+      "sinceLastAppeared": 31
     },
     "1542": {
       "makername": "Chevrolet",
@@ -153,7 +159,8 @@
       "price": "50,900",
       "price_in_jpy": "5,090,000",
       "isOld": true,
-      "lastAppeared": "2024/6/24"
+      "lastAppeared": "2024/6/24",
+      "sinceLastAppeared": 30
     },
     "1044": {
       "makername": "Toyota",
@@ -161,7 +168,8 @@
       "price": "48,100",
       "price_in_jpy": "4,810,000",
       "isOld": true,
-      "lastAppeared": "2024/6/24"
+      "lastAppeared": "2024/6/24",
+      "sinceLastAppeared": 30
     },
     "1545": {
       "makername": "Lamborghini",
@@ -169,7 +177,8 @@
       "price": "337,200",
       "price_in_jpy": "33,720,000",
       "isOld": false,
-      "lastAppeared": "2024/6/24"
+      "lastAppeared": "2024/6/24",
+      "sinceLastAppeared": 30
     },
     "1504": {
       "makername": "Ferrari",
@@ -177,7 +186,8 @@
       "price": "248,000",
       "price_in_jpy": "24,800,000",
       "isOld": false,
-      "lastAppeared": "2024/6/25"
+      "lastAppeared": "2024/6/25",
+      "sinceLastAppeared": 29
     },
     "1985": {
       "makername": "Pontiac",
@@ -185,7 +195,8 @@
       "price": "81,700",
       "price_in_jpy": "8,170,000",
       "isOld": true,
-      "lastAppeared": "2024/6/26"
+      "lastAppeared": "2024/6/26",
+      "sinceLastAppeared": 28
     },
     "145": {
       "makername": "Daihatsu",
@@ -193,7 +204,8 @@
       "price": "13,000",
       "price_in_jpy": "1,300,000",
       "isOld": false,
-      "lastAppeared": "2024/6/26"
+      "lastAppeared": "2024/6/26",
+      "sinceLastAppeared": 28
     },
     "1385": {
       "makername": "Suzuki",
@@ -1019,7 +1031,8 @@
       "price": "892,000",
       "price_in_jpy": "89,200,000",
       "isOld": true,
-      "lastAppeared": "2024/5/9"
+      "lastAppeared": "2024/5/9",
+      "sinceLastAppeared": 76
     },
     "116": {
       "makername": "Toyota",
@@ -1027,7 +1040,8 @@
       "price": "2,500,000",
       "price_in_jpy": "250,000,000",
       "isOld": true,
-      "lastAppeared": "2024/5/10"
+      "lastAppeared": "2024/5/10",
+      "sinceLastAppeared": 75
     },
     "3493": {
       "makername": "Nissan",
@@ -1035,7 +1049,8 @@
       "price": "1,150,000",
       "price_in_jpy": "115,000,000",
       "isOld": true,
-      "lastAppeared": "2024/5/11"
+      "lastAppeared": "2024/5/11",
+      "sinceLastAppeared": 74
     },
     "3475": {
       "makername": "McLaren",
@@ -1043,7 +1058,8 @@
       "price": "10,000,000",
       "price_in_jpy": "1,000,000,000",
       "isOld": true,
-      "lastAppeared": "2024/5/12"
+      "lastAppeared": "2024/5/12",
+      "sinceLastAppeared": 73
     },
     "3490": {
       "makername": "Porsche",
@@ -1051,7 +1067,8 @@
       "price": "2,300,000",
       "price_in_jpy": "230,000,000",
       "isOld": true,
-      "lastAppeared": "2024/5/13"
+      "lastAppeared": "2024/5/13",
+      "sinceLastAppeared": 72
     },
     "3421": {
       "makername": "Maserati",
@@ -1059,7 +1076,8 @@
       "price": "68,000",
       "price_in_jpy": "6,800,000",
       "isOld": true,
-      "lastAppeared": "2024/5/13"
+      "lastAppeared": "2024/5/13",
+      "sinceLastAppeared": 72
     },
     "543": {
       "makername": "Jaguar",
@@ -1067,7 +1085,8 @@
       "price": "615,000",
       "price_in_jpy": "61,500,000",
       "isOld": true,
-      "lastAppeared": "2024/5/18"
+      "lastAppeared": "2024/5/18",
+      "sinceLastAppeared": 67
     },
     "1975": {
       "makername": "Mazda",
@@ -1075,7 +1094,8 @@
       "price": "600,000",
       "price_in_jpy": "60,000,000",
       "isOld": true,
-      "lastAppeared": "2024/5/19"
+      "lastAppeared": "2024/5/19",
+      "sinceLastAppeared": 66
     },
     "3489": {
       "makername": "Maserati",
@@ -1083,7 +1103,8 @@
       "price": "2,500,000",
       "price_in_jpy": "250,000,000",
       "isOld": true,
-      "lastAppeared": "2024/5/19"
+      "lastAppeared": "2024/5/19",
+      "sinceLastAppeared": 66
     },
     "1900": {
       "makername": "Plymouth",

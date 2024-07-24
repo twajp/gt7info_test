@@ -18,6 +18,14 @@ def LoadCSV(directory, filename):
     return data
 
 
+def LoadJSON(url):
+    download = requests.get(url)
+    decoded_content = download.content.decode('utf-8')
+    db = json.loads(decoded_content)
+
+    return db
+
+
 def MakeNewCarList(data, carList, makerList):
     res = []
     for i in range(len(data)):
@@ -46,6 +54,29 @@ def MakeNewCarList(data, carList, makerList):
     return res
 
 
+def update_db(dealer):
+    for day in reversed(data):
+        for car in day[dealer]:
+            db[dealer][car["carid"]] = {
+                "makername": car["makername"],
+                "carname": car["carname"],
+                "price": car["price"],
+                "price_in_jpy": car["price_in_jpy"],
+                "isOld": car["isOld"],
+                "lastAppeared": day["date"],
+            }
+
+
+def get_top_10_percent(cars_dict):
+    num_top_cars = max(1, int(len(cars_dict) * 0.1))  # At least one car if the list is non-empty
+    db_top = dict(list(cars_dict.items())[:num_top_cars])
+    for car_id, car_info in db_top.items():
+        db_top[car_id].update({"sinceLastAppeared": (today - datetime.strptime(car_info['lastAppeared'], '%Y/%m/%d').date()).days})
+
+    return db_top
+
+
+db = LoadJSON(f"https://raw.githubusercontent.com/twajp/gt7info_test/gh-pages/db.json")
 carList = LoadCSV("db/", "cars.csv")
 makerList = LoadCSV("db/", "maker.csv")
 today = datetime.now(timezone.utc).date()
@@ -54,7 +85,7 @@ timestamp = datetime.now(timezone.utc).strftime("%Y/%-m/%-d %-H:%M") + " (UTC)"
 timestamp_jp = datetime.now(timezone.utc).astimezone(JST).strftime("%Y/%-m/%-d %-H:%M") + " (JST)"
 # start_date = datetime.date(year=2022,month=6,day=28)
 # how_many_days = (today-start_date).days + 1
-how_many_days = 14
+how_many_days = 100
 data = []
 
 for i in range(how_many_days):
@@ -73,13 +104,26 @@ for i in range(how_many_days):
         "used": list_used,
         "legend": list_legend,
     })
+    print(f"Day {i}")
+
+
+update_db("used")
+update_db("legend")
+
+db["used"] = dict(sorted(db["used"].items(), key=lambda item: (today - datetime.strptime(item[1]["lastAppeared"], "%Y/%m/%d").date()).days, reverse=True))
+db["legend"] = dict(sorted(db["legend"].items(), key=lambda item: (today - datetime.strptime(item[1]["lastAppeared"], "%Y/%m/%d").date()).days, reverse=True))
+
+db_top = {}
+db_top["used"] = get_top_10_percent(db["used"])
+db_top["legend"] = get_top_10_percent(db["legend"])
+
 
 env = Environment(loader=FileSystemLoader("."))
 template = env.get_template("template.html")
 
-rendered = template.render({"data": data, "price": "global", "timestamp": timestamp})
-rendered_jp = template.render({"data": data, "price": "jp", "timestamp": timestamp_jp})
-rendered_simple = template.render({"data": data, "price": "simple", "timestamp": timestamp})
+rendered = template.render({"data": data, "price": "global", "timestamp": timestamp, "db_top": db_top})
+rendered_jp = template.render({"data": data, "price": "jp", "timestamp": timestamp_jp, "db_top": db_top})
+rendered_simple = template.render({"data": data, "price": "simple", "timestamp": timestamp, "db_top": db_top})
 
 if not os.path.exists("html"):
     os.makedirs("html")
@@ -95,6 +139,9 @@ with open("html/simple.html", "w") as f:
 
 with open("html/data.json", "w") as f:
     json.dump(data, f, indent=2, ensure_ascii=False)
+
+with open("html/db.json", "w") as f:
+    json.dump(db, f, indent=2, ensure_ascii=False)
 
 copyfile("style.css", "html/style.css")
 copyfile("script.js", "html/script.js")

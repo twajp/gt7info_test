@@ -229,7 +229,7 @@ $(document).ready(function () {
 
     // Update the last updated timestamp display
     function updateLastUpdatedTimestamp(timestamp) {
-        $('#lastUpdated').text(timestamp);
+        $('#lastUpdated').text(`Last updated: ${timestamp}`);
     }
 
     // Handle keepAccordionOpen switch change

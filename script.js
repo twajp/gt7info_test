@@ -11,8 +11,6 @@ const popupTexts = $('.popup-text');
 modal.click(function () {
     $(this).hide();
 });
-
-
 $(document).ready(function () {
     let displayInJPY = false;
 
@@ -30,6 +28,11 @@ $(document).ready(function () {
         .then(db => {
             renderExpectedSection(db);
         });
+
+    // Function to format numbers with commas
+    function numberWithCommas(x) {
+        return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+    }
 
     // Render accordion section
     function renderAccordion(data) {
@@ -65,8 +68,7 @@ $(document).ready(function () {
                                         <tr class="${car.isOld ? 'table-danger' : (car.isOld === false ? '' : 'table-warning')}">
                                             <td>${car.makername}</td>
                                             <th class="popup-text" data-image-url="https://ddm999.github.io/gt7info/cars/prices_${car.carid}.png">${car.carname}</th>
-                                            <td class="price-cell" style="text-align: right; cursor: pointer;" data-price="${car.price}" data-price-jpy="${car.price_in_jpy}">${car.price}</td>
-
+                                            <td class="price-cell" style="text-align: right; cursor: pointer;" data-price="${car.price}" data-price-jpy="${car.price_in_jpy}">${numberWithCommas(car.price)}</td>
                                             <td></td>
                                         </tr>
                                     `).join('')}
@@ -89,7 +91,7 @@ $(document).ready(function () {
                                         <tr class="${car.isOld ? 'table-danger' : (car.isOld === false ? '' : 'table-warning')}">
                                             <td>${car.makername}</td>
                                             <th class="popup-text" data-image-url="https://ddm999.github.io/gt7info/cars/prices_${car.carid}.png">${car.carname}</th>
-                                            <td class="price-cell" style="text-align: right; cursor: pointer;" data-price="${car.price}" data-price-jpy="${car.price_in_jpy}">${car.price}</td>
+                                            <td class="price-cell" style="text-align: right; cursor: pointer;" data-price="${car.price}" data-price-jpy="${car.price_in_jpy}">${numberWithCommas(car.price)}</td>
                                             <td></td>
                                         </tr>
                                     `).join('')}
@@ -110,7 +112,7 @@ $(document).ready(function () {
             modal.show();
         });
 
-        // Handle price cell click to toggle price and price_in_jpy
+        // Handle price cell and header click to toggle price and price_in_jpy
         $(document).on('click', '.price-cell, .price-header', function () {
             displayInJPY = !displayInJPY;
             togglePrices();
@@ -123,7 +125,7 @@ $(document).ready(function () {
             const priceCell = $(this);
             const price = priceCell.data('price');
             const priceJpy = priceCell.data('price-jpy');
-            priceCell.text(displayInJPY ? priceJpy : price);
+            priceCell.text(displayInJPY ? numberWithCommas(priceJpy) : numberWithCommas(price));
         });
     }
 

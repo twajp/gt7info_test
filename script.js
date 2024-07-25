@@ -1,3 +1,17 @@
+const modal = $('#modal-container');
+const img = modal.find('img');
+const popupTexts = $('.popup-text');
+
+// $(document).on('click', '.popup-text', function () {
+//     const imageUrl = $(this).data('image-url');
+//     img.attr('src', imageUrl);
+//     modal.show();
+// });
+
+modal.click(function () {
+    $(this).hide();
+});
+
 $(document).ready(function () {
     // Retrieve display preference from localStorage
     let displayInJPY = localStorage.getItem('displayInJPY') === 'true';
@@ -93,19 +107,11 @@ $(document).ready(function () {
             accordionContainer.append(accordionItem);
         });
 
-        const modal = $('#modal-container');
-        const img = modal.find('img');
-        const popupTexts = $('.popup-text');
-
         // Handle popup text click
         $(document).on('click', '.popup-text', function () {
             const imageUrl = $(this).data('image-url');
             img.attr('src', imageUrl);
             modal.show();
-        });
-
-        modal.click(function () {
-            $(this).hide();
         });
 
         // Handle price cell and header click to toggle price and price_in_jpy

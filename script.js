@@ -212,12 +212,6 @@ $(document).ready(function () {
         `;
 
         expectedContainer.append(expectedHtml);
-
-        // Handle price header click to toggle price and price_in_jpy
-        $(document).on('click', '.price-header', function () {
-            displayInJPY = !displayInJPY;
-            togglePrices();
-        });
     }
 
     // Update last updated timestamp

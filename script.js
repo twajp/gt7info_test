@@ -17,10 +17,13 @@ $(document).ready(function () {
     $('#keepAccordionOpen').prop('checked', keepAccordionOpen);
     $('#showPriceColumn').prop('checked', showPriceColumn);
 
+    let data; // Declare data variable to be used in the entire scope
+
     // Load and render data.json
-    fetch('https://raw.githubusercontent.com/twajp/gt7info/gh-pages/data.json')
+    fetch('data.json')
         .then(response => response.json())
-        .then(data => {
+        .then(loadedData => {
+            data = loadedData; // Assign the loaded data to the data variable
             renderAccordion(data);
             updateLastUpdatedTimestamp(displayInJPY ? data.timestamp_jp : data.timestamp);
         });
@@ -45,16 +48,16 @@ $(document).ready(function () {
         data.content.forEach((oneData, index) => {
             const collapseId = `collapse${oneData.id}`;
             const isFirstItem = index === 0;
-            const showClass = isFirstItem ? 'show' : '';
-            const buttonClass = isFirstItem ? '' : 'collapsed';
+            const showClass = isFirstItem && !keepAccordionOpen ? 'show' : '';
+            const buttonClass = isFirstItem && !keepAccordionOpen ? '' : 'collapsed';
             const accordionItem = `
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                        <button class="accordion-button ${buttonClass}" type="button" data-bs-toggle="collapse" data-bs-target="#${collapseId}" aria-expanded="${isFirstItem}" aria-controls="${collapseId}">
+                        <button class="accordion-button ${buttonClass}" type="button" data-bs-toggle="collapse" data-bs-target="#${collapseId}" aria-expanded="true" aria-controls="${collapseId}">
                             ${oneData.date}
                         </button>
                     </h2>
-                    <div id="${collapseId}" class="accordion-collapse collapse ${showClass}" data-bs-parent="${keepAccordionOpen ? '' : '#accordionPanelsStayOpen'}">
+                    <div id="${collapseId}" class="accordion-collapse collapse ${keepAccordionOpen ? 'show' : showClass}" data-bs-parent="${keepAccordionOpen ? '' : '#accordionPanelsStayOpen'}">
                         <div class="accordion-body">
                             <h2 style="text-align: center;">Used Car Dealership</h2>
                             <table class="table">

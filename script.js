@@ -48,8 +48,9 @@ $(document).ready(function () {
         data.content.forEach((oneData, index) => {
             const collapseId = `collapse${oneData.id}`;
             const isFirstItem = index === 0;
-            const showClass = isFirstItem && keepAccordionOpen ? 'show' : ''; // Only show the first item if keepAccordionOpen is true
-            const buttonClass = isFirstItem ? '' : 'collapsed'; // Only set the collapsed class for non-first items
+            const isOpen = keepAccordionOpen || isFirstItem;
+            const showClass = isOpen ? 'show' : '';
+            const buttonClass = isOpen ? '' : 'collapsed';
             const accordionItem = `
                 <div class="accordion-item">
                     <h2 class="accordion-header">

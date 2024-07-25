@@ -1,20 +1,6 @@
-const modal = $('#modal-container');
-const img = modal.find('img');
-const popupTexts = $('.popup-text');
-
-// popupTexts.click(function () {
-//     const imageUrl = $(this).data('image-url');
-//     img.attr('src', imageUrl);
-//     modal.show();
-// });
-
-modal.click(function () {
-    $(this).hide();
-});
-
 $(document).ready(function () {
     // Retrieve display preference from localStorage
-    let displayInJPY = localStorage.getItem('displayInJPY') === 'false';
+    let displayInJPY = localStorage.getItem('displayInJPY') === 'true';
 
     // Load and render data.json
     fetch('data.json')

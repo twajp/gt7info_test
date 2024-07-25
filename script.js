@@ -11,6 +11,7 @@ const popupTexts = $('.popup-text');
 modal.click(function () {
     $(this).hide();
 });
+
 $(document).ready(function () {
     let displayInJPY = localStorage.getItem('displayInJPY') === 'false';
 
@@ -19,7 +20,7 @@ $(document).ready(function () {
         .then(response => response.json())
         .then(data => {
             renderAccordion(data);
-            updateLastUpdatedTimestamp(data.timestamp);
+            updateLastUpdatedTimestamp(displayInJPY ? data.timestamp_jp : data.timestamp);
         });
 
     // Load and render db.json
@@ -115,19 +116,21 @@ $(document).ready(function () {
         // Handle price cell and header click to toggle price and price_in_jpy
         $(document).on('click', '.price-cell, .price-header', function () {
             displayInJPY = !displayInJPY;
-            localStorage.setItem('displayInJPY', displayInJPY);
-            togglePrices();
+            togglePrices(data.timestamp, data.timestamp_jp);
         });
     }
 
     // Toggle between price and price_in_jpy
-    function togglePrices() {
+    function togglePrices(timestamp, timestamp_jp) {
         $('.price-cell').each(function () {
             const priceCell = $(this);
             const price = priceCell.data('price');
             const priceJpy = priceCell.data('price-jpy');
             priceCell.text(displayInJPY ? numberWithCommas(priceJpy) : numberWithCommas(price));
         });
+
+        // Update the timestamp display
+        updateLastUpdatedTimestamp(displayInJPY ? timestamp_jp : timestamp);
     }
 
     // Render Expected to Appear Soon section

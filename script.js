@@ -168,8 +168,8 @@ $(document).ready(function () {
         const usedCars = db['used'];
         const legendCars = db['legend'];
 
-        const selectedUsedCars = selectCars(usedCars, 100);
-        const selectedLegendCars = selectCars(legendCars, 100);
+        const selectedUsedCars = selectCars(usedCars, 20);
+        const selectedLegendCars = selectCars(legendCars, 10);
 
         const renderCars = (cars) => {
             return cars.map(car => `

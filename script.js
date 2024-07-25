@@ -65,7 +65,8 @@ $(document).ready(function () {
                                         <tr class="${car.isOld ? 'table-danger' : (car.isOld === false ? '' : 'table-warning')}">
                                             <td>${car.makername}</td>
                                             <th class="popup-text" data-image-url="https://ddm999.github.io/gt7info/cars/prices_${car.carid}.png">${car.carname}</th>
-                                            <td class="price-cell" style="text-align: right;" data-price="${car.price}" data-price-jpy="${car.price_in_jpy}">${car.price}</td>
+                                            <td class="price-cell" style="text-align: right; cursor: pointer;" data-price="${car.price}" data-price-jpy="${car.price_in_jpy}">${car.price}</td>
+
                                             <td></td>
                                         </tr>
                                     `).join('')}
@@ -88,7 +89,7 @@ $(document).ready(function () {
                                         <tr class="${car.isOld ? 'table-danger' : (car.isOld === false ? '' : 'table-warning')}">
                                             <td>${car.makername}</td>
                                             <th class="popup-text" data-image-url="https://ddm999.github.io/gt7info/cars/prices_${car.carid}.png">${car.carname}</th>
-                                            <td class="price-cell" style="text-align: right;" data-price="${car.price}" data-price-jpy="${car.price_in_jpy}">${car.price}</td>
+                                            <td class="price-cell" style="text-align: right; cursor: pointer;" data-price="${car.price}" data-price-jpy="${car.price_in_jpy}">${car.price}</td>
                                             <td></td>
                                         </tr>
                                     `).join('')}
@@ -160,7 +161,7 @@ $(document).ready(function () {
                 <tr class="${car[1].isOld ? 'table-danger' : (car[1].isOld === false ? '' : 'table-warning')}">
                     <td>${car[1].makername}</td>
                     <th class="popup-text" data-image-url="https://ddm999.github.io/gt7info/cars/prices_${car[0]}.png">${car[1].carname}</th>
-                    <td class="price-cell" style="text-align: right;" data-price="${car[1].price}" data-price-jpy="${car[1].price_in_jpy}">${car[1].price}</td>
+                    <td style="text-align: right;">${car[1].lastAppeared} (${car[1].sinceLastAppeared} days ago)</td>
                     <td></td>
                 </tr>
             `).join('');

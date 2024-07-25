@@ -118,8 +118,8 @@ db['used'] = dict(sorted(db['used'].items(), key=lambda item: (today - datetime.
 db['legend'] = dict(sorted(db['legend'].items(), key=lambda item: (today - datetime.strptime(item[1]['lastAppeared'], '%Y/%m/%d').date()).days, reverse=True))
 
 
-db.update({'timestamp': timestamp})
-db.update({'timestamp_jp': timestamp_jp})
+db['timestamp'] = timestamp
+db['timestamp_jp'] = timestamp_jp
 
 if not os.path.exists('html'):
     os.makedirs('html')

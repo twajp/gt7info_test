@@ -13,8 +13,14 @@ modal.click(function () {
 });
 
 $(document).ready(function () {
-    // Retrieve display preference from localStorage
+    // Retrieve display preferences from localStorage
     let displayInJPY = localStorage.getItem('displayInJPY') === 'true';
+    let keepAccordionOpen = localStorage.getItem('keepAccordionOpen') === 'true';
+    let showPriceColumn = localStorage.getItem('showPriceColumn') === 'true';
+
+    // Set the initial state of switches
+    $('#keepAccordionOpen').prop('checked', keepAccordionOpen);
+    $('#showPriceColumn').prop('checked', showPriceColumn);
 
     // Load and render data.json
     fetch('data.json')
@@ -44,8 +50,8 @@ $(document).ready(function () {
         data.content.forEach((oneData, index) => {
             const collapseId = `collapse${oneData.id}`;
             const isFirstItem = index === 0;
-            const showClass = isFirstItem ? 'show' : '';
-            const buttonClass = isFirstItem ? '' : 'collapsed';
+            const showClass = isFirstItem && !keepAccordionOpen ? 'show' : '';
+            const buttonClass = isFirstItem && !keepAccordionOpen ? '' : 'collapsed';
             const accordionItem = `
                 <div class="accordion-item">
                     <h2 class="accordion-header">
@@ -53,7 +59,7 @@ $(document).ready(function () {
                             ${oneData.date}
                         </button>
                     </h2>
-                    <div id="${collapseId}" class="accordion-collapse collapse ${showClass}" data-bs-parent="#accordionPanelsStayOpen">
+                    <div id="${collapseId}" class="accordion-collapse collapse ${showClass}" data-bs-parent="${keepAccordionOpen ? '' : '#accordionPanelsStayOpen'}">
                         <div class="accordion-body">
                             <h2 style="text-align: center;">Used Car Dealership</h2>
                             <table class="table">
@@ -61,7 +67,7 @@ $(document).ready(function () {
                                     <tr>
                                         <th scope="col">Maker</th>
                                         <th scope="col">Car</th>
-                                        <th scope="col" class="price-header" style="text-align: right; cursor: pointer;">Price</th>
+                                        <th scope="col" class="price-header" style="text-align: right; cursor: pointer; ${showPriceColumn ? '' : 'display: none;'}">Price</th>
                                         <th scope="col"></th>
                                     </tr>
                                 </thead>
@@ -70,7 +76,7 @@ $(document).ready(function () {
                                         <tr class="${car.isOld ? 'table-danger' : (car.isOld === false ? '' : 'table-warning')}">
                                             <td>${car.makername}</td>
                                             <th class="popup-text" data-image-url="https://ddm999.github.io/gt7info/cars/prices_${car.carid}.png">${car.carname}</th>
-                                            <td class="price-cell" style="text-align: right; cursor: pointer;" data-price="${car.price}" data-price-jpy="${car.price_in_jpy}">${numberWithCommas(displayInJPY ? car.price_in_jpy : car.price)}</td>
+                                            <td class="price-cell" style="text-align: right; cursor: pointer; ${showPriceColumn ? '' : 'display: none;'}" data-price="${car.price}" data-price-jpy="${car.price_in_jpy}">${numberWithCommas(displayInJPY ? car.price_in_jpy : car.price)}</td>
                                             <td></td>
                                         </tr>
                                     `).join('')}
@@ -84,7 +90,7 @@ $(document).ready(function () {
                                     <tr>
                                         <th scope="col">Maker</th>
                                         <th scope="col">Car</th>
-                                        <th scope="col" class="price-header" style="text-align: right; cursor: pointer;">Price</th>
+                                        <th scope="col" class="price-header" style="text-align: right; cursor: pointer; ${showPriceColumn ? '' : 'display: none;'}">Price</th>
                                         <th scope="col"></th>
                                     </tr>
                                 </thead>
@@ -93,7 +99,7 @@ $(document).ready(function () {
                                         <tr class="${car.isOld ? 'table-danger' : (car.isOld === false ? '' : 'table-warning')}">
                                             <td>${car.makername}</td>
                                             <th class="popup-text" data-image-url="https://ddm999.github.io/gt7info/cars/prices_${car.carid}.png">${car.carname}</th>
-                                            <td class="price-cell" style="text-align: right; cursor: pointer;" data-price="${car.price}" data-price-jpy="${car.price_in_jpy}">${numberWithCommas(displayInJPY ? car.price_in_jpy : car.price)}</td>
+                                            <td class="price-cell" style="text-align: right; cursor: pointer; ${showPriceColumn ? '' : 'display: none;'}" data-price="${car.price}" data-price-jpy="${car.price_in_jpy}">${numberWithCommas(displayInJPY ? car.price_in_jpy : car.price)}</td>
                                             <td></td>
                                         </tr>
                                     `).join('')}
@@ -184,7 +190,7 @@ $(document).ready(function () {
                     Expected to Appear Soon
                 </button>
             </h2>
-            <div id='collapseExpected' class='accordion-collapse collapse' data-bs-parent='#accordionPanelsStayOpen'>
+            <div id='collapseExpected' class='accordion-collapse collapse' data-bs-parent="${keepAccordionOpen ? '' : '#accordionPanelsStayOpen'}">
                 <div class='accordion-body'>
                     <h2 style='text-align: center;'>Used Car Dealership</h2>
                     <table class='table'>
@@ -227,4 +233,18 @@ $(document).ready(function () {
     function updateLastUpdatedTimestamp(timestamp) {
         $('#lastUpdated').text(`Last updated: ${timestamp}`);
     }
+
+    // Event listener for "Make accordion items stay open" switch
+    $('#flexSwitchCheckDefault').change(function () {
+        keepAccordionOpen = this.checked;
+        localStorage.setItem('keepAccordionOpen', keepAccordionOpen); // Save the preference
+        renderAccordion({ content: data }); // Re-render accordion with updated preference
+    });
+
+    // Event listener for "Show price column" switch
+    $('#flexSwitchCheckChecked').change(function () {
+        showPriceColumn = this.checked;
+        localStorage.setItem('showPriceColumn', showPriceColumn); // Save the preference
+        renderAccordion({ content: data }); // Re-render accordion with updated preference
+    });
 });

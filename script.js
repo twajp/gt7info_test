@@ -57,7 +57,7 @@ $(document).ready(function () {
                             ${oneData.date}
                         </button>
                     </h2>
-                    <div id="${collapseId}" class="accordion-collapse collapse ${showClass}" data-bs-parent="${keepAccordionOpen ? '' : '#accordionPanelsStayOpen'}">
+                    <div id="${collapseId}" class="accordion-collapse collapse ${keepAccordionOpen ? 'show' : showClass}" data-bs-parent="${keepAccordionOpen ? '' : '#accordionPanelsStayOpen'}">
                         <div class="accordion-body">
                             <h2 style="text-align: center;">Used Car Dealership</h2>
                             <table class="table">

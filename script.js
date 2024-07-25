@@ -2,7 +2,7 @@ const modal = $('#modal-container');
 const img = modal.find('img');
 const popupTexts = $('.popup-text');
 
-// $(document).on('click', '.popup-text', function () {
+// popupTexts.click(function () {
 //     const imageUrl = $(this).data('image-url');
 //     img.attr('src', imageUrl);
 //     modal.show();

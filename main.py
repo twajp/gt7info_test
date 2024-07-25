@@ -53,28 +53,33 @@ def MakeNewCarList(data, carList, makerList):
     return res
 
 
-def UpdateDB(dealer):
-    for day in reversed(data['content']):
-        for car in day[dealer]:
-            db[dealer][car['carid']] = {
-                'makername': car['makername'],
-                'carname': car['carname'],
-                'price': car['price'],
-                'price_in_jpy': car['price_in_jpy'],
-                'isOld': car['isOld'],
-                'lastAppeared': day['date'],
-            }
+def UpdateDB():
+    for dealer in ['used', 'legend']:
+        for day in reversed(data['content']):
+            for car in day[dealer]:
+                db[dealer][car['carid']] = {
+                    'makername': car['makername'],
+                    'carname': car['carname'],
+                    'price': car['price'],
+                    'price_in_jpy': car['price_in_jpy'],
+                    'isOld': car['isOld'],
+                    'lastAppeared': day['date'],
+                }
 
+    db.update({'timestamp': timestamp})
+    db.update({'timestamp_jp': timestamp_jp})
 
-def UpdateAllDBEntries():
     for dealer in ['used', 'legend']:
         for car_id, car_info in db[dealer].items():
             car_info['sinceLastAppeared'] = (today - datetime.strptime(car_info['lastAppeared'], '%Y/%m/%d').date()).days
         # Sort the entries by 'sinceLastAppeared'
         db[dealer] = dict(sorted(db[dealer].items(), key=lambda item: item[1]['sinceLastAppeared'], reverse=True))
 
+    db['used'] = dict(sorted(db['used'].items(), key=lambda item: (today - datetime.strptime(item[1]['lastAppeared'], '%Y/%m/%d').date()).days, reverse=True))
+    db['legend'] = dict(sorted(db['legend'].items(), key=lambda item: (today - datetime.strptime(item[1]['lastAppeared'], '%Y/%m/%d').date()).days, reverse=True))
 
-db = LoadJSON(f'https://raw.githubusercontent.com/twajp/gt7info/gh-pages/db.json')
+
+db = LoadJSON(f'https://raw.githubusercontent.com/twajp/gt7info_test/gh-pages/db.json')
 carList = LoadCSV('db/', 'cars.csv')
 makerList = LoadCSV('db/', 'maker.csv')
 today = datetime.now(timezone.utc).date()
@@ -108,18 +113,7 @@ for i in range(how_many_days):
     })
     print(f'Day {i+1}')
 
-
-UpdateDB('used')
-UpdateDB('legend')
-
-UpdateAllDBEntries()
-
-db['used'] = dict(sorted(db['used'].items(), key=lambda item: (today - datetime.strptime(item[1]['lastAppeared'], '%Y/%m/%d').date()).days, reverse=True))
-db['legend'] = dict(sorted(db['legend'].items(), key=lambda item: (today - datetime.strptime(item[1]['lastAppeared'], '%Y/%m/%d').date()).days, reverse=True))
-
-
-db['timestamp'] = timestamp
-db['timestamp_jp'] = timestamp_jp
+UpdateDB()
 
 if not os.path.exists('html'):
     os.makedirs('html')

@@ -14,7 +14,7 @@ modal.click(function () {
 
 $(document).ready(function () {
     // Retrieve display preference from localStorage
-    let displayInJPY = localStorage.getItem('displayInJPY') === 'true';
+    let displayInJPY = localStorage.getItem('displayInJPY') === 'false';
 
     // Load and render data.json
     fetch('data.json')

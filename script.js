@@ -51,60 +51,58 @@ $(document).ready(function () {
             const showClass = isFirstItem ? 'show' : '';
             const buttonClass = isFirstItem ? '' : 'collapsed';
             const accordionItem = `
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button ${buttonClass}" type="button" data-bs-toggle="collapse" data-bs-target="#${collapseId}" aria-expanded="${isFirstItem ? 'true' : 'false'}" aria-controls="${collapseId}">
-                            ${oneData.date}
-                        </button>
-                    </h2>
-                    <div id="${collapseId}" class="accordion-collapse collapse ${showClass}" data-bs-parent="${keepAccordionOpen ? '' : '#accordionPanelsStayOpen'}">
-                        <div class="accordion-body">
-                            <h2 style="text-align: center;">Used Car Dealership</h2>
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">Maker</th>
-                                        <th scope="col">Car</th>
-                                        <th scope="col" class="price-header" style="text-align: right; cursor: pointer; ${showPriceColumn ? '' : 'display: none;'}">Price</th>
-                                        <th scope="col"></th>
+                <h2 class="accordion-header">
+                    <button class="accordion-button ${buttonClass}" type="button" data-bs-toggle="collapse" data-bs-target="#${collapseId}" aria-expanded="${isFirstItem ? 'true' : 'false'}" aria-controls="${collapseId}">
+                        ${oneData.date}
+                    </button>
+                </h2>
+                <div id="${collapseId}" class="accordion-collapse collapse ${showClass}" data-bs-parent="${keepAccordionOpen ? '' : '#accordionPanelsStayOpen'}">
+                    <div class="accordion-body">
+                        <h2 style="text-align: center;">Used Car Dealership</h2>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Maker</th>
+                                    <th scope="col">Car</th>
+                                    <th scope="col" class="price-header" style="text-align: right; cursor: pointer; ${showPriceColumn ? '' : 'display: none;'}">Price</th>
+                                    <th scope="col"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${oneData.used.map(car => `
+                                    <tr class="${car.isOld ? 'table-danger' : (car.isOld === false ? '' : 'table-warning')}">
+                                        <td>${car.makername}</td>
+                                        <th class="popup-text" data-image-url="https://ddm999.github.io/gt7info/cars/prices_${car.carid}.png">${car.carname}</th>
+                                        <td class="price-cell" style="text-align: right; cursor: pointer; ${showPriceColumn ? '' : 'display: none;'}" data-price="${car.price}" data-price-jpy="${car.price_in_jpy}">${numberWithCommas(displayInJPY ? car.price_in_jpy : car.price)}</td>
+                                        <td></td>
                                     </tr>
-                                </thead>
-                                <tbody>
-                                    ${oneData.used.map(car => `
-                                        <tr class="${car.isOld ? 'table-danger' : (car.isOld === false ? '' : 'table-warning')}">
-                                            <td>${car.makername}</td>
-                                            <th class="popup-text" data-image-url="https://ddm999.github.io/gt7info/cars/prices_${car.carid}.png">${car.carname}</th>
-                                            <td class="price-cell" style="text-align: right; cursor: pointer; ${showPriceColumn ? '' : 'display: none;'}" data-price="${car.price}" data-price-jpy="${car.price_in_jpy}">${numberWithCommas(displayInJPY ? car.price_in_jpy : car.price)}</td>
-                                            <td></td>
-                                        </tr>
-                                    `).join('')}
-                                    ${oneData.used.length === 0 ? '<tr><td colspan="4" style="text-align: center;">No new cars available.</td></tr>' : ''}
-                                </tbody>
-                            </table>
-                            <br><br>
-                            <h2 style="text-align: center;">Legendary Dealership</h2>
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">Maker</th>
-                                        <th scope="col">Car</th>
-                                        <th scope="col" class="price-header" style="text-align: right; cursor: pointer; ${showPriceColumn ? '' : 'display: none;'}">Price</th>
-                                        <th scope="col"></th>
+                                `).join('')}
+                                ${oneData.used.length === 0 ? '<tr><td colspan="4" style="text-align: center;">No new cars available.</td></tr>' : ''}
+                            </tbody>
+                        </table>
+                        <br><br>
+                        <h2 style="text-align: center;">Legendary Dealership</h2>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Maker</th>
+                                    <th scope="col">Car</th>
+                                    <th scope="col" class="price-header" style="text-align: right; cursor: pointer; ${showPriceColumn ? '' : 'display: none;'}">Price</th>
+                                    <th scope="col"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${oneData.legend.map(car => `
+                                    <tr class="${car.isOld ? 'table-danger' : (car.isOld === false ? '' : 'table-warning')}">
+                                        <td>${car.makername}</td>
+                                        <th class="popup-text" data-image-url="https://ddm999.github.io/gt7info/cars/prices_${car.carid}.png">${car.carname}</th>
+                                        <td class="price-cell" style="text-align: right; cursor: pointer; ${showPriceColumn ? '' : 'display: none;'}" data-price="${car.price}" data-price-jpy="${car.price_in_jpy}">${numberWithCommas(displayInJPY ? car.price_in_jpy : car.price)}</td>
+                                        <td></td>
                                     </tr>
-                                </thead>
-                                <tbody>
-                                    ${oneData.legend.map(car => `
-                                        <tr class="${car.isOld ? 'table-danger' : (car.isOld === false ? '' : 'table-warning')}">
-                                            <td>${car.makername}</td>
-                                            <th class="popup-text" data-image-url="https://ddm999.github.io/gt7info/cars/prices_${car.carid}.png">${car.carname}</th>
-                                            <td class="price-cell" style="text-align: right; cursor: pointer; ${showPriceColumn ? '' : 'display: none;'}" data-price="${car.price}" data-price-jpy="${car.price_in_jpy}">${numberWithCommas(displayInJPY ? car.price_in_jpy : car.price)}</td>
-                                            <td></td>
-                                        </tr>
-                                    `).join('')}
-                                    ${oneData.legend.length === 0 ? '<tr><td colspan="4" style="text-align: center;">No new cars available.</td></tr>' : ''}
-                                </tbody>
-                            </table>
-                        </div>
+                                `).join('')}
+                                ${oneData.legend.length === 0 ? '<tr><td colspan="4" style="text-align: center;">No new cars available.</td></tr>' : ''}
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             `;

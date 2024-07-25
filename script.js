@@ -68,7 +68,7 @@ $(document).ready(function () {
                                         <tr class="${car.isOld ? 'table-danger' : (car.isOld === false ? '' : 'table-warning')}">
                                             <td>${car.makername}</td>
                                             <th class="popup-text" data-image-url="https://ddm999.github.io/gt7info/cars/prices_${car.carid}.png">${car.carname}</th>
-                                            <td class="price-cell" style="text-align: right; cursor: pointer;" data-price="${car.price}" data-price-jpy="${car.price_in_jpy}"></td>
+                                            <td class="price-cell" style="text-align: right; cursor: pointer;" data-price="${car.price}" data-price-jpy="${car.price_in_jpy}">${numberWithCommas(car.price)}</td>
                                             <td></td>
                                         </tr>
                                     `).join('')}
@@ -91,7 +91,7 @@ $(document).ready(function () {
                                         <tr class="${car.isOld ? 'table-danger' : (car.isOld === false ? '' : 'table-warning')}">
                                             <td>${car.makername}</td>
                                             <th class="popup-text" data-image-url="https://ddm999.github.io/gt7info/cars/prices_${car.carid}.png">${car.carname}</th>
-                                            <td class="price-cell" style="text-align: right; cursor: pointer;" data-price="${car.price}" data-price-jpy="${car.price_in_jpy}"></td>
+                                            <td class="price-cell" style="text-align: right; cursor: pointer;" data-price="${car.price}" data-price-jpy="${car.price_in_jpy}">${numberWithCommas(car.price)}</td>
                                             <td></td>
                                         </tr>
                                     `).join('')}

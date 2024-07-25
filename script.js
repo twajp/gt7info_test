@@ -13,6 +13,10 @@ $(document).ready(function () {
     let keepAccordionOpen = localStorage.getItem('keepAccordionOpen') === 'true';
     let showPriceColumn = localStorage.getItem('showPriceColumn') === 'true';
 
+    // Set default values if no preference is set
+    keepAccordionOpen = keepAccordionOpen !== undefined ? keepAccordionOpen : false;
+    showPriceColumn = showPriceColumn !== undefined ? showPriceColumn : true;
+
     // Set the initial state of switches
     $('#keepAccordionOpen').prop('checked', keepAccordionOpen);
     $('#showPriceColumn').prop('checked', showPriceColumn);

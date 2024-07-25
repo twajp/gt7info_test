@@ -8,13 +8,10 @@ modal.click(function () {
 });
 
 $(document).ready(function () {
-    // Set the default values
-    let defaultKeepAccordionOpen = false; // Default value for keepAccordionOpen
-    let defaultShowPriceColumn = true; // Default value for showPriceColumn
-
-    // Retrieve display preferences from localStorage or use defaults
-    let keepAccordionOpen = localStorage.getItem('keepAccordionOpen') === 'true' || defaultKeepAccordionOpen;
-    let showPriceColumn = localStorage.getItem('showPriceColumn') === 'true' || defaultShowPriceColumn;
+    // Retrieve display preferences from localStorage
+    let displayInJPY = localStorage.getItem('displayInJPY') === 'true';
+    let keepAccordionOpen = localStorage.getItem('keepAccordionOpen') === 'true';
+    let showPriceColumn = localStorage.getItem('showPriceColumn') === 'true';
 
     // Set the initial state of switches
     $('#keepAccordionOpen').prop('checked', keepAccordionOpen);
@@ -84,7 +81,8 @@ $(document).ready(function () {
                                     ${oneData.used.length === 0 ? '<tr><td colspan="4" style="text-align: center;">No new cars available.</td></tr>' : ''}
                                 </tbody>
                             </table>
-                            <h2 style="text-align: center; margin-top: 50px;">Legendary Dealership</h2>
+                            <br><br>
+                            <h2 style="text-align: center;">Legendary Dealership</h2>
                             <table class="table">
                                 <thead>
                                     <tr>
@@ -207,7 +205,8 @@ $(document).ready(function () {
                                 ${usedCarsHtml}
                             </tbody>
                         </table>
-                        <h2 style="text-align: center; margin-top: 50px;">Legendary Dealership</h2>
+                        <br><br>
+                        <h2 style="text-align: center;">Legendary Dealership</h2>
                         <table class="table">
                             <thead>
                                 <tr>
@@ -229,7 +228,7 @@ $(document).ready(function () {
 
     // Update the last updated timestamp display
     function updateLastUpdatedTimestamp(timestamp) {
-        $('#lastUpdated').text(`Last updated: ${timestamp}`);
+        $('#lastUpdated').text(timestamp);
     }
 
     // Handle keepAccordionOpen switch change

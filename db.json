@@ -1043,6 +1043,33 @@
       "isOld": true,
       "lastAppeared": "2024/7/25",
       "sinceLastAppeared": 0
+    },
+    "1544": {
+      "makername": "Ferrari",
+      "carname": "430 Scuderia '07",
+      "price": 366700,
+      "price_in_jpy": 36670000,
+      "isOld": false,
+      "lastAppeared": "2024/7/25",
+      "sinceLastAppeared": 0
+    },
+    "3551": {
+      "makername": "BMW",
+      "carname": "M3 '97",
+      "price": 74600,
+      "price_in_jpy": 7460000,
+      "isOld": true,
+      "lastAppeared": "2024/7/25",
+      "sinceLastAppeared": 0
+    },
+    "1506": {
+      "makername": "Lamborghini",
+      "carname": "Gallardo LP 560-4 '08",
+      "price": 253100,
+      "price_in_jpy": 25310000,
+      "isOld": false,
+      "lastAppeared": "2024/7/25",
+      "sinceLastAppeared": 0
     }
   },
   "legend": {
@@ -1810,8 +1837,17 @@
       "isOld": true,
       "lastAppeared": "2024/7/24",
       "sinceLastAppeared": 1
+    },
+    "3550": {
+      "makername": "Subaru",
+      "carname": "Impreza Rally Car '98",
+      "price": 650000,
+      "price_in_jpy": 65000000,
+      "isOld": true,
+      "lastAppeared": "2024/7/25",
+      "sinceLastAppeared": 0
     }
   },
-  "timestamp": "2024/7/25 10:34 (UTC)",
-  "timestamp_jp": "2024/7/25 19:34 (JST)"
+  "timestamp": "2024/7/25 10:46 (UTC)",
+  "timestamp_jp": "2024/7/25 19:46 (JST)"
 }

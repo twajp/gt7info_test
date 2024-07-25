@@ -12,7 +12,7 @@ modal.click(function () {
     $(this).hide();
 });
 $(document).ready(function () {
-    let displayInJPY = false;
+    let displayInJPY = localStorage.getItem('displayInJPY') === 'false';
 
     // Load and render data.json
     fetch('data.json')
@@ -68,7 +68,7 @@ $(document).ready(function () {
                                         <tr class="${car.isOld ? 'table-danger' : (car.isOld === false ? '' : 'table-warning')}">
                                             <td>${car.makername}</td>
                                             <th class="popup-text" data-image-url="https://ddm999.github.io/gt7info/cars/prices_${car.carid}.png">${car.carname}</th>
-                                            <td class="price-cell" style="text-align: right; cursor: pointer;" data-price="${car.price}" data-price-jpy="${car.price_in_jpy}">${numberWithCommas(car.price)}</td>
+                                            <td class="price-cell" style="text-align: right; cursor: pointer;" data-price="${car.price}" data-price-jpy="${car.price_in_jpy}">${numberWithCommas(displayInJPY ? car.price_in_jpy : car.price)}</td>
                                             <td></td>
                                         </tr>
                                     `).join('')}
@@ -91,7 +91,7 @@ $(document).ready(function () {
                                         <tr class="${car.isOld ? 'table-danger' : (car.isOld === false ? '' : 'table-warning')}">
                                             <td>${car.makername}</td>
                                             <th class="popup-text" data-image-url="https://ddm999.github.io/gt7info/cars/prices_${car.carid}.png">${car.carname}</th>
-                                            <td class="price-cell" style="text-align: right; cursor: pointer;" data-price="${car.price}" data-price-jpy="${car.price_in_jpy}">${numberWithCommas(car.price)}</td>
+                                            <td class="price-cell" style="text-align: right; cursor: pointer;" data-price="${car.price}" data-price-jpy="${car.price_in_jpy}">${numberWithCommas(displayInJPY ? car.price_in_jpy : car.price)}</td>
                                             <td></td>
                                         </tr>
                                     `).join('')}
@@ -115,6 +115,7 @@ $(document).ready(function () {
         // Handle price cell and header click to toggle price and price_in_jpy
         $(document).on('click', '.price-cell, .price-header', function () {
             displayInJPY = !displayInJPY;
+            localStorage.setItem('displayInJPY', displayInJPY);
             togglePrices();
         });
     }

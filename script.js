@@ -48,16 +48,16 @@ $(document).ready(function () {
         data.content.forEach((oneData, index) => {
             const collapseId = `collapse${oneData.id}`;
             const isFirstItem = index === 0;
-            const showClass = isFirstItem && !keepAccordionOpen ? 'show' : '';
-            const buttonClass = isFirstItem && !keepAccordionOpen ? '' : 'collapsed';
+            const showClass = isFirstItem && keepAccordionOpen ? 'show' : ''; // Only show the first item if keepAccordionOpen is true
+            const buttonClass = isFirstItem ? '' : 'collapsed'; // Only set the collapsed class for non-first items
             const accordionItem = `
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                        <button class="accordion-button ${buttonClass}" type="button" data-bs-toggle="collapse" data-bs-target="#${collapseId}" aria-expanded="true" aria-controls="${collapseId}">
+                        <button class="accordion-button ${buttonClass}" type="button" data-bs-toggle="collapse" data-bs-target="#${collapseId}" aria-expanded="${isFirstItem ? 'true' : 'false'}" aria-controls="${collapseId}">
                             ${oneData.date}
                         </button>
                     </h2>
-                    <div id="${collapseId}" class="accordion-collapse collapse ${keepAccordionOpen ? 'show' : showClass}" data-bs-parent="${keepAccordionOpen ? '' : '#accordionPanelsStayOpen'}">
+                    <div id="${collapseId}" class="accordion-collapse collapse ${showClass}" data-bs-parent="${keepAccordionOpen ? '' : '#accordionPanelsStayOpen'}">
                         <div class="accordion-body">
                             <h2 style="text-align: center;">Used Car Dealership</h2>
                             <table class="table">

@@ -13,7 +13,8 @@ modal.click(function () {
 });
 
 $(document).ready(function () {
-    let displayInJPY = localStorage.getItem('displayInJPY') === 'false';
+    // Retrieve display preference from localStorage
+    let displayInJPY = localStorage.getItem('displayInJPY') === 'true';
 
     // Load and render data.json
     fetch('data.json')
@@ -116,6 +117,7 @@ $(document).ready(function () {
         // Handle price cell and header click to toggle price and price_in_jpy
         $(document).on('click', '.price-cell, .price-header', function () {
             displayInJPY = !displayInJPY;
+            localStorage.setItem('displayInJPY', displayInJPY); // Save the preference
             togglePrices(data.timestamp, data.timestamp_jp);
         });
     }

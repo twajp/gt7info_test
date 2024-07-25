@@ -2,11 +2,11 @@ const modal = $('#modal-container');
 const img = modal.find('img');
 const popupTexts = $('.popup-text');
 
-popupTexts.click(function () {
-    const imageUrl = $(this).data('image-url');
-    img.attr('src', imageUrl);
-    modal.show();
-});
+// popupTexts.click(function () {
+//     const imageUrl = $(this).data('image-url');
+//     img.attr('src', imageUrl);
+//     modal.show();
+// });
 
 modal.click(function () {
     $(this).hide();
@@ -107,12 +107,20 @@ $(document).ready(function () {
             accordionContainer.append(accordionItem);
         });
 
-        // // Handle popup text click
-        // $(document).on('click', '.popup-text', function () {
-        //     const imageUrl = $(this).data('image-url');
-        //     img.attr('src', imageUrl);
-        //     modal.show();
-        // });
+        const modal = $('#modal-container');
+        const img = modal.find('img');
+        const popupTexts = $('.popup-text');
+
+        // Handle popup text click
+        $(document).on('click', '.popup-text', function () {
+            const imageUrl = $(this).data('image-url');
+            img.attr('src', imageUrl);
+            modal.show();
+        });
+
+        modal.click(function () {
+            $(this).hide();
+        });
 
         // Handle price cell and header click to toggle price and price_in_jpy
         $(document).on('click', '.price-cell, .price-header', function () {

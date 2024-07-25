@@ -5,7 +5,6 @@ from datetime import datetime, timedelta, timezone
 from dateutil import tz
 from shutil import copyfile
 import requests
-from jinja2 import Environment, FileSystemLoader
 
 
 def LoadCSV(directory, filename):
@@ -55,7 +54,7 @@ def MakeNewCarList(data, carList, makerList):
 
 
 def UpdateDB(dealer):
-    for day in reversed(data):
+    for day in reversed(data['content']):
         for car in day[dealer]:
             db[dealer][car['carid']] = {
                 'makername': car['makername'],
@@ -67,26 +66,29 @@ def UpdateDB(dealer):
             }
 
 
-def Select(cars_dict, percentage):
-    num_top_cars = int(len(cars_dict) / 100 * percentage)
-    db_top = dict(list(cars_dict.items())[:num_top_cars])
-    for car_id, car_info in db_top.items():
-        db_top[car_id].update({'sinceLastAppeared': (today - datetime.strptime(car_info['lastAppeared'], '%Y/%m/%d').date()).days})
+def UpdateAllDBEntries():
+    for dealer in ['used', 'legend']:
+        for car_id, car_info in db[dealer].items():
+            car_info['sinceLastAppeared'] = (today - datetime.strptime(car_info['lastAppeared'], '%Y/%m/%d').date()).days
+        # Sort the entries by 'sinceLastAppeared'
+        db[dealer] = dict(sorted(db[dealer].items(), key=lambda item: item[1]['sinceLastAppeared'], reverse=True))
 
-    return db_top
 
-
-db = LoadJSON(f'https://raw.githubusercontent.com/twajp/gt7info_test/gh-pages/db.json')
+db = LoadJSON(f'https://raw.githubusercontent.com/twajp/gt7info/gh-pages/db.json')
 carList = LoadCSV('db/', 'cars.csv')
 makerList = LoadCSV('db/', 'maker.csv')
 today = datetime.now(timezone.utc).date()
 JST = tz.gettz('Asia/Tokyo')
 timestamp = datetime.now(timezone.utc).strftime('%Y/%-m/%-d %-H:%M') + ' (UTC)'
 timestamp_jp = datetime.now(timezone.utc).astimezone(JST).strftime('%Y/%-m/%-d %-H:%M') + ' (JST)'
-# start_date = datetime.date(year=2022,month=6,day=28)
+# start_date = datetime(year=2022, month=6, day=28).date()
 # how_many_days = (today-start_date).days + 1
 how_many_days = 14
-data = []
+data = {
+    'timestamp': timestamp,
+    'timestamp_jp': timestamp_jp,
+    'content': []
+}
 
 for i in range(how_many_days):
     date_to_import = today - timedelta(i)
@@ -98,7 +100,7 @@ for i in range(how_many_days):
     list_used = MakeNewCarList(data_used, carList, makerList)
     list_legend = MakeNewCarList(data_legend, carList, makerList)
 
-    data.append({
+    data['content'].append({
         'id': date_to_import.strftime('%Y%m%d'),
         'date': date_to_import.strftime('%Y/%-m/%-d'),
         'used': list_used,
@@ -110,35 +112,17 @@ for i in range(how_many_days):
 UpdateDB('used')
 UpdateDB('legend')
 
+UpdateAllDBEntries()
+
 db['used'] = dict(sorted(db['used'].items(), key=lambda item: (today - datetime.strptime(item[1]['lastAppeared'], '%Y/%m/%d').date()).days, reverse=True))
 db['legend'] = dict(sorted(db['legend'].items(), key=lambda item: (today - datetime.strptime(item[1]['lastAppeared'], '%Y/%m/%d').date()).days, reverse=True))
 
-db_top = {}
-db_top['used'] = Select(db['used'], percentage=20)
-db_top['legend'] = Select(db['legend'], percentage=10)
 
-# Filter out cars where isOld is False
-db_top['used'] = {k: v for k, v in db_top['used'].items() if v['isOld'] != False}
-db_top['legend'] = {k: v for k, v in db_top['legend'].items() if v['isOld'] != False}
-
-env = Environment(loader=FileSystemLoader('.'))
-template = env.get_template('template.html')
-
-rendered = template.render({'data': data, 'price': 'global', 'timestamp': timestamp, 'db_top': db_top})
-rendered_jp = template.render({'data': data, 'price': 'jp', 'timestamp': timestamp_jp, 'db_top': db_top})
-rendered_simple = template.render({'data': data, 'price': 'simple', 'timestamp': timestamp, 'db_top': db_top})
+db.update({'timestamp': timestamp})
+db.update({'timestamp_jp': timestamp_jp})
 
 if not os.path.exists('html'):
     os.makedirs('html')
-
-with open('html/index.html', 'w') as f:
-    f.write(rendered)
-
-with open('html/jp.html', 'w') as f:
-    f.write(rendered_jp)
-
-with open('html/simple.html', 'w') as f:
-    f.write(rendered_simple)
 
 with open('html/data.json', 'w') as f:
     json.dump(data, f, indent=2, ensure_ascii=False)
@@ -146,5 +130,6 @@ with open('html/data.json', 'w') as f:
 with open('html/db.json', 'w') as f:
     json.dump(db, f, indent=2, ensure_ascii=False)
 
+copyfile('index.html', 'html/index.html')
 copyfile('style.css', 'html/style.css')
 copyfile('script.js', 'html/script.js')

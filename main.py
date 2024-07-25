@@ -36,8 +36,8 @@ def MakeNewCarList(data, carList, makerList):
                             makername = makerList[k][1]
                             carid = carList[j][0]
                             carname = carList[j][1]
-                            price = format(int(data[i][1]), ',')
-                            price_in_jpy = format(int(data[i][1])*100, ',')
+                            price = int(data[i][1])
+                            price_in_jpy = int(data[i][1])*100
 
                             try:
                                 carYear = int(carname[-2:])

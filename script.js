@@ -81,8 +81,7 @@ $(document).ready(function () {
                                     ${oneData.used.length === 0 ? '<tr><td colspan="4" style="text-align: center;">No new cars available.</td></tr>' : ''}
                                 </tbody>
                             </table>
-                            <br><br>
-                            <h2 style="text-align: center;">Legendary Dealership</h2>
+                            <h2 style="text-align: center; margin-top: 50px;">Legendary Dealership</h2>
                             <table class="table">
                                 <thead>
                                     <tr>
@@ -205,8 +204,7 @@ $(document).ready(function () {
                                 ${usedCarsHtml}
                             </tbody>
                         </table>
-                        <br><br>
-                        <h2 style="text-align: center;">Legendary Dealership</h2>
+                        <h2 style="text-align: center; margin-top: 50px;">Legendary Dealership</h2>
                         <table class="table">
                             <thead>
                                 <tr>
@@ -228,7 +226,7 @@ $(document).ready(function () {
 
     // Update the last updated timestamp display
     function updateLastUpdatedTimestamp(timestamp) {
-        $('#lastUpdated').text(timestamp);
+        $('#lastUpdated').text(`Last updated: ${timestamp}`);
     }
 
     // Handle keepAccordionOpen switch change

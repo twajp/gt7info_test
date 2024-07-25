@@ -8,10 +8,13 @@ modal.click(function () {
 });
 
 $(document).ready(function () {
-    // Retrieve display preferences from localStorage
-    let displayInJPY = localStorage.getItem('displayInJPY') === 'true';
-    let keepAccordionOpen = localStorage.getItem('keepAccordionOpen') === 'true';
-    let showPriceColumn = localStorage.getItem('showPriceColumn') === 'true';
+    // Set the default values
+    let defaultKeepAccordionOpen = false; // Default value for keepAccordionOpen
+    let defaultShowPriceColumn = true; // Default value for showPriceColumn
+
+    // Retrieve display preferences from localStorage or use defaults
+    let keepAccordionOpen = localStorage.getItem('keepAccordionOpen') === 'true' || defaultKeepAccordionOpen;
+    let showPriceColumn = localStorage.getItem('showPriceColumn') === 'true' || defaultShowPriceColumn;
 
     // Set the initial state of switches
     $('#keepAccordionOpen').prop('checked', keepAccordionOpen);

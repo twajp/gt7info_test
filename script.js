@@ -14,6 +14,8 @@ modal.click(function () {
 
 
 $(document).ready(function () {
+    let displayInJPY = false;
+
     // Load and render data.json
     fetch('data.json')
         .then(response => response.json())
@@ -54,7 +56,7 @@ $(document).ready(function () {
                                     <tr>
                                         <th scope="col">Maker</th>
                                         <th scope="col">Car</th>
-                                        <th scope="col" style="text-align: right;">Price</th>
+                                        <th scope="col" class="price-header" style="text-align: right; cursor: pointer;">Price</th>
                                         <th scope="col"></th>
                                     </tr>
                                 </thead>
@@ -77,7 +79,7 @@ $(document).ready(function () {
                                     <tr>
                                         <th scope="col">Maker</th>
                                         <th scope="col">Car</th>
-                                        <th scope="col" style="text-align: right;">Price</th>
+                                        <th scope="col" class="price-header" style="text-align: right; cursor: pointer;">Price</th>
                                         <th scope="col"></th>
                                     </tr>
                                 </thead>
@@ -108,12 +110,19 @@ $(document).ready(function () {
         });
 
         // Handle price cell click to toggle price and price_in_jpy
-        $(document).on('click', '.price-cell', function () {
+        $(document).on('click', '.price-cell, .price-header', function () {
+            displayInJPY = !displayInJPY;
+            togglePrices();
+        });
+    }
+
+    // Toggle between price and price_in_jpy
+    function togglePrices() {
+        $('.price-cell').each(function () {
             const priceCell = $(this);
-            const currentPrice = priceCell.text();
             const price = priceCell.data('price');
             const priceJpy = priceCell.data('price-jpy');
-            priceCell.text(currentPrice === price ? priceJpy : price);
+            priceCell.text(displayInJPY ? priceJpy : price);
         });
     }
 
@@ -203,6 +212,12 @@ $(document).ready(function () {
         `;
 
         expectedContainer.append(expectedHtml);
+
+        // Handle price header click to toggle price and price_in_jpy
+        $(document).on('click', '.price-header', function () {
+            displayInJPY = !displayInJPY;
+            togglePrices();
+        });
     }
 
     // Update last updated timestamp

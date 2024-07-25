@@ -2,12 +2,7 @@ const modal = $('#modal-container');
 const img = modal.find('img');
 const popupTexts = $('.popup-text');
 
-// popupTexts.click(function () {
-//     const imageUrl = $(this).data('image-url');
-//     img.attr('src', imageUrl);
-//     modal.show();
-// });
-
+// Hide modal on click
 modal.click(function () {
     $(this).hide();
 });
@@ -22,10 +17,13 @@ $(document).ready(function () {
     $('#keepAccordionOpen').prop('checked', keepAccordionOpen);
     $('#showPriceColumn').prop('checked', showPriceColumn);
 
+    let data; // Declare data variable to be used in the entire scope
+
     // Load and render data.json
     fetch('data.json')
         .then(response => response.json())
-        .then(data => {
+        .then(loadedData => {
+            data = loadedData; // Assign the loaded data to the data variable
             renderAccordion(data);
             updateLastUpdatedTimestamp(displayInJPY ? data.timestamp_jp : data.timestamp);
         });
@@ -184,67 +182,66 @@ $(document).ready(function () {
         const usedCarsHtml = renderCars(selectedUsedCars);
         const legendCarsHtml = renderCars(selectedLegendCars);
 
-        const expectedHtml = `
-            <h2 class='accordion-header'>
-                <button class='accordion-button collapsed' type='button' data-bs-toggle='collapse' data-bs-target='#collapseExpected' aria-expanded='true' aria-controls='collapseExpected'>
-                    Expected to Appear Soon
-                </button>
-            </h2>
-            <div id='collapseExpected' class='accordion-collapse collapse' data-bs-parent="${keepAccordionOpen ? '' : '#accordionPanelsStayOpen'}">
-                <div class='accordion-body'>
-                    <h2 style='text-align: center;'>Used Car Dealership</h2>
-                    <table class='table'>
-                        <thead>
-                            <tr>
-                                <th scope='col'>Maker</th>
-                                <th scope='col'>Car</th>
-                                <th scope='col' style='text-align: right;'>Last Appeared</th>
-                                <th scope='col'></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            ${usedCarsHtml}
-                        </tbody>
-                    </table>
-
-                    <br><br>
-                    <h2 style='text-align: center;'>Legendary Dealership</h2>
-                    <table class='table'>
-                        <thead>
-                            <tr>
-                                <th scope='col'>Maker</th>
-                                <th scope='col'>Car</th>
-                                <th scope='col' style='text-align: right;'>Last Appeared</th>
-                                <th scope='col'></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            ${legendCarsHtml}
-                        </tbody>
-                    </table>
+        expectedContainer.append(`
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExpected" aria-expanded="true" aria-controls="collapseExpected">
+                        Expected to Appear Soon
+                    </button>
+                </h2>
+                <div id="collapseExpected" class="accordion-collapse collapse" data-bs-parent="${keepAccordionOpen ? '' : '#accordionPanelsStayOpen'}">
+                    <div class="accordion-body">
+                        <h2 style="text-align: center;">Used Car Dealership</h2>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Maker</th>
+                                    <th scope="col">Car</th>
+                                    <th scope="col" style="text-align: right;">Last Appeared</th>
+                                    <th scope="col"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${usedCarsHtml}
+                            </tbody>
+                        </table>
+                        <br><br>
+                        <h2 style="text-align: center;">Legendary Dealership</h2>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Maker</th>
+                                    <th scope="col">Car</th>
+                                    <th scope="col" style="text-align: right;">Last Appeared</th>
+                                    <th scope="col"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${legendCarsHtml}
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
-        `;
-
-        expectedContainer.append(expectedHtml);
+        `);
     }
 
-    // Update last updated timestamp
+    // Update the last updated timestamp display
     function updateLastUpdatedTimestamp(timestamp) {
-        $('#lastUpdated').text(`Last updated: ${timestamp}`);
+        $('#lastUpdated').text(timestamp);
     }
 
-    // Event listener for "Make accordion items stay open" switch
-    $('#flexSwitchCheckDefault').change(function () {
-        keepAccordionOpen = this.checked;
+    // Handle keepAccordionOpen switch change
+    $('#keepAccordionOpen').change(function () {
+        keepAccordionOpen = $(this).is(':checked');
         localStorage.setItem('keepAccordionOpen', keepAccordionOpen); // Save the preference
-        renderAccordion({ content: data }); // Re-render accordion with updated preference
+        renderAccordion(data); // Re-render the accordion with the new setting
     });
 
-    // Event listener for "Show price column" switch
-    $('#flexSwitchCheckChecked').change(function () {
-        showPriceColumn = this.checked;
+    // Handle showPriceColumn switch change
+    $('#showPriceColumn').change(function () {
+        showPriceColumn = $(this).is(':checked');
         localStorage.setItem('showPriceColumn', showPriceColumn); // Save the preference
-        renderAccordion({ content: data }); // Re-render accordion with updated preference
+        $('.price-header, .price-cell').css('display', showPriceColumn ? '' : 'none');
     });
 });

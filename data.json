@@ -1,7 +1,22 @@
 {
-  "timestamp": "2024/7/25 23:35 (UTC)",
-  "timestamp_jp": "2024/7/26 8:35 (JST)",
+  "timestamp": "2024/7/26 0:08 (UTC)",
+  "timestamp_jp": "2024/7/26 9:08 (JST)",
   "content": [
+    {
+      "id": "20240726",
+      "date": "2024/7/26",
+      "used": [
+        {
+          "makername": "Honda",
+          "carid": "37",
+          "carname": "Civic SiR-II (EG) '93",
+          "price": 52500,
+          "price_in_jpy": 5250000,
+          "isOld": true
+        }
+      ],
+      "legend": []
+    },
     {
       "id": "20240725",
       "date": "2024/7/25",
@@ -579,38 +594,6 @@
           "carname": "330 P4 '67",
           "price": 20000000,
           "price_in_jpy": 2000000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": "20240712",
-      "date": "2024/7/12",
-      "used": [
-        {
-          "makername": "Suzuki",
-          "carid": "779",
-          "carname": "Cappuccino (EA11R) '91",
-          "price": 17700,
-          "price_in_jpy": 1770000,
-          "isOld": true
-        },
-        {
-          "makername": "Mitsubishi",
-          "carid": "931",
-          "carname": "Lancer Evolution III GSR '95",
-          "price": 87800,
-          "price_in_jpy": 8780000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "makername": "Alpine",
-          "carid": "3457",
-          "carname": "A220 Race Car '68",
-          "price": 330000,
-          "price_in_jpy": 33000000,
           "isOld": true
         }
       ]

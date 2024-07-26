@@ -1,0 +1,15 @@
+{
+  "name": "gt7info_test",
+  "version": "1.0.0",
+  "description": "A website to check recently added GT7 used cars for each date.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "jquery": "^3.6.0"
+  }
+}

@@ -115,15 +115,8 @@ for i in range(how_many_days):
 
 UpdateDB()
 
-if not os.path.exists('html'):
-    os.makedirs('html')
-
-with open('html/data.json', 'w') as f:
+with open('data.json', 'w') as f:
     json.dump(data, f, indent=2, ensure_ascii=False)
 
-with open('html/db.json', 'w') as f:
+with open('db.json', 'w') as f:
     json.dump(db, f, indent=2, ensure_ascii=False)
-
-copyfile('index.html', 'html/index.html')
-copyfile('style.css', 'html/style.css')
-copyfile('script.js', 'html/script.js')

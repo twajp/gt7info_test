@@ -1,9 +1,7 @@
-import os
 import csv
 import json
 from datetime import datetime, timedelta, timezone
 from dateutil import tz
-from shutil import copyfile
 import requests
 
 

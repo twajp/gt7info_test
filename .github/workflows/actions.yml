@@ -49,6 +49,7 @@ jobs:
 
       - name: Copy files
         run: |
+          mkdir html
           mv node_modules html/node_modules
           mv data.json html/data.json
           mv db.json html/db.json

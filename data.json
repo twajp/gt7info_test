@@ -1,7 +1,63 @@
 {
-  "timestamp": "2024/7/26 7:51 (UTC)",
-  "timestamp_jp": "2024/7/26 16:51 (JST)",
+  "timestamp": "2024/7/27 0:08 (UTC)",
+  "timestamp_jp": "2024/7/27 9:08 (JST)",
   "content": [
+    {
+      "id": "20240727",
+      "date": "2024/7/27",
+      "used": [
+        {
+          "makername": "Nissan",
+          "carid": "102",
+          "carname": "Skyline GTS-R (R31) '87",
+          "price": 162200,
+          "price_in_jpy": 16220000,
+          "isOld": true
+        },
+        {
+          "makername": "Porsche",
+          "carid": "3439",
+          "carname": "911 Carrera RS (993) '95",
+          "price": 229200,
+          "price_in_jpy": 22920000,
+          "isOld": true
+        },
+        {
+          "makername": "McLaren",
+          "carid": "1722",
+          "carname": "MP4-12C '10",
+          "price": 194100,
+          "price_in_jpy": 19410000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "makername": "Honda",
+          "carid": "140",
+          "carname": "NSX GT500 '00",
+          "price": 1500000,
+          "price_in_jpy": 150000000,
+          "isOld": true
+        },
+        {
+          "makername": "Jaguar",
+          "carid": "3376",
+          "carname": "D-type '54",
+          "price": 6000000,
+          "price_in_jpy": 600000000,
+          "isOld": true
+        },
+        {
+          "makername": "Mercedes-Benz",
+          "carid": "3428",
+          "carname": "S Barker Tourer '29",
+          "price": 13000000,
+          "price_in_jpy": 1300000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": "20240726",
       "date": "2024/7/26",
@@ -562,38 +618,6 @@
           "carname": "911 Carrera RS (901) '73",
           "price": 750000,
           "price_in_jpy": 75000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": "20240713",
-      "date": "2024/7/13",
-      "used": [
-        {
-          "makername": "Honda",
-          "carid": "514",
-          "carname": "S2000 '99",
-          "price": 100100,
-          "price_in_jpy": 10010000,
-          "isOld": true
-        },
-        {
-          "makername": "Ford",
-          "carid": "3466",
-          "carname": "Sierra RS 500 Cosworth '87",
-          "price": 193500,
-          "price_in_jpy": 19350000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "makername": "Ferrari",
-          "carid": "1551",
-          "carname": "330 P4 '67",
-          "price": 20000000,
-          "price_in_jpy": 2000000000,
           "isOld": true
         }
       ]

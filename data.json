@@ -1,7 +1,79 @@
 {
-  "timestamp": "2024/7/27 0:08 (UTC)",
-  "timestamp_jp": "2024/7/27 9:08 (JST)",
+  "timestamp": "2024/7/28 0:10 (UTC)",
+  "timestamp_jp": "2024/7/28 9:10 (JST)",
   "content": [
+    {
+      "id": "20240728",
+      "date": "2024/7/28",
+      "used": [
+        {
+          "makername": "Volvo",
+          "carid": "3549",
+          "carname": "240 SE Estate '93",
+          "price": 47000,
+          "price_in_jpy": 4700000,
+          "isOld": true
+        },
+        {
+          "makername": "Toyota",
+          "carid": "1044",
+          "carname": "Sports 800 '65",
+          "price": 46300,
+          "price_in_jpy": 4630000,
+          "isOld": true
+        },
+        {
+          "makername": "Pontiac",
+          "carid": "1985",
+          "carname": "Firebird Trans Am '78",
+          "price": 87900,
+          "price_in_jpy": 8790000,
+          "isOld": true
+        },
+        {
+          "makername": "Daihatsu",
+          "carid": "145",
+          "carname": "Copen '02",
+          "price": 15700,
+          "price_in_jpy": 1570000,
+          "isOld": false
+        },
+        {
+          "makername": "RUF",
+          "carid": "3398",
+          "carname": "CTR3 '07",
+          "price": 770800,
+          "price_in_jpy": 77080000,
+          "isOld": false
+        },
+        {
+          "makername": "Nissan",
+          "carid": "210",
+          "carname": "R34 GT-R V-spec II Nur '02",
+          "price": 401100,
+          "price_in_jpy": 40110000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "makername": "Mercedes-Benz",
+          "carid": "387",
+          "carname": "300 SL Coupe '54",
+          "price": 1700000,
+          "price_in_jpy": 170000000,
+          "isOld": true
+        },
+        {
+          "makername": "McLaren",
+          "carid": "1984",
+          "carname": "McLaren F1 GTR - BMW '95",
+          "price": 15000000,
+          "price_in_jpy": 1500000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": "20240727",
       "date": "2024/7/27",
@@ -573,54 +645,6 @@
         }
       ],
       "legend": []
-    },
-    {
-      "id": "20240714",
-      "date": "2024/7/14",
-      "used": [
-        {
-          "makername": "Nissan",
-          "carid": "48",
-          "carname": "Fairlady 240ZG (HS30) '71",
-          "price": 98500,
-          "price_in_jpy": 9850000,
-          "isOld": true
-        },
-        {
-          "makername": "BMW",
-          "carid": "3422",
-          "carname": "3.0 CSL '73",
-          "price": 211200,
-          "price_in_jpy": 21120000,
-          "isOld": true
-        },
-        {
-          "makername": "Nissan",
-          "carid": "104",
-          "carname": "Sileighty '98",
-          "price": 72400,
-          "price_in_jpy": 7240000,
-          "isOld": true
-        },
-        {
-          "makername": "Lancia",
-          "carid": "533",
-          "carname": "Stratos '73",
-          "price": 495800,
-          "price_in_jpy": 49580000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "makername": "Porsche",
-          "carid": "3509",
-          "carname": "911 Carrera RS (901) '73",
-          "price": 750000,
-          "price_in_jpy": 75000000,
-          "isOld": true
-        }
-      ]
     }
   ]
 }

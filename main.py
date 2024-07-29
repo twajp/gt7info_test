@@ -32,7 +32,7 @@ def MakeNewCarList(data, carList, makerList):
                     for k in range(len(makerList)):
                         if carList[j][2] == makerList[k][0]:
                             makername = makerList[k][1]
-                            carid = carList[j][0]
+                            carid = int(carList[j][0])
                             carname = carList[j][1]
                             price = int(data[i][1])
                             price_in_jpy = int(data[i][1])*100

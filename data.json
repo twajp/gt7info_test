@@ -1,6 +1,6 @@
 {
-  "timestamp": "2024/7/29 0:09 (UTC)",
-  "timestamp_jp": "2024/7/29 9:09 (JST)",
+  "timestamp": "2024/7/29 23:43 (UTC)",
+  "timestamp_jp": "2024/7/30 8:43 (JST)",
   "content": [
     {
       "id": "20240729",
@@ -8,7 +8,7 @@
       "used": [
         {
           "makername": "Suzuki",
-          "carid": "1385",
+          "carid": 1385,
           "carname": "Swift Sport '07",
           "price": 11800,
           "price_in_jpy": 1180000,
@@ -16,7 +16,7 @@
         },
         {
           "makername": "Chevrolet",
-          "carid": "1542",
+          "carid": 1542,
           "carname": "Corvette Convertible (C3) '69",
           "price": 58200,
           "price_in_jpy": 5820000,
@@ -24,7 +24,7 @@
         },
         {
           "makername": "Nissan",
-          "carid": "104",
+          "carid": 104,
           "carname": "Sileighty '98",
           "price": 81600,
           "price_in_jpy": 8160000,
@@ -32,7 +32,7 @@
         },
         {
           "makername": "AMG",
-          "carid": "1507",
+          "carid": 1507,
           "carname": "SLS AMG '10",
           "price": 310900,
           "price_in_jpy": 31090000,
@@ -40,7 +40,7 @@
         },
         {
           "makername": "Maserati",
-          "carid": "1539",
+          "carid": 1539,
           "carname": "GranTurismo S '08",
           "price": 137700,
           "price_in_jpy": 13770000,
@@ -50,7 +50,7 @@
       "legend": [
         {
           "makername": "Jaguar",
-          "carid": "1553",
+          "carid": 1553,
           "carname": "XJ13 '66",
           "price": 12000000,
           "price_in_jpy": 1200000000,
@@ -64,7 +64,7 @@
       "used": [
         {
           "makername": "Volvo",
-          "carid": "3549",
+          "carid": 3549,
           "carname": "240 SE Estate '93",
           "price": 47000,
           "price_in_jpy": 4700000,
@@ -72,7 +72,7 @@
         },
         {
           "makername": "Toyota",
-          "carid": "1044",
+          "carid": 1044,
           "carname": "Sports 800 '65",
           "price": 46300,
           "price_in_jpy": 4630000,
@@ -80,7 +80,7 @@
         },
         {
           "makername": "Pontiac",
-          "carid": "1985",
+          "carid": 1985,
           "carname": "Firebird Trans Am '78",
           "price": 87900,
           "price_in_jpy": 8790000,
@@ -88,7 +88,7 @@
         },
         {
           "makername": "Daihatsu",
-          "carid": "145",
+          "carid": 145,
           "carname": "Copen '02",
           "price": 15700,
           "price_in_jpy": 1570000,
@@ -96,7 +96,7 @@
         },
         {
           "makername": "RUF",
-          "carid": "3398",
+          "carid": 3398,
           "carname": "CTR3 '07",
           "price": 770800,
           "price_in_jpy": 77080000,
@@ -104,7 +104,7 @@
         },
         {
           "makername": "Nissan",
-          "carid": "210",
+          "carid": 210,
           "carname": "R34 GT-R V-spec II Nur '02",
           "price": 401100,
           "price_in_jpy": 40110000,
@@ -114,7 +114,7 @@
       "legend": [
         {
           "makername": "Mercedes-Benz",
-          "carid": "387",
+          "carid": 387,
           "carname": "300 SL Coupe '54",
           "price": 1700000,
           "price_in_jpy": 170000000,
@@ -122,7 +122,7 @@
         },
         {
           "makername": "McLaren",
-          "carid": "1984",
+          "carid": 1984,
           "carname": "McLaren F1 GTR - BMW '95",
           "price": 15000000,
           "price_in_jpy": 1500000000,
@@ -136,7 +136,7 @@
       "used": [
         {
           "makername": "Nissan",
-          "carid": "102",
+          "carid": 102,
           "carname": "Skyline GTS-R (R31) '87",
           "price": 162200,
           "price_in_jpy": 16220000,
@@ -144,7 +144,7 @@
         },
         {
           "makername": "Porsche",
-          "carid": "3439",
+          "carid": 3439,
           "carname": "911 Carrera RS (993) '95",
           "price": 229200,
           "price_in_jpy": 22920000,
@@ -152,7 +152,7 @@
         },
         {
           "makername": "McLaren",
-          "carid": "1722",
+          "carid": 1722,
           "carname": "MP4-12C '10",
           "price": 194100,
           "price_in_jpy": 19410000,
@@ -162,7 +162,7 @@
       "legend": [
         {
           "makername": "Honda",
-          "carid": "140",
+          "carid": 140,
           "carname": "NSX GT500 '00",
           "price": 1500000,
           "price_in_jpy": 150000000,
@@ -170,7 +170,7 @@
         },
         {
           "makername": "Jaguar",
-          "carid": "3376",
+          "carid": 3376,
           "carname": "D-type '54",
           "price": 6000000,
           "price_in_jpy": 600000000,
@@ -178,7 +178,7 @@
         },
         {
           "makername": "Mercedes-Benz",
-          "carid": "3428",
+          "carid": 3428,
           "carname": "S Barker Tourer '29",
           "price": 13000000,
           "price_in_jpy": 1300000000,
@@ -192,7 +192,7 @@
       "used": [
         {
           "makername": "Honda",
-          "carid": "37",
+          "carid": 37,
           "carname": "Civic SiR-II (EG) '93",
           "price": 52500,
           "price_in_jpy": 5250000,
@@ -207,7 +207,7 @@
       "used": [
         {
           "makername": "Ferrari",
-          "carid": "1544",
+          "carid": 1544,
           "carname": "430 Scuderia '07",
           "price": 366700,
           "price_in_jpy": 36670000,
@@ -215,7 +215,7 @@
         },
         {
           "makername": "BMW",
-          "carid": "3551",
+          "carid": 3551,
           "carname": "M3 '97",
           "price": 74600,
           "price_in_jpy": 7460000,
@@ -223,7 +223,7 @@
         },
         {
           "makername": "Lamborghini",
-          "carid": "1506",
+          "carid": 1506,
           "carname": "Gallardo LP 560-4 '08",
           "price": 253100,
           "price_in_jpy": 25310000,
@@ -231,7 +231,7 @@
         },
         {
           "makername": "Toyota",
-          "carid": "63",
+          "carid": 63,
           "carname": "Corolla Levin 1600GT APEX (AE86) '83",
           "price": 46800,
           "price_in_jpy": 4680000,
@@ -239,7 +239,7 @@
         },
         {
           "makername": "Honda",
-          "carid": "203",
+          "carid": 203,
           "carname": "Integra Type R (DC2) '98",
           "price": 62100,
           "price_in_jpy": 6210000,
@@ -247,7 +247,7 @@
         },
         {
           "makername": "Ford",
-          "carid": "1729",
+          "carid": 1729,
           "carname": "Mustang Mach 1 '71",
           "price": 36800,
           "price_in_jpy": 3680000,
@@ -255,7 +255,7 @@
         },
         {
           "makername": "Lamborghini",
-          "carid": "1481",
+          "carid": 1481,
           "carname": "Countach 25th Anniversary '88",
           "price": 711800,
           "price_in_jpy": 71180000,
@@ -265,7 +265,7 @@
       "legend": [
         {
           "makername": "Subaru",
-          "carid": "3550",
+          "carid": 3550,
           "carname": "Impreza Rally Car '98",
           "price": 650000,
           "price_in_jpy": 65000000,
@@ -279,7 +279,7 @@
       "used": [
         {
           "makername": "Toyota",
-          "carid": "843",
+          "carid": 843,
           "carname": "Supra 3.0GT Turbo A '88",
           "price": 115900,
           "price_in_jpy": 11590000,
@@ -287,7 +287,7 @@
         },
         {
           "makername": "Subaru",
-          "carid": "379",
+          "carid": 379,
           "carname": "Impreza Coupe WRX Type R STi Ver.VI '99",
           "price": 53600,
           "price_in_jpy": 5360000,
@@ -295,7 +295,7 @@
         },
         {
           "makername": "Nissan",
-          "carid": "773",
+          "carid": 773,
           "carname": "R32 GT-R V-spec II '94",
           "price": 176500,
           "price_in_jpy": 17650000,
@@ -303,7 +303,7 @@
         },
         {
           "makername": "Mitsubishi",
-          "carid": "301",
+          "carid": 301,
           "carname": "Lancer Evolution IV GSR '96",
           "price": 44200,
           "price_in_jpy": 4420000,
@@ -313,7 +313,7 @@
       "legend": [
         {
           "makername": "Mercedes-Benz",
-          "carid": "575",
+          "carid": 575,
           "carname": "190 E 2.5-16 Evolution II '91",
           "price": 280000,
           "price_in_jpy": 28000000,
@@ -327,7 +327,7 @@
       "used": [
         {
           "makername": "Chevrolet",
-          "carid": "41",
+          "carid": 41,
           "carname": "Corvette Stingray (C3) '69",
           "price": 71500,
           "price_in_jpy": 7150000,
@@ -335,7 +335,7 @@
         },
         {
           "makername": "Renault",
-          "carid": "3547",
+          "carid": 3547,
           "carname": "R4 GTL '85",
           "price": 24100,
           "price_in_jpy": 2410000,
@@ -343,7 +343,7 @@
         },
         {
           "makername": "Volkswagen",
-          "carid": "1671",
+          "carid": 1671,
           "carname": "Sambabus Typ 2 '62",
           "price": 57100,
           "price_in_jpy": 5710000,
@@ -351,7 +351,7 @@
         },
         {
           "makername": "Nissan",
-          "carid": "78",
+          "carid": 78,
           "carname": "Silvia K's Aero (S14) '96",
           "price": 59300,
           "price_in_jpy": 5930000,
@@ -361,7 +361,7 @@
       "legend": [
         {
           "makername": "McLaren",
-          "carid": "1540",
+          "carid": 1540,
           "carname": "McLaren F1 '94",
           "price": 20000000,
           "price_in_jpy": 2000000000,
@@ -369,7 +369,7 @@
         },
         {
           "makername": "Nissan",
-          "carid": "837",
+          "carid": 837,
           "carname": "Skyline Hard Top 2000GT-R (KPGC10) '70",
           "price": 194000,
           "price_in_jpy": 19400000,
@@ -383,7 +383,7 @@
       "used": [
         {
           "makername": "Mercedes-Benz",
-          "carid": "1528",
+          "carid": 1528,
           "carname": "SLR McLaren '09",
           "price": 493500,
           "price_in_jpy": 49350000,
@@ -398,7 +398,7 @@
       "used": [
         {
           "makername": "Abarth",
-          "carid": "1973",
+          "carid": 1973,
           "carname": "Abarth 500 '09",
           "price": 22100,
           "price_in_jpy": 2210000,
@@ -406,7 +406,7 @@
         },
         {
           "makername": "Porsche",
-          "carid": "3385",
+          "carid": 3385,
           "carname": "911 Turbo (930) '81",
           "price": 215600,
           "price_in_jpy": 21560000,
@@ -414,7 +414,7 @@
         },
         {
           "makername": "Mitsubishi",
-          "carid": "211",
+          "carid": 211,
           "carname": "Lancer Evolution V GSR '98",
           "price": 77500,
           "price_in_jpy": 7750000,
@@ -424,7 +424,7 @@
       "legend": [
         {
           "makername": "Citroen",
-          "carid": "3514",
+          "carid": 3514,
           "carname": "DS 21 Pallas '70",
           "price": 47600,
           "price_in_jpy": 4760000,
@@ -432,7 +432,7 @@
         },
         {
           "makername": "Audi",
-          "carid": "1927",
+          "carid": 1927,
           "carname": "Sport quattro S1 Pikes Peak '87",
           "price": 1900000,
           "price_in_jpy": 190000000,
@@ -440,7 +440,7 @@
         },
         {
           "makername": "Porsche",
-          "carid": "3446",
+          "carid": 3446,
           "carname": "Spyder type 550/1500RS '55",
           "price": 4850000,
           "price_in_jpy": 485000000,
@@ -454,7 +454,7 @@
       "used": [
         {
           "makername": "Mitsubishi",
-          "carid": "3384",
+          "carid": 3384,
           "carname": "GTO Twin Turbo '91",
           "price": 40000,
           "price_in_jpy": 4000000,
@@ -462,7 +462,7 @@
         },
         {
           "makername": "Chevrolet",
-          "carid": "1480",
+          "carid": 1480,
           "carname": "Corvette ZR1 (C6) '09",
           "price": 98400,
           "price_in_jpy": 9840000,
@@ -472,7 +472,7 @@
       "legend": [
         {
           "makername": "Jeep",
-          "carid": "3430",
+          "carid": 3430,
           "carname": "Willys MB '45",
           "price": 30100,
           "price_in_jpy": 3010000,
@@ -480,7 +480,7 @@
         },
         {
           "makername": "De Tomaso",
-          "carid": "3437",
+          "carid": 3437,
           "carname": "Mangusta '69",
           "price": 315000,
           "price_in_jpy": 31500000,
@@ -494,7 +494,7 @@
       "used": [
         {
           "makername": "Fiat",
-          "carid": "1527",
+          "carid": 1527,
           "carname": "500 1.2 8V Lounge SS '08",
           "price": 13300,
           "price_in_jpy": 1330000,
@@ -502,7 +502,7 @@
         },
         {
           "makername": "Volkswagen",
-          "carid": "1778",
+          "carid": 1778,
           "carname": "Volkswagen 1200 '66",
           "price": 35800,
           "price_in_jpy": 3580000,
@@ -510,7 +510,7 @@
         },
         {
           "makername": "Honda",
-          "carid": "137",
+          "carid": 137,
           "carname": "Beat '91",
           "price": 16800,
           "price_in_jpy": 1680000,
@@ -518,7 +518,7 @@
         },
         {
           "makername": "Nissan",
-          "carid": "1461",
+          "carid": 1461,
           "carname": "Silvia K's Dia Selection (S13) '90",
           "price": 49700,
           "price_in_jpy": 4970000,
@@ -526,7 +526,7 @@
         },
         {
           "makername": "Nissan",
-          "carid": "489",
+          "carid": 489,
           "carname": "R33 GT-R V-spec '97",
           "price": 155200,
           "price_in_jpy": 15520000,
@@ -534,7 +534,7 @@
         },
         {
           "makername": "Mazda",
-          "carid": "205",
+          "carid": 205,
           "carname": "RX-7 Spirit R Type A (FD) '02",
           "price": 214300,
           "price_in_jpy": 21430000,
@@ -544,7 +544,7 @@
       "legend": [
         {
           "makername": "Shelby",
-          "carid": "315",
+          "carid": 315,
           "carname": "Cobra 427 '66",
           "price": 2500000,
           "price_in_jpy": 250000000,
@@ -558,7 +558,7 @@
       "used": [
         {
           "makername": "Honda",
-          "carid": "821",
+          "carid": 821,
           "carname": "Civic Type R (EK) '97",
           "price": 58100,
           "price_in_jpy": 5810000,
@@ -566,7 +566,7 @@
         },
         {
           "makername": "Toyota",
-          "carid": "345",
+          "carid": 345,
           "carname": "Sprinter Trueno 1600GT APEX (S.Shigeno Version)",
           "price": 97800,
           "price_in_jpy": 9780000,
@@ -574,7 +574,7 @@
         },
         {
           "makername": "Alfa Romeo",
-          "carid": "1578",
+          "carid": 1578,
           "carname": "8C Competizione '08",
           "price": 287200,
           "price_in_jpy": 28720000,
@@ -589,7 +589,7 @@
       "used": [
         {
           "makername": "Mazda",
-          "carid": "201",
+          "carid": 201,
           "carname": "Eunos Roadster (NA) '89",
           "price": 26500,
           "price_in_jpy": 2650000,
@@ -597,7 +597,7 @@
         },
         {
           "makername": "Subaru",
-          "carid": "3432",
+          "carid": 3432,
           "carname": "Impreza Sedan WRX STi '04",
           "price": 47100,
           "price_in_jpy": 4710000,
@@ -605,7 +605,7 @@
         },
         {
           "makername": "Ferrari",
-          "carid": "1895",
+          "carid": 1895,
           "carname": "Dino 246 GT '71",
           "price": 343900,
           "price_in_jpy": 34390000,
@@ -615,7 +615,7 @@
       "legend": [
         {
           "makername": "Chevrolet",
-          "carid": "31",
+          "carid": 31,
           "carname": "Camaro Z28 '69",
           "price": 133000,
           "price_in_jpy": 13300000,
@@ -629,7 +629,7 @@
       "used": [
         {
           "makername": "Nissan",
-          "carid": "3513",
+          "carid": 3513,
           "carname": "Silvia K's Type S (S14) '94",
           "price": 60000,
           "price_in_jpy": 6000000,
@@ -637,7 +637,7 @@
         },
         {
           "makername": "BMW",
-          "carid": "3454",
+          "carid": 3454,
           "carname": "3.0 CSL '71",
           "price": 141500,
           "price_in_jpy": 14150000,
@@ -645,7 +645,7 @@
         },
         {
           "makername": "Audi",
-          "carid": "1365",
+          "carid": 1365,
           "carname": "R8 4.2 '07",
           "price": 137600,
           "price_in_jpy": 13760000,
@@ -655,7 +655,7 @@
       "legend": [
         {
           "makername": "Honda",
-          "carid": "3525",
+          "carid": 3525,
           "carname": "RA272 '65",
           "price": 2500000,
           "price_in_jpy": 250000000,
@@ -663,7 +663,7 @@
         },
         {
           "makername": "NISMO",
-          "carid": "3520",
+          "carid": 3520,
           "carname": "400R '95",
           "price": 1800000,
           "price_in_jpy": 180000000,

@@ -1,7 +1,63 @@
 {
-  "timestamp": "2024/7/28 0:10 (UTC)",
-  "timestamp_jp": "2024/7/28 9:10 (JST)",
+  "timestamp": "2024/7/29 0:09 (UTC)",
+  "timestamp_jp": "2024/7/29 9:09 (JST)",
   "content": [
+    {
+      "id": "20240729",
+      "date": "2024/7/29",
+      "used": [
+        {
+          "makername": "Suzuki",
+          "carid": "1385",
+          "carname": "Swift Sport '07",
+          "price": 11800,
+          "price_in_jpy": 1180000,
+          "isOld": false
+        },
+        {
+          "makername": "Chevrolet",
+          "carid": "1542",
+          "carname": "Corvette Convertible (C3) '69",
+          "price": 58200,
+          "price_in_jpy": 5820000,
+          "isOld": true
+        },
+        {
+          "makername": "Nissan",
+          "carid": "104",
+          "carname": "Sileighty '98",
+          "price": 81600,
+          "price_in_jpy": 8160000,
+          "isOld": true
+        },
+        {
+          "makername": "AMG",
+          "carid": "1507",
+          "carname": "SLS AMG '10",
+          "price": 310900,
+          "price_in_jpy": 31090000,
+          "isOld": false
+        },
+        {
+          "makername": "Maserati",
+          "carid": "1539",
+          "carname": "GranTurismo S '08",
+          "price": 137700,
+          "price_in_jpy": 13770000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "makername": "Jaguar",
+          "carid": "1553",
+          "carname": "XJ13 '66",
+          "price": 12000000,
+          "price_in_jpy": 1200000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": "20240728",
       "date": "2024/7/28",
@@ -614,37 +670,6 @@
           "isOld": true
         }
       ]
-    },
-    {
-      "id": "20240715",
-      "date": "2024/7/15",
-      "used": [
-        {
-          "makername": "Dodge",
-          "carid": "3377",
-          "carname": "Super Bee '70",
-          "price": 71900,
-          "price_in_jpy": 7190000,
-          "isOld": true
-        },
-        {
-          "makername": "Chevrolet",
-          "carid": "942",
-          "carname": "Corvette ZR-1 (C4) '89",
-          "price": 86100,
-          "price_in_jpy": 8610000,
-          "isOld": true
-        },
-        {
-          "makername": "BMW",
-          "carid": "3389",
-          "carname": "M3 '03",
-          "price": 72800,
-          "price_in_jpy": 7280000,
-          "isOld": false
-        }
-      ],
-      "legend": []
     }
   ]
 }

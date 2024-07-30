@@ -35,6 +35,7 @@ $(document).ready(function () {
     // let timestamp_jp = toISOString(new Date(data.timestamp_jp)) + ' JST';
     let timestamp = new Date(data.timestamp);
     let timestamp_jp = new Date(data.timestamp_jp);
+    console.log(data.timestamp, timestamp, timestamp.toISOString())
 
     function toISOString(date) {
         const pad = function (str) {

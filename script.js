@@ -28,22 +28,22 @@ $(document).ready(function () {
     $('#showPriceColumn').prop('checked', showPriceColumn);
 
     let data; // Declare data variable to be used in the entire scope
-    let expectedContainer;
+    let expectedContainer = ''; // Ensure expectedContainer is initialized as an empty string
 
-    // Load and render data.json
-    fetch('data.json')
-        .then(response => response.json())
-        .then(loadedData => {
-            data = loadedData; // Assign the loaded data to the data variable
-            renderAccordion(data);
-            updateLastUpdatedTimestamp(displayInJPY ? data.timestamp_jp : data.timestamp);
-        });
-
-    // Load and render db.json
+    // Load and render db.json first to define the expectedContainer
     fetch('db.json')
         .then(response => response.json())
         .then(db => {
             expectedContainer = renderExpectedSection(db);
+
+            // Load and render data.json
+            fetch('data.json')
+                .then(response => response.json())
+                .then(loadedData => {
+                    data = loadedData; // Assign the loaded data to the data variable
+                    renderAccordion(data);
+                    updateLastUpdatedTimestamp(displayInJPY ? data.timestamp_jp : data.timestamp);
+                });
         });
 
     // Function to format numbers with commas
@@ -55,7 +55,7 @@ $(document).ready(function () {
     function renderAccordion(data) {
         const combinedContainer = $('#combinedContainer');
         combinedContainer.empty();
-        combinedContainer.append(expectedContainer)
+        combinedContainer.append(expectedContainer); // Append expectedContainer first
 
         data.content.forEach((oneData, index) => {
             const collapseId = `collapse${oneData.id}`;
@@ -190,7 +190,7 @@ $(document).ready(function () {
         const usedCarsHtml = renderCars(selectedUsedCars);
         const legendCarsHtml = renderCars(selectedLegendCars);
 
-        expectedContainer = `
+        return `
             <div class="accordion-item">
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExpected" aria-expanded="true" aria-controls="collapseExpected">
@@ -231,8 +231,6 @@ $(document).ready(function () {
                 </div>
             </div>
         `;
-
-        return expectedContainer
     }
 
     // Update the last updated timestamp display

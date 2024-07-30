@@ -133,7 +133,11 @@ $(document).ready(function () {
         $(document).on('click', '.price-cell, .price-header', function () {
             displayInJPY = !displayInJPY;
             localStorage.setItem('displayInJPY', displayInJPY); // Save the preference
-            togglePrices(data.timestamp, data.timestamp_jp);
+            // timestamp = data.timestamp.toLocaleDateString("ja-JP", { year: "numeric", month: "2-digit", day: "2-digit" }) + " UTC";
+            // timestamp_jp = data.timestamp_jp.toLocaleDateString("ja-JP", { year: "numeric", month: "2-digit", day: "2-digit" }) + ' JST';
+            timestamp = data.timestamp.toLocaleString() + " UTC";
+            timestamp_jp = data.timestamp_jp.toLocaleString() + ' JST';
+            togglePrices(timestamp, timestamp_jp);
         });
     }
 

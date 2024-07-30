@@ -29,14 +29,8 @@ $(document).ready(function () {
 
     let data; // Declare data variable to be used in the entire scope
     let expectedContainer;
-    // timestamp = data.timestamp.toLocaleDateString("ja-JP", { year: "numeric", month: "2-digit", day: "2-digit" }) + " UTC";
-    // timestamp_jp = data.timestamp_jp.toLocaleDateString("ja-JP", { year: "numeric", month: "2-digit", day: "2-digit" }) + ' JST';
-    // let timestamp = toISOString(new Date(data.timestamp)) + " UTC";
-    // let timestamp_jp = toISOString(new Date(data.timestamp_jp)) + ' JST';
-    console.log(data.timestamp)
     timestamp = toISOString(new Date(data.timestamp), displayInJPY);
-    timestamp_jp = toISOString(new Date(data.timestamp_jp, displayInJPY));
-    // console.log(timestamp, timestamp.toISOString())
+    timestamp_jp = toISOString(new Date(data.timestamp_jp), displayInJPY);
 
     function toISOString(date, displayInJPY) {
         const pad = function (str) {

@@ -42,12 +42,13 @@ $(document).ready(function () {
             timestamp_jp = new Date(data.timestamp_jp);
             // timestamp = toISOString(new Date(data.timestamp), displayInJPY);
             // timestamp_jp = toISOString(new Date(data.timestamp_jp), displayInJPY);
-            console.log(timestamp);
-            console.log(timestamp_jp);
 
             renderAccordion(data);
             updateLastUpdatedTimestamp(displayInJPY ? timestamp_jp : timestamp);
         });
+
+    console.log(timestamp);
+    console.log(timestamp_jp);
 
     // Load and render db.json
     fetch('db.json')

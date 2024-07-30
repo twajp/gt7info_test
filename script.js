@@ -28,6 +28,7 @@ $(document).ready(function () {
     $('#showPriceColumn').prop('checked', showPriceColumn);
 
     let data; // Declare data variable to be used in the entire scope
+    let expectedContainer;
 
     // Load and render data.json
     fetch('data.json')

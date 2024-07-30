@@ -6,7 +6,7 @@ import requests
 
 
 def LoadCSV(directory, filename):
-    url = f'https://raw.githubusercontent.com/ddm999/gt7info/web-new/_data/{directory}{filename}'
+    url = f'https://raw.githubusercontent.com/ddm999/gt7info/web-new/_data/{directory}/{filename}'
     download = requests.get(url)
     decoded_content = download.content.decode('utf-8')
     cr = csv.reader(decoded_content.splitlines(), delimiter=',')
@@ -35,7 +35,7 @@ def MakeNewCarList(data, carList, makerList):
                             makername = makerList[k][1]
                             carname = carList[j][1]
                             price = int(data[i][1])
-                            price_in_jpy = int(data[i][1])*100
+                            price_jp = int(data[i][1]) * 100
 
                             try:
                                 carYear = int(carname[-2:])
@@ -47,7 +47,7 @@ def MakeNewCarList(data, carList, makerList):
                                 isOld = None
 
                             res.append(
-                                {'carid': carid, 'makername': makername, 'carname': carname, 'price': price, 'price_in_jpy': price_in_jpy, 'isOld': isOld})
+                                {'carid': carid, 'makername': makername, 'carname': carname, 'price': price, 'price_jp': price_jp, 'isOld': isOld})
     return res
 
 
@@ -59,9 +59,9 @@ def UpdateDB():
                     'makername': car['makername'],
                     'carname': car['carname'],
                     'price': car['price'],
-                    'price_in_jpy': car['price_in_jpy'],
+                    'price_jp': car['price_jp'],
                     'isOld': car['isOld'],
-                    'lastAppeared': day['date'],
+                    'lastAppearance': day['date'],
                 }
 
     db.update({'timestamp': timestamp})
@@ -69,17 +69,17 @@ def UpdateDB():
 
     for dealer in ['used', 'legend']:
         for car_id, car_info in db[dealer].items():
-            car_info['sinceLastAppeared'] = (today - datetime.strptime(car_info['lastAppeared'], '%Y/%m/%d').date()).days
-        # Sort the entries by 'sinceLastAppeared'
-        db[dealer] = dict(sorted(db[dealer].items(), key=lambda item: item[1]['sinceLastAppeared'], reverse=True))
+            car_info['sinceLastAppearance'] = (today - datetime.strptime(car_info['lastAppearance'], '%Y/%m/%d').date()).days
+        # Sort the entries by 'sinceLastAppearance'
+        db[dealer] = dict(sorted(db[dealer].items(), key=lambda item: item[1]['sinceLastAppearance'], reverse=True))
 
-    db['used'] = dict(sorted(db['used'].items(), key=lambda item: (today - datetime.strptime(item[1]['lastAppeared'], '%Y/%m/%d').date()).days, reverse=True))
-    db['legend'] = dict(sorted(db['legend'].items(), key=lambda item: (today - datetime.strptime(item[1]['lastAppeared'], '%Y/%m/%d').date()).days, reverse=True))
+    db['used'] = dict(sorted(db['used'].items(), key=lambda item: (today - datetime.strptime(item[1]['lastAppearance'], '%Y/%m/%d').date()).days, reverse=True))
+    db['legend'] = dict(sorted(db['legend'].items(), key=lambda item: (today - datetime.strptime(item[1]['lastAppearance'], '%Y/%m/%d').date()).days, reverse=True))
 
 
 db = LoadJSON(f'https://raw.githubusercontent.com/twajp/gt7info_test/gh-pages/db.json')
-carList = LoadCSV('db/', 'cars.csv')
-makerList = LoadCSV('db/', 'maker.csv')
+carList = LoadCSV('db', 'cars.csv')
+makerList = LoadCSV('db', 'maker.csv')
 today = datetime.now(timezone.utc).date()
 JST = tz.gettz('Asia/Tokyo')
 timestamp = datetime.now(timezone.utc).strftime('%Y/%-m/%-d %-H:%M') + ' (UTC)'
@@ -97,8 +97,8 @@ for i in range(how_many_days):
     date_to_import = today - timedelta(i)
     filename = date_to_import.strftime('%y-%m-%d')+'.csv'
 
-    data_used = LoadCSV('used/', filename)
-    data_legend = LoadCSV('legend/', filename)
+    data_used = LoadCSV('used', filename)
+    data_legend = LoadCSV('legend', filename)
 
     list_used = MakeNewCarList(data_used, carList, makerList)
     list_legend = MakeNewCarList(data_legend, carList, makerList)

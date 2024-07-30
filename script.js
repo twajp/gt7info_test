@@ -84,7 +84,7 @@ $(document).ready(function () {
                                         <tr class="${car.isOld ? 'table-danger' : (car.isOld === false ? '' : 'table-warning')}">
                                             <td>${car.makername}</td>
                                             <th class="popup-text" data-image-url="https://ddm999.github.io/gt7info/cars/prices_${car.carid}.png">${car.carname}</th>
-                                            <td class="price-cell" style="text-align: right; cursor: pointer; ${showPriceColumn ? '' : 'display: none;'}" data-price="${car.price}" data-price-jpy="${car.price_in_jpy}">${numberWithCommas(displayInJPY ? car.price_in_jpy : car.price)}</td>
+                                            <td class="price-cell" style="text-align: right; cursor: pointer; ${showPriceColumn ? '' : 'display: none;'}" data-price="${car.price}" data-price-jpy="${car.price_jp}">${numberWithCommas(displayInJPY ? car.price_jp : car.price)}</td>
                                             <td></td>
                                         </tr>
                                     `).join('')}
@@ -106,7 +106,7 @@ $(document).ready(function () {
                                         <tr class="${car.isOld ? 'table-danger' : (car.isOld === false ? '' : 'table-warning')}">
                                             <td>${car.makername}</td>
                                             <th class="popup-text" data-image-url="https://ddm999.github.io/gt7info/cars/prices_${car.carid}.png">${car.carname}</th>
-                                            <td class="price-cell" style="text-align: right; cursor: pointer; ${showPriceColumn ? '' : 'display: none;'}" data-price="${car.price}" data-price-jpy="${car.price_in_jpy}">${numberWithCommas(displayInJPY ? car.price_in_jpy : car.price)}</td>
+                                            <td class="price-cell" style="text-align: right; cursor: pointer; ${showPriceColumn ? '' : 'display: none;'}" data-price="${car.price}" data-price-jpy="${car.price_jp}">${numberWithCommas(displayInJPY ? car.price_jp : car.price)}</td>
                                             <td></td>
                                         </tr>
                                     `).join('')}
@@ -127,7 +127,7 @@ $(document).ready(function () {
             modal.show();
         });
 
-        // Handle price cell and header click to toggle price and price_in_jpy
+        // Handle price cell and header click to toggle price and price_jp
         $(document).on('click', '.price-cell, .price-header', function () {
             displayInJPY = !displayInJPY;
             localStorage.setItem('displayInJPY', displayInJPY); // Save the preference
@@ -135,7 +135,7 @@ $(document).ready(function () {
         });
     }
 
-    // Toggle between price and price_in_jpy
+    // Toggle between price and price_jp
     function togglePrices(timestamp, timestamp_jp) {
         $('.price-cell').each(function () {
             const priceCell = $(this);
@@ -158,9 +158,9 @@ $(document).ready(function () {
             const today = new Date();
             let carsArray = Object.entries(carsDict);
 
-            // Sort cars by 'sinceLastAppeared'
+            // Sort cars by 'sinceLastAppearance'
             carsArray.sort((a, b) => {
-                return b[1].sinceLastAppeared - a[1].sinceLastAppeared;
+                return b[1].sinceLastAppearance - a[1].sinceLastAppearance;
             });
 
             // Filter out non-old cars and get top cars based on percentage
@@ -182,7 +182,7 @@ $(document).ready(function () {
                 <tr class="${car[1].isOld ? 'table-danger' : (car[1].isOld === false ? '' : 'table-warning')}">
                     <td>${car[1].makername}</td>
                     <th class="popup-text" data-image-url="https://ddm999.github.io/gt7info/cars/prices_${car[0]}.png">${car[1].carname}</th>
-                    <td style="text-align: right;">${car[1].lastAppeared} (${car[1].sinceLastAppeared} days ago)</td>
+                    <td style="text-align: right;">${car[1].lastAppearance} (${car[1].sinceLastAppearance} days ago)</td>
                     <td></td>
                 </tr>
             `).join('');

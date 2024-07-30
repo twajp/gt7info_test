@@ -29,26 +29,15 @@ $(document).ready(function () {
 
     let data; // Declare data variable to be used in the entire scope
     let expectedContainer;
-    var timestamp;
-    var timestamp_jp;
 
     // Load and render data.json
     fetch('data.json')
         .then(response => response.json())
         .then(loadedData => {
             data = loadedData; // Assign the loaded data to the data variable
-
-            timestamp = new Date(data.timestamp);
-            timestamp_jp = new Date(data.timestamp_jp);
-            // timestamp = toISOString(new Date(data.timestamp), displayInJPY);
-            // timestamp_jp = toISOString(new Date(data.timestamp_jp), displayInJPY);
-
             renderAccordion(data);
-            updateLastUpdatedTimestamp(displayInJPY ? timestamp_jp : timestamp);
+            updateLastUpdatedTimestamp(displayInJPY ? data.timestamp_jp : data.timestamp);
         });
-
-    console.log(timestamp);
-    console.log(timestamp_jp);
 
     // Load and render db.json
     fetch('db.json')
@@ -56,19 +45,6 @@ $(document).ready(function () {
         .then(db => {
             expectedContainer = renderExpectedSection(db);
         });
-
-    function toISOString(date, displayInJPY) {
-        const pad = function (str) {
-            return ('0' + str).slice(-2);
-        };
-        const year = (date.getFullYear()).toString();
-        const month = pad((date.getMonth() + 1).toString());
-        const day = pad(date.getDate().toString());
-        const hour = pad(date.getHours().toString());
-        const min = pad(date.getMinutes().toString());
-
-        return `${year}/${month}/${day} ${hour}:${min} ${displayInJPY ? ' JST' : ' UTC'}`;
-    }
 
     // Function to format numbers with commas
     function numberWithCommas(x) {
@@ -157,7 +133,7 @@ $(document).ready(function () {
         $(document).on('click', '.price-cell, .price-header', function () {
             displayInJPY = !displayInJPY;
             localStorage.setItem('displayInJPY', displayInJPY); // Save the preference
-            togglePrices(timestamp, timestamp_jp);
+            togglePrices(data.timestamp, data.timestamp_jp);
         });
     }
 

@@ -46,27 +46,29 @@ $(document).ready(function () {
             expectedContainer = renderExpectedSection(db);
         });
 
+    timestamp = new Date(data.timestamp);
+    timestamp_jp = new Date(data.timestamp_jp);
     // timestamp = toISOString(new Date(data.timestamp));
     // timestamp_jp = toISOString(new Date(data.timestamp_jp));
-    timestamp = toISOString(new Date(data.timestamp), displayInJPY);
-    timestamp_jp = toISOString(new Date(data.timestamp_jp), displayInJPY);
+    // timestamp = toISOString(new Date(data.timestamp), displayInJPY);
+    // timestamp_jp = toISOString(new Date(data.timestamp_jp), displayInJPY);
     console.log(data.timestamp);
     console.log(new Date(data.timestamp_jp))
-    console.log(timestamp);
+    // console.log(timestamp);
 
-    function toISOString(date, displayInJPY) {
-        const pad = function (str) {
-            return ('0' + str).slice(-2);
-        };
-        const year = (date.getFullYear()).toString();
-        const month = pad((date.getMonth() + 1).toString());
-        const day = pad(date.getDate().toString());
-        const hour = pad(date.getHours().toString());
-        const min = pad(date.getMinutes().toString());
+    // function toISOString(date, displayInJPY) {
+    //     const pad = function (str) {
+    //         return ('0' + str).slice(-2);
+    //     };
+    //     const year = (date.getFullYear()).toString();
+    //     const month = pad((date.getMonth() + 1).toString());
+    //     const day = pad(date.getDate().toString());
+    //     const hour = pad(date.getHours().toString());
+    //     const min = pad(date.getMinutes().toString());
 
-        // return `${year}/${month}/${day} ${hour}:${min}`;
-        return `${year}/${month}/${day} ${hour}:${min} ${displayInJPY ? ' JST' : ' UTC'}`;
-    }
+    //     // return `${year}/${month}/${day} ${hour}:${min}`;
+    //     return `${year}/${month}/${day} ${hour}:${min} ${displayInJPY ? ' JST' : ' UTC'}`;
+    // }
 
     // Function to format numbers with commas
     function numberWithCommas(x) {

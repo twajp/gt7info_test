@@ -82,8 +82,8 @@ $(document).ready(function () {
                                 <tbody>
                                     ${oneData.used.map(car => `
                                         <tr class="${car.isOld ? 'table-danger' : (car.isOld === false ? '' : 'table-warning')}">
-                                            <td>${car.makername}</td>
-                                            <th class="popup-text" data-image-url="https://ddm999.github.io/gt7info/cars/prices_${car.carid}.png">${car.carname}</th>
+                                            <td>${car.maker_name}</td>
+                                            <th class="popup-text" data-image-url="https://ddm999.github.io/gt7info/cars/prices_${car.carid}.png">${car.car_name}</th>
                                             <td class="price-cell" style="text-align: right; cursor: pointer; ${showPriceColumn ? '' : 'display: none;'}" data-price="${car.price}" data-price-jpy="${car.price_jp}">${numberWithCommas(displayInJPY ? car.price_jp : car.price)}</td>
                                             <td></td>
                                         </tr>
@@ -104,8 +104,8 @@ $(document).ready(function () {
                                 <tbody>
                                     ${oneData.legend.map(car => `
                                         <tr class="${car.isOld ? 'table-danger' : (car.isOld === false ? '' : 'table-warning')}">
-                                            <td>${car.makername}</td>
-                                            <th class="popup-text" data-image-url="https://ddm999.github.io/gt7info/cars/prices_${car.carid}.png">${car.carname}</th>
+                                            <td>${car.maker_name}</td>
+                                            <th class="popup-text" data-image-url="https://ddm999.github.io/gt7info/cars/prices_${car.carid}.png">${car.car_name}</th>
                                             <td class="price-cell" style="text-align: right; cursor: pointer; ${showPriceColumn ? '' : 'display: none;'}" data-price="${car.price}" data-price-jpy="${car.price_jp}">${numberWithCommas(displayInJPY ? car.price_jp : car.price)}</td>
                                             <td></td>
                                         </tr>
@@ -180,8 +180,8 @@ $(document).ready(function () {
         const renderCars = (cars) => {
             return cars.map(car => `
                 <tr class="${car[1].isOld ? 'table-danger' : (car[1].isOld === false ? '' : 'table-warning')}">
-                    <td>${car[1].makername}</td>
-                    <th class="popup-text" data-image-url="https://ddm999.github.io/gt7info/cars/prices_${car[0]}.png">${car[1].carname}</th>
+                    <td>${car[1].maker_name}</td>
+                    <th class="popup-text" data-image-url="https://ddm999.github.io/gt7info/cars/prices_${car[0]}.png">${car[1].car_name}</th>
                     <td style="text-align: right;">${car[1].lastAppearance} (${car[1].sinceLastAppearance} days ago)</td>
                     <td></td>
                 </tr>

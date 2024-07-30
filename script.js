@@ -177,7 +177,6 @@ $(document).ready(function () {
         const selectedLegendCars = selectCars(legendCars, 10);
 
         const renderCars = (cars) => {
-            console.log(cars)
             return cars.map(car => `
                 <tr class="${car[1].isOld ? 'table-danger' : (car[1].isOld === false ? '' : 'table-warning')}">
                     <td>${car[1].maker_name}</td>

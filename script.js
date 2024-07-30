@@ -52,8 +52,8 @@ $(document).ready(function () {
 
     // Render accordion section
     function renderAccordion(data) {
-        const accordionContainer = $('#appeared');
-        accordionContainer.empty();
+        const combinedContainer = $('#combinedContainer');
+        combinedContainer.empty();
 
         data.content.forEach((oneData, index) => {
             const collapseId = `collapse${oneData.id}`;
@@ -117,139 +117,103 @@ $(document).ready(function () {
                     </div>
                 </div>
             `;
-            accordionContainer.append(accordionItem);
+            combinedContainer.append(accordionItem);
         });
 
-        // Handle popup text click
-        $(document).on('click', '.popup-text', function () {
+        // Rebind popup text click event
+        $('.popup-text').click(function () {
             const imageUrl = $(this).data('image-url');
             img.attr('src', imageUrl);
             modal.show();
         });
-
-        // Handle price cell and header click to toggle price and price_jp
-        $(document).on('click', '.price-cell, .price-header', function () {
-            displayInJPY = !displayInJPY;
-            localStorage.setItem('displayInJPY', displayInJPY); // Save the preference
-            togglePrices(data.timestamp, data.timestamp_jp);
-        });
     }
 
-    // Toggle between price and price_jp
-    function togglePrices(timestamp, timestamp_jp) {
-        $('.price-cell').each(function () {
-            const priceCell = $(this);
-            const price = priceCell.data('price');
-            const priceJpy = priceCell.data('price-jpy');
-            priceCell.text(displayInJPY ? numberWithCommas(priceJpy) : numberWithCommas(price));
-        });
-
-        // Update the timestamp display
-        updateLastUpdatedTimestamp(displayInJPY ? timestamp_jp : timestamp);
-    }
-
-    // Render Expected to Appear Soon section
+    // Render expected soon section
     function renderExpectedSection(db) {
-        const expectedContainer = $('#expectedSoon');
-        expectedContainer.empty();
+        const combinedContainer = $('#combinedContainer');
 
-        // Selection algorithm
-        function selectCars(carsDict, percentage) {
-            const today = new Date();
-            let carsArray = Object.entries(carsDict);
-
-            // Sort cars by 'sinceLastAppearance'
-            carsArray.sort((a, b) => {
-                return b[1].sinceLastAppearance - a[1].sinceLastAppearance;
-            });
-
-            // Filter out non-old cars and get top cars based on percentage
-            const numTopCars = Math.ceil(carsArray.length * (percentage / 100));
-            let topCars = carsArray.slice(0, numTopCars);
-            topCars = topCars.filter(car => car[1].isOld !== false);
-
-            return topCars;
-        }
-
-        const usedCars = db['used'];
-        const legendCars = db['legend'];
-
-        const selectedUsedCars = selectCars(usedCars, 20);
-        const selectedLegendCars = selectCars(legendCars, 10);
-
-        const renderCars = (cars) => {
-            return cars.map(car => `
-                <tr class="${car[1].isOld ? 'table-danger' : (car[1].isOld === false ? '' : 'table-warning')}">
-                    <td>${car[1].maker_name}</td>
-                    <th class="popup-text" data-image-url="https://ddm999.github.io/gt7info/cars/prices_${car[0]}.png">${car[1].car_name}</th>
-                    <td style="text-align: right;">${car[1].lastAppearance} (${car[1].sinceLastAppearance} days ago)</td>
-                    <td></td>
-                </tr>
-            `).join('');
-        };
-
-        const usedCarsHtml = renderCars(selectedUsedCars);
-        const legendCarsHtml = renderCars(selectedLegendCars);
-
-        expectedContainer.append(`
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExpected" aria-expanded="true" aria-controls="collapseExpected">
-                        Expected to Appear Soon
-                    </button>
-                </h2>
-                <div id="collapseExpected" class="accordion-collapse collapse" data-bs-parent="${keepAccordionOpen ? '' : '#accordionPanelsStayOpen'}">
-                    <div class="accordion-body">
-                        <h2 style="text-align: center;">Used Car Dealership</h2>
-                        <table class="table">
-                            <thead>
+        // Expected Soon Section
+        const expectedSoonSection = `
+            <div class="card">
+                <div class="card-header">
+                    <h2 style="text-align: center;">Expected Soon</h2>
+                </div>
+                <div class="card-body">
+                    <h3 style="text-align: center;">Used Car Dealership</h3>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Maker</th>
+                                <th scope="col">Car</th>
+                                <th scope="col" class="price-header" style="text-align: right; cursor: pointer; ${showPriceColumn ? '' : 'display: none;'}">Price</th>
+                                <th scope="col">Prediction</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${db.used.map(car => `
                                 <tr>
-                                    <th scope="col">Maker</th>
-                                    <th scope="col">Car</th>
-                                    <th scope="col" style="text-align: right;">Last Appeared</th>
-                                    <th scope="col"></th>
+                                    <td>${car.maker_name}</td>
+                                    <th class="popup-text" data-image-url="https://ddm999.github.io/gt7info/cars/prices_${car.car_id}.png">${car.car_name}</th>
+                                    <td class="price-cell" style="text-align: right; cursor: pointer; ${showPriceColumn ? '' : 'display: none;'}" data-price="${car.price}" data-price-jpy="${car.price_jp}">${numberWithCommas(displayInJPY ? car.price_jp : car.price)}</td>
+                                    <td>${car.sinceLastAppeared}</td>
                                 </tr>
-                            </thead>
-                            <tbody>
-                                ${usedCarsHtml}
-                            </tbody>
-                        </table>
-                        <h2 style="text-align: center; margin-top: 50px;">Legendary Dealership</h2>
-                        <table class="table">
-                            <thead>
+                            `).join('')}
+                        </tbody>
+                    </table>
+                    <h3 style="text-align: center; margin-top: 50px;">Legendary Dealership</h3>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Maker</th>
+                                <th scope="col">Car</th>
+                                <th scope="col" class="price-header" style="text-align: right; cursor: pointer; ${showPriceColumn ? '' : 'display: none;'}">Price</th>
+                                <th scope="col">Prediction</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${db.legend.map(car => `
                                 <tr>
-                                    <th scope="col">Maker</th>
-                                    <th scope="col">Car</th>
-                                    <th scope="col" style="text-align: right;">Last Appeared</th>
-                                    <th scope="col"></th>
+                                    <td>${car.maker_name}</td>
+                                    <th class="popup-text" data-image-url="https://ddm999.github.io/gt7info/cars/prices_${car.car_id}.png">${car.car_name}</th>
+                                    <td class="price-cell" style="text-align: right; cursor: pointer; ${showPriceColumn ? '' : 'display: none;'}" data-price="${car.price}" data-price-jpy="${car.price_jp}">${numberWithCommas(displayInJPY ? car.price_jp : car.price)}</td>
+                                    <td>${car.sinceLastAppeared}</td>
                                 </tr>
-                            </thead>
-                            <tbody>
-                                ${legendCarsHtml}
-                            </tbody>
-                        </table>
-                    </div>
+                            `).join('')}
+                        </tbody>
+                    </table>
                 </div>
             </div>
-        `);
+        `;
+
+        combinedContainer.prepend(expectedSoonSection);
+
+        // Rebind popup text click event
+        $('.popup-text').click(function () {
+            const imageUrl = $(this).data('image-url');
+            img.attr('src', imageUrl);
+            modal.show();
+        });
     }
 
-    // Update the last updated timestamp display
+    // Function to update the last updated timestamp
     function updateLastUpdatedTimestamp(timestamp) {
-        $('#lastUpdated').text(`Last updated: ${timestamp}`);
+        const lastUpdatedElement = document.getElementById('lastUpdated');
+        const lastUpdatedDate = new Date(timestamp * 1000); // Convert to milliseconds
+        const formattedDate = lastUpdatedDate.toLocaleString('en-US', { timeZone: 'UTC', month: 'short', day: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit' });
+        lastUpdatedElement.textContent = 'Last updated: ' + formattedDate + ' (UTC)';
     }
 
-    // Handle keepAccordionOpen switch change
+    // Toggle accordion behavior based on the switch state
     $('#keepAccordionOpen').change(function () {
-        keepAccordionOpen = $(this).is(':checked');
-        localStorage.setItem('keepAccordionOpen', keepAccordionOpen); // Save the preference
-        renderAccordion(data); // Re-render the accordion with the new setting
+        keepAccordionOpen = this.checked;
+        localStorage.setItem('keepAccordionOpen', keepAccordionOpen);
+        renderAccordion(data);
     });
 
-    // Handle showPriceColumn switch change
+    // Toggle price column visibility based on the switch state
     $('#showPriceColumn').change(function () {
-        showPriceColumn = $(this).is(':checked');
-        localStorage.setItem('showPriceColumn', showPriceColumn); // Save the preference
-        $('.price-header, .price-cell').css('display', showPriceColumn ? '' : 'none');
+        showPriceColumn = this.checked;
+        localStorage.setItem('showPriceColumn', showPriceColumn);
+        $('.price-header, .price-cell').toggle(showPriceColumn);
     });
 });

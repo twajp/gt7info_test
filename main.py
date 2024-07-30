@@ -55,7 +55,7 @@ def UpdateDB():
     for dealer in ['used', 'legend']:
         for day in reversed(data['content']):
             for car in day[dealer]:
-                db[dealer][car['car_id']] = {
+                db[dealer][str(car['car_id'])] = {
                     'maker_name': car['maker_name'],
                     'car_name': car['car_name'],
                     'price': car['price'],

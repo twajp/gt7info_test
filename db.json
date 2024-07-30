@@ -1,6 +1,6 @@
 {
-  "timestamp": "2024/7/30 5:56 (UTC)",
-  "timestamp_jp": "2024/7/30 14:56 (JST)",
+  "timestamp": "2024/7/30 6:13 (UTC)",
+  "timestamp_jp": "2024/7/30 15:13 (JST)",
   "used": {
     "201": {
       "makername": "Mazda",
@@ -28,6 +28,60 @@
       "isOld": true,
       "lastAppearance": "2024/7/17",
       "sinceLastAppearance": 13
+    },
+    "201": {
+      "makername": "Mazda",
+      "carname": "Eunos Roadster (NA) '89",
+      "price": 26500,
+      "price_jp": 2650000,
+      "isOld": true,
+      "lastAppearance": "2024/7/17",
+      "sinceLastAppearance": 13
+    },
+    "3432": {
+      "makername": "Subaru",
+      "carname": "Impreza Sedan WRX STi '04",
+      "price": 47100,
+      "price_jp": 4710000,
+      "isOld": false,
+      "lastAppearance": "2024/7/17",
+      "sinceLastAppearance": 13
+    },
+    "1895": {
+      "makername": "Ferrari",
+      "carname": "Dino 246 GT '71",
+      "price": 343900,
+      "price_jp": 34390000,
+      "isOld": true,
+      "lastAppearance": "2024/7/17",
+      "sinceLastAppearance": 13
+    },
+    "821": {
+      "makername": "Honda",
+      "carname": "Civic Type R (EK) '97",
+      "price": 58100,
+      "price_jp": 5810000,
+      "isOld": true,
+      "lastAppearance": "2024/7/18",
+      "sinceLastAppearance": 12
+    },
+    "345": {
+      "makername": "Toyota",
+      "carname": "Sprinter Trueno 1600GT APEX (S.Shigeno Version)",
+      "price": 97800,
+      "price_jp": 9780000,
+      "isOld": null,
+      "lastAppearance": "2024/7/18",
+      "sinceLastAppearance": 12
+    },
+    "1578": {
+      "makername": "Alfa Romeo",
+      "carname": "8C Competizione '08",
+      "price": 287200,
+      "price_jp": 28720000,
+      "isOld": false,
+      "lastAppearance": "2024/7/18",
+      "sinceLastAppearance": 12
     },
     "821": {
       "makername": "Honda",
@@ -110,6 +164,78 @@
       "lastAppearance": "2024/7/19",
       "sinceLastAppearance": 11
     },
+    "1527": {
+      "makername": "Fiat",
+      "carname": "500 1.2 8V Lounge SS '08",
+      "price": 13300,
+      "price_jp": 1330000,
+      "isOld": false,
+      "lastAppearance": "2024/7/19",
+      "sinceLastAppearance": 11
+    },
+    "1778": {
+      "makername": "Volkswagen",
+      "carname": "Volkswagen 1200 '66",
+      "price": 35800,
+      "price_jp": 3580000,
+      "isOld": true,
+      "lastAppearance": "2024/7/19",
+      "sinceLastAppearance": 11
+    },
+    "137": {
+      "makername": "Honda",
+      "carname": "Beat '91",
+      "price": 16800,
+      "price_jp": 1680000,
+      "isOld": true,
+      "lastAppearance": "2024/7/19",
+      "sinceLastAppearance": 11
+    },
+    "1461": {
+      "makername": "Nissan",
+      "carname": "Silvia K's Dia Selection (S13) '90",
+      "price": 49700,
+      "price_jp": 4970000,
+      "isOld": true,
+      "lastAppearance": "2024/7/19",
+      "sinceLastAppearance": 11
+    },
+    "489": {
+      "makername": "Nissan",
+      "carname": "R33 GT-R V-spec '97",
+      "price": 155200,
+      "price_jp": 15520000,
+      "isOld": true,
+      "lastAppearance": "2024/7/19",
+      "sinceLastAppearance": 11
+    },
+    "205": {
+      "makername": "Mazda",
+      "carname": "RX-7 Spirit R Type A (FD) '02",
+      "price": 214300,
+      "price_jp": 21430000,
+      "isOld": false,
+      "lastAppearance": "2024/7/19",
+      "sinceLastAppearance": 11
+    },
+    "3384": {
+      "makername": "Mitsubishi",
+      "carname": "GTO Twin Turbo '91",
+      "price": 40000,
+      "price_jp": 4000000,
+      "isOld": true,
+      "lastAppearance": "2024/7/20",
+      "sinceLastAppearance": 10
+    },
+    "1480": {
+      "makername": "Chevrolet",
+      "carname": "Corvette ZR1 (C6) '09",
+      "price": 98400,
+      "price_jp": 9840000,
+      "isOld": false,
+      "lastAppearance": "2024/7/20",
+      "sinceLastAppearance": 10
+    },
     "3384": {
       "makername": "Mitsubishi",
       "carname": "GTO Twin Turbo '91",
@@ -155,6 +281,42 @@
       "lastAppearance": "2024/7/21",
       "sinceLastAppearance": 9
     },
+    "1973": {
+      "makername": "Abarth",
+      "carname": "Abarth 500 '09",
+      "price": 22100,
+      "price_jp": 2210000,
+      "isOld": false,
+      "lastAppearance": "2024/7/21",
+      "sinceLastAppearance": 9
+    },
+    "3385": {
+      "makername": "Porsche",
+      "carname": "911 Turbo (930) '81",
+      "price": 215600,
+      "price_jp": 21560000,
+      "isOld": true,
+      "lastAppearance": "2024/7/21",
+      "sinceLastAppearance": 9
+    },
+    "211": {
+      "makername": "Mitsubishi",
+      "carname": "Lancer Evolution V GSR '98",
+      "price": 77500,
+      "price_jp": 7750000,
+      "isOld": true,
+      "lastAppearance": "2024/7/21",
+      "sinceLastAppearance": 9
+    },
+    "1528": {
+      "makername": "Mercedes-Benz",
+      "carname": "SLR McLaren '09",
+      "price": 493500,
+      "price_jp": 49350000,
+      "isOld": false,
+      "lastAppearance": "2024/7/22",
+      "sinceLastAppearance": 8
+    },
     "1528": {
       "makername": "Mercedes-Benz",
       "carname": "SLR McLaren '09",
@@ -199,6 +361,78 @@
       "isOld": true,
       "lastAppearance": "2024/7/23",
       "sinceLastAppearance": 7
+    },
+    "41": {
+      "makername": "Chevrolet",
+      "carname": "Corvette Stingray (C3) '69",
+      "price": 71500,
+      "price_jp": 7150000,
+      "isOld": true,
+      "lastAppearance": "2024/7/23",
+      "sinceLastAppearance": 7
+    },
+    "3547": {
+      "makername": "Renault",
+      "carname": "R4 GTL '85",
+      "price": 24100,
+      "price_jp": 2410000,
+      "isOld": true,
+      "lastAppearance": "2024/7/23",
+      "sinceLastAppearance": 7
+    },
+    "1671": {
+      "makername": "Volkswagen",
+      "carname": "Sambabus Typ 2 '62",
+      "price": 57100,
+      "price_jp": 5710000,
+      "isOld": true,
+      "lastAppearance": "2024/7/23",
+      "sinceLastAppearance": 7
+    },
+    "78": {
+      "makername": "Nissan",
+      "carname": "Silvia K's Aero (S14) '96",
+      "price": 59300,
+      "price_jp": 5930000,
+      "isOld": true,
+      "lastAppearance": "2024/7/23",
+      "sinceLastAppearance": 7
+    },
+    "843": {
+      "makername": "Toyota",
+      "carname": "Supra 3.0GT Turbo A '88",
+      "price": 115900,
+      "price_jp": 11590000,
+      "isOld": true,
+      "lastAppearance": "2024/7/24",
+      "sinceLastAppearance": 6
+    },
+    "379": {
+      "makername": "Subaru",
+      "carname": "Impreza Coupe WRX Type R STi Ver.VI '99",
+      "price": 53600,
+      "price_jp": 5360000,
+      "isOld": true,
+      "lastAppearance": "2024/7/24",
+      "sinceLastAppearance": 6
+    },
+    "773": {
+      "makername": "Nissan",
+      "carname": "R32 GT-R V-spec II '94",
+      "price": 176500,
+      "price_jp": 17650000,
+      "isOld": true,
+      "lastAppearance": "2024/7/24",
+      "sinceLastAppearance": 6
+    },
+    "301": {
+      "makername": "Mitsubishi",
+      "carname": "Lancer Evolution IV GSR '96",
+      "price": 44200,
+      "price_jp": 4420000,
+      "isOld": true,
+      "lastAppearance": "2024/7/24",
+      "sinceLastAppearance": 6
     },
     "843": {
       "makername": "Toyota",
@@ -299,6 +533,78 @@
       "lastAppearance": "2024/7/25",
       "sinceLastAppearance": 5
     },
+    "1544": {
+      "makername": "Ferrari",
+      "carname": "430 Scuderia '07",
+      "price": 366700,
+      "price_jp": 36670000,
+      "isOld": false,
+      "lastAppearance": "2024/7/25",
+      "sinceLastAppearance": 5
+    },
+    "3551": {
+      "makername": "BMW",
+      "carname": "M3 '97",
+      "price": 74600,
+      "price_jp": 7460000,
+      "isOld": true,
+      "lastAppearance": "2024/7/25",
+      "sinceLastAppearance": 5
+    },
+    "1506": {
+      "makername": "Lamborghini",
+      "carname": "Gallardo LP 560-4 '08",
+      "price": 253100,
+      "price_jp": 25310000,
+      "isOld": false,
+      "lastAppearance": "2024/7/25",
+      "sinceLastAppearance": 5
+    },
+    "63": {
+      "makername": "Toyota",
+      "carname": "Corolla Levin 1600GT APEX (AE86) '83",
+      "price": 46800,
+      "price_jp": 4680000,
+      "isOld": true,
+      "lastAppearance": "2024/7/25",
+      "sinceLastAppearance": 5
+    },
+    "203": {
+      "makername": "Honda",
+      "carname": "Integra Type R (DC2) '98",
+      "price": 62100,
+      "price_jp": 6210000,
+      "isOld": true,
+      "lastAppearance": "2024/7/25",
+      "sinceLastAppearance": 5
+    },
+    "1729": {
+      "makername": "Ford",
+      "carname": "Mustang Mach 1 '71",
+      "price": 36800,
+      "price_jp": 3680000,
+      "isOld": true,
+      "lastAppearance": "2024/7/25",
+      "sinceLastAppearance": 5
+    },
+    "1481": {
+      "makername": "Lamborghini",
+      "carname": "Countach 25th Anniversary '88",
+      "price": 711800,
+      "price_jp": 71180000,
+      "isOld": true,
+      "lastAppearance": "2024/7/25",
+      "sinceLastAppearance": 5
+    },
+    "37": {
+      "makername": "Honda",
+      "carname": "Civic SiR-II (EG) '93",
+      "price": 52500,
+      "price_jp": 5250000,
+      "isOld": true,
+      "lastAppearance": "2024/7/26",
+      "sinceLastAppearance": 4
+    },
     "37": {
       "makername": "Honda",
       "carname": "Civic SiR-II (EG) '93",
@@ -334,6 +640,87 @@
       "isOld": false,
       "lastAppearance": "2024/7/27",
       "sinceLastAppearance": 3
+    },
+    "102": {
+      "makername": "Nissan",
+      "carname": "Skyline GTS-R (R31) '87",
+      "price": 162200,
+      "price_jp": 16220000,
+      "isOld": true,
+      "lastAppearance": "2024/7/27",
+      "sinceLastAppearance": 3
+    },
+    "3439": {
+      "makername": "Porsche",
+      "carname": "911 Carrera RS (993) '95",
+      "price": 229200,
+      "price_jp": 22920000,
+      "isOld": true,
+      "lastAppearance": "2024/7/27",
+      "sinceLastAppearance": 3
+    },
+    "1722": {
+      "makername": "McLaren",
+      "carname": "MP4-12C '10",
+      "price": 194100,
+      "price_jp": 19410000,
+      "isOld": false,
+      "lastAppearance": "2024/7/27",
+      "sinceLastAppearance": 3
+    },
+    "3549": {
+      "makername": "Volvo",
+      "carname": "240 SE Estate '93",
+      "price": 47000,
+      "price_jp": 4700000,
+      "isOld": true,
+      "lastAppearance": "2024/7/28",
+      "sinceLastAppearance": 2
+    },
+    "1044": {
+      "makername": "Toyota",
+      "carname": "Sports 800 '65",
+      "price": 46300,
+      "price_jp": 4630000,
+      "isOld": true,
+      "lastAppearance": "2024/7/28",
+      "sinceLastAppearance": 2
+    },
+    "1985": {
+      "makername": "Pontiac",
+      "carname": "Firebird Trans Am '78",
+      "price": 87900,
+      "price_jp": 8790000,
+      "isOld": true,
+      "lastAppearance": "2024/7/28",
+      "sinceLastAppearance": 2
+    },
+    "145": {
+      "makername": "Daihatsu",
+      "carname": "Copen '02",
+      "price": 15700,
+      "price_jp": 1570000,
+      "isOld": false,
+      "lastAppearance": "2024/7/28",
+      "sinceLastAppearance": 2
+    },
+    "3398": {
+      "makername": "RUF",
+      "carname": "CTR3 '07",
+      "price": 770800,
+      "price_jp": 77080000,
+      "isOld": false,
+      "lastAppearance": "2024/7/28",
+      "sinceLastAppearance": 2
+    },
+    "210": {
+      "makername": "Nissan",
+      "carname": "R34 GT-R V-spec II Nur '02",
+      "price": 401100,
+      "price_jp": 40110000,
+      "isOld": false,
+      "lastAppearance": "2024/7/28",
+      "sinceLastAppearance": 2
     },
     "3549": {
       "makername": "Volvo",
@@ -434,6 +821,87 @@
       "lastAppearance": "2024/7/29",
       "sinceLastAppearance": 1
     },
+    "1385": {
+      "makername": "Suzuki",
+      "carname": "Swift Sport '07",
+      "price": 11800,
+      "price_jp": 1180000,
+      "isOld": false,
+      "lastAppearance": "2024/7/29",
+      "sinceLastAppearance": 1
+    },
+    "1542": {
+      "makername": "Chevrolet",
+      "carname": "Corvette Convertible (C3) '69",
+      "price": 58200,
+      "price_jp": 5820000,
+      "isOld": true,
+      "lastAppearance": "2024/7/29",
+      "sinceLastAppearance": 1
+    },
+    "104": {
+      "makername": "Nissan",
+      "carname": "Sileighty '98",
+      "price": 81600,
+      "price_jp": 8160000,
+      "isOld": true,
+      "lastAppearance": "2024/7/29",
+      "sinceLastAppearance": 1
+    },
+    "1507": {
+      "makername": "AMG",
+      "carname": "SLS AMG '10",
+      "price": 310900,
+      "price_jp": 31090000,
+      "isOld": false,
+      "lastAppearance": "2024/7/29",
+      "sinceLastAppearance": 1
+    },
+    "1539": {
+      "makername": "Maserati",
+      "carname": "GranTurismo S '08",
+      "price": 137700,
+      "price_jp": 13770000,
+      "isOld": false,
+      "lastAppearance": "2024/7/29",
+      "sinceLastAppearance": 1
+    },
+    "709": {
+      "makername": "Nissan",
+      "carname": "Fairlady Z 300ZX TT 2seater '89",
+      "price": 70000,
+      "price_jp": 7000000,
+      "isOld": true,
+      "lastAppearance": "2024/7/30",
+      "sinceLastAppearance": 0
+    },
+    "3403": {
+      "makername": "Volkswagen",
+      "carname": "Golf I GTI '83",
+      "price": 40500,
+      "price_jp": 4050000,
+      "isOld": true,
+      "lastAppearance": "2024/7/30",
+      "sinceLastAppearance": 0
+    },
+    "533": {
+      "makername": "Lancia",
+      "carname": "Stratos '73",
+      "price": 539300,
+      "price_jp": 53930000,
+      "isOld": true,
+      "lastAppearance": "2024/7/30",
+      "sinceLastAppearance": 0
+    },
+    "1893": {
+      "makername": "BMW",
+      "carname": "Z8 '01",
+      "price": 267200,
+      "price_jp": 26720000,
+      "isOld": false,
+      "lastAppearance": "2024/7/30",
+      "sinceLastAppearance": 0
+    },
     "709": {
       "makername": "Nissan",
       "carname": "Fairlady Z 300ZX TT 2seater '89",
@@ -481,6 +949,15 @@
       "lastAppearance": "2024/7/17",
       "sinceLastAppearance": 13
     },
+    "31": {
+      "makername": "Chevrolet",
+      "carname": "Camaro Z28 '69",
+      "price": 133000,
+      "price_jp": 13300000,
+      "isOld": true,
+      "lastAppearance": "2024/7/17",
+      "sinceLastAppearance": 13
+    },
     "315": {
       "makername": "Shelby",
       "carname": "Cobra 427 '66",
@@ -489,6 +966,33 @@
       "isOld": true,
       "lastAppearance": "2024/7/19",
       "sinceLastAppearance": 11
+    },
+    "315": {
+      "makername": "Shelby",
+      "carname": "Cobra 427 '66",
+      "price": 2500000,
+      "price_jp": 250000000,
+      "isOld": true,
+      "lastAppearance": "2024/7/19",
+      "sinceLastAppearance": 11
+    },
+    "3430": {
+      "makername": "Jeep",
+      "carname": "Willys MB '45",
+      "price": 30100,
+      "price_jp": 3010000,
+      "isOld": true,
+      "lastAppearance": "2024/7/20",
+      "sinceLastAppearance": 10
+    },
+    "3437": {
+      "makername": "De Tomaso",
+      "carname": "Mangusta '69",
+      "price": 315000,
+      "price_jp": 31500000,
+      "isOld": true,
+      "lastAppearance": "2024/7/20",
+      "sinceLastAppearance": 10
     },
     "3430": {
       "makername": "Jeep",
@@ -535,6 +1039,51 @@
       "lastAppearance": "2024/7/21",
       "sinceLastAppearance": 9
     },
+    "3514": {
+      "makername": "Citroen",
+      "carname": "DS 21 Pallas '70",
+      "price": 47600,
+      "price_jp": 4760000,
+      "isOld": true,
+      "lastAppearance": "2024/7/21",
+      "sinceLastAppearance": 9
+    },
+    "1927": {
+      "makername": "Audi",
+      "carname": "Sport quattro S1 Pikes Peak '87",
+      "price": 1900000,
+      "price_jp": 190000000,
+      "isOld": true,
+      "lastAppearance": "2024/7/21",
+      "sinceLastAppearance": 9
+    },
+    "3446": {
+      "makername": "Porsche",
+      "carname": "Spyder type 550/1500RS '55",
+      "price": 4850000,
+      "price_jp": 485000000,
+      "isOld": true,
+      "lastAppearance": "2024/7/21",
+      "sinceLastAppearance": 9
+    },
+    "1540": {
+      "makername": "McLaren",
+      "carname": "McLaren F1 '94",
+      "price": 20000000,
+      "price_jp": 2000000000,
+      "isOld": true,
+      "lastAppearance": "2024/7/23",
+      "sinceLastAppearance": 7
+    },
+    "837": {
+      "makername": "Nissan",
+      "carname": "Skyline Hard Top 2000GT-R (KPGC10) '70",
+      "price": 194000,
+      "price_jp": 19400000,
+      "isOld": true,
+      "lastAppearance": "2024/7/23",
+      "sinceLastAppearance": 7
+    },
     "1540": {
       "makername": "McLaren",
       "carname": "McLaren F1 '94",
@@ -562,6 +1111,15 @@
       "lastAppearance": "2024/7/24",
       "sinceLastAppearance": 6
     },
+    "575": {
+      "makername": "Mercedes-Benz",
+      "carname": "190 E 2.5-16 Evolution II '91",
+      "price": 280000,
+      "price_jp": 28000000,
+      "isOld": true,
+      "lastAppearance": "2024/7/24",
+      "sinceLastAppearance": 6
+    },
     "3550": {
       "makername": "Subaru",
       "carname": "Impreza Rally Car '98",
@@ -570,6 +1128,42 @@
       "isOld": true,
       "lastAppearance": "2024/7/25",
       "sinceLastAppearance": 5
+    },
+    "3550": {
+      "makername": "Subaru",
+      "carname": "Impreza Rally Car '98",
+      "price": 650000,
+      "price_jp": 65000000,
+      "isOld": true,
+      "lastAppearance": "2024/7/25",
+      "sinceLastAppearance": 5
+    },
+    "140": {
+      "makername": "Honda",
+      "carname": "NSX GT500 '00",
+      "price": 1500000,
+      "price_jp": 150000000,
+      "isOld": true,
+      "lastAppearance": "2024/7/27",
+      "sinceLastAppearance": 3
+    },
+    "3376": {
+      "makername": "Jaguar",
+      "carname": "D-type '54",
+      "price": 6000000,
+      "price_jp": 600000000,
+      "isOld": true,
+      "lastAppearance": "2024/7/27",
+      "sinceLastAppearance": 3
+    },
+    "3428": {
+      "makername": "Mercedes-Benz",
+      "carname": "S Barker Tourer '29",
+      "price": 13000000,
+      "price_jp": 1300000000,
+      "isOld": true,
+      "lastAppearance": "2024/7/27",
+      "sinceLastAppearance": 3
     },
     "140": {
       "makername": "Honda",
@@ -616,6 +1210,24 @@
       "lastAppearance": "2024/7/28",
       "sinceLastAppearance": 2
     },
+    "387": {
+      "makername": "Mercedes-Benz",
+      "carname": "300 SL Coupe '54",
+      "price": 1700000,
+      "price_jp": 170000000,
+      "isOld": true,
+      "lastAppearance": "2024/7/28",
+      "sinceLastAppearance": 2
+    },
+    "1984": {
+      "makername": "McLaren",
+      "carname": "McLaren F1 GTR - BMW '95",
+      "price": 15000000,
+      "price_jp": 1500000000,
+      "isOld": true,
+      "lastAppearance": "2024/7/28",
+      "sinceLastAppearance": 2
+    },
     "1553": {
       "makername": "Jaguar",
       "carname": "XJ13 '66",
@@ -624,6 +1236,33 @@
       "isOld": true,
       "lastAppearance": "2024/7/29",
       "sinceLastAppearance": 1
+    },
+    "1553": {
+      "makername": "Jaguar",
+      "carname": "XJ13 '66",
+      "price": 12000000,
+      "price_jp": 1200000000,
+      "isOld": true,
+      "lastAppearance": "2024/7/29",
+      "sinceLastAppearance": 1
+    },
+    "1484": {
+      "makername": "Lamborghini",
+      "carname": "Countach LP400 '74",
+      "price": 1350000,
+      "price_jp": 135000000,
+      "isOld": true,
+      "lastAppearance": "2024/7/30",
+      "sinceLastAppearance": 0
+    },
+    "3538": {
+      "makername": "Dodge",
+      "carname": "Charger R/T 426 Hemi '68",
+      "price": 158000,
+      "price_jp": 15800000,
+      "isOld": true,
+      "lastAppearance": "2024/7/30",
+      "sinceLastAppearance": 0
     },
     "1484": {
       "makername": "Lamborghini",

@@ -32,8 +32,8 @@ $(document).ready(function () {
     // timestamp = toISOString(new Date(data.timestamp), displayInJPY);
     // timestamp_jp = toISOString(new Date(data.timestamp_jp), displayInJPY);
 
-    timestamp = new Date(data.timestamp);
-    timestamp_jp = new Date(data.timestamp_jp);
+    timestamp = data.timestamp;
+    timestamp_jp = Date(data.timestamp_jp);
 
     // timestamp = toISOString(new Date(data.timestamp));
     // timestamp_jp = toISOString(new Date(data.timestamp_jp));

@@ -1,7 +1,63 @@
 {
-  "timestamp": "2024/7/29 23:51 (UTC)",
-  "timestamp_jp": "2024/7/30 8:51 (JST)",
+  "timestamp": "2024/7/30 0:08 (UTC)",
+  "timestamp_jp": "2024/7/30 9:08 (JST)",
   "content": [
+    {
+      "id": 20240730,
+      "date": "2024/7/30",
+      "used": [
+        {
+          "carid": 709,
+          "makername": "Nissan",
+          "carname": "Fairlady Z 300ZX TT 2seater '89",
+          "price": 70000,
+          "price_in_jpy": 7000000,
+          "isOld": true
+        },
+        {
+          "carid": 3403,
+          "makername": "Volkswagen",
+          "carname": "Golf I GTI '83",
+          "price": 40500,
+          "price_in_jpy": 4050000,
+          "isOld": true
+        },
+        {
+          "carid": 533,
+          "makername": "Lancia",
+          "carname": "Stratos '73",
+          "price": 539300,
+          "price_in_jpy": 53930000,
+          "isOld": true
+        },
+        {
+          "carid": 1893,
+          "makername": "BMW",
+          "carname": "Z8 '01",
+          "price": 267200,
+          "price_in_jpy": 26720000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "carid": 1484,
+          "makername": "Lamborghini",
+          "carname": "Countach LP400 '74",
+          "price": 1350000,
+          "price_in_jpy": 135000000,
+          "isOld": true
+        },
+        {
+          "carid": 3538,
+          "makername": "Dodge",
+          "carname": "Charger R/T 426 Hemi '68",
+          "price": 158000,
+          "price_in_jpy": 15800000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20240729,
       "date": "2024/7/29",
@@ -619,54 +675,6 @@
           "carname": "Camaro Z28 '69",
           "price": 133000,
           "price_in_jpy": 13300000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20240716,
-      "date": "2024/7/16",
-      "used": [
-        {
-          "carid": 3513,
-          "makername": "Nissan",
-          "carname": "Silvia K's Type S (S14) '94",
-          "price": 60000,
-          "price_in_jpy": 6000000,
-          "isOld": true
-        },
-        {
-          "carid": 3454,
-          "makername": "BMW",
-          "carname": "3.0 CSL '71",
-          "price": 141500,
-          "price_in_jpy": 14150000,
-          "isOld": true
-        },
-        {
-          "carid": 1365,
-          "makername": "Audi",
-          "carname": "R8 4.2 '07",
-          "price": 137600,
-          "price_in_jpy": 13760000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "carid": 3525,
-          "makername": "Honda",
-          "carname": "RA272 '65",
-          "price": 2500000,
-          "price_in_jpy": 250000000,
-          "isOld": true
-        },
-        {
-          "carid": 3520,
-          "makername": "NISMO",
-          "carname": "400R '95",
-          "price": 1800000,
-          "price_in_jpy": 180000000,
           "isOld": true
         }
       ]

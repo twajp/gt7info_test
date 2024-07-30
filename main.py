@@ -31,7 +31,7 @@ def MakeNewCarList(data, carList, makerList):
                 if data[i][0] == carList[j][0]:
                     for k in range(len(makerList)):
                         if carList[j][2] == makerList[k][0]:
-                            carid = int(carList[j][0])
+                            car_id = int(carList[j][0])
                             maker_name = makerList[k][1]
                             car_name = carList[j][1]
                             price = int(data[i][1])
@@ -47,7 +47,7 @@ def MakeNewCarList(data, carList, makerList):
                                 isOld = None
 
                             res.append(
-                                {'carid': carid, 'maker_name': maker_name, 'car_name': car_name, 'price': price, 'price_jp': price_jp, 'isOld': isOld})
+                                {'car_id': car_id, 'maker_name': maker_name, 'car_name': car_name, 'price': price, 'price_jp': price_jp, 'isOld': isOld})
     return res
 
 
@@ -55,7 +55,7 @@ def UpdateDB():
     for dealer in ['used', 'legend']:
         for day in reversed(data['content']):
             for car in day[dealer]:
-                db[dealer][car['carid']] = {
+                db[dealer][car['car_id']] = {
                     'maker_name': car['maker_name'],
                     'car_name': car['car_name'],
                     'price': car['price'],

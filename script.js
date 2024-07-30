@@ -42,7 +42,7 @@ $(document).ready(function () {
     fetch('db.json')
         .then(response => response.json())
         .then(db => {
-            renderExpectedSection(db);
+            expectedContainer = renderExpectedSection(db);
         });
 
     // Function to format numbers with commas
@@ -54,6 +54,7 @@ $(document).ready(function () {
     function renderAccordion(data) {
         const combinedContainer = $('#combinedContainer');
         combinedContainer.empty();
+        combinedContainer.append(expectedContainer)
 
         data.content.forEach((oneData, index) => {
             const collapseId = `collapse${oneData.id}`;
@@ -188,7 +189,7 @@ $(document).ready(function () {
         const usedCarsHtml = renderCars(selectedUsedCars);
         const legendCarsHtml = renderCars(selectedLegendCars);
 
-        combinedContainer.append(`
+        expectedContainer = `
             <div class="accordion-item">
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExpected" aria-expanded="true" aria-controls="collapseExpected">
@@ -228,7 +229,9 @@ $(document).ready(function () {
                     </div>
                 </div>
             </div>
-        `);
+        `;
+
+        return expectedContainer
     }
 
     // Update the last updated timestamp display

@@ -195,25 +195,22 @@ $(document).ready(function () {
         });
     }
 
-    // Function to update the last updated timestamp
+    // Update the last updated timestamp display
     function updateLastUpdatedTimestamp(timestamp) {
-        const lastUpdatedElement = document.getElementById('lastUpdated');
-        const lastUpdatedDate = new Date(timestamp * 1000); // Convert to milliseconds
-        const formattedDate = lastUpdatedDate.toLocaleString('en-US', { timeZone: 'UTC', month: 'short', day: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit' });
-        lastUpdatedElement.textContent = 'Last updated: ' + formattedDate + ' (UTC)';
+        $('#lastUpdated').text(`Last updated: ${timestamp}`);
     }
 
-    // Toggle accordion behavior based on the switch state
+    // Handle keepAccordionOpen switch change
     $('#keepAccordionOpen').change(function () {
-        keepAccordionOpen = this.checked;
-        localStorage.setItem('keepAccordionOpen', keepAccordionOpen);
-        renderAccordion(data);
+        keepAccordionOpen = $(this).is(':checked');
+        localStorage.setItem('keepAccordionOpen', keepAccordionOpen); // Save the preference
+        renderAccordion(data); // Re-render the accordion with the new setting
     });
 
-    // Toggle price column visibility based on the switch state
+    // Handle showPriceColumn switch change
     $('#showPriceColumn').change(function () {
-        showPriceColumn = this.checked;
-        localStorage.setItem('showPriceColumn', showPriceColumn);
-        $('.price-header, .price-cell').toggle(showPriceColumn);
+        showPriceColumn = $(this).is(':checked');
+        localStorage.setItem('showPriceColumn', showPriceColumn); // Save the preference
+        $('.price-header, .price-cell').css('display', showPriceColumn ? '' : 'none');
     });
 });

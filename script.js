@@ -36,15 +36,10 @@ $(document).ready(function () {
         .then(loadedData => {
             data = loadedData; // Assign the loaded data to the data variable
 
-            // timestamp = new Date(data.timestamp);
-            // timestamp_jp = new Date(data.timestamp_jp);
-            // timestamp = toISOString(new Date(data.timestamp));
-            // timestamp_jp = toISOString(new Date(data.timestamp_jp));
             timestamp = toISOString(new Date(data.timestamp), displayInJPY);
             timestamp_jp = toISOString(new Date(data.timestamp_jp), displayInJPY);
-            console.log(data.timestamp);
-            console.log(new Date(data.timestamp_jp))
-            // console.log(timestamp);
+            console.log(timestamp);
+            console.log(timestamp_jp);
 
             renderAccordion(data);
             updateLastUpdatedTimestamp(displayInJPY ? timestamp_jp : timestamp);
@@ -67,7 +62,6 @@ $(document).ready(function () {
         const hour = pad(date.getHours().toString());
         const min = pad(date.getMinutes().toString());
 
-        // return `${year}/${month}/${day} ${hour}:${min}`;
         return `${year}/${month}/${day} ${hour}:${min} ${displayInJPY ? ' JST' : ' UTC'}`;
     }
 

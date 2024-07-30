@@ -29,28 +29,6 @@ $(document).ready(function () {
 
     let data; // Declare data variable to be used in the entire scope
     let expectedContainer;
-    // timestamp = toISOString(new Date(data.timestamp), displayInJPY);
-    // timestamp_jp = toISOString(new Date(data.timestamp_jp), displayInJPY);
-
-    timestamp = data.timestamp;
-    timestamp_jp = Date(data.timestamp_jp);
-
-    // timestamp = toISOString(new Date(data.timestamp));
-    // timestamp_jp = toISOString(new Date(data.timestamp_jp));
-
-    // function toISOString(date) {
-    //     const pad = function (str) {
-    //         return ('0' + str).slice(-2);
-    //     };
-    //     const year = (date.getFullYear()).toString();
-    //     const month = pad((date.getMonth() + 1).toString());
-    //     const day = pad(date.getDate().toString());
-    //     const hour = pad(date.getHours().toString());
-    //     const min = pad(date.getMinutes().toString());
-
-    //     return `${year}/${month}/${day} ${hour}:${min}`;
-    //     return `${year}/${month}/${day} ${hour}:${min} ${displayInJPY ? ' JST' : ' UTC'}`;
-    // }
 
     // Load and render data.json
     fetch('data.json')
@@ -67,6 +45,25 @@ $(document).ready(function () {
         .then(db => {
             expectedContainer = renderExpectedSection(db);
         });
+
+    // timestamp = toISOString(new Date(data.timestamp));
+    // timestamp_jp = toISOString(new Date(data.timestamp_jp));
+    timestamp = toISOString(new Date(data.timestamp), displayInJPY);
+    timestamp_jp = toISOString(new Date(data.timestamp_jp), displayInJPY);
+
+    function toISOString(date, displayInJPY) {
+        const pad = function (str) {
+            return ('0' + str).slice(-2);
+        };
+        const year = (date.getFullYear()).toString();
+        const month = pad((date.getMonth() + 1).toString());
+        const day = pad(date.getDate().toString());
+        const hour = pad(date.getHours().toString());
+        const min = pad(date.getMinutes().toString());
+
+        // return `${year}/${month}/${day} ${hour}:${min}`;
+        return `${year}/${month}/${day} ${hour}:${min} ${displayInJPY ? ' JST' : ' UTC'}`;
+    }
 
     // Function to format numbers with commas
     function numberWithCommas(x) {

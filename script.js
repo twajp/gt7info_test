@@ -52,8 +52,8 @@ $(document).ready(function () {
 
     // Render accordion section
     function renderAccordion(data) {
-        const accordionContainer = $('#appeared');
-        accordionContainer.empty();
+        const combinedContainer = $('#combinedContainer');
+        combinedContainer.empty();
 
         data.content.forEach((oneData, index) => {
             const collapseId = `collapse${oneData.id}`;
@@ -117,11 +117,11 @@ $(document).ready(function () {
                     </div>
                 </div>
             `;
-            accordionContainer.append(accordionItem);
+            combinedContainer.append(accordionItem);
         });
 
-        // Handle popup text click
-        $(document).on('click', '.popup-text', function () {
+        // Rebind popup text click event
+        $('.popup-text').click(function () {
             const imageUrl = $(this).data('image-url');
             img.attr('src', imageUrl);
             modal.show();
@@ -150,9 +150,6 @@ $(document).ready(function () {
 
     // Render Expected to Appear Soon section
     function renderExpectedSection(db) {
-        const expectedContainer = $('#expectedSoon');
-        expectedContainer.empty();
-
         // Selection algorithm
         function selectCars(carsDict, percentage) {
             const today = new Date();
@@ -191,7 +188,7 @@ $(document).ready(function () {
         const usedCarsHtml = renderCars(selectedUsedCars);
         const legendCarsHtml = renderCars(selectedLegendCars);
 
-        expectedContainer.append(`
+        combinedContainer.append(`
             <div class="accordion-item">
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExpected" aria-expanded="true" aria-controls="collapseExpected">

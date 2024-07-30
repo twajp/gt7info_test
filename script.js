@@ -50,6 +50,9 @@ $(document).ready(function () {
     // timestamp_jp = toISOString(new Date(data.timestamp_jp));
     timestamp = toISOString(new Date(data.timestamp), displayInJPY);
     timestamp_jp = toISOString(new Date(data.timestamp_jp), displayInJPY);
+    console.log(data.timestamp);
+    console.log(new Date(data.timestamp_jp))
+    console.log(timestamp);
 
     function toISOString(date, displayInJPY) {
         const pad = function (str) {

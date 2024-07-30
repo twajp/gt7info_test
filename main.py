@@ -71,10 +71,10 @@ def UpdateDB():
         for car_id, car_info in db[dealer].items():
             car_info['sinceLastAppearance'] = (today - datetime.strptime(car_info['lastAppearance'], '%Y/%m/%d').date()).days
         # Sort the entries by 'sinceLastAppearance'
-        db[dealer].update(dict(sorted(db[dealer].items(), key=lambda item: item[1]['sinceLastAppearance'], reverse=True)))
+        db[dealer] = dict(sorted(db[dealer].items(), key=lambda item: item[1]['sinceLastAppearance'], reverse=True))
 
-    db['used'].update(dict(sorted(db['used'].items(), key=lambda item: (today - datetime.strptime(item[1]['lastAppearance'], '%Y/%m/%d').date()).days, reverse=True)))
-    db['legend'].update(dict(sorted(db['legend'].items(), key=lambda item: (today - datetime.strptime(item[1]['lastAppearance'], '%Y/%m/%d').date()).days, reverse=True)))
+    db['used'] = dict(sorted(db['used'].items(), key=lambda item: (today - datetime.strptime(item[1]['lastAppearance'], '%Y/%m/%d').date()).days, reverse=True))
+    db['legend'] = dict(sorted(db['legend'].items(), key=lambda item: (today - datetime.strptime(item[1]['lastAppearance'], '%Y/%m/%d').date()).days, reverse=True))
 
 
 db = LoadJSON(f'https://raw.githubusercontent.com/twajp/gt7info_test/gh-pages/db.json')

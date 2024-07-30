@@ -33,11 +33,12 @@ $(document).ready(function () {
     // timestamp_jp = data.timestamp_jp.toLocaleDateString("ja-JP", { year: "numeric", month: "2-digit", day: "2-digit" }) + ' JST';
     // let timestamp = toISOString(new Date(data.timestamp)) + " UTC";
     // let timestamp_jp = toISOString(new Date(data.timestamp_jp)) + ' JST';
-    let timestamp = new Date(data.timestamp);
-    let timestamp_jp = new Date(data.timestamp_jp);
-    console.log(data.timestamp, timestamp, timestamp.toISOString())
+    console.log(data.timestamp)
+    timestamp = toISOString(new Date(data.timestamp), displayInJPY);
+    timestamp_jp = toISOString(new Date(data.timestamp_jp, displayInJPY));
+    // console.log(timestamp, timestamp.toISOString())
 
-    function toISOString(date) {
+    function toISOString(date, displayInJPY) {
         const pad = function (str) {
             return ('0' + str).slice(-2);
         };
@@ -47,7 +48,7 @@ $(document).ready(function () {
         const hour = pad(date.getHours().toString());
         const min = pad(date.getMinutes().toString());
 
-        return `${year}/${month}/${day} ${hour}:${min}`;
+        return `${year}/${month}/${day} ${hour}:${min} ${displayInJPY ? ' JST' : ' UTC'}`;
     }
 
     // Load and render data.json

@@ -29,6 +29,8 @@ $(document).ready(function () {
 
     let data; // Declare data variable to be used in the entire scope
     let expectedContainer;
+    let timestamp;
+    let timestamp_jp;
 
     // Load and render data.json
     fetch('data.json')

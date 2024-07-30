@@ -46,6 +46,8 @@ $(document).ready(function () {
             expectedContainer = renderExpectedSection(db);
         });
 
+    print(0, expectedContainer);
+
     // Function to format numbers with commas
     function numberWithCommas(x) {
         return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
@@ -56,6 +58,7 @@ $(document).ready(function () {
         const combinedContainer = $('#combinedContainer');
         combinedContainer.empty();
         combinedContainer.append(expectedContainer)
+        print(1, expectedContainer);
 
         data.content.forEach((oneData, index) => {
             const collapseId = `collapse${oneData.id}`;

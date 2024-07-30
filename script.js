@@ -126,73 +126,109 @@ $(document).ready(function () {
             img.attr('src', imageUrl);
             modal.show();
         });
+
+        // Handle price cell and header click to toggle price and price_jp
+        $(document).on('click', '.price-cell, .price-header', function () {
+            displayInJPY = !displayInJPY;
+            localStorage.setItem('displayInJPY', displayInJPY); // Save the preference
+            togglePrices(data.timestamp, data.timestamp_jp);
+        });
     }
 
-    // Render expected soon section
-    function renderExpectedSection(db) {
-        const combinedContainer = $('#combinedContainer');
+    // Toggle between price and price_jp
+    function togglePrices(timestamp, timestamp_jp) {
+        $('.price-cell').each(function () {
+            const priceCell = $(this);
+            const price = priceCell.data('price');
+            const priceJpy = priceCell.data('price-jpy');
+            priceCell.text(displayInJPY ? numberWithCommas(priceJpy) : numberWithCommas(price));
+        });
 
-        // Expected Soon Section
-        const expectedSoonSection = `
-            <div class="card">
-                <div class="card-header">
-                    <h2 style="text-align: center;">Expected Soon</h2>
-                </div>
-                <div class="card-body">
-                    <h3 style="text-align: center;">Used Car Dealership</h3>
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th scope="col">Maker</th>
-                                <th scope="col">Car</th>
-                                <th scope="col" class="price-header" style="text-align: right; cursor: pointer; ${showPriceColumn ? '' : 'display: none;'}">Price</th>
-                                <th scope="col">Prediction</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            ${db.used.map(car => `
+        // Update the timestamp display
+        updateLastUpdatedTimestamp(displayInJPY ? timestamp_jp : timestamp);
+    }
+
+    // Render Expected to Appear Soon section
+    function renderExpectedSection(db) {
+        // Selection algorithm
+        function selectCars(carsDict, percentage) {
+            const today = new Date();
+            let carsArray = Object.entries(carsDict);
+
+            // Sort cars by 'sinceLastAppearance'
+            carsArray.sort((a, b) => {
+                return b[1].sinceLastAppearance - a[1].sinceLastAppearance;
+            });
+
+            // Filter out non-old cars and get top cars based on percentage
+            const numTopCars = Math.ceil(carsArray.length * (percentage / 100));
+            let topCars = carsArray.slice(0, numTopCars);
+            topCars = topCars.filter(car => car[1].isOld !== false);
+
+            return topCars;
+        }
+
+        const usedCars = db['used'];
+        const legendCars = db['legend'];
+
+        const selectedUsedCars = selectCars(usedCars, 20);
+        const selectedLegendCars = selectCars(legendCars, 10);
+
+        const renderCars = (cars) => {
+            return cars.map(car => `
+                <tr class="${car[1].isOld ? 'table-danger' : (car[1].isOld === false ? '' : 'table-warning')}">
+                    <td>${car[1].maker_name}</td>
+                    <th class="popup-text" data-image-url="https://ddm999.github.io/gt7info/cars/prices_${car[0]}.png">${car[1].car_name}</th>
+                    <td style="text-align: right;">${car[1].lastAppearance} (${car[1].sinceLastAppearance} days ago)</td>
+                    <td></td>
+                </tr>
+            `).join('');
+        };
+
+        const usedCarsHtml = renderCars(selectedUsedCars);
+        const legendCarsHtml = renderCars(selectedLegendCars);
+
+        combinedContainer.append(`
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExpected" aria-expanded="true" aria-controls="collapseExpected">
+                        Expected to Appear Soon
+                    </button>
+                </h2>
+                <div id="collapseExpected" class="accordion-collapse collapse" data-bs-parent="${keepAccordionOpen ? '' : '#accordionPanelsStayOpen'}">
+                    <div class="accordion-body">
+                        <h2 style="text-align: center;">Used Car Dealership</h2>
+                        <table class="table">
+                            <thead>
                                 <tr>
-                                    <td>${car.maker_name}</td>
-                                    <th class="popup-text" data-image-url="https://ddm999.github.io/gt7info/cars/prices_${car.car_id}.png">${car.car_name}</th>
-                                    <td class="price-cell" style="text-align: right; cursor: pointer; ${showPriceColumn ? '' : 'display: none;'}" data-price="${car.price}" data-price-jpy="${car.price_jp}">${numberWithCommas(displayInJPY ? car.price_jp : car.price)}</td>
-                                    <td>${car.sinceLastAppeared}</td>
+                                    <th scope="col">Maker</th>
+                                    <th scope="col">Car</th>
+                                    <th scope="col" style="text-align: right;">Last Appeared</th>
+                                    <th scope="col"></th>
                                 </tr>
-                            `).join('')}
-                        </tbody>
-                    </table>
-                    <h3 style="text-align: center; margin-top: 50px;">Legendary Dealership</h3>
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th scope="col">Maker</th>
-                                <th scope="col">Car</th>
-                                <th scope="col" class="price-header" style="text-align: right; cursor: pointer; ${showPriceColumn ? '' : 'display: none;'}">Price</th>
-                                <th scope="col">Prediction</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            ${db.legend.map(car => `
+                            </thead>
+                            <tbody>
+                                ${usedCarsHtml}
+                            </tbody>
+                        </table>
+                        <h2 style="text-align: center; margin-top: 50px;">Legendary Dealership</h2>
+                        <table class="table">
+                            <thead>
                                 <tr>
-                                    <td>${car.maker_name}</td>
-                                    <th class="popup-text" data-image-url="https://ddm999.github.io/gt7info/cars/prices_${car.car_id}.png">${car.car_name}</th>
-                                    <td class="price-cell" style="text-align: right; cursor: pointer; ${showPriceColumn ? '' : 'display: none;'}" data-price="${car.price}" data-price-jpy="${car.price_jp}">${numberWithCommas(displayInJPY ? car.price_jp : car.price)}</td>
-                                    <td>${car.sinceLastAppeared}</td>
+                                    <th scope="col">Maker</th>
+                                    <th scope="col">Car</th>
+                                    <th scope="col" style="text-align: right;">Last Appeared</th>
+                                    <th scope="col"></th>
                                 </tr>
-                            `).join('')}
-                        </tbody>
-                    </table>
+                            </thead>
+                            <tbody>
+                                ${legendCarsHtml}
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
-        `;
-
-        combinedContainer.prepend(expectedSoonSection);
-
-        // Rebind popup text click event
-        $('.popup-text').click(function () {
-            const imageUrl = $(this).data('image-url');
-            img.attr('src', imageUrl);
-            modal.show();
-        });
+        `);
     }
 
     // Update the last updated timestamp display

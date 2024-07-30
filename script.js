@@ -29,6 +29,23 @@ $(document).ready(function () {
 
     let data; // Declare data variable to be used in the entire scope
     let expectedContainer;
+    // timestamp = data.timestamp.toLocaleDateString("ja-JP", { year: "numeric", month: "2-digit", day: "2-digit" }) + " UTC";
+    // timestamp_jp = data.timestamp_jp.toLocaleDateString("ja-JP", { year: "numeric", month: "2-digit", day: "2-digit" }) + ' JST';
+    let timestamp = toISOString(data.timestamp) + " UTC";
+    let timestamp_jp = toISOString(data.timestamp_jp) + ' JST';
+
+    function toISOString(date) {
+        const pad = function (str) {
+            return ('0' + str).slice(-2);
+        };
+        const year = (date.getFullYear()).toString();
+        const month = pad((date.getMonth() + 1).toString());
+        const day = pad(date.getDate().toString());
+        const hour = pad(date.getHours().toString());
+        const min = pad(date.getMinutes().toString());
+
+        return `${year}-${month}-${day}T${hour}:${min}`;
+    }
 
     // Load and render data.json
     fetch('data.json')
@@ -36,7 +53,7 @@ $(document).ready(function () {
         .then(loadedData => {
             data = loadedData; // Assign the loaded data to the data variable
             renderAccordion(data);
-            updateLastUpdatedTimestamp(displayInJPY ? data.timestamp_jp : data.timestamp);
+            updateLastUpdatedTimestamp(displayInJPY ? timestamp_jp : timestamp);
         });
 
     // Load and render db.json
@@ -133,10 +150,6 @@ $(document).ready(function () {
         $(document).on('click', '.price-cell, .price-header', function () {
             displayInJPY = !displayInJPY;
             localStorage.setItem('displayInJPY', displayInJPY); // Save the preference
-            // timestamp = data.timestamp.toLocaleDateString("ja-JP", { year: "numeric", month: "2-digit", day: "2-digit" }) + " UTC";
-            // timestamp_jp = data.timestamp_jp.toLocaleDateString("ja-JP", { year: "numeric", month: "2-digit", day: "2-digit" }) + ' JST';
-            timestamp = data.timestamp.toLocaleString() + " UTC";
-            timestamp_jp = data.timestamp_jp.toLocaleString() + ' JST';
             togglePrices(timestamp, timestamp_jp);
         });
     }

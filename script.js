@@ -31,22 +31,26 @@ $(document).ready(function () {
     let expectedContainer;
     // timestamp = toISOString(new Date(data.timestamp), displayInJPY);
     // timestamp_jp = toISOString(new Date(data.timestamp_jp), displayInJPY);
-    timestamp = toISOString(new Date(data.timestamp));
-    timestamp_jp = toISOString(new Date(data.timestamp_jp));
 
-    function toISOString(date) {
-        const pad = function (str) {
-            return ('0' + str).slice(-2);
-        };
-        const year = (date.getFullYear()).toString();
-        const month = pad((date.getMonth() + 1).toString());
-        const day = pad(date.getDate().toString());
-        const hour = pad(date.getHours().toString());
-        const min = pad(date.getMinutes().toString());
+    timestamp = new Date(data.timestamp);
+    timestamp_jp = new Date(data.timestamp_jp);
 
-        return `${year}/${month}/${day} ${hour}:${min}`;
-        return `${year}/${month}/${day} ${hour}:${min} ${displayInJPY ? ' JST' : ' UTC'}`;
-    }
+    // timestamp = toISOString(new Date(data.timestamp));
+    // timestamp_jp = toISOString(new Date(data.timestamp_jp));
+
+    // function toISOString(date) {
+    //     const pad = function (str) {
+    //         return ('0' + str).slice(-2);
+    //     };
+    //     const year = (date.getFullYear()).toString();
+    //     const month = pad((date.getMonth() + 1).toString());
+    //     const day = pad(date.getDate().toString());
+    //     const hour = pad(date.getHours().toString());
+    //     const min = pad(date.getMinutes().toString());
+
+    //     return `${year}/${month}/${day} ${hour}:${min}`;
+    //     return `${year}/${month}/${day} ${hour}:${min} ${displayInJPY ? ' JST' : ' UTC'}`;
+    // }
 
     // Load and render data.json
     fetch('data.json')

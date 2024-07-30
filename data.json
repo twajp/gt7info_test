@@ -1,6 +1,6 @@
 {
-  "timestamp": "2024/7/30 0:08 (UTC)",
-  "timestamp_jp": "2024/7/30 9:08 (JST)",
+  "timestamp": "2024/7/30 5:56 (UTC)",
+  "timestamp_jp": "2024/7/30 14:56 (JST)",
   "content": [
     {
       "id": 20240730,
@@ -11,7 +11,7 @@
           "makername": "Nissan",
           "carname": "Fairlady Z 300ZX TT 2seater '89",
           "price": 70000,
-          "price_in_jpy": 7000000,
+          "price_jp": 7000000,
           "isOld": true
         },
         {
@@ -19,7 +19,7 @@
           "makername": "Volkswagen",
           "carname": "Golf I GTI '83",
           "price": 40500,
-          "price_in_jpy": 4050000,
+          "price_jp": 4050000,
           "isOld": true
         },
         {
@@ -27,7 +27,7 @@
           "makername": "Lancia",
           "carname": "Stratos '73",
           "price": 539300,
-          "price_in_jpy": 53930000,
+          "price_jp": 53930000,
           "isOld": true
         },
         {
@@ -35,7 +35,7 @@
           "makername": "BMW",
           "carname": "Z8 '01",
           "price": 267200,
-          "price_in_jpy": 26720000,
+          "price_jp": 26720000,
           "isOld": false
         }
       ],
@@ -45,7 +45,7 @@
           "makername": "Lamborghini",
           "carname": "Countach LP400 '74",
           "price": 1350000,
-          "price_in_jpy": 135000000,
+          "price_jp": 135000000,
           "isOld": true
         },
         {
@@ -53,7 +53,7 @@
           "makername": "Dodge",
           "carname": "Charger R/T 426 Hemi '68",
           "price": 158000,
-          "price_in_jpy": 15800000,
+          "price_jp": 15800000,
           "isOld": true
         }
       ]
@@ -67,7 +67,7 @@
           "makername": "Suzuki",
           "carname": "Swift Sport '07",
           "price": 11800,
-          "price_in_jpy": 1180000,
+          "price_jp": 1180000,
           "isOld": false
         },
         {
@@ -75,7 +75,7 @@
           "makername": "Chevrolet",
           "carname": "Corvette Convertible (C3) '69",
           "price": 58200,
-          "price_in_jpy": 5820000,
+          "price_jp": 5820000,
           "isOld": true
         },
         {
@@ -83,7 +83,7 @@
           "makername": "Nissan",
           "carname": "Sileighty '98",
           "price": 81600,
-          "price_in_jpy": 8160000,
+          "price_jp": 8160000,
           "isOld": true
         },
         {
@@ -91,7 +91,7 @@
           "makername": "AMG",
           "carname": "SLS AMG '10",
           "price": 310900,
-          "price_in_jpy": 31090000,
+          "price_jp": 31090000,
           "isOld": false
         },
         {
@@ -99,7 +99,7 @@
           "makername": "Maserati",
           "carname": "GranTurismo S '08",
           "price": 137700,
-          "price_in_jpy": 13770000,
+          "price_jp": 13770000,
           "isOld": false
         }
       ],
@@ -109,7 +109,7 @@
           "makername": "Jaguar",
           "carname": "XJ13 '66",
           "price": 12000000,
-          "price_in_jpy": 1200000000,
+          "price_jp": 1200000000,
           "isOld": true
         }
       ]
@@ -123,7 +123,7 @@
           "makername": "Volvo",
           "carname": "240 SE Estate '93",
           "price": 47000,
-          "price_in_jpy": 4700000,
+          "price_jp": 4700000,
           "isOld": true
         },
         {
@@ -131,7 +131,7 @@
           "makername": "Toyota",
           "carname": "Sports 800 '65",
           "price": 46300,
-          "price_in_jpy": 4630000,
+          "price_jp": 4630000,
           "isOld": true
         },
         {
@@ -139,7 +139,7 @@
           "makername": "Pontiac",
           "carname": "Firebird Trans Am '78",
           "price": 87900,
-          "price_in_jpy": 8790000,
+          "price_jp": 8790000,
           "isOld": true
         },
         {
@@ -147,7 +147,7 @@
           "makername": "Daihatsu",
           "carname": "Copen '02",
           "price": 15700,
-          "price_in_jpy": 1570000,
+          "price_jp": 1570000,
           "isOld": false
         },
         {
@@ -155,7 +155,7 @@
           "makername": "RUF",
           "carname": "CTR3 '07",
           "price": 770800,
-          "price_in_jpy": 77080000,
+          "price_jp": 77080000,
           "isOld": false
         },
         {
@@ -163,7 +163,7 @@
           "makername": "Nissan",
           "carname": "R34 GT-R V-spec II Nur '02",
           "price": 401100,
-          "price_in_jpy": 40110000,
+          "price_jp": 40110000,
           "isOld": false
         }
       ],
@@ -173,7 +173,7 @@
           "makername": "Mercedes-Benz",
           "carname": "300 SL Coupe '54",
           "price": 1700000,
-          "price_in_jpy": 170000000,
+          "price_jp": 170000000,
           "isOld": true
         },
         {
@@ -181,7 +181,7 @@
           "makername": "McLaren",
           "carname": "McLaren F1 GTR - BMW '95",
           "price": 15000000,
-          "price_in_jpy": 1500000000,
+          "price_jp": 1500000000,
           "isOld": true
         }
       ]
@@ -195,7 +195,7 @@
           "makername": "Nissan",
           "carname": "Skyline GTS-R (R31) '87",
           "price": 162200,
-          "price_in_jpy": 16220000,
+          "price_jp": 16220000,
           "isOld": true
         },
         {
@@ -203,7 +203,7 @@
           "makername": "Porsche",
           "carname": "911 Carrera RS (993) '95",
           "price": 229200,
-          "price_in_jpy": 22920000,
+          "price_jp": 22920000,
           "isOld": true
         },
         {
@@ -211,7 +211,7 @@
           "makername": "McLaren",
           "carname": "MP4-12C '10",
           "price": 194100,
-          "price_in_jpy": 19410000,
+          "price_jp": 19410000,
           "isOld": false
         }
       ],
@@ -221,7 +221,7 @@
           "makername": "Honda",
           "carname": "NSX GT500 '00",
           "price": 1500000,
-          "price_in_jpy": 150000000,
+          "price_jp": 150000000,
           "isOld": true
         },
         {
@@ -229,7 +229,7 @@
           "makername": "Jaguar",
           "carname": "D-type '54",
           "price": 6000000,
-          "price_in_jpy": 600000000,
+          "price_jp": 600000000,
           "isOld": true
         },
         {
@@ -237,7 +237,7 @@
           "makername": "Mercedes-Benz",
           "carname": "S Barker Tourer '29",
           "price": 13000000,
-          "price_in_jpy": 1300000000,
+          "price_jp": 1300000000,
           "isOld": true
         }
       ]
@@ -251,7 +251,7 @@
           "makername": "Honda",
           "carname": "Civic SiR-II (EG) '93",
           "price": 52500,
-          "price_in_jpy": 5250000,
+          "price_jp": 5250000,
           "isOld": true
         }
       ],
@@ -266,7 +266,7 @@
           "makername": "Ferrari",
           "carname": "430 Scuderia '07",
           "price": 366700,
-          "price_in_jpy": 36670000,
+          "price_jp": 36670000,
           "isOld": false
         },
         {
@@ -274,7 +274,7 @@
           "makername": "BMW",
           "carname": "M3 '97",
           "price": 74600,
-          "price_in_jpy": 7460000,
+          "price_jp": 7460000,
           "isOld": true
         },
         {
@@ -282,7 +282,7 @@
           "makername": "Lamborghini",
           "carname": "Gallardo LP 560-4 '08",
           "price": 253100,
-          "price_in_jpy": 25310000,
+          "price_jp": 25310000,
           "isOld": false
         },
         {
@@ -290,7 +290,7 @@
           "makername": "Toyota",
           "carname": "Corolla Levin 1600GT APEX (AE86) '83",
           "price": 46800,
-          "price_in_jpy": 4680000,
+          "price_jp": 4680000,
           "isOld": true
         },
         {
@@ -298,7 +298,7 @@
           "makername": "Honda",
           "carname": "Integra Type R (DC2) '98",
           "price": 62100,
-          "price_in_jpy": 6210000,
+          "price_jp": 6210000,
           "isOld": true
         },
         {
@@ -306,7 +306,7 @@
           "makername": "Ford",
           "carname": "Mustang Mach 1 '71",
           "price": 36800,
-          "price_in_jpy": 3680000,
+          "price_jp": 3680000,
           "isOld": true
         },
         {
@@ -314,7 +314,7 @@
           "makername": "Lamborghini",
           "carname": "Countach 25th Anniversary '88",
           "price": 711800,
-          "price_in_jpy": 71180000,
+          "price_jp": 71180000,
           "isOld": true
         }
       ],
@@ -324,7 +324,7 @@
           "makername": "Subaru",
           "carname": "Impreza Rally Car '98",
           "price": 650000,
-          "price_in_jpy": 65000000,
+          "price_jp": 65000000,
           "isOld": true
         }
       ]
@@ -338,7 +338,7 @@
           "makername": "Toyota",
           "carname": "Supra 3.0GT Turbo A '88",
           "price": 115900,
-          "price_in_jpy": 11590000,
+          "price_jp": 11590000,
           "isOld": true
         },
         {
@@ -346,7 +346,7 @@
           "makername": "Subaru",
           "carname": "Impreza Coupe WRX Type R STi Ver.VI '99",
           "price": 53600,
-          "price_in_jpy": 5360000,
+          "price_jp": 5360000,
           "isOld": true
         },
         {
@@ -354,7 +354,7 @@
           "makername": "Nissan",
           "carname": "R32 GT-R V-spec II '94",
           "price": 176500,
-          "price_in_jpy": 17650000,
+          "price_jp": 17650000,
           "isOld": true
         },
         {
@@ -362,7 +362,7 @@
           "makername": "Mitsubishi",
           "carname": "Lancer Evolution IV GSR '96",
           "price": 44200,
-          "price_in_jpy": 4420000,
+          "price_jp": 4420000,
           "isOld": true
         }
       ],
@@ -372,7 +372,7 @@
           "makername": "Mercedes-Benz",
           "carname": "190 E 2.5-16 Evolution II '91",
           "price": 280000,
-          "price_in_jpy": 28000000,
+          "price_jp": 28000000,
           "isOld": true
         }
       ]
@@ -386,7 +386,7 @@
           "makername": "Chevrolet",
           "carname": "Corvette Stingray (C3) '69",
           "price": 71500,
-          "price_in_jpy": 7150000,
+          "price_jp": 7150000,
           "isOld": true
         },
         {
@@ -394,7 +394,7 @@
           "makername": "Renault",
           "carname": "R4 GTL '85",
           "price": 24100,
-          "price_in_jpy": 2410000,
+          "price_jp": 2410000,
           "isOld": true
         },
         {
@@ -402,7 +402,7 @@
           "makername": "Volkswagen",
           "carname": "Sambabus Typ 2 '62",
           "price": 57100,
-          "price_in_jpy": 5710000,
+          "price_jp": 5710000,
           "isOld": true
         },
         {
@@ -410,7 +410,7 @@
           "makername": "Nissan",
           "carname": "Silvia K's Aero (S14) '96",
           "price": 59300,
-          "price_in_jpy": 5930000,
+          "price_jp": 5930000,
           "isOld": true
         }
       ],
@@ -420,7 +420,7 @@
           "makername": "McLaren",
           "carname": "McLaren F1 '94",
           "price": 20000000,
-          "price_in_jpy": 2000000000,
+          "price_jp": 2000000000,
           "isOld": true
         },
         {
@@ -428,7 +428,7 @@
           "makername": "Nissan",
           "carname": "Skyline Hard Top 2000GT-R (KPGC10) '70",
           "price": 194000,
-          "price_in_jpy": 19400000,
+          "price_jp": 19400000,
           "isOld": true
         }
       ]
@@ -442,7 +442,7 @@
           "makername": "Mercedes-Benz",
           "carname": "SLR McLaren '09",
           "price": 493500,
-          "price_in_jpy": 49350000,
+          "price_jp": 49350000,
           "isOld": false
         }
       ],
@@ -457,7 +457,7 @@
           "makername": "Abarth",
           "carname": "Abarth 500 '09",
           "price": 22100,
-          "price_in_jpy": 2210000,
+          "price_jp": 2210000,
           "isOld": false
         },
         {
@@ -465,7 +465,7 @@
           "makername": "Porsche",
           "carname": "911 Turbo (930) '81",
           "price": 215600,
-          "price_in_jpy": 21560000,
+          "price_jp": 21560000,
           "isOld": true
         },
         {
@@ -473,7 +473,7 @@
           "makername": "Mitsubishi",
           "carname": "Lancer Evolution V GSR '98",
           "price": 77500,
-          "price_in_jpy": 7750000,
+          "price_jp": 7750000,
           "isOld": true
         }
       ],
@@ -483,7 +483,7 @@
           "makername": "Citroen",
           "carname": "DS 21 Pallas '70",
           "price": 47600,
-          "price_in_jpy": 4760000,
+          "price_jp": 4760000,
           "isOld": true
         },
         {
@@ -491,7 +491,7 @@
           "makername": "Audi",
           "carname": "Sport quattro S1 Pikes Peak '87",
           "price": 1900000,
-          "price_in_jpy": 190000000,
+          "price_jp": 190000000,
           "isOld": true
         },
         {
@@ -499,7 +499,7 @@
           "makername": "Porsche",
           "carname": "Spyder type 550/1500RS '55",
           "price": 4850000,
-          "price_in_jpy": 485000000,
+          "price_jp": 485000000,
           "isOld": true
         }
       ]
@@ -513,7 +513,7 @@
           "makername": "Mitsubishi",
           "carname": "GTO Twin Turbo '91",
           "price": 40000,
-          "price_in_jpy": 4000000,
+          "price_jp": 4000000,
           "isOld": true
         },
         {
@@ -521,7 +521,7 @@
           "makername": "Chevrolet",
           "carname": "Corvette ZR1 (C6) '09",
           "price": 98400,
-          "price_in_jpy": 9840000,
+          "price_jp": 9840000,
           "isOld": false
         }
       ],
@@ -531,7 +531,7 @@
           "makername": "Jeep",
           "carname": "Willys MB '45",
           "price": 30100,
-          "price_in_jpy": 3010000,
+          "price_jp": 3010000,
           "isOld": true
         },
         {
@@ -539,7 +539,7 @@
           "makername": "De Tomaso",
           "carname": "Mangusta '69",
           "price": 315000,
-          "price_in_jpy": 31500000,
+          "price_jp": 31500000,
           "isOld": true
         }
       ]
@@ -553,7 +553,7 @@
           "makername": "Fiat",
           "carname": "500 1.2 8V Lounge SS '08",
           "price": 13300,
-          "price_in_jpy": 1330000,
+          "price_jp": 1330000,
           "isOld": false
         },
         {
@@ -561,7 +561,7 @@
           "makername": "Volkswagen",
           "carname": "Volkswagen 1200 '66",
           "price": 35800,
-          "price_in_jpy": 3580000,
+          "price_jp": 3580000,
           "isOld": true
         },
         {
@@ -569,7 +569,7 @@
           "makername": "Honda",
           "carname": "Beat '91",
           "price": 16800,
-          "price_in_jpy": 1680000,
+          "price_jp": 1680000,
           "isOld": true
         },
         {
@@ -577,7 +577,7 @@
           "makername": "Nissan",
           "carname": "Silvia K's Dia Selection (S13) '90",
           "price": 49700,
-          "price_in_jpy": 4970000,
+          "price_jp": 4970000,
           "isOld": true
         },
         {
@@ -585,7 +585,7 @@
           "makername": "Nissan",
           "carname": "R33 GT-R V-spec '97",
           "price": 155200,
-          "price_in_jpy": 15520000,
+          "price_jp": 15520000,
           "isOld": true
         },
         {
@@ -593,7 +593,7 @@
           "makername": "Mazda",
           "carname": "RX-7 Spirit R Type A (FD) '02",
           "price": 214300,
-          "price_in_jpy": 21430000,
+          "price_jp": 21430000,
           "isOld": false
         }
       ],
@@ -603,7 +603,7 @@
           "makername": "Shelby",
           "carname": "Cobra 427 '66",
           "price": 2500000,
-          "price_in_jpy": 250000000,
+          "price_jp": 250000000,
           "isOld": true
         }
       ]
@@ -617,7 +617,7 @@
           "makername": "Honda",
           "carname": "Civic Type R (EK) '97",
           "price": 58100,
-          "price_in_jpy": 5810000,
+          "price_jp": 5810000,
           "isOld": true
         },
         {
@@ -625,7 +625,7 @@
           "makername": "Toyota",
           "carname": "Sprinter Trueno 1600GT APEX (S.Shigeno Version)",
           "price": 97800,
-          "price_in_jpy": 9780000,
+          "price_jp": 9780000,
           "isOld": null
         },
         {
@@ -633,7 +633,7 @@
           "makername": "Alfa Romeo",
           "carname": "8C Competizione '08",
           "price": 287200,
-          "price_in_jpy": 28720000,
+          "price_jp": 28720000,
           "isOld": false
         }
       ],
@@ -648,7 +648,7 @@
           "makername": "Mazda",
           "carname": "Eunos Roadster (NA) '89",
           "price": 26500,
-          "price_in_jpy": 2650000,
+          "price_jp": 2650000,
           "isOld": true
         },
         {
@@ -656,7 +656,7 @@
           "makername": "Subaru",
           "carname": "Impreza Sedan WRX STi '04",
           "price": 47100,
-          "price_in_jpy": 4710000,
+          "price_jp": 4710000,
           "isOld": false
         },
         {
@@ -664,7 +664,7 @@
           "makername": "Ferrari",
           "carname": "Dino 246 GT '71",
           "price": 343900,
-          "price_in_jpy": 34390000,
+          "price_jp": 34390000,
           "isOld": true
         }
       ],
@@ -674,7 +674,7 @@
           "makername": "Chevrolet",
           "carname": "Camaro Z28 '69",
           "price": 133000,
-          "price_in_jpy": 13300000,
+          "price_jp": 13300000,
           "isOld": true
         }
       ]

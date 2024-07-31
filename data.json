@@ -1,7 +1,71 @@
 {
-  "timestamp": "2024/7/30 23:51 (UTC)",
-  "timestamp_jp": "2024/7/31 8:51 (JST)",
+  "timestamp": "2024/7/31 0:07 (UTC)",
+  "timestamp_jp": "2024/7/31 9:07 (JST)",
   "content": [
+    {
+      "id": 20240731,
+      "date": "2024/7/31",
+      "used": [
+        {
+          "car_id": 1796,
+          "maker_name": "Alpine",
+          "car_name": "A110 '72",
+          "price": 142200,
+          "price_jp": 14220000,
+          "isOld": true
+        },
+        {
+          "car_id": 3513,
+          "maker_name": "Nissan",
+          "car_name": "Silvia K's Type S (S14) '94",
+          "price": 51400,
+          "price_jp": 5140000,
+          "isOld": true
+        },
+        {
+          "car_id": 3377,
+          "maker_name": "Dodge",
+          "car_name": "Super Bee '70",
+          "price": 61100,
+          "price_jp": 6110000,
+          "isOld": true
+        },
+        {
+          "car_id": 1895,
+          "maker_name": "Ferrari",
+          "car_name": "Dino 246 GT '71",
+          "price": 338000,
+          "price_jp": 33800000,
+          "isOld": true
+        },
+        {
+          "car_id": 374,
+          "maker_name": "Mazda",
+          "car_name": "RX-7 GT-X (FC) '90",
+          "price": 53800,
+          "price_jp": 5380000,
+          "isOld": true
+        },
+        {
+          "car_id": 1508,
+          "maker_name": "Mitsubishi",
+          "car_name": "Lancer Evolution VI GSR T.M. SCP '99",
+          "price": 174200,
+          "price_jp": 17420000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "car_id": 485,
+          "maker_name": "Nissan",
+          "car_name": "GT-R GT500 '99",
+          "price": 2500000,
+          "price_jp": 250000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20240730,
       "date": "2024/7/30",
@@ -638,46 +702,6 @@
         }
       ],
       "legend": []
-    },
-    {
-      "id": 20240717,
-      "date": "2024/7/17",
-      "used": [
-        {
-          "car_id": 201,
-          "maker_name": "Mazda",
-          "car_name": "Eunos Roadster (NA) '89",
-          "price": 26500,
-          "price_jp": 2650000,
-          "isOld": true
-        },
-        {
-          "car_id": 3432,
-          "maker_name": "Subaru",
-          "car_name": "Impreza Sedan WRX STi '04",
-          "price": 47100,
-          "price_jp": 4710000,
-          "isOld": false
-        },
-        {
-          "car_id": 1895,
-          "maker_name": "Ferrari",
-          "car_name": "Dino 246 GT '71",
-          "price": 343900,
-          "price_jp": 34390000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "car_id": 31,
-          "maker_name": "Chevrolet",
-          "car_name": "Camaro Z28 '69",
-          "price": 133000,
-          "price_jp": 13300000,
-          "isOld": true
-        }
-      ]
     }
   ]
 }

@@ -48,7 +48,7 @@ $(document).ready(function () {
                     timestamp_jp = toISOString(new Date(data.timestamp_jp), displayInJPY);
 
                     renderAccordion(data);
-                    updateLastUpdatedTimestamp();
+                    updateLastUpdatedTimestamp(displayInJPY ? timestamp_jp : timestamp);
                 });
         });
 
@@ -152,12 +152,12 @@ $(document).ready(function () {
         $(document).on('click', '.price-cell, .price-header', function () {
             displayInJPY = !displayInJPY;
             localStorage.setItem('displayInJPY', displayInJPY); // Save the preference
-            togglePrices();
+            togglePrices(timestamp, timestamp_jp);
         });
     }
 
     // Toggle between price and price_jp
-    function togglePrices() {
+    function togglePrices(timestamp, timestamp_jp) {
         $('.price-cell').each(function () {
             const priceCell = $(this);
             const price = priceCell.data('price');
@@ -166,7 +166,7 @@ $(document).ready(function () {
         });
 
         // Update the timestamp display
-        updateLastUpdatedTimestamp();
+        updateLastUpdatedTimestamp(displayInJPY ? timestamp_jp : timestamp);
     }
 
     // Render Expected to Appear Soon section
@@ -253,8 +253,8 @@ $(document).ready(function () {
     }
 
     // Update the last updated timestamp display
-    function updateLastUpdatedTimestamp() {
-        $('#lastUpdated').text(`Last updated: ${displayInJPY ? timestamp_jp : timestamp}`);
+    function updateLastUpdatedTimestamp(timestamp) {
+        $('#lastUpdated').text(`Last updated: ${timestamp}`);
     }
 
     // Handle keepAccordionOpen switch change

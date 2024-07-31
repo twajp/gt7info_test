@@ -152,12 +152,12 @@ $(document).ready(function () {
         $(document).on('click', '.price-cell, .price-header', function () {
             displayInJPY = !displayInJPY;
             localStorage.setItem('displayInJPY', displayInJPY); // Save the preference
-            togglePrices(timestamp, timestamp_jp);
+            togglePrices();
         });
     }
 
     // Toggle between price and price_jp
-    function togglePrices(timestamp, timestamp_jp) {
+    function togglePrices() {
         $('.price-cell').each(function () {
             const priceCell = $(this);
             const price = priceCell.data('price');

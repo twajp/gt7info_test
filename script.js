@@ -29,6 +29,8 @@ $(document).ready(function () {
 
     let data; // Declare data variable to be used in the entire scope
     let expectedContainer = ''; // Ensure expectedContainer is initialized as an empty string
+    let timestamp = '';
+    let timestamp_jp = '';
 
     // Load and render db.json first to define the expectedContainer
     fetch('db.json')
@@ -41,8 +43,12 @@ $(document).ready(function () {
                 .then(response => response.json())
                 .then(loadedData => {
                     data = loadedData; // Assign the loaded data to the data variable
+
+                    timestamp = toISOString(new Date(data.timestamp), displayInJPY);
+                    timestamp_jp = toISOString(new Date(data.timestamp_jp), displayInJPY);
+
                     renderAccordion(data);
-                    updateLastUpdatedTimestamp(displayInJPY ? data.timestamp_jp : data.timestamp);
+                    updateLastUpdatedTimestamp(displayInJPY ? timestamp_jp : timestamp);
                 });
         });
 
@@ -133,7 +139,7 @@ $(document).ready(function () {
         $(document).on('click', '.price-cell, .price-header', function () {
             displayInJPY = !displayInJPY;
             localStorage.setItem('displayInJPY', displayInJPY); // Save the preference
-            togglePrices(data.timestamp, data.timestamp_jp);
+            togglePrices(timestamp, timestamp_jp);
         });
     }
 

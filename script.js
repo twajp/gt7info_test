@@ -166,7 +166,7 @@ $(document).ready(function () {
         });
 
         // Update the timestamp display
-        updateLastUpdatedTimestamp(displayInJPY ? timestamp_jp : timestamp);
+        updateLastUpdatedTimestamp();
     }
 
     // Render Expected to Appear Soon section
@@ -253,8 +253,8 @@ $(document).ready(function () {
     }
 
     // Update the last updated timestamp display
-    function updateLastUpdatedTimestamp(timestamp) {
-        $('#lastUpdated').text(`Last updated: ${timestamp}`);
+    function updateLastUpdatedTimestamp() {
+        $('#lastUpdated').text(`Last updated: ${displayInJPY ? timestamp_jp : timestamp}`);
     }
 
     // Handle keepAccordionOpen switch change

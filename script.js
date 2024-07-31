@@ -52,6 +52,19 @@ $(document).ready(function () {
                 });
         });
 
+    function toISOString(date, displayInJPY) {
+        const pad = function (str) {
+            return ('0' + str).slice(-2);
+        };
+        const year = (date.getFullYear()).toString();
+        const month = pad((date.getMonth() + 1).toString());
+        const day = pad(date.getDate().toString());
+        const hour = pad(date.getHours().toString());
+        const min = pad(date.getMinutes().toString());
+
+        return `${year}/${month}/${day} ${hour}:${min} ${displayInJPY ? ' JST' : ' UTC'}`;
+    }
+
     // Function to format numbers with commas
     function numberWithCommas(x) {
         return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');

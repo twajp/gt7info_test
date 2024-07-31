@@ -48,7 +48,7 @@ $(document).ready(function () {
                     timestamp_jp = toISOString(new Date(data.timestamp_jp), displayInJPY);
 
                     renderAccordion(data);
-                    updateLastUpdatedTimestamp(displayInJPY ? timestamp_jp : timestamp);
+                    updateLastUpdatedTimestamp();
                 });
         });
 

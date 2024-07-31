@@ -1,8 +1,7 @@
 const modal = $('#modal-container');
 const img = modal.find('img');
 const popupTexts = $('.popup-text');
-let timestamp = '';
-let timestamp_jp = '';
+
 // popupTexts.click(function () {
 //     const imageUrl = $(this).data('image-url');
 //     img.attr('src', imageUrl);
@@ -30,6 +29,8 @@ $(document).ready(function () {
 
     let data; // Declare data variable to be used in the entire scope
     let expectedContainer = ''; // Ensure expectedContainer is initialized as an empty string
+    let timestamp = '';
+    let timestamp_jp = '';
 
     // Load and render db.json first to define the expectedContainer
     fetch('db.json')
@@ -252,8 +253,8 @@ $(document).ready(function () {
     }
 
     // Update the last updated timestamp display
-    function updateLastUpdatedTimestamp(timestamp) {
-        $('#lastUpdated').text(`Last updated: ${timestamp}`);
+    function updateLastUpdatedTimestamp() {
+        $('#lastUpdated').text(`Last updated: ${displayInJPY ? timestamp_jp : timestamp}`);
     }
 
     // Handle keepAccordionOpen switch change

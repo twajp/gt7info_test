@@ -239,23 +239,18 @@ $(document).ready(function () {
     }
 
     function ISOtoString(timestamp_str, displayInJPY) {
-        timestamp = new Date(timestamp_str)
+        timestamp = new Date(timestamp_str);
         if (displayInJPY) {
             return timestamp.toLocaleString('ja-JP', {
                 timeZone: 'Asia/Tokyo',
+                timeStyle: 'short'
             }) + ' JST';
         } else {
             return timestamp.toLocaleString('ja-JP', {
                 timeZone: 'UTC',
+                timeStyle: 'short'
             }) + ' UTC';
         }
-        const year = (timestamp.getFullYear()).toString();
-        const month = (timestamp.getMonth() + 1).toString();
-        const day = timestamp.getDate().toString();
-        const hour = timestamp.getHours().toString();
-        const min = timestamp.getMinutes().toString();
-
-        return `${year}/${month}/${day} ${hour}:${min} ${displayInJPY ? ' JST' : ' UTC'}`;
     }
 
     // Handle keepAccordionOpen switch change

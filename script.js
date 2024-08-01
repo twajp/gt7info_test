@@ -243,11 +243,13 @@ $(document).ready(function () {
         if (displayInJPY) {
             return timestamp.toLocaleString('ja-JP', {
                 timeZone: 'Asia/Tokyo',
+                dateStyle: 'long',
                 timeStyle: 'short'
             }) + ' JST';
         } else {
             return timestamp.toLocaleString('ja-JP', {
                 timeZone: 'UTC',
+                dateStyle: 'long',
                 timeStyle: 'short'
             }) + ' UTC';
         }

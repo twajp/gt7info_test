@@ -1,7 +1,6 @@
+from datetime import datetime, timedelta, timezone
 import csv
 import json
-from datetime import datetime, timedelta, timezone
-from dateutil import tz
 import requests
 
 
@@ -80,9 +79,7 @@ db = LoadJSON(f'https://raw.githubusercontent.com/twajp/gt7info_test/gh-pages/db
 carList = LoadCSV('db', 'cars.csv')
 makerList = LoadCSV('db', 'maker.csv')
 today = datetime.now(timezone.utc).date()
-JST = tz.gettz('Asia/Tokyo')
-now = datetime.now(timezone.utc)
-timestamp = now.isoformat()
+timestamp = datetime.now(timezone.utc).isoformat()
 # start_date = datetime(year=2022, month=6, day=28).date()
 # how_many_days = (today-start_date).days + 1
 how_many_days = 14

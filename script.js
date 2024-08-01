@@ -18,17 +18,14 @@ $(document).ready(function () {
     let displayInJPY = localStorage.getItem('displayInJPY') === 'true';
     let keepAccordionOpen = localStorage.getItem('keepAccordionOpen') === 'true';
     let showPriceColumn = localStorage.getItem('showPriceColumn') === 'true';
-    let hideBrandCentralCars = localStorage.getItem('hideBrandCentralCars') === 'true';
 
     // Set default values if no preference is set
     keepAccordionOpen = keepAccordionOpen !== undefined ? keepAccordionOpen : false;
     showPriceColumn = showPriceColumn !== undefined ? showPriceColumn : true;
-    hideBrandCentralCars = hideBrandCentralCars !== undefined ? hideBrandCentralCars : false;
 
     // Set the initial state of switches
     $('#keepAccordionOpen').prop('checked', keepAccordionOpen);
     $('#showPriceColumn').prop('checked', showPriceColumn);
-    $('#hideBrandCentralCars').prop('checked', hideBrandCentralCars);
 
     let data; // Declare data variable to be used in the entire scope
     let expectedContainer = ''; // Ensure expectedContainer is initialized as an empty string
@@ -86,7 +83,7 @@ $(document).ready(function () {
                                 </thead>
                                 <tbody>
                                     ${oneData.used.map(car => `
-                                        <tr class="${car.isOld ? 'table-danger' : (car.isOld === false ? 'd-none' : 'table-warning')}" ${hideBrandCentralCars && car.isOld === false ? 'style="display: none;"' : ''}>
+                                        <tr class="${car.isOld ? 'table-danger' : (car.isOld === false ? '' : 'table-warning')}">
                                             <td>${car.maker_name}</td>
                                             <th class="popup-text" data-image-url="https://ddm999.github.io/gt7info/cars/prices_${car.car_id}.png">${car.car_name}</th>
                                             <td class="price-cell" style="text-align: right; cursor: pointer; ${showPriceColumn ? '' : 'display: none;'}" data-price="${car.price}" data-price-jpy="${car.price_jp}">${numberWithCommas(displayInJPY ? car.price_jp : car.price)}</td>
@@ -108,7 +105,7 @@ $(document).ready(function () {
                                 </thead>
                                 <tbody>
                                     ${oneData.legend.map(car => `
-                                        <tr class="${car.isOld ? 'table-danger' : (car.isOld === false ? 'd-none' : 'table-warning')}" ${hideBrandCentralCars && car.isOld === false ? 'style="display: none;"' : ''}>
+                                        <tr class="${car.isOld ? 'table-danger' : (car.isOld === false ? '' : 'table-warning')}">
                                             <td>${car.maker_name}</td>
                                             <th class="popup-text" data-image-url="https://ddm999.github.io/gt7info/cars/prices_${car.car_id}.png">${car.car_name}</th>
                                             <td class="price-cell" style="text-align: right; cursor: pointer; ${showPriceColumn ? '' : 'display: none;'}" data-price="${car.price}" data-price-jpy="${car.price_jp}">${numberWithCommas(displayInJPY ? car.price_jp : car.price)}</td>
@@ -136,12 +133,12 @@ $(document).ready(function () {
         $(document).on('click', '.price-cell, .price-header', function () {
             displayInJPY = !displayInJPY;
             localStorage.setItem('displayInJPY', displayInJPY); // Save the preference
-            togglePrices(data.timestamp, data.timestamp_jp);
+            togglePrices(data.timestamp);
         });
     }
 
     // Toggle between price and price_jp
-    function togglePrices(timestamp, timestamp_jp) {
+    function togglePrices(timestamp) {
         $('.price-cell').each(function () {
             const priceCell = $(this);
             const price = priceCell.data('price');
@@ -180,54 +177,95 @@ $(document).ready(function () {
         const selectedLegendCars = selectCars(legendCars, 10);
 
         const renderCars = (cars) => {
-            return cars.map(([carName, car]) => `
-                <tr class="${car.isOld ? 'table-danger' : 'table-warning'}">
-                    <td>${car.maker_name}</td>
-                    <td>${carName}</td>
+            return cars.map(car => `
+                <tr class="${car[1].isOld ? 'table-danger' : (car[1].isOld === false ? '' : 'table-warning')}">
+                    <td>${car[1].maker_name}</td>
+                    <th class="popup-text" data-image-url="https://ddm999.github.io/gt7info/cars/prices_${car[0]}.png">${car[1].car_name}</th>
+                    <td style="text-align: right;">${car[1].lastAppearance} (${car[1].sinceLastAppearance} days ago)</td>
+                    <td></td>
                 </tr>
             `).join('');
-        }
+        };
+
+        const usedCarsHtml = renderCars(selectedUsedCars);
+        const legendCarsHtml = renderCars(selectedLegendCars);
 
         return `
-            <h2 style="text-align: center; margin-top: 20px;">Expected to Appear Soon</h2>
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th scope="col">Maker</th>
-                        <th scope="col">Car</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    ${renderCars(selectedUsedCars)}
-                    ${renderCars(selectedLegendCars)}
-                </tbody>
-            </table>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExpected" aria-expanded="true" aria-controls="collapseExpected">
+                        Expected to Appear Soon
+                    </button>
+                </h2>
+                <div id="collapseExpected" class="accordion-collapse collapse" data-bs-parent="${keepAccordionOpen ? '' : '#accordionPanelsStayOpen'}">
+                    <div class="accordion-body">
+                        <h2 style="text-align: center;">Used Car Dealership</h2>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Maker</th>
+                                    <th scope="col">Car</th>
+                                    <th scope="col" style="text-align: right;">Last Appeared</th>
+                                    <th scope="col"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${usedCarsHtml}
+                            </tbody>
+                        </table>
+                        <h2 style="text-align: center; margin-top: 50px;">Legendary Dealership</h2>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Maker</th>
+                                    <th scope="col">Car</th>
+                                    <th scope="col" style="text-align: right;">Last Appeared</th>
+                                    <th scope="col"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${legendCarsHtml}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
         `;
     }
 
-    // Update the last updated timestamp
+    // Update the last updated timestamp display
     function updateLastUpdatedTimestamp(timestamp, displayInJPY) {
-        $('#lastUpdatedTimestamp').text(displayInJPY ? timestamp_jp : timestamp);
+        $('#lastUpdated').text(`Last updated: ${ISOtoString(timestamp, displayInJPY)}`);
     }
 
-    // Event listener for the 'keepAccordionOpen' switch
-    $('#keepAccordionOpen').on('change', function () {
-        keepAccordionOpen = this.checked;
+    function ISOtoString(timestamp_str, displayInJPY) {
+        timestamp = new Date(timestamp_str);
+        if (displayInJPY) {
+            return timestamp.toLocaleString('ja-JP', {
+                timeZone: 'Asia/Tokyo',
+                dateStyle: 'short',
+                timeStyle: 'short'
+            }).replace(/\/0/g, '/') + ' JST';
+        } else {
+            return timestamp.toLocaleString('ja-JP', {
+                timeZone: 'UTC',
+                dateStyle: 'short',
+                timeStyle: 'short'
+            }).replace(/\/0/g, '/') + ' UTC';
+        }
+    }
+
+    // Handle keepAccordionOpen switch change
+    $('#keepAccordionOpen').change(function () {
+        keepAccordionOpen = $(this).is(':checked');
         localStorage.setItem('keepAccordionOpen', keepAccordionOpen); // Save the preference
-        renderAccordion(data);
+        renderAccordion(data); // Re-render the accordion with the new setting
     });
 
-    // Event listener for the 'showPriceColumn' switch
-    $('#showPriceColumn').on('change', function () {
-        showPriceColumn = this.checked;
+    // Handle showPriceColumn switch change
+    $('#showPriceColumn').change(function () {
+        showPriceColumn = $(this).is(':checked');
         localStorage.setItem('showPriceColumn', showPriceColumn); // Save the preference
-        renderAccordion(data);
-    });
-
-    // Event listener for the 'hideBrandCentralCars' switch
-    $('#hideBrandCentralCars').on('change', function () {
-        hideBrandCentralCars = this.checked;
-        localStorage.setItem('hideBrandCentralCars', hideBrandCentralCars); // Save the preference
-        renderAccordion(data);
+        $('.price-header, .price-cell').css('display', showPriceColumn ? '' : 'none');
     });
 });

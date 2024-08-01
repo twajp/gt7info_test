@@ -29,8 +29,6 @@ $(document).ready(function () {
 
     let data; // Declare data variable to be used in the entire scope
     let expectedContainer = ''; // Ensure expectedContainer is initialized as an empty string
-    let timestamp = '';
-    let timestamp_jp = '';
 
     // Load and render db.json first to define the expectedContainer
     fetch('db.json')
@@ -43,27 +41,10 @@ $(document).ready(function () {
                 .then(response => response.json())
                 .then(loadedData => {
                     data = loadedData; // Assign the loaded data to the data variable
-
-                    timestamp = toISOString(new Date(data.timestamp), displayInJPY);
-                    timestamp_jp = toISOString(new Date(data.timestamp_jp), displayInJPY);
-
                     renderAccordion(data);
-                    updateLastUpdatedTimestamp(displayInJPY ? timestamp_jp : timestamp);
+                    updateLastUpdatedTimestamp(displayInJPY ? data.timestamp_jp : data.timestamp);
                 });
         });
-
-    function toISOString(date, displayInJPY) {
-        const pad = function (str) {
-            return ('0' + str).slice(-2);
-        };
-        const year = (date.getFullYear()).toString();
-        const month = pad((date.getMonth() + 1).toString());
-        const day = pad(date.getDate().toString());
-        const hour = pad(date.getHours().toString());
-        const min = pad(date.getMinutes().toString());
-
-        return `${year}/${month}/${day} ${hour}:${min} ${displayInJPY ? ' JST' : ' UTC'}`;
-    }
 
     // Function to format numbers with commas
     function numberWithCommas(x) {
@@ -152,12 +133,12 @@ $(document).ready(function () {
         $(document).on('click', '.price-cell, .price-header', function () {
             displayInJPY = !displayInJPY;
             localStorage.setItem('displayInJPY', displayInJPY); // Save the preference
-            togglePrices();
+            togglePrices(data.timestamp, data.timestamp_jp);
         });
     }
 
     // Toggle between price and price_jp
-    function togglePrices() {
+    function togglePrices(timestamp, timestamp_jp) {
         $('.price-cell').each(function () {
             const priceCell = $(this);
             const price = priceCell.data('price');
@@ -253,8 +234,8 @@ $(document).ready(function () {
     }
 
     // Update the last updated timestamp display
-    function updateLastUpdatedTimestamp(currentTimestamp) {
-        $('#lastUpdated').text(`Last updated: ${currentTimestamp}`);
+    function updateLastUpdatedTimestamp(timestamp) {
+        $('#lastUpdated').text(`Last updated: ${timestamp}`);
     }
 
     // Handle keepAccordionOpen switch change

@@ -65,7 +65,6 @@ def UpdateDB():
                 }
 
     db.update({'timestamp': timestamp})
-    db.update({'timestamp_jp': timestamp_jp})
 
     for dealer in ['used', 'legend']:
         for car_id, car_info in db[dealer].items():
@@ -84,13 +83,11 @@ today = datetime.now(timezone.utc).date()
 JST = tz.gettz('Asia/Tokyo')
 now = datetime.now(timezone.utc)
 timestamp = now.isoformat()
-timestamp_jp = now.astimezone(JST).isoformat()
 # start_date = datetime(year=2022, month=6, day=28).date()
 # how_many_days = (today-start_date).days + 1
 how_many_days = 14
 data = {
     'timestamp': timestamp,
-    'timestamp_jp': timestamp_jp,
     'content': []
 }
 

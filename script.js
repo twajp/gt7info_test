@@ -42,7 +42,7 @@ $(document).ready(function () {
                 .then(loadedData => {
                     data = loadedData; // Assign the loaded data to the data variable
                     renderAccordion(data);
-                    updateLastUpdatedTimestamp(displayInJPY ? data.timestamp_jp : data.timestamp, displayInJPY);
+                    updateLastUpdatedTimestamp(data.timestamp, displayInJPY);
                 });
         });
 
@@ -147,7 +147,7 @@ $(document).ready(function () {
         });
 
         // Update the timestamp display
-        updateLastUpdatedTimestamp(displayInJPY ? timestamp_jp : timestamp, displayInJPY);
+        updateLastUpdatedTimestamp(timestamp, displayInJPY);
     }
 
     // Render Expected to Appear Soon section
@@ -243,11 +243,11 @@ $(document).ready(function () {
         if (displayInJPY) {
             return timestamp.toLocaleString('ja-JP', {
                 timeZone: 'Asia/Tokyo',
-            })
+            }) + ' JST';
         } else {
             return timestamp.toLocaleString('ja-JP', {
                 timeZone: 'UTC',
-            })
+            }) + ' UTC';
         }
         const year = (timestamp.getFullYear()).toString();
         const month = (timestamp.getMonth() + 1).toString();

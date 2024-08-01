@@ -240,9 +240,15 @@ $(document).ready(function () {
 
     function ISOtoString(timestamp_str, displayInJPY) {
         timestamp = new Date(timestamp_str)
-        const pad = function (str) {
-            return ('0' + str).slice(-2);
-        };
+        if (displayInJPY) {
+            return timestamp.toLocaleString('ja-JP', {
+                timeZone: 'Asia/Tokyo',
+            })
+        } else {
+            return timestamp.toLocaleString('ja-JP', {
+                timeZone: 'UTC',
+            })
+        }
         const year = (timestamp.getFullYear()).toString();
         const month = (timestamp.getMonth() + 1).toString();
         const day = timestamp.getDate().toString();

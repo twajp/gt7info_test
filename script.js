@@ -245,13 +245,13 @@ $(document).ready(function () {
                 timeZone: 'Asia/Tokyo',
                 dateStyle: 'short',
                 timeStyle: 'short'
-            }) + ' JST';
+            }).replace(/\/0/g, '/') + ' JST';
         } else {
             return timestamp.toLocaleString('ja-JP', {
                 timeZone: 'UTC',
                 dateStyle: 'short',
                 timeStyle: 'short'
-            }) + ' UTC';
+            }).replace(/\/0/g, '/') + ' UTC';
         }
     }
 

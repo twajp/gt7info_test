@@ -133,12 +133,12 @@ $(document).ready(function () {
         $(document).on('click', '.price-cell, .price-header', function () {
             displayInJPY = !displayInJPY;
             localStorage.setItem('displayInJPY', displayInJPY); // Save the preference
-            togglePrices(data.timestamp, data.timestamp_jp);
+            togglePrices(data.timestamp);
         });
     }
 
     // Toggle between price and price_jp
-    function togglePrices(timestamp, timestamp_jp) {
+    function togglePrices(timestamp) {
         $('.price-cell').each(function () {
             const priceCell = $(this);
             const price = priceCell.data('price');

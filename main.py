@@ -82,8 +82,9 @@ carList = LoadCSV('db', 'cars.csv')
 makerList = LoadCSV('db', 'maker.csv')
 today = datetime.now(timezone.utc).date()
 JST = tz.gettz('Asia/Tokyo')
-timestamp = datetime.now(timezone.utc).strftime('%Y/%-m/%-d %-H:%M') + ' (UTC)'
-timestamp_jp = datetime.now(timezone.utc).astimezone(JST).strftime('%Y/%-m/%-d %-H:%M') + ' (JST)'
+now = datetime.now(timezone.utc)
+timestamp = now.isoformat()
+timestamp_jp = now.astimezone(JST).isoformat()
 # start_date = datetime(year=2022, month=6, day=28).date()
 # how_many_days = (today-start_date).days + 1
 how_many_days = 14

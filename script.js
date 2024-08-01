@@ -244,10 +244,10 @@ $(document).ready(function () {
             return ('0' + str).slice(-2);
         };
         const year = (timestamp.getFullYear()).toString();
-        const month = pad((timestamp.getMonth() + 1).toString());
-        const day = pad(timestamp.getDate().toString());
-        const hour = pad(timestamp.getHours().toString());
-        const min = pad(timestamp.getMinutes().toString());
+        const month = (timestamp.getMonth() + 1).toString();
+        const day = timestamp.getDate().toString();
+        const hour = timestamp.getHours().toString();
+        const min = timestamp.getMinutes().toString();
 
         return `${year}/${month}/${day} ${hour}:${min} ${displayInJPY ? ' JST' : ' UTC'}`;
     }

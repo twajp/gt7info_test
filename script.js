@@ -238,7 +238,8 @@ $(document).ready(function () {
         $('#lastUpdated').text(`Last updated: ${ISOtoString(timestamp, displayInJPY)}`);
     }
 
-    function ISOtoString(timestamp, displayInJPY) {
+    function ISOtoString(timestamp_str, displayInJPY) {
+        timestamp = new Date(timestamp_str)
         const pad = function (str) {
             return ('0' + str).slice(-2);
         };

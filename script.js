@@ -42,7 +42,7 @@ $(document).ready(function () {
                 .then(loadedData => {
                     data = loadedData; // Assign the loaded data to the data variable
                     renderAccordion(data);
-                    updateLastUpdatedTimestamp(displayInJPY ? data.timestamp_jp : data.timestamp);
+                    updateLastUpdatedTimestamp(displayInJPY ? data.timestamp_jp : data.timestamp, displayInJPY);
                 });
         });
 
@@ -147,7 +147,7 @@ $(document).ready(function () {
         });
 
         // Update the timestamp display
-        updateLastUpdatedTimestamp(displayInJPY ? timestamp_jp : timestamp);
+        updateLastUpdatedTimestamp(displayInJPY ? timestamp_jp : timestamp, displayInJPY);
     }
 
     // Render Expected to Appear Soon section
@@ -234,8 +234,21 @@ $(document).ready(function () {
     }
 
     // Update the last updated timestamp display
-    function updateLastUpdatedTimestamp(timestamp) {
-        $('#lastUpdated').text(`Last updated: ${timestamp}`);
+    function updateLastUpdatedTimestamp(timestamp, displayInJPY) {
+        $('#lastUpdated').text(`Last updated: ${ISOtoString(timestamp, displayInJPY)}`);
+    }
+
+    function ISOtoString(timestamp, displayInJPY) {
+        const pad = function (str) {
+            return ('0' + str).slice(-2);
+        };
+        const year = (timestamp.getFullYear()).toString();
+        const month = pad((timestamp.getMonth() + 1).toString());
+        const day = pad(timestamp.getDate().toString());
+        const hour = pad(timestamp.getHours().toString());
+        const min = pad(timestamp.getMinutes().toString());
+
+        return `${year}/${month}/${day} ${hour}:${min} ${displayInJPY ? ' JST' : ' UTC'}`;
     }
 
     // Handle keepAccordionOpen switch change

@@ -1,6 +1,30 @@
 {
-  "timestamp": "2024-08-01T12:15:03.882211+00:00",
+  "timestamp": "2024-08-02T00:56:38.450989+00:00",
   "content": [
+    {
+      "id": 20240802,
+      "date": "2024/8/2",
+      "used": [
+        {
+          "car_id": 3471,
+          "maker_name": "Toyota",
+          "car_name": "Celica GT-Four (ST205) '94",
+          "price": 65100,
+          "price_jp": 6510000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "car_id": 1926,
+          "maker_name": "Shelby",
+          "car_name": "Cobra Daytona Coupe '64",
+          "price": 20000000,
+          "price_jp": 2000000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20240801,
       "date": "2024/8/1",
@@ -651,70 +675,6 @@
           "car_name": "Mangusta '69",
           "price": 315000,
           "price_jp": 31500000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20240719,
-      "date": "2024/7/19",
-      "used": [
-        {
-          "car_id": 1527,
-          "maker_name": "Fiat",
-          "car_name": "500 1.2 8V Lounge SS '08",
-          "price": 13300,
-          "price_jp": 1330000,
-          "isOld": false
-        },
-        {
-          "car_id": 1778,
-          "maker_name": "Volkswagen",
-          "car_name": "Volkswagen 1200 '66",
-          "price": 35800,
-          "price_jp": 3580000,
-          "isOld": true
-        },
-        {
-          "car_id": 137,
-          "maker_name": "Honda",
-          "car_name": "Beat '91",
-          "price": 16800,
-          "price_jp": 1680000,
-          "isOld": true
-        },
-        {
-          "car_id": 1461,
-          "maker_name": "Nissan",
-          "car_name": "Silvia K's Dia Selection (S13) '90",
-          "price": 49700,
-          "price_jp": 4970000,
-          "isOld": true
-        },
-        {
-          "car_id": 489,
-          "maker_name": "Nissan",
-          "car_name": "R33 GT-R V-spec '97",
-          "price": 155200,
-          "price_jp": 15520000,
-          "isOld": true
-        },
-        {
-          "car_id": 205,
-          "maker_name": "Mazda",
-          "car_name": "RX-7 Spirit R Type A (FD) '02",
-          "price": 214300,
-          "price_jp": 21430000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "car_id": 315,
-          "maker_name": "Shelby",
-          "car_name": "Cobra 427 '66",
-          "price": 2500000,
-          "price_jp": 250000000,
           "isOld": true
         }
       ]

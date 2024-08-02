@@ -1,4 +1,4 @@
-from datetime import datetime, timedelta, timezone
+from datetime import datetime
 from dateutil import tz
 from time import sleep
 import requests

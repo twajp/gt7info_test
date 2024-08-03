@@ -1,6 +1,37 @@
 {
-  "timestamp": "2024-08-02T00:59:32.453881+00:00",
+  "timestamp": "2024-08-03T00:09:05.982371+00:00",
   "content": [
+    {
+      "id": 20240803,
+      "date": "2024/8/3",
+      "used": [
+        {
+          "car_id": 3356,
+          "maker_name": "MINI",
+          "car_name": "Mini-Cooper 'S' '65",
+          "price": 40800,
+          "price_jp": 4080000,
+          "isOld": true
+        },
+        {
+          "car_id": 24,
+          "maker_name": "Nissan",
+          "car_name": "180SX Type X '96",
+          "price": 48900,
+          "price_jp": 4890000,
+          "isOld": true
+        },
+        {
+          "car_id": 1504,
+          "maker_name": "Ferrari",
+          "car_name": "458 Italia '09",
+          "price": 243200,
+          "price_jp": 24320000,
+          "isOld": false
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20240802,
       "date": "2024/8/2",
@@ -635,46 +666,6 @@
           "car_name": "Spyder type 550/1500RS '55",
           "price": 4850000,
           "price_jp": 485000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20240720,
-      "date": "2024/7/20",
-      "used": [
-        {
-          "car_id": 3384,
-          "maker_name": "Mitsubishi",
-          "car_name": "GTO Twin Turbo '91",
-          "price": 40000,
-          "price_jp": 4000000,
-          "isOld": true
-        },
-        {
-          "car_id": 1480,
-          "maker_name": "Chevrolet",
-          "car_name": "Corvette ZR1 (C6) '09",
-          "price": 98400,
-          "price_jp": 9840000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "car_id": 3430,
-          "maker_name": "Jeep",
-          "car_name": "Willys MB '45",
-          "price": 30100,
-          "price_jp": 3010000,
-          "isOld": true
-        },
-        {
-          "car_id": 3437,
-          "maker_name": "De Tomaso",
-          "car_name": "Mangusta '69",
-          "price": 315000,
-          "price_jp": 31500000,
           "isOld": true
         }
       ]

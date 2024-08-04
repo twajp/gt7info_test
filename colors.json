@@ -1,0 +1,4637 @@
+{
+  "24": {
+    "car_id": 24,
+    "car_name": "180SX Type X '96",
+    "maker_id": 28,
+    "maker_name": "Nissan",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "31": {
+    "car_id": 31,
+    "car_name": "Camaro Z28 '69",
+    "maker_id": 7,
+    "maker_name": "Chevrolet",
+    "maker_country": 3,
+    "isOld": true,
+    "colors": []
+  },
+  "41": {
+    "car_id": 41,
+    "car_name": "Corvette Stingray (C3) '69",
+    "maker_id": 7,
+    "maker_name": "Chevrolet",
+    "maker_country": 3,
+    "isOld": true,
+    "colors": []
+  },
+  "48": {
+    "car_id": 48,
+    "car_name": "Fairlady 240ZG (HS30) '71",
+    "maker_id": 28,
+    "maker_name": "Nissan",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "63": {
+    "car_id": 63,
+    "car_name": "Corolla Levin 1600GT APEX (AE86) '83",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "82": {
+    "car_id": 82,
+    "car_name": "Supra RZ '97",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "104": {
+    "car_id": 104,
+    "car_name": "Sileighty '98",
+    "maker_id": 28,
+    "maker_name": "Nissan",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "105": {
+    "car_id": 105,
+    "car_name": "205 Turbo 16 Evolution 2 '86",
+    "maker_id": 32,
+    "maker_name": "Peugeot",
+    "maker_country": 6,
+    "isOld": true,
+    "colors": []
+  },
+  "135": {
+    "car_id": 135,
+    "car_name": "S800 '66",
+    "maker_id": 15,
+    "maker_name": "Honda",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "137": {
+    "car_id": 137,
+    "car_name": "Beat '91",
+    "maker_id": 15,
+    "maker_name": "Honda",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "145": {
+    "car_id": 145,
+    "car_name": "Copen '02",
+    "maker_id": 10,
+    "maker_name": "Daihatsu",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "173": {
+    "car_id": 173,
+    "car_name": "R5 Turbo '80",
+    "maker_id": 34,
+    "maker_name": "Renault",
+    "maker_country": 6,
+    "isOld": true,
+    "colors": []
+  },
+  "187": {
+    "car_id": 187,
+    "car_name": "Tuscan Speed 6 '00",
+    "maker_id": 44,
+    "maker_name": "TVR",
+    "maker_country": 4,
+    "isOld": true,
+    "colors": []
+  },
+  "201": {
+    "car_id": 201,
+    "car_name": "Eunos Roadster (NA) '89",
+    "maker_id": 21,
+    "maker_name": "Mazda",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "203": {
+    "car_id": 203,
+    "car_name": "Integra Type R (DC2) '98",
+    "maker_id": 15,
+    "maker_name": "Honda",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "204": {
+    "car_id": 204,
+    "car_name": "Civic Type R (EK) '98",
+    "maker_id": 15,
+    "maker_name": "Honda",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "205": {
+    "car_id": 205,
+    "car_name": "RX-7 Spirit R Type A (FD) '02",
+    "maker_id": 21,
+    "maker_name": "Mazda",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "207": {
+    "car_id": 207,
+    "car_name": "MR2 GT-S '97",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "210": {
+    "car_id": 210,
+    "car_name": "R34 GT-R V-spec II Nur '02",
+    "maker_id": 28,
+    "maker_name": "Nissan",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "211": {
+    "car_id": 211,
+    "car_name": "Lancer Evolution V GSR '98",
+    "maker_id": 25,
+    "maker_name": "Mitsubishi",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "216": {
+    "car_id": 216,
+    "car_name": "McLaren F1 GTR Race Car '97",
+    "maker_id": 6,
+    "maker_name": "BMW",
+    "maker_country": 5,
+    "isOld": true,
+    "colors": []
+  },
+  "293": {
+    "car_id": 293,
+    "car_name": "NSX Type R '92",
+    "maker_id": 15,
+    "maker_name": "Honda",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "296": {
+    "car_id": 296,
+    "car_name": "787B '91",
+    "maker_id": 21,
+    "maker_name": "Mazda",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "301": {
+    "car_id": 301,
+    "car_name": "Lancer Evolution IV GSR '96",
+    "maker_id": 25,
+    "maker_name": "Mitsubishi",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "315": {
+    "car_id": 315,
+    "car_name": "Cobra 427 '66",
+    "maker_id": 36,
+    "maker_name": "Shelby",
+    "maker_country": 3,
+    "isOld": true,
+    "colors": []
+  },
+  "334": {
+    "car_id": 334,
+    "car_name": "Clio V6 24V '00",
+    "maker_id": 34,
+    "maker_name": "Renault",
+    "maker_country": 6,
+    "isOld": true,
+    "colors": []
+  },
+  "345": {
+    "car_id": 345,
+    "car_name": "Sprinter Trueno 1600GT APEX (S.Shigeno Version)",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "365": {
+    "car_id": 365,
+    "car_name": "155 2.5 V6 TI '93",
+    "maker_id": 3,
+    "maker_name": "Alfa Romeo",
+    "maker_country": 7,
+    "isOld": true,
+    "colors": []
+  },
+  "374": {
+    "car_id": 374,
+    "car_name": "RX-7 GT-X (FC) '90",
+    "maker_id": 21,
+    "maker_name": "Mazda",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "379": {
+    "car_id": 379,
+    "car_name": "Impreza Coupe WRX Type R STi Ver.VI '99",
+    "maker_id": 38,
+    "maker_name": "Subaru",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "387": {
+    "car_id": 387,
+    "car_name": "300 SL Coupe '54",
+    "maker_id": 22,
+    "maker_name": "Mercedes-Benz",
+    "maker_country": 5,
+    "isOld": true,
+    "colors": []
+  },
+  "396": {
+    "car_id": 396,
+    "car_name": "NSX Type R '02",
+    "maker_id": 15,
+    "maker_name": "Honda",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "451": {
+    "car_id": 451,
+    "car_name": "Impreza 22B-STi '98",
+    "maker_id": 38,
+    "maker_name": "Subaru",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "485": {
+    "car_id": 485,
+    "car_name": "GT-R GT500 '99",
+    "maker_id": 28,
+    "maker_name": "Nissan",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "489": {
+    "car_id": 489,
+    "car_name": "R33 GT-R V-spec '97",
+    "maker_id": 28,
+    "maker_name": "Nissan",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "514": {
+    "car_id": 514,
+    "car_name": "S2000 '99",
+    "maker_id": 15,
+    "maker_name": "Honda",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "533": {
+    "car_id": 533,
+    "car_name": "Stratos '73",
+    "maker_id": 18,
+    "maker_name": "Lancia",
+    "maker_country": 7,
+    "isOld": true,
+    "colors": []
+  },
+  "604": {
+    "car_id": 604,
+    "car_name": "2000GT '67",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "665": {
+    "car_id": 665,
+    "car_name": "Superbird '70",
+    "maker_id": 55,
+    "maker_name": "Plymouth",
+    "maker_country": 3,
+    "isOld": true,
+    "colors": []
+  },
+  "688": {
+    "car_id": 688,
+    "car_name": "Integra Type R (DC2) '95",
+    "maker_id": 15,
+    "maker_name": "Honda",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "709": {
+    "car_id": 709,
+    "car_name": "Fairlady Z 300ZX TT 2seater '89",
+    "maker_id": 28,
+    "maker_name": "Nissan",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "773": {
+    "car_id": 773,
+    "car_name": "R32 GT-R V-spec II '94",
+    "maker_id": 28,
+    "maker_name": "Nissan",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "810": {
+    "car_id": 810,
+    "car_name": "Sprinter Trueno 1600GT APEX (AE86) '83",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "818": {
+    "car_id": 818,
+    "car_name": "Corvette (C2) '63",
+    "maker_id": 7,
+    "maker_name": "Chevrolet",
+    "maker_country": 3,
+    "isOld": true,
+    "colors": []
+  },
+  "821": {
+    "car_id": 821,
+    "car_name": "Civic Type R (EK) '97",
+    "maker_id": 15,
+    "maker_name": "Honda",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "829": {
+    "car_id": 829,
+    "car_name": "Delta HF Integrale Evoluzione '91",
+    "maker_id": 18,
+    "maker_name": "Lancia",
+    "maker_country": 7,
+    "isOld": true,
+    "colors": []
+  },
+  "837": {
+    "car_id": 837,
+    "car_name": "Skyline Hard Top 2000GT-R (KPGC10) '70",
+    "maker_id": 28,
+    "maker_name": "Nissan",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "843": {
+    "car_id": 843,
+    "car_name": "Supra 3.0GT Turbo A '88",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "919": {
+    "car_id": 919,
+    "car_name": "Silvia Q's (S13) '88",
+    "maker_id": 28,
+    "maker_name": "Nissan",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "942": {
+    "car_id": 942,
+    "car_name": "Corvette ZR-1 (C4) '89",
+    "maker_id": 7,
+    "maker_name": "Chevrolet",
+    "maker_country": 3,
+    "isOld": true,
+    "colors": []
+  },
+  "954": {
+    "car_id": 954,
+    "car_name": "R92CP '92",
+    "maker_id": 28,
+    "maker_name": "Nissan",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "959": {
+    "car_id": 959,
+    "car_name": "TT Coupe 3.2 quattro '03",
+    "maker_id": 5,
+    "maker_name": "Audi",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "998": {
+    "car_id": 998,
+    "car_name": "Sauber Mercedes C9 '89",
+    "maker_id": 22,
+    "maker_name": "Mercedes-Benz",
+    "maker_country": 5,
+    "isOld": true,
+    "colors": []
+  },
+  "1027": {
+    "car_id": 1027,
+    "car_name": "DeLorean S2 '04",
+    "maker_id": 65,
+    "maker_name": "DMC",
+    "maker_country": 3,
+    "isOld": false,
+    "colors": []
+  },
+  "1040": {
+    "car_id": 1040,
+    "car_name": "Ford GT LM Race Car Spec II",
+    "maker_id": 13,
+    "maker_name": "Ford",
+    "maker_country": 3,
+    "isOld": null,
+    "colors": []
+  },
+  "1044": {
+    "car_id": 1044,
+    "car_name": "Sports 800 '65",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "1067": {
+    "car_id": 1067,
+    "car_name": "XJR-9 '88",
+    "maker_id": 17,
+    "maker_name": "Jaguar",
+    "maker_country": 4,
+    "isOld": true,
+    "colors": []
+  },
+  "1069": {
+    "car_id": 1069,
+    "car_name": "2J '70",
+    "maker_id": 93,
+    "maker_name": "Chaparral",
+    "maker_country": 3,
+    "isOld": true,
+    "colors": []
+  },
+  "1365": {
+    "car_id": 1365,
+    "car_name": "R8 4.2 '07",
+    "maker_id": 5,
+    "maker_name": "Audi",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "1370": {
+    "car_id": 1370,
+    "car_name": "MINI Cooper S '05",
+    "maker_id": 51,
+    "maker_name": "MINI",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "1373": {
+    "car_id": 1373,
+    "car_name": "Viper GTS '02",
+    "maker_id": 11,
+    "maker_name": "Dodge",
+    "maker_country": 3,
+    "isOld": false,
+    "colors": []
+  },
+  "1378": {
+    "car_id": 1378,
+    "car_name": "F430 '06",
+    "maker_id": 110,
+    "maker_name": "Ferrari",
+    "maker_country": 7,
+    "isOld": false,
+    "colors": []
+  },
+  "1384": {
+    "car_id": 1384,
+    "car_name": "Fairlady Z Version S (Z33) '07",
+    "maker_id": 28,
+    "maker_name": "Nissan",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "1385": {
+    "car_id": 1385,
+    "car_name": "Swift Sport '07",
+    "maker_id": 39,
+    "maker_name": "Suzuki",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "1399": {
+    "car_id": 1399,
+    "car_name": "M3 '07",
+    "maker_id": 6,
+    "maker_name": "BMW",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "1402": {
+    "car_id": 1402,
+    "car_name": "Viper SRT10 Coupe '06",
+    "maker_id": 11,
+    "maker_name": "Dodge",
+    "maker_country": 3,
+    "isOld": false,
+    "colors": []
+  },
+  "1409": {
+    "car_id": 1409,
+    "car_name": "F40 '92",
+    "maker_id": 110,
+    "maker_name": "Ferrari",
+    "maker_country": 7,
+    "isOld": true,
+    "colors": []
+  },
+  "1410": {
+    "car_id": 1410,
+    "car_name": "512 BB '76",
+    "maker_id": 110,
+    "maker_name": "Ferrari",
+    "maker_country": 7,
+    "isOld": true,
+    "colors": []
+  },
+  "1425": {
+    "car_id": 1425,
+    "car_name": "Ford GT LM Spec II Test Car",
+    "maker_id": 13,
+    "maker_name": "Ford",
+    "maker_country": 3,
+    "isOld": null,
+    "colors": []
+  },
+  "1426": {
+    "car_id": 1426,
+    "car_name": "Ford GT '06",
+    "maker_id": 13,
+    "maker_name": "Ford",
+    "maker_country": 3,
+    "isOld": false,
+    "colors": []
+  },
+  "1431": {
+    "car_id": 1431,
+    "car_name": "RE Amemiya FD3S RX-7",
+    "maker_id": 87,
+    "maker_name": "RE Amemiya",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "1433": {
+    "car_id": 1433,
+    "car_name": "Amuse S2000 GT1 Turbo",
+    "maker_id": 59,
+    "maker_name": "Amuse",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "1448": {
+    "car_id": 1448,
+    "car_name": "SILVIA spec-R Aero (S15) '02",
+    "maker_id": 28,
+    "maker_name": "Nissan",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "1458": {
+    "car_id": 1458,
+    "car_name": "Fairlady Z (Z34) '08",
+    "maker_id": 28,
+    "maker_name": "Nissan",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "1461": {
+    "car_id": 1461,
+    "car_name": "Silvia K's Dia Selection (S13) '90",
+    "maker_id": 28,
+    "maker_name": "Nissan",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "1466": {
+    "car_id": 1466,
+    "car_name": "GT-R GT500 '08",
+    "maker_id": 28,
+    "maker_name": "Nissan",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "1470": {
+    "car_id": 1470,
+    "car_name": "Supra GT500 '97",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "1474": {
+    "car_id": 1474,
+    "car_name": "Enzo Ferrari '02",
+    "maker_id": 110,
+    "maker_name": "Ferrari",
+    "maker_country": 7,
+    "isOld": false,
+    "colors": []
+  },
+  "1480": {
+    "car_id": 1480,
+    "car_name": "Corvette ZR1 (C6) '09",
+    "maker_id": 7,
+    "maker_name": "Chevrolet",
+    "maker_country": 3,
+    "isOld": false,
+    "colors": []
+  },
+  "1481": {
+    "car_id": 1481,
+    "car_name": "Countach 25th Anniversary '88",
+    "maker_id": 112,
+    "maker_name": "Lamborghini",
+    "maker_country": 7,
+    "isOld": true,
+    "colors": []
+  },
+  "1484": {
+    "car_id": 1484,
+    "car_name": "Countach LP400 '74",
+    "maker_id": 112,
+    "maker_name": "Lamborghini",
+    "maker_country": 7,
+    "isOld": true,
+    "colors": []
+  },
+  "1504": {
+    "car_id": 1504,
+    "car_name": "458 Italia '09",
+    "maker_id": 110,
+    "maker_name": "Ferrari",
+    "maker_country": 7,
+    "isOld": false,
+    "colors": []
+  },
+  "1507": {
+    "car_id": 1507,
+    "car_name": "SLS AMG '10",
+    "maker_id": 153,
+    "maker_name": "AMG",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "1508": {
+    "car_id": 1508,
+    "car_name": "Lancer Evolution VI GSR T.M. SCP '99",
+    "maker_id": 25,
+    "maker_name": "Mitsubishi",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "1510": {
+    "car_id": 1510,
+    "car_name": "NSX GT500 '08",
+    "maker_id": 15,
+    "maker_name": "Honda",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "1516": {
+    "car_id": 1516,
+    "car_name": "SC430 GT500 '08",
+    "maker_id": 50,
+    "maker_name": "Lexus",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "1523": {
+    "car_id": 1523,
+    "car_name": "500 F '68",
+    "maker_id": 12,
+    "maker_name": "Fiat",
+    "maker_country": 7,
+    "isOld": true,
+    "colors": []
+  },
+  "1527": {
+    "car_id": 1527,
+    "car_name": "500 1.2 8V Lounge SS '08",
+    "maker_id": 12,
+    "maker_name": "Fiat",
+    "maker_country": 7,
+    "isOld": false,
+    "colors": []
+  },
+  "1528": {
+    "car_id": 1528,
+    "car_name": "SLR McLaren '09",
+    "maker_id": 22,
+    "maker_name": "Mercedes-Benz",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "1536": {
+    "car_id": 1536,
+    "car_name": "Zonda R '09",
+    "maker_id": 30,
+    "maker_name": "Pagani",
+    "maker_country": 7,
+    "isOld": false,
+    "colors": []
+  },
+  "1537": {
+    "car_id": 1537,
+    "car_name": "Prius G '09",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "1539": {
+    "car_id": 1539,
+    "car_name": "GranTurismo S '08",
+    "maker_id": 116,
+    "maker_name": "Maserati",
+    "maker_country": 7,
+    "isOld": false,
+    "colors": []
+  },
+  "1540": {
+    "car_id": 1540,
+    "car_name": "McLaren F1 '94",
+    "maker_id": 117,
+    "maker_name": "McLaren",
+    "maker_country": 4,
+    "isOld": true,
+    "colors": []
+  },
+  "1542": {
+    "car_id": 1542,
+    "car_name": "Corvette Convertible (C3) '69",
+    "maker_id": 7,
+    "maker_name": "Chevrolet",
+    "maker_country": 3,
+    "isOld": true,
+    "colors": []
+  },
+  "1543": {
+    "car_id": 1543,
+    "car_name": "Challenger R/T '70",
+    "maker_id": 11,
+    "maker_name": "Dodge",
+    "maker_country": 3,
+    "isOld": true,
+    "colors": []
+  },
+  "1545": {
+    "car_id": 1545,
+    "car_name": "Murcielago LP 640 '09",
+    "maker_id": 112,
+    "maker_name": "Lamborghini",
+    "maker_country": 7,
+    "isOld": false,
+    "colors": []
+  },
+  "1549": {
+    "car_id": 1549,
+    "car_name": "Amuse NISMO 380RS Super Leggera",
+    "maker_id": 59,
+    "maker_name": "Amuse",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "1551": {
+    "car_id": 1551,
+    "car_name": "330 P4 '67",
+    "maker_id": 110,
+    "maker_name": "Ferrari",
+    "maker_country": 7,
+    "isOld": true,
+    "colors": []
+  },
+  "1553": {
+    "car_id": 1553,
+    "car_name": "XJ13 '66",
+    "maker_id": 17,
+    "maker_name": "Jaguar",
+    "maker_country": 4,
+    "isOld": true,
+    "colors": []
+  },
+  "1563": {
+    "car_id": 1563,
+    "car_name": "Megane Trophy '11",
+    "maker_id": 34,
+    "maker_name": "Renault",
+    "maker_country": 6,
+    "isOld": false,
+    "colors": []
+  },
+  "1565": {
+    "car_id": 1565,
+    "car_name": "Mark IV Race Car '67",
+    "maker_id": 13,
+    "maker_name": "Ford",
+    "maker_country": 3,
+    "isOld": true,
+    "colors": []
+  },
+  "1578": {
+    "car_id": 1578,
+    "car_name": "8C Competizione '08",
+    "maker_id": 3,
+    "maker_name": "Alfa Romeo",
+    "maker_country": 7,
+    "isOld": false,
+    "colors": []
+  },
+  "1581": {
+    "car_id": 1581,
+    "car_name": "GT by Citroen Road Car",
+    "maker_id": 9,
+    "maker_name": "Citroen",
+    "maker_country": 6,
+    "isOld": null,
+    "colors": []
+  },
+  "1582": {
+    "car_id": 1582,
+    "car_name": "Miura P400 Bertone Prototype '67",
+    "maker_id": 112,
+    "maker_name": "Lamborghini",
+    "maker_country": 7,
+    "isOld": true,
+    "colors": []
+  },
+  "1645": {
+    "car_id": 1645,
+    "car_name": "GIULIA TZ2 carrozzata da ZAGATO '65",
+    "maker_id": 3,
+    "maker_name": "Alfa Romeo",
+    "maker_country": 7,
+    "isOld": true,
+    "colors": []
+  },
+  "1646": {
+    "car_id": 1646,
+    "car_name": "908 HDi FAP '10",
+    "maker_id": 32,
+    "maker_name": "Peugeot",
+    "maker_country": 6,
+    "isOld": false,
+    "colors": []
+  },
+  "1671": {
+    "car_id": 1671,
+    "car_name": "Sambabus Typ 2 '62",
+    "maker_id": 46,
+    "maker_name": "Volkswagen",
+    "maker_country": 5,
+    "isOld": true,
+    "colors": []
+  },
+  "1689": {
+    "car_id": 1689,
+    "car_name": "Civic Type R (EK) Touring Car",
+    "maker_id": 15,
+    "maker_name": "Honda",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "1722": {
+    "car_id": 1722,
+    "car_name": "MP4-12C '10",
+    "maker_id": 117,
+    "maker_name": "McLaren",
+    "maker_country": 4,
+    "isOld": false,
+    "colors": []
+  },
+  "1729": {
+    "car_id": 1729,
+    "car_name": "Mustang Mach 1 '71",
+    "maker_id": 13,
+    "maker_name": "Ford",
+    "maker_country": 3,
+    "isOld": true,
+    "colors": []
+  },
+  "1746": {
+    "car_id": 1746,
+    "car_name": "Roadster Touring Car",
+    "maker_id": 21,
+    "maker_name": "Mazda",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "1770": {
+    "car_id": 1770,
+    "car_name": "Aventador LP 700-4 '11",
+    "maker_id": 112,
+    "maker_name": "Lamborghini",
+    "maker_country": 7,
+    "isOld": false,
+    "colors": []
+  },
+  "1773": {
+    "car_id": 1773,
+    "car_name": "Scirocco R '10",
+    "maker_id": 46,
+    "maker_name": "Volkswagen",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "1778": {
+    "car_id": 1778,
+    "car_name": "Volkswagen 1200 '66",
+    "maker_id": 46,
+    "maker_name": "Volkswagen",
+    "maker_country": 5,
+    "isOld": true,
+    "colors": []
+  },
+  "1796": {
+    "car_id": 1796,
+    "car_name": "A110 '72",
+    "maker_id": 86,
+    "maker_name": "Alpine",
+    "maker_country": 6,
+    "isOld": true,
+    "colors": []
+  },
+  "1797": {
+    "car_id": 1797,
+    "car_name": "SLS AMG GT3 '11",
+    "maker_id": 153,
+    "maker_name": "AMG",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "1893": {
+    "car_id": 1893,
+    "car_name": "Z8 '01",
+    "maker_id": 6,
+    "maker_name": "BMW",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "1895": {
+    "car_id": 1895,
+    "car_name": "Dino 246 GT '71",
+    "maker_id": 110,
+    "maker_name": "Ferrari",
+    "maker_country": 7,
+    "isOld": true,
+    "colors": []
+  },
+  "1896": {
+    "car_id": 1896,
+    "car_name": "Model S Signature Performance '12",
+    "maker_id": 119,
+    "maker_name": "Tesla",
+    "maker_country": 3,
+    "isOld": false,
+    "colors": []
+  },
+  "1898": {
+    "car_id": 1898,
+    "car_name": "One-77 '11",
+    "maker_id": 4,
+    "maker_name": "Aston Martin",
+    "maker_country": 4,
+    "isOld": false,
+    "colors": []
+  },
+  "1900": {
+    "car_id": 1900,
+    "car_name": "XNR Ghia Roadster '60",
+    "maker_id": 55,
+    "maker_name": "Plymouth",
+    "maker_country": 3,
+    "isOld": true,
+    "colors": []
+  },
+  "1902": {
+    "car_id": 1902,
+    "car_name": "Z4 GT3 '11",
+    "maker_id": 6,
+    "maker_name": "BMW",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "1904": {
+    "car_id": 1904,
+    "car_name": "M3 GT '11",
+    "maker_id": 6,
+    "maker_name": "BMW",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "1905": {
+    "car_id": 1905,
+    "car_name": "GT-R NISMO GT3 '13",
+    "maker_id": 28,
+    "maker_name": "Nissan",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "1907": {
+    "car_id": 1907,
+    "car_name": "X-BOW R '12",
+    "maker_id": 121,
+    "maker_name": "KTM",
+    "maker_country": 15,
+    "isOld": false,
+    "colors": []
+  },
+  "1916": {
+    "car_id": 1916,
+    "car_name": "Corvette C7 '14",
+    "maker_id": 7,
+    "maker_name": "Chevrolet",
+    "maker_country": 3,
+    "isOld": false,
+    "colors": []
+  },
+  "1925": {
+    "car_id": 1925,
+    "car_name": "G.T.350 '65",
+    "maker_id": 36,
+    "maker_name": "Shelby",
+    "maker_country": 3,
+    "isOld": true,
+    "colors": []
+  },
+  "1926": {
+    "car_id": 1926,
+    "car_name": "Cobra Daytona Coupe '64",
+    "maker_id": 36,
+    "maker_name": "Shelby",
+    "maker_country": 3,
+    "isOld": true,
+    "colors": []
+  },
+  "1927": {
+    "car_id": 1927,
+    "car_name": "Sport quattro S1 Pikes Peak '87",
+    "maker_id": 5,
+    "maker_name": "Audi",
+    "maker_country": 5,
+    "isOld": true,
+    "colors": []
+  },
+  "1931": {
+    "car_id": 1931,
+    "car_name": "250 GT Berlinetta passo corto '61",
+    "maker_id": 110,
+    "maker_name": "Ferrari",
+    "maker_country": 7,
+    "isOld": true,
+    "colors": []
+  },
+  "1932": {
+    "car_id": 1932,
+    "car_name": "1500 Biposto Bertone B.A.T 1 '52",
+    "maker_id": 125,
+    "maker_name": "Abarth",
+    "maker_country": 7,
+    "isOld": true,
+    "colors": []
+  },
+  "1933": {
+    "car_id": 1933,
+    "car_name": "MiTo '09",
+    "maker_id": 3,
+    "maker_name": "Alfa Romeo",
+    "maker_country": 7,
+    "isOld": false,
+    "colors": []
+  },
+  "1935": {
+    "car_id": 1935,
+    "car_name": "GT40 Mark I '66",
+    "maker_id": 13,
+    "maker_name": "Ford",
+    "maker_country": 3,
+    "isOld": true,
+    "colors": []
+  },
+  "1956": {
+    "car_id": 1956,
+    "car_name": "Viper GTS '13",
+    "maker_id": 11,
+    "maker_name": "Dodge",
+    "maker_country": 3,
+    "isOld": false,
+    "colors": []
+  },
+  "1965": {
+    "car_id": 1965,
+    "car_name": "R18 TDI '11",
+    "maker_id": 5,
+    "maker_name": "Audi",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "1973": {
+    "car_id": 1973,
+    "car_name": "Abarth 500 '09",
+    "maker_id": 125,
+    "maker_name": "Abarth",
+    "maker_country": 7,
+    "isOld": false,
+    "colors": []
+  },
+  "1975": {
+    "car_id": 1975,
+    "car_name": "RX500 '70",
+    "maker_id": 21,
+    "maker_name": "Mazda",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "1984": {
+    "car_id": 1984,
+    "car_name": "McLaren F1 GTR - BMW '95",
+    "maker_id": 117,
+    "maker_name": "McLaren",
+    "maker_country": 4,
+    "isOld": true,
+    "colors": []
+  },
+  "1985": {
+    "car_id": 1985,
+    "car_name": "Firebird Trans Am '78",
+    "maker_id": 52,
+    "maker_name": "Pontiac",
+    "maker_country": 3,
+    "isOld": true,
+    "colors": []
+  },
+  "1986": {
+    "car_id": 1986,
+    "car_name": "R8 Gordini '66",
+    "maker_id": 34,
+    "maker_name": "Renault",
+    "maker_country": 6,
+    "isOld": true,
+    "colors": []
+  },
+  "1987": {
+    "car_id": 1987,
+    "car_name": "Megane R.S. Trophy '11",
+    "maker_id": 34,
+    "maker_name": "Renault",
+    "maker_country": 6,
+    "isOld": false,
+    "colors": []
+  },
+  "1990": {
+    "car_id": 1990,
+    "car_name": "Diablo GT '00",
+    "maker_id": 112,
+    "maker_name": "Lamborghini",
+    "maker_country": 7,
+    "isOld": true,
+    "colors": []
+  },
+  "2010": {
+    "car_id": 2010,
+    "car_name": "250 GTO '62",
+    "maker_id": 110,
+    "maker_name": "Ferrari",
+    "maker_country": 7,
+    "isOld": true,
+    "colors": []
+  },
+  "2011": {
+    "car_id": 2011,
+    "car_name": "500 Mondial Pinin Farina Coupe '54",
+    "maker_id": 110,
+    "maker_name": "Ferrari",
+    "maker_country": 7,
+    "isOld": true,
+    "colors": []
+  },
+  "2017": {
+    "car_id": 2017,
+    "car_name": "GTO '84",
+    "maker_id": 110,
+    "maker_name": "Ferrari",
+    "maker_country": 7,
+    "isOld": true,
+    "colors": []
+  },
+  "2018": {
+    "car_id": 2018,
+    "car_name": "365 GTB4 '71",
+    "maker_id": 110,
+    "maker_name": "Ferrari",
+    "maker_country": 7,
+    "isOld": true,
+    "colors": []
+  },
+  "2026": {
+    "car_id": 2026,
+    "car_name": "Aqua S '11",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "2049": {
+    "car_id": 2049,
+    "car_name": "Veyron 16.4 '13",
+    "maker_id": 113,
+    "maker_name": "Bugatti",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "2050": {
+    "car_id": 2050,
+    "car_name": "Huayra '13",
+    "maker_id": 30,
+    "maker_name": "Pagani",
+    "maker_country": 7,
+    "isOld": false,
+    "colors": []
+  },
+  "2051": {
+    "car_id": 2051,
+    "car_name": "Genesis Coupe 3.8 '13",
+    "maker_id": 16,
+    "maker_name": "Hyundai",
+    "maker_country": 9,
+    "isOld": false,
+    "colors": []
+  },
+  "2055": {
+    "car_id": 2055,
+    "car_name": "Mercedes-Benz AMG VGT",
+    "maker_id": 153,
+    "maker_name": "AMG",
+    "maker_country": 5,
+    "isOld": null,
+    "colors": []
+  },
+  "2059": {
+    "car_id": 2059,
+    "car_name": "Corvette Stingray Racer Concept '59",
+    "maker_id": 7,
+    "maker_name": "Chevrolet",
+    "maker_country": 3,
+    "isOld": true,
+    "colors": []
+  },
+  "2060": {
+    "car_id": 2060,
+    "car_name": "Racing Kart 125 Shifter",
+    "maker_id": 33,
+    "maker_name": "Gran Turismo",
+    "maker_country": 0,
+    "isOld": null,
+    "colors": []
+  },
+  "2074": {
+    "car_id": 2074,
+    "car_name": "M4 '14",
+    "maker_id": 6,
+    "maker_name": "BMW",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "2076": {
+    "car_id": 2076,
+    "car_name": "Mercedes-Benz AMG VGT Racing Series",
+    "maker_id": 153,
+    "maker_name": "AMG",
+    "maker_country": 5,
+    "isOld": null,
+    "colors": []
+  },
+  "2077": {
+    "car_id": 2077,
+    "car_name": "Red Bull X2014 Standard",
+    "maker_id": 33,
+    "maker_name": "Gran Turismo",
+    "maker_country": 0,
+    "isOld": null,
+    "colors": []
+  },
+  "2078": {
+    "car_id": 2078,
+    "car_name": "Red Bull X2014 Junior",
+    "maker_id": 33,
+    "maker_name": "Gran Turismo",
+    "maker_country": 0,
+    "isOld": null,
+    "colors": []
+  },
+  "2080": {
+    "car_id": 2080,
+    "car_name": "FT-1",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "2087": {
+    "car_id": 2087,
+    "car_name": "BMW VGT",
+    "maker_id": 6,
+    "maker_name": "BMW",
+    "maker_country": 5,
+    "isOld": null,
+    "colors": []
+  },
+  "2095": {
+    "car_id": 2095,
+    "car_name": "Concept XR-PHEV EVOLUTION VGT",
+    "maker_id": 25,
+    "maker_name": "Mitsubishi",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "2098": {
+    "car_id": 2098,
+    "car_name": "GTI Roadster VGT",
+    "maker_id": 46,
+    "maker_name": "Volkswagen",
+    "maker_country": 5,
+    "isOld": null,
+    "colors": []
+  },
+  "2099": {
+    "car_id": 2099,
+    "car_name": "VIZIV GT VGT",
+    "maker_id": 38,
+    "maker_name": "Subaru",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "2101": {
+    "car_id": 2101,
+    "car_name": "TS030 Hybrid '12",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "2103": {
+    "car_id": 2103,
+    "car_name": "DP-100 VGT",
+    "maker_id": 4,
+    "maker_name": "Aston Martin",
+    "maker_country": 4,
+    "isOld": null,
+    "colors": []
+  },
+  "2106": {
+    "car_id": 2106,
+    "car_name": "FT-1 VGT",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "2107": {
+    "car_id": 2107,
+    "car_name": "Chaparral 2X VGT",
+    "maker_id": 93,
+    "maker_name": "Chaparral",
+    "maker_country": 3,
+    "isOld": null,
+    "colors": []
+  },
+  "2108": {
+    "car_id": 2108,
+    "car_name": "SRT Tomahawk X VGT",
+    "maker_id": 11,
+    "maker_name": "Dodge",
+    "maker_country": 3,
+    "isOld": null,
+    "colors": []
+  },
+  "2109": {
+    "car_id": 2109,
+    "car_name": "MINI Clubman VGT",
+    "maker_id": 51,
+    "maker_name": "MINI",
+    "maker_country": 5,
+    "isOld": null,
+    "colors": []
+  },
+  "2110": {
+    "car_id": 2110,
+    "car_name": "SRT Tomahawk GTS-R VGT",
+    "maker_id": 11,
+    "maker_name": "Dodge",
+    "maker_country": 3,
+    "isOld": null,
+    "colors": []
+  },
+  "2111": {
+    "car_id": 2111,
+    "car_name": "SRT Tomahawk S VGT",
+    "maker_id": 11,
+    "maker_name": "Dodge",
+    "maker_country": 3,
+    "isOld": null,
+    "colors": []
+  },
+  "2112": {
+    "car_id": 2112,
+    "car_name": "Alpine VGT",
+    "maker_id": 86,
+    "maker_name": "Alpine",
+    "maker_country": 6,
+    "isOld": null,
+    "colors": []
+  },
+  "2113": {
+    "car_id": 2113,
+    "car_name": "PEUGEOT VGT",
+    "maker_id": 32,
+    "maker_name": "Peugeot",
+    "maker_country": 6,
+    "isOld": null,
+    "colors": []
+  },
+  "2116": {
+    "car_id": 2116,
+    "car_name": "Alpine VGT Race",
+    "maker_id": 86,
+    "maker_name": "Alpine",
+    "maker_country": 6,
+    "isOld": null,
+    "colors": []
+  },
+  "2117": {
+    "car_id": 2117,
+    "car_name": "INFINITI CONCEPT VGT",
+    "maker_id": 49,
+    "maker_name": "Infiniti",
+    "maker_country": 3,
+    "isOld": null,
+    "colors": []
+  },
+  "2118": {
+    "car_id": 2118,
+    "car_name": "LM55 VGT",
+    "maker_id": 21,
+    "maker_name": "Mazda",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "2121": {
+    "car_id": 2121,
+    "car_name": "Honda Sports VGT",
+    "maker_id": 15,
+    "maker_name": "Honda",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "2122": {
+    "car_id": 2122,
+    "car_name": "IsoRivolta Zagato VGT",
+    "maker_id": 134,
+    "maker_name": "Zagato",
+    "maker_country": 7,
+    "isOld": null,
+    "colors": []
+  },
+  "2123": {
+    "car_id": 2123,
+    "car_name": "LF-LC GT VGT",
+    "maker_id": 50,
+    "maker_name": "Lexus",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "2124": {
+    "car_id": 2124,
+    "car_name": "GTI Supersport VGT",
+    "maker_id": 46,
+    "maker_name": "Volkswagen",
+    "maker_country": 5,
+    "isOld": null,
+    "colors": []
+  },
+  "2127": {
+    "car_id": 2127,
+    "car_name": "GT-R LM NISMO '15",
+    "maker_id": 28,
+    "maker_name": "Nissan",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "2131": {
+    "car_id": 2131,
+    "car_name": "V12 Vantage GT3 '12",
+    "maker_id": 4,
+    "maker_name": "Aston Martin",
+    "maker_country": 4,
+    "isOld": false,
+    "colors": []
+  },
+  "2134": {
+    "car_id": 2134,
+    "car_name": "Bugatti VGT",
+    "maker_id": 113,
+    "maker_name": "Bugatti",
+    "maker_country": 5,
+    "isOld": null,
+    "colors": []
+  },
+  "2135": {
+    "car_id": 2135,
+    "car_name": "HYUNDAI N 2025 VGT",
+    "maker_id": 16,
+    "maker_name": "Hyundai",
+    "maker_country": 9,
+    "isOld": null,
+    "colors": []
+  },
+  "2136": {
+    "car_id": 2136,
+    "car_name": "4C '14",
+    "maker_id": 3,
+    "maker_name": "Alfa Romeo",
+    "maker_country": 7,
+    "isOld": false,
+    "colors": []
+  },
+  "2138": {
+    "car_id": 2138,
+    "car_name": "Mustang GT '15",
+    "maker_id": 13,
+    "maker_name": "Ford",
+    "maker_country": 3,
+    "isOld": false,
+    "colors": []
+  },
+  "2139": {
+    "car_id": 2139,
+    "car_name": "RC F '14",
+    "maker_id": 50,
+    "maker_name": "Lexus",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "2141": {
+    "car_id": 2141,
+    "car_name": "Golf VII GTI '14",
+    "maker_id": 46,
+    "maker_name": "Volkswagen",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "2142": {
+    "car_id": 2142,
+    "car_name": "NISSAN CONCEPT 2020 VGT",
+    "maker_id": 28,
+    "maker_name": "Nissan",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "2143": {
+    "car_id": 2143,
+    "car_name": "R8 LMS '15",
+    "maker_id": 5,
+    "maker_name": "Audi",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "2144": {
+    "car_id": 2144,
+    "car_name": "S-FR '15",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "2145": {
+    "car_id": 2145,
+    "car_name": "Focus ST '15",
+    "maker_id": 13,
+    "maker_name": "Ford",
+    "maker_country": 3,
+    "isOld": false,
+    "colors": []
+  },
+  "2146": {
+    "car_id": 2146,
+    "car_name": "F-type R '14",
+    "maker_id": 17,
+    "maker_name": "Jaguar",
+    "maker_country": 4,
+    "isOld": false,
+    "colors": []
+  },
+  "2147": {
+    "car_id": 2147,
+    "car_name": "Veneno '14",
+    "maker_id": 112,
+    "maker_name": "Lamborghini",
+    "maker_country": 7,
+    "isOld": false,
+    "colors": []
+  },
+  "2148": {
+    "car_id": 2148,
+    "car_name": "Roadster S (ND) '15",
+    "maker_id": 21,
+    "maker_name": "Mazda",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "2149": {
+    "car_id": 2149,
+    "car_name": "Mercedes-AMG GT S '15",
+    "maker_id": 153,
+    "maker_name": "AMG",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "2150": {
+    "car_id": 2150,
+    "car_name": "Lancer Evolution Final '15",
+    "maker_id": 25,
+    "maker_name": "Mitsubishi",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "2152": {
+    "car_id": 2152,
+    "car_name": "Charger SRT Hellcat '15",
+    "maker_id": 11,
+    "maker_name": "Dodge",
+    "maker_country": 3,
+    "isOld": false,
+    "colors": []
+  },
+  "2153": {
+    "car_id": 2153,
+    "car_name": "WRX STI Type S '14",
+    "maker_id": 38,
+    "maker_name": "Subaru",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "2154": {
+    "car_id": 2154,
+    "car_name": "86 GT '15",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "2155": {
+    "car_id": 2155,
+    "car_name": "Polo GTI '14",
+    "maker_id": 46,
+    "maker_name": "Volkswagen",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "2156": {
+    "car_id": 2156,
+    "car_name": "2&4 powered by RC213V",
+    "maker_id": 15,
+    "maker_name": "Honda",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "2157": {
+    "car_id": 2157,
+    "car_name": "V8 Vantage Gr.4",
+    "maker_id": 4,
+    "maker_name": "Aston Martin",
+    "maker_country": 4,
+    "isOld": null,
+    "colors": []
+  },
+  "2158": {
+    "car_id": 2158,
+    "car_name": "458 Italia GT3 '13",
+    "maker_id": 110,
+    "maker_name": "Ferrari",
+    "maker_country": 7,
+    "isOld": false,
+    "colors": []
+  },
+  "2159": {
+    "car_id": 2159,
+    "car_name": "Mustang Gr.3",
+    "maker_id": 13,
+    "maker_name": "Ford",
+    "maker_country": 3,
+    "isOld": null,
+    "colors": []
+  },
+  "2160": {
+    "car_id": 2160,
+    "car_name": "Genesis Gr.3",
+    "maker_id": 16,
+    "maker_name": "Hyundai",
+    "maker_country": 9,
+    "isOld": null,
+    "colors": []
+  },
+  "2161": {
+    "car_id": 2161,
+    "car_name": "GT-R Gr.4",
+    "maker_id": 28,
+    "maker_name": "Nissan",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "2162": {
+    "car_id": 2162,
+    "car_name": "LaFerrari '13",
+    "maker_id": 110,
+    "maker_name": "Ferrari",
+    "maker_country": 7,
+    "isOld": false,
+    "colors": []
+  },
+  "2163": {
+    "car_id": 2163,
+    "car_name": "Genesis Gr.4",
+    "maker_id": 16,
+    "maker_name": "Hyundai",
+    "maker_country": 9,
+    "isOld": null,
+    "colors": []
+  },
+  "2164": {
+    "car_id": 2164,
+    "car_name": "Mustang Gr.4",
+    "maker_id": 13,
+    "maker_name": "Ford",
+    "maker_country": 3,
+    "isOld": null,
+    "colors": []
+  },
+  "2166": {
+    "car_id": 2166,
+    "car_name": "4C Gr.4",
+    "maker_id": 3,
+    "maker_name": "Alfa Romeo",
+    "maker_country": 7,
+    "isOld": null,
+    "colors": []
+  },
+  "2167": {
+    "car_id": 2167,
+    "car_name": "GT-R '17",
+    "maker_id": 28,
+    "maker_name": "Nissan",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "2169": {
+    "car_id": 2169,
+    "car_name": "TTS Coupe '14",
+    "maker_id": 5,
+    "maker_name": "Audi",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "2170": {
+    "car_id": 2170,
+    "car_name": "A 45 AMG '13",
+    "maker_id": 153,
+    "maker_name": "AMG",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "2171": {
+    "car_id": 2171,
+    "car_name": "Huracan LP 610-4 '15",
+    "maker_id": 112,
+    "maker_name": "Lamborghini",
+    "maker_country": 7,
+    "isOld": false,
+    "colors": []
+  },
+  "2172": {
+    "car_id": 2172,
+    "car_name": "DS 3 Racing '11",
+    "maker_id": 154,
+    "maker_name": "DS AUTOMOBILES",
+    "maker_country": 6,
+    "isOld": false,
+    "colors": []
+  },
+  "2173": {
+    "car_id": 2173,
+    "car_name": "Atenza Sedan XD L Package '15",
+    "maker_id": 21,
+    "maker_name": "Mazda",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "2174": {
+    "car_id": 2174,
+    "car_name": "650S '14",
+    "maker_id": 117,
+    "maker_name": "McLaren",
+    "maker_country": 4,
+    "isOld": false,
+    "colors": []
+  },
+  "2175": {
+    "car_id": 2175,
+    "car_name": "V8 Vantage S '15",
+    "maker_id": 4,
+    "maker_name": "Aston Martin",
+    "maker_country": 4,
+    "isOld": false,
+    "colors": []
+  },
+  "2176": {
+    "car_id": 2176,
+    "car_name": "RCZ GT Line '15",
+    "maker_id": 32,
+    "maker_name": "Peugeot",
+    "maker_country": 6,
+    "isOld": false,
+    "colors": []
+  },
+  "2177": {
+    "car_id": 2177,
+    "car_name": "Huracan GT3 '15",
+    "maker_id": 112,
+    "maker_name": "Lamborghini",
+    "maker_country": 7,
+    "isOld": false,
+    "colors": []
+  },
+  "2178": {
+    "car_id": 2178,
+    "car_name": "S-FR Racing Concept '16",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "2179": {
+    "car_id": 2179,
+    "car_name": "Bugatti VGT (Gr.1)",
+    "maker_id": 113,
+    "maker_name": "Bugatti",
+    "maker_country": 5,
+    "isOld": null,
+    "colors": []
+  },
+  "2180": {
+    "car_id": 2180,
+    "car_name": "HYUNDAI N 2025 VGT (Gr.1)",
+    "maker_id": 16,
+    "maker_name": "Hyundai",
+    "maker_country": 9,
+    "isOld": null,
+    "colors": []
+  },
+  "2181": {
+    "car_id": 2181,
+    "car_name": "LM55 VGT (Gr.1)",
+    "maker_id": 21,
+    "maker_name": "Mazda",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "2182": {
+    "car_id": 2182,
+    "car_name": "650S GT3 '15",
+    "maker_id": 117,
+    "maker_name": "McLaren",
+    "maker_country": 4,
+    "isOld": false,
+    "colors": []
+  },
+  "2183": {
+    "car_id": 2183,
+    "car_name": "Corvette C7 Gr.3",
+    "maker_id": 7,
+    "maker_name": "Chevrolet",
+    "maker_country": 3,
+    "isOld": null,
+    "colors": []
+  },
+  "2184": {
+    "car_id": 2184,
+    "car_name": "F-type Gr.3",
+    "maker_id": 17,
+    "maker_name": "Jaguar",
+    "maker_country": 4,
+    "isOld": null,
+    "colors": []
+  },
+  "2185": {
+    "car_id": 2185,
+    "car_name": "Lancer Evolution Final Gr.3",
+    "maker_id": 25,
+    "maker_name": "Mitsubishi",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "2186": {
+    "car_id": 2186,
+    "car_name": "WRX Gr.3",
+    "maker_id": 38,
+    "maker_name": "Subaru",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "2187": {
+    "car_id": 2187,
+    "car_name": "FT-1 VGT (Gr.3)",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "2188": {
+    "car_id": 2188,
+    "car_name": "R.S.01 GT3 '16",
+    "maker_id": 34,
+    "maker_name": "Renault",
+    "maker_country": 6,
+    "isOld": false,
+    "colors": []
+  },
+  "2190": {
+    "car_id": 2190,
+    "car_name": "GT by Citroen Race Car (Gr.3)",
+    "maker_id": 9,
+    "maker_name": "Citroen",
+    "maker_country": 6,
+    "isOld": null,
+    "colors": []
+  },
+  "2192": {
+    "car_id": 2192,
+    "car_name": "Volkswagen GTI VGT (Gr.3)",
+    "maker_id": 46,
+    "maker_name": "Volkswagen",
+    "maker_country": 5,
+    "isOld": null,
+    "colors": []
+  },
+  "3183": {
+    "car_id": 3183,
+    "car_name": "PEUGEOT VGT (Gr.3)",
+    "maker_id": 32,
+    "maker_name": "Peugeot",
+    "maker_country": 6,
+    "isOld": null,
+    "colors": []
+  },
+  "3185": {
+    "car_id": 3185,
+    "car_name": "4C Gr.3",
+    "maker_id": 3,
+    "maker_name": "Alfa Romeo",
+    "maker_country": 7,
+    "isOld": null,
+    "colors": []
+  },
+  "3187": {
+    "car_id": 3187,
+    "car_name": "Alpine VGT '17",
+    "maker_id": 86,
+    "maker_name": "Alpine",
+    "maker_country": 6,
+    "isOld": false,
+    "colors": []
+  },
+  "3188": {
+    "car_id": 3188,
+    "car_name": "SRT Tomahawk VGT (Gr.1)",
+    "maker_id": 11,
+    "maker_name": "Dodge",
+    "maker_country": 3,
+    "isOld": null,
+    "colors": []
+  },
+  "3192": {
+    "car_id": 3192,
+    "car_name": "SLS AMG Gr.4",
+    "maker_id": 153,
+    "maker_name": "AMG",
+    "maker_country": 5,
+    "isOld": null,
+    "colors": []
+  },
+  "3209": {
+    "car_id": 3209,
+    "car_name": "M4 Safety Car",
+    "maker_id": 6,
+    "maker_name": "BMW",
+    "maker_country": 5,
+    "isOld": null,
+    "colors": []
+  },
+  "3210": {
+    "car_id": 3210,
+    "car_name": "Mercedes-AMG GT Safety Car",
+    "maker_id": 153,
+    "maker_name": "AMG",
+    "maker_country": 5,
+    "isOld": null,
+    "colors": []
+  },
+  "3214": {
+    "car_id": 3214,
+    "car_name": "Civic Type R (FK2) '15",
+    "maker_id": 15,
+    "maker_name": "Honda",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3215": {
+    "car_id": 3215,
+    "car_name": "208 GTi by Peugeot Sport '14",
+    "maker_id": 32,
+    "maker_name": "Peugeot",
+    "maker_country": 6,
+    "isOld": false,
+    "colors": []
+  },
+  "3216": {
+    "car_id": 3216,
+    "car_name": "R.S.01 '16",
+    "maker_id": 34,
+    "maker_name": "Renault",
+    "maker_country": 6,
+    "isOld": false,
+    "colors": []
+  },
+  "3217": {
+    "car_id": 3217,
+    "car_name": "Camaro SS '16",
+    "maker_id": 7,
+    "maker_name": "Chevrolet",
+    "maker_country": 3,
+    "isOld": false,
+    "colors": []
+  },
+  "3218": {
+    "car_id": 3218,
+    "car_name": "M6 GT3 Endurance Model '16",
+    "maker_id": 6,
+    "maker_name": "BMW",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "3219": {
+    "car_id": 3219,
+    "car_name": "NSX '17",
+    "maker_id": 15,
+    "maker_name": "Honda",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3220": {
+    "car_id": 3220,
+    "car_name": "Clio R.S. 220 Trophy '15",
+    "maker_id": 34,
+    "maker_name": "Renault",
+    "maker_country": 6,
+    "isOld": false,
+    "colors": []
+  },
+  "3221": {
+    "car_id": 3221,
+    "car_name": "M6 GT3 Sprint Model '16",
+    "maker_id": 6,
+    "maker_name": "BMW",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "3222": {
+    "car_id": 3222,
+    "car_name": "86 GRMN '16",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3223": {
+    "car_id": 3223,
+    "car_name": "Viper SRT GT3-R '15",
+    "maker_id": 11,
+    "maker_name": "Dodge",
+    "maker_country": 3,
+    "isOld": false,
+    "colors": []
+  },
+  "3224": {
+    "car_id": 3224,
+    "car_name": "Mercedes-AMG GT3 '16",
+    "maker_id": 153,
+    "maker_name": "AMG",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "3225": {
+    "car_id": 3225,
+    "car_name": "GT-R Safety Car",
+    "maker_id": 28,
+    "maker_name": "Nissan",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "3227": {
+    "car_id": 3227,
+    "car_name": "LC500 '17",
+    "maker_id": 50,
+    "maker_name": "Lexus",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3228": {
+    "car_id": 3228,
+    "car_name": "RC F GT3 prototype '16",
+    "maker_id": 50,
+    "maker_name": "Lexus",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3229": {
+    "car_id": 3229,
+    "car_name": "Mustang Gr.B Rally Car",
+    "maker_id": 13,
+    "maker_name": "Ford",
+    "maker_country": 3,
+    "isOld": null,
+    "colors": []
+  },
+  "3230": {
+    "car_id": 3230,
+    "car_name": "Lancer Evolution Final Gr.B Rally Car",
+    "maker_id": 25,
+    "maker_name": "Mitsubishi",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "3231": {
+    "car_id": 3231,
+    "car_name": "Scirocco Gr.4",
+    "maker_id": 46,
+    "maker_name": "Volkswagen",
+    "maker_country": 5,
+    "isOld": null,
+    "colors": []
+  },
+  "3232": {
+    "car_id": 3232,
+    "car_name": "WRX Gr.B Rally Car",
+    "maker_id": 38,
+    "maker_name": "Subaru",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "3234": {
+    "car_id": 3234,
+    "car_name": "Genesis Gr.B Rally Car",
+    "maker_id": 16,
+    "maker_name": "Hyundai",
+    "maker_country": 9,
+    "isOld": null,
+    "colors": []
+  },
+  "3235": {
+    "car_id": 3235,
+    "car_name": "NSX Gr.3",
+    "maker_id": 15,
+    "maker_name": "Honda",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "3237": {
+    "car_id": 3237,
+    "car_name": "Atenza Gr.3",
+    "maker_id": 21,
+    "maker_name": "Mazda",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "3238": {
+    "car_id": 3238,
+    "car_name": "RCZ Gr.3",
+    "maker_id": 32,
+    "maker_name": "Peugeot",
+    "maker_country": 6,
+    "isOld": null,
+    "colors": []
+  },
+  "3239": {
+    "car_id": 3239,
+    "car_name": "NSX Gr.B Rally Car",
+    "maker_id": 15,
+    "maker_name": "Honda",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "3241": {
+    "car_id": 3241,
+    "car_name": "GT-R Gr.B Rally Car",
+    "maker_id": 28,
+    "maker_name": "Nissan",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "3242": {
+    "car_id": 3242,
+    "car_name": "RCZ Gr.B Rally Car",
+    "maker_id": 32,
+    "maker_name": "Peugeot",
+    "maker_country": 6,
+    "isOld": null,
+    "colors": []
+  },
+  "3245": {
+    "car_id": 3245,
+    "car_name": "M4 Gr.4",
+    "maker_id": 6,
+    "maker_name": "BMW",
+    "maker_country": 5,
+    "isOld": null,
+    "colors": []
+  },
+  "3246": {
+    "car_id": 3246,
+    "car_name": "Veyron Gr.4",
+    "maker_id": 113,
+    "maker_name": "Bugatti",
+    "maker_country": 5,
+    "isOld": null,
+    "colors": []
+  },
+  "3247": {
+    "car_id": 3247,
+    "car_name": "Corvette C7 Gr.4",
+    "maker_id": 7,
+    "maker_name": "Chevrolet",
+    "maker_country": 3,
+    "isOld": null,
+    "colors": []
+  },
+  "3248": {
+    "car_id": 3248,
+    "car_name": "GT by Citroen Gr.4",
+    "maker_id": 9,
+    "maker_name": "Citroen",
+    "maker_country": 6,
+    "isOld": null,
+    "colors": []
+  },
+  "3249": {
+    "car_id": 3249,
+    "car_name": "Viper Gr.4",
+    "maker_id": 11,
+    "maker_name": "Dodge",
+    "maker_country": 3,
+    "isOld": null,
+    "colors": []
+  },
+  "3251": {
+    "car_id": 3251,
+    "car_name": "NSX Gr.4",
+    "maker_id": 15,
+    "maker_name": "Honda",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "3252": {
+    "car_id": 3252,
+    "car_name": "F-type Gr.4",
+    "maker_id": 17,
+    "maker_name": "Jaguar",
+    "maker_country": 4,
+    "isOld": null,
+    "colors": []
+  },
+  "3253": {
+    "car_id": 3253,
+    "car_name": "Huracan Gr.4",
+    "maker_id": 112,
+    "maker_name": "Lamborghini",
+    "maker_country": 7,
+    "isOld": null,
+    "colors": []
+  },
+  "3254": {
+    "car_id": 3254,
+    "car_name": "RC F Gr.4",
+    "maker_id": 50,
+    "maker_name": "Lexus",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "3256": {
+    "car_id": 3256,
+    "car_name": "Atenza Gr.4",
+    "maker_id": 21,
+    "maker_name": "Mazda",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "3257": {
+    "car_id": 3257,
+    "car_name": "650S Gr.4",
+    "maker_id": 117,
+    "maker_name": "McLaren",
+    "maker_country": 4,
+    "isOld": null,
+    "colors": []
+  },
+  "3258": {
+    "car_id": 3258,
+    "car_name": "Lancer Evolution Final Gr.4",
+    "maker_id": 25,
+    "maker_name": "Mitsubishi",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "3259": {
+    "car_id": 3259,
+    "car_name": "RCZ Gr.4",
+    "maker_id": 32,
+    "maker_name": "Peugeot",
+    "maker_country": 6,
+    "isOld": null,
+    "colors": []
+  },
+  "3260": {
+    "car_id": 3260,
+    "car_name": "Megane Gr.4",
+    "maker_id": 34,
+    "maker_name": "Renault",
+    "maker_country": 6,
+    "isOld": null,
+    "colors": []
+  },
+  "3261": {
+    "car_id": 3261,
+    "car_name": "WRX Gr.4",
+    "maker_id": 38,
+    "maker_name": "Subaru",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "3262": {
+    "car_id": 3262,
+    "car_name": "86 Gr.4",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "3263": {
+    "car_id": 3263,
+    "car_name": "458 Italia Gr.4",
+    "maker_id": 110,
+    "maker_name": "Ferrari",
+    "maker_country": 7,
+    "isOld": null,
+    "colors": []
+  },
+  "3264": {
+    "car_id": 3264,
+    "car_name": "Focus Gr.B Rally Car",
+    "maker_id": 13,
+    "maker_name": "Ford",
+    "maker_country": 3,
+    "isOld": null,
+    "colors": []
+  },
+  "3265": {
+    "car_id": 3265,
+    "car_name": "86 Gr.B Rally Car",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "3266": {
+    "car_id": 3266,
+    "car_name": "i3 '15",
+    "maker_id": 6,
+    "maker_name": "BMW",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "3267": {
+    "car_id": 3267,
+    "car_name": "F12berlinetta '12",
+    "maker_id": 110,
+    "maker_name": "Ferrari",
+    "maker_country": 7,
+    "isOld": false,
+    "colors": []
+  },
+  "3268": {
+    "car_id": 3268,
+    "car_name": "911 GT3 RS (991) '16",
+    "maker_id": 136,
+    "maker_name": "Porsche",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "3295": {
+    "car_id": 3295,
+    "car_name": "86 GT 'Limited' '16",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3296": {
+    "car_id": 3296,
+    "car_name": "Corvette C7 Gr.3 Road Car",
+    "maker_id": 7,
+    "maker_name": "Chevrolet",
+    "maker_country": 3,
+    "isOld": null,
+    "colors": []
+  },
+  "3297": {
+    "car_id": 3297,
+    "car_name": "WRX STI Isle of Man '16",
+    "maker_id": 38,
+    "maker_name": "Subaru",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3298": {
+    "car_id": 3298,
+    "car_name": "TT Cup '16",
+    "maker_id": 5,
+    "maker_name": "Audi",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "3299": {
+    "car_id": 3299,
+    "car_name": "4C Gr.3 Road Car",
+    "maker_id": 3,
+    "maker_name": "Alfa Romeo",
+    "maker_country": 7,
+    "isOld": null,
+    "colors": []
+  },
+  "3300": {
+    "car_id": 3300,
+    "car_name": "Mustang Gr.3 Road Car",
+    "maker_id": 13,
+    "maker_name": "Ford",
+    "maker_country": 3,
+    "isOld": null,
+    "colors": []
+  },
+  "3301": {
+    "car_id": 3301,
+    "car_name": "Lancer Evolution Final Gr.B Road Car",
+    "maker_id": 25,
+    "maker_name": "Mitsubishi",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "3303": {
+    "car_id": 3303,
+    "car_name": "RCZ Gr.3 Road Car",
+    "maker_id": 32,
+    "maker_name": "Peugeot",
+    "maker_country": 6,
+    "isOld": null,
+    "colors": []
+  },
+  "3304": {
+    "car_id": 3304,
+    "car_name": "WRX Gr.B Road Car",
+    "maker_id": 38,
+    "maker_name": "Subaru",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "3305": {
+    "car_id": 3305,
+    "car_name": "Beetle Gr.3",
+    "maker_id": 46,
+    "maker_name": "Volkswagen",
+    "maker_country": 5,
+    "isOld": null,
+    "colors": []
+  },
+  "3306": {
+    "car_id": 3306,
+    "car_name": "Atenza Gr.3 Road Car",
+    "maker_id": 21,
+    "maker_name": "Mazda",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "3309": {
+    "car_id": 3309,
+    "car_name": "Vulcan '16",
+    "maker_id": 4,
+    "maker_name": "Aston Martin",
+    "maker_country": 4,
+    "isOld": false,
+    "colors": []
+  },
+  "3310": {
+    "car_id": 3310,
+    "car_name": "Cayman GT4 Clubsport '16",
+    "maker_id": 136,
+    "maker_name": "Porsche",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "3311": {
+    "car_id": 3311,
+    "car_name": "911 RSR (991) '17",
+    "maker_id": 136,
+    "maker_name": "Porsche",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "3312": {
+    "car_id": 3312,
+    "car_name": "TS050 - Hybrid '16",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3313": {
+    "car_id": 3313,
+    "car_name": "919 Hybrid '16",
+    "maker_id": 136,
+    "maker_name": "Porsche",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "3314": {
+    "car_id": 3314,
+    "car_name": "Audi VGT",
+    "maker_id": 5,
+    "maker_name": "Audi",
+    "maker_country": 5,
+    "isOld": null,
+    "colors": []
+  },
+  "3315": {
+    "car_id": 3315,
+    "car_name": "McLaren VGT",
+    "maker_id": 117,
+    "maker_name": "McLaren",
+    "maker_country": 4,
+    "isOld": null,
+    "colors": []
+  },
+  "3316": {
+    "car_id": 3316,
+    "car_name": "COPEN RJ VGT",
+    "maker_id": 10,
+    "maker_name": "Daihatsu",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "3332": {
+    "car_id": 3332,
+    "car_name": "L500R HYbrid VGT 2017",
+    "maker_id": 32,
+    "maker_name": "Peugeot",
+    "maker_country": 6,
+    "isOld": false,
+    "colors": []
+  },
+  "3333": {
+    "car_id": 3333,
+    "car_name": "L750R HYbrid VGT 2017",
+    "maker_id": 32,
+    "maker_name": "Peugeot",
+    "maker_country": 6,
+    "isOld": false,
+    "colors": []
+  },
+  "3334": {
+    "car_id": 3334,
+    "car_name": "R18 '16",
+    "maker_id": 5,
+    "maker_name": "Audi",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "3335": {
+    "car_id": 3335,
+    "car_name": "McLaren VGT (Gr.1)",
+    "maker_id": 117,
+    "maker_name": "McLaren",
+    "maker_country": 4,
+    "isOld": null,
+    "colors": []
+  },
+  "3336": {
+    "car_id": 3336,
+    "car_name": "F-150 SVT Raptor '11",
+    "maker_id": 13,
+    "maker_name": "Ford",
+    "maker_country": 3,
+    "isOld": false,
+    "colors": []
+  },
+  "3337": {
+    "car_id": 3337,
+    "car_name": "A110 '17",
+    "maker_id": 86,
+    "maker_name": "Alpine",
+    "maker_country": 6,
+    "isOld": false,
+    "colors": []
+  },
+  "3338": {
+    "car_id": 3338,
+    "car_name": "CHC 1967 Chevy Nova",
+    "maker_id": 147,
+    "maker_name": "Chris Holstrom Concepts",
+    "maker_country": 3,
+    "isOld": null,
+    "colors": []
+  },
+  "3339": {
+    "car_id": 3339,
+    "car_name": "BRZ Drift Car '17",
+    "maker_id": 38,
+    "maker_name": "Subaru",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3340": {
+    "car_id": 3340,
+    "car_name": "RC F GT3 '17",
+    "maker_id": 50,
+    "maker_name": "Lexus",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3341": {
+    "car_id": 3341,
+    "car_name": "Pantera '71",
+    "maker_id": 140,
+    "maker_name": "De Tomaso",
+    "maker_country": 7,
+    "isOld": true,
+    "colors": []
+  },
+  "3342": {
+    "car_id": 3342,
+    "car_name": "F1500T-A",
+    "maker_id": 33,
+    "maker_name": "Gran Turismo",
+    "maker_country": 0,
+    "isOld": null,
+    "colors": []
+  },
+  "3343": {
+    "car_id": 3343,
+    "car_name": "DB11 '16",
+    "maker_id": 4,
+    "maker_name": "Aston Martin",
+    "maker_country": 4,
+    "isOld": false,
+    "colors": []
+  },
+  "3344": {
+    "car_id": 3344,
+    "car_name": "M3 Sport Evolution '89",
+    "maker_id": 6,
+    "maker_name": "BMW",
+    "maker_country": 5,
+    "isOld": true,
+    "colors": []
+  },
+  "3345": {
+    "car_id": 3345,
+    "car_name": "GT-R NISMO '17",
+    "maker_id": 28,
+    "maker_name": "Nissan",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3346": {
+    "car_id": 3346,
+    "car_name": "Mach Forty",
+    "maker_id": 148,
+    "maker_name": "Eckert's Rod & Custom",
+    "maker_country": 3,
+    "isOld": null,
+    "colors": []
+  },
+  "3348": {
+    "car_id": 3348,
+    "car_name": "NSX CONCEPT-GT '16",
+    "maker_id": 15,
+    "maker_name": "Honda",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3349": {
+    "car_id": 3349,
+    "car_name": "RC F GT500 '16",
+    "maker_id": 50,
+    "maker_name": "Lexus",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3350": {
+    "car_id": 3350,
+    "car_name": "GT-R NISMO GT500 '16",
+    "maker_id": 28,
+    "maker_name": "Nissan",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3351": {
+    "car_id": 3351,
+    "car_name": "Audi e-tron VGT",
+    "maker_id": 5,
+    "maker_name": "Audi",
+    "maker_country": 5,
+    "isOld": null,
+    "colors": []
+  },
+  "3352": {
+    "car_id": 3352,
+    "car_name": "GR Supra Racing Concept '18",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3353": {
+    "car_id": 3353,
+    "car_name": "Clio R.S. 220 Trophy '16",
+    "maker_id": 34,
+    "maker_name": "Renault",
+    "maker_country": 6,
+    "isOld": false,
+    "colors": []
+  },
+  "3354": {
+    "car_id": 3354,
+    "car_name": "BRZ S '15",
+    "maker_id": 38,
+    "maker_name": "Subaru",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3356": {
+    "car_id": 3356,
+    "car_name": "Mini-Cooper 'S' '65",
+    "maker_id": 51,
+    "maker_name": "MINI",
+    "maker_country": 5,
+    "isOld": true,
+    "colors": []
+  },
+  "3357": {
+    "car_id": 3357,
+    "car_name": "S660 '15",
+    "maker_id": 15,
+    "maker_name": "Honda",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3358": {
+    "car_id": 3358,
+    "car_name": "911 GT3 (996) '01",
+    "maker_id": 136,
+    "maker_name": "Porsche",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "3359": {
+    "car_id": 3359,
+    "car_name": "911 GT3 (997) '09",
+    "maker_id": 136,
+    "maker_name": "Porsche",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "3360": {
+    "car_id": 3360,
+    "car_name": "McLaren P1 GTR '16",
+    "maker_id": 117,
+    "maker_name": "McLaren",
+    "maker_country": 4,
+    "isOld": false,
+    "colors": []
+  },
+  "3361": {
+    "car_id": 3361,
+    "car_name": "E-type Coupe '61",
+    "maker_id": 17,
+    "maker_name": "Jaguar",
+    "maker_country": 4,
+    "isOld": true,
+    "colors": []
+  },
+  "3362": {
+    "car_id": 3362,
+    "car_name": "F50 '95",
+    "maker_id": 110,
+    "maker_name": "Ferrari",
+    "maker_country": 7,
+    "isOld": true,
+    "colors": []
+  },
+  "3363": {
+    "car_id": 3363,
+    "car_name": "DB3S '53",
+    "maker_id": 4,
+    "maker_name": "Aston Martin",
+    "maker_country": 4,
+    "isOld": true,
+    "colors": []
+  },
+  "3364": {
+    "car_id": 3364,
+    "car_name": "Greddy Fugu Z",
+    "maker_id": 149,
+    "maker_name": "Greddy",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "3365": {
+    "car_id": 3365,
+    "car_name": "356 A/1500 GS GT Carrera Speedster '56",
+    "maker_id": 136,
+    "maker_name": "Porsche",
+    "maker_country": 5,
+    "isOld": true,
+    "colors": []
+  },
+  "3367": {
+    "car_id": 3367,
+    "car_name": "GR Supra RZ '19",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3368": {
+    "car_id": 3368,
+    "car_name": "Tundra TRD Pro '19",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3369": {
+    "car_id": 3369,
+    "car_name": "SR3 SL '13",
+    "maker_id": 141,
+    "maker_name": "Radical",
+    "maker_country": 4,
+    "isOld": false,
+    "colors": []
+  },
+  "3370": {
+    "car_id": 3370,
+    "car_name": "Fit Hybrid '14",
+    "maker_id": 15,
+    "maker_name": "Honda",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3371": {
+    "car_id": 3371,
+    "car_name": "SF19 Super Formula / Toyota '19",
+    "maker_id": 143,
+    "maker_name": "Super Formula (Dallara)",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3372": {
+    "car_id": 3372,
+    "car_name": "SF19 Super Formula / Honda '19",
+    "maker_id": 143,
+    "maker_name": "Super Formula (Dallara)",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3373": {
+    "car_id": 3373,
+    "car_name": "962 C '88",
+    "maker_id": 136,
+    "maker_name": "Porsche",
+    "maker_country": 5,
+    "isOld": true,
+    "colors": []
+  },
+  "3374": {
+    "car_id": 3374,
+    "car_name": "Red Bull X2019 Competition",
+    "maker_id": 33,
+    "maker_name": "Gran Turismo",
+    "maker_country": 0,
+    "isOld": null,
+    "colors": []
+  },
+  "3375": {
+    "car_id": 3375,
+    "car_name": "356 A/1500 GS Carrera '56",
+    "maker_id": 136,
+    "maker_name": "Porsche",
+    "maker_country": 5,
+    "isOld": true,
+    "colors": []
+  },
+  "3376": {
+    "car_id": 3376,
+    "car_name": "D-type '54",
+    "maker_id": 17,
+    "maker_name": "Jaguar",
+    "maker_country": 4,
+    "isOld": true,
+    "colors": []
+  },
+  "3377": {
+    "car_id": 3377,
+    "car_name": "Super Bee '70",
+    "maker_id": 11,
+    "maker_name": "Dodge",
+    "maker_country": 3,
+    "isOld": true,
+    "colors": []
+  },
+  "3383": {
+    "car_id": 3383,
+    "car_name": "Demio XD Touring '15",
+    "maker_id": 21,
+    "maker_name": "Mazda",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3384": {
+    "car_id": 3384,
+    "car_name": "GTO Twin Turbo '91",
+    "maker_id": 25,
+    "maker_name": "Mitsubishi",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "3385": {
+    "car_id": 3385,
+    "car_name": "911 Turbo (930) '81",
+    "maker_id": 136,
+    "maker_name": "Porsche",
+    "maker_country": 5,
+    "isOld": true,
+    "colors": []
+  },
+  "3387": {
+    "car_id": 3387,
+    "car_name": "Camaro ZL1 1LE Package '18",
+    "maker_id": 7,
+    "maker_name": "Chevrolet",
+    "maker_country": 3,
+    "isOld": false,
+    "colors": []
+  },
+  "3388": {
+    "car_id": 3388,
+    "car_name": "300 SEL 6.8 AMG '71",
+    "maker_id": 153,
+    "maker_name": "AMG",
+    "maker_country": 5,
+    "isOld": true,
+    "colors": []
+  },
+  "3389": {
+    "car_id": 3389,
+    "car_name": "M3 '03",
+    "maker_id": 6,
+    "maker_name": "BMW",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "3390": {
+    "car_id": 3390,
+    "car_name": "Taycan Turbo S '19",
+    "maker_id": 136,
+    "maker_name": "Porsche",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "3391": {
+    "car_id": 3391,
+    "car_name": "Shelby GT350R '16",
+    "maker_id": 13,
+    "maker_name": "Ford",
+    "maker_country": 3,
+    "isOld": false,
+    "colors": []
+  },
+  "3392": {
+    "car_id": 3392,
+    "car_name": "Aventador LP 750-4 SV '15",
+    "maker_id": 112,
+    "maker_name": "Lamborghini",
+    "maker_country": 7,
+    "isOld": false,
+    "colors": []
+  },
+  "3393": {
+    "car_id": 3393,
+    "car_name": "Carrera GT '04",
+    "maker_id": 136,
+    "maker_name": "Porsche",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "3394": {
+    "car_id": 3394,
+    "car_name": "DBR9 GT1 '10",
+    "maker_id": 4,
+    "maker_name": "Aston Martin",
+    "maker_country": 4,
+    "isOld": false,
+    "colors": []
+  },
+  "3396": {
+    "car_id": 3396,
+    "car_name": "Jaguar VGT Coupe",
+    "maker_id": 17,
+    "maker_name": "Jaguar",
+    "maker_country": 4,
+    "isOld": null,
+    "colors": []
+  },
+  "3397": {
+    "car_id": 3397,
+    "car_name": "CLK-LM '98",
+    "maker_id": 22,
+    "maker_name": "Mercedes-Benz",
+    "maker_country": 5,
+    "isOld": true,
+    "colors": []
+  },
+  "3398": {
+    "car_id": 3398,
+    "car_name": "CTR3 '07",
+    "maker_id": 35,
+    "maker_name": "RUF",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "3399": {
+    "car_id": 3399,
+    "car_name": "GR Supra Race Car '19",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3400": {
+    "car_id": 3400,
+    "car_name": "911 GT1 Strassenversion '97",
+    "maker_id": 136,
+    "maker_name": "Porsche",
+    "maker_country": 5,
+    "isOld": true,
+    "colors": []
+  },
+  "3401": {
+    "car_id": 3401,
+    "car_name": "Crown Athlete G '13",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3402": {
+    "car_id": 3402,
+    "car_name": "Ford GT '17",
+    "maker_id": 13,
+    "maker_name": "Ford",
+    "maker_country": 3,
+    "isOld": false,
+    "colors": []
+  },
+  "3403": {
+    "car_id": 3403,
+    "car_name": "Golf I GTI '83",
+    "maker_id": 46,
+    "maker_name": "Volkswagen",
+    "maker_country": 5,
+    "isOld": true,
+    "colors": []
+  },
+  "3404": {
+    "car_id": 3404,
+    "car_name": "911 Carrera RS CS (993) '95",
+    "maker_id": 136,
+    "maker_name": "Porsche",
+    "maker_country": 5,
+    "isOld": true,
+    "colors": []
+  },
+  "3405": {
+    "car_id": 3405,
+    "car_name": "R8 LMS Evo '19",
+    "maker_id": 5,
+    "maker_name": "Audi",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "3406": {
+    "car_id": 3406,
+    "car_name": "Charger SRT Hellcat Safety Car",
+    "maker_id": 11,
+    "maker_name": "Dodge",
+    "maker_country": 3,
+    "isOld": null,
+    "colors": []
+  },
+  "3407": {
+    "car_id": 3407,
+    "car_name": "Megane R.S. Trophy Safety Car",
+    "maker_id": 34,
+    "maker_name": "Renault",
+    "maker_country": 6,
+    "isOld": null,
+    "colors": []
+  },
+  "3408": {
+    "car_id": 3408,
+    "car_name": "Crown Athlete G Safety Car",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "3409": {
+    "car_id": 3409,
+    "car_name": "Mono '16",
+    "maker_id": 144,
+    "maker_name": "BAC",
+    "maker_country": 4,
+    "isOld": false,
+    "colors": []
+  },
+  "3410": {
+    "car_id": 3410,
+    "car_name": "917K '70",
+    "maker_id": 136,
+    "maker_name": "Porsche",
+    "maker_country": 5,
+    "isOld": true,
+    "colors": []
+  },
+  "3413": {
+    "car_id": 3413,
+    "car_name": "BRZ STI Sport '18",
+    "maker_id": 38,
+    "maker_name": "Subaru",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3414": {
+    "car_id": 3414,
+    "car_name": "Lambo V12 VGT",
+    "maker_id": 112,
+    "maker_name": "Lamborghini",
+    "maker_country": 7,
+    "isOld": null,
+    "colors": []
+  },
+  "3415": {
+    "car_id": 3415,
+    "car_name": "8C 2900B Touring Berlinetta '38",
+    "maker_id": 3,
+    "maker_name": "Alfa Romeo",
+    "maker_country": 7,
+    "isOld": true,
+    "colors": []
+  },
+  "3416": {
+    "car_id": 3416,
+    "car_name": "Mercedes-AMG GT R '17",
+    "maker_id": 153,
+    "maker_name": "AMG",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "3417": {
+    "car_id": 3417,
+    "car_name": "Jaguar VGT SV",
+    "maker_id": 17,
+    "maker_name": "Jaguar",
+    "maker_country": 4,
+    "isOld": null,
+    "colors": []
+  },
+  "3418": {
+    "car_id": 3418,
+    "car_name": "GR Supra RZ '20",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3419": {
+    "car_id": 3419,
+    "car_name": "RX-VISION GT3 CONCEPT",
+    "maker_id": 21,
+    "maker_name": "Mazda",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "3420": {
+    "car_id": 3420,
+    "car_name": "Focus RS '18",
+    "maker_id": 13,
+    "maker_name": "Ford",
+    "maker_country": 3,
+    "isOld": false,
+    "colors": []
+  },
+  "3422": {
+    "car_id": 3422,
+    "car_name": "3.0 CSL '73",
+    "maker_id": 6,
+    "maker_name": "BMW",
+    "maker_country": 5,
+    "isOld": true,
+    "colors": []
+  },
+  "3423": {
+    "car_id": 3423,
+    "car_name": "Wicked Fabrication GT 51",
+    "maker_id": 150,
+    "maker_name": "Wicked Fabrication",
+    "maker_country": 3,
+    "isOld": true,
+    "colors": []
+  },
+  "3427": {
+    "car_id": 3427,
+    "car_name": "RX-8 Spirit R '12",
+    "maker_id": 21,
+    "maker_name": "Mazda",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3428": {
+    "car_id": 3428,
+    "car_name": "S Barker Tourer '29",
+    "maker_id": 22,
+    "maker_name": "Mercedes-Benz",
+    "maker_country": 5,
+    "isOld": true,
+    "colors": []
+  },
+  "3429": {
+    "car_id": 3429,
+    "car_name": "Fairlady Z 432 '69",
+    "maker_id": 28,
+    "maker_name": "Nissan",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "3430": {
+    "car_id": 3430,
+    "car_name": "Willys MB '45",
+    "maker_id": 146,
+    "maker_name": "Jeep",
+    "maker_country": 3,
+    "isOld": true,
+    "colors": []
+  },
+  "3431": {
+    "car_id": 3431,
+    "car_name": "911 Carrera RS (964) '92",
+    "maker_id": 136,
+    "maker_name": "Porsche",
+    "maker_country": 5,
+    "isOld": true,
+    "colors": []
+  },
+  "3433": {
+    "car_id": 3433,
+    "car_name": "FXX K '14",
+    "maker_id": 110,
+    "maker_name": "Ferrari",
+    "maker_country": 7,
+    "isOld": false,
+    "colors": []
+  },
+  "3434": {
+    "car_id": 3434,
+    "car_name": "Testarossa '91",
+    "maker_id": 110,
+    "maker_name": "Ferrari",
+    "maker_country": 7,
+    "isOld": true,
+    "colors": []
+  },
+  "3436": {
+    "car_id": 3436,
+    "car_name": "Ford GT Race Car '18",
+    "maker_id": 13,
+    "maker_name": "Ford",
+    "maker_country": 3,
+    "isOld": false,
+    "colors": []
+  },
+  "3437": {
+    "car_id": 3437,
+    "car_name": "Mangusta '69",
+    "maker_id": 140,
+    "maker_name": "De Tomaso",
+    "maker_country": 7,
+    "isOld": true,
+    "colors": []
+  },
+  "3438": {
+    "car_id": 3438,
+    "car_name": "Abarth 595 SS '70",
+    "maker_id": 125,
+    "maker_name": "Abarth",
+    "maker_country": 7,
+    "isOld": true,
+    "colors": []
+  },
+  "3439": {
+    "car_id": 3439,
+    "car_name": "911 Carrera RS (993) '95",
+    "maker_id": 136,
+    "maker_name": "Porsche",
+    "maker_country": 5,
+    "isOld": true,
+    "colors": []
+  },
+  "3441": {
+    "car_id": 3441,
+    "car_name": "300 SL (W194) '52",
+    "maker_id": 22,
+    "maker_name": "Mercedes-Benz",
+    "maker_country": 5,
+    "isOld": true,
+    "colors": []
+  },
+  "3442": {
+    "car_id": 3442,
+    "car_name": "A112 Abarth '85",
+    "maker_id": 57,
+    "maker_name": "Autobianchi",
+    "maker_country": 7,
+    "isOld": true,
+    "colors": []
+  },
+  "3443": {
+    "car_id": 3443,
+    "car_name": "308 GTB '75",
+    "maker_id": 110,
+    "maker_name": "Ferrari",
+    "maker_country": 7,
+    "isOld": true,
+    "colors": []
+  },
+  "3445": {
+    "car_id": 3445,
+    "car_name": "DB5 '64",
+    "maker_id": 4,
+    "maker_name": "Aston Martin",
+    "maker_country": 4,
+    "isOld": true,
+    "colors": []
+  },
+  "3446": {
+    "car_id": 3446,
+    "car_name": "Spyder type 550/1500RS '55",
+    "maker_id": 136,
+    "maker_name": "Porsche",
+    "maker_country": 5,
+    "isOld": true,
+    "colors": []
+  },
+  "3449": {
+    "car_id": 3449,
+    "car_name": "Corvette C7 ZR1 '19",
+    "maker_id": 7,
+    "maker_name": "Chevrolet",
+    "maker_country": 3,
+    "isOld": false,
+    "colors": []
+  },
+  "3451": {
+    "car_id": 3451,
+    "car_name": "GR Yaris RZ 'High performance' '20",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3452": {
+    "car_id": 3452,
+    "car_name": "917 LIVING LEGEND",
+    "maker_id": 136,
+    "maker_name": "Porsche",
+    "maker_country": 5,
+    "isOld": null,
+    "colors": []
+  },
+  "3453": {
+    "car_id": 3453,
+    "car_name": "M3 '89",
+    "maker_id": 6,
+    "maker_name": "BMW",
+    "maker_country": 5,
+    "isOld": true,
+    "colors": []
+  },
+  "3454": {
+    "car_id": 3454,
+    "car_name": "3.0 CSL '71",
+    "maker_id": 6,
+    "maker_name": "BMW",
+    "maker_country": 5,
+    "isOld": true,
+    "colors": []
+  },
+  "3456": {
+    "car_id": 3456,
+    "car_name": "Swift Sport '17",
+    "maker_id": 39,
+    "maker_name": "Suzuki",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3457": {
+    "car_id": 3457,
+    "car_name": "A220 Race Car '68",
+    "maker_id": 86,
+    "maker_name": "Alpine",
+    "maker_country": 6,
+    "isOld": true,
+    "colors": []
+  },
+  "3458": {
+    "car_id": 3458,
+    "car_name": "Mercedes-AMG C 63 S '15",
+    "maker_id": 153,
+    "maker_name": "AMG",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "3467": {
+    "car_id": 3467,
+    "car_name": "Civic Type R Limited Edition (FK8) '20",
+    "maker_id": 15,
+    "maker_name": "Honda",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3469": {
+    "car_id": 3469,
+    "car_name": "F8 Tributo '19",
+    "maker_id": 110,
+    "maker_name": "Ferrari",
+    "maker_country": 7,
+    "isOld": false,
+    "colors": []
+  },
+  "3471": {
+    "car_id": 3471,
+    "car_name": "Celica GT-Four (ST205) '94",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "3477": {
+    "car_id": 3477,
+    "car_name": "Silvia spec-R Aero (S15) Touring Car",
+    "maker_id": 28,
+    "maker_name": "Nissan",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "3478": {
+    "car_id": 3478,
+    "car_name": "Porsche VGT",
+    "maker_id": 136,
+    "maker_name": "Porsche",
+    "maker_country": 5,
+    "isOld": null,
+    "colors": []
+  },
+  "3479": {
+    "car_id": 3479,
+    "car_name": "Jaguar VGT Roadster",
+    "maker_id": 17,
+    "maker_name": "Jaguar",
+    "maker_country": 4,
+    "isOld": null,
+    "colors": []
+  },
+  "3480": {
+    "car_id": 3480,
+    "car_name": "Swift Sport Gr.4",
+    "maker_id": 39,
+    "maker_name": "Suzuki",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "3481": {
+    "car_id": 3481,
+    "car_name": "GR86 RZ '21",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3485": {
+    "car_id": 3485,
+    "car_name": "Mercedes-AMG GT Black Series '20",
+    "maker_id": 153,
+    "maker_name": "AMG",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "3487": {
+    "car_id": 3487,
+    "car_name": "Mustang Boss 429 '69",
+    "maker_id": 13,
+    "maker_name": "Ford",
+    "maker_country": 3,
+    "isOld": true,
+    "colors": []
+  },
+  "3495": {
+    "car_id": 3495,
+    "car_name": "RX-VISION '15",
+    "maker_id": 21,
+    "maker_name": "Mazda",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3500": {
+    "car_id": 3500,
+    "car_name": "G70 3.3T AWD Prestige Package '22",
+    "maker_id": 152,
+    "maker_name": "Genesis",
+    "maker_country": 9,
+    "isOld": false,
+    "colors": []
+  },
+  "3501": {
+    "car_id": 3501,
+    "car_name": "G70 GR4",
+    "maker_id": 152,
+    "maker_name": "Genesis",
+    "maker_country": 9,
+    "isOld": null,
+    "colors": []
+  },
+  "3502": {
+    "car_id": 3502,
+    "car_name": "Genesis X GR3",
+    "maker_id": 152,
+    "maker_name": "Genesis",
+    "maker_country": 9,
+    "isOld": null,
+    "colors": []
+  },
+  "3503": {
+    "car_id": 3503,
+    "car_name": "RX-VISION GT3 CONCEPT Stealth Model",
+    "maker_id": 21,
+    "maker_name": "Mazda",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "3504": {
+    "car_id": 3504,
+    "car_name": "Z Performance '23",
+    "maker_id": 28,
+    "maker_name": "Nissan",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "779": {
+    "car_id": 779,
+    "car_name": "Cappuccino (EA11R) '91",
+    "maker_id": 39,
+    "maker_name": "Suzuki",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "3474": {
+    "car_id": 3474,
+    "car_name": "BRZ GT300 '21",
+    "maker_id": 38,
+    "maker_name": "Subaru",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3506": {
+    "car_id": 3506,
+    "car_name": "BRZ S '21",
+    "maker_id": 38,
+    "maker_name": "Subaru",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3426": {
+    "car_id": 3426,
+    "car_name": "Roadster Shop Rampage",
+    "maker_id": 151,
+    "maker_name": "Roadster Shop",
+    "maker_country": 3,
+    "isOld": null,
+    "colors": []
+  },
+  "3476": {
+    "car_id": 3476,
+    "car_name": "Suzuki Vision Gran Turismo",
+    "maker_id": 39,
+    "maker_name": "Suzuki",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "3499": {
+    "car_id": 3499,
+    "car_name": "GR010 HYBRID '21",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3508": {
+    "car_id": 3508,
+    "car_name": "SUZUKI Vision Gran Turismo (Gr.3 Version)",
+    "maker_id": 39,
+    "maker_name": "Suzuki",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "3444": {
+    "car_id": 3444,
+    "car_name": "1932 Ford Roadster Hot Rod",
+    "maker_id": 13,
+    "maker_name": "Ford",
+    "maker_country": 3,
+    "isOld": null,
+    "colors": []
+  },
+  "808": {
+    "car_id": 808,
+    "car_name": "V6 Escudo Pikes Peak Special spec.98",
+    "maker_id": 39,
+    "maker_name": "Suzuki",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "3459": {
+    "car_id": 3459,
+    "car_name": "918 Spyder '13",
+    "maker_id": 136,
+    "maker_name": "Porsche",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "3489": {
+    "car_id": 3489,
+    "car_name": "A6GCS/53 Spyder '54",
+    "maker_id": 116,
+    "maker_name": "Maserati",
+    "maker_country": 7,
+    "isOld": true,
+    "colors": []
+  },
+  "3493": {
+    "car_id": 3493,
+    "car_name": "Skyline Super Silhouette Group 5 '84",
+    "maker_id": 28,
+    "maker_name": "Nissan",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "3488": {
+    "car_id": 3488,
+    "car_name": "Cayman GT4 '16",
+    "maker_id": 136,
+    "maker_name": "Porsche",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "3505": {
+    "car_id": 3505,
+    "car_name": "Mangusta (Christian Dior)",
+    "maker_id": 140,
+    "maker_name": "De Tomaso",
+    "maker_country": 7,
+    "isOld": null,
+    "colors": []
+  },
+  "3475": {
+    "car_id": 3475,
+    "car_name": "MP4/4 '88",
+    "maker_id": 117,
+    "maker_name": "McLaren",
+    "maker_country": 4,
+    "isOld": true,
+    "colors": []
+  },
+  "3462": {
+    "car_id": 3462,
+    "car_name": "GTO 'The Judge' '69",
+    "maker_id": 52,
+    "maker_name": "Pontiac",
+    "maker_country": 3,
+    "isOld": true,
+    "colors": []
+  },
+  "3507": {
+    "car_id": 3507,
+    "car_name": "Porsche VGT Spyder",
+    "maker_id": 136,
+    "maker_name": "Porsche",
+    "maker_country": 5,
+    "isOld": null,
+    "colors": []
+  },
+  "3511": {
+    "car_id": 3511,
+    "car_name": "ID.R '19",
+    "maker_id": 46,
+    "maker_name": "Volkswagen",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "3513": {
+    "car_id": 3513,
+    "car_name": "Silvia K's Type S (S14) '94",
+    "maker_id": 28,
+    "maker_name": "Nissan",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "836": {
+    "car_id": 836,
+    "car_name": "Skyline 2000GT-R (KPGC110) '73",
+    "maker_id": 28,
+    "maker_name": "Nissan",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "3421": {
+    "car_id": 3421,
+    "car_name": "Merak SS '80",
+    "maker_id": 116,
+    "maker_name": "Maserati",
+    "maker_country": 7,
+    "isOld": true,
+    "colors": []
+  },
+  "3450": {
+    "car_id": 3450,
+    "car_name": "GT-R NISMO GT3 '18",
+    "maker_id": 28,
+    "maker_name": "Nissan",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3512": {
+    "car_id": 3512,
+    "car_name": "Roadster NR-A (ND) '22",
+    "maker_id": 21,
+    "maker_name": "Mazda",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3466": {
+    "car_id": 3466,
+    "car_name": "Sierra RS 500 Cosworth '87",
+    "maker_id": 13,
+    "maker_name": "Ford",
+    "maker_country": 3,
+    "isOld": true,
+    "colors": []
+  },
+  "3483": {
+    "car_id": 3483,
+    "car_name": "M2 Competition '18",
+    "maker_id": 6,
+    "maker_name": "BMW",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "78": {
+    "car_id": 78,
+    "car_name": "Silvia K's Aero (S14) '96",
+    "maker_id": 28,
+    "maker_name": "Nissan",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "3517": {
+    "car_id": 3517,
+    "car_name": "Red Bull X2019 25th Anniversary",
+    "maker_id": 33,
+    "maker_name": "Gran Turismo",
+    "maker_country": 0,
+    "isOld": null,
+    "colors": []
+  },
+  "3411": {
+    "car_id": 3411,
+    "car_name": "Giulia GTAm '20",
+    "maker_id": 3,
+    "maker_name": "Alfa Romeo",
+    "maker_country": 7,
+    "isOld": false,
+    "colors": []
+  },
+  "3473": {
+    "car_id": 3473,
+    "car_name": "Chiron '16",
+    "maker_id": 113,
+    "maker_name": "Bugatti",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "3510": {
+    "car_id": 3510,
+    "car_name": "Ferrari Vision Gran Turismo",
+    "maker_id": 110,
+    "maker_name": "Ferrari",
+    "maker_country": 7,
+    "isOld": null,
+    "colors": []
+  },
+  "3518": {
+    "car_id": 3518,
+    "car_name": "Corvette C8 Stingray '20",
+    "maker_id": 7,
+    "maker_name": "Chevrolet",
+    "maker_country": 3,
+    "isOld": false,
+    "colors": []
+  },
+  "781": {
+    "car_id": 781,
+    "car_name": "Celica GT-FOUR Rally Car (ST205) '95",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "2119": {
+    "car_id": 2119,
+    "car_name": "Italdesign VGT Street Mode",
+    "maker_id": 135,
+    "maker_name": "Italdesign",
+    "maker_country": 7,
+    "isOld": null,
+    "colors": []
+  },
+  "2120": {
+    "car_id": 2120,
+    "car_name": "Italdesign VGT Off-road Mode",
+    "maker_id": 135,
+    "maker_name": "Italdesign",
+    "maker_country": 7,
+    "isOld": null,
+    "colors": []
+  },
+  "3509": {
+    "car_id": 3509,
+    "car_name": "911 Carrera RS (901) '73",
+    "maker_id": 136,
+    "maker_name": "Porsche",
+    "maker_country": 5,
+    "isOld": true,
+    "colors": []
+  },
+  "3514": {
+    "car_id": 3514,
+    "car_name": "DS 21 Pallas '70",
+    "maker_id": 9,
+    "maker_name": "Citroen",
+    "maker_country": 6,
+    "isOld": true,
+    "colors": []
+  },
+  "3525": {
+    "car_id": 3525,
+    "car_name": "RA272 '65",
+    "maker_id": 15,
+    "maker_name": "Honda",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "3490": {
+    "car_id": 3490,
+    "car_name": "Carrera GTS (904) '64",
+    "maker_id": 136,
+    "maker_name": "Porsche",
+    "maker_country": 5,
+    "isOld": true,
+    "colors": []
+  },
+  "3519": {
+    "car_id": 3519,
+    "car_name": "959 '87",
+    "maker_id": 136,
+    "maker_name": "Porsche",
+    "maker_country": 5,
+    "isOld": true,
+    "colors": []
+  },
+  "3494": {
+    "car_id": 3494,
+    "car_name": "Alphard Executive Lounge '18",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3521": {
+    "car_id": 3521,
+    "car_name": "Mazda3 '19",
+    "maker_id": 21,
+    "maker_name": "Mazda",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3523": {
+    "car_id": 3523,
+    "car_name": "RS 5 Turbo DTM '19",
+    "maker_id": 5,
+    "maker_name": "Audi",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "543": {
+    "car_id": 543,
+    "car_name": "XJ220 '92",
+    "maker_id": 17,
+    "maker_name": "Jaguar",
+    "maker_country": 4,
+    "isOld": true,
+    "colors": []
+  },
+  "3528": {
+    "car_id": 3528,
+    "car_name": "SF23 Super Formula / Honda '23",
+    "maker_id": 143,
+    "maker_name": "Super Formula (Dallara)",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3529": {
+    "car_id": 3529,
+    "car_name": "SF23 Super Formula / Toyota '23",
+    "maker_id": 143,
+    "maker_name": "Super Formula (Dallara)",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3531": {
+    "car_id": 3531,
+    "car_name": "GT3 '20",
+    "maker_id": 153,
+    "maker_name": "AMG",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "3515": {
+    "car_id": 3515,
+    "car_name": "GR010 HYBRID (Olympic Esports Series) '21",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3522": {
+    "car_id": 3522,
+    "car_name": "Maverick",
+    "maker_id": 156,
+    "maker_name": "Greening Auto Company",
+    "maker_country": 3,
+    "isOld": null,
+    "colors": []
+  },
+  "3524": {
+    "car_id": 3524,
+    "car_name": "GT-R NISMO (R32) '90",
+    "maker_id": 28,
+    "maker_name": "Nissan",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "3530": {
+    "car_id": 3530,
+    "car_name": "Giulia Sprint GT Veloce '67",
+    "maker_id": 3,
+    "maker_name": "Alfa Romeo",
+    "maker_country": 7,
+    "isOld": true,
+    "colors": []
+  },
+  "931": {
+    "car_id": 931,
+    "car_name": "Lancer Evolution III GSR '95",
+    "maker_id": 25,
+    "maker_name": "Mitsubishi",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "3432": {
+    "car_id": 3432,
+    "car_name": "Impreza Sedan WRX STi '04",
+    "maker_id": 38,
+    "maker_name": "Subaru",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3532": {
+    "car_id": 3532,
+    "car_name": "Valkyrie '21",
+    "maker_id": 4,
+    "maker_name": "Aston Martin",
+    "maker_country": 4,
+    "isOld": false,
+    "colors": []
+  },
+  "3464": {
+    "car_id": 3464,
+    "car_name": "Corvette (C1) '58",
+    "maker_id": 7,
+    "maker_name": "Chevrolet",
+    "maker_country": 3,
+    "isOld": true,
+    "colors": []
+  },
+  "3533": {
+    "car_id": 3533,
+    "car_name": "MC20 '20",
+    "maker_id": 116,
+    "maker_name": "Maserati",
+    "maker_country": 7,
+    "isOld": false,
+    "colors": []
+  },
+  "3534": {
+    "car_id": 3534,
+    "car_name": "Ambulance Himedic '21",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3535": {
+    "car_id": 3535,
+    "car_name": "GR Corolla MORIZO Edition '22",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3526": {
+    "car_id": 3526,
+    "car_name": "Civic",
+    "maker_id": 157,
+    "maker_name": "Garage RCR",
+    "maker_country": 3,
+    "isOld": null,
+    "colors": []
+  },
+  "3536": {
+    "car_id": 3536,
+    "car_name": "Civic Type R (FL5) '22",
+    "maker_id": 15,
+    "maker_name": "Honda",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3537": {
+    "car_id": 3537,
+    "car_name": "MAZDA3 Gr.4",
+    "maker_id": 21,
+    "maker_name": "Mazda",
+    "maker_country": 2,
+    "isOld": null,
+    "colors": []
+  },
+  "1562": {
+    "car_id": 1562,
+    "car_name": "LFA '10",
+    "maker_id": 50,
+    "maker_name": "Lexus",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3486": {
+    "car_id": 3486,
+    "car_name": "Challenger SRT Demon '18",
+    "maker_id": 11,
+    "maker_name": "Dodge",
+    "maker_country": 3,
+    "isOld": false,
+    "colors": []
+  },
+  "3520": {
+    "car_id": 3520,
+    "car_name": "400R '95",
+    "maker_id": 155,
+    "maker_name": "NISMO",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "575": {
+    "car_id": 575,
+    "car_name": "190 E 2.5-16 Evolution II '91",
+    "maker_id": 22,
+    "maker_name": "Mercedes-Benz",
+    "maker_country": 5,
+    "isOld": true,
+    "colors": []
+  },
+  "3538": {
+    "car_id": 3538,
+    "car_name": "Charger R/T 426 Hemi '68",
+    "maker_id": 11,
+    "maker_name": "Dodge",
+    "maker_country": 3,
+    "isOld": true,
+    "colors": []
+  },
+  "3539": {
+    "car_id": 3539,
+    "car_name": "911 GT3 RS (992) '22",
+    "maker_id": 136,
+    "maker_name": "Porsche",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "3540": {
+    "car_id": 3540,
+    "car_name": "Model 3 Performance '23",
+    "maker_id": 119,
+    "maker_name": "Tesla",
+    "maker_country": 3,
+    "isOld": false,
+    "colors": []
+  },
+  "3541": {
+    "car_id": 3541,
+    "car_name": "BVLGARI Aluminium VGT",
+    "maker_id": 158,
+    "maker_name": "BVLGARI",
+    "maker_country": 7,
+    "isOld": null,
+    "colors": []
+  },
+  "3543": {
+    "car_id": 3543,
+    "car_name": "Genesis X Gran Berlinetta VGT Concept",
+    "maker_id": 152,
+    "maker_name": "Genesis",
+    "maker_country": 9,
+    "isOld": null,
+    "colors": []
+  },
+  "3545": {
+    "car_id": 3545,
+    "car_name": "Jimny XC '18",
+    "maker_id": 39,
+    "maker_name": "Suzuki",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "1541": {
+    "car_id": 1541,
+    "car_name": "TTS Coupe '09",
+    "maker_id": 5,
+    "maker_name": "Audi",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "3424": {
+    "car_id": 3424,
+    "car_name": "Lancer Evolution IX MR GSR '06",
+    "maker_id": 25,
+    "maker_name": "Mitsubishi",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "3547": {
+    "car_id": 3547,
+    "car_name": "R4 GTL '85",
+    "maker_id": 34,
+    "maker_name": "Renault",
+    "maker_country": 6,
+    "isOld": true,
+    "colors": []
+  },
+  "116": {
+    "car_id": 116,
+    "car_name": "GT-One (TS020) '99",
+    "maker_id": 43,
+    "maker_name": "Toyota",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "3412": {
+    "car_id": 3412,
+    "car_name": "R8 Coupé V10 plus '16",
+    "maker_id": 5,
+    "maker_name": "Audi",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "3548": {
+    "car_id": 3548,
+    "car_name": "Urus '18",
+    "maker_id": 112,
+    "maker_name": "Lamborghini",
+    "maker_country": 7,
+    "isOld": false,
+    "colors": []
+  },
+  "36": {
+    "car_id": 36,
+    "car_name": "Chevelle SS 454 Sport Coupé '70",
+    "maker_id": 7,
+    "maker_name": "Chevrolet",
+    "maker_country": 3,
+    "isOld": true,
+    "colors": []
+  },
+  "3542": {
+    "car_id": 3542,
+    "car_name": "SKODA Vision Gran Turismo",
+    "maker_id": 159,
+    "maker_name": "Skoda",
+    "maker_country": 19,
+    "isOld": null,
+    "colors": []
+  },
+  "3546": {
+    "car_id": 3546,
+    "car_name": "AFEELA Prototype 2024",
+    "maker_id": 160,
+    "maker_name": "AFEELA",
+    "maker_country": 2,
+    "isOld": false,
+    "colors": []
+  },
+  "37": {
+    "car_id": 37,
+    "car_name": "Civic SiR-II (EG) '93",
+    "maker_id": 15,
+    "maker_name": "Honda",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "140": {
+    "car_id": 140,
+    "car_name": "NSX GT500 '00",
+    "maker_id": 15,
+    "maker_name": "Honda",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "102": {
+    "car_id": 102,
+    "car_name": "Skyline GTS-R (R31) '87",
+    "maker_id": 28,
+    "maker_name": "Nissan",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  },
+  "3482": {
+    "car_id": 3482,
+    "car_name": "V40 T5 R-Design '13",
+    "maker_id": 69,
+    "maker_name": "Volvo",
+    "maker_country": 12,
+    "isOld": false,
+    "colors": []
+  },
+  "3549": {
+    "car_id": 3549,
+    "car_name": "240 SE Estate '93",
+    "maker_id": 69,
+    "maker_name": "Volvo",
+    "maker_country": 12,
+    "isOld": true,
+    "colors": []
+  },
+  "3551": {
+    "car_id": 3551,
+    "car_name": "M3 '97",
+    "maker_id": 6,
+    "maker_name": "BMW",
+    "maker_country": 5,
+    "isOld": true,
+    "colors": []
+  },
+  "1544": {
+    "car_id": 1544,
+    "car_name": "430 Scuderia '07",
+    "maker_id": 110,
+    "maker_name": "Ferrari",
+    "maker_country": 7,
+    "isOld": false,
+    "colors": []
+  },
+  "3544": {
+    "car_id": 3544,
+    "car_name": "Genesis X Gran Racer Vision Gran Turismo Concept",
+    "maker_id": 152,
+    "maker_name": "Genesis",
+    "maker_country": 9,
+    "isOld": null,
+    "colors": []
+  },
+  "1506": {
+    "car_id": 1506,
+    "car_name": "Gallardo LP 560-4 '08",
+    "maker_id": 112,
+    "maker_name": "Lamborghini",
+    "maker_country": 7,
+    "isOld": false,
+    "colors": []
+  },
+  "3468": {
+    "car_id": 3468,
+    "car_name": "RGT 4.2 '16",
+    "maker_id": 35,
+    "maker_name": "RUF",
+    "maker_country": 5,
+    "isOld": false,
+    "colors": []
+  },
+  "3550": {
+    "car_id": 3550,
+    "car_name": "Impreza Rally Car '98",
+    "maker_id": 38,
+    "maker_name": "Subaru",
+    "maker_country": 2,
+    "isOld": true,
+    "colors": []
+  }
+}

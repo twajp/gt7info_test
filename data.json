@@ -1,6 +1,21 @@
 {
-  "timestamp": "2024-08-03T00:09:05.982371+00:00",
+  "timestamp": "2024-08-04T00:09:54.482012+00:00",
   "content": [
+    {
+      "id": 20240804,
+      "date": "2024/8/4",
+      "used": [
+        {
+          "car_id": 810,
+          "maker_name": "Toyota",
+          "car_name": "Sprinter Trueno 1600GT APEX (AE86) '83",
+          "price": 51900,
+          "price_jp": 5190000,
+          "isOld": true
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20240803,
       "date": "2024/8/3",
@@ -613,62 +628,6 @@
         }
       ],
       "legend": []
-    },
-    {
-      "id": 20240721,
-      "date": "2024/7/21",
-      "used": [
-        {
-          "car_id": 1973,
-          "maker_name": "Abarth",
-          "car_name": "Abarth 500 '09",
-          "price": 22100,
-          "price_jp": 2210000,
-          "isOld": false
-        },
-        {
-          "car_id": 3385,
-          "maker_name": "Porsche",
-          "car_name": "911 Turbo (930) '81",
-          "price": 215600,
-          "price_jp": 21560000,
-          "isOld": true
-        },
-        {
-          "car_id": 211,
-          "maker_name": "Mitsubishi",
-          "car_name": "Lancer Evolution V GSR '98",
-          "price": 77500,
-          "price_jp": 7750000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "car_id": 3514,
-          "maker_name": "Citroen",
-          "car_name": "DS 21 Pallas '70",
-          "price": 47600,
-          "price_jp": 4760000,
-          "isOld": true
-        },
-        {
-          "car_id": 1927,
-          "maker_name": "Audi",
-          "car_name": "Sport quattro S1 Pikes Peak '87",
-          "price": 1900000,
-          "price_jp": 190000000,
-          "isOld": true
-        },
-        {
-          "car_id": 3446,
-          "maker_name": "Porsche",
-          "car_name": "Spyder type 550/1500RS '55",
-          "price": 4850000,
-          "price_jp": 485000000,
-          "isOld": true
-        }
-      ]
     }
   ]
 }

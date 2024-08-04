@@ -186,8 +186,15 @@
     "maker_name": "Nissan",
     "maker_country": 2,
     "isOld": false,
-    "colors": [],
-    "default_color": null
+    "colors": [
+      "White Pearl",
+      "White",
+      "Sparkling Silver Metallic",
+      "Black Pearl",
+      "Bay Side Blue",
+      "Millennium Jade"
+    ],
+    "default_color": 4
   },
   "211": {
     "car_id": 211,
@@ -426,8 +433,12 @@
     "maker_name": "Toyota",
     "maker_country": 2,
     "isOld": true,
-    "colors": [],
-    "default_color": null
+    "colors": [
+      "High Tech Two-Tone",
+      "High Metal Two-Tone",
+      "High Flash Two-Tone"
+    ],
+    "default_color": 0
   },
   "818": {
     "car_id": 818,
@@ -466,8 +477,11 @@
     "maker_name": "Nissan",
     "maker_country": 2,
     "isOld": true,
-    "colors": [],
-    "default_color": null
+    "colors": [
+      "Silver Metallic",
+      "White"
+    ],
+    "default_color": 0
   },
   "843": {
     "car_id": 843,
@@ -546,8 +560,10 @@
     "maker_name": "Ford",
     "maker_country": 3,
     "isOld": null,
-    "colors": [],
-    "default_color": null
+    "colors": [
+      ""
+    ],
+    "default_color": 0
   },
   "1044": {
     "car_id": 1044,
@@ -686,8 +702,10 @@
     "maker_name": "Ford",
     "maker_country": 3,
     "isOld": null,
-    "colors": [],
-    "default_color": null
+    "colors": [
+      ""
+    ],
+    "default_color": 0
   },
   "1426": {
     "car_id": 1426,
@@ -696,8 +714,30 @@
     "maker_name": "Ford",
     "maker_country": 3,
     "isOld": false,
-    "colors": [],
-    "default_color": null
+    "colors": [
+      "Centennial White",
+      "Centennial White / Bodyside Stripes",
+      "Centennial White / Racing Stripes",
+      "Quick Silver Metallic",
+      "Quick Silver Metallic / Bodyside Stripes",
+      "Quick Silver Metallic / Racing Stripes",
+      "Tungsten Grey",
+      "Tungsten Grey / Bodyside Stripes",
+      "Tungsten Grey / Racing Stripes",
+      "Mark II Black",
+      "Mark II Black / Bodyside Stripes",
+      "Mark II Black / Racing Stripes",
+      "Midnight Blue Metallic",
+      "Midnight Blue Metallic / Bodyside Stripes",
+      "Midnight Blue Metallic / Racing Stripes",
+      "Mark IV Red",
+      "Mark IV Red / Bodyside Stripes",
+      "Mark IV Red / Racing Stripes",
+      "Speed Yellow",
+      "Speed Yellow / Bodyside Stripes",
+      "Speed Yellow / Racing Stripes"
+    ],
+    "default_color": 8
   },
   "1431": {
     "car_id": 1431,
@@ -1846,8 +1886,19 @@
     "maker_name": "Ford",
     "maker_country": 3,
     "isOld": false,
-    "colors": [],
-    "default_color": null
+    "colors": [
+      "Oxford White",
+      "Ingot Silver",
+      "Guard",
+      "Magnetic",
+      "Shadow Black",
+      "Triple Yellow",
+      "Competition Orange",
+      "Race Red",
+      "Ruby Red Tinted Clearcoat Mtallic",
+      "Deep Impack Blue"
+    ],
+    "default_color": 5
   },
   "2139": {
     "car_id": 2139,
@@ -1906,8 +1957,15 @@
     "maker_name": "Ford",
     "maker_country": 3,
     "isOld": false,
-    "colors": [],
-    "default_color": null
+    "colors": [
+      "Oxford White",
+      "Tangerine Scream",
+      "Race Red",
+      "Performance Blue",
+      "Magnetic",
+      "Tuxedo Black"
+    ],
+    "default_color": 0
   },
   "2146": {
     "car_id": 2146,
@@ -2036,8 +2094,10 @@
     "maker_name": "Ford",
     "maker_country": 3,
     "isOld": null,
-    "colors": [],
-    "default_color": null
+    "colors": [
+      ""
+    ],
+    "default_color": 0
   },
   "2160": {
     "car_id": 2160,
@@ -2086,8 +2146,13 @@
     "maker_name": "Ford",
     "maker_country": 3,
     "isOld": null,
-    "colors": [],
-    "default_color": null
+    "colors": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "default_color": 0
   },
   "2166": {
     "car_id": 2166,
@@ -2546,8 +2611,10 @@
     "maker_name": "Ford",
     "maker_country": 3,
     "isOld": null,
-    "colors": [],
-    "default_color": null
+    "colors": [
+      ""
+    ],
+    "default_color": 0
   },
   "3230": {
     "car_id": 3230,
@@ -2826,8 +2893,10 @@
     "maker_name": "Ford",
     "maker_country": 3,
     "isOld": null,
-    "colors": [],
-    "default_color": null
+    "colors": [
+      ""
+    ],
+    "default_color": 0
   },
   "3265": {
     "car_id": 3265,
@@ -2926,8 +2995,19 @@
     "maker_name": "Ford",
     "maker_country": 3,
     "isOld": null,
-    "colors": [],
-    "default_color": null
+    "colors": [
+      "Oxford White",
+      "Gran Turismo Silver",
+      "Guard",
+      "Magnetic",
+      "Shadow Black",
+      "Triple Yellow",
+      "Competition Orange",
+      "Race Red",
+      "Ruby Red Tinted Clearcoat Mtallic",
+      "Deep Impack Blue"
+    ],
+    "default_color": 7
   },
   "3301": {
     "car_id": 3301,
@@ -3106,8 +3186,14 @@
     "maker_name": "Ford",
     "maker_country": 3,
     "isOld": false,
-    "colors": [],
-    "default_color": null
+    "colors": [
+      "Oxford White",
+      "Ingot Silver Metallic",
+      "Molten Orange Metallic Tri-coat",
+      "Blue Flame Metallic",
+      "Tuxedo Black Metallic"
+    ],
+    "default_color": 2
   },
   "3337": {
     "car_id": 3337,
@@ -3566,8 +3652,36 @@
     "maker_name": "Ford",
     "maker_country": 3,
     "isOld": false,
-    "colors": [],
-    "default_color": null
+    "colors": [
+      "Oxford White",
+      "Oxford White / Blue Red Stripes",
+      "Oxford White / Black Red Stripes",
+      "Avalanche Grey",
+      "Avalanche Grey / White Red Stripes",
+      "Avalanche Grey / Black Red Stripes",
+      "Magnetic",
+      "Magnetic / Black White Stripes",
+      "Magnetic / Black Red Stripes",
+      "Shadow Black",
+      "Shadow Black / White Red Stripes",
+      "Shadow Black / Black Red Stripes",
+      "Triple Yellow",
+      "Triple Yellow / Black White Stripes",
+      "Triple Yellow / Black Red Stripes",
+      "Competition Orange",
+      "Competition Orange / White Black Stripes",
+      "Competition Orange / Black White Stripes",
+      "Race Red",
+      "Race Red / White Black Stripes",
+      "Race Red / Black White Stripes",
+      "Liquid Blue",
+      "Liquid Blue / White Red Stripes",
+      "Liquid Blue / Black White Stripes",
+      "Deep Impack Blue",
+      "Deep Impack Blue / White Black Stripes",
+      "Deep Impack Blue / Black Red Stripes"
+    ],
+    "default_color": 23
   },
   "3392": {
     "car_id": 3392,
@@ -3666,8 +3780,25 @@
     "maker_name": "Ford",
     "maker_country": 3,
     "isOld": false,
-    "colors": [],
-    "default_color": null
+    "colors": [
+      "Frozen White",
+      "Frozen White / Stripes",
+      "Ingot Silver",
+      "Ingot Silver / Stripes",
+      "Liquid Grey",
+      "Liquid Grey / Stripes",
+      "Shadow Black",
+      "Shadow Black / Stripes",
+      "Liquid Blue",
+      "Liquid Blue / Stripes",
+      "Liquid Red",
+      "Liquid Red / Stripes",
+      "Triple Yellow",
+      "Triple Yellow / Stripes",
+      "Matte Black",
+      "Matte Black / Stripes"
+    ],
+    "default_color": 13
   },
   "3403": {
     "car_id": 3403,
@@ -3826,8 +3957,12 @@
     "maker_name": "Ford",
     "maker_country": 3,
     "isOld": false,
-    "colors": [],
-    "default_color": null
+    "colors": [
+      "Nitrous",
+      "Race Red",
+      "Liquid Blue"
+    ],
+    "default_color": 0
   },
   "3422": {
     "car_id": 3422,
@@ -3876,8 +4011,16 @@
     "maker_name": "Nissan",
     "maker_country": 2,
     "isOld": true,
-    "colors": [],
-    "default_color": null
+    "colors": [
+      null,
+      "Grand Prix White",
+      null,
+      null,
+      "Safari Cold",
+      "Grand Prix Orange",
+      "Daytona Red"
+    ],
+    "default_color": 4
   },
   "3430": {
     "car_id": 3430,
@@ -3926,8 +4069,10 @@
     "maker_name": "Ford",
     "maker_country": 3,
     "isOld": false,
-    "colors": [],
-    "default_color": null
+    "colors": [
+      "Ford Chip Ganassi Racing"
+    ],
+    "default_color": 0
   },
   "3437": {
     "car_id": 3437,
@@ -4446,8 +4591,12 @@
     "maker_name": "Nissan",
     "maker_country": 2,
     "isOld": true,
-    "colors": [],
-    "default_color": null
+    "colors": [
+      "White",
+      "Silver Metallic",
+      "Red"
+    ],
+    "default_color": 2
   },
   "3421": {
     "car_id": 3421,
@@ -5086,8 +5235,22 @@
     "maker_name": "Volvo",
     "maker_country": 12,
     "isOld": true,
-    "colors": [],
-    "default_color": null
+    "colors": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "Light Blue Metallic",
+      null,
+      null,
+      "Red"
+    ],
+    "default_color": 12
   },
   "3551": {
     "car_id": 3551,
@@ -5096,8 +5259,17 @@
     "maker_name": "BMW",
     "maker_country": 5,
     "isOld": true,
-    "colors": [],
-    "default_color": null
+    "colors": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      "Estoril Blue",
+      null,
+      null
+    ],
+    "default_color": 5
   },
   "1544": {
     "car_id": 1544,

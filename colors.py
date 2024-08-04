@@ -33,7 +33,7 @@ def MakeCarList(carList, makerList):
                 except:
                     isOld = None
 
-                res[car_id] = {'car_id': car_id, 'car_name': car_name, 'maker_id': maker_id, 'maker_name': maker_name,  'maker_country': maker_country, 'isOld': isOld, 'colors': []}
+                res[car_id] = {'car_id': car_id, 'car_name': car_name, 'maker_id': maker_id, 'maker_name': maker_name,  'maker_country': maker_country, 'isOld': isOld, 'colors': [], 'default_color': None}
     return res
 
 

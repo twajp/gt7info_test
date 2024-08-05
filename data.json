@@ -1,6 +1,46 @@
 {
-  "timestamp": "2024-08-04T07:16:22.950005+00:00",
+  "timestamp": "2024-08-05T00:10:06.863391+00:00",
   "content": [
+    {
+      "id": 20240805,
+      "date": "2024/8/5",
+      "used": [
+        {
+          "car_id": 1933,
+          "maker_name": "Alfa Romeo",
+          "car_name": "MiTo '09",
+          "price": 22700,
+          "price_jp": 2270000,
+          "isOld": false
+        },
+        {
+          "car_id": 1523,
+          "maker_name": "Fiat",
+          "car_name": "500 F '68",
+          "price": 15500,
+          "price_jp": 1550000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "car_id": 1931,
+          "maker_name": "Ferrari",
+          "car_name": "250 GT Berlinetta passo corto '61",
+          "price": 8100000,
+          "price_jp": 810000000,
+          "isOld": true
+        },
+        {
+          "car_id": 3429,
+          "maker_name": "Nissan",
+          "car_name": "Fairlady Z 432 '69",
+          "price": 312000,
+          "price_jp": 31200000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20240804,
       "date": "2024/8/4",
@@ -613,21 +653,6 @@
           "isOld": true
         }
       ]
-    },
-    {
-      "id": 20240722,
-      "date": "2024/7/22",
-      "used": [
-        {
-          "car_id": 1528,
-          "maker_name": "Mercedes-Benz",
-          "car_name": "SLR McLaren '09",
-          "price": 493500,
-          "price_jp": 49350000,
-          "isOld": false
-        }
-      ],
-      "legend": []
     }
   ]
 }

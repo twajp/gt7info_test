@@ -1,6 +1,54 @@
 {
-  "timestamp": "2024-08-05T00:10:06.863391+00:00",
+  "timestamp": "2024-08-06T00:09:04.463007+00:00",
   "content": [
+    {
+      "id": 20240806,
+      "date": "2024/8/6",
+      "used": [
+        {
+          "car_id": 3422,
+          "maker_name": "BMW",
+          "car_name": "3.0 CSL '73",
+          "price": 250000,
+          "price_jp": 25000000,
+          "isOld": true
+        },
+        {
+          "car_id": 3530,
+          "maker_name": "Alfa Romeo",
+          "car_name": "Giulia Sprint GT Veloce '67",
+          "price": 169000,
+          "price_jp": 16900000,
+          "isOld": true
+        },
+        {
+          "car_id": 1027,
+          "maker_name": "DMC",
+          "car_name": "DeLorean S2 '04",
+          "price": 472300,
+          "price_jp": 47230000,
+          "isOld": false
+        },
+        {
+          "car_id": 3434,
+          "maker_name": "Ferrari",
+          "car_name": "Testarossa '91",
+          "price": 392500,
+          "price_jp": 39250000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "car_id": 3445,
+          "maker_name": "Aston Martin",
+          "car_name": "DB5 '64",
+          "price": 892000,
+          "price_jp": 89200000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20240805,
       "date": "2024/8/5",
@@ -594,62 +642,6 @@
           "car_name": "190 E 2.5-16 Evolution II '91",
           "price": 280000,
           "price_jp": 28000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20240723,
-      "date": "2024/7/23",
-      "used": [
-        {
-          "car_id": 41,
-          "maker_name": "Chevrolet",
-          "car_name": "Corvette Stingray (C3) '69",
-          "price": 71500,
-          "price_jp": 7150000,
-          "isOld": true
-        },
-        {
-          "car_id": 3547,
-          "maker_name": "Renault",
-          "car_name": "R4 GTL '85",
-          "price": 24100,
-          "price_jp": 2410000,
-          "isOld": true
-        },
-        {
-          "car_id": 1671,
-          "maker_name": "Volkswagen",
-          "car_name": "Sambabus Typ 2 '62",
-          "price": 57100,
-          "price_jp": 5710000,
-          "isOld": true
-        },
-        {
-          "car_id": 78,
-          "maker_name": "Nissan",
-          "car_name": "Silvia K's Aero (S14) '96",
-          "price": 59300,
-          "price_jp": 5930000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "car_id": 1540,
-          "maker_name": "McLaren",
-          "car_name": "McLaren F1 '94",
-          "price": 20000000,
-          "price_jp": 2000000000,
-          "isOld": true
-        },
-        {
-          "car_id": 837,
-          "maker_name": "Nissan",
-          "car_name": "Skyline Hard Top 2000GT-R (KPGC10) '70",
-          "price": 194000,
-          "price_jp": 19400000,
           "isOld": true
         }
       ]

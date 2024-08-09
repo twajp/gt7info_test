@@ -1,6 +1,78 @@
 {
-  "timestamp": "2024-08-08T00:08:49.844875+00:00",
+  "timestamp": "2024-08-09T00:08:53.501560+00:00",
   "content": [
+    {
+      "id": 20240809,
+      "date": "2024/8/9",
+      "used": [
+        {
+          "car_id": 173,
+          "maker_name": "Renault",
+          "car_name": "R5 Turbo '80",
+          "price": 151900,
+          "price_jp": 15190000,
+          "isOld": true
+        },
+        {
+          "car_id": 3438,
+          "maker_name": "Abarth",
+          "car_name": "Abarth 595 SS '70",
+          "price": 58200,
+          "price_jp": 5820000,
+          "isOld": true
+        },
+        {
+          "car_id": 451,
+          "maker_name": "Subaru",
+          "car_name": "Impreza 22B-STi '98",
+          "price": 176100,
+          "price_jp": 17610000,
+          "isOld": true
+        },
+        {
+          "car_id": 41,
+          "maker_name": "Chevrolet",
+          "car_name": "Corvette Stingray (C3) '69",
+          "price": 63100,
+          "price_jp": 6310000,
+          "isOld": true
+        },
+        {
+          "car_id": 207,
+          "maker_name": "Toyota",
+          "car_name": "MR2 GT-S '97",
+          "price": 53600,
+          "price_jp": 5360000,
+          "isOld": true
+        },
+        {
+          "car_id": 1365,
+          "maker_name": "Audi",
+          "car_name": "R8 4.2 '07",
+          "price": 135900,
+          "price_jp": 13590000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "car_id": 3490,
+          "maker_name": "Porsche",
+          "car_name": "Carrera GTS (904) '64",
+          "price": 2300000,
+          "price_jp": 230000000,
+          "isOld": true
+        },
+        {
+          "car_id": 3421,
+          "maker_name": "Maserati",
+          "car_name": "Merak SS '80",
+          "price": 64200,
+          "price_jp": 6420000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20240808,
       "date": "2024/8/8",
@@ -654,21 +726,6 @@
           "isOld": true
         }
       ]
-    },
-    {
-      "id": 20240726,
-      "date": "2024/7/26",
-      "used": [
-        {
-          "car_id": 37,
-          "maker_name": "Honda",
-          "car_name": "Civic SiR-II (EG) '93",
-          "price": 52500,
-          "price_jp": 5250000,
-          "isOld": true
-        }
-      ],
-      "legend": []
     }
   ]
 }

@@ -1,6 +1,29 @@
 {
-  "timestamp": "2024-08-09T00:08:53.501560+00:00",
+  "timestamp": "2024-08-10T00:09:06.967768+00:00",
   "content": [
+    {
+      "id": 20240810,
+      "date": "2024/8/10",
+      "used": [
+        {
+          "car_id": 688,
+          "maker_name": "Honda",
+          "car_name": "Integra Type R (DC2) '95",
+          "price": 62300,
+          "price_jp": 6230000,
+          "isOld": true
+        },
+        {
+          "car_id": 942,
+          "maker_name": "Chevrolet",
+          "car_name": "Corvette ZR-1 (C4) '89",
+          "price": 77800,
+          "price_jp": 7780000,
+          "isOld": true
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20240809,
       "date": "2024/8/9",
@@ -667,62 +690,6 @@
           "car_name": "McLaren F1 GTR - BMW '95",
           "price": 15000000,
           "price_jp": 1500000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20240727,
-      "date": "2024/7/27",
-      "used": [
-        {
-          "car_id": 102,
-          "maker_name": "Nissan",
-          "car_name": "Skyline GTS-R (R31) '87",
-          "price": 162200,
-          "price_jp": 16220000,
-          "isOld": true
-        },
-        {
-          "car_id": 3439,
-          "maker_name": "Porsche",
-          "car_name": "911 Carrera RS (993) '95",
-          "price": 229200,
-          "price_jp": 22920000,
-          "isOld": true
-        },
-        {
-          "car_id": 1722,
-          "maker_name": "McLaren",
-          "car_name": "MP4-12C '10",
-          "price": 194100,
-          "price_jp": 19410000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "car_id": 140,
-          "maker_name": "Honda",
-          "car_name": "NSX GT500 '00",
-          "price": 1500000,
-          "price_jp": 150000000,
-          "isOld": true
-        },
-        {
-          "car_id": 3376,
-          "maker_name": "Jaguar",
-          "car_name": "D-type '54",
-          "price": 6000000,
-          "price_jp": 600000000,
-          "isOld": true
-        },
-        {
-          "car_id": 3428,
-          "maker_name": "Mercedes-Benz",
-          "car_name": "S Barker Tourer '29",
-          "price": 13000000,
-          "price_jp": 1300000000,
           "isOld": true
         }
       ]

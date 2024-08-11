@@ -1,6 +1,29 @@
 {
-  "timestamp": "2024-08-10T00:09:06.967768+00:00",
+  "timestamp": "2024-08-11T00:09:55.943288+00:00",
   "content": [
+    {
+      "id": 20240811,
+      "date": "2024/8/11",
+      "used": [
+        {
+          "car_id": 135,
+          "maker_name": "Honda",
+          "car_name": "S800 '66",
+          "price": 48700,
+          "price_jp": 4870000,
+          "isOld": true
+        },
+        {
+          "car_id": 3442,
+          "maker_name": "Autobianchi",
+          "car_name": "A112 Abarth '85",
+          "price": 29800,
+          "price_jp": 2980000,
+          "isOld": true
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20240810,
       "date": "2024/8/10",
@@ -618,78 +641,6 @@
           "car_name": "XJ13 '66",
           "price": 12000000,
           "price_jp": 1200000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20240728,
-      "date": "2024/7/28",
-      "used": [
-        {
-          "car_id": 3549,
-          "maker_name": "Volvo",
-          "car_name": "240 SE Estate '93",
-          "price": 47000,
-          "price_jp": 4700000,
-          "isOld": true
-        },
-        {
-          "car_id": 1044,
-          "maker_name": "Toyota",
-          "car_name": "Sports 800 '65",
-          "price": 46300,
-          "price_jp": 4630000,
-          "isOld": true
-        },
-        {
-          "car_id": 1985,
-          "maker_name": "Pontiac",
-          "car_name": "Firebird Trans Am '78",
-          "price": 87900,
-          "price_jp": 8790000,
-          "isOld": true
-        },
-        {
-          "car_id": 145,
-          "maker_name": "Daihatsu",
-          "car_name": "Copen '02",
-          "price": 15700,
-          "price_jp": 1570000,
-          "isOld": false
-        },
-        {
-          "car_id": 3398,
-          "maker_name": "RUF",
-          "car_name": "CTR3 '07",
-          "price": 770800,
-          "price_jp": 77080000,
-          "isOld": false
-        },
-        {
-          "car_id": 210,
-          "maker_name": "Nissan",
-          "car_name": "R34 GT-R V-spec II Nur '02",
-          "price": 401100,
-          "price_jp": 40110000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "car_id": 387,
-          "maker_name": "Mercedes-Benz",
-          "car_name": "300 SL Coupe '54",
-          "price": 1700000,
-          "price_jp": 170000000,
-          "isOld": true
-        },
-        {
-          "car_id": 1984,
-          "maker_name": "McLaren",
-          "car_name": "McLaren F1 GTR - BMW '95",
-          "price": 15000000,
-          "price_jp": 1500000000,
           "isOld": true
         }
       ]

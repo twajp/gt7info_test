@@ -1,6 +1,21 @@
 {
-  "timestamp": "2024-08-11T00:09:55.943288+00:00",
+  "timestamp": "2024-08-12T00:09:35.965785+00:00",
   "content": [
+    {
+      "id": 20240812,
+      "date": "2024/8/12",
+      "used": [],
+      "legend": [
+        {
+          "car_id": 1470,
+          "maker_name": "Toyota",
+          "car_name": "Supra GT500 '97",
+          "price": 1800000,
+          "price_jp": 180000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20240811,
       "date": "2024/8/11",
@@ -585,62 +600,6 @@
           "car_name": "Charger R/T 426 Hemi '68",
           "price": 158000,
           "price_jp": 15800000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20240729,
-      "date": "2024/7/29",
-      "used": [
-        {
-          "car_id": 1385,
-          "maker_name": "Suzuki",
-          "car_name": "Swift Sport '07",
-          "price": 11800,
-          "price_jp": 1180000,
-          "isOld": false
-        },
-        {
-          "car_id": 1542,
-          "maker_name": "Chevrolet",
-          "car_name": "Corvette Convertible (C3) '69",
-          "price": 58200,
-          "price_jp": 5820000,
-          "isOld": true
-        },
-        {
-          "car_id": 104,
-          "maker_name": "Nissan",
-          "car_name": "Sileighty '98",
-          "price": 81600,
-          "price_jp": 8160000,
-          "isOld": true
-        },
-        {
-          "car_id": 1507,
-          "maker_name": "AMG",
-          "car_name": "SLS AMG '10",
-          "price": 310900,
-          "price_jp": 31090000,
-          "isOld": false
-        },
-        {
-          "car_id": 1539,
-          "maker_name": "Maserati",
-          "car_name": "GranTurismo S '08",
-          "price": 137700,
-          "price_jp": 13770000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "car_id": 1553,
-          "maker_name": "Jaguar",
-          "car_name": "XJ13 '66",
-          "price": 12000000,
-          "price_jp": 1200000000,
           "isOld": true
         }
       ]

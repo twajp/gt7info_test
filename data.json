@@ -1,6 +1,54 @@
 {
-  "timestamp": "2024-08-12T00:09:35.965785+00:00",
+  "timestamp": "2024-08-13T00:08:52.675790+00:00",
   "content": [
+    {
+      "id": 20240813,
+      "date": "2024/8/13",
+      "used": [
+        {
+          "car_id": 3549,
+          "maker_name": "Volvo",
+          "car_name": "240 SE Estate '93",
+          "price": 50000,
+          "price_jp": 5000000,
+          "isOld": true
+        },
+        {
+          "car_id": 3341,
+          "maker_name": "De Tomaso",
+          "car_name": "Pantera '71",
+          "price": 170400,
+          "price_jp": 17040000,
+          "isOld": true
+        },
+        {
+          "car_id": 1448,
+          "maker_name": "Nissan",
+          "car_name": "SILVIA spec-R Aero (S15) '02",
+          "price": 59900,
+          "price_jp": 5990000,
+          "isOld": false
+        },
+        {
+          "car_id": 1528,
+          "maker_name": "Mercedes-Benz",
+          "car_name": "SLR McLaren '09",
+          "price": 495200,
+          "price_jp": 49520000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "car_id": 3464,
+          "maker_name": "Chevrolet",
+          "car_name": "Corvette (C1) '58",
+          "price": 119000,
+          "price_jp": 11900000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20240812,
       "date": "2024/8/12",
@@ -544,62 +592,6 @@
           "car_name": "GT-R GT500 '99",
           "price": 2500000,
           "price_jp": 250000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20240730,
-      "date": "2024/7/30",
-      "used": [
-        {
-          "car_id": 709,
-          "maker_name": "Nissan",
-          "car_name": "Fairlady Z 300ZX TT 2seater '89",
-          "price": 70000,
-          "price_jp": 7000000,
-          "isOld": true
-        },
-        {
-          "car_id": 3403,
-          "maker_name": "Volkswagen",
-          "car_name": "Golf I GTI '83",
-          "price": 40500,
-          "price_jp": 4050000,
-          "isOld": true
-        },
-        {
-          "car_id": 533,
-          "maker_name": "Lancia",
-          "car_name": "Stratos '73",
-          "price": 539300,
-          "price_jp": 53930000,
-          "isOld": true
-        },
-        {
-          "car_id": 1893,
-          "maker_name": "BMW",
-          "car_name": "Z8 '01",
-          "price": 267200,
-          "price_jp": 26720000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "car_id": 1484,
-          "maker_name": "Lamborghini",
-          "car_name": "Countach LP400 '74",
-          "price": 1350000,
-          "price_jp": 135000000,
-          "isOld": true
-        },
-        {
-          "car_id": 3538,
-          "maker_name": "Dodge",
-          "car_name": "Charger R/T 426 Hemi '68",
-          "price": 158000,
-          "price_jp": 15800000,
           "isOld": true
         }
       ]

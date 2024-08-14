@@ -1,6 +1,62 @@
 {
-  "timestamp": "2024-08-13T00:08:52.675790+00:00",
+  "timestamp": "2024-08-14T00:08:57.644942+00:00",
   "content": [
+    {
+      "id": 20240814,
+      "date": "2024/8/14",
+      "used": [
+        {
+          "car_id": 829,
+          "maker_name": "Lancia",
+          "car_name": "Delta HF Integrale Evoluzione '91",
+          "price": 98900,
+          "price_jp": 9890000,
+          "isOld": true
+        },
+        {
+          "car_id": 779,
+          "maker_name": "Suzuki",
+          "car_name": "Cappuccino (EA11R) '91",
+          "price": 16000,
+          "price_jp": 1600000,
+          "isOld": true
+        },
+        {
+          "car_id": 1773,
+          "maker_name": "Volkswagen",
+          "car_name": "Scirocco R '10",
+          "price": 37900,
+          "price_jp": 3790000,
+          "isOld": false
+        },
+        {
+          "car_id": 489,
+          "maker_name": "Nissan",
+          "car_name": "R33 GT-R V-spec '97",
+          "price": 154300,
+          "price_jp": 15430000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "car_id": 3489,
+          "maker_name": "Maserati",
+          "car_name": "A6GCS/53 Spyder '54",
+          "price": 2500000,
+          "price_jp": 250000000,
+          "isOld": true
+        },
+        {
+          "car_id": 543,
+          "maker_name": "Jaguar",
+          "car_name": "XJ220 '92",
+          "price": 615000,
+          "price_jp": 61500000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20240813,
       "date": "2024/8/13",
@@ -528,70 +584,6 @@
           "car_name": "356 A/1500 GS GT Carrera Speedster '56",
           "price": 1600000,
           "price_jp": 160000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20240731,
-      "date": "2024/7/31",
-      "used": [
-        {
-          "car_id": 1796,
-          "maker_name": "Alpine",
-          "car_name": "A110 '72",
-          "price": 142200,
-          "price_jp": 14220000,
-          "isOld": true
-        },
-        {
-          "car_id": 3513,
-          "maker_name": "Nissan",
-          "car_name": "Silvia K's Type S (S14) '94",
-          "price": 51400,
-          "price_jp": 5140000,
-          "isOld": true
-        },
-        {
-          "car_id": 3377,
-          "maker_name": "Dodge",
-          "car_name": "Super Bee '70",
-          "price": 61100,
-          "price_jp": 6110000,
-          "isOld": true
-        },
-        {
-          "car_id": 1895,
-          "maker_name": "Ferrari",
-          "car_name": "Dino 246 GT '71",
-          "price": 338000,
-          "price_jp": 33800000,
-          "isOld": true
-        },
-        {
-          "car_id": 374,
-          "maker_name": "Mazda",
-          "car_name": "RX-7 GT-X (FC) '90",
-          "price": 53800,
-          "price_jp": 5380000,
-          "isOld": true
-        },
-        {
-          "car_id": 1508,
-          "maker_name": "Mitsubishi",
-          "car_name": "Lancer Evolution VI GSR T.M. SCP '99",
-          "price": 174200,
-          "price_jp": 17420000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "car_id": 485,
-          "maker_name": "Nissan",
-          "car_name": "GT-R GT500 '99",
-          "price": 2500000,
-          "price_jp": 250000000,
           "isOld": true
         }
       ]

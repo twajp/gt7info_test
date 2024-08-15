@@ -1,6 +1,29 @@
 {
-  "timestamp": "2024-08-14T00:08:57.644942+00:00",
+  "timestamp": "2024-08-15T00:08:52.101295+00:00",
   "content": [
+    {
+      "id": 20240815,
+      "date": "2024/8/15",
+      "used": [
+        {
+          "car_id": 48,
+          "maker_name": "Nissan",
+          "car_name": "Fairlady 240ZG (HS30) '71",
+          "price": 106400,
+          "price_jp": 10640000,
+          "isOld": true
+        },
+        {
+          "car_id": 205,
+          "maker_name": "Mazda",
+          "car_name": "RX-7 Spirit R Type A (FD) '02",
+          "price": 216300,
+          "price_jp": 21630000,
+          "isOld": false
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20240814,
       "date": "2024/8/14",
@@ -536,54 +559,6 @@
           "car_name": "Cobra Daytona Coupe '64",
           "price": 20000000,
           "price_jp": 2000000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20240801,
-      "date": "2024/8/1",
-      "used": [
-        {
-          "car_id": 1689,
-          "maker_name": "Honda",
-          "car_name": "Civic Type R (EK) Touring Car",
-          "price": 122400,
-          "price_jp": 12240000,
-          "isOld": null
-        },
-        {
-          "car_id": 3359,
-          "maker_name": "Porsche",
-          "car_name": "911 GT3 (997) '09",
-          "price": 140200,
-          "price_jp": 14020000,
-          "isOld": false
-        },
-        {
-          "car_id": 1545,
-          "maker_name": "Lamborghini",
-          "car_name": "Murcielago LP 640 '09",
-          "price": 318700,
-          "price_jp": 31870000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "car_id": 3375,
-          "maker_name": "Porsche",
-          "car_name": "356 A/1500 GS Carrera '56",
-          "price": 618000,
-          "price_jp": 61800000,
-          "isOld": true
-        },
-        {
-          "car_id": 3365,
-          "maker_name": "Porsche",
-          "car_name": "356 A/1500 GS GT Carrera Speedster '56",
-          "price": 1600000,
-          "price_jp": 160000000,
           "isOld": true
         }
       ]

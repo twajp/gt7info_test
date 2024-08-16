@@ -1,6 +1,38 @@
 {
-  "timestamp": "2024-08-15T00:08:52.101295+00:00",
+  "timestamp": "2024-08-16T00:09:06.810001+00:00",
   "content": [
+    {
+      "id": 20240816,
+      "date": "2024/8/16",
+      "used": [
+        {
+          "car_id": 3344,
+          "maker_name": "BMW",
+          "car_name": "M3 Sport Evolution '89",
+          "price": 168400,
+          "price_jp": 16840000,
+          "isOld": true
+        },
+        {
+          "car_id": 3424,
+          "maker_name": "Mitsubishi",
+          "car_name": "Lancer Evolution IX MR GSR '06",
+          "price": 91400,
+          "price_jp": 9140000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "car_id": 3375,
+          "maker_name": "Porsche",
+          "car_name": "356 A/1500 GS Carrera '56",
+          "price": 618000,
+          "price_jp": 61800000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20240815,
       "date": "2024/8/15",
@@ -538,30 +570,6 @@
         }
       ],
       "legend": []
-    },
-    {
-      "id": 20240802,
-      "date": "2024/8/2",
-      "used": [
-        {
-          "car_id": 3471,
-          "maker_name": "Toyota",
-          "car_name": "Celica GT-Four (ST205) '94",
-          "price": 65100,
-          "price_jp": 6510000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "car_id": 1926,
-          "maker_name": "Shelby",
-          "car_name": "Cobra Daytona Coupe '64",
-          "price": 20000000,
-          "price_jp": 2000000000,
-          "isOld": true
-        }
-      ]
     }
   ]
 }

@@ -1,6 +1,86 @@
 {
-  "timestamp": "2024-08-16T00:09:06.810001+00:00",
+  "timestamp": "2024-08-17T00:08:45.256234+00:00",
   "content": [
+    {
+      "id": 20240817,
+      "date": "2024/8/17",
+      "used": [
+        {
+          "car_id": 3454,
+          "maker_name": "BMW",
+          "car_name": "3.0 CSL '71",
+          "price": 140400,
+          "price_jp": 14040000,
+          "isOld": true
+        },
+        {
+          "car_id": 1527,
+          "maker_name": "Fiat",
+          "car_name": "500 1.2 8V Lounge SS '08",
+          "price": 12900,
+          "price_jp": 1290000,
+          "isOld": false
+        },
+        {
+          "car_id": 3443,
+          "maker_name": "Ferrari",
+          "car_name": "308 GTB '75",
+          "price": 165200,
+          "price_jp": 16520000,
+          "isOld": true
+        },
+        {
+          "car_id": 931,
+          "maker_name": "Mitsubishi",
+          "car_name": "Lancer Evolution III GSR '95",
+          "price": 91100,
+          "price_jp": 9110000,
+          "isOld": true
+        },
+        {
+          "car_id": 514,
+          "maker_name": "Honda",
+          "car_name": "S2000 '99",
+          "price": 106000,
+          "price_jp": 10600000,
+          "isOld": true
+        },
+        {
+          "car_id": 345,
+          "maker_name": "Toyota",
+          "car_name": "Sprinter Trueno 1600GT APEX (S.Shigeno Version)",
+          "price": 106700,
+          "price_jp": 10670000,
+          "isOld": null
+        }
+      ],
+      "legend": [
+        {
+          "car_id": 1975,
+          "maker_name": "Mazda",
+          "car_name": "RX500 '70",
+          "price": 600000,
+          "price_jp": 60000000,
+          "isOld": true
+        },
+        {
+          "car_id": 3362,
+          "maker_name": "Ferrari",
+          "car_name": "F50 '95",
+          "price": 4450000,
+          "price_jp": 445000000,
+          "isOld": true
+        },
+        {
+          "car_id": 1565,
+          "maker_name": "Ford",
+          "car_name": "Mark IV Race Car '67",
+          "price": 6750000,
+          "price_jp": 675000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20240816,
       "date": "2024/8/16",
@@ -536,37 +616,6 @@
           "price": 51900,
           "price_jp": 5190000,
           "isOld": true
-        }
-      ],
-      "legend": []
-    },
-    {
-      "id": 20240803,
-      "date": "2024/8/3",
-      "used": [
-        {
-          "car_id": 3356,
-          "maker_name": "MINI",
-          "car_name": "Mini-Cooper 'S' '65",
-          "price": 40800,
-          "price_jp": 4080000,
-          "isOld": true
-        },
-        {
-          "car_id": 24,
-          "maker_name": "Nissan",
-          "car_name": "180SX Type X '96",
-          "price": 48900,
-          "price_jp": 4890000,
-          "isOld": true
-        },
-        {
-          "car_id": 1504,
-          "maker_name": "Ferrari",
-          "car_name": "458 Italia '09",
-          "price": 243200,
-          "price_jp": 24320000,
-          "isOld": false
         }
       ],
       "legend": []

@@ -1,6 +1,37 @@
 {
-  "timestamp": "2024-08-17T00:08:45.256234+00:00",
+  "timestamp": "2024-08-18T00:09:46.838618+00:00",
   "content": [
+    {
+      "id": 20240818,
+      "date": "2024/8/18",
+      "used": [
+        {
+          "car_id": 1778,
+          "maker_name": "Volkswagen",
+          "car_name": "Volkswagen 1200 '66",
+          "price": 28800,
+          "price_jp": 2880000,
+          "isOld": true
+        },
+        {
+          "car_id": 78,
+          "maker_name": "Nissan",
+          "car_name": "Silvia K's Aero (S14) '96",
+          "price": 59900,
+          "price_jp": 5990000,
+          "isOld": true
+        },
+        {
+          "car_id": 843,
+          "maker_name": "Toyota",
+          "car_name": "Supra 3.0GT Turbo A '88",
+          "price": 107000,
+          "price_jp": 10700000,
+          "isOld": true
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20240817,
       "date": "2024/8/17",
@@ -604,21 +635,6 @@
           "isOld": true
         }
       ]
-    },
-    {
-      "id": 20240804,
-      "date": "2024/8/4",
-      "used": [
-        {
-          "car_id": 810,
-          "maker_name": "Toyota",
-          "car_name": "Sprinter Trueno 1600GT APEX (AE86) '83",
-          "price": 51900,
-          "price_jp": 5190000,
-          "isOld": true
-        }
-      ],
-      "legend": []
     }
   ]
 }

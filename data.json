@@ -1,6 +1,62 @@
 {
-  "timestamp": "2024-08-18T00:09:46.838618+00:00",
+  "timestamp": "2024-08-19T00:10:00.660469+00:00",
   "content": [
+    {
+      "id": 20240819,
+      "date": "2024/8/19",
+      "used": [
+        {
+          "car_id": 3547,
+          "maker_name": "Renault",
+          "car_name": "R4 GTL '85",
+          "price": 26700,
+          "price_jp": 2670000,
+          "isOld": true
+        },
+        {
+          "car_id": 821,
+          "maker_name": "Honda",
+          "car_name": "Civic Type R (EK) '97",
+          "price": 48200,
+          "price_jp": 4820000,
+          "isOld": true
+        },
+        {
+          "car_id": 1578,
+          "maker_name": "Alfa Romeo",
+          "car_name": "8C Competizione '08",
+          "price": 290200,
+          "price_jp": 29020000,
+          "isOld": false
+        },
+        {
+          "car_id": 1481,
+          "maker_name": "Lamborghini",
+          "car_name": "Countach 25th Anniversary '88",
+          "price": 701600,
+          "price_jp": 70160000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "car_id": 1900,
+          "maker_name": "Plymouth",
+          "car_name": "XNR Ghia Roadster '60",
+          "price": 1600000,
+          "price_jp": 160000000,
+          "isOld": true
+        },
+        {
+          "car_id": 3519,
+          "maker_name": "Porsche",
+          "car_name": "959 '87",
+          "price": 1950000,
+          "price_jp": 195000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20240818,
       "date": "2024/8/18",
@@ -592,46 +648,6 @@
           "car_name": "DB5 '64",
           "price": 892000,
           "price_jp": 89200000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20240805,
-      "date": "2024/8/5",
-      "used": [
-        {
-          "car_id": 1933,
-          "maker_name": "Alfa Romeo",
-          "car_name": "MiTo '09",
-          "price": 22700,
-          "price_jp": 2270000,
-          "isOld": false
-        },
-        {
-          "car_id": 1523,
-          "maker_name": "Fiat",
-          "car_name": "500 F '68",
-          "price": 15500,
-          "price_jp": 1550000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "car_id": 1931,
-          "maker_name": "Ferrari",
-          "car_name": "250 GT Berlinetta passo corto '61",
-          "price": 8100000,
-          "price_jp": 810000000,
-          "isOld": true
-        },
-        {
-          "car_id": 3429,
-          "maker_name": "Nissan",
-          "car_name": "Fairlady Z 432 '69",
-          "price": 312000,
-          "price_jp": 31200000,
           "isOld": true
         }
       ]

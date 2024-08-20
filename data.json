@@ -1,6 +1,62 @@
 {
-  "timestamp": "2024-08-19T00:10:00.660469+00:00",
+  "timestamp": "2024-08-20T00:09:54.719336+00:00",
   "content": [
+    {
+      "id": 20240820,
+      "date": "2024/8/20",
+      "used": [
+        {
+          "car_id": 187,
+          "maker_name": "TVR",
+          "car_name": "Tuscan Speed 6 '00",
+          "price": 95000,
+          "price_jp": 9500000,
+          "isOld": true
+        },
+        {
+          "car_id": 137,
+          "maker_name": "Honda",
+          "car_name": "Beat '91",
+          "price": 14400,
+          "price_jp": 1440000,
+          "isOld": true
+        },
+        {
+          "car_id": 3385,
+          "maker_name": "Porsche",
+          "car_name": "911 Turbo (930) '81",
+          "price": 220000,
+          "price_jp": 22000000,
+          "isOld": true
+        },
+        {
+          "car_id": 3439,
+          "maker_name": "Porsche",
+          "car_name": "911 Carrera RS (993) '95",
+          "price": 229200,
+          "price_jp": 22920000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "car_id": 665,
+          "maker_name": "Plymouth",
+          "car_name": "Superbird '70",
+          "price": 402000,
+          "price_jp": 40200000,
+          "isOld": true
+        },
+        {
+          "car_id": 365,
+          "maker_name": "Alfa Romeo",
+          "car_name": "155 2.5 V6 TI '93",
+          "price": 800000,
+          "price_jp": 80000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20240819,
       "date": "2024/8/19",
@@ -600,54 +656,6 @@
           "car_name": "GT-One (TS020) '99",
           "price": 2500000,
           "price_jp": 250000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20240806,
-      "date": "2024/8/6",
-      "used": [
-        {
-          "car_id": 3422,
-          "maker_name": "BMW",
-          "car_name": "3.0 CSL '73",
-          "price": 250000,
-          "price_jp": 25000000,
-          "isOld": true
-        },
-        {
-          "car_id": 3530,
-          "maker_name": "Alfa Romeo",
-          "car_name": "Giulia Sprint GT Veloce '67",
-          "price": 169000,
-          "price_jp": 16900000,
-          "isOld": true
-        },
-        {
-          "car_id": 1027,
-          "maker_name": "DMC",
-          "car_name": "DeLorean S2 '04",
-          "price": 472300,
-          "price_jp": 47230000,
-          "isOld": false
-        },
-        {
-          "car_id": 3434,
-          "maker_name": "Ferrari",
-          "car_name": "Testarossa '91",
-          "price": 392500,
-          "price_jp": 39250000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "car_id": 3445,
-          "maker_name": "Aston Martin",
-          "car_name": "DB5 '64",
-          "price": 892000,
-          "price_jp": 89200000,
           "isOld": true
         }
       ]

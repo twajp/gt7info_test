@@ -1,6 +1,78 @@
 {
-  "timestamp": "2024-08-21T00:09:10.580301+00:00",
+  "timestamp": "2024-08-22T00:08:58.922232+00:00",
   "content": [
+    {
+      "id": 20240822,
+      "date": "2024/8/22",
+      "used": [
+        {
+          "car_id": 3524,
+          "maker_name": "Nissan",
+          "car_name": "GT-R NISMO (R32) '90",
+          "price": 386600,
+          "price_jp": 38660000,
+          "isOld": true
+        },
+        {
+          "car_id": 3384,
+          "maker_name": "Mitsubishi",
+          "car_name": "GTO Twin Turbo '91",
+          "price": 45300,
+          "price_jp": 4530000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "car_id": 216,
+          "maker_name": "BMW",
+          "car_name": "McLaren F1 GTR Race Car '97",
+          "price": 20000000,
+          "price_jp": 2000000000,
+          "isOld": true
+        },
+        {
+          "car_id": 1984,
+          "maker_name": "McLaren",
+          "car_name": "McLaren F1 GTR - BMW '95",
+          "price": 15000000,
+          "price_jp": 1500000000,
+          "isOld": true
+        },
+        {
+          "car_id": 1409,
+          "maker_name": "Ferrari",
+          "car_name": "F40 '92",
+          "price": 3100000,
+          "price_jp": 310000000,
+          "isOld": true
+        },
+        {
+          "car_id": 1470,
+          "maker_name": "Toyota",
+          "car_name": "Supra GT500 '97",
+          "price": 1800000,
+          "price_jp": 180000000,
+          "isOld": true
+        },
+        {
+          "car_id": 140,
+          "maker_name": "Honda",
+          "car_name": "NSX GT500 '00",
+          "price": 1500000,
+          "price_jp": 150000000,
+          "isOld": true
+        },
+        {
+          "car_id": 485,
+          "maker_name": "Nissan",
+          "car_name": "GT-R GT500 '99",
+          "price": 2500000,
+          "price_jp": 250000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20240821,
       "date": "2024/8/21",
@@ -552,86 +624,6 @@
           "car_name": "Merak SS '80",
           "price": 64200,
           "price_jp": 6420000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20240808,
-      "date": "2024/8/8",
-      "used": [
-        {
-          "car_id": 1537,
-          "maker_name": "Toyota",
-          "car_name": "Prius G '09",
-          "price": 18500,
-          "price_jp": 1850000,
-          "isOld": false
-        },
-        {
-          "car_id": 204,
-          "maker_name": "Honda",
-          "car_name": "Civic Type R (EK) '98",
-          "price": 58100,
-          "price_jp": 5810000,
-          "isOld": true
-        },
-        {
-          "car_id": 709,
-          "maker_name": "Nissan",
-          "car_name": "Fairlady Z 300ZX TT 2seater '89",
-          "price": 52500,
-          "price_jp": 5250000,
-          "isOld": true
-        },
-        {
-          "car_id": 3453,
-          "maker_name": "BMW",
-          "car_name": "M3 '89",
-          "price": 86100,
-          "price_jp": 8610000,
-          "isOld": true
-        },
-        {
-          "car_id": 3358,
-          "maker_name": "Porsche",
-          "car_name": "911 GT3 (996) '01",
-          "price": 161700,
-          "price_jp": 16170000,
-          "isOld": false
-        },
-        {
-          "car_id": 1402,
-          "maker_name": "Dodge",
-          "car_name": "Viper SRT10 Coupe '06",
-          "price": 114400,
-          "price_jp": 11440000,
-          "isOld": false
-        },
-        {
-          "car_id": 1480,
-          "maker_name": "Chevrolet",
-          "car_name": "Corvette ZR1 (C6) '09",
-          "price": 99000,
-          "price_jp": 9900000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "car_id": 3493,
-          "maker_name": "Nissan",
-          "car_name": "Skyline Super Silhouette Group 5 '84",
-          "price": 1150000,
-          "price_jp": 115000000,
-          "isOld": true
-        },
-        {
-          "car_id": 3475,
-          "maker_name": "McLaren",
-          "car_name": "MP4/4 '88",
-          "price": 12000000,
-          "price_jp": 1200000000,
           "isOld": true
         }
       ]

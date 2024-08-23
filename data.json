@@ -1,6 +1,38 @@
 {
-  "timestamp": "2024-08-22T00:08:58.922232+00:00",
+  "timestamp": "2024-08-23T00:09:03.113198+00:00",
   "content": [
+    {
+      "id": 20240823,
+      "date": "2024/8/23",
+      "used": [
+        {
+          "car_id": 1722,
+          "maker_name": "McLaren",
+          "car_name": "MP4-12C '10",
+          "price": 194100,
+          "price_jp": 19410000,
+          "isOld": false
+        },
+        {
+          "car_id": 3398,
+          "maker_name": "RUF",
+          "car_name": "CTR3 '07",
+          "price": 770800,
+          "price_jp": 77080000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "car_id": 3400,
+          "maker_name": "Porsche",
+          "car_name": "911 GT1 Strassenversion '97",
+          "price": 10000000,
+          "price_jp": 1000000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20240822,
       "date": "2024/8/22",
@@ -555,78 +587,6 @@
         }
       ],
       "legend": []
-    },
-    {
-      "id": 20240809,
-      "date": "2024/8/9",
-      "used": [
-        {
-          "car_id": 173,
-          "maker_name": "Renault",
-          "car_name": "R5 Turbo '80",
-          "price": 151900,
-          "price_jp": 15190000,
-          "isOld": true
-        },
-        {
-          "car_id": 3438,
-          "maker_name": "Abarth",
-          "car_name": "Abarth 595 SS '70",
-          "price": 58200,
-          "price_jp": 5820000,
-          "isOld": true
-        },
-        {
-          "car_id": 451,
-          "maker_name": "Subaru",
-          "car_name": "Impreza 22B-STi '98",
-          "price": 176100,
-          "price_jp": 17610000,
-          "isOld": true
-        },
-        {
-          "car_id": 41,
-          "maker_name": "Chevrolet",
-          "car_name": "Corvette Stingray (C3) '69",
-          "price": 63100,
-          "price_jp": 6310000,
-          "isOld": true
-        },
-        {
-          "car_id": 207,
-          "maker_name": "Toyota",
-          "car_name": "MR2 GT-S '97",
-          "price": 53600,
-          "price_jp": 5360000,
-          "isOld": true
-        },
-        {
-          "car_id": 1365,
-          "maker_name": "Audi",
-          "car_name": "R8 4.2 '07",
-          "price": 135900,
-          "price_jp": 13590000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "car_id": 3490,
-          "maker_name": "Porsche",
-          "car_name": "Carrera GTS (904) '64",
-          "price": 2300000,
-          "price_jp": 230000000,
-          "isOld": true
-        },
-        {
-          "car_id": 3421,
-          "maker_name": "Maserati",
-          "car_name": "Merak SS '80",
-          "price": 64200,
-          "price_jp": 6420000,
-          "isOld": true
-        }
-      ]
     }
   ]
 }

@@ -1,6 +1,70 @@
 {
-  "timestamp": "2024-08-23T00:09:03.113198+00:00",
+  "timestamp": "2024-08-24T00:09:47.045105+00:00",
   "content": [
+    {
+      "id": 20240824,
+      "date": "2024/8/24",
+      "used": [
+        {
+          "car_id": 201,
+          "maker_name": "Mazda",
+          "car_name": "Eunos Roadster (NA) '89",
+          "price": 28600,
+          "price_jp": 2860000,
+          "isOld": true
+        },
+        {
+          "car_id": 1671,
+          "maker_name": "Volkswagen",
+          "car_name": "Sambabus Typ 2 '62",
+          "price": 67400,
+          "price_jp": 6740000,
+          "isOld": true
+        },
+        {
+          "car_id": 379,
+          "maker_name": "Subaru",
+          "car_name": "Impreza Coupe WRX Type R STi Ver.VI '99",
+          "price": 55000,
+          "price_jp": 5500000,
+          "isOld": true
+        },
+        {
+          "car_id": 210,
+          "maker_name": "Nissan",
+          "car_name": "R34 GT-R V-spec II Nur '02",
+          "price": 401100,
+          "price_jp": 40110000,
+          "isOld": false
+        },
+        {
+          "car_id": 1507,
+          "maker_name": "AMG",
+          "car_name": "SLS AMG '10",
+          "price": 310900,
+          "price_jp": 31090000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "car_id": 3373,
+          "maker_name": "Porsche",
+          "car_name": "962 C '88",
+          "price": 1300000,
+          "price_jp": 130000000,
+          "isOld": true
+        },
+        {
+          "car_id": 2011,
+          "maker_name": "Ferrari",
+          "car_name": "500 Mondial Pinin Farina Coupe '54",
+          "price": 2600000,
+          "price_jp": 260000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20240823,
       "date": "2024/8/23",
@@ -560,29 +624,6 @@
           "car_name": "A112 Abarth '85",
           "price": 29800,
           "price_jp": 2980000,
-          "isOld": true
-        }
-      ],
-      "legend": []
-    },
-    {
-      "id": 20240810,
-      "date": "2024/8/10",
-      "used": [
-        {
-          "car_id": 688,
-          "maker_name": "Honda",
-          "car_name": "Integra Type R (DC2) '95",
-          "price": 62300,
-          "price_jp": 6230000,
-          "isOld": true
-        },
-        {
-          "car_id": 942,
-          "maker_name": "Chevrolet",
-          "car_name": "Corvette ZR-1 (C4) '89",
-          "price": 77800,
-          "price_jp": 7780000,
           "isOld": true
         }
       ],

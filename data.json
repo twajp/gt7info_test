@@ -1,6 +1,54 @@
 {
-  "timestamp": "2024-08-25T00:10:07.396669+00:00",
+  "timestamp": "2024-08-26T00:09:03.389879+00:00",
   "content": [
+    {
+      "id": 20240826,
+      "date": "2024/8/26",
+      "used": [
+        {
+          "car_id": 211,
+          "maker_name": "Mitsubishi",
+          "car_name": "Lancer Evolution V GSR '98",
+          "price": 80100,
+          "price_jp": 8010000,
+          "isOld": true
+        },
+        {
+          "car_id": 3432,
+          "maker_name": "Subaru",
+          "car_name": "Impreza Sedan WRX STi '04",
+          "price": 42000,
+          "price_jp": 4200000,
+          "isOld": false
+        },
+        {
+          "car_id": 1539,
+          "maker_name": "Maserati",
+          "car_name": "GranTurismo S '08",
+          "price": 137700,
+          "price_jp": 13770000,
+          "isOld": false
+        },
+        {
+          "car_id": 1893,
+          "maker_name": "BMW",
+          "car_name": "Z8 '01",
+          "price": 267200,
+          "price_jp": 26720000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "car_id": 36,
+          "maker_name": "Chevrolet",
+          "car_name": "Chevelle SS 454 Sport Coupé '70",
+          "price": 172000,
+          "price_jp": 17200000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20240825,
       "date": "2024/8/25",
@@ -611,21 +659,6 @@
           "car_name": "Corvette (C1) '58",
           "price": 119000,
           "price_jp": 11900000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20240812,
-      "date": "2024/8/12",
-      "used": [],
-      "legend": [
-        {
-          "car_id": 1470,
-          "maker_name": "Toyota",
-          "car_name": "Supra GT500 '97",
-          "price": 1800000,
-          "price_jp": 180000000,
           "isOld": true
         }
       ]

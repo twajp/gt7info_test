@@ -1,6 +1,45 @@
 {
-  "timestamp": "2024-08-26T00:09:03.389879+00:00",
+  "timestamp": "2024-08-27T00:09:00.883642+00:00",
   "content": [
+    {
+      "id": 20240827,
+      "date": "2024/8/27",
+      "used": [
+        {
+          "car_id": 1895,
+          "maker_name": "Ferrari",
+          "car_name": "Dino 246 GT '71",
+          "price": 400000,
+          "price_jp": 40000000,
+          "isOld": true
+        },
+        {
+          "car_id": 63,
+          "maker_name": "Toyota",
+          "car_name": "Corolla Levin 1600GT APEX (AE86) '83",
+          "price": 48900,
+          "price_jp": 4890000,
+          "isOld": true
+        },
+        {
+          "car_id": 37,
+          "maker_name": "Honda",
+          "car_name": "Civic SiR-II (EG) '93",
+          "price": 52500,
+          "price_jp": 5250000,
+          "isOld": true
+        },
+        {
+          "car_id": 1689,
+          "maker_name": "Honda",
+          "car_name": "Civic Type R (EK) Touring Car",
+          "price": 122400,
+          "price_jp": 12240000,
+          "isOld": null
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20240826,
       "date": "2024/8/26",
@@ -611,54 +650,6 @@
           "car_name": "XJ220 '92",
           "price": 615000,
           "price_jp": 61500000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20240813,
-      "date": "2024/8/13",
-      "used": [
-        {
-          "car_id": 3549,
-          "maker_name": "Volvo",
-          "car_name": "240 SE Estate '93",
-          "price": 50000,
-          "price_jp": 5000000,
-          "isOld": true
-        },
-        {
-          "car_id": 3341,
-          "maker_name": "De Tomaso",
-          "car_name": "Pantera '71",
-          "price": 170400,
-          "price_jp": 17040000,
-          "isOld": true
-        },
-        {
-          "car_id": 1448,
-          "maker_name": "Nissan",
-          "car_name": "SILVIA spec-R Aero (S15) '02",
-          "price": 59900,
-          "price_jp": 5990000,
-          "isOld": false
-        },
-        {
-          "car_id": 1528,
-          "maker_name": "Mercedes-Benz",
-          "car_name": "SLR McLaren '09",
-          "price": 495200,
-          "price_jp": 49520000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "car_id": 3464,
-          "maker_name": "Chevrolet",
-          "car_name": "Corvette (C1) '58",
-          "price": 119000,
-          "price_jp": 11900000,
           "isOld": true
         }
       ]

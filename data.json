@@ -1,6 +1,70 @@
 {
-  "timestamp": "2024-08-27T00:09:00.883642+00:00",
+  "timestamp": "2024-08-28T00:09:45.541914+00:00",
   "content": [
+    {
+      "id": 20240828,
+      "date": "2024/8/28",
+      "used": [
+        {
+          "car_id": 773,
+          "maker_name": "Nissan",
+          "car_name": "R32 GT-R V-spec II '94",
+          "price": 178600,
+          "price_jp": 17860000,
+          "isOld": true
+        },
+        {
+          "car_id": 301,
+          "maker_name": "Mitsubishi",
+          "car_name": "Lancer Evolution IV GSR '96",
+          "price": 39600,
+          "price_jp": 3960000,
+          "isOld": true
+        },
+        {
+          "car_id": 203,
+          "maker_name": "Honda",
+          "car_name": "Integra Type R (DC2) '98",
+          "price": 62200,
+          "price_jp": 6220000,
+          "isOld": true
+        },
+        {
+          "car_id": 3359,
+          "maker_name": "Porsche",
+          "car_name": "911 GT3 (997) '09",
+          "price": 140200,
+          "price_jp": 14020000,
+          "isOld": false
+        },
+        {
+          "car_id": 1545,
+          "maker_name": "Lamborghini",
+          "car_name": "Murcielago LP 640 '09",
+          "price": 318700,
+          "price_jp": 31870000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "car_id": 3410,
+          "maker_name": "Porsche",
+          "car_name": "917K '70",
+          "price": 18000000,
+          "price_jp": 1800000000,
+          "isOld": true
+        },
+        {
+          "car_id": 1069,
+          "maker_name": "Chaparral",
+          "car_name": "2J '70",
+          "price": 2500000,
+          "price_jp": 250000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20240827,
       "date": "2024/8/27",
@@ -597,62 +661,6 @@
         }
       ],
       "legend": []
-    },
-    {
-      "id": 20240814,
-      "date": "2024/8/14",
-      "used": [
-        {
-          "car_id": 829,
-          "maker_name": "Lancia",
-          "car_name": "Delta HF Integrale Evoluzione '91",
-          "price": 98900,
-          "price_jp": 9890000,
-          "isOld": true
-        },
-        {
-          "car_id": 779,
-          "maker_name": "Suzuki",
-          "car_name": "Cappuccino (EA11R) '91",
-          "price": 16000,
-          "price_jp": 1600000,
-          "isOld": true
-        },
-        {
-          "car_id": 1773,
-          "maker_name": "Volkswagen",
-          "car_name": "Scirocco R '10",
-          "price": 37900,
-          "price_jp": 3790000,
-          "isOld": false
-        },
-        {
-          "car_id": 489,
-          "maker_name": "Nissan",
-          "car_name": "R33 GT-R V-spec '97",
-          "price": 154300,
-          "price_jp": 15430000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "car_id": 3489,
-          "maker_name": "Maserati",
-          "car_name": "A6GCS/53 Spyder '54",
-          "price": 2500000,
-          "price_jp": 250000000,
-          "isOld": true
-        },
-        {
-          "car_id": 543,
-          "maker_name": "Jaguar",
-          "car_name": "XJ220 '92",
-          "price": 615000,
-          "price_jp": 61500000,
-          "isOld": true
-        }
-      ]
     }
   ]
 }

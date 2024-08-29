@@ -1,6 +1,38 @@
 {
-  "timestamp": "2024-08-28T00:09:45.541914+00:00",
+  "timestamp": "2024-08-29T00:10:01.155786+00:00",
   "content": [
+    {
+      "id": 20240829,
+      "date": "2024/8/29",
+      "used": [
+        {
+          "car_id": 3549,
+          "maker_name": "Volvo",
+          "car_name": "240 SE Estate '93",
+          "price": 47000,
+          "price_jp": 4700000,
+          "isOld": true
+        },
+        {
+          "car_id": 1504,
+          "maker_name": "Ferrari",
+          "car_name": "458 Italia '09",
+          "price": 243200,
+          "price_jp": 24320000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "car_id": 1551,
+          "maker_name": "Ferrari",
+          "car_name": "330 P4 '67",
+          "price": 20000000,
+          "price_jp": 2000000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20240828,
       "date": "2024/8/28",
@@ -638,29 +670,6 @@
           "isOld": true
         }
       ]
-    },
-    {
-      "id": 20240815,
-      "date": "2024/8/15",
-      "used": [
-        {
-          "car_id": 48,
-          "maker_name": "Nissan",
-          "car_name": "Fairlady 240ZG (HS30) '71",
-          "price": 106400,
-          "price_jp": 10640000,
-          "isOld": true
-        },
-        {
-          "car_id": 205,
-          "maker_name": "Mazda",
-          "car_name": "RX-7 Spirit R Type A (FD) '02",
-          "price": 216300,
-          "price_jp": 21630000,
-          "isOld": false
-        }
-      ],
-      "legend": []
     }
   ]
 }

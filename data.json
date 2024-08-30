@@ -1,6 +1,21 @@
 {
-  "timestamp": "2024-08-29T00:10:01.155786+00:00",
+  "timestamp": "2024-08-30T00:09:32.788728+00:00",
   "content": [
+    {
+      "id": 20240830,
+      "date": "2024/8/30",
+      "used": [
+        {
+          "car_id": 1729,
+          "maker_name": "Ford",
+          "car_name": "Mustang Mach 1 '71",
+          "price": 40800,
+          "price_jp": 4080000,
+          "isOld": true
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20240829,
       "date": "2024/8/29",
@@ -635,38 +650,6 @@
           "car_name": "Mark IV Race Car '67",
           "price": 6750000,
           "price_jp": 675000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20240816,
-      "date": "2024/8/16",
-      "used": [
-        {
-          "car_id": 3344,
-          "maker_name": "BMW",
-          "car_name": "M3 Sport Evolution '89",
-          "price": 168400,
-          "price_jp": 16840000,
-          "isOld": true
-        },
-        {
-          "car_id": 3424,
-          "maker_name": "Mitsubishi",
-          "car_name": "Lancer Evolution IX MR GSR '06",
-          "price": 91400,
-          "price_jp": 9140000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "car_id": 3375,
-          "maker_name": "Porsche",
-          "car_name": "356 A/1500 GS Carrera '56",
-          "price": 618000,
-          "price_jp": 61800000,
           "isOld": true
         }
       ]

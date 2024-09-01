@@ -1,6 +1,54 @@
 {
-  "timestamp": "2024-08-31T00:09:46.164000+00:00",
+  "timestamp": "2024-09-01T00:11:00.224477+00:00",
   "content": [
+    {
+      "id": 20240901,
+      "date": "2024/9/1",
+      "used": [
+        {
+          "car_id": 145,
+          "maker_name": "Daihatsu",
+          "car_name": "Copen '02",
+          "price": 15700,
+          "price_jp": 1570000,
+          "isOld": false
+        },
+        {
+          "car_id": 1385,
+          "maker_name": "Suzuki",
+          "car_name": "Swift Sport '07",
+          "price": 11800,
+          "price_jp": 1180000,
+          "isOld": false
+        },
+        {
+          "car_id": 3434,
+          "maker_name": "Ferrari",
+          "car_name": "Testarossa '91",
+          "price": 392500,
+          "price_jp": 39250000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "car_id": 3444,
+          "maker_name": "Ford",
+          "car_name": "1932 Ford Roadster Hot Rod",
+          "price": 400000,
+          "price_jp": 40000000,
+          "isOld": null
+        },
+        {
+          "car_id": 1540,
+          "maker_name": "McLaren",
+          "car_name": "McLaren F1 '94",
+          "price": 20000000,
+          "price_jp": 2000000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20240831,
       "date": "2024/8/31",
@@ -589,37 +637,6 @@
           "isOld": true
         }
       ]
-    },
-    {
-      "id": 20240818,
-      "date": "2024/8/18",
-      "used": [
-        {
-          "car_id": 1778,
-          "maker_name": "Volkswagen",
-          "car_name": "Volkswagen 1200 '66",
-          "price": 28800,
-          "price_jp": 2880000,
-          "isOld": true
-        },
-        {
-          "car_id": 78,
-          "maker_name": "Nissan",
-          "car_name": "Silvia K's Aero (S14) '96",
-          "price": 59900,
-          "price_jp": 5990000,
-          "isOld": true
-        },
-        {
-          "car_id": 843,
-          "maker_name": "Toyota",
-          "car_name": "Supra 3.0GT Turbo A '88",
-          "price": 107000,
-          "price_jp": 10700000,
-          "isOld": true
-        }
-      ],
-      "legend": []
     }
   ]
 }

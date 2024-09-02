@@ -1,6 +1,38 @@
 {
-  "timestamp": "2024-09-01T00:11:00.224477+00:00",
+  "timestamp": "2024-09-02T00:10:06.814932+00:00",
   "content": [
+    {
+      "id": 20240902,
+      "date": "2024/9/2",
+      "used": [
+        {
+          "car_id": 3403,
+          "maker_name": "Volkswagen",
+          "car_name": "Golf I GTI '83",
+          "price": 40500,
+          "price_jp": 4050000,
+          "isOld": true
+        },
+        {
+          "car_id": 533,
+          "maker_name": "Lancia",
+          "car_name": "Stratos '73",
+          "price": 539300,
+          "price_jp": 53930000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "car_id": 3363,
+          "maker_name": "Aston Martin",
+          "car_name": "DB3S '53",
+          "price": 6000000,
+          "price_jp": 600000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20240901,
       "date": "2024/9/1",
@@ -578,62 +610,6 @@
           "car_name": "155 2.5 V6 TI '93",
           "price": 800000,
           "price_jp": 80000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20240819,
-      "date": "2024/8/19",
-      "used": [
-        {
-          "car_id": 3547,
-          "maker_name": "Renault",
-          "car_name": "R4 GTL '85",
-          "price": 26700,
-          "price_jp": 2670000,
-          "isOld": true
-        },
-        {
-          "car_id": 821,
-          "maker_name": "Honda",
-          "car_name": "Civic Type R (EK) '97",
-          "price": 48200,
-          "price_jp": 4820000,
-          "isOld": true
-        },
-        {
-          "car_id": 1578,
-          "maker_name": "Alfa Romeo",
-          "car_name": "8C Competizione '08",
-          "price": 290200,
-          "price_jp": 29020000,
-          "isOld": false
-        },
-        {
-          "car_id": 1481,
-          "maker_name": "Lamborghini",
-          "car_name": "Countach 25th Anniversary '88",
-          "price": 701600,
-          "price_jp": 70160000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "car_id": 1900,
-          "maker_name": "Plymouth",
-          "car_name": "XNR Ghia Roadster '60",
-          "price": 1600000,
-          "price_jp": 160000000,
-          "isOld": true
-        },
-        {
-          "car_id": 3519,
-          "maker_name": "Porsche",
-          "car_name": "959 '87",
-          "price": 1950000,
-          "price_jp": 195000000,
           "isOld": true
         }
       ]

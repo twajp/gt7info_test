@@ -1,6 +1,29 @@
 {
-  "timestamp": "2024-09-02T00:10:06.814932+00:00",
+  "timestamp": "2024-09-03T00:08:50.551042+00:00",
   "content": [
+    {
+      "id": 20240903,
+      "date": "2024/9/3",
+      "used": [
+        {
+          "car_id": 1796,
+          "maker_name": "Alpine",
+          "car_name": "A110 '72",
+          "price": 142200,
+          "price_jp": 14220000,
+          "isOld": true
+        },
+        {
+          "car_id": 3404,
+          "maker_name": "Porsche",
+          "car_name": "911 Carrera RS CS (993) '95",
+          "price": 413800,
+          "price_jp": 41380000,
+          "isOld": true
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20240902,
       "date": "2024/9/2",
@@ -554,62 +577,6 @@
           "car_name": "Corvette (C2) '63",
           "price": 239000,
           "price_jp": 23900000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20240820,
-      "date": "2024/8/20",
-      "used": [
-        {
-          "car_id": 187,
-          "maker_name": "TVR",
-          "car_name": "Tuscan Speed 6 '00",
-          "price": 95000,
-          "price_jp": 9500000,
-          "isOld": true
-        },
-        {
-          "car_id": 137,
-          "maker_name": "Honda",
-          "car_name": "Beat '91",
-          "price": 14400,
-          "price_jp": 1440000,
-          "isOld": true
-        },
-        {
-          "car_id": 3385,
-          "maker_name": "Porsche",
-          "car_name": "911 Turbo (930) '81",
-          "price": 220000,
-          "price_jp": 22000000,
-          "isOld": true
-        },
-        {
-          "car_id": 3439,
-          "maker_name": "Porsche",
-          "car_name": "911 Carrera RS (993) '95",
-          "price": 229200,
-          "price_jp": 22920000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "car_id": 665,
-          "maker_name": "Plymouth",
-          "car_name": "Superbird '70",
-          "price": 402000,
-          "price_jp": 40200000,
-          "isOld": true
-        },
-        {
-          "car_id": 365,
-          "maker_name": "Alfa Romeo",
-          "car_name": "155 2.5 V6 TI '93",
-          "price": 800000,
-          "price_jp": 80000000,
           "isOld": true
         }
       ]

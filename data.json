@@ -1,6 +1,70 @@
 {
-  "timestamp": "2024-09-05T00:10:06.714913+00:00",
+  "timestamp": "2024-09-06T00:09:57.658634+00:00",
   "content": [
+    {
+      "id": 20240906,
+      "date": "2024/9/6",
+      "used": [
+        {
+          "car_id": 810,
+          "maker_name": "Toyota",
+          "car_name": "Sprinter Trueno 1600GT APEX (AE86) '83",
+          "price": 51900,
+          "price_jp": 5190000,
+          "isOld": true
+        },
+        {
+          "car_id": 1933,
+          "maker_name": "Alfa Romeo",
+          "car_name": "MiTo '09",
+          "price": 22700,
+          "price_jp": 2270000,
+          "isOld": false
+        },
+        {
+          "car_id": 3377,
+          "maker_name": "Dodge",
+          "car_name": "Super Bee '70",
+          "price": 61100,
+          "price_jp": 6110000,
+          "isOld": true
+        },
+        {
+          "car_id": 1895,
+          "maker_name": "Ferrari",
+          "car_name": "Dino 246 GT '71",
+          "price": 338000,
+          "price_jp": 33800000,
+          "isOld": true
+        },
+        {
+          "car_id": 374,
+          "maker_name": "Mazda",
+          "car_name": "RX-7 GT-X (FC) '90",
+          "price": 53800,
+          "price_jp": 5380000,
+          "isOld": true
+        },
+        {
+          "car_id": 942,
+          "maker_name": "Chevrolet",
+          "car_name": "Corvette ZR-1 (C4) '89",
+          "price": 77800,
+          "price_jp": 7780000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "car_id": 3397,
+          "maker_name": "Mercedes-Benz",
+          "car_name": "CLK-LM '98",
+          "price": 8500000,
+          "price_jp": 850000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20240905,
       "date": "2024/9/5",
@@ -537,38 +601,6 @@
           "car_name": "500 Mondial Pinin Farina Coupe '54",
           "price": 2600000,
           "price_jp": 260000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20240823,
-      "date": "2024/8/23",
-      "used": [
-        {
-          "car_id": 1722,
-          "maker_name": "McLaren",
-          "car_name": "MP4-12C '10",
-          "price": 194100,
-          "price_jp": 19410000,
-          "isOld": false
-        },
-        {
-          "car_id": 3398,
-          "maker_name": "RUF",
-          "car_name": "CTR3 '07",
-          "price": 770800,
-          "price_jp": 77080000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "car_id": 3400,
-          "maker_name": "Porsche",
-          "car_name": "911 GT1 Strassenversion '97",
-          "price": 10000000,
-          "price_jp": 1000000000,
           "isOld": true
         }
       ]

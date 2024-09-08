@@ -1,6 +1,21 @@
 {
-  "timestamp": "2024-09-07T00:10:16.580080+00:00",
+  "timestamp": "2024-09-08T00:10:43.254309+00:00",
   "content": [
+    {
+      "id": 20240908,
+      "date": "2024/9/8",
+      "used": [
+        {
+          "car_id": 1528,
+          "maker_name": "Mercedes-Benz",
+          "car_name": "SLR McLaren '09",
+          "price": 495200,
+          "price_jp": 49520000,
+          "isOld": false
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20240907,
       "date": "2024/9/7",
@@ -545,30 +560,6 @@
           "car_name": "Chevelle SS 454 Sport Coupé '70",
           "price": 172000,
           "price_jp": 17200000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20240825,
-      "date": "2024/8/25",
-      "used": [
-        {
-          "car_id": 3422,
-          "maker_name": "BMW",
-          "car_name": "3.0 CSL '73",
-          "price": 214100,
-          "price_jp": 21410000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "car_id": 3361,
-          "maker_name": "Jaguar",
-          "car_name": "E-type Coupe '61",
-          "price": 227000,
-          "price_jp": 22700000,
           "isOld": true
         }
       ]

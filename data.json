@@ -1,6 +1,54 @@
 {
-  "timestamp": "2024-09-08T00:10:43.254309+00:00",
+  "timestamp": "2024-09-09T00:10:19.437926+00:00",
   "content": [
+    {
+      "id": 20240909,
+      "date": "2024/9/9",
+      "used": [
+        {
+          "car_id": 3530,
+          "maker_name": "Alfa Romeo",
+          "car_name": "Giulia Sprint GT Veloce '67",
+          "price": 169000,
+          "price_jp": 16900000,
+          "isOld": true
+        },
+        {
+          "car_id": 3471,
+          "maker_name": "Toyota",
+          "car_name": "Celica GT-Four (ST205) '94",
+          "price": 65100,
+          "price_jp": 6510000,
+          "isOld": true
+        },
+        {
+          "car_id": 24,
+          "maker_name": "Nissan",
+          "car_name": "180SX Type X '96",
+          "price": 48900,
+          "price_jp": 4890000,
+          "isOld": true
+        },
+        {
+          "car_id": 489,
+          "maker_name": "Nissan",
+          "car_name": "R33 GT-R V-spec '97",
+          "price": 154300,
+          "price_jp": 15430000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "car_id": 105,
+          "maker_name": "Peugeot",
+          "car_name": "205 Turbo 16 Evolution 2 '86",
+          "price": 1100000,
+          "price_jp": 110000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20240908,
       "date": "2024/9/8",
@@ -515,54 +563,6 @@
         }
       ],
       "legend": []
-    },
-    {
-      "id": 20240826,
-      "date": "2024/8/26",
-      "used": [
-        {
-          "car_id": 211,
-          "maker_name": "Mitsubishi",
-          "car_name": "Lancer Evolution V GSR '98",
-          "price": 80100,
-          "price_jp": 8010000,
-          "isOld": true
-        },
-        {
-          "car_id": 3432,
-          "maker_name": "Subaru",
-          "car_name": "Impreza Sedan WRX STi '04",
-          "price": 42000,
-          "price_jp": 4200000,
-          "isOld": false
-        },
-        {
-          "car_id": 1539,
-          "maker_name": "Maserati",
-          "car_name": "GranTurismo S '08",
-          "price": 137700,
-          "price_jp": 13770000,
-          "isOld": false
-        },
-        {
-          "car_id": 1893,
-          "maker_name": "BMW",
-          "car_name": "Z8 '01",
-          "price": 267200,
-          "price_jp": 26720000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "car_id": 36,
-          "maker_name": "Chevrolet",
-          "car_name": "Chevelle SS 454 Sport Coupé '70",
-          "price": 172000,
-          "price_jp": 17200000,
-          "isOld": true
-        }
-      ]
     }
   ]
 }

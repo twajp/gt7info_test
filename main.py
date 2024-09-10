@@ -124,7 +124,7 @@ for i in reversed(range(how_many_days)):
     lastAppearance['used'].update(CheckLastAppearance(data_used, data_prev_used, date_to_import))
     lastAppearance['legend'].update(CheckLastAppearance(data_legend, data_prev_legend, date_to_import))
 
-    data['content'].append({
+    data['content'].insert(0, {
         'id': int(date_to_import.strftime('%Y%m%d')),
         'date': date_to_import.strftime('%Y/%-m/%-d'),
         'used': list_used,

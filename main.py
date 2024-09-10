@@ -77,7 +77,7 @@ def UpdateDB(lastAppearance):
         for day in data['content']:
             for car in day[dealer]:
                 db[dealer][str(car['car_id'])] = {
-                    'maker_id': car['maker_name'],
+                    'maker_id': car['maker_id'],
                     'maker_name': car['maker_name'],
                     'maker_country_id': car['maker_country_id'],
                     'car_name': car['car_name'],

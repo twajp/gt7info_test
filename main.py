@@ -116,7 +116,7 @@ today = datetime.now(timezone.utc).date()
 timestamp = datetime.now(timezone.utc).isoformat()
 # start_date = datetime(year=2022, month=6, day=28).date()
 # how_many_days = (today-start_date).days + 1
-how_many_days = 100
+how_many_days = 14
 data = {
     'timestamp': timestamp,
     'content': []

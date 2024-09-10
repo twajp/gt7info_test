@@ -150,7 +150,7 @@ $(document).ready(function () {
         updateLastUpdatedTimestamp(timestamp, displayInJPY);
     }
 
-    // Render Expected to Appear Soon section
+    // Render Expected Soon section
     function renderExpectedSection(db) {
         // Selection algorithm
         function selectCars(carsDict, percentage) {
@@ -194,7 +194,7 @@ $(document).ready(function () {
             <div class="accordion-item">
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExpected" aria-expanded="true" aria-controls="collapseExpected">
-                        Expected to Appear Soon
+                        Expected Soon
                     </button>
                 </h2>
                 <div id="collapseExpected" class="accordion-collapse collapse" data-bs-parent="${keepAccordionOpen ? '' : '#accordionPanelsStayOpen'}">

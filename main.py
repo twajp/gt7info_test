@@ -43,6 +43,13 @@ def GetCountryInfo(country_id, countryList):
     return ''
 
 
+def GetCargroup(car_id, cargroupList):
+    for i in range(len(cargroupList)):
+        if car_id == cargroupList[i][0]:
+            return cargroupList[i][1]
+    return ''
+
+
 def MakeNewCarList(data, carList, makerList, countryList):
     res = []
     for i in range(len(data)):
@@ -54,6 +61,7 @@ def MakeNewCarList(data, carList, makerList, countryList):
             car = GetCarinfo(str(car_id), carList)
             maker = GetMakerInfo(str(car['maker_id']), makerList)
             country = GetCountryInfo(str(maker['country_id']), countryList)
+            car_group = GetCargroup(str(car_id), cargroupList)
 
             try:
                 carYear = int(car['name'][-2:])
@@ -69,6 +77,7 @@ def MakeNewCarList(data, carList, makerList, countryList):
                 'maker_name': maker['name'],
                 'car_id': car_id,
                 'car_name': car['name'],
+                'car_group': car_group,
                 'country_id': maker['country_id'],
                 'country_name': country['name'],
                 'country_code': country['code'],
@@ -99,6 +108,7 @@ def UpdateDB(lastAppearance):
                     'maker_id': car['maker_id'],
                     'maker_name': car['maker_name'],
                     'car_name': car['car_name'],
+                    'car_group': car['car_group'],
                     'country_id': car['country_id'],
                     'country_name': car['country_name'],
                     'country_code': car['country_code'],
@@ -125,6 +135,7 @@ db = LoadJSON(f'https://raw.githubusercontent.com/twajp/gt7info_test/gh-pages/db
 carList = LoadCSV('db', 'cars.csv')
 makerList = LoadCSV('db', 'maker.csv')
 countryList = LoadCSV('db', 'country.csv')
+cargroupList = LoadCSV('db', 'cargrp.csv')
 today = datetime.now(timezone.utc).date()
 timestamp = datetime.now(timezone.utc).isoformat()
 # start_date = datetime(year=2022, month=6, day=28).date()

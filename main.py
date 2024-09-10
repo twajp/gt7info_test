@@ -47,7 +47,16 @@ def MakeNewCarList(data, carList, makerList):
                             except:
                                 isOld = None
 
-                            res.append({'maker_id': maker_id, 'maker_name': maker_name,  'maker_country_id': maker_country_id, 'car_id': car_id, 'car_name': car_name,  'price': price, 'price_jp': price_jp, 'isOld': isOld})
+                            res.append({
+                                'maker_id': maker_id,
+                                'maker_name': maker_name,
+                                'maker_country_id': maker_country_id,
+                                'car_id': car_id,
+                                'car_name': car_name,
+                                'price': price,
+                                'price_jp': price_jp,
+                                'isOld': isOld
+                            })
     return res
 
 
@@ -68,6 +77,7 @@ def UpdateDB(lastAppearance):
         for day in data['content']:
             for car in day[dealer]:
                 db[dealer][str(car['car_id'])] = {
+                    'maker_id': car['maker_name'],
                     'maker_name': car['maker_name'],
                     'maker_country_id': car['maker_country_id'],
                     'car_name': car['car_name'],

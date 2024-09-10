@@ -26,31 +26,43 @@ def GetCarinfo(car_id, carList):
     for i in range(len(carList)):
         if car_id == carList[i][0]:
             return {'name': carList[i][1], 'maker_id': int(carList[i][2])}
-    return ''
 
 
 def GetMakerInfo(maker_id, makerList):
     for i in range(len(makerList)):
         if maker_id == makerList[i][0]:
             return {'name': makerList[i][1], 'country_id': int(makerList[i][2])}
-    return ''
 
 
 def GetCountryInfo(country_id, countryList):
     for i in range(len(countryList)):
         if country_id == countryList[i][0]:
             return {'name': countryList[i][1], 'code': countryList[i][2]}
-    return ''
 
 
 def GetCargroup(car_id, cargroupList):
     for i in range(len(cargroupList)):
         if car_id == cargroupList[i][0]:
             return cargroupList[i][1]
-    return ''
 
 
-def MakeNewCarList(data, carList, makerList, countryList):
+def GetEngineSwapInfo(car_id, engineswapList, carList, makerList):
+    res = []
+    for i in range(len(engineswapList)):
+        if car_id == engineswapList[i][0]:
+            car = GetCarinfo(engineswapList[i][1], carList)
+            maker = GetMakerInfo(str(car['maker_id']), makerList)
+            res.append({
+                'maker_id': car['maker_id'],
+                'maker_name': maker['name'],
+                'car_id': engineswapList[i][1],
+                'car_name': car['name'],
+                'engine_name': engineswapList[i][2]
+            })
+    return res
+
+
+def MakeNewCarList(data, carList, makerList, countryList, cargroupList, engineswapList):
     res = []
     for i in range(len(data)):
         if data[i][2] == 'new':
@@ -62,6 +74,7 @@ def MakeNewCarList(data, carList, makerList, countryList):
             maker = GetMakerInfo(str(car['maker_id']), makerList)
             country = GetCountryInfo(str(maker['country_id']), countryList)
             car_group = GetCargroup(str(car_id), cargroupList)
+            engine_swaps = GetEngineSwapInfo(str(car_id), engineswapList, carList, makerList)
 
             try:
                 carYear = int(car['name'][-2:])
@@ -81,6 +94,7 @@ def MakeNewCarList(data, carList, makerList, countryList):
                 'country_id': maker['country_id'],
                 'country_name': country['name'],
                 'country_code': country['code'],
+                'engine_swaps': engine_swaps,
                 'price': price,
                 'price_jp': price_jp,
                 'isOld': isOld
@@ -104,18 +118,8 @@ def UpdateDB(lastAppearance):
     for day in data['content']:
         for dealer in ['used', 'legend']:
             for car in day[dealer]:
-                db[dealer][str(car['car_id'])] = {
-                    'maker_id': car['maker_id'],
-                    'maker_name': car['maker_name'],
-                    'car_name': car['car_name'],
-                    'car_group': car['car_group'],
-                    'country_id': car['country_id'],
-                    'country_name': car['country_name'],
-                    'country_code': car['country_code'],
-                    'price': car['price'],
-                    'price_jp': car['price_jp'],
-                    'isOld': car['isOld'],
-                }
+                db[dealer][str(car['car_id'])] = car.copy()
+                # del db[dealer][str(car['car_id'])]['car_id']
                 if str(car['car_id']) in lastAppearance[dealer]:
                     db[dealer][str(car['car_id'])].update({'lastAppearance': lastAppearance[dealer][str(car['car_id'])].strftime('%Y/%m/%d')})
 
@@ -136,6 +140,7 @@ carList = LoadCSV('db', 'cars.csv')
 makerList = LoadCSV('db', 'maker.csv')
 countryList = LoadCSV('db', 'country.csv')
 cargroupList = LoadCSV('db', 'cargrp.csv')
+engineswapList = LoadCSV('db', 'engineswaps.csv')
 today = datetime.now(timezone.utc).date()
 timestamp = datetime.now(timezone.utc).isoformat()
 # start_date = datetime(year=2022, month=6, day=28).date()
@@ -161,8 +166,8 @@ for i in reversed(range(how_many_days)):
     data_prev_used = LoadCSV('used', filename_prev)
     data_prev_legend = LoadCSV('legend', filename_prev)
 
-    list_used = MakeNewCarList(data_used, carList, makerList, countryList)
-    list_legend = MakeNewCarList(data_legend, carList, makerList, countryList)
+    list_used = MakeNewCarList(data_used, carList, makerList, countryList, cargroupList, engineswapList)
+    list_legend = MakeNewCarList(data_legend, carList, makerList, countryList, cargroupList, engineswapList)
 
     lastAppearance['used'].update(CheckLastAppearance(data_used, data_prev_used, date_to_import))
     lastAppearance['legend'].update(CheckLastAppearance(data_legend, data_prev_legend, date_to_import))

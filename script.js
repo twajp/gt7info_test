@@ -57,7 +57,7 @@ $(document).ready(function () {
         combinedContainer.empty();
         combinedContainer.append(expectedContainer); // Append expectedContainer first
 
-        data.content.forEach((oneData, index) => {
+        data.content.reverse().forEach((oneData, index) => {
             const collapseId = `collapse${oneData.id}`;
             const isFirstItem = index === 0;
             const showClass = isFirstItem ? 'show' : '';

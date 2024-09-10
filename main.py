@@ -30,10 +30,10 @@ def MakeNewCarList(data, carList, makerList):
                 if data[i][0] == carList[j][0]:
                     for k in range(len(makerList)):
                         if carList[j][2] == makerList[k][0]:
-                            car_id = int(carList[j][0])
                             maker_id = int(makerList[k][0])
                             maker_name = makerList[k][1]
                             maker_country_id = int(makerList[k][2])
+                            car_id = int(carList[j][0])
                             car_name = carList[j][1]
                             price = int(data[i][1])
                             price_jp = int(data[i][1]) * 100

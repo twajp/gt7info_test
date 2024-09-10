@@ -22,41 +22,50 @@ def LoadJSON(url):
     return db
 
 
+def GetCarinfo(car_id, carList):
+    for i in range(len(carList)):
+        if car_id == carList[i][0]:
+            return {'name': carList[i][1], 'maker_id': int(carList[i][2])}
+    return ''
+
+
+def GetMakerInfo(maker_id, makerList):
+    for i in range(len(makerList)):
+        if maker_id == makerList[i][0]:
+            return {'name': makerList[i][1], 'country_id': int(makerList[i][2])}
+    return ''
+
+
 def MakeNewCarList(data, carList, makerList):
     res = []
     for i in range(len(data)):
         if data[i][2] == 'new':
-            for j in range(len(carList)):
-                if data[i][0] == carList[j][0]:
-                    for k in range(len(makerList)):
-                        if carList[j][2] == makerList[k][0]:
-                            maker_id = int(makerList[k][0])
-                            maker_name = makerList[k][1]
-                            maker_country_id = int(makerList[k][2])
-                            car_id = int(carList[j][0])
-                            car_name = carList[j][1]
-                            price = int(data[i][1])
-                            price_jp = int(data[i][1]) * 100
+            car_id = int(data[i][0])
+            price = int(data[i][1])
+            price_jp = int(data[i][1]) * 100
 
-                            try:
-                                carYear = int(car_name[-2:])
-                                if carYear >= 29 or carYear == 0:
-                                    isOld = True
-                                else:
-                                    isOld = False
-                            except:
-                                isOld = None
+            car = GetCarinfo(str(car_id), carList)
+            maker = GetMakerInfo(str(car['maker_id']), makerList)
 
-                            res.append({
-                                'maker_id': maker_id,
-                                'maker_name': maker_name,
-                                'maker_country_id': maker_country_id,
-                                'car_id': car_id,
-                                'car_name': car_name,
-                                'price': price,
-                                'price_jp': price_jp,
-                                'isOld': isOld
-                            })
+            try:
+                carYear = int(car['name'][-2:])
+                if carYear >= 29 or carYear == 0:
+                    isOld = True
+                else:
+                    isOld = False
+            except:
+                isOld = None
+
+            res.append({
+                'maker_id': car['maker_id'],
+                'maker_name': maker['name'],
+                'maker_country_id': maker['country_id'],
+                'car_id': car_id,
+                'car_name': car['name'],
+                'price': price,
+                'price_jp': price_jp,
+                'isOld': isOld
+            })
     return res
 
 
@@ -73,8 +82,8 @@ def CheckLastAppearance(data, data_prev, date_to_import):
 
 
 def UpdateDB(lastAppearance):
-    for dealer in ['used', 'legend']:
-        for day in data['content']:
+    for day in data['content']:
+        for dealer in ['used', 'legend']:
             for car in day[dealer]:
                 db[dealer][str(car['car_id'])] = {
                     'maker_id': car['maker_id'],

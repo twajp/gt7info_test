@@ -67,14 +67,14 @@ def UpdateDB(lastAppearance):
     for dealer in ['used', 'legend']:
         for day in data['content']:
             for car in day[dealer]:
-                db[dealer][str(car['car_id'])].update({
+                db[dealer][str(car['car_id'])] = {
                     'maker_name': car['maker_name'],
                     'maker_country_id': car['maker_country_id'],
                     'car_name': car['car_name'],
                     'price': car['price'],
                     'price_jp': car['price_jp'],
                     'isOld': car['isOld'],
-                })
+                }
                 if str(car['car_id']) in lastAppearance[dealer]:
                     db[dealer][str(car['car_id'])].update({'lastAppearance': lastAppearance[dealer][str(car['car_id'])].strftime('%Y/%m/%d')})
 

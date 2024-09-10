@@ -36,7 +36,14 @@ def GetMakerInfo(maker_id, makerList):
     return ''
 
 
-def MakeNewCarList(data, carList, makerList):
+def GetCountryInfo(country_id, countryList):
+    for i in range(len(countryList)):
+        if country_id == countryList[i][0]:
+            return {'name': countryList[i][1], 'code': countryList[i][2]}
+    return ''
+
+
+def MakeNewCarList(data, carList, makerList, countryList):
     res = []
     for i in range(len(data)):
         if data[i][2] == 'new':
@@ -46,6 +53,7 @@ def MakeNewCarList(data, carList, makerList):
 
             car = GetCarinfo(str(car_id), carList)
             maker = GetMakerInfo(str(car['maker_id']), makerList)
+            country = GetCountryInfo(str(maker['country_id']), countryList)
 
             try:
                 carYear = int(car['name'][-2:])
@@ -59,9 +67,11 @@ def MakeNewCarList(data, carList, makerList):
             res.append({
                 'maker_id': car['maker_id'],
                 'maker_name': maker['name'],
-                'maker_country_id': maker['country_id'],
                 'car_id': car_id,
                 'car_name': car['name'],
+                'country_id': maker['country_id'],
+                'country_name': country['name'],
+                'country_code': country['code'],
                 'price': price,
                 'price_jp': price_jp,
                 'isOld': isOld
@@ -88,8 +98,10 @@ def UpdateDB(lastAppearance):
                 db[dealer][str(car['car_id'])] = {
                     'maker_id': car['maker_id'],
                     'maker_name': car['maker_name'],
-                    'maker_country_id': car['maker_country_id'],
                     'car_name': car['car_name'],
+                    'country_id': car['country_id'],
+                    'country_name': car['country_name'],
+                    'country_code': car['country_code'],
                     'price': car['price'],
                     'price_jp': car['price_jp'],
                     'isOld': car['isOld'],
@@ -112,11 +124,12 @@ def UpdateDB(lastAppearance):
 db = LoadJSON(f'https://raw.githubusercontent.com/twajp/gt7info_test/gh-pages/db.json')
 carList = LoadCSV('db', 'cars.csv')
 makerList = LoadCSV('db', 'maker.csv')
+countryList = LoadCSV('db', 'country.csv')
 today = datetime.now(timezone.utc).date()
 timestamp = datetime.now(timezone.utc).isoformat()
 # start_date = datetime(year=2022, month=6, day=28).date()
 # how_many_days = (today-start_date).days + 1
-how_many_days = 14
+how_many_days = 100
 data = {
     'timestamp': timestamp,
     'content': []
@@ -137,8 +150,8 @@ for i in reversed(range(how_many_days)):
     data_prev_used = LoadCSV('used', filename_prev)
     data_prev_legend = LoadCSV('legend', filename_prev)
 
-    list_used = MakeNewCarList(data_used, carList, makerList)
-    list_legend = MakeNewCarList(data_legend, carList, makerList)
+    list_used = MakeNewCarList(data_used, carList, makerList, countryList)
+    list_legend = MakeNewCarList(data_legend, carList, makerList, countryList)
 
     lastAppearance['used'].update(CheckLastAppearance(data_used, data_prev_used, date_to_import))
     lastAppearance['legend'].update(CheckLastAppearance(data_legend, data_prev_legend, date_to_import))
@@ -149,7 +162,7 @@ for i in reversed(range(how_many_days)):
         'used': list_used,
         'legend': list_legend,
     })
-    print(f'Day {100-i}')
+    print(f'Day {how_many_days-i}')
 
 UpdateDB(lastAppearance)
 

@@ -31,9 +31,9 @@ def MakeNewCarList(data, carList, makerList):
                     for k in range(len(makerList)):
                         if carList[j][2] == makerList[k][0]:
                             car_id = int(carList[j][0])
-                            maker_id = makerList[k][0]
+                            maker_id = int(makerList[k][0])
                             maker_name = makerList[k][1]
-                            maker_country = makerList[k][2]
+                            maker_country_id = int(makerList[k][2])
                             car_name = carList[j][1]
                             price = int(data[i][1])
                             price_jp = int(data[i][1]) * 100
@@ -47,7 +47,7 @@ def MakeNewCarList(data, carList, makerList):
                             except:
                                 isOld = None
 
-                            res.append({'car_id': car_id, 'car_name': car_name, 'maker_id': maker_id, 'maker_name': maker_name,  'maker_country': maker_country, 'price': price, 'price_jp': price_jp, 'isOld': isOld})
+                            res.append({'maker_id': maker_id, 'maker_name': maker_name,  'maker_country_id': maker_country_id, 'car_id': car_id, 'car_name': car_name,  'price': price, 'price_jp': price_jp, 'isOld': isOld})
     return res
 
 
@@ -69,7 +69,7 @@ def UpdateDB(lastAppearance):
             for car in day[dealer]:
                 db[dealer][str(car['car_id'])].update({
                     'maker_name': car['maker_name'],
-                    'maker_country': car['maker_country'],
+                    'maker_country_id': car['maker_country_id'],
                     'car_name': car['car_name'],
                     'price': car['price'],
                     'price_jp': car['price_jp'],

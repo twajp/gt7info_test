@@ -205,7 +205,7 @@ $(document).ready(function () {
                                 <tr>
                                     <th scope="col">Maker</th>
                                     <th scope="col">Car</th>
-                                    <th scope="col" style="text-align: right;">Last Appeared</th>
+                                    <th scope="col" style="text-align: right;">Last Appearance</th>
                                     <th scope="col"></th>
                                 </tr>
                             </thead>

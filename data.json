@@ -1,6 +1,54 @@
 {
-  "timestamp": "2024-09-09T00:10:19.437926+00:00",
+  "timestamp": "2024-09-10T00:10:01.943343+00:00",
   "content": [
+    {
+      "id": 20240910,
+      "date": "2024/9/10",
+      "used": [
+        {
+          "car_id": 1027,
+          "maker_name": "DMC",
+          "car_name": "DeLorean S2 '04",
+          "price": 472300,
+          "price_jp": 47230000,
+          "isOld": false
+        },
+        {
+          "car_id": 1370,
+          "maker_name": "MINI",
+          "car_name": "MINI Cooper S '05",
+          "price": 24100,
+          "price_jp": 2410000,
+          "isOld": false
+        },
+        {
+          "car_id": 334,
+          "maker_name": "Renault",
+          "car_name": "Clio V6 24V '00",
+          "price": 81900,
+          "price_jp": 8190000,
+          "isOld": true
+        },
+        {
+          "car_id": 205,
+          "maker_name": "Mazda",
+          "car_name": "RX-7 Spirit R Type A (FD) '02",
+          "price": 216300,
+          "price_jp": 21630000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "car_id": 216,
+          "maker_name": "BMW",
+          "car_name": "McLaren F1 GTR Race Car '97",
+          "price": 20000000,
+          "price_jp": 2000000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20240909,
       "date": "2024/9/9",
@@ -524,45 +572,6 @@
           "isOld": true
         }
       ]
-    },
-    {
-      "id": 20240827,
-      "date": "2024/8/27",
-      "used": [
-        {
-          "car_id": 1895,
-          "maker_name": "Ferrari",
-          "car_name": "Dino 246 GT '71",
-          "price": 400000,
-          "price_jp": 40000000,
-          "isOld": true
-        },
-        {
-          "car_id": 63,
-          "maker_name": "Toyota",
-          "car_name": "Corolla Levin 1600GT APEX (AE86) '83",
-          "price": 48900,
-          "price_jp": 4890000,
-          "isOld": true
-        },
-        {
-          "car_id": 37,
-          "maker_name": "Honda",
-          "car_name": "Civic SiR-II (EG) '93",
-          "price": 52500,
-          "price_jp": 5250000,
-          "isOld": true
-        },
-        {
-          "car_id": 1689,
-          "maker_name": "Honda",
-          "car_name": "Civic Type R (EK) Touring Car",
-          "price": 122400,
-          "price_jp": 12240000,
-          "isOld": null
-        }
-      ],
-      "legend": []
     }
   ]
 }

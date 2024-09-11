@@ -102,7 +102,7 @@ def MakeNewCarList(data, carList, makerList, countryList, cargroupList, enginesw
     return res
 
 
-def CheckLastAppearance(data, data_prev, date_to_import):
+def GetLastSeen(data, data_prev, date_to_import):
     res = {}
     for i in range(len(data)):
         res.update({data[i][0]: today})
@@ -114,25 +114,25 @@ def CheckLastAppearance(data, data_prev, date_to_import):
     return res
 
 
-def UpdateDB(lastAppearance):
+def UpdateDB(lastSeen):
     for day in data['content']:
         for dealer in ['used', 'legend']:
             for car in day[dealer]:
                 db[dealer][str(car['car_id'])] = car.copy()
                 # del db[dealer][str(car['car_id'])]['car_id']
-                if str(car['car_id']) in lastAppearance[dealer]:
-                    db[dealer][str(car['car_id'])].update({'lastAppearance': lastAppearance[dealer][str(car['car_id'])].strftime('%Y/%m/%d')})
+                if str(car['car_id']) in lastSeen[dealer]:
+                    db[dealer][str(car['car_id'])].update({'lastSeen': lastSeen[dealer][str(car['car_id'])].strftime('%Y/%m/%d')})
 
     db.update({'timestamp': timestamp})
 
     for dealer in ['used', 'legend']:
         for car_id, car_info in db[dealer].items():
-            car_info['sinceLastAppearance'] = (today - datetime.strptime(car_info['lastAppearance'], '%Y/%m/%d').date()).days
-        # Sort the entries by 'sinceLastAppearance'
-        db[dealer] = dict(sorted(db[dealer].items(), key=lambda item: item[1]['sinceLastAppearance'], reverse=True))
+            car_info['sinceLastSeen'] = (today - datetime.strptime(car_info['lastSeen'], '%Y/%m/%d').date()).days
+        # Sort the entries by 'sinceLastSeen'
+        db[dealer] = dict(sorted(db[dealer].items(), key=lambda item: item[1]['sinceLastSeen'], reverse=True))
 
-    db['used'] = dict(sorted(db['used'].items(), key=lambda item: (today - datetime.strptime(item[1]['lastAppearance'], '%Y/%m/%d').date()).days, reverse=True))
-    db['legend'] = dict(sorted(db['legend'].items(), key=lambda item: (today - datetime.strptime(item[1]['lastAppearance'], '%Y/%m/%d').date()).days, reverse=True))
+    db['used'] = dict(sorted(db['used'].items(), key=lambda item: (today - datetime.strptime(item[1]['lastSeen'], '%Y/%m/%d').date()).days, reverse=True))
+    db['legend'] = dict(sorted(db['legend'].items(), key=lambda item: (today - datetime.strptime(item[1]['lastSeen'], '%Y/%m/%d').date()).days, reverse=True))
 
 
 db = LoadJSON(f'https://raw.githubusercontent.com/twajp/gt7info_test/gh-pages/db.json')
@@ -144,18 +144,18 @@ engineswapList = LoadCSV('db', 'engineswaps.csv')
 today = datetime.now(timezone.utc).date()
 timestamp = datetime.now(timezone.utc).isoformat()
 # start_date = datetime(year=2022, month=6, day=28).date()
-# how_many_days = (today-start_date).days + 1
-how_many_days = 14
+# number_of_days = (today-start_date).days + 1
+number_of_days = 100
 data = {
     'timestamp': timestamp,
     'content': []
 }
-lastAppearance = {
+lastSeen = {
     'used': {},
     'legend': {}
 }
 
-for i in reversed(range(how_many_days)):
+for i in reversed(range(number_of_days)):
     date_to_import = today - timedelta(i)
     date_to_import_prev = today - timedelta(i+1)
     filename = date_to_import.strftime('%y-%m-%d')+'.csv'
@@ -169,8 +169,8 @@ for i in reversed(range(how_many_days)):
     list_used = MakeNewCarList(data_used, carList, makerList, countryList, cargroupList, engineswapList)
     list_legend = MakeNewCarList(data_legend, carList, makerList, countryList, cargroupList, engineswapList)
 
-    lastAppearance['used'].update(CheckLastAppearance(data_used, data_prev_used, date_to_import))
-    lastAppearance['legend'].update(CheckLastAppearance(data_legend, data_prev_legend, date_to_import))
+    lastSeen['used'].update(GetLastSeen(data_used, data_prev_used, date_to_import))
+    lastSeen['legend'].update(GetLastSeen(data_legend, data_prev_legend, date_to_import))
 
     data['content'].insert(0, {
         'id': int(date_to_import.strftime('%Y%m%d')),
@@ -178,9 +178,9 @@ for i in reversed(range(how_many_days)):
         'used': list_used,
         'legend': list_legend,
     })
-    print(f'Day {how_many_days-i}')
+    print(f'Day {number_of_days-i}')
 
-UpdateDB(lastAppearance)
+UpdateDB(lastSeen)
 
 with open('data.json', 'w') as f:
     json.dump(data, f, indent=2, ensure_ascii=False)

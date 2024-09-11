@@ -157,9 +157,9 @@ $(document).ready(function () {
             const today = new Date();
             let carsArray = Object.entries(carsDict);
 
-            // Sort cars by 'sinceLastAppearance'
+            // Sort cars by 'sinceLastSeen'
             carsArray.sort((a, b) => {
-                return b[1].sinceLastAppearance - a[1].sinceLastAppearance;
+                return b[1].sinceLastSeen - a[1].sinceLastSeen;
             });
 
             // Filter out non-old cars and get top cars based on percentage
@@ -181,7 +181,7 @@ $(document).ready(function () {
                 <tr class="${car[1].isOld ? 'table-danger' : (car[1].isOld === false ? '' : 'table-warning')}">
                     <td>${car[1].maker_name}</td>
                     <th class="popup-text" data-image-url="https://ddm999.github.io/gt7info/cars/prices_${car[0]}.png">${car[1].car_name}</th>
-                    <td style="text-align: right;">${car[1].lastAppearance} (${car[1].sinceLastAppearance} days ago)</td>
+                    <td style="text-align: right;">${car[1].lastSeen} (${car[1].sinceLastSeen} days ago)</td>
                     <td></td>
                 </tr>
             `).join('');
@@ -205,7 +205,7 @@ $(document).ready(function () {
                                 <tr>
                                     <th scope="col">Maker</th>
                                     <th scope="col">Car</th>
-                                    <th scope="col" style="text-align: right;">Last Appearance</th>
+                                    <th scope="col" style="text-align: right;">Last Seen</th>
                                     <th scope="col"></th>
                                 </tr>
                             </thead>
@@ -219,7 +219,7 @@ $(document).ready(function () {
                                 <tr>
                                     <th scope="col">Maker</th>
                                     <th scope="col">Car</th>
-                                    <th scope="col" style="text-align: right;">Last Appeared</th>
+                                    <th scope="col" style="text-align: right;">Last Seen</th>
                                     <th scope="col"></th>
                                 </tr>
                             </thead>

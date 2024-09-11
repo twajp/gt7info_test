@@ -1,5 +1,5 @@
 {
-  "timestamp": "2024-09-10T08:24:09.682692+00:00",
+  "timestamp": "2024-09-11T00:10:10.149141+00:00",
   "used": {
     "1458": {
       "maker_id": 28,
@@ -23,7 +23,7 @@
       "price_jp": 3600000,
       "isOld": false,
       "lastAppearance": "2024/07/07",
-      "sinceLastAppearance": 65
+      "sinceLastAppearance": 66
     },
     "1373": {
       "maker_id": 11,
@@ -39,7 +39,7 @@
       "price_jp": 10560000,
       "isOld": false,
       "lastAppearance": "2024/07/09",
-      "sinceLastAppearance": 63
+      "sinceLastAppearance": 64
     },
     "1410": {
       "maker_id": 110,
@@ -55,7 +55,7 @@
       "price_jp": 30900000,
       "isOld": true,
       "lastAppearance": "2024/07/09",
-      "sinceLastAppearance": 63
+      "sinceLastAppearance": 64
     },
     "82": {
       "maker_id": 43,
@@ -79,7 +79,7 @@
       "price_jp": 19230000,
       "isOld": true,
       "lastAppearance": "2024/07/13",
-      "sinceLastAppearance": 59
+      "sinceLastAppearance": 60
     },
     "1384": {
       "maker_id": 28,
@@ -103,7 +103,7 @@
       "price_jp": 2680000,
       "isOld": false,
       "lastAppearance": "2024/07/13",
-      "sinceLastAppearance": 59
+      "sinceLastAppearance": 60
     },
     "1426": {
       "maker_id": 13,
@@ -119,7 +119,7 @@
       "price_jp": 39930000,
       "isOld": false,
       "lastAppearance": "2024/07/14",
-      "sinceLastAppearance": 58
+      "sinceLastAppearance": 59
     },
     "1399": {
       "maker_id": 6,
@@ -143,7 +143,7 @@
       "price_jp": 6990000,
       "isOld": false,
       "lastAppearance": "2024/07/16",
-      "sinceLastAppearance": 56
+      "sinceLastAppearance": 57
     },
     "3431": {
       "maker_id": 136,
@@ -167,7 +167,7 @@
       "price_jp": 22650000,
       "isOld": true,
       "lastAppearance": "2024/07/17",
-      "sinceLastAppearance": 55
+      "sinceLastAppearance": 56
     },
     "1541": {
       "maker_id": 5,
@@ -183,7 +183,7 @@
       "price_jp": 6310000,
       "isOld": false,
       "lastAppearance": "2024/07/17",
-      "sinceLastAppearance": 55
+      "sinceLastAppearance": 56
     },
     "1378": {
       "maker_id": 110,
@@ -199,7 +199,7 @@
       "price_jp": 20110000,
       "isOld": false,
       "lastAppearance": "2024/07/18",
-      "sinceLastAppearance": 54
+      "sinceLastAppearance": 55
     },
     "3389": {
       "maker_id": 6,
@@ -223,7 +223,7 @@
       "price_jp": 7280000,
       "isOld": false,
       "lastAppearance": "2024/07/20",
-      "sinceLastAppearance": 52
+      "sinceLastAppearance": 53
     },
     "396": {
       "maker_id": 15,
@@ -247,7 +247,7 @@
       "price_jp": 43160000,
       "isOld": false,
       "lastAppearance": "2024/07/23",
-      "sinceLastAppearance": 49
+      "sinceLastAppearance": 50
     },
     "1544": {
       "maker_id": 110,
@@ -263,7 +263,7 @@
       "price_jp": 36670000,
       "isOld": false,
       "lastAppearance": "2024/08/11",
-      "sinceLastAppearance": 30
+      "sinceLastAppearance": 31
     },
     "3551": {
       "maker_id": 6,
@@ -287,7 +287,7 @@
       "price_jp": 7460000,
       "isOld": true,
       "lastAppearance": "2024/08/11",
-      "sinceLastAppearance": 30
+      "sinceLastAppearance": 31
     },
     "1506": {
       "maker_id": 112,
@@ -303,7 +303,7 @@
       "price_jp": 25310000,
       "isOld": false,
       "lastAppearance": "2024/08/11",
-      "sinceLastAppearance": 30
+      "sinceLastAppearance": 31
     },
     "709": {
       "maker_id": 28,
@@ -327,23 +327,7 @@
       "price_jp": 6230000,
       "isOld": true,
       "lastAppearance": "2024/08/12",
-      "sinceLastAppearance": 29
-    },
-    "1537": {
-      "maker_id": 43,
-      "maker_name": "Toyota",
-      "car_id": 1537,
-      "car_name": "Prius G '09",
-      "car_group": "N",
-      "country_id": 2,
-      "country_name": "Japan",
-      "country_code": "jp",
-      "engine_swaps": [],
-      "price": 21400,
-      "price_jp": 2140000,
-      "isOld": false,
-      "lastAppearance": "2024/08/13",
-      "sinceLastAppearance": 28
+      "sinceLastAppearance": 30
     },
     "41": {
       "maker_id": 7,
@@ -367,47 +351,7 @@
       "price_jp": 5150000,
       "isOld": true,
       "lastAppearance": "2024/08/14",
-      "sinceLastAppearance": 27
-    },
-    "959": {
-      "maker_id": 5,
-      "maker_name": "Audi",
-      "car_id": 959,
-      "car_name": "TT Coupe 3.2 quattro '03",
-      "car_group": "N",
-      "country_id": 5,
-      "country_name": "Germany",
-      "country_code": "de",
-      "engine_swaps": [],
-      "price": 45400,
-      "price_jp": 4540000,
-      "isOld": false,
-      "lastAppearance": "2024/08/15",
-      "sinceLastAppearance": 26
-    },
-    "204": {
-      "maker_id": 15,
-      "maker_name": "Honda",
-      "car_id": 204,
-      "car_name": "Civic Type R (EK) '98",
-      "car_group": "N",
-      "country_id": 2,
-      "country_name": "Japan",
-      "country_code": "jp",
-      "engine_swaps": [
-        {
-          "maker_id": 15,
-          "maker_name": "Honda",
-          "car_id": "3467",
-          "car_name": "Civic Type R Limited Edition (FK8) '20",
-          "engine_name": "K20C1-Civic-'20"
-        }
-      ],
-      "price": 47400,
-      "price_jp": 4740000,
-      "isOld": true,
-      "lastAppearance": "2024/08/15",
-      "sinceLastAppearance": 26
+      "sinceLastAppearance": 28
     },
     "207": {
       "maker_id": 43,
@@ -431,31 +375,7 @@
       "price_jp": 5810000,
       "isOld": true,
       "lastAppearance": "2024/08/15",
-      "sinceLastAppearance": 26
-    },
-    "919": {
-      "maker_id": 28,
-      "maker_name": "Nissan",
-      "car_id": 919,
-      "car_name": "Silvia Q's (S13) '88",
-      "car_group": "N",
-      "country_id": 2,
-      "country_name": "Japan",
-      "country_code": "jp",
-      "engine_swaps": [
-        {
-          "maker_id": 38,
-          "maker_name": "Subaru",
-          "car_id": "3339",
-          "car_name": "BRZ Drift Car '17",
-          "engine_name": "LS7-BRZ"
-        }
-      ],
-      "price": 31900,
-      "price_jp": 3190000,
-      "isOld": true,
-      "lastAppearance": "2024/08/16",
-      "sinceLastAppearance": 25
+      "sinceLastAppearance": 27
     },
     "3453": {
       "maker_id": 6,
@@ -479,7 +399,7 @@
       "price_jp": 7570000,
       "isOld": true,
       "lastAppearance": "2024/08/16",
-      "sinceLastAppearance": 25
+      "sinceLastAppearance": 26
     },
     "451": {
       "maker_id": 38,
@@ -495,7 +415,7 @@
       "price_jp": 17730000,
       "isOld": true,
       "lastAppearance": "2024/08/16",
-      "sinceLastAppearance": 25
+      "sinceLastAppearance": 26
     },
     "3438": {
       "maker_id": 125,
@@ -519,7 +439,7 @@
       "price_jp": 5700000,
       "isOld": true,
       "lastAppearance": "2024/08/17",
-      "sinceLastAppearance": 24
+      "sinceLastAppearance": 25
     },
     "3442": {
       "maker_id": 57,
@@ -535,7 +455,7 @@
       "price_jp": 3180000,
       "isOld": true,
       "lastAppearance": "2024/08/17",
-      "sinceLastAppearance": 24
+      "sinceLastAppearance": 25
     },
     "173": {
       "maker_id": 34,
@@ -551,7 +471,7 @@
       "price_jp": 14740000,
       "isOld": true,
       "lastAppearance": "2024/08/18",
-      "sinceLastAppearance": 23
+      "sinceLastAppearance": 24
     },
     "1448": {
       "maker_id": 28,
@@ -575,7 +495,7 @@
       "price_jp": 6110000,
       "isOld": false,
       "lastAppearance": "2024/08/18",
-      "sinceLastAppearance": 23
+      "sinceLastAppearance": 24
     },
     "688": {
       "maker_id": 15,
@@ -599,7 +519,7 @@
       "price_jp": 6120000,
       "isOld": true,
       "lastAppearance": "2024/08/19",
-      "sinceLastAppearance": 22
+      "sinceLastAppearance": 23
     },
     "135": {
       "maker_id": 15,
@@ -623,7 +543,7 @@
       "price_jp": 4960000,
       "isOld": true,
       "lastAppearance": "2024/08/19",
-      "sinceLastAppearance": 22
+      "sinceLastAppearance": 23
     },
     "779": {
       "maker_id": 39,
@@ -647,7 +567,7 @@
       "price_jp": 1770000,
       "isOld": true,
       "lastAppearance": "2024/08/19",
-      "sinceLastAppearance": 22
+      "sinceLastAppearance": 23
     },
     "3341": {
       "maker_id": 140,
@@ -671,7 +591,7 @@
       "price_jp": 16220000,
       "isOld": true,
       "lastAppearance": "2024/08/20",
-      "sinceLastAppearance": 21
+      "sinceLastAppearance": 22
     },
     "3424": {
       "maker_id": 25,
@@ -695,7 +615,7 @@
       "price_jp": 9970000,
       "isOld": false,
       "lastAppearance": "2024/08/21",
-      "sinceLastAppearance": 20
+      "sinceLastAppearance": 21
     },
     "1773": {
       "maker_id": 46,
@@ -711,7 +631,7 @@
       "price_jp": 4200000,
       "isOld": false,
       "lastAppearance": "2024/08/22",
-      "sinceLastAppearance": 19
+      "sinceLastAppearance": 20
     },
     "48": {
       "maker_id": 28,
@@ -735,7 +655,7 @@
       "price_jp": 9850000,
       "isOld": true,
       "lastAppearance": "2024/08/22",
-      "sinceLastAppearance": 19
+      "sinceLastAppearance": 20
     },
     "3454": {
       "maker_id": 6,
@@ -751,7 +671,7 @@
       "price_jp": 14150000,
       "isOld": true,
       "lastAppearance": "2024/08/22",
-      "sinceLastAppearance": 19
+      "sinceLastAppearance": 20
     },
     "829": {
       "maker_id": 18,
@@ -775,7 +695,7 @@
       "price_jp": 10190000,
       "isOld": true,
       "lastAppearance": "2024/08/23",
-      "sinceLastAppearance": 18
+      "sinceLastAppearance": 19
     },
     "3443": {
       "maker_id": 110,
@@ -791,7 +711,7 @@
       "price_jp": 16640000,
       "isOld": true,
       "lastAppearance": "2024/08/24",
-      "sinceLastAppearance": 17
+      "sinceLastAppearance": 18
     },
     "931": {
       "maker_id": 25,
@@ -815,7 +735,7 @@
       "price_jp": 8780000,
       "isOld": true,
       "lastAppearance": "2024/08/24",
-      "sinceLastAppearance": 17
+      "sinceLastAppearance": 18
     },
     "1481": {
       "maker_id": 112,
@@ -839,7 +759,7 @@
       "price_jp": 71180000,
       "isOld": true,
       "lastAppearance": "2024/08/24",
-      "sinceLastAppearance": 17
+      "sinceLastAppearance": 18
     },
     "1527": {
       "maker_id": 12,
@@ -855,7 +775,7 @@
       "price_jp": 1330000,
       "isOld": false,
       "lastAppearance": "2024/08/25",
-      "sinceLastAppearance": 16
+      "sinceLastAppearance": 17
     },
     "821": {
       "maker_id": 15,
@@ -879,7 +799,7 @@
       "price_jp": 5810000,
       "isOld": true,
       "lastAppearance": "2024/08/25",
-      "sinceLastAppearance": 16
+      "sinceLastAppearance": 17
     },
     "187": {
       "maker_id": 44,
@@ -903,7 +823,7 @@
       "price_jp": 7250000,
       "isOld": true,
       "lastAppearance": "2024/08/25",
-      "sinceLastAppearance": 16
+      "sinceLastAppearance": 17
     },
     "3344": {
       "maker_id": 6,
@@ -927,7 +847,7 @@
       "price_jp": 17970000,
       "isOld": true,
       "lastAppearance": "2024/08/26",
-      "sinceLastAppearance": 15
+      "sinceLastAppearance": 16
     },
     "514": {
       "maker_id": 15,
@@ -951,7 +871,7 @@
       "price_jp": 10010000,
       "isOld": true,
       "lastAppearance": "2024/08/26",
-      "sinceLastAppearance": 15
+      "sinceLastAppearance": 16
     },
     "1578": {
       "maker_id": 3,
@@ -967,7 +887,7 @@
       "price_jp": 28720000,
       "isOld": false,
       "lastAppearance": "2024/08/26",
-      "sinceLastAppearance": 15
+      "sinceLastAppearance": 16
     },
     "3466": {
       "maker_id": 13,
@@ -983,7 +903,7 @@
       "price_jp": 19350000,
       "isOld": true,
       "lastAppearance": "2024/08/26",
-      "sinceLastAppearance": 15
+      "sinceLastAppearance": 16
     },
     "345": {
       "maker_id": 43,
@@ -999,7 +919,7 @@
       "price_jp": 9780000,
       "isOld": null,
       "lastAppearance": "2024/08/27",
-      "sinceLastAppearance": 14
+      "sinceLastAppearance": 15
     },
     "1778": {
       "maker_id": 46,
@@ -1023,7 +943,7 @@
       "price_jp": 3580000,
       "isOld": true,
       "lastAppearance": "2024/08/27",
-      "sinceLastAppearance": 14
+      "sinceLastAppearance": 15
     },
     "78": {
       "maker_id": 28,
@@ -1047,7 +967,7 @@
       "price_jp": 5930000,
       "isOld": true,
       "lastAppearance": "2024/08/28",
-      "sinceLastAppearance": 13
+      "sinceLastAppearance": 14
     },
     "843": {
       "maker_id": 43,
@@ -1071,7 +991,7 @@
       "price_jp": 11590000,
       "isOld": true,
       "lastAppearance": "2024/08/29",
-      "sinceLastAppearance": 12
+      "sinceLastAppearance": 13
     },
     "3385": {
       "maker_id": 136,
@@ -1095,7 +1015,7 @@
       "price_jp": 21560000,
       "isOld": true,
       "lastAppearance": "2024/08/29",
-      "sinceLastAppearance": 12
+      "sinceLastAppearance": 13
     },
     "1973": {
       "maker_id": 125,
@@ -1111,7 +1031,7 @@
       "price_jp": 2210000,
       "isOld": false,
       "lastAppearance": "2024/08/29",
-      "sinceLastAppearance": 12
+      "sinceLastAppearance": 13
     },
     "3384": {
       "maker_id": 25,
@@ -1135,7 +1055,7 @@
       "price_jp": 4000000,
       "isOld": true,
       "lastAppearance": "2024/08/29",
-      "sinceLastAppearance": 12
+      "sinceLastAppearance": 13
     },
     "1990": {
       "maker_id": 112,
@@ -1151,7 +1071,7 @@
       "price_jp": 78930000,
       "isOld": true,
       "lastAppearance": "2024/08/30",
-      "sinceLastAppearance": 11
+      "sinceLastAppearance": 12
     },
     "3547": {
       "maker_id": 34,
@@ -1167,7 +1087,7 @@
       "price_jp": 2410000,
       "isOld": true,
       "lastAppearance": "2024/08/30",
-      "sinceLastAppearance": 11
+      "sinceLastAppearance": 12
     },
     "3439": {
       "maker_id": 136,
@@ -1191,7 +1111,7 @@
       "price_jp": 26000000,
       "isOld": true,
       "lastAppearance": "2024/08/30",
-      "sinceLastAppearance": 11
+      "sinceLastAppearance": 12
     },
     "3524": {
       "maker_id": 28,
@@ -1215,7 +1135,7 @@
       "price_jp": 39000000,
       "isOld": true,
       "lastAppearance": "2024/08/30",
-      "sinceLastAppearance": 11
+      "sinceLastAppearance": 12
     },
     "1507": {
       "maker_id": 153,
@@ -1231,7 +1151,7 @@
       "price_jp": 30830000,
       "isOld": false,
       "lastAppearance": "2024/08/30",
-      "sinceLastAppearance": 11
+      "sinceLastAppearance": 12
     },
     "3422": {
       "maker_id": 6,
@@ -1255,7 +1175,7 @@
       "price_jp": 21120000,
       "isOld": true,
       "lastAppearance": "2024/08/30",
-      "sinceLastAppearance": 11
+      "sinceLastAppearance": 12
     },
     "137": {
       "maker_id": 15,
@@ -1279,7 +1199,7 @@
       "price_jp": 1680000,
       "isOld": true,
       "lastAppearance": "2024/08/31",
-      "sinceLastAppearance": 10
+      "sinceLastAppearance": 11
     },
     "3432": {
       "maker_id": 38,
@@ -1295,7 +1215,7 @@
       "price_jp": 4710000,
       "isOld": false,
       "lastAppearance": "2024/08/31",
-      "sinceLastAppearance": 10
+      "sinceLastAppearance": 11
     },
     "1722": {
       "maker_id": 117,
@@ -1311,7 +1231,7 @@
       "price_jp": 19730000,
       "isOld": false,
       "lastAppearance": "2024/09/01",
-      "sinceLastAppearance": 9
+      "sinceLastAppearance": 10
     },
     "201": {
       "maker_id": 21,
@@ -1335,7 +1255,7 @@
       "price_jp": 2650000,
       "isOld": true,
       "lastAppearance": "2024/09/01",
-      "sinceLastAppearance": 9
+      "sinceLastAppearance": 10
     },
     "3398": {
       "maker_id": 35,
@@ -1351,7 +1271,7 @@
       "price_jp": 80180000,
       "isOld": false,
       "lastAppearance": "2024/09/02",
-      "sinceLastAppearance": 8
+      "sinceLastAppearance": 9
     },
     "210": {
       "maker_id": 28,
@@ -1375,7 +1295,7 @@
       "price_jp": 39660000,
       "isOld": false,
       "lastAppearance": "2024/09/02",
-      "sinceLastAppearance": 8
+      "sinceLastAppearance": 9
     },
     "1539": {
       "maker_id": 116,
@@ -1391,7 +1311,7 @@
       "price_jp": 14740000,
       "isOld": false,
       "lastAppearance": "2024/09/02",
-      "sinceLastAppearance": 8
+      "sinceLastAppearance": 9
     },
     "3359": {
       "maker_id": 136,
@@ -1415,7 +1335,7 @@
       "price_jp": 14020000,
       "isOld": false,
       "lastAppearance": "2024/09/02",
-      "sinceLastAppearance": 8
+      "sinceLastAppearance": 9
     },
     "1545": {
       "maker_id": 112,
@@ -1431,7 +1351,7 @@
       "price_jp": 31870000,
       "isOld": false,
       "lastAppearance": "2024/09/02",
-      "sinceLastAppearance": 8
+      "sinceLastAppearance": 9
     },
     "1671": {
       "maker_id": 46,
@@ -1455,7 +1375,7 @@
       "price_jp": 5710000,
       "isOld": true,
       "lastAppearance": "2024/09/03",
-      "sinceLastAppearance": 7
+      "sinceLastAppearance": 8
     },
     "63": {
       "maker_id": 43,
@@ -1479,7 +1399,7 @@
       "price_jp": 4680000,
       "isOld": true,
       "lastAppearance": "2024/09/03",
-      "sinceLastAppearance": 7
+      "sinceLastAppearance": 8
     },
     "379": {
       "maker_id": 38,
@@ -1495,7 +1415,7 @@
       "price_jp": 5360000,
       "isOld": true,
       "lastAppearance": "2024/09/04",
-      "sinceLastAppearance": 6
+      "sinceLastAppearance": 7
     },
     "211": {
       "maker_id": 25,
@@ -1519,7 +1439,7 @@
       "price_jp": 7750000,
       "isOld": true,
       "lastAppearance": "2024/09/04",
-      "sinceLastAppearance": 6
+      "sinceLastAppearance": 7
     },
     "1893": {
       "maker_id": 6,
@@ -1535,7 +1455,7 @@
       "price_jp": 25910000,
       "isOld": false,
       "lastAppearance": "2024/09/04",
-      "sinceLastAppearance": 6
+      "sinceLastAppearance": 7
     },
     "37": {
       "maker_id": 15,
@@ -1559,7 +1479,7 @@
       "price_jp": 5250000,
       "isOld": true,
       "lastAppearance": "2024/09/04",
-      "sinceLastAppearance": 6
+      "sinceLastAppearance": 7
     },
     "203": {
       "maker_id": 15,
@@ -1583,7 +1503,7 @@
       "price_jp": 6220000,
       "isOld": true,
       "lastAppearance": "2024/09/04",
-      "sinceLastAppearance": 6
+      "sinceLastAppearance": 7
     },
     "3549": {
       "maker_id": 69,
@@ -1599,7 +1519,7 @@
       "price_jp": 4700000,
       "isOld": true,
       "lastAppearance": "2024/09/04",
-      "sinceLastAppearance": 6
+      "sinceLastAppearance": 7
     },
     "1729": {
       "maker_id": 13,
@@ -1623,7 +1543,7 @@
       "price_jp": 4080000,
       "isOld": true,
       "lastAppearance": "2024/09/05",
-      "sinceLastAppearance": 5
+      "sinceLastAppearance": 6
     },
     "1985": {
       "maker_id": 52,
@@ -1647,7 +1567,7 @@
       "price_jp": 8790000,
       "isOld": true,
       "lastAppearance": "2024/09/05",
-      "sinceLastAppearance": 5
+      "sinceLastAppearance": 6
     },
     "1689": {
       "maker_id": 15,
@@ -1671,7 +1591,7 @@
       "price_jp": 11540000,
       "isOld": null,
       "lastAppearance": "2024/09/06",
-      "sinceLastAppearance": 4
+      "sinceLastAppearance": 5
     },
     "1542": {
       "maker_id": 7,
@@ -1695,7 +1615,7 @@
       "price_jp": 5820000,
       "isOld": true,
       "lastAppearance": "2024/09/07",
-      "sinceLastAppearance": 3
+      "sinceLastAppearance": 4
     },
     "3434": {
       "maker_id": 110,
@@ -1711,7 +1631,7 @@
       "price_jp": 39250000,
       "isOld": true,
       "lastAppearance": "2024/09/07",
-      "sinceLastAppearance": 3
+      "sinceLastAppearance": 4
     },
     "3403": {
       "maker_id": 46,
@@ -1735,7 +1655,7 @@
       "price_jp": 4050000,
       "isOld": true,
       "lastAppearance": "2024/09/07",
-      "sinceLastAppearance": 3
+      "sinceLastAppearance": 4
     },
     "533": {
       "maker_id": 18,
@@ -1751,7 +1671,7 @@
       "price_jp": 53930000,
       "isOld": true,
       "lastAppearance": "2024/09/07",
-      "sinceLastAppearance": 3
+      "sinceLastAppearance": 4
     },
     "1461": {
       "maker_id": 28,
@@ -1775,7 +1695,7 @@
       "price_jp": 4970000,
       "isOld": true,
       "lastAppearance": "2024/09/08",
-      "sinceLastAppearance": 2
+      "sinceLastAppearance": 3
     },
     "773": {
       "maker_id": 28,
@@ -1799,7 +1719,7 @@
       "price_jp": 17860000,
       "isOld": true,
       "lastAppearance": "2024/09/08",
-      "sinceLastAppearance": 2
+      "sinceLastAppearance": 3
     },
     "301": {
       "maker_id": 25,
@@ -1823,7 +1743,7 @@
       "price_jp": 3960000,
       "isOld": true,
       "lastAppearance": "2024/09/08",
-      "sinceLastAppearance": 2
+      "sinceLastAppearance": 3
     },
     "1504": {
       "maker_id": 110,
@@ -1839,7 +1759,7 @@
       "price_jp": 24320000,
       "isOld": false,
       "lastAppearance": "2024/09/08",
-      "sinceLastAppearance": 2
+      "sinceLastAppearance": 3
     },
     "104": {
       "maker_id": 28,
@@ -1863,7 +1783,7 @@
       "price_jp": 8160000,
       "isOld": true,
       "lastAppearance": "2024/09/08",
-      "sinceLastAppearance": 2
+      "sinceLastAppearance": 3
     },
     "102": {
       "maker_id": 28,
@@ -1887,7 +1807,7 @@
       "price_jp": 16220000,
       "isOld": true,
       "lastAppearance": "2024/09/09",
-      "sinceLastAppearance": 1
+      "sinceLastAppearance": 2
     },
     "1044": {
       "maker_id": 43,
@@ -1903,7 +1823,7 @@
       "price_jp": 4630000,
       "isOld": true,
       "lastAppearance": "2024/09/09",
-      "sinceLastAppearance": 1
+      "sinceLastAppearance": 2
     },
     "145": {
       "maker_id": 10,
@@ -1919,7 +1839,7 @@
       "price_jp": 1570000,
       "isOld": false,
       "lastAppearance": "2024/09/09",
-      "sinceLastAppearance": 1
+      "sinceLastAppearance": 2
     },
     "1385": {
       "maker_id": 39,
@@ -1935,7 +1855,7 @@
       "price_jp": 1180000,
       "isOld": false,
       "lastAppearance": "2024/09/09",
-      "sinceLastAppearance": 1
+      "sinceLastAppearance": 2
     },
     "1796": {
       "maker_id": 86,
@@ -1951,7 +1871,7 @@
       "price_jp": 14220000,
       "isOld": true,
       "lastAppearance": "2024/09/10",
-      "sinceLastAppearance": 0
+      "sinceLastAppearance": 1
     },
     "3404": {
       "maker_id": 136,
@@ -1967,6 +1887,86 @@
       "price_jp": 41380000,
       "isOld": true,
       "lastAppearance": "2024/09/10",
+      "sinceLastAppearance": 1
+    },
+    "1537": {
+      "maker_id": 43,
+      "maker_name": "Toyota",
+      "car_id": 1537,
+      "car_name": "Prius G '09",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [],
+      "price": 18500,
+      "price_jp": 1850000,
+      "isOld": false,
+      "lastAppearance": "2024/09/11",
+      "sinceLastAppearance": 0
+    },
+    "959": {
+      "maker_id": 5,
+      "maker_name": "Audi",
+      "car_id": 959,
+      "car_name": "TT Coupe 3.2 quattro '03",
+      "car_group": "N",
+      "country_id": 5,
+      "country_name": "Germany",
+      "country_code": "de",
+      "engine_swaps": [],
+      "price": 42100,
+      "price_jp": 4210000,
+      "isOld": false,
+      "lastAppearance": "2024/09/11",
+      "sinceLastAppearance": 0
+    },
+    "204": {
+      "maker_id": 15,
+      "maker_name": "Honda",
+      "car_id": 204,
+      "car_name": "Civic Type R (EK) '98",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": "3467",
+          "car_name": "Civic Type R Limited Edition (FK8) '20",
+          "engine_name": "K20C1-Civic-'20"
+        }
+      ],
+      "price": 58100,
+      "price_jp": 5810000,
+      "isOld": true,
+      "lastAppearance": "2024/09/11",
+      "sinceLastAppearance": 0
+    },
+    "919": {
+      "maker_id": 28,
+      "maker_name": "Nissan",
+      "car_id": 919,
+      "car_name": "Silvia Q's (S13) '88",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 38,
+          "maker_name": "Subaru",
+          "car_id": "3339",
+          "car_name": "BRZ Drift Car '17",
+          "engine_name": "LS7-BRZ"
+        }
+      ],
+      "price": 31800,
+      "price_jp": 3180000,
+      "isOld": true,
+      "lastAppearance": "2024/09/11",
       "sinceLastAppearance": 0
     },
     "293": {
@@ -1990,7 +1990,7 @@
       "price": 398200,
       "price_jp": 39820000,
       "isOld": true,
-      "lastAppearance": "2024/09/10",
+      "lastAppearance": "2024/09/11",
       "sinceLastAppearance": 0
     },
     "3358": {
@@ -2006,7 +2006,7 @@
       "price": 161700,
       "price_jp": 16170000,
       "isOld": false,
-      "lastAppearance": "2024/09/10",
+      "lastAppearance": "2024/09/11",
       "sinceLastAppearance": 0
     },
     "1402": {
@@ -2022,7 +2022,7 @@
       "price": 114400,
       "price_jp": 11440000,
       "isOld": false,
-      "lastAppearance": "2024/09/10",
+      "lastAppearance": "2024/09/11",
       "sinceLastAppearance": 0
     },
     "1480": {
@@ -2046,7 +2046,7 @@
       "price": 99000,
       "price_jp": 9900000,
       "isOld": false,
-      "lastAppearance": "2024/09/10",
+      "lastAppearance": "2024/09/11",
       "sinceLastAppearance": 0
     },
     "1365": {
@@ -2062,7 +2062,7 @@
       "price": 135900,
       "price_jp": 13590000,
       "isOld": false,
-      "lastAppearance": "2024/09/10",
+      "lastAppearance": "2024/09/11",
       "sinceLastAppearance": 0
     },
     "3513": {
@@ -2086,7 +2086,7 @@
       "price": 51400,
       "price_jp": 5140000,
       "isOld": true,
-      "lastAppearance": "2024/09/10",
+      "lastAppearance": "2024/09/11",
       "sinceLastAppearance": 0
     },
     "3356": {
@@ -2110,7 +2110,7 @@
       "price": 40800,
       "price_jp": 4080000,
       "isOld": true,
-      "lastAppearance": "2024/09/10",
+      "lastAppearance": "2024/09/11",
       "sinceLastAppearance": 0
     },
     "374": {
@@ -2134,7 +2134,7 @@
       "price": 53800,
       "price_jp": 5380000,
       "isOld": true,
-      "lastAppearance": "2024/09/10",
+      "lastAppearance": "2024/09/11",
       "sinceLastAppearance": 0
     },
     "3377": {
@@ -2150,7 +2150,7 @@
       "price": 61100,
       "price_jp": 6110000,
       "isOld": true,
-      "lastAppearance": "2024/09/10",
+      "lastAppearance": "2024/09/11",
       "sinceLastAppearance": 0
     },
     "810": {
@@ -2174,7 +2174,7 @@
       "price": 51900,
       "price_jp": 5190000,
       "isOld": true,
-      "lastAppearance": "2024/09/10",
+      "lastAppearance": "2024/09/11",
       "sinceLastAppearance": 0
     },
     "1933": {
@@ -2190,7 +2190,7 @@
       "price": 22700,
       "price_jp": 2270000,
       "isOld": false,
-      "lastAppearance": "2024/09/10",
+      "lastAppearance": "2024/09/11",
       "sinceLastAppearance": 0
     },
     "942": {
@@ -2214,7 +2214,7 @@
       "price": 77800,
       "price_jp": 7780000,
       "isOld": true,
-      "lastAppearance": "2024/09/10",
+      "lastAppearance": "2024/09/11",
       "sinceLastAppearance": 0
     },
     "1895": {
@@ -2230,7 +2230,7 @@
       "price": 338000,
       "price_jp": 33800000,
       "isOld": true,
-      "lastAppearance": "2024/09/10",
+      "lastAppearance": "2024/09/11",
       "sinceLastAppearance": 0
     },
     "1508": {
@@ -2254,7 +2254,7 @@
       "price": 174200,
       "price_jp": 17420000,
       "isOld": true,
-      "lastAppearance": "2024/09/10",
+      "lastAppearance": "2024/09/11",
       "sinceLastAppearance": 0
     },
     "1523": {
@@ -2270,7 +2270,7 @@
       "price": 15500,
       "price_jp": 1550000,
       "isOld": true,
-      "lastAppearance": "2024/09/10",
+      "lastAppearance": "2024/09/11",
       "sinceLastAppearance": 0
     },
     "1528": {
@@ -2286,7 +2286,7 @@
       "price": 495200,
       "price_jp": 49520000,
       "isOld": false,
-      "lastAppearance": "2024/09/10",
+      "lastAppearance": "2024/09/11",
       "sinceLastAppearance": 0
     },
     "3471": {
@@ -2302,7 +2302,7 @@
       "price": 65100,
       "price_jp": 6510000,
       "isOld": true,
-      "lastAppearance": "2024/09/10",
+      "lastAppearance": "2024/09/11",
       "sinceLastAppearance": 0
     },
     "24": {
@@ -2326,7 +2326,7 @@
       "price": 48900,
       "price_jp": 4890000,
       "isOld": true,
-      "lastAppearance": "2024/09/10",
+      "lastAppearance": "2024/09/11",
       "sinceLastAppearance": 0
     },
     "3530": {
@@ -2342,7 +2342,7 @@
       "price": 169000,
       "price_jp": 16900000,
       "isOld": true,
-      "lastAppearance": "2024/09/10",
+      "lastAppearance": "2024/09/11",
       "sinceLastAppearance": 0
     },
     "489": {
@@ -2366,7 +2366,7 @@
       "price": 154300,
       "price_jp": 15430000,
       "isOld": true,
-      "lastAppearance": "2024/09/10",
+      "lastAppearance": "2024/09/11",
       "sinceLastAppearance": 0
     },
     "1027": {
@@ -2390,7 +2390,7 @@
       "price": 472300,
       "price_jp": 47230000,
       "isOld": false,
-      "lastAppearance": "2024/09/10",
+      "lastAppearance": "2024/09/11",
       "sinceLastAppearance": 0
     },
     "1370": {
@@ -2414,7 +2414,7 @@
       "price": 24100,
       "price_jp": 2410000,
       "isOld": false,
-      "lastAppearance": "2024/09/10",
+      "lastAppearance": "2024/09/11",
       "sinceLastAppearance": 0
     },
     "334": {
@@ -2430,7 +2430,7 @@
       "price": 81900,
       "price_jp": 8190000,
       "isOld": true,
-      "lastAppearance": "2024/09/10",
+      "lastAppearance": "2024/09/11",
       "sinceLastAppearance": 0
     },
     "205": {
@@ -2454,7 +2454,7 @@
       "price": 216300,
       "price_jp": 21630000,
       "isOld": false,
-      "lastAppearance": "2024/09/10",
+      "lastAppearance": "2024/09/11",
       "sinceLastAppearance": 0
     }
   },
@@ -2481,7 +2481,7 @@
       "price_jp": 34600000,
       "isOld": true,
       "lastAppearance": "2024/06/24",
-      "sinceLastAppearance": 78
+      "sinceLastAppearance": 79
     },
     "781": {
       "maker_id": 43,
@@ -2497,7 +2497,7 @@
       "price_jp": 25000000,
       "isOld": true,
       "lastAppearance": "2024/06/26",
-      "sinceLastAppearance": 76
+      "sinceLastAppearance": 77
     },
     "2010": {
       "maker_id": 110,
@@ -2513,7 +2513,7 @@
       "price_jp": 2000000000,
       "isOld": true,
       "lastAppearance": "2024/06/27",
-      "sinceLastAppearance": 75
+      "sinceLastAppearance": 76
     },
     "808": {
       "maker_id": 39,
@@ -2529,7 +2529,7 @@
       "price_jp": 170000000,
       "isOld": true,
       "lastAppearance": "2024/06/28",
-      "sinceLastAppearance": 74
+      "sinceLastAppearance": 75
     },
     "604": {
       "maker_id": 43,
@@ -2545,7 +2545,7 @@
       "price_jp": 99200000,
       "isOld": true,
       "lastAppearance": "2024/06/30",
-      "sinceLastAppearance": 72
+      "sinceLastAppearance": 73
     },
     "3462": {
       "maker_id": 52,
@@ -2561,7 +2561,7 @@
       "price_jp": 26800000,
       "isOld": true,
       "lastAppearance": "2024/06/30",
-      "sinceLastAppearance": 72
+      "sinceLastAppearance": 73
     },
     "1067": {
       "maker_id": 17,
@@ -2577,7 +2577,7 @@
       "price_jp": 300000000,
       "isOld": true,
       "lastAppearance": "2024/07/02",
-      "sinceLastAppearance": 70
+      "sinceLastAppearance": 71
     },
     "3388": {
       "maker_id": 153,
@@ -2593,7 +2593,7 @@
       "price_jp": 70000000,
       "isOld": true,
       "lastAppearance": "2024/07/02",
-      "sinceLastAppearance": 70
+      "sinceLastAppearance": 71
     },
     "1986": {
       "maker_id": 34,
@@ -2609,7 +2609,7 @@
       "price_jp": 3250000,
       "isOld": true,
       "lastAppearance": "2024/07/04",
-      "sinceLastAppearance": 68
+      "sinceLastAppearance": 69
     },
     "296": {
       "maker_id": 21,
@@ -2625,7 +2625,7 @@
       "price_jp": 330000000,
       "isOld": true,
       "lastAppearance": "2024/07/08",
-      "sinceLastAppearance": 64
+      "sinceLastAppearance": 65
     },
     "998": {
       "maker_id": 22,
@@ -2641,7 +2641,7 @@
       "price_jp": 350000000,
       "isOld": true,
       "lastAppearance": "2024/07/08",
-      "sinceLastAppearance": 64
+      "sinceLastAppearance": 65
     },
     "2017": {
       "maker_id": 110,
@@ -2657,7 +2657,7 @@
       "price_jp": 350000000,
       "isOld": true,
       "lastAppearance": "2024/07/09",
-      "sinceLastAppearance": 63
+      "sinceLastAppearance": 64
     },
     "2059": {
       "maker_id": 7,
@@ -2673,7 +2673,7 @@
       "price_jp": 400000000,
       "isOld": true,
       "lastAppearance": "2024/07/10",
-      "sinceLastAppearance": 62
+      "sinceLastAppearance": 63
     },
     "1582": {
       "maker_id": 112,
@@ -2689,7 +2689,7 @@
       "price_jp": 375000000,
       "isOld": true,
       "lastAppearance": "2024/07/12",
-      "sinceLastAppearance": 60
+      "sinceLastAppearance": 61
     },
     "3441": {
       "maker_id": 22,
@@ -2705,7 +2705,7 @@
       "price_jp": 2000000000,
       "isOld": true,
       "lastAppearance": "2024/07/14",
-      "sinceLastAppearance": 58
+      "sinceLastAppearance": 59
     },
     "954": {
       "maker_id": 28,
@@ -2721,7 +2721,7 @@
       "price_jp": 200000000,
       "isOld": true,
       "lastAppearance": "2024/07/14",
-      "sinceLastAppearance": 58
+      "sinceLastAppearance": 59
     },
     "1935": {
       "maker_id": 13,
@@ -2737,7 +2737,7 @@
       "price_jp": 670000000,
       "isOld": true,
       "lastAppearance": "2024/07/15",
-      "sinceLastAppearance": 57
+      "sinceLastAppearance": 58
     },
     "1645": {
       "maker_id": 3,
@@ -2753,7 +2753,7 @@
       "price_jp": 380000000,
       "isOld": true,
       "lastAppearance": "2024/07/18",
-      "sinceLastAppearance": 54
+      "sinceLastAppearance": 55
     },
     "3457": {
       "maker_id": 86,
@@ -2769,7 +2769,7 @@
       "price_jp": 33000000,
       "isOld": true,
       "lastAppearance": "2024/07/18",
-      "sinceLastAppearance": 54
+      "sinceLastAppearance": 55
     },
     "1543": {
       "maker_id": 11,
@@ -2793,7 +2793,7 @@
       "price_jp": 21400000,
       "isOld": true,
       "lastAppearance": "2024/07/19",
-      "sinceLastAppearance": 53
+      "sinceLastAppearance": 54
     },
     "1925": {
       "maker_id": 36,
@@ -2817,7 +2817,7 @@
       "price_jp": 46900000,
       "isOld": true,
       "lastAppearance": "2024/07/19",
-      "sinceLastAppearance": 53
+      "sinceLastAppearance": 54
     },
     "3509": {
       "maker_id": 136,
@@ -2841,7 +2841,7 @@
       "price_jp": 75000000,
       "isOld": true,
       "lastAppearance": "2024/07/21",
-      "sinceLastAppearance": 51
+      "sinceLastAppearance": 52
     },
     "3520": {
       "maker_id": 155,
@@ -2865,7 +2865,7 @@
       "price_jp": 180000000,
       "isOld": true,
       "lastAppearance": "2024/07/22",
-      "sinceLastAppearance": 50
+      "sinceLastAppearance": 51
     },
     "3525": {
       "maker_id": 15,
@@ -2881,7 +2881,7 @@
       "price_jp": 250000000,
       "isOld": true,
       "lastAppearance": "2024/07/25",
-      "sinceLastAppearance": 47
+      "sinceLastAppearance": 48
     },
     "31": {
       "maker_id": 7,
@@ -2905,7 +2905,7 @@
       "price_jp": 13300000,
       "isOld": true,
       "lastAppearance": "2024/07/25",
-      "sinceLastAppearance": 47
+      "sinceLastAppearance": 48
     },
     "3437": {
       "maker_id": 140,
@@ -2921,7 +2921,7 @@
       "price_jp": 31500000,
       "isOld": true,
       "lastAppearance": "2024/07/25",
-      "sinceLastAppearance": 47
+      "sinceLastAppearance": 48
     },
     "315": {
       "maker_id": 36,
@@ -2937,7 +2937,7 @@
       "price_jp": 250000000,
       "isOld": true,
       "lastAppearance": "2024/07/26",
-      "sinceLastAppearance": 46
+      "sinceLastAppearance": 47
     },
     "3514": {
       "maker_id": 9,
@@ -2953,7 +2953,7 @@
       "price_jp": 4760000,
       "isOld": true,
       "lastAppearance": "2024/07/26",
-      "sinceLastAppearance": 46
+      "sinceLastAppearance": 47
     },
     "3430": {
       "maker_id": 146,
@@ -2977,7 +2977,7 @@
       "price_jp": 3010000,
       "isOld": true,
       "lastAppearance": "2024/07/27",
-      "sinceLastAppearance": 45
+      "sinceLastAppearance": 46
     },
     "1927": {
       "maker_id": 5,
@@ -2993,7 +2993,7 @@
       "price_jp": 190000000,
       "isOld": true,
       "lastAppearance": "2024/07/28",
-      "sinceLastAppearance": 44
+      "sinceLastAppearance": 45
     },
     "3446": {
       "maker_id": 136,
@@ -3009,7 +3009,7 @@
       "price_jp": 485000000,
       "isOld": true,
       "lastAppearance": "2024/07/28",
-      "sinceLastAppearance": 44
+      "sinceLastAppearance": 45
     },
     "575": {
       "maker_id": 22,
@@ -3033,7 +3033,7 @@
       "price_jp": 28000000,
       "isOld": true,
       "lastAppearance": "2024/07/31",
-      "sinceLastAppearance": 41
+      "sinceLastAppearance": 42
     },
     "3428": {
       "maker_id": 22,
@@ -3049,7 +3049,7 @@
       "price_jp": 1300000000,
       "isOld": true,
       "lastAppearance": "2024/08/03",
-      "sinceLastAppearance": 38
+      "sinceLastAppearance": 39
     },
     "387": {
       "maker_id": 22,
@@ -3065,7 +3065,7 @@
       "price_jp": 170000000,
       "isOld": true,
       "lastAppearance": "2024/08/05",
-      "sinceLastAppearance": 36
+      "sinceLastAppearance": 37
     },
     "3376": {
       "maker_id": 17,
@@ -3081,7 +3081,7 @@
       "price_jp": 600000000,
       "isOld": true,
       "lastAppearance": "2024/08/06",
-      "sinceLastAppearance": 35
+      "sinceLastAppearance": 36
     },
     "1484": {
       "maker_id": 112,
@@ -3097,7 +3097,7 @@
       "price_jp": 135000000,
       "isOld": true,
       "lastAppearance": "2024/08/06",
-      "sinceLastAppearance": 35
+      "sinceLastAppearance": 36
     },
     "1553": {
       "maker_id": 17,
@@ -3113,7 +3113,7 @@
       "price_jp": 1200000000,
       "isOld": true,
       "lastAppearance": "2024/08/07",
-      "sinceLastAppearance": 34
+      "sinceLastAppearance": 35
     },
     "3538": {
       "maker_id": 11,
@@ -3137,7 +3137,7 @@
       "price_jp": 15800000,
       "isOld": true,
       "lastAppearance": "2024/08/07",
-      "sinceLastAppearance": 34
+      "sinceLastAppearance": 35
     },
     "3365": {
       "maker_id": 136,
@@ -3153,7 +3153,7 @@
       "price_jp": 160000000,
       "isOld": true,
       "lastAppearance": "2024/08/09",
-      "sinceLastAppearance": 32
+      "sinceLastAppearance": 33
     },
     "3550": {
       "maker_id": 38,
@@ -3169,7 +3169,7 @@
       "price_jp": 65000000,
       "isOld": true,
       "lastAppearance": "2024/08/11",
-      "sinceLastAppearance": 30
+      "sinceLastAppearance": 31
     },
     "1926": {
       "maker_id": 36,
@@ -3185,7 +3185,7 @@
       "price_jp": 2000000000,
       "isOld": true,
       "lastAppearance": "2024/08/12",
-      "sinceLastAppearance": 29
+      "sinceLastAppearance": 30
     },
     "3429": {
       "maker_id": 28,
@@ -3209,7 +3209,7 @@
       "price_jp": 31200000,
       "isOld": true,
       "lastAppearance": "2024/08/12",
-      "sinceLastAppearance": 29
+      "sinceLastAppearance": 30
     },
     "116": {
       "maker_id": 43,
@@ -3225,7 +3225,7 @@
       "price_jp": 250000000,
       "isOld": true,
       "lastAppearance": "2024/08/14",
-      "sinceLastAppearance": 27
+      "sinceLastAppearance": 28
     },
     "1931": {
       "maker_id": 110,
@@ -3241,7 +3241,7 @@
       "price_jp": 810000000,
       "isOld": true,
       "lastAppearance": "2024/08/15",
-      "sinceLastAppearance": 26
+      "sinceLastAppearance": 27
     },
     "3445": {
       "maker_id": 4,
@@ -3257,7 +3257,7 @@
       "price_jp": 89200000,
       "isOld": true,
       "lastAppearance": "2024/08/15",
-      "sinceLastAppearance": 26
+      "sinceLastAppearance": 27
     },
     "3475": {
       "maker_id": 117,
@@ -3273,7 +3273,7 @@
       "price_jp": 1200000000,
       "isOld": true,
       "lastAppearance": "2024/08/15",
-      "sinceLastAppearance": 26
+      "sinceLastAppearance": 27
     },
     "3493": {
       "maker_id": 28,
@@ -3289,7 +3289,7 @@
       "price_jp": 115000000,
       "isOld": true,
       "lastAppearance": "2024/08/17",
-      "sinceLastAppearance": 24
+      "sinceLastAppearance": 25
     },
     "3490": {
       "maker_id": 136,
@@ -3305,7 +3305,7 @@
       "price_jp": 230000000,
       "isOld": true,
       "lastAppearance": "2024/08/17",
-      "sinceLastAppearance": 24
+      "sinceLastAppearance": 25
     },
     "3421": {
       "maker_id": 116,
@@ -3321,7 +3321,7 @@
       "price_jp": 6420000,
       "isOld": true,
       "lastAppearance": "2024/08/18",
-      "sinceLastAppearance": 23
+      "sinceLastAppearance": 24
     },
     "3464": {
       "maker_id": 7,
@@ -3345,7 +3345,7 @@
       "price_jp": 11900000,
       "isOld": true,
       "lastAppearance": "2024/08/18",
-      "sinceLastAppearance": 23
+      "sinceLastAppearance": 24
     },
     "3489": {
       "maker_id": 116,
@@ -3361,7 +3361,7 @@
       "price_jp": 250000000,
       "isOld": true,
       "lastAppearance": "2024/08/21",
-      "sinceLastAppearance": 20
+      "sinceLastAppearance": 21
     },
     "543": {
       "maker_id": 17,
@@ -3385,7 +3385,7 @@
       "price_jp": 61500000,
       "isOld": true,
       "lastAppearance": "2024/08/22",
-      "sinceLastAppearance": 19
+      "sinceLastAppearance": 20
     },
     "1975": {
       "maker_id": 21,
@@ -3401,7 +3401,7 @@
       "price_jp": 60000000,
       "isOld": true,
       "lastAppearance": "2024/08/22",
-      "sinceLastAppearance": 19
+      "sinceLastAppearance": 20
     },
     "3362": {
       "maker_id": 110,
@@ -3417,7 +3417,7 @@
       "price_jp": 445000000,
       "isOld": true,
       "lastAppearance": "2024/08/23",
-      "sinceLastAppearance": 18
+      "sinceLastAppearance": 19
     },
     "1565": {
       "maker_id": 13,
@@ -3433,7 +3433,7 @@
       "price_jp": 675000000,
       "isOld": true,
       "lastAppearance": "2024/08/24",
-      "sinceLastAppearance": 17
+      "sinceLastAppearance": 18
     },
     "665": {
       "maker_id": 55,
@@ -3457,7 +3457,7 @@
       "price_jp": 40200000,
       "isOld": true,
       "lastAppearance": "2024/08/25",
-      "sinceLastAppearance": 16
+      "sinceLastAppearance": 17
     },
     "3375": {
       "maker_id": 136,
@@ -3481,7 +3481,7 @@
       "price_jp": 61800000,
       "isOld": true,
       "lastAppearance": "2024/08/26",
-      "sinceLastAppearance": 15
+      "sinceLastAppearance": 16
     },
     "1900": {
       "maker_id": 55,
@@ -3497,7 +3497,7 @@
       "price_jp": 160000000,
       "isOld": true,
       "lastAppearance": "2024/08/26",
-      "sinceLastAppearance": 15
+      "sinceLastAppearance": 16
     },
     "365": {
       "maker_id": 3,
@@ -3513,7 +3513,7 @@
       "price_jp": 80000000,
       "isOld": true,
       "lastAppearance": "2024/08/27",
-      "sinceLastAppearance": 14
+      "sinceLastAppearance": 15
     },
     "3519": {
       "maker_id": 136,
@@ -3529,7 +3529,7 @@
       "price_jp": 195000000,
       "isOld": true,
       "lastAppearance": "2024/08/30",
-      "sinceLastAppearance": 11
+      "sinceLastAppearance": 12
     },
     "1409": {
       "maker_id": 110,
@@ -3553,7 +3553,7 @@
       "price_jp": 310000000,
       "isOld": true,
       "lastAppearance": "2024/08/30",
-      "sinceLastAppearance": 11
+      "sinceLastAppearance": 12
     },
     "1984": {
       "maker_id": 117,
@@ -3569,7 +3569,7 @@
       "price_jp": 1500000000,
       "isOld": true,
       "lastAppearance": "2024/08/30",
-      "sinceLastAppearance": 11
+      "sinceLastAppearance": 12
     },
     "3400": {
       "maker_id": 136,
@@ -3585,7 +3585,7 @@
       "price_jp": 1000000000,
       "isOld": true,
       "lastAppearance": "2024/08/30",
-      "sinceLastAppearance": 11
+      "sinceLastAppearance": 12
     },
     "2011": {
       "maker_id": 110,
@@ -3601,7 +3601,7 @@
       "price_jp": 260000000,
       "isOld": true,
       "lastAppearance": "2024/08/31",
-      "sinceLastAppearance": 10
+      "sinceLastAppearance": 11
     },
     "140": {
       "maker_id": 15,
@@ -3617,7 +3617,7 @@
       "price_jp": 150000000,
       "isOld": true,
       "lastAppearance": "2024/09/01",
-      "sinceLastAppearance": 9
+      "sinceLastAppearance": 10
     },
     "485": {
       "maker_id": 28,
@@ -3633,7 +3633,7 @@
       "price_jp": 250000000,
       "isOld": true,
       "lastAppearance": "2024/09/01",
-      "sinceLastAppearance": 9
+      "sinceLastAppearance": 10
     },
     "1470": {
       "maker_id": 43,
@@ -3649,7 +3649,7 @@
       "price_jp": 180000000,
       "isOld": true,
       "lastAppearance": "2024/09/01",
-      "sinceLastAppearance": 9
+      "sinceLastAppearance": 10
     },
     "818": {
       "maker_id": 7,
@@ -3673,7 +3673,7 @@
       "price_jp": 23900000,
       "isOld": true,
       "lastAppearance": "2024/09/02",
-      "sinceLastAppearance": 8
+      "sinceLastAppearance": 9
     },
     "3373": {
       "maker_id": 136,
@@ -3689,7 +3689,7 @@
       "price_jp": 130000000,
       "isOld": true,
       "lastAppearance": "2024/09/02",
-      "sinceLastAppearance": 8
+      "sinceLastAppearance": 9
     },
     "3361": {
       "maker_id": 17,
@@ -3705,7 +3705,7 @@
       "price_jp": 22700000,
       "isOld": true,
       "lastAppearance": "2024/09/03",
-      "sinceLastAppearance": 7
+      "sinceLastAppearance": 8
     },
     "36": {
       "maker_id": 7,
@@ -3721,7 +3721,7 @@
       "price_jp": 17200000,
       "isOld": true,
       "lastAppearance": "2024/09/03",
-      "sinceLastAppearance": 7
+      "sinceLastAppearance": 8
     },
     "3410": {
       "maker_id": 136,
@@ -3737,7 +3737,7 @@
       "price_jp": 1800000000,
       "isOld": true,
       "lastAppearance": "2024/09/04",
-      "sinceLastAppearance": 6
+      "sinceLastAppearance": 7
     },
     "1069": {
       "maker_id": 93,
@@ -3753,7 +3753,7 @@
       "price_jp": 250000000,
       "isOld": true,
       "lastAppearance": "2024/09/05",
-      "sinceLastAppearance": 5
+      "sinceLastAppearance": 6
     },
     "1551": {
       "maker_id": 110,
@@ -3769,7 +3769,7 @@
       "price_jp": 2000000000,
       "isOld": true,
       "lastAppearance": "2024/09/07",
-      "sinceLastAppearance": 3
+      "sinceLastAppearance": 4
     },
     "837": {
       "maker_id": 28,
@@ -3793,7 +3793,7 @@
       "price_jp": 19400000,
       "isOld": true,
       "lastAppearance": "2024/09/08",
-      "sinceLastAppearance": 2
+      "sinceLastAppearance": 3
     },
     "3444": {
       "maker_id": 13,
@@ -3817,7 +3817,7 @@
       "price_jp": 40000000,
       "isOld": null,
       "lastAppearance": "2024/09/08",
-      "sinceLastAppearance": 2
+      "sinceLastAppearance": 3
     },
     "1540": {
       "maker_id": 117,
@@ -3833,7 +3833,7 @@
       "price_jp": 2000000000,
       "isOld": true,
       "lastAppearance": "2024/09/10",
-      "sinceLastAppearance": 0
+      "sinceLastAppearance": 1
     },
     "3363": {
       "maker_id": 4,
@@ -3849,7 +3849,7 @@
       "price_jp": 600000000,
       "isOld": true,
       "lastAppearance": "2024/09/10",
-      "sinceLastAppearance": 0
+      "sinceLastAppearance": 1
     },
     "3505": {
       "maker_id": 140,
@@ -3864,7 +3864,7 @@
       "price": 500000,
       "price_jp": 50000000,
       "isOld": null,
-      "lastAppearance": "2024/09/10",
+      "lastAppearance": "2024/09/11",
       "sinceLastAppearance": 0
     },
     "2018": {
@@ -3880,7 +3880,7 @@
       "price": 610000,
       "price_jp": 61000000,
       "isOld": true,
-      "lastAppearance": "2024/09/10",
+      "lastAppearance": "2024/09/11",
       "sinceLastAppearance": 0
     },
     "1932": {
@@ -3896,7 +3896,7 @@
       "price": 1000000,
       "price_jp": 100000000,
       "isOld": true,
-      "lastAppearance": "2024/09/10",
+      "lastAppearance": "2024/09/11",
       "sinceLastAppearance": 0
     },
     "836": {
@@ -3920,7 +3920,7 @@
       "price": 542000,
       "price_jp": 54200000,
       "isOld": true,
-      "lastAppearance": "2024/09/10",
+      "lastAppearance": "2024/09/11",
       "sinceLastAppearance": 0
     },
     "3397": {
@@ -3936,7 +3936,7 @@
       "price": 8500000,
       "price_jp": 850000000,
       "isOld": true,
-      "lastAppearance": "2024/09/10",
+      "lastAppearance": "2024/09/11",
       "sinceLastAppearance": 0
     },
     "3415": {
@@ -3952,7 +3952,7 @@
       "price": 20000000,
       "price_jp": 2000000000,
       "isOld": true,
-      "lastAppearance": "2024/09/10",
+      "lastAppearance": "2024/09/11",
       "sinceLastAppearance": 0
     },
     "105": {
@@ -3968,7 +3968,7 @@
       "price": 1100000,
       "price_jp": 110000000,
       "isOld": true,
-      "lastAppearance": "2024/09/10",
+      "lastAppearance": "2024/09/11",
       "sinceLastAppearance": 0
     },
     "216": {
@@ -3984,7 +3984,7 @@
       "price": 20000000,
       "price_jp": 2000000000,
       "isOld": true,
-      "lastAppearance": "2024/09/10",
+      "lastAppearance": "2024/09/11",
       "sinceLastAppearance": 0
     }
   }

@@ -1,6 +1,27 @@
 {
-  "timestamp": "2024-09-13T00:10:52.794583+00:00",
+  "timestamp": "2024-09-14T00:09:40.492774+00:00",
   "content": [
+    {
+      "id": 20240914,
+      "date": "2024/9/14",
+      "used": [
+        {
+          "maker_id": 57,
+          "maker_name": "Autobianchi",
+          "car_id": 3442,
+          "car_name": "A112 Abarth '85",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 29800,
+          "price_jp": 2980000,
+          "isOld": true
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20240913,
       "date": "2024/9/13",
@@ -1069,115 +1090,6 @@
           "isOld": true
         }
       ]
-    },
-    {
-      "id": 20240831,
-      "date": "2024/8/31",
-      "used": [
-        {
-          "maker_id": 43,
-          "maker_name": "Toyota",
-          "car_id": 1044,
-          "car_name": "Sports 800 '65",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [],
-          "price": 46300,
-          "price_jp": 4630000,
-          "isOld": true
-        },
-        {
-          "maker_id": 52,
-          "maker_name": "Pontiac",
-          "car_id": 1985,
-          "car_name": "Firebird Trans Am '78",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 7,
-              "maker_name": "Chevrolet",
-              "car_id": "1480",
-              "car_name": "Corvette ZR1 (C6) '09",
-              "engine_name": "LS9-Corvette"
-            }
-          ],
-          "price": 87900,
-          "price_jp": 8790000,
-          "isOld": true
-        },
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 102,
-          "car_name": "Skyline GTS-R (R31) '87",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "210",
-              "car_name": "R34 GT-R V-spec II Nur '02",
-              "engine_name": "RB26DETT-GT-R-R34"
-            }
-          ],
-          "price": 162200,
-          "price_jp": 16220000,
-          "isOld": true
-        },
-        {
-          "maker_id": 7,
-          "maker_name": "Chevrolet",
-          "car_id": 1542,
-          "car_name": "Corvette Convertible (C3) '69",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 7,
-              "maker_name": "Chevrolet",
-              "car_id": "3449",
-              "car_name": "Corvette C7 ZR1 '19",
-              "engine_name": "LT5-Corvette-C7"
-            }
-          ],
-          "price": 58200,
-          "price_jp": 5820000,
-          "isOld": true
-        },
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 104,
-          "car_name": "Sileighty '98",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 157,
-              "maker_name": "Garage RCR",
-              "car_id": "3526",
-              "car_name": "Civic",
-              "engine_name": "K24A-Civic"
-            }
-          ],
-          "price": 81600,
-          "price_jp": 8160000,
-          "isOld": true
-        }
-      ],
-      "legend": []
     }
   ]
 }

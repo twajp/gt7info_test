@@ -1,6 +1,78 @@
 {
-  "timestamp": "2024-09-19T00:10:03.938940+00:00",
+  "timestamp": "2024-09-20T00:09:39.372874+00:00",
   "content": [
+    {
+      "id": 20240920,
+      "date": "2024/9/20",
+      "used": [
+        {
+          "maker_id": 12,
+          "maker_name": "Fiat",
+          "car_id": 1527,
+          "car_name": "500 1.2 8V Lounge SS '08",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 12900,
+          "price_jp": 1290000,
+          "isOld": false
+        },
+        {
+          "maker_id": 6,
+          "maker_name": "BMW",
+          "car_id": 3344,
+          "car_name": "M3 Sport Evolution '89",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [
+            {
+              "maker_id": 43,
+              "maker_name": "Toyota",
+              "car_id": "3418",
+              "car_name": "GR Supra RZ '20",
+              "engine_name": "B58-GR-Supra-'20"
+            }
+          ],
+          "price": 168400,
+          "price_jp": 16840000,
+          "isOld": true
+        },
+        {
+          "maker_id": 153,
+          "maker_name": "AMG",
+          "car_id": 1507,
+          "car_name": "SLS AMG '10",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 310900,
+          "price_jp": 31090000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 52,
+          "maker_name": "Pontiac",
+          "car_id": 3462,
+          "car_name": "GTO 'The Judge' '69",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [],
+          "price": 268000,
+          "price_jp": 26800000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20240919,
       "date": "2024/9/19",
@@ -1060,136 +1132,6 @@
           "engine_swaps": [],
           "price": 20000000,
           "price_jp": 2000000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20240906,
-      "date": "2024/9/6",
-      "used": [
-        {
-          "maker_id": 43,
-          "maker_name": "Toyota",
-          "car_id": 810,
-          "car_name": "Sprinter Trueno 1600GT APEX (AE86) '83",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 43,
-              "maker_name": "Toyota",
-              "car_id": "207",
-              "car_name": "MR2 GT-S '97",
-              "engine_name": "3S-GTE-MR2"
-            }
-          ],
-          "price": 51900,
-          "price_jp": 5190000,
-          "isOld": true
-        },
-        {
-          "maker_id": 3,
-          "maker_name": "Alfa Romeo",
-          "car_id": 1933,
-          "car_name": "MiTo '09",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 22700,
-          "price_jp": 2270000,
-          "isOld": false
-        },
-        {
-          "maker_id": 11,
-          "maker_name": "Dodge",
-          "car_id": 3377,
-          "car_name": "Super Bee '70",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [],
-          "price": 61100,
-          "price_jp": 6110000,
-          "isOld": true
-        },
-        {
-          "maker_id": 110,
-          "maker_name": "Ferrari",
-          "car_id": 1895,
-          "car_name": "Dino 246 GT '71",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 338000,
-          "price_jp": 33800000,
-          "isOld": true
-        },
-        {
-          "maker_id": 21,
-          "maker_name": "Mazda",
-          "car_id": 374,
-          "car_name": "RX-7 GT-X (FC) '90",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 21,
-              "maker_name": "Mazda",
-              "car_id": "296",
-              "car_name": "787B '91",
-              "engine_name": "R26B-787B"
-            }
-          ],
-          "price": 53800,
-          "price_jp": 5380000,
-          "isOld": true
-        },
-        {
-          "maker_id": 7,
-          "maker_name": "Chevrolet",
-          "car_id": 942,
-          "car_name": "Corvette ZR-1 (C4) '89",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 7,
-              "maker_name": "Chevrolet",
-              "car_id": "3449",
-              "car_name": "Corvette C7 ZR1 '19",
-              "engine_name": "LT5-Corvette-C7"
-            }
-          ],
-          "price": 77800,
-          "price_jp": 7780000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 22,
-          "maker_name": "Mercedes-Benz",
-          "car_id": 3397,
-          "car_name": "CLK-LM '98",
-          "car_group": "2",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 8500000,
-          "price_jp": 850000000,
           "isOld": true
         }
       ]

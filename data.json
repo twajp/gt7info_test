@@ -1,6 +1,102 @@
 {
-  "timestamp": "2024-09-26T00:09:55.704298+00:00",
+  "timestamp": "2024-09-27T00:09:49.917342+00:00",
   "content": [
+    {
+      "id": 20240927,
+      "date": "2024/9/27",
+      "used": [
+        {
+          "maker_id": 46,
+          "maker_name": "Volkswagen",
+          "car_id": 1671,
+          "car_name": "Sambabus Typ 2 '62",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [
+            {
+              "maker_id": 136,
+              "maker_name": "Porsche",
+              "car_id": "3431",
+              "car_name": "911 Carrera RS (964) '92",
+              "engine_name": "M64/03-911"
+            }
+          ],
+          "price": 67400,
+          "price_jp": 6740000,
+          "isOld": true
+        },
+        {
+          "maker_id": 6,
+          "maker_name": "BMW",
+          "car_id": 3422,
+          "car_name": "3.0 CSL '73",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [
+            {
+              "maker_id": 6,
+              "maker_name": "BMW",
+              "car_id": "1902",
+              "car_name": "Z4 GT3 '11",
+              "engine_name": "P65B44-Z4"
+            }
+          ],
+          "price": 214100,
+          "price_jp": 21410000,
+          "isOld": true
+        },
+        {
+          "maker_id": 25,
+          "maker_name": "Mitsubishi",
+          "car_id": 3384,
+          "car_name": "GTO Twin Turbo '91",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 39,
+              "maker_name": "Suzuki",
+              "car_id": "808",
+              "car_name": "V6 Escudo Pikes Peak Special spec.98",
+              "engine_name": "H25A-Escudo"
+            }
+          ],
+          "price": 45300,
+          "price_jp": 4530000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 55,
+          "maker_name": "Plymouth",
+          "car_id": 665,
+          "car_name": "Superbird '70",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 11,
+              "maker_name": "Dodge",
+              "car_id": "2152",
+              "car_name": "Charger SRT Hellcat '15",
+              "engine_name": "Hellcat-Charger"
+            }
+          ],
+          "price": 402000,
+          "price_jp": 40200000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20240926,
       "date": "2024/9/26",
@@ -1185,130 +1281,6 @@
         }
       ],
       "legend": []
-    },
-    {
-      "id": 20240913,
-      "date": "2024/9/13",
-      "used": [
-        {
-          "maker_id": 125,
-          "maker_name": "Abarth",
-          "car_id": 3438,
-          "car_name": "Abarth 595 SS '70",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [
-            {
-              "maker_id": 15,
-              "maker_name": "Honda",
-              "car_id": "3467",
-              "car_name": "Civic Type R Limited Edition (FK8) '20",
-              "engine_name": "K20C1-Civic-'20"
-            }
-          ],
-          "price": 58200,
-          "price_jp": 5820000,
-          "isOld": true
-        },
-        {
-          "maker_id": 15,
-          "maker_name": "Honda",
-          "car_id": 135,
-          "car_name": "S800 '66",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 15,
-              "maker_name": "Honda",
-              "car_id": "2156",
-              "car_name": "2&4 powered by RC213V",
-              "engine_name": "SE75E-2&4"
-            }
-          ],
-          "price": 48700,
-          "price_jp": 4870000,
-          "isOld": true
-        },
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 709,
-          "car_name": "Fairlady Z 300ZX TT 2seater '89",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "3345",
-              "car_name": "GT-R NISMO '17",
-              "engine_name": "VR38DETT-GT-R-NISMO"
-            }
-          ],
-          "price": 52500,
-          "price_jp": 5250000,
-          "isOld": true
-        },
-        {
-          "maker_id": 25,
-          "maker_name": "Mitsubishi",
-          "car_id": 3424,
-          "car_name": "Lancer Evolution IX MR GSR '06",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 25,
-              "maker_name": "Mitsubishi",
-              "car_id": "3230",
-              "car_name": "Lancer Evolution Final Gr.B Rally Car",
-              "engine_name": "Evo-Final-Gr.B"
-            }
-          ],
-          "price": 91400,
-          "price_jp": 9140000,
-          "isOld": false
-        },
-        {
-          "maker_id": 43,
-          "maker_name": "Toyota",
-          "car_id": 345,
-          "car_name": "Sprinter Trueno 1600GT APEX (S.Shigeno Version)",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [],
-          "price": 106700,
-          "price_jp": 10670000,
-          "isOld": null
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 39,
-          "maker_name": "Suzuki",
-          "car_id": 808,
-          "car_name": "V6 Escudo Pikes Peak Special spec.98",
-          "car_group": "X",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [],
-          "price": 1700000,
-          "price_jp": 170000000,
-          "isOld": true
-        }
-      ]
     }
   ]
 }

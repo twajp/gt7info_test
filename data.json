@@ -1,6 +1,27 @@
 {
-  "timestamp": "2024-09-27T00:09:49.917342+00:00",
+  "timestamp": "2024-09-28T00:10:05.078333+00:00",
   "content": [
+    {
+      "id": 20240928,
+      "date": "2024/9/28",
+      "used": [
+        {
+          "maker_id": 110,
+          "maker_name": "Ferrari",
+          "car_id": 3434,
+          "car_name": "Testarossa '91",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 392500,
+          "price_jp": 39250000,
+          "isOld": true
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20240927,
       "date": "2024/9/27",
@@ -1260,27 +1281,6 @@
           "isOld": true
         }
       ]
-    },
-    {
-      "id": 20240914,
-      "date": "2024/9/14",
-      "used": [
-        {
-          "maker_id": 57,
-          "maker_name": "Autobianchi",
-          "car_id": 3442,
-          "car_name": "A112 Abarth '85",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 29800,
-          "price_jp": 2980000,
-          "isOld": true
-        }
-      ],
-      "legend": []
     }
   ]
 }

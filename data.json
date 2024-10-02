@@ -1,6 +1,86 @@
 {
-  "timestamp": "2024-10-01T00:11:02.393141+00:00",
+  "timestamp": "2024-10-02T00:10:16.837155+00:00",
   "content": [
+    {
+      "id": 20241002,
+      "date": "2024/10/2",
+      "used": [
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 773,
+          "car_name": "R32 GT-R V-spec II '94",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "954",
+              "car_name": "R92CP '92",
+              "engine_name": "VRH35Z-R92CP"
+            }
+          ],
+          "price": 178600,
+          "price_jp": 17860000,
+          "isOld": true
+        },
+        {
+          "maker_id": 25,
+          "maker_name": "Mitsubishi",
+          "car_id": 301,
+          "car_name": "Lancer Evolution IV GSR '96",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 25,
+              "maker_name": "Mitsubishi",
+              "car_id": "3230",
+              "car_name": "Lancer Evolution Final Gr.B Rally Car",
+              "engine_name": "Evo-Final-Gr.B"
+            }
+          ],
+          "price": 39600,
+          "price_jp": 3960000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 954,
+          "car_name": "R92CP '92",
+          "car_group": "1",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 2000000,
+          "price_jp": 200000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 13,
+          "maker_name": "Ford",
+          "car_id": 1935,
+          "car_name": "GT40 Mark I '66",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [],
+          "price": 6700000,
+          "price_jp": 670000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20241001,
       "date": "2024/10/1",
@@ -1137,63 +1217,6 @@
           ],
           "price": 401100,
           "price_jp": 40110000,
-          "isOld": false
-        }
-      ],
-      "legend": []
-    },
-    {
-      "id": 20240918,
-      "date": "2024/9/18",
-      "used": [
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 48,
-          "car_name": "Fairlady 240ZG (HS30) '71",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 151,
-              "maker_name": "Roadster Shop",
-              "car_id": "3426",
-              "car_name": "Roadster Shop Rampage",
-              "engine_name": "LS7-Rampage"
-            }
-          ],
-          "price": 106400,
-          "price_jp": 10640000,
-          "isOld": true
-        },
-        {
-          "maker_id": 6,
-          "maker_name": "BMW",
-          "car_id": 3454,
-          "car_name": "3.0 CSL '71",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 140400,
-          "price_jp": 14040000,
-          "isOld": true
-        },
-        {
-          "maker_id": 117,
-          "maker_name": "McLaren",
-          "car_id": 1722,
-          "car_name": "MP4-12C '10",
-          "car_group": "N",
-          "country_id": 4,
-          "country_name": "United Kingdom",
-          "country_code": "gb",
-          "engine_swaps": [],
-          "price": 194100,
-          "price_jp": 19410000,
           "isOld": false
         }
       ],

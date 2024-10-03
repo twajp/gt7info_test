@@ -1,6 +1,63 @@
 {
-  "timestamp": "2024-10-02T00:10:16.837155+00:00",
+  "timestamp": "2024-10-03T00:09:50.503631+00:00",
   "content": [
+    {
+      "id": 20241003,
+      "date": "2024/10/3",
+      "used": [
+        {
+          "maker_id": 69,
+          "maker_name": "Volvo",
+          "car_id": 3549,
+          "car_name": "240 SE Estate '93",
+          "car_group": "N",
+          "country_id": 12,
+          "country_name": "Sweden",
+          "country_code": "se",
+          "engine_swaps": [],
+          "price": 47000,
+          "price_jp": 4700000,
+          "isOld": true
+        },
+        {
+          "maker_id": 43,
+          "maker_name": "Toyota",
+          "car_id": 1044,
+          "car_name": "Sports 800 '65",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 46300,
+          "price_jp": 4630000,
+          "isOld": true
+        },
+        {
+          "maker_id": 7,
+          "maker_name": "Chevrolet",
+          "car_id": 942,
+          "car_name": "Corvette ZR-1 (C4) '89",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 7,
+              "maker_name": "Chevrolet",
+              "car_id": "3449",
+              "car_name": "Corvette C7 ZR1 '19",
+              "engine_name": "LT5-Corvette-C7"
+            }
+          ],
+          "price": 77800,
+          "price_jp": 7780000,
+          "isOld": true
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20241002,
       "date": "2024/10/2",
@@ -1164,63 +1221,6 @@
           "isOld": true
         }
       ]
-    },
-    {
-      "id": 20240919,
-      "date": "2024/9/19",
-      "used": [
-        {
-          "maker_id": 46,
-          "maker_name": "Volkswagen",
-          "car_id": 1773,
-          "car_name": "Scirocco R '10",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 37900,
-          "price_jp": 3790000,
-          "isOld": false
-        },
-        {
-          "maker_id": 35,
-          "maker_name": "RUF",
-          "car_id": 3398,
-          "car_name": "CTR3 '07",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 770800,
-          "price_jp": 77080000,
-          "isOld": false
-        },
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 210,
-          "car_name": "R34 GT-R V-spec II Nur '02",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "954",
-              "car_name": "R92CP '92",
-              "engine_name": "VRH35Z-R92CP"
-            }
-          ],
-          "price": 401100,
-          "price_jp": 40110000,
-          "isOld": false
-        }
-      ],
-      "legend": []
     }
   ]
 }

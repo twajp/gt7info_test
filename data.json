@@ -1,10 +1,60 @@
 {
-  "timestamp": "2024-10-03T00:09:50.503631+00:00",
+  "timestamp": "2024-10-03T10:12:10.797551+00:00",
   "content": [
     {
       "id": 20241003,
       "date": "2024/10/3",
       "used": [
+        {
+          "maker_id": 25,
+          "maker_name": "Mitsubishi",
+          "car_id": 799,
+          "car_name": "Lancer Evolution VIII MR GSR '04",
+          "car_group": null,
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 65800,
+          "price_jp": 6580000,
+          "isOld": false
+        },
+        {
+          "maker_id": 6,
+          "maker_name": "BMW",
+          "car_id": 3344,
+          "car_name": "M3 Sport Evolution '89",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [
+            {
+              "maker_id": 43,
+              "maker_name": "Toyota",
+              "car_id": "3418",
+              "car_name": "GR Supra RZ '20",
+              "engine_name": "B58-GR-Supra-'20"
+            }
+          ],
+          "price": 200000,
+          "price_jp": 20000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 13,
+          "maker_name": "Ford",
+          "car_id": 3466,
+          "car_name": "Sierra RS 500 Cosworth '87",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [],
+          "price": 200000,
+          "price_jp": 20000000,
+          "isOld": true
+        },
         {
           "maker_id": 69,
           "maker_name": "Volvo",
@@ -56,7 +106,30 @@
           "isOld": true
         }
       ],
-      "legend": []
+      "legend": [
+        {
+          "maker_id": 22,
+          "maker_name": "Mercedes-Benz",
+          "car_id": 575,
+          "car_name": "190 E 2.5-16 Evolution II '91",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [
+            {
+              "maker_id": 153,
+              "maker_name": "AMG",
+              "car_id": "3531",
+              "car_name": "GT3 '20",
+              "engine_name": "M159-AMG-GT3-'20"
+            }
+          ],
+          "price": 280000,
+          "price_jp": 28000000,
+          "isOld": true
+        }
+      ]
     },
     {
       "id": 20241002,
@@ -152,6 +225,13 @@
           "country_name": "Japan",
           "country_code": "jp",
           "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "1448",
+              "car_name": "SILVIA spec-R Aero (S15) '02",
+              "engine_name": "SR20DET-Silvia-S15"
+            },
             {
               "maker_id": 38,
               "maker_name": "Subaru",
@@ -512,6 +592,13 @@
           "country_name": "Japan",
           "country_code": "jp",
           "engine_swaps": [
+            {
+              "maker_id": 11,
+              "maker_name": "Dodge",
+              "car_id": "3486",
+              "car_name": "Challenger SRT Demon '18",
+              "engine_name": "Demon-Challenger"
+            },
             {
               "maker_id": 39,
               "maker_name": "Suzuki",

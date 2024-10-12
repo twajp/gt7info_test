@@ -1,6 +1,49 @@
 {
-  "timestamp": "2024-10-11T00:09:55.981520+00:00",
+  "timestamp": "2024-10-12T00:09:43.075931+00:00",
   "content": [
+    {
+      "id": 20241012,
+      "date": "2024/10/12",
+      "used": [
+        {
+          "maker_id": 43,
+          "maker_name": "Toyota",
+          "car_id": 810,
+          "car_name": "Sprinter Trueno 1600GT APEX (AE86) '83",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 43,
+              "maker_name": "Toyota",
+              "car_id": "207",
+              "car_name": "MR2 GT-S '97",
+              "engine_name": "3S-GTE-MR2"
+            }
+          ],
+          "price": 51900,
+          "price_jp": 5190000,
+          "isOld": true
+        },
+        {
+          "maker_id": 3,
+          "maker_name": "Alfa Romeo",
+          "car_id": 1933,
+          "car_name": "MiTo '09",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 22700,
+          "price_jp": 2270000,
+          "isOld": false
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20241011,
       "date": "2024/10/11",
@@ -1427,27 +1470,6 @@
           "isOld": true
         }
       ]
-    },
-    {
-      "id": 20240928,
-      "date": "2024/9/28",
-      "used": [
-        {
-          "maker_id": 110,
-          "maker_name": "Ferrari",
-          "car_id": 3434,
-          "car_name": "Testarossa '91",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 392500,
-          "price_jp": 39250000,
-          "isOld": true
-        }
-      ],
-      "legend": []
     }
   ]
 }

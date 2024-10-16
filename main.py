@@ -131,9 +131,6 @@ def UpdateDB(lastSeen):
         # Sort the entries by 'sinceLastSeen'
         db[dealer] = dict(sorted(db[dealer].items(), key=lambda item: item[1]['sinceLastSeen'], reverse=True))
 
-    db['used'] = dict(sorted(db['used'].items(), key=lambda item: (today - datetime.strptime(item[1]['lastSeen'], '%Y/%m/%d').date()).days, reverse=True))
-    db['legend'] = dict(sorted(db['legend'].items(), key=lambda item: (today - datetime.strptime(item[1]['lastSeen'], '%Y/%m/%d').date()).days, reverse=True))
-
 
 db = LoadJSON(f'https://raw.githubusercontent.com/twajp/gt7info_test/gh-pages/db.json')
 carList = LoadCSV('db', 'cars.csv')
@@ -145,7 +142,7 @@ today = datetime.now(timezone.utc).date()
 timestamp = datetime.now(timezone.utc).isoformat()
 # start_date = datetime(year=2022, month=6, day=28).date()
 # number_of_days = (today-start_date).days + 1
-number_of_days = 14
+number_of_days = 100
 data = {
     'timestamp': timestamp,
     'content': []

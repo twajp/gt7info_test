@@ -1,6 +1,1158 @@
 {
-  "timestamp": "2024-10-16T02:48:48.047886+00:00",
+  "timestamp": "2024-10-16T02:52:37.761831+00:00",
   "used": {
+    "3389": {
+      "maker_id": 6,
+      "maker_name": "BMW",
+      "car_id": 3389,
+      "car_name": "M3 '03",
+      "car_group": "N",
+      "country_id": 5,
+      "country_name": "Germany",
+      "country_code": "de",
+      "engine_swaps": [
+        {
+          "maker_id": 6,
+          "maker_name": "BMW",
+          "car_id": "1902",
+          "car_name": "Z4 GT3 '11",
+          "engine_name": "P65B44-Z4"
+        }
+      ],
+      "price": 72800,
+      "price_jp": 7280000,
+      "isOld": false,
+      "lastSeen": "2024/07/20",
+      "sinceLastSeen": 88
+    },
+    "396": {
+      "maker_id": 15,
+      "maker_name": "Honda",
+      "car_id": 396,
+      "car_name": "NSX Type R '02",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": "3348",
+          "car_name": "NSX CONCEPT-GT '16",
+          "engine_name": "HR-414E-NSX"
+        }
+      ],
+      "price": 431600,
+      "price_jp": 43160000,
+      "isOld": false,
+      "lastSeen": "2024/07/23",
+      "sinceLastSeen": 85
+    },
+    "709": {
+      "maker_id": 28,
+      "maker_name": "Nissan",
+      "car_id": 709,
+      "car_name": "Fairlady Z 300ZX TT 2seater '89",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": "3345",
+          "car_name": "GT-R NISMO '17",
+          "engine_name": "VR38DETT-GT-R-NISMO"
+        }
+      ],
+      "price": 70000,
+      "price_jp": 7000000,
+      "isOld": true,
+      "lastSeen": "2024/09/17",
+      "sinceLastSeen": 29
+    },
+    "205": {
+      "maker_id": 21,
+      "maker_name": "Mazda",
+      "car_id": 205,
+      "car_name": "RX-7 Spirit R Type A (FD) '02",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 21,
+          "maker_name": "Mazda",
+          "car_id": "296",
+          "car_name": "787B '91",
+          "engine_name": "R26B-787B"
+        }
+      ],
+      "price": 214300,
+      "price_jp": 21430000,
+      "isOld": false,
+      "lastSeen": "2024/09/17",
+      "sinceLastSeen": 29
+    },
+    "1528": {
+      "maker_id": 22,
+      "maker_name": "Mercedes-Benz",
+      "car_id": 1528,
+      "car_name": "SLR McLaren '09",
+      "car_group": "N",
+      "country_id": 5,
+      "country_name": "Germany",
+      "country_code": "de",
+      "engine_swaps": [],
+      "price": 493500,
+      "price_jp": 49350000,
+      "isOld": false,
+      "lastSeen": "2024/09/17",
+      "sinceLastSeen": 29
+    },
+    "3424": {
+      "maker_id": 25,
+      "maker_name": "Mitsubishi",
+      "car_id": 3424,
+      "car_name": "Lancer Evolution IX MR GSR '06",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 25,
+          "maker_name": "Mitsubishi",
+          "car_id": "3230",
+          "car_name": "Lancer Evolution Final Gr.B Rally Car",
+          "engine_name": "Evo-Final-Gr.B"
+        }
+      ],
+      "price": 91400,
+      "price_jp": 9140000,
+      "isOld": false,
+      "lastSeen": "2024/09/18",
+      "sinceLastSeen": 28
+    },
+    "334": {
+      "maker_id": 34,
+      "maker_name": "Renault",
+      "car_id": 334,
+      "car_name": "Clio V6 24V '00",
+      "car_group": "N",
+      "country_id": 6,
+      "country_name": "France",
+      "country_code": "fr",
+      "engine_swaps": [],
+      "price": 81900,
+      "price_jp": 8190000,
+      "isOld": true,
+      "lastSeen": "2024/09/18",
+      "sinceLastSeen": 28
+    },
+    "959": {
+      "maker_id": 5,
+      "maker_name": "Audi",
+      "car_id": 959,
+      "car_name": "TT Coupe 3.2 quattro '03",
+      "car_group": "N",
+      "country_id": 5,
+      "country_name": "Germany",
+      "country_code": "de",
+      "engine_swaps": [],
+      "price": 42100,
+      "price_jp": 4210000,
+      "isOld": false,
+      "lastSeen": "2024/09/19",
+      "sinceLastSeen": 27
+    },
+    "41": {
+      "maker_id": 7,
+      "maker_name": "Chevrolet",
+      "car_id": 41,
+      "car_name": "Corvette Stingray (C3) '69",
+      "car_group": "N",
+      "country_id": 3,
+      "country_name": "United States",
+      "country_code": "us",
+      "engine_swaps": [
+        {
+          "maker_id": 7,
+          "maker_name": "Chevrolet",
+          "car_id": "3449",
+          "car_name": "Corvette C7 ZR1 '19",
+          "engine_name": "LT5-Corvette-C7"
+        }
+      ],
+      "price": 71500,
+      "price_jp": 7150000,
+      "isOld": true,
+      "lastSeen": "2024/09/20",
+      "sinceLastSeen": 26
+    },
+    "1481": {
+      "maker_id": 112,
+      "maker_name": "Lamborghini",
+      "car_id": 1481,
+      "car_name": "Countach 25th Anniversary '88",
+      "car_group": "N",
+      "country_id": 7,
+      "country_name": "Italy",
+      "country_code": "it",
+      "engine_swaps": [
+        {
+          "maker_id": 112,
+          "maker_name": "Lamborghini",
+          "car_id": "3392",
+          "car_name": "Aventador LP 750-4 SV '15",
+          "engine_name": "L539-Aventador-SV"
+        }
+      ],
+      "price": 711800,
+      "price_jp": 71180000,
+      "isOld": true,
+      "lastSeen": "2024/09/20",
+      "sinceLastSeen": 26
+    },
+    "3442": {
+      "maker_id": 57,
+      "maker_name": "Autobianchi",
+      "car_id": 3442,
+      "car_name": "A112 Abarth '85",
+      "car_group": "N",
+      "country_id": 7,
+      "country_name": "Italy",
+      "country_code": "it",
+      "engine_swaps": [],
+      "price": 31800,
+      "price_jp": 3180000,
+      "isOld": true,
+      "lastSeen": "2024/09/20",
+      "sinceLastSeen": 26
+    },
+    "1990": {
+      "maker_id": 112,
+      "maker_name": "Lamborghini",
+      "car_id": 1990,
+      "car_name": "Diablo GT '00",
+      "car_group": "N",
+      "country_id": 7,
+      "country_name": "Italy",
+      "country_code": "it",
+      "engine_swaps": [],
+      "price": 779000,
+      "price_jp": 77900000,
+      "isOld": true,
+      "lastSeen": "2024/09/20",
+      "sinceLastSeen": 26
+    },
+    "3439": {
+      "maker_id": 136,
+      "maker_name": "Porsche",
+      "car_id": 3439,
+      "car_name": "911 Carrera RS (993) '95",
+      "car_group": "N",
+      "country_id": 5,
+      "country_name": "Germany",
+      "country_code": "de",
+      "engine_swaps": [
+        {
+          "maker_id": 35,
+          "maker_name": "RUF",
+          "car_id": "3398",
+          "car_name": "CTR3 '07",
+          "engine_name": "CTR38-CTR3"
+        }
+      ],
+      "price": 229200,
+      "price_jp": 22920000,
+      "isOld": true,
+      "lastSeen": "2024/09/21",
+      "sinceLastSeen": 25
+    },
+    "3438": {
+      "maker_id": 125,
+      "maker_name": "Abarth",
+      "car_id": 3438,
+      "car_name": "Abarth 595 SS '70",
+      "car_group": "N",
+      "country_id": 7,
+      "country_name": "Italy",
+      "country_code": "it",
+      "engine_swaps": [
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": "3467",
+          "car_name": "Civic Type R Limited Edition (FK8) '20",
+          "engine_name": "K20C1-Civic-'20"
+        }
+      ],
+      "price": 57000,
+      "price_jp": 5700000,
+      "isOld": true,
+      "lastSeen": "2024/09/21",
+      "sinceLastSeen": 25
+    },
+    "135": {
+      "maker_id": 15,
+      "maker_name": "Honda",
+      "car_id": 135,
+      "car_name": "S800 '66",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": "2156",
+          "car_name": "2&4 powered by RC213V",
+          "engine_name": "SE75E-2&4"
+        }
+      ],
+      "price": 49600,
+      "price_jp": 4960000,
+      "isOld": true,
+      "lastSeen": "2024/09/21",
+      "sinceLastSeen": 25
+    },
+    "489": {
+      "maker_id": 28,
+      "maker_name": "Nissan",
+      "car_id": 489,
+      "car_name": "R33 GT-R V-spec '97",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": "954",
+          "car_name": "R92CP '92",
+          "engine_name": "VRH35Z-R92CP"
+        }
+      ],
+      "price": 155200,
+      "price_jp": 15520000,
+      "isOld": true,
+      "lastSeen": "2024/09/21",
+      "sinceLastSeen": 25
+    },
+    "779": {
+      "maker_id": 39,
+      "maker_name": "Suzuki",
+      "car_id": 779,
+      "car_name": "Cappuccino (EA11R) '91",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 21,
+          "maker_name": "Mazda",
+          "car_id": "205",
+          "car_name": "RX-7 Spirit R Type A (FD) '02",
+          "engine_name": "13B-REW-RX-7"
+        }
+      ],
+      "price": 17700,
+      "price_jp": 1770000,
+      "isOld": true,
+      "lastSeen": "2024/09/22",
+      "sinceLastSeen": 24
+    },
+    "1448": {
+      "maker_id": 28,
+      "maker_name": "Nissan",
+      "car_id": 1448,
+      "car_name": "SILVIA spec-R Aero (S15) '02",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 43,
+          "maker_name": "Toyota",
+          "car_id": "82",
+          "car_name": "Supra RZ '97",
+          "engine_name": "2JZ-GTE-Supra"
+        }
+      ],
+      "price": 59900,
+      "price_jp": 5990000,
+      "isOld": false,
+      "lastSeen": "2024/09/22",
+      "sinceLastSeen": 24
+    },
+    "207": {
+      "maker_id": 43,
+      "maker_name": "Toyota",
+      "car_id": 207,
+      "car_name": "MR2 GT-S '97",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 5,
+          "maker_name": "Audi",
+          "car_id": "1365",
+          "car_name": "R8 4.2 '07",
+          "engine_name": "BYH-R8"
+        }
+      ],
+      "price": 53600,
+      "price_jp": 5360000,
+      "isOld": true,
+      "lastSeen": "2024/09/22",
+      "sinceLastSeen": 24
+    },
+    "451": {
+      "maker_id": 38,
+      "maker_name": "Subaru",
+      "car_id": 451,
+      "car_name": "Impreza 22B-STi '98",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [],
+      "price": 176100,
+      "price_jp": 17610000,
+      "isOld": true,
+      "lastSeen": "2024/09/22",
+      "sinceLastSeen": 24
+    },
+    "1578": {
+      "maker_id": 3,
+      "maker_name": "Alfa Romeo",
+      "car_id": 1578,
+      "car_name": "8C Competizione '08",
+      "car_group": "N",
+      "country_id": 7,
+      "country_name": "Italy",
+      "country_code": "it",
+      "engine_swaps": [],
+      "price": 287200,
+      "price_jp": 28720000,
+      "isOld": false,
+      "lastSeen": "2024/09/22",
+      "sinceLastSeen": 24
+    },
+    "48": {
+      "maker_id": 28,
+      "maker_name": "Nissan",
+      "car_id": 48,
+      "car_name": "Fairlady 240ZG (HS30) '71",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 151,
+          "maker_name": "Roadster Shop",
+          "car_id": "3426",
+          "car_name": "Roadster Shop Rampage",
+          "engine_name": "LS7-Rampage"
+        }
+      ],
+      "price": 98500,
+      "price_jp": 9850000,
+      "isOld": true,
+      "lastSeen": "2024/09/25",
+      "sinceLastSeen": 21
+    },
+    "829": {
+      "maker_id": 18,
+      "maker_name": "Lancia",
+      "car_id": 829,
+      "car_name": "Delta HF Integrale Evoluzione '91",
+      "car_group": "N",
+      "country_id": 7,
+      "country_name": "Italy",
+      "country_code": "it",
+      "engine_swaps": [
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": "3345",
+          "car_name": "GT-R NISMO '17",
+          "engine_name": "VR38DETT-GT-R-NISMO"
+        }
+      ],
+      "price": 101900,
+      "price_jp": 10190000,
+      "isOld": true,
+      "lastSeen": "2024/09/25",
+      "sinceLastSeen": 21
+    },
+    "688": {
+      "maker_id": 15,
+      "maker_name": "Honda",
+      "car_id": 688,
+      "car_name": "Integra Type R (DC2) '95",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 157,
+          "maker_name": "Garage RCR",
+          "car_id": "3526",
+          "car_name": "Civic",
+          "engine_name": "K24A-Civic"
+        }
+      ],
+      "price": 62300,
+      "price_jp": 6230000,
+      "isOld": true,
+      "lastSeen": "2024/09/25",
+      "sinceLastSeen": 21
+    },
+    "1507": {
+      "maker_id": 153,
+      "maker_name": "AMG",
+      "car_id": 1507,
+      "car_name": "SLS AMG '10",
+      "car_group": "N",
+      "country_id": 5,
+      "country_name": "Germany",
+      "country_code": "de",
+      "engine_swaps": [],
+      "price": 310900,
+      "price_jp": 31090000,
+      "isOld": false,
+      "lastSeen": "2024/09/26",
+      "sinceLastSeen": 20
+    },
+    "1773": {
+      "maker_id": 46,
+      "maker_name": "Volkswagen",
+      "car_id": 1773,
+      "car_name": "Scirocco R '10",
+      "car_group": "N",
+      "country_id": 5,
+      "country_name": "Germany",
+      "country_code": "de",
+      "engine_swaps": [],
+      "price": 37900,
+      "price_jp": 3790000,
+      "isOld": false,
+      "lastSeen": "2024/09/27",
+      "sinceLastSeen": 19
+    },
+    "1722": {
+      "maker_id": 117,
+      "maker_name": "McLaren",
+      "car_id": 1722,
+      "car_name": "MP4-12C '10",
+      "car_group": "N",
+      "country_id": 4,
+      "country_name": "United Kingdom",
+      "country_code": "gb",
+      "engine_swaps": [],
+      "price": 194100,
+      "price_jp": 19410000,
+      "isOld": false,
+      "lastSeen": "2024/09/27",
+      "sinceLastSeen": 19
+    },
+    "3443": {
+      "maker_id": 110,
+      "maker_name": "Ferrari",
+      "car_id": 3443,
+      "car_name": "308 GTB '75",
+      "car_group": "N",
+      "country_id": 7,
+      "country_name": "Italy",
+      "country_code": "it",
+      "engine_swaps": [],
+      "price": 166400,
+      "price_jp": 16640000,
+      "isOld": true,
+      "lastSeen": "2024/09/28",
+      "sinceLastSeen": 18
+    },
+    "210": {
+      "maker_id": 28,
+      "maker_name": "Nissan",
+      "car_id": 210,
+      "car_name": "R34 GT-R V-spec II Nur '02",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": "954",
+          "car_name": "R92CP '92",
+          "engine_name": "VRH35Z-R92CP"
+        }
+      ],
+      "price": 401100,
+      "price_jp": 40110000,
+      "isOld": false,
+      "lastSeen": "2024/09/28",
+      "sinceLastSeen": 18
+    },
+    "1539": {
+      "maker_id": 116,
+      "maker_name": "Maserati",
+      "car_id": 1539,
+      "car_name": "GranTurismo S '08",
+      "car_group": "N",
+      "country_id": 7,
+      "country_name": "Italy",
+      "country_code": "it",
+      "engine_swaps": [],
+      "price": 137700,
+      "price_jp": 13770000,
+      "isOld": false,
+      "lastSeen": "2024/09/29",
+      "sinceLastSeen": 17
+    },
+    "3398": {
+      "maker_id": 35,
+      "maker_name": "RUF",
+      "car_id": 3398,
+      "car_name": "CTR3 '07",
+      "car_group": "N",
+      "country_id": 5,
+      "country_name": "Germany",
+      "country_code": "de",
+      "engine_swaps": [],
+      "price": 770800,
+      "price_jp": 77080000,
+      "isOld": false,
+      "lastSeen": "2024/09/29",
+      "sinceLastSeen": 17
+    },
+    "1973": {
+      "maker_id": 125,
+      "maker_name": "Abarth",
+      "car_id": 1973,
+      "car_name": "Abarth 500 '09",
+      "car_group": "N",
+      "country_id": 7,
+      "country_name": "Italy",
+      "country_code": "it",
+      "engine_swaps": [],
+      "price": 22100,
+      "price_jp": 2210000,
+      "isOld": false,
+      "lastSeen": "2024/10/01",
+      "sinceLastSeen": 15
+    },
+    "1778": {
+      "maker_id": 46,
+      "maker_name": "Volkswagen",
+      "car_id": 1778,
+      "car_name": "Volkswagen 1200 '66",
+      "car_group": "N",
+      "country_id": 5,
+      "country_name": "Germany",
+      "country_code": "de",
+      "engine_swaps": [
+        {
+          "maker_id": 136,
+          "maker_name": "Porsche",
+          "car_id": "3431",
+          "car_name": "911 Carrera RS (964) '92",
+          "engine_name": "M64/03-911"
+        }
+      ],
+      "price": 35800,
+      "price_jp": 3580000,
+      "isOld": true,
+      "lastSeen": "2024/10/01",
+      "sinceLastSeen": 15
+    },
+    "1893": {
+      "maker_id": 6,
+      "maker_name": "BMW",
+      "car_id": 1893,
+      "car_name": "Z8 '01",
+      "car_group": "N",
+      "country_id": 5,
+      "country_name": "Germany",
+      "country_code": "de",
+      "engine_swaps": [],
+      "price": 267200,
+      "price_jp": 26720000,
+      "isOld": false,
+      "lastSeen": "2024/10/01",
+      "sinceLastSeen": 15
+    },
+    "3422": {
+      "maker_id": 6,
+      "maker_name": "BMW",
+      "car_id": 3422,
+      "car_name": "3.0 CSL '73",
+      "car_group": "N",
+      "country_id": 5,
+      "country_name": "Germany",
+      "country_code": "de",
+      "engine_swaps": [
+        {
+          "maker_id": 6,
+          "maker_name": "BMW",
+          "car_id": "1902",
+          "car_name": "Z4 GT3 '11",
+          "engine_name": "P65B44-Z4"
+        }
+      ],
+      "price": 211200,
+      "price_jp": 21120000,
+      "isOld": true,
+      "lastSeen": "2024/10/02",
+      "sinceLastSeen": 14
+    },
+    "1461": {
+      "maker_id": 28,
+      "maker_name": "Nissan",
+      "car_id": 1461,
+      "car_name": "Silvia K's Dia Selection (S13) '90",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": "1448",
+          "car_name": "SILVIA spec-R Aero (S15) '02",
+          "engine_name": "SR20DET-Silvia-S15"
+        }
+      ],
+      "price": 49700,
+      "price_jp": 4970000,
+      "isOld": true,
+      "lastSeen": "2024/10/02",
+      "sinceLastSeen": 14
+    },
+    "514": {
+      "maker_id": 15,
+      "maker_name": "Honda",
+      "car_id": 514,
+      "car_name": "S2000 '99",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 157,
+          "maker_name": "Garage RCR",
+          "car_id": "3526",
+          "car_name": "Civic",
+          "engine_name": "K24A-Civic"
+        }
+      ],
+      "price": 100100,
+      "price_jp": 10010000,
+      "isOld": true,
+      "lastSeen": "2024/10/03",
+      "sinceLastSeen": 13
+    },
+    "1689": {
+      "maker_id": 15,
+      "maker_name": "Honda",
+      "car_id": 1689,
+      "car_name": "Civic Type R (EK) Touring Car",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 157,
+          "maker_name": "Garage RCR",
+          "car_id": "3526",
+          "car_name": "Civic",
+          "engine_name": "K24A-Civic"
+        }
+      ],
+      "price": 122400,
+      "price_jp": 12240000,
+      "isOld": null,
+      "lastSeen": "2024/10/03",
+      "sinceLastSeen": 13
+    },
+    "3547": {
+      "maker_id": 34,
+      "maker_name": "Renault",
+      "car_id": 3547,
+      "car_name": "R4 GTL '85",
+      "car_group": "N",
+      "country_id": 6,
+      "country_name": "France",
+      "country_code": "fr",
+      "engine_swaps": [],
+      "price": 24100,
+      "price_jp": 2410000,
+      "isOld": true,
+      "lastSeen": "2024/10/03",
+      "sinceLastSeen": 13
+    },
+    "3434": {
+      "maker_id": 110,
+      "maker_name": "Ferrari",
+      "car_id": 3434,
+      "car_name": "Testarossa '91",
+      "car_group": "N",
+      "country_id": 7,
+      "country_name": "Italy",
+      "country_code": "it",
+      "engine_swaps": [],
+      "price": 450000,
+      "price_jp": 45000000,
+      "isOld": true,
+      "lastSeen": "2024/10/04",
+      "sinceLastSeen": 12
+    },
+    "78": {
+      "maker_id": 28,
+      "maker_name": "Nissan",
+      "car_id": 78,
+      "car_name": "Silvia K's Aero (S14) '96",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 7,
+          "maker_name": "Chevrolet",
+          "car_id": "3449",
+          "car_name": "Corvette C7 ZR1 '19",
+          "engine_name": "LT5-Corvette-C7"
+        }
+      ],
+      "price": 59300,
+      "price_jp": 5930000,
+      "isOld": true,
+      "lastSeen": "2024/10/04",
+      "sinceLastSeen": 12
+    },
+    "137": {
+      "maker_id": 15,
+      "maker_name": "Honda",
+      "car_id": 137,
+      "car_name": "Beat '91",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": "3467",
+          "car_name": "Civic Type R Limited Edition (FK8) '20",
+          "engine_name": "K20C1-Civic-'20"
+        }
+      ],
+      "price": 16800,
+      "price_jp": 1680000,
+      "isOld": true,
+      "lastSeen": "2024/10/04",
+      "sinceLastSeen": 12
+    },
+    "3385": {
+      "maker_id": 136,
+      "maker_name": "Porsche",
+      "car_id": 3385,
+      "car_name": "911 Turbo (930) '81",
+      "car_group": "N",
+      "country_id": 5,
+      "country_name": "Germany",
+      "country_code": "de",
+      "engine_swaps": [
+        {
+          "maker_id": 136,
+          "maker_name": "Porsche",
+          "car_id": "3311",
+          "car_name": "911 RSR (991) '17",
+          "engine_name": "M97/80-911"
+        }
+      ],
+      "price": 215600,
+      "price_jp": 21560000,
+      "isOld": true,
+      "lastSeen": "2024/10/04",
+      "sinceLastSeen": 12
+    },
+    "37": {
+      "maker_id": 15,
+      "maker_name": "Honda",
+      "car_id": 37,
+      "car_name": "Civic SiR-II (EG) '93",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": "203",
+          "car_name": "Integra Type R (DC2) '98",
+          "engine_name": "B18C-Integra-'98"
+        }
+      ],
+      "price": 52500,
+      "price_jp": 5250000,
+      "isOld": true,
+      "lastSeen": "2024/10/05",
+      "sinceLastSeen": 11
+    },
+    "63": {
+      "maker_id": 43,
+      "maker_name": "Toyota",
+      "car_id": 63,
+      "car_name": "Corolla Levin 1600GT APEX (AE86) '83",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 43,
+          "maker_name": "Toyota",
+          "car_id": "207",
+          "car_name": "MR2 GT-S '97",
+          "engine_name": "3S-GTE-MR2"
+        }
+      ],
+      "price": 46800,
+      "price_jp": 4680000,
+      "isOld": true,
+      "lastSeen": "2024/10/05",
+      "sinceLastSeen": 11
+    },
+    "843": {
+      "maker_id": 43,
+      "maker_name": "Toyota",
+      "car_id": 843,
+      "car_name": "Supra 3.0GT Turbo A '88",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 43,
+          "maker_name": "Toyota",
+          "car_id": "82",
+          "car_name": "Supra RZ '97",
+          "engine_name": "2JZ-GTE-Supra"
+        }
+      ],
+      "price": 115900,
+      "price_jp": 11590000,
+      "isOld": true,
+      "lastSeen": "2024/10/05",
+      "sinceLastSeen": 11
+    },
+    "1504": {
+      "maker_id": 110,
+      "maker_name": "Ferrari",
+      "car_id": 1504,
+      "car_name": "458 Italia '09",
+      "car_group": "N",
+      "country_id": 7,
+      "country_name": "Italy",
+      "country_code": "it",
+      "engine_swaps": [],
+      "price": 243200,
+      "price_jp": 24320000,
+      "isOld": false,
+      "lastSeen": "2024/10/05",
+      "sinceLastSeen": 11
+    },
+    "379": {
+      "maker_id": 38,
+      "maker_name": "Subaru",
+      "car_id": 379,
+      "car_name": "Impreza Coupe WRX Type R STi Ver.VI '99",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [],
+      "price": 53600,
+      "price_jp": 5360000,
+      "isOld": true,
+      "lastSeen": "2024/10/06",
+      "sinceLastSeen": 10
+    },
+    "3404": {
+      "maker_id": 136,
+      "maker_name": "Porsche",
+      "car_id": 3404,
+      "car_name": "911 Carrera RS CS (993) '95",
+      "car_group": "N",
+      "country_id": 5,
+      "country_name": "Germany",
+      "country_code": "de",
+      "engine_swaps": [],
+      "price": 413800,
+      "price_jp": 41380000,
+      "isOld": true,
+      "lastSeen": "2024/10/06",
+      "sinceLastSeen": 10
+    },
+    "293": {
+      "maker_id": 15,
+      "maker_name": "Honda",
+      "car_id": 293,
+      "car_name": "NSX Type R '92",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": "3348",
+          "car_name": "NSX CONCEPT-GT '16",
+          "engine_name": "HR-414E-NSX"
+        }
+      ],
+      "price": 398200,
+      "price_jp": 39820000,
+      "isOld": true,
+      "lastSeen": "2024/10/07",
+      "sinceLastSeen": 9
+    },
+    "3358": {
+      "maker_id": 136,
+      "maker_name": "Porsche",
+      "car_id": 3358,
+      "car_name": "911 GT3 (996) '01",
+      "car_group": "N",
+      "country_id": 5,
+      "country_name": "Germany",
+      "country_code": "de",
+      "engine_swaps": [],
+      "price": 161700,
+      "price_jp": 16170000,
+      "isOld": false,
+      "lastSeen": "2024/10/07",
+      "sinceLastSeen": 9
+    },
+    "1671": {
+      "maker_id": 46,
+      "maker_name": "Volkswagen",
+      "car_id": 1671,
+      "car_name": "Sambabus Typ 2 '62",
+      "car_group": "N",
+      "country_id": 5,
+      "country_name": "Germany",
+      "country_code": "de",
+      "engine_swaps": [
+        {
+          "maker_id": 136,
+          "maker_name": "Porsche",
+          "car_id": "3431",
+          "car_name": "911 Carrera RS (964) '92",
+          "engine_name": "M64/03-911"
+        }
+      ],
+      "price": 57100,
+      "price_jp": 5710000,
+      "isOld": true,
+      "lastSeen": "2024/10/07",
+      "sinceLastSeen": 9
+    },
+    "3432": {
+      "maker_id": 38,
+      "maker_name": "Subaru",
+      "car_id": 3432,
+      "car_name": "Impreza Sedan WRX STi '04",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [],
+      "price": 47100,
+      "price_jp": 4710000,
+      "isOld": false,
+      "lastSeen": "2024/10/08",
+      "sinceLastSeen": 8
+    },
+    "1402": {
+      "maker_id": 11,
+      "maker_name": "Dodge",
+      "car_id": 1402,
+      "car_name": "Viper SRT10 Coupe '06",
+      "car_group": "N",
+      "country_id": 3,
+      "country_name": "United States",
+      "country_code": "us",
+      "engine_swaps": [],
+      "price": 114400,
+      "price_jp": 11440000,
+      "isOld": false,
+      "lastSeen": "2024/10/08",
+      "sinceLastSeen": 8
+    },
+    "1480": {
+      "maker_id": 7,
+      "maker_name": "Chevrolet",
+      "car_id": 1480,
+      "car_name": "Corvette ZR1 (C6) '09",
+      "car_group": "N",
+      "country_id": 3,
+      "country_name": "United States",
+      "country_code": "us",
+      "engine_swaps": [
+        {
+          "maker_id": 113,
+          "maker_name": "Bugatti",
+          "car_id": "3473",
+          "car_name": "Chiron '16",
+          "engine_name": "8.0-WR16-64v4T-Chiron"
+        }
+      ],
+      "price": 98400,
+      "price_jp": 9840000,
+      "isOld": false,
+      "lastSeen": "2024/10/08",
+      "sinceLastSeen": 8
+    },
+    "1365": {
+      "maker_id": 5,
+      "maker_name": "Audi",
+      "car_id": 1365,
+      "car_name": "R8 4.2 '07",
+      "car_group": "N",
+      "country_id": 5,
+      "country_name": "Germany",
+      "country_code": "de",
+      "engine_swaps": [],
+      "price": 137600,
+      "price_jp": 13760000,
+      "isOld": false,
+      "lastSeen": "2024/10/08",
+      "sinceLastSeen": 8
+    },
     "3549": {
       "maker_id": 69,
       "maker_name": "Volvo",
@@ -14,9 +1166,31 @@
       "price": 47000,
       "price_jp": 4700000,
       "isOld": true,
-      "lastAppearance": "2024/10/3",
       "lastSeen": "2024/10/09",
-      "sinceLastAppearance": 13,
+      "sinceLastSeen": 7
+    },
+    "773": {
+      "maker_id": 28,
+      "maker_name": "Nissan",
+      "car_id": 773,
+      "car_name": "R32 GT-R V-spec II '94",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": "954",
+          "car_name": "R92CP '92",
+          "engine_name": "VRH35Z-R92CP"
+        }
+      ],
+      "price": 176500,
+      "price_jp": 17650000,
+      "isOld": true,
+      "lastSeen": "2024/10/09",
       "sinceLastSeen": 7
     },
     "1985": {
@@ -40,9 +1214,7 @@
       "price": 87900,
       "price_jp": 8790000,
       "isOld": true,
-      "lastAppearance": "2024/10/5",
       "lastSeen": "2024/10/10",
-      "sinceLastAppearance": 11,
       "sinceLastSeen": 6
     },
     "821": {
@@ -63,12 +1235,10 @@
           "engine_name": "K24A-Civic"
         }
       ],
-      "price": 53600,
-      "price_jp": 5360000,
+      "price": 58100,
+      "price_jp": 5810000,
       "isOld": true,
-      "lastAppearance": "2024/10/4",
       "lastSeen": "2024/10/10",
-      "sinceLastAppearance": 12,
       "sinceLastSeen": 6
     },
     "3359": {
@@ -89,12 +1259,10 @@
           "engine_name": "M97/80-911"
         }
       ],
-      "price": 141200,
-      "price_jp": 14120000,
+      "price": 140200,
+      "price_jp": 14020000,
       "isOld": false,
-      "lastAppearance": "2024/10/6",
       "lastSeen": "2024/10/11",
-      "sinceLastAppearance": 10,
       "sinceLastSeen": 5
     },
     "3344": {
@@ -115,12 +1283,10 @@
           "engine_name": "B58-GR-Supra-'20"
         }
       ],
-      "price": 200000,
-      "price_jp": 20000000,
+      "price": 179700,
+      "price_jp": 17970000,
       "isOld": true,
-      "lastAppearance": "2024/10/3",
       "lastSeen": "2024/10/11",
-      "sinceLastAppearance": 13,
       "sinceLastSeen": 5
     },
     "3466": {
@@ -133,12 +1299,10 @@
       "country_name": "United States",
       "country_code": "us",
       "engine_swaps": [],
-      "price": 200000,
-      "price_jp": 20000000,
+      "price": 193500,
+      "price_jp": 19350000,
       "isOld": true,
-      "lastAppearance": "2024/10/3",
       "lastSeen": "2024/10/11",
-      "sinceLastAppearance": 13,
       "sinceLastSeen": 5
     },
     "942": {
@@ -159,12 +1323,10 @@
           "engine_name": "LT5-Corvette-C7"
         }
       ],
-      "price": 77800,
-      "price_jp": 7780000,
+      "price": 86100,
+      "price_jp": 8610000,
       "isOld": true,
-      "lastAppearance": "2024/10/3",
       "lastSeen": "2024/10/11",
-      "sinceLastAppearance": 13,
       "sinceLastSeen": 5
     },
     "3403": {
@@ -185,12 +1347,10 @@
           "engine_name": "R5-20vT-Quattro-Pikes"
         }
       ],
-      "price": 45700,
-      "price_jp": 4570000,
+      "price": 40500,
+      "price_jp": 4050000,
       "isOld": true,
-      "lastAppearance": "2024/10/7",
       "lastSeen": "2024/10/12",
-      "sinceLastAppearance": 9,
       "sinceLastSeen": 4
     },
     "1545": {
@@ -203,12 +1363,10 @@
       "country_name": "Italy",
       "country_code": "it",
       "engine_swaps": [],
-      "price": 321600,
-      "price_jp": 32160000,
+      "price": 318700,
+      "price_jp": 31870000,
       "isOld": false,
-      "lastAppearance": "2024/10/7",
       "lastSeen": "2024/10/12",
-      "sinceLastAppearance": 9,
       "sinceLastSeen": 4
     },
     "3551": {
@@ -229,12 +1387,10 @@
           "engine_name": "LS7-BRZ"
         }
       ],
-      "price": 85500,
-      "price_jp": 8550000,
+      "price": 74600,
+      "price_jp": 7460000,
       "isOld": true,
-      "lastAppearance": "2024/10/5",
       "lastSeen": "2024/10/12",
-      "sinceLastAppearance": 11,
       "sinceLastSeen": 4
     },
     "1506": {
@@ -247,12 +1403,10 @@
       "country_name": "Italy",
       "country_code": "it",
       "engine_swaps": [],
-      "price": 243800,
-      "price_jp": 24380000,
+      "price": 253100,
+      "price_jp": 25310000,
       "isOld": false,
-      "lastAppearance": "2024/10/5",
       "lastSeen": "2024/10/12",
-      "sinceLastAppearance": 11,
       "sinceLastSeen": 4
     },
     "1527": {
@@ -265,12 +1419,10 @@
       "country_name": "Italy",
       "country_code": "it",
       "engine_swaps": [],
-      "price": 14100,
-      "price_jp": 1410000,
+      "price": 13300,
+      "price_jp": 1330000,
       "isOld": false,
-      "lastAppearance": "2024/10/4",
       "lastSeen": "2024/10/12",
-      "sinceLastAppearance": 12,
       "sinceLastSeen": 4
     },
     "1044": {
@@ -286,9 +1438,7 @@
       "price": 46300,
       "price_jp": 4630000,
       "isOld": true,
-      "lastAppearance": "2024/10/3",
       "lastSeen": "2024/10/12",
-      "sinceLastAppearance": 13,
       "sinceLastSeen": 4
     },
     "3384": {
@@ -316,12 +1466,10 @@
           "engine_name": "H25A-Escudo"
         }
       ],
-      "price": 55000,
-      "price_jp": 5500000,
+      "price": 40000,
+      "price_jp": 4000000,
       "isOld": true,
-      "lastAppearance": "2024/10/8",
       "lastSeen": "2024/10/13",
-      "sinceLastAppearance": 8,
       "sinceLastSeen": 3
     },
     "1458": {
@@ -345,9 +1493,7 @@
       "price": 34900,
       "price_jp": 3490000,
       "isOld": false,
-      "lastAppearance": "2024/10/8",
       "lastSeen": "2024/10/13",
-      "sinceLastAppearance": 8,
       "sinceLastSeen": 3
     },
     "203": {
@@ -371,9 +1517,7 @@
       "price": 62100,
       "price_jp": 6210000,
       "isOld": true,
-      "lastAppearance": "2024/10/6",
       "lastSeen": "2024/10/13",
-      "sinceLastAppearance": 10,
       "sinceLastSeen": 3
     },
     "145": {
@@ -389,9 +1533,7 @@
       "price": 15700,
       "price_jp": 1570000,
       "isOld": false,
-      "lastAppearance": "2024/10/5",
       "lastSeen": "2024/10/13",
-      "sinceLastAppearance": 11,
       "sinceLastSeen": 3
     },
     "533": {
@@ -404,12 +1546,10 @@
       "country_name": "Italy",
       "country_code": "it",
       "engine_swaps": [],
-      "price": 499300,
-      "price_jp": 49930000,
+      "price": 495800,
+      "price_jp": 49580000,
       "isOld": true,
-      "lastAppearance": "2024/10/9",
       "lastSeen": "2024/10/14",
-      "sinceLastAppearance": 7,
       "sinceLastSeen": 2
     },
     "1410": {
@@ -422,12 +1562,10 @@
       "country_name": "Italy",
       "country_code": "it",
       "engine_swaps": [],
-      "price": 288600,
-      "price_jp": 28860000,
+      "price": 350000,
+      "price_jp": 35000000,
       "isOld": true,
-      "lastAppearance": "2024/10/9",
       "lastSeen": "2024/10/14",
-      "sinceLastAppearance": 7,
       "sinceLastSeen": 2
     },
     "1796": {
@@ -440,12 +1578,10 @@
       "country_name": "France",
       "country_code": "fr",
       "engine_swaps": [],
-      "price": 138100,
-      "price_jp": 13810000,
+      "price": 142200,
+      "price_jp": 14220000,
       "isOld": true,
-      "lastAppearance": "2024/10/7",
       "lastSeen": "2024/10/14",
-      "sinceLastAppearance": 9,
       "sinceLastSeen": 2
     },
     "1542": {
@@ -466,12 +1602,10 @@
           "engine_name": "LT5-Corvette-C7"
         }
       ],
-      "price": 51900,
-      "price_jp": 5190000,
+      "price": 58200,
+      "price_jp": 5820000,
       "isOld": true,
-      "lastAppearance": "2024/10/7",
       "lastSeen": "2024/10/14",
-      "sinceLastAppearance": 9,
       "sinceLastSeen": 2
     },
     "1385": {
@@ -487,9 +1621,7 @@
       "price": 11800,
       "price_jp": 1180000,
       "isOld": false,
-      "lastAppearance": "2024/10/6",
       "lastSeen": "2024/10/14",
-      "sinceLastAppearance": 10,
       "sinceLastSeen": 2
     },
     "799": {
@@ -505,9 +1637,7 @@
       "price": 65800,
       "price_jp": 6580000,
       "isOld": false,
-      "lastAppearance": "2024/10/3",
       "lastSeen": "2024/10/14",
-      "sinceLastAppearance": 13,
       "sinceLastSeen": 2
     },
     "1426": {
@@ -520,12 +1650,10 @@
       "country_name": "United States",
       "country_code": "us",
       "engine_swaps": [],
-      "price": 397100,
-      "price_jp": 39710000,
+      "price": 399300,
+      "price_jp": 39930000,
       "isOld": false,
-      "lastAppearance": "2024/10/10",
       "lastSeen": "2024/10/15",
-      "sinceLastAppearance": 6,
       "sinceLastSeen": 1
     },
     "82": {
@@ -549,9 +1677,7 @@
       "price": 194000,
       "price_jp": 19400000,
       "isOld": true,
-      "lastAppearance": "2024/10/9",
       "lastSeen": "2024/10/15",
-      "sinceLastAppearance": 7,
       "sinceLastSeen": 1
     },
     "102": {
@@ -572,12 +1698,10 @@
           "engine_name": "RB26DETT-GT-R-R34"
         }
       ],
-      "price": 163300,
-      "price_jp": 16330000,
+      "price": 162200,
+      "price_jp": 16220000,
       "isOld": true,
-      "lastAppearance": "2024/10/6",
       "lastSeen": "2024/10/15",
-      "sinceLastAppearance": 10,
       "sinceLastSeen": 1
     },
     "204": {
@@ -601,9 +1725,7 @@
       "price": 58100,
       "price_jp": 5810000,
       "isOld": true,
-      "lastAppearance": "2024/10/16",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 0,
       "sinceLastSeen": 0
     },
     "173": {
@@ -619,9 +1741,7 @@
       "price": 151900,
       "price_jp": 15190000,
       "isOld": true,
-      "lastAppearance": "2024/10/16",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 0,
       "sinceLastSeen": 0
     },
     "1027": {
@@ -642,12 +1762,10 @@
           "engine_name": "LS7-Rampage"
         }
       ],
-      "price": 458900,
-      "price_jp": 45890000,
+      "price": 472300,
+      "price_jp": 47230000,
       "isOld": false,
-      "lastAppearance": "2024/10/16",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 0,
       "sinceLastSeen": 0
     },
     "1370": {
@@ -668,12 +1786,10 @@
           "engine_name": "K24A-Civic"
         }
       ],
-      "price": 23300,
-      "price_jp": 2330000,
+      "price": 24100,
+      "price_jp": 2410000,
       "isOld": false,
-      "lastAppearance": "2024/10/16",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 0,
       "sinceLastSeen": 0
     },
     "1544": {
@@ -686,12 +1802,10 @@
       "country_name": "Italy",
       "country_code": "it",
       "engine_swaps": [],
-      "price": 363500,
-      "price_jp": 36350000,
+      "price": 366700,
+      "price_jp": 36670000,
       "isOld": false,
-      "lastAppearance": "2024/10/16",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 0,
       "sinceLastSeen": 0
     },
     "1537": {
@@ -707,9 +1821,7 @@
       "price": 18500,
       "price_jp": 1850000,
       "isOld": false,
-      "lastAppearance": "2024/10/15",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 1,
       "sinceLastSeen": 0
     },
     "24": {
@@ -730,12 +1842,10 @@
           "engine_name": "VR38DETT-GT-R-NISMO"
         }
       ],
-      "price": 58400,
-      "price_jp": 5840000,
+      "price": 48900,
+      "price_jp": 4890000,
       "isOld": true,
-      "lastAppearance": "2024/10/15",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 1,
       "sinceLastSeen": 0
     },
     "1541": {
@@ -748,12 +1858,10 @@
       "country_name": "Germany",
       "country_code": "de",
       "engine_swaps": [],
-      "price": 67600,
-      "price_jp": 6760000,
+      "price": 63100,
+      "price_jp": 6310000,
       "isOld": false,
-      "lastAppearance": "2024/10/15",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 1,
       "sinceLastSeen": 0
     },
     "1523": {
@@ -769,9 +1877,7 @@
       "price": 15500,
       "price_jp": 1550000,
       "isOld": true,
-      "lastAppearance": "2024/10/14",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 2,
       "sinceLastSeen": 0
     },
     "3530": {
@@ -787,9 +1893,7 @@
       "price": 169000,
       "price_jp": 16900000,
       "isOld": true,
-      "lastAppearance": "2024/10/14",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 2,
       "sinceLastSeen": 0
     },
     "919": {
@@ -820,9 +1924,7 @@
       "price": 31800,
       "price_jp": 3180000,
       "isOld": true,
-      "lastAppearance": "2024/10/14",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 2,
       "sinceLastSeen": 0
     },
     "3471": {
@@ -835,12 +1937,10 @@
       "country_name": "Japan",
       "country_code": "jp",
       "engine_swaps": [],
-      "price": 67700,
-      "price_jp": 6770000,
+      "price": 65100,
+      "price_jp": 6510000,
       "isOld": true,
-      "lastAppearance": "2024/10/14",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 2,
       "sinceLastSeen": 0
     },
     "1399": {
@@ -861,12 +1961,10 @@
           "engine_name": "P65B44-Z4"
         }
       ],
-      "price": 70200,
-      "price_jp": 7020000,
+      "price": 69900,
+      "price_jp": 6990000,
       "isOld": false,
-      "lastAppearance": "2024/10/14",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 2,
       "sinceLastSeen": 0
     },
     "3431": {
@@ -887,12 +1985,10 @@
           "engine_name": "959.50-959"
         }
       ],
-      "price": 220000,
-      "price_jp": 22000000,
+      "price": 226500,
+      "price_jp": 22650000,
       "isOld": true,
-      "lastAppearance": "2024/10/14",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 2,
       "sinceLastSeen": 0
     },
     "187": {
@@ -913,12 +2009,10 @@
           "engine_name": "LT4-Camaro"
         }
       ],
-      "price": 70100,
-      "price_jp": 7010000,
+      "price": 72500,
+      "price_jp": 7250000,
       "isOld": true,
-      "lastAppearance": "2024/10/13",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 3,
       "sinceLastSeen": 0
     },
     "3524": {
@@ -939,12 +2033,10 @@
           "engine_name": "VR38DETT-GT-R-NISMO"
         }
       ],
-      "price": 393800,
-      "price_jp": 39380000,
+      "price": 390000,
+      "price_jp": 39000000,
       "isOld": true,
-      "lastAppearance": "2024/10/13",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 3,
       "sinceLastSeen": 0
     },
     "810": {
@@ -968,9 +2060,7 @@
       "price": 51900,
       "price_jp": 5190000,
       "isOld": true,
-      "lastAppearance": "2024/10/12",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 4,
       "sinceLastSeen": 0
     },
     "1933": {
@@ -986,9 +2076,7 @@
       "price": 22700,
       "price_jp": 2270000,
       "isOld": false,
-      "lastAppearance": "2024/10/12",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 4,
       "sinceLastSeen": 0
     },
     "3356": {
@@ -1012,9 +2100,7 @@
       "price": 40800,
       "price_jp": 4080000,
       "isOld": true,
-      "lastAppearance": "2024/10/11",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 5,
       "sinceLastSeen": 0
     },
     "1895": {
@@ -1027,12 +2113,10 @@
       "country_name": "Italy",
       "country_code": "it",
       "engine_swaps": [],
-      "price": 333900,
-      "price_jp": 33390000,
+      "price": 343900,
+      "price_jp": 34390000,
       "isOld": true,
-      "lastAppearance": "2024/10/11",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 5,
       "sinceLastSeen": 0
     },
     "374": {
@@ -1053,12 +2137,10 @@
           "engine_name": "R26B-787B"
         }
       ],
-      "price": 58900,
-      "price_jp": 5890000,
+      "price": 53800,
+      "price_jp": 5380000,
       "isOld": true,
-      "lastAppearance": "2024/10/11",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 5,
       "sinceLastSeen": 0
     },
     "201": {
@@ -1079,12 +2161,10 @@
           "engine_name": "13B-REW-RX-7"
         }
       ],
-      "price": 35000,
-      "price_jp": 3500000,
+      "price": 26500,
+      "price_jp": 2650000,
       "isOld": true,
-      "lastAppearance": "2024/10/10",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 6,
       "sinceLastSeen": 0
     },
     "931": {
@@ -1105,12 +2185,10 @@
           "engine_name": "Evo-Final-Gr.B"
         }
       ],
-      "price": 100000,
-      "price_jp": 10000000,
+      "price": 87800,
+      "price_jp": 8780000,
       "isOld": true,
-      "lastAppearance": "2024/10/10",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 6,
       "sinceLastSeen": 0
     },
     "301": {
@@ -1131,12 +2209,10 @@
           "engine_name": "Evo-Final-Gr.B"
         }
       ],
-      "price": 55000,
-      "price_jp": 5500000,
+      "price": 44200,
+      "price_jp": 4420000,
       "isOld": true,
-      "lastAppearance": "2024/10/10",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 6,
       "sinceLastSeen": 0
     },
     "211": {
@@ -1157,12 +2233,10 @@
           "engine_name": "Evo-Final-Gr.B"
         }
       ],
-      "price": 90000,
-      "price_jp": 9000000,
+      "price": 77500,
+      "price_jp": 7750000,
       "isOld": true,
-      "lastAppearance": "2024/10/10",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 6,
       "sinceLastSeen": 0
     },
     "1508": {
@@ -1183,12 +2257,10 @@
           "engine_name": "Evo-Final-Gr.B"
         }
       ],
-      "price": 200000,
-      "price_jp": 20000000,
+      "price": 174200,
+      "price_jp": 17420000,
       "isOld": true,
-      "lastAppearance": "2024/10/10",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 6,
       "sinceLastSeen": 0
     },
     "3377": {
@@ -1201,12 +2273,10 @@
       "country_name": "United States",
       "country_code": "us",
       "engine_swaps": [],
-      "price": 63200,
-      "price_jp": 6320000,
+      "price": 71900,
+      "price_jp": 7190000,
       "isOld": true,
-      "lastAppearance": "2024/10/10",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 6,
       "sinceLastSeen": 0
     },
     "1384": {
@@ -1230,9 +2300,7 @@
       "price": 30800,
       "price_jp": 3080000,
       "isOld": false,
-      "lastAppearance": "2024/10/10",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 6,
       "sinceLastSeen": 0
     },
     "1378": {
@@ -1245,12 +2313,10 @@
       "country_name": "Italy",
       "country_code": "it",
       "engine_swaps": [],
-      "price": 207400,
-      "price_jp": 20740000,
+      "price": 201100,
+      "price_jp": 20110000,
       "isOld": false,
-      "lastAppearance": "2024/10/10",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 6,
       "sinceLastSeen": 0
     },
     "3513": {
@@ -1271,12 +2337,10 @@
           "engine_name": "LT5-Corvette-C7"
         }
       ],
-      "price": 51400,
-      "price_jp": 5140000,
+      "price": 60000,
+      "price_jp": 6000000,
       "isOld": true,
-      "lastAppearance": "2024/10/9",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 7,
       "sinceLastSeen": 0
     },
     "104": {
@@ -1297,12 +2361,10 @@
           "engine_name": "K24A-Civic"
         }
       ],
-      "price": 79600,
-      "price_jp": 7960000,
+      "price": 72400,
+      "price_jp": 7240000,
       "isOld": true,
-      "lastAppearance": "2024/10/8",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 8,
       "sinceLastSeen": 0
     },
     "1729": {
@@ -1323,16 +2385,1270 @@
           "engine_name": "Coyote-5.0L-Mustang"
         }
       ],
-      "price": 40200,
-      "price_jp": 4020000,
+      "price": 36800,
+      "price_jp": 3680000,
       "isOld": true,
-      "lastAppearance": "2024/10/6",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 10,
+      "sinceLastSeen": 0
+    },
+    "3454": {
+      "maker_id": 6,
+      "maker_name": "BMW",
+      "car_id": 3454,
+      "car_name": "3.0 CSL '71",
+      "car_group": "N",
+      "country_id": 5,
+      "country_name": "Germany",
+      "country_code": "de",
+      "engine_swaps": [],
+      "price": 141500,
+      "price_jp": 14150000,
+      "isOld": true,
+      "lastSeen": "2024/10/16",
+      "sinceLastSeen": 0
+    },
+    "3341": {
+      "maker_id": 140,
+      "maker_name": "De Tomaso",
+      "car_id": 3341,
+      "car_name": "Pantera '71",
+      "car_group": "N",
+      "country_id": 7,
+      "country_name": "Italy",
+      "country_code": "it",
+      "engine_swaps": [
+        {
+          "maker_id": 13,
+          "maker_name": "Ford",
+          "car_id": "2138",
+          "car_name": "Mustang GT '15",
+          "engine_name": "Coyote-5.0L-Mustang"
+        }
+      ],
+      "price": 170400,
+      "price_jp": 17040000,
+      "isOld": true,
+      "lastSeen": "2024/10/16",
+      "sinceLastSeen": 0
+    },
+    "3453": {
+      "maker_id": 6,
+      "maker_name": "BMW",
+      "car_id": 3453,
+      "car_name": "M3 '89",
+      "car_group": "N",
+      "country_id": 5,
+      "country_name": "Germany",
+      "country_code": "de",
+      "engine_swaps": [
+        {
+          "maker_id": 39,
+          "maker_name": "Suzuki",
+          "car_id": "3508",
+          "car_name": "SUZUKI Vision Gran Turismo (Gr.3 Version)",
+          "engine_name": "V8-Suzuki-VGT-Gr.3"
+        }
+      ],
+      "price": 86100,
+      "price_jp": 8610000,
+      "isOld": true,
+      "lastSeen": "2024/10/16",
+      "sinceLastSeen": 0
+    },
+    "345": {
+      "maker_id": 43,
+      "maker_name": "Toyota",
+      "car_id": 345,
+      "car_name": "Sprinter Trueno 1600GT APEX (S.Shigeno Version)",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [],
+      "price": 97800,
+      "price_jp": 9780000,
+      "isOld": null,
+      "lastSeen": "2024/10/16",
       "sinceLastSeen": 0
     }
   },
   "legend": {
+    "3437": {
+      "maker_id": 140,
+      "maker_name": "De Tomaso",
+      "car_id": 3437,
+      "car_name": "Mangusta '69",
+      "car_group": "N",
+      "country_id": 7,
+      "country_name": "Italy",
+      "country_code": "it",
+      "engine_swaps": [],
+      "price": 315000,
+      "price_jp": 31500000,
+      "isOld": true,
+      "lastSeen": "2024/07/25",
+      "sinceLastSeen": 83
+    },
+    "31": {
+      "maker_id": 7,
+      "maker_name": "Chevrolet",
+      "car_id": 31,
+      "car_name": "Camaro Z28 '69",
+      "car_group": "N",
+      "country_id": 3,
+      "country_name": "United States",
+      "country_code": "us",
+      "engine_swaps": [
+        {
+          "maker_id": 7,
+          "maker_name": "Chevrolet",
+          "car_id": "3387",
+          "car_name": "Camaro ZL1 1LE Package '18",
+          "engine_name": "LT4-Camaro"
+        }
+      ],
+      "price": 133000,
+      "price_jp": 13300000,
+      "isOld": true,
+      "lastSeen": "2024/07/25",
+      "sinceLastSeen": 83
+    },
+    "3446": {
+      "maker_id": 136,
+      "maker_name": "Porsche",
+      "car_id": 3446,
+      "car_name": "Spyder type 550/1500RS '55",
+      "car_group": "X",
+      "country_id": 5,
+      "country_name": "Germany",
+      "country_code": "de",
+      "engine_swaps": [],
+      "price": 4850000,
+      "price_jp": 485000000,
+      "isOld": true,
+      "lastSeen": "2024/07/28",
+      "sinceLastSeen": 80
+    },
+    "3428": {
+      "maker_id": 22,
+      "maker_name": "Mercedes-Benz",
+      "car_id": 3428,
+      "car_name": "S Barker Tourer '29",
+      "car_group": "N",
+      "country_id": 5,
+      "country_name": "Germany",
+      "country_code": "de",
+      "engine_swaps": [],
+      "price": 13000000,
+      "price_jp": 1300000000,
+      "isOld": true,
+      "lastSeen": "2024/08/03",
+      "sinceLastSeen": 74
+    },
+    "387": {
+      "maker_id": 22,
+      "maker_name": "Mercedes-Benz",
+      "car_id": 387,
+      "car_name": "300 SL Coupe '54",
+      "car_group": "N",
+      "country_id": 5,
+      "country_name": "Germany",
+      "country_code": "de",
+      "engine_swaps": [],
+      "price": 1700000,
+      "price_jp": 170000000,
+      "isOld": true,
+      "lastSeen": "2024/08/05",
+      "sinceLastSeen": 72
+    },
+    "1484": {
+      "maker_id": 112,
+      "maker_name": "Lamborghini",
+      "car_id": 1484,
+      "car_name": "Countach LP400 '74",
+      "car_group": "N",
+      "country_id": 7,
+      "country_name": "Italy",
+      "country_code": "it",
+      "engine_swaps": [],
+      "price": 1350000,
+      "price_jp": 135000000,
+      "isOld": true,
+      "lastSeen": "2024/08/06",
+      "sinceLastSeen": 71
+    },
+    "3376": {
+      "maker_id": 17,
+      "maker_name": "Jaguar",
+      "car_id": 3376,
+      "car_name": "D-type '54",
+      "car_group": "X",
+      "country_id": 4,
+      "country_name": "United Kingdom",
+      "country_code": "gb",
+      "engine_swaps": [],
+      "price": 6000000,
+      "price_jp": 600000000,
+      "isOld": true,
+      "lastSeen": "2024/08/06",
+      "sinceLastSeen": 71
+    },
+    "3429": {
+      "maker_id": 28,
+      "maker_name": "Nissan",
+      "car_id": 3429,
+      "car_name": "Fairlady Z 432 '69",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": "1448",
+          "car_name": "SILVIA spec-R Aero (S15) '02",
+          "engine_name": "SR20DET-Silvia-S15"
+        }
+      ],
+      "price": 312000,
+      "price_jp": 31200000,
+      "isOld": true,
+      "lastSeen": "2024/08/12",
+      "sinceLastSeen": 65
+    },
+    "1926": {
+      "maker_id": 36,
+      "maker_name": "Shelby",
+      "car_id": 1926,
+      "car_name": "Cobra Daytona Coupe '64",
+      "car_group": "X",
+      "country_id": 3,
+      "country_name": "United States",
+      "country_code": "us",
+      "engine_swaps": [],
+      "price": 20000000,
+      "price_jp": 2000000000,
+      "isOld": true,
+      "lastSeen": "2024/08/12",
+      "sinceLastSeen": 65
+    },
+    "116": {
+      "maker_id": 43,
+      "maker_name": "Toyota",
+      "car_id": 116,
+      "car_name": "GT-One (TS020) '99",
+      "car_group": null,
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [],
+      "price": 2500000,
+      "price_jp": 250000000,
+      "isOld": true,
+      "lastSeen": "2024/08/14",
+      "sinceLastSeen": 63
+    },
+    "3475": {
+      "maker_id": 117,
+      "maker_name": "McLaren",
+      "car_id": 3475,
+      "car_name": "MP4/4 '88",
+      "car_group": "X",
+      "country_id": 4,
+      "country_name": "United Kingdom",
+      "country_code": "gb",
+      "engine_swaps": [],
+      "price": 12000000,
+      "price_jp": 1200000000,
+      "isOld": true,
+      "lastSeen": "2024/08/15",
+      "sinceLastSeen": 62
+    },
+    "1931": {
+      "maker_id": 110,
+      "maker_name": "Ferrari",
+      "car_id": 1931,
+      "car_name": "250 GT Berlinetta passo corto '61",
+      "car_group": "N",
+      "country_id": 7,
+      "country_name": "Italy",
+      "country_code": "it",
+      "engine_swaps": [],
+      "price": 8100000,
+      "price_jp": 810000000,
+      "isOld": true,
+      "lastSeen": "2024/08/15",
+      "sinceLastSeen": 62
+    },
+    "3490": {
+      "maker_id": 136,
+      "maker_name": "Porsche",
+      "car_id": 3490,
+      "car_name": "Carrera GTS (904) '64",
+      "car_group": "N",
+      "country_id": 5,
+      "country_name": "Germany",
+      "country_code": "de",
+      "engine_swaps": [],
+      "price": 2300000,
+      "price_jp": 230000000,
+      "isOld": true,
+      "lastSeen": "2024/08/17",
+      "sinceLastSeen": 60
+    },
+    "3493": {
+      "maker_id": 28,
+      "maker_name": "Nissan",
+      "car_id": 3493,
+      "car_name": "Skyline Super Silhouette Group 5 '84",
+      "car_group": "3",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [],
+      "price": 1150000,
+      "price_jp": 115000000,
+      "isOld": true,
+      "lastSeen": "2024/08/17",
+      "sinceLastSeen": 60
+    },
+    "3421": {
+      "maker_id": 116,
+      "maker_name": "Maserati",
+      "car_id": 3421,
+      "car_name": "Merak SS '80",
+      "car_group": "N",
+      "country_id": 7,
+      "country_name": "Italy",
+      "country_code": "it",
+      "engine_swaps": [],
+      "price": 64200,
+      "price_jp": 6420000,
+      "isOld": true,
+      "lastSeen": "2024/08/18",
+      "sinceLastSeen": 59
+    },
+    "3489": {
+      "maker_id": 116,
+      "maker_name": "Maserati",
+      "car_id": 3489,
+      "car_name": "A6GCS/53 Spyder '54",
+      "car_group": "X",
+      "country_id": 7,
+      "country_name": "Italy",
+      "country_code": "it",
+      "engine_swaps": [],
+      "price": 2500000,
+      "price_jp": 250000000,
+      "isOld": true,
+      "lastSeen": "2024/08/21",
+      "sinceLastSeen": 56
+    },
+    "1975": {
+      "maker_id": 21,
+      "maker_name": "Mazda",
+      "car_id": 1975,
+      "car_name": "RX500 '70",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [],
+      "price": 600000,
+      "price_jp": 60000000,
+      "isOld": true,
+      "lastSeen": "2024/08/22",
+      "sinceLastSeen": 55
+    },
+    "543": {
+      "maker_id": 17,
+      "maker_name": "Jaguar",
+      "car_id": 543,
+      "car_name": "XJ220 '92",
+      "car_group": "N",
+      "country_id": 4,
+      "country_name": "United Kingdom",
+      "country_code": "gb",
+      "engine_swaps": [
+        {
+          "maker_id": 17,
+          "maker_name": "Jaguar",
+          "car_id": "1067",
+          "car_name": "XJR-9 '88",
+          "engine_name": "V12-XJR-9"
+        }
+      ],
+      "price": 615000,
+      "price_jp": 61500000,
+      "isOld": true,
+      "lastSeen": "2024/08/22",
+      "sinceLastSeen": 55
+    },
+    "1900": {
+      "maker_id": 55,
+      "maker_name": "Plymouth",
+      "car_id": 1900,
+      "car_name": "XNR Ghia Roadster '60",
+      "car_group": "N",
+      "country_id": 3,
+      "country_name": "United States",
+      "country_code": "us",
+      "engine_swaps": [],
+      "price": 1600000,
+      "price_jp": 160000000,
+      "isOld": true,
+      "lastSeen": "2024/08/26",
+      "sinceLastSeen": 51
+    },
+    "3400": {
+      "maker_id": 136,
+      "maker_name": "Porsche",
+      "car_id": 3400,
+      "car_name": "911 GT1 Strassenversion '97",
+      "car_group": "N",
+      "country_id": 5,
+      "country_name": "Germany",
+      "country_code": "de",
+      "engine_swaps": [],
+      "price": 10000000,
+      "price_jp": 1000000000,
+      "isOld": true,
+      "lastSeen": "2024/08/30",
+      "sinceLastSeen": 47
+    },
+    "1984": {
+      "maker_id": 117,
+      "maker_name": "McLaren",
+      "car_id": 1984,
+      "car_name": "McLaren F1 GTR - BMW '95",
+      "car_group": "3",
+      "country_id": 4,
+      "country_name": "United Kingdom",
+      "country_code": "gb",
+      "engine_swaps": [],
+      "price": 15000000,
+      "price_jp": 1500000000,
+      "isOld": true,
+      "lastSeen": "2024/08/30",
+      "sinceLastSeen": 47
+    },
+    "3519": {
+      "maker_id": 136,
+      "maker_name": "Porsche",
+      "car_id": 3519,
+      "car_name": "959 '87",
+      "car_group": "N",
+      "country_id": 5,
+      "country_name": "Germany",
+      "country_code": "de",
+      "engine_swaps": [],
+      "price": 1950000,
+      "price_jp": 195000000,
+      "isOld": true,
+      "lastSeen": "2024/08/30",
+      "sinceLastSeen": 47
+    },
+    "2011": {
+      "maker_id": 110,
+      "maker_name": "Ferrari",
+      "car_id": 2011,
+      "car_name": "500 Mondial Pinin Farina Coupe '54",
+      "car_group": "N",
+      "country_id": 7,
+      "country_name": "Italy",
+      "country_code": "it",
+      "engine_swaps": [],
+      "price": 2600000,
+      "price_jp": 260000000,
+      "isOld": true,
+      "lastSeen": "2024/08/31",
+      "sinceLastSeen": 46
+    },
+    "1470": {
+      "maker_id": 43,
+      "maker_name": "Toyota",
+      "car_id": 1470,
+      "car_name": "Supra GT500 '97",
+      "car_group": "3",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [],
+      "price": 1800000,
+      "price_jp": 180000000,
+      "isOld": true,
+      "lastSeen": "2024/09/01",
+      "sinceLastSeen": 45
+    },
+    "140": {
+      "maker_id": 15,
+      "maker_name": "Honda",
+      "car_id": 140,
+      "car_name": "NSX GT500 '00",
+      "car_group": "3",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [],
+      "price": 1500000,
+      "price_jp": 150000000,
+      "isOld": true,
+      "lastSeen": "2024/09/01",
+      "sinceLastSeen": 45
+    },
+    "485": {
+      "maker_id": 28,
+      "maker_name": "Nissan",
+      "car_id": 485,
+      "car_name": "GT-R GT500 '99",
+      "car_group": "3",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [],
+      "price": 2500000,
+      "price_jp": 250000000,
+      "isOld": true,
+      "lastSeen": "2024/09/01",
+      "sinceLastSeen": 45
+    },
+    "3373": {
+      "maker_id": 136,
+      "maker_name": "Porsche",
+      "car_id": 3373,
+      "car_name": "962 C '88",
+      "car_group": "1",
+      "country_id": 5,
+      "country_name": "Germany",
+      "country_code": "de",
+      "engine_swaps": [],
+      "price": 1300000,
+      "price_jp": 130000000,
+      "isOld": true,
+      "lastSeen": "2024/09/02",
+      "sinceLastSeen": 44
+    },
+    "36": {
+      "maker_id": 7,
+      "maker_name": "Chevrolet",
+      "car_id": 36,
+      "car_name": "Chevelle SS 454 Sport Coupé '70",
+      "car_group": "N",
+      "country_id": 3,
+      "country_name": "United States",
+      "country_code": "us",
+      "engine_swaps": [],
+      "price": 172000,
+      "price_jp": 17200000,
+      "isOld": true,
+      "lastSeen": "2024/09/03",
+      "sinceLastSeen": 43
+    },
+    "3361": {
+      "maker_id": 17,
+      "maker_name": "Jaguar",
+      "car_id": 3361,
+      "car_name": "E-type Coupe '61",
+      "car_group": "N",
+      "country_id": 4,
+      "country_name": "United Kingdom",
+      "country_code": "gb",
+      "engine_swaps": [],
+      "price": 227000,
+      "price_jp": 22700000,
+      "isOld": true,
+      "lastSeen": "2024/09/03",
+      "sinceLastSeen": 43
+    },
+    "3410": {
+      "maker_id": 136,
+      "maker_name": "Porsche",
+      "car_id": 3410,
+      "car_name": "917K '70",
+      "car_group": "X",
+      "country_id": 5,
+      "country_name": "Germany",
+      "country_code": "de",
+      "engine_swaps": [],
+      "price": 18000000,
+      "price_jp": 1800000000,
+      "isOld": true,
+      "lastSeen": "2024/09/04",
+      "sinceLastSeen": 42
+    },
+    "1069": {
+      "maker_id": 93,
+      "maker_name": "Chaparral",
+      "car_id": 1069,
+      "car_name": "2J '70",
+      "car_group": "X",
+      "country_id": 3,
+      "country_name": "United States",
+      "country_code": "us",
+      "engine_swaps": [],
+      "price": 2500000,
+      "price_jp": 250000000,
+      "isOld": true,
+      "lastSeen": "2024/09/05",
+      "sinceLastSeen": 41
+    },
+    "3444": {
+      "maker_id": 13,
+      "maker_name": "Ford",
+      "car_id": 3444,
+      "car_name": "1932 Ford Roadster Hot Rod",
+      "car_group": "N",
+      "country_id": 3,
+      "country_name": "United States",
+      "country_code": "us",
+      "engine_swaps": [
+        {
+          "maker_id": 13,
+          "maker_name": "Ford",
+          "car_id": "3391",
+          "car_name": "Shelby GT350R '16",
+          "engine_name": "Voodoo-5.2L-GT350R"
+        }
+      ],
+      "price": 400000,
+      "price_jp": 40000000,
+      "isOld": null,
+      "lastSeen": "2024/09/08",
+      "sinceLastSeen": 38
+    },
+    "3363": {
+      "maker_id": 4,
+      "maker_name": "Aston Martin",
+      "car_id": 3363,
+      "car_name": "DB3S '53",
+      "car_group": "X",
+      "country_id": 4,
+      "country_name": "United Kingdom",
+      "country_code": "gb",
+      "engine_swaps": [],
+      "price": 6000000,
+      "price_jp": 600000000,
+      "isOld": true,
+      "lastSeen": "2024/09/10",
+      "sinceLastSeen": 36
+    },
+    "1540": {
+      "maker_id": 117,
+      "maker_name": "McLaren",
+      "car_id": 1540,
+      "car_name": "McLaren F1 '94",
+      "car_group": "N",
+      "country_id": 4,
+      "country_name": "United Kingdom",
+      "country_code": "gb",
+      "engine_swaps": [],
+      "price": 20000000,
+      "price_jp": 2000000000,
+      "isOld": true,
+      "lastSeen": "2024/09/10",
+      "sinceLastSeen": 36
+    },
+    "2018": {
+      "maker_id": 110,
+      "maker_name": "Ferrari",
+      "car_id": 2018,
+      "car_name": "365 GTB4 '71",
+      "car_group": "N",
+      "country_id": 7,
+      "country_name": "Italy",
+      "country_code": "it",
+      "engine_swaps": [],
+      "price": 610000,
+      "price_jp": 61000000,
+      "isOld": true,
+      "lastSeen": "2024/09/11",
+      "sinceLastSeen": 35
+    },
+    "3397": {
+      "maker_id": 22,
+      "maker_name": "Mercedes-Benz",
+      "car_id": 3397,
+      "car_name": "CLK-LM '98",
+      "car_group": "2",
+      "country_id": 5,
+      "country_name": "Germany",
+      "country_code": "de",
+      "engine_swaps": [],
+      "price": 8500000,
+      "price_jp": 850000000,
+      "isOld": true,
+      "lastSeen": "2024/09/13",
+      "sinceLastSeen": 33
+    },
+    "3505": {
+      "maker_id": 140,
+      "maker_name": "De Tomaso",
+      "car_id": 3505,
+      "car_name": "Mangusta (Christian Dior)",
+      "car_group": "N",
+      "country_id": 7,
+      "country_name": "Italy",
+      "country_code": "it",
+      "engine_swaps": [],
+      "price": 500000,
+      "price_jp": 50000000,
+      "isOld": null,
+      "lastSeen": "2024/09/13",
+      "sinceLastSeen": 33
+    },
+    "836": {
+      "maker_id": 28,
+      "maker_name": "Nissan",
+      "car_id": 836,
+      "car_name": "Skyline 2000GT-R (KPGC110) '73",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": "3493",
+          "car_name": "Skyline Super Silhouette Group 5 '84",
+          "engine_name": "LZ20B-Skyline"
+        }
+      ],
+      "price": 542000,
+      "price_jp": 54200000,
+      "isOld": true,
+      "lastSeen": "2024/09/14",
+      "sinceLastSeen": 32
+    },
+    "3415": {
+      "maker_id": 3,
+      "maker_name": "Alfa Romeo",
+      "car_id": 3415,
+      "car_name": "8C 2900B Touring Berlinetta '38",
+      "car_group": "N",
+      "country_id": 7,
+      "country_name": "Italy",
+      "country_code": "it",
+      "engine_swaps": [],
+      "price": 20000000,
+      "price_jp": 2000000000,
+      "isOld": true,
+      "lastSeen": "2024/09/15",
+      "sinceLastSeen": 31
+    },
+    "1932": {
+      "maker_id": 125,
+      "maker_name": "Abarth",
+      "car_id": 1932,
+      "car_name": "1500 Biposto Bertone B.A.T 1 '52",
+      "car_group": "N",
+      "country_id": 7,
+      "country_name": "Italy",
+      "country_code": "it",
+      "engine_swaps": [],
+      "price": 1000000,
+      "price_jp": 100000000,
+      "isOld": true,
+      "lastSeen": "2024/09/15",
+      "sinceLastSeen": 31
+    },
+    "818": {
+      "maker_id": 7,
+      "maker_name": "Chevrolet",
+      "car_id": 818,
+      "car_name": "Corvette (C2) '63",
+      "car_group": "N",
+      "country_id": 3,
+      "country_name": "United States",
+      "country_code": "us",
+      "engine_swaps": [
+        {
+          "maker_id": 7,
+          "maker_name": "Chevrolet",
+          "car_id": "3449",
+          "car_name": "Corvette C7 ZR1 '19",
+          "engine_name": "LT5-Corvette-C7"
+        }
+      ],
+      "price": 239000,
+      "price_jp": 23900000,
+      "isOld": true,
+      "lastSeen": "2024/09/15",
+      "sinceLastSeen": 31
+    },
+    "105": {
+      "maker_id": 32,
+      "maker_name": "Peugeot",
+      "car_id": 105,
+      "car_name": "205 Turbo 16 Evolution 2 '86",
+      "car_group": "B",
+      "country_id": 6,
+      "country_name": "France",
+      "country_code": "fr",
+      "engine_swaps": [],
+      "price": 1100000,
+      "price_jp": 110000000,
+      "isOld": true,
+      "lastSeen": "2024/09/18",
+      "sinceLastSeen": 28
+    },
+    "3487": {
+      "maker_id": 13,
+      "maker_name": "Ford",
+      "car_id": 3487,
+      "car_name": "Mustang Boss 429 '69",
+      "car_group": "N",
+      "country_id": 3,
+      "country_name": "United States",
+      "country_code": "us",
+      "engine_swaps": [
+        {
+          "maker_id": 13,
+          "maker_name": "Ford",
+          "car_id": "3391",
+          "car_name": "Shelby GT350R '16",
+          "engine_name": "Voodoo-5.2L-GT350R"
+        }
+      ],
+      "price": 346000,
+      "price_jp": 34600000,
+      "isOld": true,
+      "lastSeen": "2024/09/20",
+      "sinceLastSeen": 26
+    },
+    "216": {
+      "maker_id": 6,
+      "maker_name": "BMW",
+      "car_id": 216,
+      "car_name": "McLaren F1 GTR Race Car '97",
+      "car_group": "2",
+      "country_id": 5,
+      "country_name": "Germany",
+      "country_code": "de",
+      "engine_swaps": [],
+      "price": 20000000,
+      "price_jp": 2000000000,
+      "isOld": true,
+      "lastSeen": "2024/09/20",
+      "sinceLastSeen": 26
+    },
+    "3375": {
+      "maker_id": 136,
+      "maker_name": "Porsche",
+      "car_id": 3375,
+      "car_name": "356 A/1500 GS Carrera '56",
+      "car_group": "N",
+      "country_id": 5,
+      "country_name": "Germany",
+      "country_code": "de",
+      "engine_swaps": [
+        {
+          "maker_id": 136,
+          "maker_name": "Porsche",
+          "car_id": "3311",
+          "car_name": "911 RSR (991) '17",
+          "engine_name": "959.50-959"
+        }
+      ],
+      "price": 618000,
+      "price_jp": 61800000,
+      "isOld": true,
+      "lastSeen": "2024/09/20",
+      "sinceLastSeen": 26
+    },
+    "3445": {
+      "maker_id": 4,
+      "maker_name": "Aston Martin",
+      "car_id": 3445,
+      "car_name": "DB5 '64",
+      "car_group": "N",
+      "country_id": 4,
+      "country_name": "United Kingdom",
+      "country_code": "gb",
+      "engine_swaps": [],
+      "price": 892000,
+      "price_jp": 89200000,
+      "isOld": true,
+      "lastSeen": "2024/09/22",
+      "sinceLastSeen": 24
+    },
+    "1553": {
+      "maker_id": 17,
+      "maker_name": "Jaguar",
+      "car_id": 1553,
+      "car_name": "XJ13 '66",
+      "car_group": "X",
+      "country_id": 4,
+      "country_name": "United Kingdom",
+      "country_code": "gb",
+      "engine_swaps": [],
+      "price": 12000000,
+      "price_jp": 1200000000,
+      "isOld": true,
+      "lastSeen": "2024/09/22",
+      "sinceLastSeen": 24
+    },
+    "2010": {
+      "maker_id": 110,
+      "maker_name": "Ferrari",
+      "car_id": 2010,
+      "car_name": "250 GTO '62",
+      "car_group": "X",
+      "country_id": 7,
+      "country_name": "Italy",
+      "country_code": "it",
+      "engine_swaps": [],
+      "price": 20000000,
+      "price_jp": 2000000000,
+      "isOld": true,
+      "lastSeen": "2024/09/22",
+      "sinceLastSeen": 24
+    },
+    "808": {
+      "maker_id": 39,
+      "maker_name": "Suzuki",
+      "car_id": 808,
+      "car_name": "V6 Escudo Pikes Peak Special spec.98",
+      "car_group": "X",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [],
+      "price": 1700000,
+      "price_jp": 170000000,
+      "isOld": true,
+      "lastSeen": "2024/09/22",
+      "sinceLastSeen": 24
+    },
+    "781": {
+      "maker_id": 43,
+      "maker_name": "Toyota",
+      "car_id": 781,
+      "car_name": "Celica GT-FOUR Rally Car (ST205) '95",
+      "car_group": "B",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [],
+      "price": 250000,
+      "price_jp": 25000000,
+      "isOld": true,
+      "lastSeen": "2024/09/22",
+      "sinceLastSeen": 24
+    },
+    "3464": {
+      "maker_id": 7,
+      "maker_name": "Chevrolet",
+      "car_id": 3464,
+      "car_name": "Corvette (C1) '58",
+      "car_group": "N",
+      "country_id": 3,
+      "country_name": "United States",
+      "country_code": "us",
+      "engine_swaps": [
+        {
+          "maker_id": 7,
+          "maker_name": "Chevrolet",
+          "car_id": "3449",
+          "car_name": "Corvette C7 ZR1 '19",
+          "engine_name": "LT5-Corvette-C7"
+        }
+      ],
+      "price": 119000,
+      "price_jp": 11900000,
+      "isOld": true,
+      "lastSeen": "2024/09/23",
+      "sinceLastSeen": 23
+    },
+    "604": {
+      "maker_id": 43,
+      "maker_name": "Toyota",
+      "car_id": 604,
+      "car_name": "2000GT '67",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [],
+      "price": 992000,
+      "price_jp": 99200000,
+      "isOld": true,
+      "lastSeen": "2024/09/25",
+      "sinceLastSeen": 21
+    },
+    "3462": {
+      "maker_id": 52,
+      "maker_name": "Pontiac",
+      "car_id": 3462,
+      "car_name": "GTO 'The Judge' '69",
+      "car_group": "N",
+      "country_id": 3,
+      "country_name": "United States",
+      "country_code": "us",
+      "engine_swaps": [],
+      "price": 268000,
+      "price_jp": 26800000,
+      "isOld": true,
+      "lastSeen": "2024/09/27",
+      "sinceLastSeen": 19
+    },
+    "1067": {
+      "maker_id": 17,
+      "maker_name": "Jaguar",
+      "car_id": 1067,
+      "car_name": "XJR-9 '88",
+      "car_group": "1",
+      "country_id": 4,
+      "country_name": "United Kingdom",
+      "country_code": "gb",
+      "engine_swaps": [],
+      "price": 3000000,
+      "price_jp": 300000000,
+      "isOld": true,
+      "lastSeen": "2024/09/27",
+      "sinceLastSeen": 19
+    },
+    "3388": {
+      "maker_id": 153,
+      "maker_name": "AMG",
+      "car_id": 3388,
+      "car_name": "300 SEL 6.8 AMG '71",
+      "car_group": "X",
+      "country_id": 5,
+      "country_name": "Germany",
+      "country_code": "de",
+      "engine_swaps": [],
+      "price": 700000,
+      "price_jp": 70000000,
+      "isOld": true,
+      "lastSeen": "2024/09/29",
+      "sinceLastSeen": 17
+    },
+    "1986": {
+      "maker_id": 34,
+      "maker_name": "Renault",
+      "car_id": 1986,
+      "car_name": "R8 Gordini '66",
+      "car_group": "X",
+      "country_id": 6,
+      "country_name": "France",
+      "country_code": "fr",
+      "engine_swaps": [],
+      "price": 32500,
+      "price_jp": 3250000,
+      "isOld": true,
+      "lastSeen": "2024/09/30",
+      "sinceLastSeen": 16
+    },
+    "1409": {
+      "maker_id": 110,
+      "maker_name": "Ferrari",
+      "car_id": 1409,
+      "car_name": "F40 '92",
+      "car_group": "N",
+      "country_id": 7,
+      "country_name": "Italy",
+      "country_code": "it",
+      "engine_swaps": [
+        {
+          "maker_id": 110,
+          "maker_name": "Ferrari",
+          "car_id": "1474",
+          "car_name": "Enzo Ferrari '02",
+          "engine_name": "F140B-Enzo"
+        }
+      ],
+      "price": 3100000,
+      "price_jp": 310000000,
+      "isOld": true,
+      "lastSeen": "2024/09/30",
+      "sinceLastSeen": 16
+    },
+    "998": {
+      "maker_id": 22,
+      "maker_name": "Mercedes-Benz",
+      "car_id": 998,
+      "car_name": "Sauber Mercedes C9 '89",
+      "car_group": "1",
+      "country_id": 5,
+      "country_name": "Germany",
+      "country_code": "de",
+      "engine_swaps": [],
+      "price": 3500000,
+      "price_jp": 350000000,
+      "isOld": true,
+      "lastSeen": "2024/10/03",
+      "sinceLastSeen": 13
+    },
+    "296": {
+      "maker_id": 21,
+      "maker_name": "Mazda",
+      "car_id": 296,
+      "car_name": "787B '91",
+      "car_group": "1",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [],
+      "price": 3300000,
+      "price_jp": 330000000,
+      "isOld": true,
+      "lastSeen": "2024/10/03",
+      "sinceLastSeen": 13
+    },
+    "1565": {
+      "maker_id": 13,
+      "maker_name": "Ford",
+      "car_id": 1565,
+      "car_name": "Mark IV Race Car '67",
+      "car_group": "X",
+      "country_id": 3,
+      "country_name": "United States",
+      "country_code": "us",
+      "engine_swaps": [],
+      "price": 6750000,
+      "price_jp": 675000000,
+      "isOld": true,
+      "lastSeen": "2024/10/04",
+      "sinceLastSeen": 12
+    },
+    "2059": {
+      "maker_id": 7,
+      "maker_name": "Chevrolet",
+      "car_id": 2059,
+      "car_name": "Corvette Stingray Racer Concept '59",
+      "car_group": "X",
+      "country_id": 3,
+      "country_name": "United States",
+      "country_code": "us",
+      "engine_swaps": [],
+      "price": 4000000,
+      "price_jp": 400000000,
+      "isOld": true,
+      "lastSeen": "2024/10/04",
+      "sinceLastSeen": 12
+    },
+    "665": {
+      "maker_id": 55,
+      "maker_name": "Plymouth",
+      "car_id": 665,
+      "car_name": "Superbird '70",
+      "car_group": "N",
+      "country_id": 3,
+      "country_name": "United States",
+      "country_code": "us",
+      "engine_swaps": [
+        {
+          "maker_id": 11,
+          "maker_name": "Dodge",
+          "car_id": "2152",
+          "car_name": "Charger SRT Hellcat '15",
+          "engine_name": "Hellcat-Charger"
+        }
+      ],
+      "price": 402000,
+      "price_jp": 40200000,
+      "isOld": true,
+      "lastSeen": "2024/10/05",
+      "sinceLastSeen": 11
+    },
+    "2017": {
+      "maker_id": 110,
+      "maker_name": "Ferrari",
+      "car_id": 2017,
+      "car_name": "GTO '84",
+      "car_group": "N",
+      "country_id": 7,
+      "country_name": "Italy",
+      "country_code": "it",
+      "engine_swaps": [],
+      "price": 3500000,
+      "price_jp": 350000000,
+      "isOld": true,
+      "lastSeen": "2024/10/06",
+      "sinceLastSeen": 10
+    },
+    "1582": {
+      "maker_id": 112,
+      "maker_name": "Lamborghini",
+      "car_id": 1582,
+      "car_name": "Miura P400 Bertone Prototype '67",
+      "car_group": "N",
+      "country_id": 7,
+      "country_name": "Italy",
+      "country_code": "it",
+      "engine_swaps": [],
+      "price": 3750000,
+      "price_jp": 375000000,
+      "isOld": true,
+      "lastSeen": "2024/10/06",
+      "sinceLastSeen": 10
+    },
+    "1935": {
+      "maker_id": 13,
+      "maker_name": "Ford",
+      "car_id": 1935,
+      "car_name": "GT40 Mark I '66",
+      "car_group": "N",
+      "country_id": 3,
+      "country_name": "United States",
+      "country_code": "us",
+      "engine_swaps": [],
+      "price": 6700000,
+      "price_jp": 670000000,
+      "isOld": true,
+      "lastSeen": "2024/10/07",
+      "sinceLastSeen": 9
+    },
+    "3441": {
+      "maker_id": 22,
+      "maker_name": "Mercedes-Benz",
+      "car_id": 3441,
+      "car_name": "300 SL (W194) '52",
+      "car_group": "X",
+      "country_id": 5,
+      "country_name": "Germany",
+      "country_code": "de",
+      "engine_swaps": [],
+      "price": 20000000,
+      "price_jp": 2000000000,
+      "isOld": true,
+      "lastSeen": "2024/10/07",
+      "sinceLastSeen": 9
+    },
+    "954": {
+      "maker_id": 28,
+      "maker_name": "Nissan",
+      "car_id": 954,
+      "car_name": "R92CP '92",
+      "car_group": "1",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [],
+      "price": 2000000,
+      "price_jp": 200000000,
+      "isOld": true,
+      "lastSeen": "2024/10/08",
+      "sinceLastSeen": 8
+    },
+    "365": {
+      "maker_id": 3,
+      "maker_name": "Alfa Romeo",
+      "car_id": 365,
+      "car_name": "155 2.5 V6 TI '93",
+      "car_group": "4",
+      "country_id": 7,
+      "country_name": "Italy",
+      "country_code": "it",
+      "engine_swaps": [],
+      "price": 800000,
+      "price_jp": 80000000,
+      "isOld": true,
+      "lastSeen": "2024/10/11",
+      "sinceLastSeen": 5
+    },
     "3362": {
       "maker_id": 110,
       "maker_name": "Ferrari",
@@ -1346,9 +3662,7 @@
       "price": 4450000,
       "price_jp": 445000000,
       "isOld": true,
-      "lastAppearance": "2024/10/8",
       "lastSeen": "2024/10/13",
-      "sinceLastAppearance": 8,
       "sinceLastSeen": 3
     },
     "3365": {
@@ -1364,9 +3678,7 @@
       "price": 1600000,
       "price_jp": 160000000,
       "isOld": true,
-      "lastAppearance": "2024/10/6",
       "lastSeen": "2024/10/13",
-      "sinceLastAppearance": 10,
       "sinceLastSeen": 3
     },
     "3550": {
@@ -1382,9 +3694,7 @@
       "price": 650000,
       "price_jp": 65000000,
       "isOld": true,
-      "lastAppearance": "2024/10/5",
       "lastSeen": "2024/10/13",
-      "sinceLastAppearance": 11,
       "sinceLastSeen": 3
     },
     "3457": {
@@ -1400,9 +3710,7 @@
       "price": 330000,
       "price_jp": 33000000,
       "isOld": true,
-      "lastAppearance": "2024/10/8",
       "lastSeen": "2024/10/14",
-      "sinceLastAppearance": 8,
       "sinceLastSeen": 2
     },
     "1551": {
@@ -1418,9 +3726,7 @@
       "price": 20000000,
       "price_jp": 2000000000,
       "isOld": true,
-      "lastAppearance": "2024/10/8",
       "lastSeen": "2024/10/14",
-      "sinceLastAppearance": 8,
       "sinceLastSeen": 2
     },
     "1645": {
@@ -1436,9 +3742,7 @@
       "price": 3800000,
       "price_jp": 380000000,
       "isOld": true,
-      "lastAppearance": "2024/10/6",
       "lastSeen": "2024/10/14",
-      "sinceLastAppearance": 10,
       "sinceLastSeen": 2
     },
     "1543": {
@@ -1462,9 +3766,7 @@
       "price": 214000,
       "price_jp": 21400000,
       "isOld": true,
-      "lastAppearance": "2024/10/5",
       "lastSeen": "2024/10/14",
-      "sinceLastAppearance": 11,
       "sinceLastSeen": 2
     },
     "3520": {
@@ -1488,9 +3790,7 @@
       "price": 1800000,
       "price_jp": 180000000,
       "isOld": true,
-      "lastAppearance": "2024/10/9",
       "lastSeen": "2024/10/15",
-      "sinceLastAppearance": 7,
       "sinceLastSeen": 1
     },
     "1925": {
@@ -1514,9 +3814,7 @@
       "price": 469000,
       "price_jp": 46900000,
       "isOld": true,
-      "lastAppearance": "2024/10/7",
       "lastSeen": "2024/10/15",
-      "sinceLastAppearance": 9,
       "sinceLastSeen": 1
     },
     "1927": {
@@ -1532,9 +3830,7 @@
       "price": 1900000,
       "price_jp": 190000000,
       "isOld": true,
-      "lastAppearance": "2024/10/16",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 0,
       "sinceLastSeen": 0
     },
     "315": {
@@ -1550,9 +3846,7 @@
       "price": 2500000,
       "price_jp": 250000000,
       "isOld": true,
-      "lastAppearance": "2024/10/16",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 0,
       "sinceLastSeen": 0
     },
     "3525": {
@@ -1568,9 +3862,7 @@
       "price": 2500000,
       "price_jp": 250000000,
       "isOld": true,
-      "lastAppearance": "2024/10/16",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 0,
       "sinceLastSeen": 0
     },
     "575": {
@@ -1594,9 +3886,7 @@
       "price": 280000,
       "price_jp": 28000000,
       "isOld": true,
-      "lastAppearance": "2024/10/3",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 13,
       "sinceLastSeen": 0
     },
     "837": {
@@ -1620,9 +3910,7 @@
       "price": 194000,
       "price_jp": 19400000,
       "isOld": true,
-      "lastAppearance": "2024/10/15",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 1,
       "sinceLastSeen": 0
     },
     "3514": {
@@ -1638,9 +3926,7 @@
       "price": 47600,
       "price_jp": 4760000,
       "isOld": true,
-      "lastAppearance": "2024/10/15",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 1,
       "sinceLastSeen": 0
     },
     "3430": {
@@ -1664,9 +3950,7 @@
       "price": 30100,
       "price_jp": 3010000,
       "isOld": true,
-      "lastAppearance": "2024/10/10",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 6,
       "sinceLastSeen": 0
     },
     "3509": {
@@ -1690,9 +3974,31 @@
       "price": 750000,
       "price_jp": 75000000,
       "isOld": true,
-      "lastAppearance": "2024/10/9",
       "lastSeen": "2024/10/16",
-      "sinceLastAppearance": 7,
+      "sinceLastSeen": 0
+    },
+    "3538": {
+      "maker_id": 11,
+      "maker_name": "Dodge",
+      "car_id": 3538,
+      "car_name": "Charger R/T 426 Hemi '68",
+      "car_group": "N",
+      "country_id": 3,
+      "country_name": "United States",
+      "country_code": "us",
+      "engine_swaps": [
+        {
+          "maker_id": 11,
+          "maker_name": "Dodge",
+          "car_id": "3486",
+          "car_name": "Challenger SRT Demon '18",
+          "engine_name": "Demon-Challenger"
+        }
+      ],
+      "price": 158000,
+      "price_jp": 15800000,
+      "isOld": true,
+      "lastSeen": "2024/10/16",
       "sinceLastSeen": 0
     }
   }

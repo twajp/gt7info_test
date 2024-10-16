@@ -120,6 +120,7 @@ def UpdateDB(lastSeen):
             for car in day[dealer]:
                 db[dealer][str(car['car_id'])] = car.copy()
                 # del db[dealer][str(car['car_id'])]['car_id']
+                db[dealer][str(car['car_id'])].update({'lastAppearance': day['date']})
                 if str(car['car_id']) in lastSeen[dealer]:
                     db[dealer][str(car['car_id'])].update({'lastSeen': lastSeen[dealer][str(car['car_id'])].strftime('%Y/%m/%d')})
 
@@ -127,6 +128,7 @@ def UpdateDB(lastSeen):
 
     for dealer in ['used', 'legend']:
         for car_id, car_info in db[dealer].items():
+            car_info['sinceLastAppearance'] = (today - datetime.strptime(car_info['lastAppearance'], '%Y/%m/%d').date()).days
             car_info['sinceLastSeen'] = (today - datetime.strptime(car_info['lastSeen'], '%Y/%m/%d').date()).days
         # Sort the entries by 'sinceLastSeen'
         db[dealer] = dict(sorted(db[dealer].items(), key=lambda item: item[1]['sinceLastSeen'], reverse=True))
@@ -145,7 +147,7 @@ today = datetime.now(timezone.utc).date()
 timestamp = datetime.now(timezone.utc).isoformat()
 # start_date = datetime(year=2022, month=6, day=28).date()
 # number_of_days = (today-start_date).days + 1
-number_of_days = 14
+number_of_days = 100
 data = {
     'timestamp': timestamp,
     'content': []

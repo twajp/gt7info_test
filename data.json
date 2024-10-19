@@ -1,6 +1,57 @@
 {
-  "timestamp": "2024-10-18T00:10:08.551142+00:00",
+  "timestamp": "2024-10-19T00:10:02.232276+00:00",
   "content": [
+    {
+      "id": 20241019,
+      "date": "2024/10/19",
+      "used": [
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 135,
+          "car_name": "S800 '66",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 15,
+              "maker_name": "Honda",
+              "car_id": "2156",
+              "car_name": "2&4 powered by RC213V",
+              "engine_name": "SE75E-2&4"
+            }
+          ],
+          "price": 48700,
+          "price_jp": 4870000,
+          "isOld": true
+        },
+        {
+          "maker_id": 6,
+          "maker_name": "BMW",
+          "car_id": 3453,
+          "car_name": "M3 '89",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [
+            {
+              "maker_id": 39,
+              "maker_name": "Suzuki",
+              "car_id": "3508",
+              "car_name": "SUZUKI Vision Gran Turismo (Gr.3 Version)",
+              "engine_name": "V8-Suzuki-VGT-Gr.3"
+            }
+          ],
+          "price": 86100,
+          "price_jp": 8610000,
+          "isOld": true
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20241018,
       "date": "2024/10/18",
@@ -1425,122 +1476,6 @@
           "engine_swaps": [],
           "price": 3800000,
           "price_jp": 380000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20241005,
-      "date": "2024/10/5",
-      "used": [
-        {
-          "maker_id": 52,
-          "maker_name": "Pontiac",
-          "car_id": 1985,
-          "car_name": "Firebird Trans Am '78",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 7,
-              "maker_name": "Chevrolet",
-              "car_id": "1480",
-              "car_name": "Corvette ZR1 (C6) '09",
-              "engine_name": "LS9-Corvette"
-            }
-          ],
-          "price": 87900,
-          "price_jp": 8790000,
-          "isOld": true
-        },
-        {
-          "maker_id": 10,
-          "maker_name": "Daihatsu",
-          "car_id": 145,
-          "car_name": "Copen '02",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [],
-          "price": 15700,
-          "price_jp": 1570000,
-          "isOld": false
-        },
-        {
-          "maker_id": 6,
-          "maker_name": "BMW",
-          "car_id": 3551,
-          "car_name": "M3 '97",
-          "car_group": null,
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 38,
-              "maker_name": "Subaru",
-              "car_id": "3339",
-              "car_name": "BRZ Drift Car '17",
-              "engine_name": "LS7-BRZ"
-            }
-          ],
-          "price": 85500,
-          "price_jp": 8550000,
-          "isOld": true
-        },
-        {
-          "maker_id": 112,
-          "maker_name": "Lamborghini",
-          "car_id": 1506,
-          "car_name": "Gallardo LP 560-4 '08",
-          "car_group": null,
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 243800,
-          "price_jp": 24380000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 38,
-          "maker_name": "Subaru",
-          "car_id": 3550,
-          "car_name": "Impreza Rally Car '98",
-          "car_group": null,
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [],
-          "price": 650000,
-          "price_jp": 65000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 11,
-          "maker_name": "Dodge",
-          "car_id": 1543,
-          "car_name": "Challenger R/T '70",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 11,
-              "maker_name": "Dodge",
-              "car_id": "2152",
-              "car_name": "Charger SRT Hellcat '15",
-              "engine_name": "Hellcat-Charger"
-            }
-          ],
-          "price": 214000,
-          "price_jp": 21400000,
           "isOld": true
         }
       ]

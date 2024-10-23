@@ -1,6 +1,107 @@
 {
-  "timestamp": "2024-10-22T00:10:09.086188+00:00",
+  "timestamp": "2024-10-23T00:10:18.364272+00:00",
   "content": [
+    {
+      "id": 20241023,
+      "date": "2024/10/23",
+      "used": [
+        {
+          "maker_id": 140,
+          "maker_name": "De Tomaso",
+          "car_id": 3341,
+          "car_name": "Pantera '71",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [
+            {
+              "maker_id": 13,
+              "maker_name": "Ford",
+              "car_id": "2138",
+              "car_name": "Mustang GT '15",
+              "engine_name": "Coyote-5.0L-Mustang"
+            }
+          ],
+          "price": 172800,
+          "price_jp": 17280000,
+          "isOld": true
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 1448,
+          "car_name": "SILVIA spec-R Aero (S15) '02",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 43,
+              "maker_name": "Toyota",
+              "car_id": "82",
+              "car_name": "Supra RZ '97",
+              "engine_name": "2JZ-GTE-Supra"
+            }
+          ],
+          "price": 58400,
+          "price_jp": 5840000,
+          "isOld": false
+        },
+        {
+          "maker_id": 112,
+          "maker_name": "Lamborghini",
+          "car_id": 1990,
+          "car_name": "Diablo GT '00",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 790200,
+          "price_jp": 79020000,
+          "isOld": true
+        },
+        {
+          "maker_id": 25,
+          "maker_name": "Mitsubishi",
+          "car_id": 3424,
+          "car_name": "Lancer Evolution IX MR GSR '06",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 25,
+              "maker_name": "Mitsubishi",
+              "car_id": "3230",
+              "car_name": "Lancer Evolution Final Gr.B Rally Car",
+              "engine_name": "Evo-Final-Gr.B"
+            }
+          ],
+          "price": 95000,
+          "price_jp": 9500000,
+          "isOld": false
+        },
+        {
+          "maker_id": 43,
+          "maker_name": "Toyota",
+          "car_id": 345,
+          "car_name": "Sprinter Trueno 1600GT APEX (S.Shigeno Version)",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 99100,
+          "price_jp": 9910000,
+          "isOld": null
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20241022,
       "date": "2024/10/22",
@@ -1272,130 +1373,6 @@
           ],
           "price": 30100,
           "price_jp": 3010000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20241009,
-      "date": "2024/10/9",
-      "used": [
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 3513,
-          "car_name": "Silvia K's Type S (S14) '94",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 7,
-              "maker_name": "Chevrolet",
-              "car_id": "3449",
-              "car_name": "Corvette C7 ZR1 '19",
-              "engine_name": "LT5-Corvette-C7"
-            }
-          ],
-          "price": 51400,
-          "price_jp": 5140000,
-          "isOld": true
-        },
-        {
-          "maker_id": 18,
-          "maker_name": "Lancia",
-          "car_id": 533,
-          "car_name": "Stratos '73",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 499300,
-          "price_jp": 49930000,
-          "isOld": true
-        },
-        {
-          "maker_id": 110,
-          "maker_name": "Ferrari",
-          "car_id": 1410,
-          "car_name": "512 BB '76",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 288600,
-          "price_jp": 28860000,
-          "isOld": true
-        },
-        {
-          "maker_id": 43,
-          "maker_name": "Toyota",
-          "car_id": 82,
-          "car_name": "Supra RZ '97",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 30,
-              "maker_name": "Pagani",
-              "car_id": "2050",
-              "car_name": "Huayra '13",
-              "engine_name": "M158-AMG-Huayra"
-            }
-          ],
-          "price": 194000,
-          "price_jp": 19400000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 136,
-          "maker_name": "Porsche",
-          "car_id": 3509,
-          "car_name": "911 Carrera RS (901) '73",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 136,
-              "maker_name": "Porsche",
-              "car_id": "3311",
-              "car_name": "911 RSR (991) '17",
-              "engine_name": "959.50-959"
-            }
-          ],
-          "price": 750000,
-          "price_jp": 75000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 155,
-          "maker_name": "NISMO",
-          "car_id": 3520,
-          "car_name": "400R '95",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "3345",
-              "car_name": "GT-R NISMO '17",
-              "engine_name": "VR38DETT-GT-R-NISMO"
-            }
-          ],
-          "price": 1800000,
-          "price_jp": 180000000,
           "isOld": true
         }
       ]

@@ -1,6 +1,86 @@
 {
-  "timestamp": "2024-10-26T00:09:42.616888+00:00",
+  "timestamp": "2024-10-27T00:11:51.169095+00:00",
   "content": [
+    {
+      "id": 20241027,
+      "date": "2024/10/27",
+      "used": [
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 1461,
+          "car_name": "Silvia K's Dia Selection (S13) '90",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "1448",
+              "car_name": "SILVIA spec-R Aero (S15) '02",
+              "engine_name": "SR20DET-Silvia-S15"
+            }
+          ],
+          "price": 52100,
+          "price_jp": 5210000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 112,
+          "maker_name": "Lamborghini",
+          "car_id": 1484,
+          "car_name": "Countach LP400 '74",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 1350000,
+          "price_jp": 135000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 11,
+          "maker_name": "Dodge",
+          "car_id": 3538,
+          "car_name": "Charger R/T 426 Hemi '68",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 11,
+              "maker_name": "Dodge",
+              "car_id": "3486",
+              "car_name": "Challenger SRT Demon '18",
+              "engine_name": "Demon-Challenger"
+            }
+          ],
+          "price": 158000,
+          "price_jp": 15800000,
+          "isOld": true
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 485,
+          "car_name": "GT-R GT500 '99",
+          "car_group": "3",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 2500000,
+          "price_jp": 250000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20241026,
       "date": "2024/10/26",
@@ -1282,57 +1362,6 @@
           ],
           "price": 220000,
           "price_jp": 22000000,
-          "isOld": true
-        }
-      ],
-      "legend": []
-    },
-    {
-      "id": 20241013,
-      "date": "2024/10/13",
-      "used": [
-        {
-          "maker_id": 44,
-          "maker_name": "TVR",
-          "car_id": 187,
-          "car_name": "Tuscan Speed 6 '00",
-          "car_group": "N",
-          "country_id": 4,
-          "country_name": "United Kingdom",
-          "country_code": "gb",
-          "engine_swaps": [
-            {
-              "maker_id": 7,
-              "maker_name": "Chevrolet",
-              "car_id": "3387",
-              "car_name": "Camaro ZL1 1LE Package '18",
-              "engine_name": "LT4-Camaro"
-            }
-          ],
-          "price": 70100,
-          "price_jp": 7010000,
-          "isOld": true
-        },
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 3524,
-          "car_name": "GT-R NISMO (R32) '90",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "3345",
-              "car_name": "GT-R NISMO '17",
-              "engine_name": "VR38DETT-GT-R-NISMO"
-            }
-          ],
-          "price": 393800,
-          "price_jp": 39380000,
           "isOld": true
         }
       ],

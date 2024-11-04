@@ -1,6 +1,56 @@
 {
-  "timestamp": "2024-11-03T00:11:04.289328+00:00",
+  "timestamp": "2024-11-04T00:11:05.774697+00:00",
   "content": [
+    {
+      "id": 20241104,
+      "date": "2024/11/4",
+      "used": [
+        {
+          "maker_id": 12,
+          "maker_name": "Fiat",
+          "car_id": 1527,
+          "car_name": "500 1.2 8V Lounge SS '08",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 14400,
+          "price_jp": 1440000,
+          "isOld": false
+        },
+        {
+          "maker_id": 6,
+          "maker_name": "BMW",
+          "car_id": 1893,
+          "car_name": "Z8 '01",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 259600,
+          "price_jp": 25960000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 43,
+          "maker_name": "Toyota",
+          "car_id": 116,
+          "car_name": "GT-One (TS020) '99",
+          "car_group": null,
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 2500000,
+          "price_jp": 250000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20241103,
       "date": "2024/11/3",
@@ -1278,71 +1328,6 @@
           "isOld": true
         }
       ]
-    },
-    {
-      "id": 20241021,
-      "date": "2024/10/21",
-      "used": [
-        {
-          "maker_id": 7,
-          "maker_name": "Chevrolet",
-          "car_id": 41,
-          "car_name": "Corvette Stingray (C3) '69",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 7,
-              "maker_name": "Chevrolet",
-              "car_id": "3449",
-              "car_name": "Corvette C7 ZR1 '19",
-              "engine_name": "LT5-Corvette-C7"
-            }
-          ],
-          "price": 54700,
-          "price_jp": 5470000,
-          "isOld": true
-        },
-        {
-          "maker_id": 43,
-          "maker_name": "Toyota",
-          "car_id": 207,
-          "car_name": "MR2 GT-S '97",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 5,
-              "maker_name": "Audi",
-              "car_id": "1365",
-              "car_name": "R8 4.2 '07",
-              "engine_name": "BYH-R8"
-            }
-          ],
-          "price": 58100,
-          "price_jp": 5810000,
-          "isOld": true
-        },
-        {
-          "maker_id": 22,
-          "maker_name": "Mercedes-Benz",
-          "car_id": 1528,
-          "car_name": "SLR McLaren '09",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 492000,
-          "price_jp": 49200000,
-          "isOld": false
-        }
-      ],
-      "legend": []
     }
   ]
 }

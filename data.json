@@ -1,6 +1,150 @@
 {
-  "timestamp": "2024-11-04T00:11:05.774697+00:00",
+  "timestamp": "2024-11-05T00:09:46.017118+00:00",
   "content": [
+    {
+      "id": 20241105,
+      "date": "2024/11/5",
+      "used": [
+        {
+          "maker_id": 11,
+          "maker_name": "Dodge",
+          "car_id": 3377,
+          "car_name": "Super Bee '70",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [],
+          "price": 80000,
+          "price_jp": 8000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 821,
+          "car_name": "Civic Type R (EK) '97",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 157,
+              "maker_name": "Garage RCR",
+              "car_id": "3526",
+              "car_name": "Civic",
+              "engine_name": "K24A-Civic"
+            }
+          ],
+          "price": 50200,
+          "price_jp": 5020000,
+          "isOld": true
+        },
+        {
+          "maker_id": 52,
+          "maker_name": "Pontiac",
+          "car_id": 1985,
+          "car_name": "Firebird Trans Am '78",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 7,
+              "maker_name": "Chevrolet",
+              "car_id": "1480",
+              "car_name": "Corvette ZR1 (C6) '09",
+              "engine_name": "LS9-Corvette"
+            }
+          ],
+          "price": 87900,
+          "price_jp": 8790000,
+          "isOld": true
+        },
+        {
+          "maker_id": 38,
+          "maker_name": "Subaru",
+          "car_id": 379,
+          "car_name": "Impreza Coupe WRX Type R STi Ver.VI '99",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 62300,
+          "price_jp": 6230000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 13,
+          "maker_name": "Ford",
+          "car_id": 3487,
+          "car_name": "Mustang Boss 429 '69",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 13,
+              "maker_name": "Ford",
+              "car_id": "3391",
+              "car_name": "Shelby GT350R '16",
+              "engine_name": "Voodoo-5.2L-GT350R"
+            }
+          ],
+          "price": 346000,
+          "price_jp": 34600000,
+          "isOld": true
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 3493,
+          "car_name": "Skyline Super Silhouette Group 5 '84",
+          "car_group": "3",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 1150000,
+          "price_jp": 115000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 117,
+          "maker_name": "McLaren",
+          "car_id": 3475,
+          "car_name": "MP4/4 '88",
+          "car_group": "X",
+          "country_id": 4,
+          "country_name": "United Kingdom",
+          "country_code": "gb",
+          "engine_swaps": [],
+          "price": 12000000,
+          "price_jp": 1200000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 136,
+          "maker_name": "Porsche",
+          "car_id": 3490,
+          "car_name": "Carrera GTS (904) '64",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 2300000,
+          "price_jp": 230000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20241104,
       "date": "2024/11/4",
@@ -1160,174 +1304,6 @@
         }
       ],
       "legend": []
-    },
-    {
-      "id": 20241022,
-      "date": "2024/10/22",
-      "used": [
-        {
-          "maker_id": 69,
-          "maker_name": "Volvo",
-          "car_id": 3549,
-          "car_name": "240 SE Estate '93",
-          "car_group": "N",
-          "country_id": 12,
-          "country_name": "Sweden",
-          "country_code": "se",
-          "engine_swaps": [],
-          "price": 50000,
-          "price_jp": 5000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 18,
-          "maker_name": "Lancia",
-          "car_id": 829,
-          "car_name": "Delta HF Integrale Evoluzione '91",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "3345",
-              "car_name": "GT-R NISMO '17",
-              "engine_name": "VR38DETT-GT-R-NISMO"
-            }
-          ],
-          "price": 98900,
-          "price_jp": 9890000,
-          "isOld": true
-        },
-        {
-          "maker_id": 39,
-          "maker_name": "Suzuki",
-          "car_id": 779,
-          "car_name": "Cappuccino (EA11R) '91",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 21,
-              "maker_name": "Mazda",
-              "car_id": "205",
-              "car_name": "RX-7 Spirit R Type A (FD) '02",
-              "engine_name": "13B-REW-RX-7"
-            }
-          ],
-          "price": 16000,
-          "price_jp": 1600000,
-          "isOld": true
-        },
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 48,
-          "car_name": "Fairlady 240ZG (HS30) '71",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 151,
-              "maker_name": "Roadster Shop",
-              "car_id": "3426",
-              "car_name": "Roadster Shop Rampage",
-              "engine_name": "LS7-Rampage"
-            }
-          ],
-          "price": 106400,
-          "price_jp": 10640000,
-          "isOld": true
-        },
-        {
-          "maker_id": 15,
-          "maker_name": "Honda",
-          "car_id": 688,
-          "car_name": "Integra Type R (DC2) '95",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 157,
-              "maker_name": "Garage RCR",
-              "car_id": "3526",
-              "car_name": "Civic",
-              "engine_name": "K24A-Civic"
-            }
-          ],
-          "price": 60300,
-          "price_jp": 6030000,
-          "isOld": true
-        },
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 489,
-          "car_name": "R33 GT-R V-spec '97",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "954",
-              "car_name": "R92CP '92",
-              "engine_name": "VRH35Z-R92CP"
-            }
-          ],
-          "price": 155400,
-          "price_jp": 15540000,
-          "isOld": true
-        },
-        {
-          "maker_id": 21,
-          "maker_name": "Mazda",
-          "car_id": 205,
-          "car_name": "RX-7 Spirit R Type A (FD) '02",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 21,
-              "maker_name": "Mazda",
-              "car_id": "296",
-              "car_name": "787B '91",
-              "engine_name": "R26B-787B"
-            }
-          ],
-          "price": 217000,
-          "price_jp": 21700000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 136,
-          "maker_name": "Porsche",
-          "car_id": 3400,
-          "car_name": "911 GT1 Strassenversion '97",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 10000000,
-          "price_jp": 1000000000,
-          "isOld": true
-        }
-      ]
     }
   ]
 }

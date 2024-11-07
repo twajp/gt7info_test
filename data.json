@@ -1,6 +1,49 @@
 {
-  "timestamp": "2024-11-06T00:10:07.022692+00:00",
+  "timestamp": "2024-11-07T00:09:58.137298+00:00",
   "content": [
+    {
+      "id": 20241107,
+      "date": "2024/11/7",
+      "used": [
+        {
+          "maker_id": 21,
+          "maker_name": "Mazda",
+          "car_id": 201,
+          "car_name": "Eunos Roadster (NA) '89",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 21,
+              "maker_name": "Mazda",
+              "car_id": "205",
+              "car_name": "RX-7 Spirit R Type A (FD) '02",
+              "engine_name": "13B-REW-RX-7"
+            }
+          ],
+          "price": 35000,
+          "price_jp": 3500000,
+          "isOld": true
+        },
+        {
+          "maker_id": 39,
+          "maker_name": "Suzuki",
+          "car_id": 1385,
+          "car_name": "Swift Sport '07",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 11800,
+          "price_jp": 1180000,
+          "isOld": false
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20241106,
       "date": "2024/11/6",
@@ -1189,134 +1232,6 @@
           "engine_swaps": [],
           "price": 12000000,
           "price_jp": 1200000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20241024,
-      "date": "2024/10/24",
-      "used": [
-        {
-          "maker_id": 6,
-          "maker_name": "BMW",
-          "car_id": 3344,
-          "car_name": "M3 Sport Evolution '89",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 43,
-              "maker_name": "Toyota",
-              "car_id": "3418",
-              "car_name": "GR Supra RZ '20",
-              "engine_name": "B58-GR-Supra-'20"
-            }
-          ],
-          "price": 200000,
-          "price_jp": 20000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 13,
-          "maker_name": "Ford",
-          "car_id": 3466,
-          "car_name": "Sierra RS 500 Cosworth '87",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [],
-          "price": 200000,
-          "price_jp": 20000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 6,
-          "maker_name": "BMW",
-          "car_id": 3454,
-          "car_name": "3.0 CSL '71",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 140400,
-          "price_jp": 14040000,
-          "isOld": true
-        },
-        {
-          "maker_id": 46,
-          "maker_name": "Volkswagen",
-          "car_id": 1773,
-          "car_name": "Scirocco R '10",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 40300,
-          "price_jp": 4030000,
-          "isOld": false
-        },
-        {
-          "maker_id": 3,
-          "maker_name": "Alfa Romeo",
-          "car_id": 1578,
-          "car_name": "8C Competizione '08",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 313400,
-          "price_jp": 31340000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 3,
-          "maker_name": "Alfa Romeo",
-          "car_id": 365,
-          "car_name": "155 2.5 V6 TI '93",
-          "car_group": "4",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 800000,
-          "price_jp": 80000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 17,
-          "maker_name": "Jaguar",
-          "car_id": 3376,
-          "car_name": "D-type '54",
-          "car_group": "X",
-          "country_id": 4,
-          "country_name": "United Kingdom",
-          "country_code": "gb",
-          "engine_swaps": [],
-          "price": 6000000,
-          "price_jp": 600000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 22,
-          "maker_name": "Mercedes-Benz",
-          "car_id": 3428,
-          "car_name": "S Barker Tourer '29",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 13000000,
-          "price_jp": 1300000000,
           "isOld": true
         }
       ]

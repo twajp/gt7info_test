@@ -1,6 +1,116 @@
 {
-  "timestamp": "2024-11-26T00:10:27.033286+00:00",
+  "timestamp": "2024-11-27T00:10:46.826210+00:00",
   "content": [
+    {
+      "id": 20241127,
+      "date": "2024/11/27",
+      "used": [
+        {
+          "maker_id": 43,
+          "maker_name": "Toyota",
+          "car_id": 207,
+          "car_name": "MR2 GT-S '97",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 5,
+              "maker_name": "Audi",
+              "car_id": "1365",
+              "car_name": "R8 4.2 '07",
+              "engine_name": "BYH-R8"
+            }
+          ],
+          "price": 58100,
+          "price_jp": 5810000,
+          "isOld": true
+        },
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 688,
+          "car_name": "Integra Type R (DC2) '95",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 157,
+              "maker_name": "Garage RCR",
+              "car_id": "3526",
+              "car_name": "Civic",
+              "engine_name": "K24A-Civic"
+            }
+          ],
+          "price": 60300,
+          "price_jp": 6030000,
+          "isOld": true
+        },
+        {
+          "maker_id": 140,
+          "maker_name": "De Tomaso",
+          "car_id": 3341,
+          "car_name": "Pantera '71",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [
+            {
+              "maker_id": 13,
+              "maker_name": "Ford",
+              "car_id": "2138",
+              "car_name": "Mustang GT '15",
+              "engine_name": "Coyote-5.0L-Mustang"
+            }
+          ],
+          "price": 172800,
+          "price_jp": 17280000,
+          "isOld": true
+        },
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 396,
+          "car_name": "NSX Type R '02",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 15,
+              "maker_name": "Honda",
+              "car_id": "3348",
+              "car_name": "NSX CONCEPT-GT '16",
+              "engine_name": "HR-414E-NSX"
+            }
+          ],
+          "price": 440400,
+          "price_jp": 44040000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 4,
+          "maker_name": "Aston Martin",
+          "car_id": 3363,
+          "car_name": "DB3S '53",
+          "car_group": "X",
+          "country_id": 4,
+          "country_name": "United Kingdom",
+          "country_code": "gb",
+          "engine_swaps": [],
+          "price": 6000000,
+          "price_jp": 600000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20241126,
       "date": "2024/11/26",
@@ -1479,56 +1589,6 @@
           "engine_swaps": [],
           "price": 6750000,
           "price_jp": 675000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20241113,
-      "date": "2024/11/13",
-      "used": [
-        {
-          "maker_id": 3,
-          "maker_name": "Alfa Romeo",
-          "car_id": 1933,
-          "car_name": "MiTo '09",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 22700,
-          "price_jp": 2270000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 21,
-          "maker_name": "Mazda",
-          "car_id": 1975,
-          "car_name": "RX500 '70",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [],
-          "price": 600000,
-          "price_jp": 60000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 110,
-          "maker_name": "Ferrari",
-          "car_id": 3362,
-          "car_name": "F50 '95",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 4450000,
-          "price_jp": 445000000,
           "isOld": true
         }
       ]

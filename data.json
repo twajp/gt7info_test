@@ -1,6 +1,196 @@
 {
-  "timestamp": "2024-11-27T00:10:46.826210+00:00",
+  "timestamp": "2024-11-28T00:11:07.534483+00:00",
   "content": [
+    {
+      "id": 20241128,
+      "date": "2024/11/28",
+      "used": [
+        {
+          "maker_id": 21,
+          "maker_name": "Mazda",
+          "car_id": 201,
+          "car_name": "Eunos Roadster (NA) '89",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 21,
+              "maker_name": "Mazda",
+              "car_id": "205",
+              "car_name": "RX-7 Spirit R Type A (FD) '02",
+              "engine_name": "13B-REW-RX-7"
+            }
+          ],
+          "price": 35000,
+          "price_jp": 3500000,
+          "isOld": true
+        },
+        {
+          "maker_id": 21,
+          "maker_name": "Mazda",
+          "car_id": 201,
+          "car_name": "Eunos Roadster (NA) '89",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 21,
+              "maker_name": "Mazda",
+              "car_id": "205",
+              "car_name": "RX-7 Spirit R Type A (FD) '02",
+              "engine_name": "13B-REW-RX-7"
+            }
+          ],
+          "price": 35000,
+          "price_jp": 3500000,
+          "isOld": true
+        },
+        {
+          "maker_id": 21,
+          "maker_name": "Mazda",
+          "car_id": 201,
+          "car_name": "Eunos Roadster (NA) '89",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 21,
+              "maker_name": "Mazda",
+              "car_id": "205",
+              "car_name": "RX-7 Spirit R Type A (FD) '02",
+              "engine_name": "13B-REW-RX-7"
+            }
+          ],
+          "price": 35000,
+          "price_jp": 3500000,
+          "isOld": true
+        },
+        {
+          "maker_id": 21,
+          "maker_name": "Mazda",
+          "car_id": 201,
+          "car_name": "Eunos Roadster (NA) '89",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 21,
+              "maker_name": "Mazda",
+              "car_id": "205",
+              "car_name": "RX-7 Spirit R Type A (FD) '02",
+              "engine_name": "13B-REW-RX-7"
+            }
+          ],
+          "price": 35000,
+          "price_jp": 3500000,
+          "isOld": true
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 1461,
+          "car_name": "Silvia K's Dia Selection (S13) '90",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "1448",
+              "car_name": "SILVIA spec-R Aero (S15) '02",
+              "engine_name": "SR20DET-Silvia-S15"
+            }
+          ],
+          "price": 52100,
+          "price_jp": 5210000,
+          "isOld": true
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 1448,
+          "car_name": "SILVIA spec-R Aero (S15) '02",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 43,
+              "maker_name": "Toyota",
+              "car_id": "82",
+              "car_name": "Supra RZ '97",
+              "engine_name": "2JZ-GTE-Supra"
+            }
+          ],
+          "price": 58400,
+          "price_jp": 5840000,
+          "isOld": false
+        },
+        {
+          "maker_id": 6,
+          "maker_name": "BMW",
+          "car_id": 3389,
+          "car_name": "M3 '03",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [
+            {
+              "maker_id": 6,
+              "maker_name": "BMW",
+              "car_id": "1902",
+              "car_name": "Z4 GT3 '11",
+              "engine_name": "P65B44-Z4"
+            }
+          ],
+          "price": 72700,
+          "price_jp": 7270000,
+          "isOld": false
+        },
+        {
+          "maker_id": 11,
+          "maker_name": "Dodge",
+          "car_id": 1373,
+          "car_name": "Viper GTS '02",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [],
+          "price": 106400,
+          "price_jp": 10640000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 140,
+          "maker_name": "De Tomaso",
+          "car_id": 3505,
+          "car_name": "Mangusta (Christian Dior)",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 500000,
+          "price_jp": 50000000,
+          "isOld": null
+        }
+      ]
+    },
     {
       "id": 20241127,
       "date": "2024/11/27",
@@ -1371,224 +1561,6 @@
           "engine_swaps": [],
           "price": 1600000,
           "price_jp": 160000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20241114,
-      "date": "2024/11/14",
-      "used": [
-        {
-          "maker_id": 6,
-          "maker_name": "BMW",
-          "car_id": 3344,
-          "car_name": "M3 Sport Evolution '89",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 43,
-              "maker_name": "Toyota",
-              "car_id": "3418",
-              "car_name": "GR Supra RZ '20",
-              "engine_name": "B58-GR-Supra-'20"
-            }
-          ],
-          "price": 200000,
-          "price_jp": 20000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 13,
-          "maker_name": "Ford",
-          "car_id": 3466,
-          "car_name": "Sierra RS 500 Cosworth '87",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [],
-          "price": 200000,
-          "price_jp": 20000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 25,
-          "maker_name": "Mitsubishi",
-          "car_id": 931,
-          "car_name": "Lancer Evolution III GSR '95",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 25,
-              "maker_name": "Mitsubishi",
-              "car_id": "3230",
-              "car_name": "Lancer Evolution Final Gr.B Rally Car",
-              "engine_name": "Evo-Final-Gr.B"
-            }
-          ],
-          "price": 100000,
-          "price_jp": 10000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 25,
-          "maker_name": "Mitsubishi",
-          "car_id": 301,
-          "car_name": "Lancer Evolution IV GSR '96",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 25,
-              "maker_name": "Mitsubishi",
-              "car_id": "3230",
-              "car_name": "Lancer Evolution Final Gr.B Rally Car",
-              "engine_name": "Evo-Final-Gr.B"
-            }
-          ],
-          "price": 55000,
-          "price_jp": 5500000,
-          "isOld": true
-        },
-        {
-          "maker_id": 25,
-          "maker_name": "Mitsubishi",
-          "car_id": 211,
-          "car_name": "Lancer Evolution V GSR '98",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 25,
-              "maker_name": "Mitsubishi",
-              "car_id": "3230",
-              "car_name": "Lancer Evolution Final Gr.B Rally Car",
-              "engine_name": "Evo-Final-Gr.B"
-            }
-          ],
-          "price": 90000,
-          "price_jp": 9000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 25,
-          "maker_name": "Mitsubishi",
-          "car_id": 1508,
-          "car_name": "Lancer Evolution VI GSR T.M. SCP '99",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 25,
-              "maker_name": "Mitsubishi",
-              "car_id": "3230",
-              "car_name": "Lancer Evolution Final Gr.B Rally Car",
-              "engine_name": "Evo-Final-Gr.B"
-            }
-          ],
-          "price": 200000,
-          "price_jp": 20000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 12,
-          "maker_name": "Fiat",
-          "car_id": 1523,
-          "car_name": "500 F '68",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 15500,
-          "price_jp": 1550000,
-          "isOld": true
-        },
-        {
-          "maker_id": 3,
-          "maker_name": "Alfa Romeo",
-          "car_id": 3530,
-          "car_name": "Giulia Sprint GT Veloce '67",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [
-            {
-              "maker_id": 157,
-              "maker_name": "Garage RCR",
-              "car_id": "3526",
-              "car_name": "Civic",
-              "engine_name": "K24A-Civic"
-            }
-          ],
-          "price": 169000,
-          "price_jp": 16900000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 22,
-          "maker_name": "Mercedes-Benz",
-          "car_id": 575,
-          "car_name": "190 E 2.5-16 Evolution II '91",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 153,
-              "maker_name": "AMG",
-              "car_id": "3531",
-              "car_name": "GT3 '20",
-              "engine_name": "M159-AMG-GT3-'20"
-            }
-          ],
-          "price": 280000,
-          "price_jp": 28000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 3,
-          "maker_name": "Alfa Romeo",
-          "car_id": 365,
-          "car_name": "155 2.5 V6 TI '93",
-          "car_group": "4",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 800000,
-          "price_jp": 80000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 13,
-          "maker_name": "Ford",
-          "car_id": 1565,
-          "car_name": "Mark IV Race Car '67",
-          "car_group": "X",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [],
-          "price": 6750000,
-          "price_jp": 675000000,
           "isOld": true
         }
       ]

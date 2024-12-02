@@ -1,6 +1,136 @@
 {
-  "timestamp": "2024-12-01T00:12:51.731339+00:00",
+  "timestamp": "2024-12-02T00:10:48.207553+00:00",
   "content": [
+    {
+      "id": 20241202,
+      "date": "2024/12/2",
+      "used": [
+        {
+          "maker_id": 43,
+          "maker_name": "Toyota",
+          "car_id": 63,
+          "car_name": "Corolla Levin 1600GT APEX (AE86) '83",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 43,
+              "maker_name": "Toyota",
+              "car_id": "207",
+              "car_name": "MR2 GT-S '97",
+              "engine_name": "3S-GTE-MR2"
+            }
+          ],
+          "price": 58400,
+          "price_jp": 5840000,
+          "isOld": true
+        },
+        {
+          "maker_id": 125,
+          "maker_name": "Abarth",
+          "car_id": 1973,
+          "car_name": "Abarth 500 '09",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 23900,
+          "price_jp": 2390000,
+          "isOld": false
+        },
+        {
+          "maker_id": 69,
+          "maker_name": "Volvo",
+          "car_id": 3549,
+          "car_name": "240 SE Estate '93",
+          "car_group": "N",
+          "country_id": 12,
+          "country_name": "Sweden",
+          "country_code": "se",
+          "engine_swaps": [],
+          "price": 41800,
+          "price_jp": 4180000,
+          "isOld": true
+        },
+        {
+          "maker_id": 6,
+          "maker_name": "BMW",
+          "car_id": 3344,
+          "car_name": "M3 Sport Evolution '89",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [
+            {
+              "maker_id": 43,
+              "maker_name": "Toyota",
+              "car_id": "3418",
+              "car_name": "GR Supra RZ '20",
+              "engine_name": "B58-GR-Supra-'20"
+            }
+          ],
+          "price": 165200,
+          "price_jp": 16520000,
+          "isOld": true
+        },
+        {
+          "maker_id": 43,
+          "maker_name": "Toyota",
+          "car_id": 345,
+          "car_name": "Sprinter Trueno 1600GT APEX (S.Shigeno Version)",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 99100,
+          "price_jp": 9910000,
+          "isOld": null
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 125,
+          "maker_name": "Abarth",
+          "car_id": 1932,
+          "car_name": "1500 Biposto Bertone B.A.T 1 '52",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 1000000,
+          "price_jp": 100000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 836,
+          "car_name": "Skyline 2000GT-R (KPGC110) '73",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "3493",
+              "car_name": "Skyline Super Silhouette Group 5 '84",
+              "engine_name": "LZ20B-Skyline"
+            }
+          ],
+          "price": 542000,
+          "price_jp": 54200000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20241201,
       "date": "2024/12/1",
@@ -1492,27 +1622,6 @@
           "isOld": true
         }
       ]
-    },
-    {
-      "id": 20241118,
-      "date": "2024/11/18",
-      "used": [
-        {
-          "maker_id": 34,
-          "maker_name": "Renault",
-          "car_id": 173,
-          "car_name": "R5 Turbo '80",
-          "car_group": "N",
-          "country_id": 6,
-          "country_name": "France",
-          "country_code": "fr",
-          "engine_swaps": [],
-          "price": 151900,
-          "price_jp": 15190000,
-          "isOld": true
-        }
-      ],
-      "legend": []
     }
   ]
 }

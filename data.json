@@ -1,6 +1,244 @@
 {
-  "timestamp": "2024-12-04T00:10:48.632434+00:00",
+  "timestamp": "2024-12-05T00:11:23.085980+00:00",
   "content": [
+    {
+      "id": 20241205,
+      "date": "2024/12/5",
+      "used": [
+        {
+          "maker_id": 136,
+          "maker_name": "Porsche",
+          "car_id": 3439,
+          "car_name": "911 Carrera RS (993) '95",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [
+            {
+              "maker_id": 35,
+              "maker_name": "RUF",
+              "car_id": "3398",
+              "car_name": "CTR3 '07",
+              "engine_name": "CTR38-CTR3"
+            }
+          ],
+          "price": 260000,
+          "price_jp": 26000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 3524,
+          "car_name": "GT-R NISMO (R32) '90",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "3345",
+              "car_name": "GT-R NISMO '17",
+              "engine_name": "VR38DETT-GT-R-NISMO"
+            }
+          ],
+          "price": 400000,
+          "price_jp": 40000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 43,
+          "maker_name": "Toyota",
+          "car_id": 1044,
+          "car_name": "Sports 800 '65",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 47200,
+          "price_jp": 4720000,
+          "isOld": true
+        },
+        {
+          "maker_id": 13,
+          "maker_name": "Ford",
+          "car_id": 3466,
+          "car_name": "Sierra RS 500 Cosworth '87",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [],
+          "price": 183500,
+          "price_jp": 18350000,
+          "isOld": true
+        },
+        {
+          "maker_id": 25,
+          "maker_name": "Mitsubishi",
+          "car_id": 211,
+          "car_name": "Lancer Evolution V GSR '98",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 25,
+              "maker_name": "Mitsubishi",
+              "car_id": "3230",
+              "car_name": "Lancer Evolution Final Gr.B Rally Car",
+              "engine_name": "Evo-Final-Gr.B"
+            }
+          ],
+          "price": 80700,
+          "price_jp": 8070000,
+          "isOld": true
+        },
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 514,
+          "car_name": "S2000 '99",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 157,
+              "maker_name": "Garage RCR",
+              "car_id": "3526",
+              "car_name": "Civic",
+              "engine_name": "K24A-Civic"
+            }
+          ],
+          "price": 98700,
+          "price_jp": 9870000,
+          "isOld": true
+        },
+        {
+          "maker_id": 136,
+          "maker_name": "Porsche",
+          "car_id": 3385,
+          "car_name": "911 Turbo (930) '81",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [
+            {
+              "maker_id": 136,
+              "maker_name": "Porsche",
+              "car_id": "3311",
+              "car_name": "911 RSR (991) '17",
+              "engine_name": "M97/80-911"
+            }
+          ],
+          "price": 220000,
+          "price_jp": 22000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 112,
+          "maker_name": "Lamborghini",
+          "car_id": 1481,
+          "car_name": "Countach 25th Anniversary '88",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [
+            {
+              "maker_id": 112,
+              "maker_name": "Lamborghini",
+              "car_id": "3392",
+              "car_name": "Aventador LP 750-4 SV '15",
+              "engine_name": "L539-Aventador-SV"
+            }
+          ],
+          "price": 694000,
+          "price_jp": 69400000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 6,
+          "maker_name": "BMW",
+          "car_id": 216,
+          "car_name": "McLaren F1 GTR Race Car '97",
+          "car_group": "2",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 20000000,
+          "price_jp": 2000000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 117,
+          "maker_name": "McLaren",
+          "car_id": 1984,
+          "car_name": "McLaren F1 GTR - BMW '95",
+          "car_group": "3",
+          "country_id": 4,
+          "country_name": "United Kingdom",
+          "country_code": "gb",
+          "engine_swaps": [],
+          "price": 16000000,
+          "price_jp": 1600000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 43,
+          "maker_name": "Toyota",
+          "car_id": 1470,
+          "car_name": "Supra GT500 '97",
+          "car_group": "3",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 1800000,
+          "price_jp": 180000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 140,
+          "car_name": "NSX GT500 '00",
+          "car_group": "3",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 1500000,
+          "price_jp": 150000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 485,
+          "car_name": "GT-R GT500 '99",
+          "car_group": "3",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 2500000,
+          "price_jp": 250000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20241204,
       "date": "2024/12/4",
@@ -1259,278 +1497,6 @@
         }
       ],
       "legend": []
-    },
-    {
-      "id": 20241121,
-      "date": "2024/11/21",
-      "used": [
-        {
-          "maker_id": 13,
-          "maker_name": "Ford",
-          "car_id": 3555,
-          "car_name": "Escort RS Cosworth '92",
-          "car_group": null,
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [],
-          "price": 147100,
-          "price_jp": 14710000,
-          "isOld": true
-        },
-        {
-          "maker_id": 18,
-          "maker_name": "Lancia",
-          "car_id": 829,
-          "car_name": "Delta HF Integrale Evoluzione '91",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "3345",
-              "car_name": "GT-R NISMO '17",
-              "engine_name": "VR38DETT-GT-R-NISMO"
-            }
-          ],
-          "price": 98900,
-          "price_jp": 9890000,
-          "isOld": true
-        },
-        {
-          "maker_id": 65,
-          "maker_name": "DMC",
-          "car_id": 1027,
-          "car_name": "DeLorean S2 '04",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 151,
-              "maker_name": "Roadster Shop",
-              "car_id": "3426",
-              "car_name": "Roadster Shop Rampage",
-              "engine_name": "LS7-Rampage"
-            }
-          ],
-          "price": 458900,
-          "price_jp": 45890000,
-          "isOld": false
-        },
-        {
-          "maker_id": 51,
-          "maker_name": "MINI",
-          "car_id": 1370,
-          "car_name": "MINI Cooper S '05",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 157,
-              "maker_name": "Garage RCR",
-              "car_id": "3526",
-              "car_name": "Civic",
-              "engine_name": "K24A-Civic"
-            }
-          ],
-          "price": 23300,
-          "price_jp": 2330000,
-          "isOld": false
-        },
-        {
-          "maker_id": 110,
-          "maker_name": "Ferrari",
-          "car_id": 1378,
-          "car_name": "F430 '06",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 207400,
-          "price_jp": 20740000,
-          "isOld": false
-        },
-        {
-          "maker_id": 13,
-          "maker_name": "Ford",
-          "car_id": 1426,
-          "car_name": "Ford GT '06",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [],
-          "price": 397100,
-          "price_jp": 39710000,
-          "isOld": false
-        },
-        {
-          "maker_id": 44,
-          "maker_name": "TVR",
-          "car_id": 187,
-          "car_name": "Tuscan Speed 6 '00",
-          "car_group": "N",
-          "country_id": 4,
-          "country_name": "United Kingdom",
-          "country_code": "gb",
-          "engine_swaps": [
-            {
-              "maker_id": 7,
-              "maker_name": "Chevrolet",
-              "car_id": "3387",
-              "car_name": "Camaro ZL1 1LE Package '18",
-              "engine_name": "LT4-Camaro"
-            }
-          ],
-          "price": 70100,
-          "price_jp": 7010000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 22,
-          "maker_name": "Mercedes-Benz",
-          "car_id": 3557,
-          "car_name": "W 196 R '55",
-          "car_group": null,
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 20000000,
-          "price_jp": 2000000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 110,
-          "maker_name": "Ferrari",
-          "car_id": 1409,
-          "car_name": "F40 '92",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [
-            {
-              "maker_id": 110,
-              "maker_name": "Ferrari",
-              "car_id": "1474",
-              "car_name": "Enzo Ferrari '02",
-              "engine_name": "F140B-Enzo"
-            }
-          ],
-          "price": 3100000,
-          "price_jp": 310000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 110,
-          "maker_name": "Ferrari",
-          "car_id": 3362,
-          "car_name": "F50 '95",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 4450000,
-          "price_jp": 445000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 21,
-          "maker_name": "Mazda",
-          "car_id": 296,
-          "car_name": "787B '91",
-          "car_group": "1",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [],
-          "price": 3300000,
-          "price_jp": 330000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 954,
-          "car_name": "R92CP '92",
-          "car_group": "1",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [],
-          "price": 2000000,
-          "price_jp": 200000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 22,
-          "maker_name": "Mercedes-Benz",
-          "car_id": 998,
-          "car_name": "Sauber Mercedes C9 '89",
-          "car_group": "1",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 3500000,
-          "price_jp": 350000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 17,
-          "maker_name": "Jaguar",
-          "car_id": 1067,
-          "car_name": "XJR-9 '88",
-          "car_group": "1",
-          "country_id": 4,
-          "country_name": "United Kingdom",
-          "country_code": "gb",
-          "engine_swaps": [],
-          "price": 3000000,
-          "price_jp": 300000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 110,
-          "maker_name": "Ferrari",
-          "car_id": 2011,
-          "car_name": "500 Mondial Pinin Farina Coupe '54",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 2600000,
-          "price_jp": 260000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 17,
-          "maker_name": "Jaguar",
-          "car_id": 3361,
-          "car_name": "E-type Coupe '61",
-          "car_group": "N",
-          "country_id": 4,
-          "country_name": "United Kingdom",
-          "country_code": "gb",
-          "engine_swaps": [],
-          "price": 227000,
-          "price_jp": 22700000,
-          "isOld": true
-        }
-      ]
     }
   ]
 }

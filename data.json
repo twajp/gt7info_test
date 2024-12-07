@@ -1,6 +1,72 @@
 {
-  "timestamp": "2024-12-06T00:11:04.919512+00:00",
+  "timestamp": "2024-12-07T00:11:09.775674+00:00",
   "content": [
+    {
+      "id": 20241207,
+      "date": "2024/12/7",
+      "used": [
+        {
+          "maker_id": 52,
+          "maker_name": "Pontiac",
+          "car_id": 1985,
+          "car_name": "Firebird Trans Am '78",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 7,
+              "maker_name": "Chevrolet",
+              "car_id": "1480",
+              "car_name": "Corvette ZR1 (C6) '09",
+              "engine_name": "LS9-Corvette"
+            }
+          ],
+          "price": 87900,
+          "price_jp": 8790000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 13,
+          "maker_name": "Ford",
+          "car_id": 3487,
+          "car_name": "Mustang Boss 429 '69",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 13,
+              "maker_name": "Ford",
+              "car_id": "3391",
+              "car_name": "Shelby GT350R '16",
+              "engine_name": "Voodoo-5.2L-GT350R"
+            }
+          ],
+          "price": 319000,
+          "price_jp": 31900000,
+          "isOld": true
+        },
+        {
+          "maker_id": 43,
+          "maker_name": "Toyota",
+          "car_id": 781,
+          "car_name": "Celica GT-FOUR Rally Car (ST205) '95",
+          "car_group": "B",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 250000,
+          "price_jp": 25000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20241206,
       "date": "2024/12/6",
@@ -1372,92 +1438,6 @@
           "engine_swaps": [],
           "price": 20000000,
           "price_jp": 2000000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20241123,
-      "date": "2024/11/23",
-      "used": [
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 48,
-          "car_name": "Fairlady 240ZG (HS30) '71",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 151,
-              "maker_name": "Roadster Shop",
-              "car_id": "3426",
-              "car_name": "Roadster Shop Rampage",
-              "engine_name": "LS7-Rampage"
-            }
-          ],
-          "price": 106400,
-          "price_jp": 10640000,
-          "isOld": true
-        },
-        {
-          "maker_id": 5,
-          "maker_name": "Audi",
-          "car_id": 959,
-          "car_name": "TT Coupe 3.2 quattro '03",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 43300,
-          "price_jp": 4330000,
-          "isOld": false
-        },
-        {
-          "maker_id": 110,
-          "maker_name": "Ferrari",
-          "car_id": 1544,
-          "car_name": "430 Scuderia '07",
-          "car_group": null,
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 363500,
-          "price_jp": 36350000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 7,
-          "maker_name": "Chevrolet",
-          "car_id": 36,
-          "car_name": "Chevelle SS 454 Sport Coupé '70",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [],
-          "price": 162000,
-          "price_jp": 16200000,
-          "isOld": true
-        },
-        {
-          "maker_id": 136,
-          "maker_name": "Porsche",
-          "car_id": 3410,
-          "car_name": "917K '70",
-          "car_group": "X",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 18000000,
-          "price_jp": 1800000000,
           "isOld": true
         }
       ]

@@ -1,6 +1,41 @@
 {
-  "timestamp": "2024-12-08T00:12:50.240060+00:00",
+  "timestamp": "2024-12-09T00:11:09.001347+00:00",
   "content": [
+    {
+      "id": 20241209,
+      "date": "2024/12/9",
+      "used": [],
+      "legend": [
+        {
+          "maker_id": 39,
+          "maker_name": "Suzuki",
+          "car_id": 808,
+          "car_name": "V6 Escudo Pikes Peak Special spec.98",
+          "car_group": "X",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 1700000,
+          "price_jp": 170000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 17,
+          "maker_name": "Jaguar",
+          "car_id": 1553,
+          "car_name": "XJ13 '66",
+          "car_group": "X",
+          "country_id": 4,
+          "country_name": "United Kingdom",
+          "country_code": "gb",
+          "engine_swaps": [],
+          "price": 12000000,
+          "price_jp": 1200000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20241208,
       "date": "2024/12/8",
@@ -1423,94 +1458,6 @@
           "price": 20000000,
           "price_jp": 2000000000,
           "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20241125,
-      "date": "2024/11/25",
-      "used": [
-        {
-          "maker_id": 6,
-          "maker_name": "BMW",
-          "car_id": 3454,
-          "car_name": "3.0 CSL '71",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 140400,
-          "price_jp": 14040000,
-          "isOld": true
-        },
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 709,
-          "car_name": "Fairlady Z 300ZX TT 2seater '89",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "3345",
-              "car_name": "GT-R NISMO '17",
-              "engine_name": "VR38DETT-GT-R-NISMO"
-            }
-          ],
-          "price": 60300,
-          "price_jp": 6030000,
-          "isOld": true
-        },
-        {
-          "maker_id": 6,
-          "maker_name": "BMW",
-          "car_id": 3453,
-          "car_name": "M3 '89",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 39,
-              "maker_name": "Suzuki",
-              "car_id": "3508",
-              "car_name": "SUZUKI Vision Gran Turismo (Gr.3 Version)",
-              "engine_name": "V8-Suzuki-VGT-Gr.3"
-            }
-          ],
-          "price": 86100,
-          "price_jp": 8610000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 13,
-          "maker_name": "Ford",
-          "car_id": 3444,
-          "car_name": "1932 Ford Roadster Hot Rod",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 13,
-              "maker_name": "Ford",
-              "car_id": "3391",
-              "car_name": "Shelby GT350R '16",
-              "engine_name": "Voodoo-5.2L-GT350R"
-            }
-          ],
-          "price": 400000,
-          "price_jp": 40000000,
-          "isOld": null
         }
       ]
     }

@@ -1,6 +1,50 @@
 {
-  "timestamp": "2024-12-14T00:10:34.151106+00:00",
+  "timestamp": "2024-12-15T00:11:46.518188+00:00",
   "content": [
+    {
+      "id": 20241215,
+      "date": "2024/12/15",
+      "used": [
+        {
+          "maker_id": 13,
+          "maker_name": "Ford",
+          "car_id": 1729,
+          "car_name": "Mustang Mach 1 '71",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 13,
+              "maker_name": "Ford",
+              "car_id": "2138",
+              "car_name": "Mustang GT '15",
+              "engine_name": "Coyote-5.0L-Mustang"
+            }
+          ],
+          "price": 36100,
+          "price_jp": 3610000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 52,
+          "maker_name": "Pontiac",
+          "car_id": 3462,
+          "car_name": "GTO 'The Judge' '69",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [],
+          "price": 242000,
+          "price_jp": 24200000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20241214,
       "date": "2024/12/14",
@@ -1390,85 +1434,6 @@
           "isOld": true
         }
       ]
-    },
-    {
-      "id": 20241201,
-      "date": "2024/12/1",
-      "used": [
-        {
-          "maker_id": 46,
-          "maker_name": "Volkswagen",
-          "car_id": 1773,
-          "car_name": "Scirocco R '10",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 40300,
-          "price_jp": 4030000,
-          "isOld": false
-        },
-        {
-          "maker_id": 21,
-          "maker_name": "Mazda",
-          "car_id": 205,
-          "car_name": "RX-7 Spirit R Type A (FD) '02",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 21,
-              "maker_name": "Mazda",
-              "car_id": "296",
-              "car_name": "787B '91",
-              "engine_name": "R26B-787B"
-            }
-          ],
-          "price": 217000,
-          "price_jp": 21700000,
-          "isOld": false
-        },
-        {
-          "maker_id": 112,
-          "maker_name": "Lamborghini",
-          "car_id": 1990,
-          "car_name": "Diablo GT '00",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 790200,
-          "price_jp": 79020000,
-          "isOld": true
-        },
-        {
-          "maker_id": 25,
-          "maker_name": "Mitsubishi",
-          "car_id": 3424,
-          "car_name": "Lancer Evolution IX MR GSR '06",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 25,
-              "maker_name": "Mitsubishi",
-              "car_id": "3230",
-              "car_name": "Lancer Evolution Final Gr.B Rally Car",
-              "engine_name": "Evo-Final-Gr.B"
-            }
-          ],
-          "price": 95000,
-          "price_jp": 9500000,
-          "isOld": false
-        }
-      ],
-      "legend": []
     }
   ]
 }

@@ -1,6 +1,80 @@
 {
-  "timestamp": "2024-12-20T00:09:58.059457+00:00",
+  "timestamp": "2024-12-21T00:10:56.855805+00:00",
   "content": [
+    {
+      "id": 20241221,
+      "date": "2024/12/21",
+      "used": [
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 135,
+          "car_name": "S800 '66",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 15,
+              "maker_name": "Honda",
+              "car_id": "2156",
+              "car_name": "2&4 powered by RC213V",
+              "engine_name": "SE75E-2&4"
+            }
+          ],
+          "price": 48700,
+          "price_jp": 4870000,
+          "isOld": true
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 104,
+          "car_name": "Sileighty '98",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 157,
+              "maker_name": "Garage RCR",
+              "car_id": "3526",
+              "car_name": "Civic",
+              "engine_name": "K24A-Civic"
+            }
+          ],
+          "price": 89700,
+          "price_jp": 8970000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 55,
+          "maker_name": "Plymouth",
+          "car_id": 665,
+          "car_name": "Superbird '70",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 11,
+              "maker_name": "Dodge",
+              "car_id": "2152",
+              "car_name": "Charger SRT Hellcat '15",
+              "engine_name": "Hellcat-Charger"
+            }
+          ],
+          "price": 402000,
+          "price_jp": 40200000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20241220,
       "date": "2024/12/20",
@@ -1289,72 +1363,6 @@
         }
       ],
       "legend": []
-    },
-    {
-      "id": 20241207,
-      "date": "2024/12/7",
-      "used": [
-        {
-          "maker_id": 52,
-          "maker_name": "Pontiac",
-          "car_id": 1985,
-          "car_name": "Firebird Trans Am '78",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 7,
-              "maker_name": "Chevrolet",
-              "car_id": "1480",
-              "car_name": "Corvette ZR1 (C6) '09",
-              "engine_name": "LS9-Corvette"
-            }
-          ],
-          "price": 87900,
-          "price_jp": 8790000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 13,
-          "maker_name": "Ford",
-          "car_id": 3487,
-          "car_name": "Mustang Boss 429 '69",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 13,
-              "maker_name": "Ford",
-              "car_id": "3391",
-              "car_name": "Shelby GT350R '16",
-              "engine_name": "Voodoo-5.2L-GT350R"
-            }
-          ],
-          "price": 319000,
-          "price_jp": 31900000,
-          "isOld": true
-        },
-        {
-          "maker_id": 43,
-          "maker_name": "Toyota",
-          "car_id": 781,
-          "car_name": "Celica GT-FOUR Rally Car (ST205) '95",
-          "car_group": "B",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [],
-          "price": 250000,
-          "price_jp": 25000000,
-          "isOld": true
-        }
-      ]
     }
   ]
 }

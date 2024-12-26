@@ -1,6 +1,194 @@
 {
-  "timestamp": "2024-12-25T00:10:11.566038+00:00",
+  "timestamp": "2024-12-26T00:09:57.508587+00:00",
   "content": [
+    {
+      "id": 20241226,
+      "date": "2024/12/26",
+      "used": [
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 1461,
+          "car_name": "Silvia K's Dia Selection (S13) '90",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "1448",
+              "car_name": "SILVIA spec-R Aero (S15) '02",
+              "engine_name": "SR20DET-Silvia-S15"
+            }
+          ],
+          "price": 65000,
+          "price_jp": 6500000,
+          "isOld": true
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 3513,
+          "car_name": "Silvia K's Type S (S14) '94",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 7,
+              "maker_name": "Chevrolet",
+              "car_id": "3449",
+              "car_name": "Corvette C7 ZR1 '19",
+              "engine_name": "LT5-Corvette-C7"
+            }
+          ],
+          "price": 60000,
+          "price_jp": 6000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 78,
+          "car_name": "Silvia K's Aero (S14) '96",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 7,
+              "maker_name": "Chevrolet",
+              "car_id": "3449",
+              "car_name": "Corvette C7 ZR1 '19",
+              "engine_name": "LT5-Corvette-C7"
+            }
+          ],
+          "price": 60000,
+          "price_jp": 6000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 1448,
+          "car_name": "SILVIA spec-R Aero (S15) '02",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 43,
+              "maker_name": "Toyota",
+              "car_id": "82",
+              "car_name": "Supra RZ '97",
+              "engine_name": "2JZ-GTE-Supra"
+            }
+          ],
+          "price": 62000,
+          "price_jp": 6200000,
+          "isOld": false
+        },
+        {
+          "maker_id": 6,
+          "maker_name": "BMW",
+          "car_id": 3454,
+          "car_name": "3.0 CSL '71",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 140400,
+          "price_jp": 14040000,
+          "isOld": true
+        },
+        {
+          "maker_id": 43,
+          "maker_name": "Toyota",
+          "car_id": 3471,
+          "car_name": "Celica GT-Four (ST205) '94",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 67700,
+          "price_jp": 6770000,
+          "isOld": true
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 24,
+          "car_name": "180SX Type X '96",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "3345",
+              "car_name": "GT-R NISMO '17",
+              "engine_name": "VR38DETT-GT-R-NISMO"
+            }
+          ],
+          "price": 58400,
+          "price_jp": 5840000,
+          "isOld": true
+        },
+        {
+          "maker_id": 110,
+          "maker_name": "Ferrari",
+          "car_id": 1410,
+          "car_name": "512 BB '76",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 288600,
+          "price_jp": 28860000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 13,
+          "maker_name": "Ford",
+          "car_id": 1935,
+          "car_name": "GT40 Mark I '66",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [],
+          "price": 6700000,
+          "price_jp": 670000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 7,
+          "maker_name": "Chevrolet",
+          "car_id": 2059,
+          "car_name": "Corvette Stingray Racer Concept '59",
+          "car_group": "X",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [],
+          "price": 4000000,
+          "price_jp": 400000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20241225,
       "date": "2024/12/25",
@@ -1154,295 +1342,6 @@
           ],
           "price": 119000,
           "price_jp": 11900000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20241212,
-      "date": "2024/12/12",
-      "used": [
-        {
-          "maker_id": 6,
-          "maker_name": "BMW",
-          "car_id": 3344,
-          "car_name": "M3 Sport Evolution '89",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 43,
-              "maker_name": "Toyota",
-              "car_id": "3418",
-              "car_name": "GR Supra RZ '20",
-              "engine_name": "B58-GR-Supra-'20"
-            }
-          ],
-          "price": 200000,
-          "price_jp": 20000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 6,
-          "maker_name": "BMW",
-          "car_id": 3344,
-          "car_name": "M3 Sport Evolution '89",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 43,
-              "maker_name": "Toyota",
-              "car_id": "3418",
-              "car_name": "GR Supra RZ '20",
-              "engine_name": "B58-GR-Supra-'20"
-            }
-          ],
-          "price": 200000,
-          "price_jp": 20000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 13,
-          "maker_name": "Ford",
-          "car_id": 3466,
-          "car_name": "Sierra RS 500 Cosworth '87",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [],
-          "price": 200000,
-          "price_jp": 20000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 13,
-          "maker_name": "Ford",
-          "car_id": 3466,
-          "car_name": "Sierra RS 500 Cosworth '87",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [],
-          "price": 200000,
-          "price_jp": 20000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 13,
-          "maker_name": "Ford",
-          "car_id": 3466,
-          "car_name": "Sierra RS 500 Cosworth '87",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [],
-          "price": 200000,
-          "price_jp": 20000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 51,
-          "maker_name": "MINI",
-          "car_id": 3356,
-          "car_name": "Mini-Cooper 'S' '65",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 15,
-              "maker_name": "Honda",
-              "car_id": "3467",
-              "car_name": "Civic Type R Limited Edition (FK8) '20",
-              "engine_name": "K20C1-Civic-'20"
-            }
-          ],
-          "price": 40800,
-          "price_jp": 4080000,
-          "isOld": true
-        },
-        {
-          "maker_id": 38,
-          "maker_name": "Subaru",
-          "car_id": 379,
-          "car_name": "Impreza Coupe WRX Type R STi Ver.VI '99",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [],
-          "price": 62300,
-          "price_jp": 6230000,
-          "isOld": true
-        },
-        {
-          "maker_id": 25,
-          "maker_name": "Mitsubishi",
-          "car_id": 3384,
-          "car_name": "GTO Twin Turbo '91",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 11,
-              "maker_name": "Dodge",
-              "car_id": "3486",
-              "car_name": "Challenger SRT Demon '18",
-              "engine_name": "Demon-Challenger"
-            },
-            {
-              "maker_id": 39,
-              "maker_name": "Suzuki",
-              "car_id": "808",
-              "car_name": "V6 Escudo Pikes Peak Special spec.98",
-              "engine_name": "H25A-Escudo"
-            }
-          ],
-          "price": 41600,
-          "price_jp": 4160000,
-          "isOld": true
-        },
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 773,
-          "car_name": "R32 GT-R V-spec II '94",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "954",
-              "car_name": "R92CP '92",
-              "engine_name": "VRH35Z-R92CP"
-            }
-          ],
-          "price": 178600,
-          "price_jp": 17860000,
-          "isOld": true
-        },
-        {
-          "maker_id": 25,
-          "maker_name": "Mitsubishi",
-          "car_id": 301,
-          "car_name": "Lancer Evolution IV GSR '96",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 25,
-              "maker_name": "Mitsubishi",
-              "car_id": "3230",
-              "car_name": "Lancer Evolution Final Gr.B Rally Car",
-              "engine_name": "Evo-Final-Gr.B"
-            }
-          ],
-          "price": 39600,
-          "price_jp": 3960000,
-          "isOld": true
-        },
-        {
-          "maker_id": 11,
-          "maker_name": "Dodge",
-          "car_id": 1402,
-          "car_name": "Viper SRT10 Coupe '06",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [],
-          "price": 111800,
-          "price_jp": 11180000,
-          "isOld": false
-        },
-        {
-          "maker_id": 7,
-          "maker_name": "Chevrolet",
-          "car_id": 1480,
-          "car_name": "Corvette ZR1 (C6) '09",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 113,
-              "maker_name": "Bugatti",
-              "car_id": "3473",
-              "car_name": "Chiron '16",
-              "engine_name": "8.0-WR16-64v4T-Chiron"
-            }
-          ],
-          "price": 99000,
-          "price_jp": 9900000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 22,
-          "maker_name": "Mercedes-Benz",
-          "car_id": 575,
-          "car_name": "190 E 2.5-16 Evolution II '91",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 153,
-              "maker_name": "AMG",
-              "car_id": "3531",
-              "car_name": "GT3 '20",
-              "engine_name": "M159-AMG-GT3-'20"
-            }
-          ],
-          "price": 290000,
-          "price_jp": 29000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 3,
-          "maker_name": "Alfa Romeo",
-          "car_id": 365,
-          "car_name": "155 2.5 V6 TI '93",
-          "car_group": "4",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 800000,
-          "price_jp": 80000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 110,
-          "maker_name": "Ferrari",
-          "car_id": 2010,
-          "car_name": "250 GTO '62",
-          "car_group": "X",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 20000000,
-          "price_jp": 2000000000,
           "isOld": true
         }
       ]

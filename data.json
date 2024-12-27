@@ -1,6 +1,72 @@
 {
-  "timestamp": "2024-12-26T00:09:57.508587+00:00",
+  "timestamp": "2024-12-27T00:09:42.798802+00:00",
   "content": [
+    {
+      "id": 20241227,
+      "date": "2024/12/27",
+      "used": [
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 37,
+          "car_name": "Civic SiR-II (EG) '93",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 15,
+              "maker_name": "Honda",
+              "car_id": "203",
+              "car_name": "Integra Type R (DC2) '98",
+              "engine_name": "B18C-Integra-'98"
+            }
+          ],
+          "price": 50800,
+          "price_jp": 5080000,
+          "isOld": true
+        },
+        {
+          "maker_id": 65,
+          "maker_name": "DMC",
+          "car_id": 1027,
+          "car_name": "DeLorean S2 '04",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 151,
+              "maker_name": "Roadster Shop",
+              "car_id": "3426",
+              "car_name": "Roadster Shop Rampage",
+              "engine_name": "LS7-Rampage"
+            }
+          ],
+          "price": 458900,
+          "price_jp": 45890000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 112,
+          "maker_name": "Lamborghini",
+          "car_id": 1582,
+          "car_name": "Miura P400 Bertone Prototype '67",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 4300000,
+          "price_jp": 430000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20241226,
       "date": "2024/12/26",
@@ -1298,50 +1364,6 @@
           "engine_swaps": [],
           "price": 992000,
           "price_jp": 99200000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20241213,
-      "date": "2024/12/13",
-      "used": [
-        {
-          "maker_id": 110,
-          "maker_name": "Ferrari",
-          "car_id": 1504,
-          "car_name": "458 Italia '09",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 242500,
-          "price_jp": 24250000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 7,
-          "maker_name": "Chevrolet",
-          "car_id": 3464,
-          "car_name": "Corvette (C1) '58",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 7,
-              "maker_name": "Chevrolet",
-              "car_id": "3449",
-              "car_name": "Corvette C7 ZR1 '19",
-              "engine_name": "LT5-Corvette-C7"
-            }
-          ],
-          "price": 119000,
-          "price_jp": 11900000,
           "isOld": true
         }
       ]

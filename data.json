@@ -1,6 +1,49 @@
 {
-  "timestamp": "2024-12-28T00:10:34.671463+00:00",
+  "timestamp": "2024-12-29T00:11:44.242480+00:00",
   "content": [
+    {
+      "id": 20241229,
+      "date": "2024/12/29",
+      "used": [
+        {
+          "maker_id": 34,
+          "maker_name": "Renault",
+          "car_id": 334,
+          "car_name": "Clio V6 24V '00",
+          "car_group": "N",
+          "country_id": 6,
+          "country_name": "France",
+          "country_code": "fr",
+          "engine_swaps": [],
+          "price": 72800,
+          "price_jp": 7280000,
+          "isOld": true
+        },
+        {
+          "maker_id": 43,
+          "maker_name": "Toyota",
+          "car_id": 82,
+          "car_name": "Supra RZ '97",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 30,
+              "maker_name": "Pagani",
+              "car_id": "2050",
+              "car_name": "Huayra '13",
+              "engine_name": "M158-AMG-Huayra"
+            }
+          ],
+          "price": 194000,
+          "price_jp": 19400000,
+          "isOld": true
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20241228,
       "date": "2024/12/28",
@@ -1324,50 +1367,6 @@
         }
       ],
       "legend": []
-    },
-    {
-      "id": 20241215,
-      "date": "2024/12/15",
-      "used": [
-        {
-          "maker_id": 13,
-          "maker_name": "Ford",
-          "car_id": 1729,
-          "car_name": "Mustang Mach 1 '71",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 13,
-              "maker_name": "Ford",
-              "car_id": "2138",
-              "car_name": "Mustang GT '15",
-              "engine_name": "Coyote-5.0L-Mustang"
-            }
-          ],
-          "price": 36100,
-          "price_jp": 3610000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 52,
-          "maker_name": "Pontiac",
-          "car_id": 3462,
-          "car_name": "GTO 'The Judge' '69",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [],
-          "price": 242000,
-          "price_jp": 24200000,
-          "isOld": true
-        }
-      ]
     }
   ]
 }

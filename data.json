@@ -1,6 +1,144 @@
 {
-  "timestamp": "2025-01-02T00:10:22.890344+00:00",
+  "timestamp": "2025-01-03T00:09:56.532948+00:00",
   "content": [
+    {
+      "id": 20250103,
+      "date": "2025/1/3",
+      "used": [
+        {
+          "maker_id": 43,
+          "maker_name": "Toyota",
+          "car_id": 63,
+          "car_name": "Corolla Levin 1600GT APEX (AE86) '83",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 43,
+              "maker_name": "Toyota",
+              "car_id": "207",
+              "car_name": "MR2 GT-S '97",
+              "engine_name": "3S-GTE-MR2"
+            }
+          ],
+          "price": 58400,
+          "price_jp": 5840000,
+          "isOld": true
+        },
+        {
+          "maker_id": 125,
+          "maker_name": "Abarth",
+          "car_id": 1973,
+          "car_name": "Abarth 500 '09",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 23900,
+          "price_jp": 2390000,
+          "isOld": false
+        },
+        {
+          "maker_id": 69,
+          "maker_name": "Volvo",
+          "car_id": 3549,
+          "car_name": "240 SE Estate '93",
+          "car_group": "N",
+          "country_id": 12,
+          "country_name": "Sweden",
+          "country_code": "se",
+          "engine_swaps": [],
+          "price": 41800,
+          "price_jp": 4180000,
+          "isOld": true
+        },
+        {
+          "maker_id": 140,
+          "maker_name": "De Tomaso",
+          "car_id": 3341,
+          "car_name": "Pantera '71",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [
+            {
+              "maker_id": 13,
+              "maker_name": "Ford",
+              "car_id": "2138",
+              "car_name": "Mustang GT '15",
+              "engine_name": "Coyote-5.0L-Mustang"
+            }
+          ],
+          "price": 172800,
+          "price_jp": 17280000,
+          "isOld": true
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 1448,
+          "car_name": "SILVIA spec-R Aero (S15) '02",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 43,
+              "maker_name": "Toyota",
+              "car_id": "82",
+              "car_name": "Supra RZ '97",
+              "engine_name": "2JZ-GTE-Supra"
+            }
+          ],
+          "price": 58400,
+          "price_jp": 5840000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 36,
+          "maker_name": "Shelby",
+          "car_id": 1925,
+          "car_name": "G.T.350 '65",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 13,
+              "maker_name": "Ford",
+              "car_id": "3391",
+              "car_name": "Shelby GT350R '16",
+              "engine_name": "Voodoo-5.2L-GT350R"
+            }
+          ],
+          "price": 455000,
+          "price_jp": 45500000,
+          "isOld": true
+        },
+        {
+          "maker_id": 86,
+          "maker_name": "Alpine",
+          "car_id": 3457,
+          "car_name": "A220 Race Car '68",
+          "car_group": "X",
+          "country_id": 6,
+          "country_name": "France",
+          "country_code": "fr",
+          "engine_swaps": [],
+          "price": 330000,
+          "price_jp": 33000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250102,
       "date": "2025/1/2",
@@ -1464,99 +1602,6 @@
           "isOld": true
         }
       ]
-    },
-    {
-      "id": 20241220,
-      "date": "2024/12/20",
-      "used": [
-        {
-          "maker_id": 125,
-          "maker_name": "Abarth",
-          "car_id": 3438,
-          "car_name": "Abarth 595 SS '70",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [
-            {
-              "maker_id": 15,
-              "maker_name": "Honda",
-              "car_id": "3467",
-              "car_name": "Civic Type R Limited Edition (FK8) '20",
-              "engine_name": "K20C1-Civic-'20"
-            }
-          ],
-          "price": 58200,
-          "price_jp": 5820000,
-          "isOld": true
-        },
-        {
-          "maker_id": 136,
-          "maker_name": "Porsche",
-          "car_id": 3358,
-          "car_name": "911 GT3 (996) '01",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 155600,
-          "price_jp": 15560000,
-          "isOld": false
-        },
-        {
-          "maker_id": 136,
-          "maker_name": "Porsche",
-          "car_id": 3404,
-          "car_name": "911 Carrera RS CS (993) '95",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 438500,
-          "price_jp": 43850000,
-          "isOld": true
-        },
-        {
-          "maker_id": 7,
-          "maker_name": "Chevrolet",
-          "car_id": 942,
-          "car_name": "Corvette ZR-1 (C4) '89",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 7,
-              "maker_name": "Chevrolet",
-              "car_id": "3449",
-              "car_name": "Corvette C7 ZR1 '19",
-              "engine_name": "LT5-Corvette-C7"
-            }
-          ],
-          "price": 90600,
-          "price_jp": 9060000,
-          "isOld": true
-        },
-        {
-          "maker_id": 112,
-          "maker_name": "Lamborghini",
-          "car_id": 1506,
-          "car_name": "Gallardo LP 560-4 '08",
-          "car_group": null,
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 249200,
-          "price_jp": 24920000,
-          "isOld": false
-        }
-      ],
-      "legend": []
     }
   ]
 }

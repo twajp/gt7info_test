@@ -1,6 +1,204 @@
 {
-  "timestamp": "2025-01-06T00:10:50.459998+00:00",
+  "timestamp": "2025-01-07T00:10:59.377840+00:00",
   "content": [
+    {
+      "id": 20250107,
+      "date": "2025/1/7",
+      "used": [
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 37,
+          "car_name": "Civic SiR-II (EG) '93",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 15,
+              "maker_name": "Honda",
+              "car_id": "203",
+              "car_name": "Integra Type R (DC2) '98",
+              "engine_name": "B18C-Integra-'98"
+            }
+          ],
+          "price": 60000,
+          "price_jp": 6000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 821,
+          "car_name": "Civic Type R (EK) '97",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 157,
+              "maker_name": "Garage RCR",
+              "car_id": "3526",
+              "car_name": "Civic",
+              "engine_name": "K24A-Civic"
+            }
+          ],
+          "price": 50200,
+          "price_jp": 5020000,
+          "isOld": true
+        },
+        {
+          "maker_id": 52,
+          "maker_name": "Pontiac",
+          "car_id": 1985,
+          "car_name": "Firebird Trans Am '78",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 7,
+              "maker_name": "Chevrolet",
+              "car_id": "1480",
+              "car_name": "Corvette ZR1 (C6) '09",
+              "engine_name": "LS9-Corvette"
+            }
+          ],
+          "price": 87900,
+          "price_jp": 8790000,
+          "isOld": true
+        },
+        {
+          "maker_id": 6,
+          "maker_name": "BMW",
+          "car_id": 3389,
+          "car_name": "M3 '03",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [
+            {
+              "maker_id": 6,
+              "maker_name": "BMW",
+              "car_id": "1902",
+              "car_name": "Z4 GT3 '11",
+              "engine_name": "P65B44-Z4"
+            }
+          ],
+          "price": 72700,
+          "price_jp": 7270000,
+          "isOld": false
+        },
+        {
+          "maker_id": 11,
+          "maker_name": "Dodge",
+          "car_id": 1373,
+          "car_name": "Viper GTS '02",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [],
+          "price": 106400,
+          "price_jp": 10640000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 836,
+          "car_name": "Skyline 2000GT-R (KPGC110) '73",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "3493",
+              "car_name": "Skyline Super Silhouette Group 5 '84",
+              "engine_name": "LZ20B-Skyline"
+            }
+          ],
+          "price": 542000,
+          "price_jp": 54200000,
+          "isOld": true
+        },
+        {
+          "maker_id": 155,
+          "maker_name": "NISMO",
+          "car_id": 3520,
+          "car_name": "400R '95",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "3345",
+              "car_name": "GT-R NISMO '17",
+              "engine_name": "VR38DETT-GT-R-NISMO"
+            }
+          ],
+          "price": 1600000,
+          "price_jp": 160000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 146,
+          "maker_name": "Jeep",
+          "car_id": 3430,
+          "car_name": "Willys MB '45",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 11,
+              "maker_name": "Dodge",
+              "car_id": "2152",
+              "car_name": "Charger SRT Hellcat '15",
+              "engine_name": "Hellcat-Charger"
+            }
+          ],
+          "price": 30100,
+          "price_jp": 3010000,
+          "isOld": true
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 837,
+          "car_name": "Skyline Hard Top 2000GT-R (KPGC10) '70",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "3493",
+              "car_name": "Skyline Super Silhouette Group 5 '84",
+              "engine_name": "LZ20B-Skyline"
+            }
+          ],
+          "price": 194000,
+          "price_jp": 19400000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250106,
       "date": "2025/1/6",
@@ -1323,172 +1521,6 @@
         }
       ],
       "legend": []
-    },
-    {
-      "id": 20241224,
-      "date": "2024/12/24",
-      "used": [
-        {
-          "maker_id": 6,
-          "maker_name": "BMW",
-          "car_id": 3551,
-          "car_name": "M3 '97",
-          "car_group": null,
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 38,
-              "maker_name": "Subaru",
-              "car_id": "3339",
-              "car_name": "BRZ Drift Car '17",
-              "engine_name": "LS7-BRZ"
-            }
-          ],
-          "price": 90000,
-          "price_jp": 9000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 69,
-          "maker_name": "Volvo",
-          "car_id": 3549,
-          "car_name": "240 SE Estate '93",
-          "car_group": "N",
-          "country_id": 12,
-          "country_name": "Sweden",
-          "country_code": "se",
-          "engine_swaps": [],
-          "price": 50000,
-          "price_jp": 5000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 39,
-          "maker_name": "Suzuki",
-          "car_id": 779,
-          "car_name": "Cappuccino (EA11R) '91",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 21,
-              "maker_name": "Mazda",
-              "car_id": "205",
-              "car_name": "RX-7 Spirit R Type A (FD) '02",
-              "engine_name": "13B-REW-RX-7"
-            }
-          ],
-          "price": 16000,
-          "price_jp": 1600000,
-          "isOld": true
-        },
-        {
-          "maker_id": 25,
-          "maker_name": "Mitsubishi",
-          "car_id": 1508,
-          "car_name": "Lancer Evolution VI GSR T.M. SCP '99",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 25,
-              "maker_name": "Mitsubishi",
-              "car_id": "3230",
-              "car_name": "Lancer Evolution Final Gr.B Rally Car",
-              "engine_name": "Evo-Final-Gr.B"
-            }
-          ],
-          "price": 162400,
-          "price_jp": 16240000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 117,
-          "maker_name": "McLaren",
-          "car_id": 1540,
-          "car_name": "McLaren F1 '94",
-          "car_group": "N",
-          "country_id": 4,
-          "country_name": "United Kingdom",
-          "country_code": "gb",
-          "engine_swaps": [],
-          "price": 20000000,
-          "price_jp": 2000000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 110,
-          "maker_name": "Ferrari",
-          "car_id": 3362,
-          "car_name": "F50 '95",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 4450000,
-          "price_jp": 445000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 155,
-          "maker_name": "NISMO",
-          "car_id": 3520,
-          "car_name": "400R '95",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "3345",
-              "car_name": "GT-R NISMO '17",
-              "engine_name": "VR38DETT-GT-R-NISMO"
-            }
-          ],
-          "price": 1600000,
-          "price_jp": 160000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 4,
-          "maker_name": "Aston Martin",
-          "car_id": 3445,
-          "car_name": "DB5 '64",
-          "car_group": "N",
-          "country_id": 4,
-          "country_name": "United Kingdom",
-          "country_code": "gb",
-          "engine_swaps": [],
-          "price": 892000,
-          "price_jp": 89200000,
-          "isOld": true
-        },
-        {
-          "maker_id": 110,
-          "maker_name": "Ferrari",
-          "car_id": 2017,
-          "car_name": "GTO '84",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 3500000,
-          "price_jp": 350000000,
-          "isOld": true
-        }
-      ]
     }
   ]
 }

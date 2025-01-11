@@ -1,6 +1,114 @@
 {
-  "timestamp": "2025-01-10T00:09:58.596038+00:00",
+  "timestamp": "2025-01-11T00:10:08.677014+00:00",
   "content": [
+    {
+      "id": 20250111,
+      "date": "2025/1/11",
+      "used": [
+        {
+          "maker_id": 86,
+          "maker_name": "Alpine",
+          "car_id": 1796,
+          "car_name": "A110 '72",
+          "car_group": "N",
+          "country_id": 6,
+          "country_name": "France",
+          "country_code": "fr",
+          "engine_swaps": [],
+          "price": 142200,
+          "price_jp": 14220000,
+          "isOld": true
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 3513,
+          "car_name": "Silvia K's Type S (S14) '94",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 7,
+              "maker_name": "Chevrolet",
+              "car_id": "3449",
+              "car_name": "Corvette C7 ZR1 '19",
+              "engine_name": "LT5-Corvette-C7"
+            }
+          ],
+          "price": 51400,
+          "price_jp": 5140000,
+          "isOld": true
+        },
+        {
+          "maker_id": 136,
+          "maker_name": "Porsche",
+          "car_id": 3385,
+          "car_name": "911 Turbo (930) '81",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [
+            {
+              "maker_id": 136,
+              "maker_name": "Porsche",
+              "car_id": "3311",
+              "car_name": "911 RSR (991) '17",
+              "engine_name": "M97/80-911"
+            }
+          ],
+          "price": 220000,
+          "price_jp": 22000000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 5,
+          "maker_name": "Audi",
+          "car_id": 1927,
+          "car_name": "Sport quattro S1 Pikes Peak '87",
+          "car_group": "B",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 1800000,
+          "price_jp": 180000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 36,
+          "maker_name": "Shelby",
+          "car_id": 315,
+          "car_name": "Cobra 427 '66",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [],
+          "price": 2500000,
+          "price_jp": 250000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 3525,
+          "car_name": "RA272 '65",
+          "car_group": "X",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 2500000,
+          "price_jp": 250000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250110,
       "date": "2025/1/10",
@@ -1523,101 +1631,6 @@
         }
       ],
       "legend": []
-    },
-    {
-      "id": 20241228,
-      "date": "2024/12/28",
-      "used": [
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 919,
-          "car_name": "Silvia Q's (S13) '88",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "1448",
-              "car_name": "SILVIA spec-R Aero (S15) '02",
-              "engine_name": "SR20DET-Silvia-S15"
-            },
-            {
-              "maker_id": 38,
-              "maker_name": "Subaru",
-              "car_id": "3339",
-              "car_name": "BRZ Drift Car '17",
-              "engine_name": "LS7-BRZ"
-            }
-          ],
-          "price": 40000,
-          "price_jp": 4000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 46,
-          "maker_name": "Volkswagen",
-          "car_id": 1778,
-          "car_name": "Volkswagen 1200 '66",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 136,
-              "maker_name": "Porsche",
-              "car_id": "3431",
-              "car_name": "911 Carrera RS (964) '92",
-              "engine_name": "M64/03-911"
-            }
-          ],
-          "price": 28800,
-          "price_jp": 2880000,
-          "isOld": true
-        },
-        {
-          "maker_id": 51,
-          "maker_name": "MINI",
-          "car_id": 1370,
-          "car_name": "MINI Cooper S '05",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 157,
-              "maker_name": "Garage RCR",
-              "car_id": "3526",
-              "car_name": "Civic",
-              "engine_name": "K24A-Civic"
-            }
-          ],
-          "price": 23300,
-          "price_jp": 2330000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 38,
-          "maker_name": "Subaru",
-          "car_id": 3550,
-          "car_name": "Impreza Rally Car '98",
-          "car_group": null,
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [],
-          "price": 650000,
-          "price_jp": 65000000,
-          "isOld": true
-        }
-      ]
     }
   ]
 }

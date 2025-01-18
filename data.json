@@ -1,6 +1,94 @@
 {
-  "timestamp": "2025-01-17T00:10:11.118959+00:00",
+  "timestamp": "2025-01-18T00:09:50.018851+00:00",
   "content": [
+    {
+      "id": 20250118,
+      "date": "2025/1/18",
+      "used": [
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 773,
+          "car_name": "R32 GT-R V-spec II '94",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "954",
+              "car_name": "R92CP '92",
+              "engine_name": "VRH35Z-R92CP"
+            }
+          ],
+          "price": 178600,
+          "price_jp": 17860000,
+          "isOld": true
+        },
+        {
+          "maker_id": 25,
+          "maker_name": "Mitsubishi",
+          "car_id": 301,
+          "car_name": "Lancer Evolution IV GSR '96",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 25,
+              "maker_name": "Mitsubishi",
+              "car_id": "3230",
+              "car_name": "Lancer Evolution Final Gr.B Rally Car",
+              "engine_name": "Evo-Final-Gr.B"
+            }
+          ],
+          "price": 39600,
+          "price_jp": 3960000,
+          "isOld": true
+        },
+        {
+          "maker_id": 6,
+          "maker_name": "BMW",
+          "car_id": 3551,
+          "car_name": "M3 '97",
+          "car_group": null,
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [
+            {
+              "maker_id": 38,
+              "maker_name": "Subaru",
+              "car_id": "3339",
+              "car_name": "BRZ Drift Car '17",
+              "engine_name": "LS7-BRZ"
+            }
+          ],
+          "price": 83000,
+          "price_jp": 8300000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 17,
+          "maker_name": "Jaguar",
+          "car_id": 3376,
+          "car_name": "D-type '54",
+          "car_group": "X",
+          "country_id": 4,
+          "country_name": "United Kingdom",
+          "country_code": "gb",
+          "engine_swaps": [],
+          "price": 6000000,
+          "price_jp": 600000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250117,
       "date": "2025/1/17",
@@ -1371,49 +1459,6 @@
       "date": "2025/1/5",
       "used": [],
       "legend": []
-    },
-    {
-      "id": 20250104,
-      "date": "2025/1/4",
-      "used": [],
-      "legend": [
-        {
-          "maker_id": 110,
-          "maker_name": "Ferrari",
-          "car_id": 1551,
-          "car_name": "330 P4 '67",
-          "car_group": "X",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 20000000,
-          "price_jp": 2000000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 136,
-          "maker_name": "Porsche",
-          "car_id": 3509,
-          "car_name": "911 Carrera RS (901) '73",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 136,
-              "maker_name": "Porsche",
-              "car_id": "3519",
-              "car_name": "959 '87",
-              "engine_name": "959.50-959"
-            }
-          ],
-          "price": 799000,
-          "price_jp": 79900000,
-          "isOld": true
-        }
-      ]
     }
   ]
 }

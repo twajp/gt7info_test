@@ -1,6 +1,78 @@
 {
-  "timestamp": "2025-01-26T00:10:58.924484+00:00",
+  "timestamp": "2025-01-27T00:10:10.170137+00:00",
   "content": [
+    {
+      "id": 20250127,
+      "date": "2025/1/27",
+      "used": [
+        {
+          "maker_id": 6,
+          "maker_name": "BMW",
+          "car_id": 3454,
+          "car_name": "3.0 CSL '71",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 140400,
+          "price_jp": 14040000,
+          "isOld": true
+        },
+        {
+          "maker_id": 18,
+          "maker_name": "Lancia",
+          "car_id": 533,
+          "car_name": "Stratos '73",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 499300,
+          "price_jp": 49930000,
+          "isOld": true
+        },
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 1689,
+          "car_name": "Civic Type R (EK) Touring Car",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 157,
+              "maker_name": "Garage RCR",
+              "car_id": "3526",
+              "car_name": "Civic",
+              "engine_name": "K24A-Civic"
+            }
+          ],
+          "price": 114800,
+          "price_jp": 11480000,
+          "isOld": null
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 110,
+          "maker_name": "Ferrari",
+          "car_id": 1931,
+          "car_name": "250 GT Berlinetta passo corto '61",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 7800000,
+          "price_jp": 780000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250126,
       "date": "2025/1/26",
@@ -1083,94 +1155,6 @@
           ],
           "price": 214000,
           "price_jp": 21400000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20250113,
-      "date": "2025/1/13",
-      "used": [
-        {
-          "maker_id": 51,
-          "maker_name": "MINI",
-          "car_id": 3356,
-          "car_name": "Mini-Cooper 'S' '65",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 15,
-              "maker_name": "Honda",
-              "car_id": "3467",
-              "car_name": "Civic Type R Limited Edition (FK8) '20",
-              "engine_name": "K20C1-Civic-'20"
-            }
-          ],
-          "price": 40800,
-          "price_jp": 4080000,
-          "isOld": true
-        },
-        {
-          "maker_id": 43,
-          "maker_name": "Toyota",
-          "car_id": 843,
-          "car_name": "Supra 3.0GT Turbo A '88",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 43,
-              "maker_name": "Toyota",
-              "car_id": "82",
-              "car_name": "Supra RZ '97",
-              "engine_name": "2JZ-GTE-Supra"
-            }
-          ],
-          "price": 112000,
-          "price_jp": 11200000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 140,
-          "maker_name": "De Tomaso",
-          "car_id": 3437,
-          "car_name": "Mangusta '69",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 315000,
-          "price_jp": 31500000,
-          "isOld": true
-        },
-        {
-          "maker_id": 7,
-          "maker_name": "Chevrolet",
-          "car_id": 31,
-          "car_name": "Camaro Z28 '69",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 7,
-              "maker_name": "Chevrolet",
-              "car_id": "3387",
-              "car_name": "Camaro ZL1 1LE Package '18",
-              "engine_name": "LT4-Camaro"
-            }
-          ],
-          "price": 128000,
-          "price_jp": 12800000,
           "isOld": true
         }
       ]

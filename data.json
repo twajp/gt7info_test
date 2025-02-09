@@ -1,6 +1,49 @@
 {
-  "timestamp": "2025-02-08T00:09:52.171440+00:00",
+  "timestamp": "2025-02-09T00:11:16.141990+00:00",
   "content": [
+    {
+      "id": 20250209,
+      "date": "2025/2/9",
+      "used": [
+        {
+          "maker_id": 10,
+          "maker_name": "Daihatsu",
+          "car_id": 145,
+          "car_name": "Copen '02",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 13300,
+          "price_jp": 1330000,
+          "isOld": false
+        },
+        {
+          "maker_id": 7,
+          "maker_name": "Chevrolet",
+          "car_id": 41,
+          "car_name": "Corvette Stingray (C3) '69",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 7,
+              "maker_name": "Chevrolet",
+              "car_id": "3449",
+              "car_name": "Corvette C7 ZR1 '19",
+              "engine_name": "LT5-Corvette-C7"
+            }
+          ],
+          "price": 51700,
+          "price_jp": 5170000,
+          "isOld": true
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20250208,
       "date": "2025/2/8",
@@ -1451,72 +1494,6 @@
           "engine_swaps": [],
           "price": 7800000,
           "price_jp": 780000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20250126,
-      "date": "2025/1/26",
-      "used": [
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 48,
-          "car_name": "Fairlady 240ZG (HS30) '71",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 151,
-              "maker_name": "Roadster Shop",
-              "car_id": "3426",
-              "car_name": "Roadster Shop Rampage",
-              "engine_name": "LS7-Rampage"
-            }
-          ],
-          "price": 106400,
-          "price_jp": 10640000,
-          "isOld": true
-        },
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 104,
-          "car_name": "Sileighty '98",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 157,
-              "maker_name": "Garage RCR",
-              "car_id": "3526",
-              "car_name": "Civic",
-              "engine_name": "K24A-Civic"
-            }
-          ],
-          "price": 89700,
-          "price_jp": 8970000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 36,
-          "maker_name": "Shelby",
-          "car_id": 1926,
-          "car_name": "Cobra Daytona Coupe '64",
-          "car_group": "X",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [],
-          "price": 20000000,
-          "price_jp": 2000000000,
           "isOld": true
         }
       ]

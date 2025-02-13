@@ -35,6 +35,7 @@ $(document).ready(function () {
         .then(response => response.json())
         .then(db => {
             expectedContainer = renderExpectedSection(db);
+            soldoutContainer = renderSoldOutSection(db);
 
             // Load and render data.json
             fetch('data.json')
@@ -56,6 +57,7 @@ $(document).ready(function () {
         const combinedContainer = $('#combinedContainer');
         combinedContainer.empty();
         combinedContainer.append(expectedContainer); // Append expectedContainer first
+        combinedContainer.append(soldoutContainer); // Append soldoutContainer
 
         data.content.forEach((oneData, index) => {
             const collapseId = `collapse${oneData.id}`;
@@ -225,6 +227,76 @@ $(document).ready(function () {
                             </thead>
                             <tbody>
                                 ${legendCarsHtml}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+
+    // Render Recently Soldout section
+    function renderSoldOutSection(db) {
+        // Selection algorithm for sold out cars
+        function selectSoldOutCars(carsDict) {
+            return Object.entries(carsDict).filter(([_, car]) => car.soldout === 1);
+        }
+
+        const usedCars = db['used'];
+        const legendCars = db['legend'];
+
+        const soldOutUsedCars = selectSoldOutCars(usedCars);
+        const soldOutLegendCars = selectSoldOutCars(legendCars);
+
+        const renderCars = (cars) => {
+            return cars.map(car => `
+            <tr class="table-secondary">
+                <td>${car[1].maker_name}</td>
+                <th class="popup-text" data-image-url="https://ddm999.github.io/gt7info/cars/prices_${car[0]}.png">${car[1].car_name}</th>
+                <td style="text-align: right;">${car[1].lastSeen} (${car[1].sinceLastSeen} days ago)</td>
+                <td></td>
+            </tr>
+        `).join('');
+        };
+
+        const soldOutUsedCarsHtml = renderCars(soldOutUsedCars);
+        const soldOutLegendCarsHtml = renderCars(soldOutLegendCars);
+
+        return `
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExpected" aria-expanded="true" aria-controls="collapseExpected">
+                        Expected Soon
+                    </button>
+                </h2>
+                <div id="collapseExpected" class="accordion-collapse collapse" data-bs-parent="${keepAccordionOpen ? '' : '#accordionPanelsStayOpen'}">
+                    <div class="accordion-body">
+                        <h2 style="text-align: center;">Used Car Dealership</h2>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Maker</th>
+                                    <th scope="col">Car</th>
+                                    <th scope="col" style="text-align: right;">Last Seen</th>
+                                    <th scope="col"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${soldOutUsedCarsHtml}
+                            </tbody>
+                        </table>
+                        <h2 style="text-align: center; margin-top: 50px;">Legendary Dealership</h2>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Maker</th>
+                                    <th scope="col">Car</th>
+                                    <th scope="col" style="text-align: right;">Last Seen</th>
+                                    <th scope="col"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${soldOutLegendCarsHtml}
                             </tbody>
                         </table>
                     </div>

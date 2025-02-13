@@ -239,6 +239,7 @@ $(document).ready(function () {
     function renderSoldOutSection(db) {
         // Selection algorithm for sold out cars
         function selectSoldOutCars(carsDict) {
+            print(Object.entries(carsDict).filter(([_, car]) => car.soldout === 1))
             return Object.entries(carsDict).filter(([_, car]) => car.soldout === 1);
         }
 

@@ -265,11 +265,11 @@ $(document).ready(function () {
         return `
             <div class="accordion-item">
                 <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExpected" aria-expanded="true" aria-controls="collapseExpected">
-                        Expected Soon
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSoldout" aria-expanded="true" aria-controls="collapseSoldout">
+                        Recently Sold Out
                     </button>
                 </h2>
-                <div id="collapseExpected" class="accordion-collapse collapse" data-bs-parent="${keepAccordionOpen ? '' : '#accordionPanelsStayOpen'}">
+                <div id="collapseSoldout" class="accordion-collapse collapse" data-bs-parent="${keepAccordionOpen ? '' : '#accordionPanelsStayOpen'}">
                     <div class="accordion-body">
                         <h2 style="text-align: center;">Used Car Dealership</h2>
                         <table class="table">

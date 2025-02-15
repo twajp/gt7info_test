@@ -1,6 +1,77 @@
 {
-  "timestamp": "2025-02-14T00:11:02.355540+00:00",
+  "timestamp": "2025-02-15T00:09:47.826545+00:00",
   "content": [
+    {
+      "id": 20250215,
+      "date": "2025/2/15",
+      "used": [
+        {
+          "maker_id": 3,
+          "maker_name": "Alfa Romeo",
+          "car_id": 1933,
+          "car_name": "MiTo '09",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 23900,
+          "price_jp": 2390000,
+          "isOld": false
+        },
+        {
+          "maker_id": 12,
+          "maker_name": "Fiat",
+          "car_id": 1523,
+          "car_name": "500 F '68",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 16000,
+          "price_jp": 1600000,
+          "isOld": true
+        },
+        {
+          "maker_id": 110,
+          "maker_name": "Ferrari",
+          "car_id": 3443,
+          "car_name": "308 GTB '75",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 176100,
+          "price_jp": 17610000,
+          "isOld": true
+        },
+        {
+          "maker_id": 25,
+          "maker_name": "Mitsubishi",
+          "car_id": 931,
+          "car_name": "Lancer Evolution III GSR '95",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 25,
+              "maker_name": "Mitsubishi",
+              "car_id": "3230",
+              "car_name": "Lancer Evolution Final Gr.B Rally Car",
+              "engine_name": "Evo-Final-Gr.B"
+            }
+          ],
+          "price": 95600,
+          "price_jp": 9560000,
+          "isOld": true
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20250214,
       "date": "2025/2/14",
@@ -1503,114 +1574,6 @@
         }
       ],
       "legend": []
-    },
-    {
-      "id": 20250201,
-      "date": "2025/2/1",
-      "used": [
-        {
-          "maker_id": 13,
-          "maker_name": "Ford",
-          "car_id": 3555,
-          "car_name": "Escort RS Cosworth '92",
-          "car_group": null,
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [],
-          "price": 129700,
-          "price_jp": 12970000,
-          "isOld": true
-        },
-        {
-          "maker_id": 43,
-          "maker_name": "Toyota",
-          "car_id": 3471,
-          "car_name": "Celica GT-Four (ST205) '94",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [],
-          "price": 73400,
-          "price_jp": 7340000,
-          "isOld": true
-        },
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 24,
-          "car_name": "180SX Type X '96",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "3345",
-              "car_name": "GT-R NISMO '17",
-              "engine_name": "VR38DETT-GT-R-NISMO"
-            }
-          ],
-          "price": 46900,
-          "price_jp": 4690000,
-          "isOld": true
-        },
-        {
-          "maker_id": 25,
-          "maker_name": "Mitsubishi",
-          "car_id": 799,
-          "car_name": "Lancer Evolution VIII MR GSR '04",
-          "car_group": null,
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 25,
-              "maker_name": "Mitsubishi",
-              "car_id": "3230",
-              "car_name": "Lancer Evolution Final Gr.B Rally Car",
-              "engine_name": "Evo-Final-Gr.B"
-            }
-          ],
-          "price": 66000,
-          "price_jp": 6600000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 22,
-          "maker_name": "Mercedes-Benz",
-          "car_id": 3557,
-          "car_name": "W 196 R '55",
-          "car_group": null,
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 20000000,
-          "price_jp": 2000000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 136,
-          "maker_name": "Porsche",
-          "car_id": 3490,
-          "car_name": "Carrera GTS (904) '64",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 2300000,
-          "price_jp": 230000000,
-          "isOld": true
-        }
-      ]
     }
   ]
 }

@@ -1,6 +1,50 @@
 {
-  "timestamp": "2025-02-16T00:10:50.375912+00:00",
+  "timestamp": "2025-02-17T00:10:51.611482+00:00",
   "content": [
+    {
+      "id": 20250217,
+      "date": "2025/2/17",
+      "used": [
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 489,
+          "car_name": "R33 GT-R V-spec '97",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "954",
+              "car_name": "R92CP '92",
+              "engine_name": "VRH35Z-R92CP"
+            }
+          ],
+          "price": 155400,
+          "price_jp": 15540000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 7,
+          "maker_name": "Chevrolet",
+          "car_id": 36,
+          "car_name": "Chevelle SS 454 Sport Coupé '70",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [],
+          "price": 162000,
+          "price_jp": 16200000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250216,
       "date": "2025/2/16",
@@ -1454,144 +1498,6 @@
           "engine_swaps": [],
           "price": 3000000,
           "price_jp": 300000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20250203,
-      "date": "2025/2/3",
-      "used": [
-        {
-          "maker_id": 21,
-          "maker_name": "Mazda",
-          "car_id": 201,
-          "car_name": "Eunos Roadster (NA) '89",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 21,
-              "maker_name": "Mazda",
-              "car_id": "205",
-              "car_name": "RX-7 Spirit R Type A (FD) '02",
-              "engine_name": "13B-REW-RX-7"
-            }
-          ],
-          "price": 30600,
-          "price_jp": 3060000,
-          "isOld": true
-        },
-        {
-          "maker_id": 43,
-          "maker_name": "Toyota",
-          "car_id": 63,
-          "car_name": "Corolla Levin 1600GT APEX (AE86) '83",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 43,
-              "maker_name": "Toyota",
-              "car_id": "207",
-              "car_name": "MR2 GT-S '97",
-              "engine_name": "3S-GTE-MR2"
-            }
-          ],
-          "price": 47400,
-          "price_jp": 4740000,
-          "isOld": true
-        },
-        {
-          "maker_id": 125,
-          "maker_name": "Abarth",
-          "car_id": 1973,
-          "car_name": "Abarth 500 '09",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 21700,
-          "price_jp": 2170000,
-          "isOld": false
-        },
-        {
-          "maker_id": 51,
-          "maker_name": "MINI",
-          "car_id": 1370,
-          "car_name": "MINI Cooper S '05",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 157,
-              "maker_name": "Garage RCR",
-              "car_id": "3526",
-              "car_name": "Civic",
-              "engine_name": "K24A-Civic"
-            }
-          ],
-          "price": 23200,
-          "price_jp": 2320000,
-          "isOld": false
-        },
-        {
-          "maker_id": 136,
-          "maker_name": "Porsche",
-          "car_id": 3359,
-          "car_name": "911 GT3 (997) '09",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 136,
-              "maker_name": "Porsche",
-              "car_id": "3311",
-              "car_name": "911 RSR (991) '17",
-              "engine_name": "M97/80-911"
-            }
-          ],
-          "price": 137000,
-          "price_jp": 13700000,
-          "isOld": false
-        },
-        {
-          "maker_id": 112,
-          "maker_name": "Lamborghini",
-          "car_id": 1545,
-          "car_name": "Murcielago LP 640 '09",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 340400,
-          "price_jp": 34040000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 116,
-          "maker_name": "Maserati",
-          "car_id": 3421,
-          "car_name": "Merak SS '80",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 64200,
-          "price_jp": 6420000,
           "isOld": true
         }
       ]

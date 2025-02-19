@@ -1,6 +1,100 @@
 {
-  "timestamp": "2025-02-18T00:10:41.858875+00:00",
+  "timestamp": "2025-02-19T00:09:54.157122+00:00",
   "content": [
+    {
+      "id": 20250219,
+      "date": "2025/2/19",
+      "used": [
+        {
+          "maker_id": 125,
+          "maker_name": "Abarth",
+          "car_id": 3438,
+          "car_name": "Abarth 595 SS '70",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [
+            {
+              "maker_id": 15,
+              "maker_name": "Honda",
+              "car_id": "3467",
+              "car_name": "Civic Type R Limited Edition (FK8) '20",
+              "engine_name": "K20C1-Civic-'20"
+            }
+          ],
+          "price": 56700,
+          "price_jp": 5670000,
+          "isOld": true
+        },
+        {
+          "maker_id": 112,
+          "maker_name": "Lamborghini",
+          "car_id": 1990,
+          "car_name": "Diablo GT '00",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 790200,
+          "price_jp": 79020000,
+          "isOld": true
+        },
+        {
+          "maker_id": 25,
+          "maker_name": "Mitsubishi",
+          "car_id": 3424,
+          "car_name": "Lancer Evolution IX MR GSR '06",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 25,
+              "maker_name": "Mitsubishi",
+              "car_id": "3230",
+              "car_name": "Lancer Evolution Final Gr.B Rally Car",
+              "engine_name": "Evo-Final-Gr.B"
+            }
+          ],
+          "price": 95000,
+          "price_jp": 9500000,
+          "isOld": false
+        },
+        {
+          "maker_id": 43,
+          "maker_name": "Toyota",
+          "car_id": 345,
+          "car_name": "Sprinter Trueno 1600GT APEX (S.Shigeno Version)",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 99100,
+          "price_jp": 9910000,
+          "isOld": null
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 136,
+          "maker_name": "Porsche",
+          "car_id": 3410,
+          "car_name": "917K '70",
+          "car_group": "X",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 18000000,
+          "price_jp": 1800000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250218,
       "date": "2025/2/18",
@@ -1165,114 +1259,6 @@
           "engine_swaps": [],
           "price": 1950000,
           "price_jp": 195000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20250205,
-      "date": "2025/2/5",
-      "used": [
-        {
-          "maker_id": 5,
-          "maker_name": "Audi",
-          "car_id": 959,
-          "car_name": "TT Coupe 3.2 quattro '03",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 44100,
-          "price_jp": 4410000,
-          "isOld": false
-        },
-        {
-          "maker_id": 110,
-          "maker_name": "Ferrari",
-          "car_id": 1410,
-          "car_name": "512 BB '76",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 288600,
-          "price_jp": 28860000,
-          "isOld": true
-        },
-        {
-          "maker_id": 43,
-          "maker_name": "Toyota",
-          "car_id": 82,
-          "car_name": "Supra RZ '97",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 30,
-              "maker_name": "Pagani",
-              "car_id": "2050",
-              "car_name": "Huayra '13",
-              "engine_name": "M158-AMG-Huayra"
-            }
-          ],
-          "price": 194000,
-          "price_jp": 19400000,
-          "isOld": true
-        },
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 1384,
-          "car_name": "Fairlady Z Version S (Z33) '07",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "210",
-              "car_name": "R34 GT-R V-spec II Nur '02",
-              "engine_name": "RB26DETT-GT-R-R34"
-            }
-          ],
-          "price": 30800,
-          "price_jp": 3080000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 21,
-          "maker_name": "Mazda",
-          "car_id": 1975,
-          "car_name": "RX500 '70",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [],
-          "price": 600000,
-          "price_jp": 60000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 3,
-          "maker_name": "Alfa Romeo",
-          "car_id": 365,
-          "car_name": "155 2.5 V6 TI '93",
-          "car_group": "4",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 800000,
-          "price_jp": 80000000,
           "isOld": true
         }
       ]

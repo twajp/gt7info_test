@@ -1,6 +1,100 @@
 {
-  "timestamp": "2025-02-19T00:09:54.157122+00:00",
+  "timestamp": "2025-02-20T00:10:21.690361+00:00",
   "content": [
+    {
+      "id": 20250220,
+      "date": "2025/2/20",
+      "used": [
+        {
+          "maker_id": 136,
+          "maker_name": "Porsche",
+          "car_id": 3385,
+          "car_name": "911 Turbo (930) '81",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [
+            {
+              "maker_id": 136,
+              "maker_name": "Porsche",
+              "car_id": "3311",
+              "car_name": "911 RSR (991) '17",
+              "engine_name": "M97/80-911"
+            }
+          ],
+          "price": 219000,
+          "price_jp": 21900000,
+          "isOld": true
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 78,
+          "car_name": "Silvia K's Aero (S14) '96",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 7,
+              "maker_name": "Chevrolet",
+              "car_id": "3449",
+              "car_name": "Corvette C7 ZR1 '19",
+              "engine_name": "LT5-Corvette-C7"
+            }
+          ],
+          "price": 58800,
+          "price_jp": 5880000,
+          "isOld": true
+        },
+        {
+          "maker_id": 3,
+          "maker_name": "Alfa Romeo",
+          "car_id": 1578,
+          "car_name": "8C Competizione '08",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 313400,
+          "price_jp": 31340000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 93,
+          "maker_name": "Chaparral",
+          "car_id": 1069,
+          "car_name": "2J '70",
+          "car_group": "X",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [],
+          "price": 2500000,
+          "price_jp": 250000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 110,
+          "maker_name": "Ferrari",
+          "car_id": 1551,
+          "car_name": "330 P4 '67",
+          "car_group": "X",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 20000000,
+          "price_jp": 2000000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250219,
       "date": "2025/2/19",
@@ -1118,150 +1212,6 @@
         }
       ],
       "legend": []
-    },
-    {
-      "id": 20250206,
-      "date": "2025/2/6",
-      "used": [
-        {
-          "maker_id": 12,
-          "maker_name": "Fiat",
-          "car_id": 1527,
-          "car_name": "500 1.2 8V Lounge SS '08",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 13800,
-          "price_jp": 1380000,
-          "isOld": false
-        },
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 709,
-          "car_name": "Fairlady Z 300ZX TT 2seater '89",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "3345",
-              "car_name": "GT-R NISMO '17",
-              "engine_name": "VR38DETT-GT-R-NISMO"
-            }
-          ],
-          "price": 55300,
-          "price_jp": 5530000,
-          "isOld": true
-        },
-        {
-          "maker_id": 6,
-          "maker_name": "BMW",
-          "car_id": 3453,
-          "car_name": "M3 '89",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 39,
-              "maker_name": "Suzuki",
-              "car_id": "3508",
-              "car_name": "SUZUKI Vision Gran Turismo (Gr.3 Version)",
-              "engine_name": "V8-Suzuki-VGT-Gr.3"
-            }
-          ],
-          "price": 76900,
-          "price_jp": 7690000,
-          "isOld": true
-        },
-        {
-          "maker_id": 38,
-          "maker_name": "Subaru",
-          "car_id": 451,
-          "car_name": "Impreza 22B-STi '98",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [],
-          "price": 174200,
-          "price_jp": 17420000,
-          "isOld": true
-        },
-        {
-          "maker_id": 110,
-          "maker_name": "Ferrari",
-          "car_id": 1378,
-          "car_name": "F430 '06",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 207400,
-          "price_jp": 20740000,
-          "isOld": false
-        },
-        {
-          "maker_id": 13,
-          "maker_name": "Ford",
-          "car_id": 1426,
-          "car_name": "Ford GT '06",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [],
-          "price": 397100,
-          "price_jp": 39710000,
-          "isOld": false
-        },
-        {
-          "maker_id": 44,
-          "maker_name": "TVR",
-          "car_id": 187,
-          "car_name": "Tuscan Speed 6 '00",
-          "car_group": "N",
-          "country_id": 4,
-          "country_name": "United Kingdom",
-          "country_code": "gb",
-          "engine_swaps": [
-            {
-              "maker_id": 7,
-              "maker_name": "Chevrolet",
-              "car_id": "3387",
-              "car_name": "Camaro ZL1 1LE Package '18",
-              "engine_name": "LT4-Camaro"
-            }
-          ],
-          "price": 70100,
-          "price_jp": 7010000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 136,
-          "maker_name": "Porsche",
-          "car_id": 3519,
-          "car_name": "959 '87",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 1950000,
-          "price_jp": 195000000,
-          "isOld": true
-        }
-      ]
     }
   ]
 }

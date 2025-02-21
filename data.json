@@ -1,6 +1,174 @@
 {
-  "timestamp": "2025-02-20T00:10:21.690361+00:00",
+  "timestamp": "2025-02-21T00:10:45.813033+00:00",
   "content": [
+    {
+      "id": 20250221,
+      "date": "2025/2/21",
+      "used": [
+        {
+          "maker_id": 57,
+          "maker_name": "Autobianchi",
+          "car_id": 3442,
+          "car_name": "A112 Abarth '85",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [
+            {
+              "maker_id": 157,
+              "maker_name": "Garage RCR",
+              "car_id": "3526",
+              "car_name": "Civic",
+              "engine_name": "K24A-Civic"
+            }
+          ],
+          "price": 30400,
+          "price_jp": 3040000,
+          "isOld": true
+        },
+        {
+          "maker_id": 18,
+          "maker_name": "Lancia",
+          "car_id": 829,
+          "car_name": "Delta HF Integrale Evoluzione '91",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "3345",
+              "car_name": "GT-R NISMO '17",
+              "engine_name": "VR38DETT-GT-R-NISMO"
+            }
+          ],
+          "price": 99700,
+          "price_jp": 9970000,
+          "isOld": true
+        },
+        {
+          "maker_id": 6,
+          "maker_name": "BMW",
+          "car_id": 3454,
+          "car_name": "3.0 CSL '71",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 135200,
+          "price_jp": 13520000,
+          "isOld": true
+        },
+        {
+          "maker_id": 39,
+          "maker_name": "Suzuki",
+          "car_id": 779,
+          "car_name": "Cappuccino (EA11R) '91",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 21,
+              "maker_name": "Mazda",
+              "car_id": "205",
+              "car_name": "RX-7 Spirit R Type A (FD) '02",
+              "engine_name": "13B-REW-RX-7"
+            }
+          ],
+          "price": 17800,
+          "price_jp": 1780000,
+          "isOld": true
+        },
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 135,
+          "car_name": "S800 '66",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 15,
+              "maker_name": "Honda",
+              "car_id": "2156",
+              "car_name": "2&4 powered by RC213V",
+              "engine_name": "SE75E-2&4"
+            }
+          ],
+          "price": 43000,
+          "price_jp": 4300000,
+          "isOld": true
+        },
+        {
+          "maker_id": 43,
+          "maker_name": "Toyota",
+          "car_id": 843,
+          "car_name": "Supra 3.0GT Turbo A '88",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 43,
+              "maker_name": "Toyota",
+              "car_id": "82",
+              "car_name": "Supra RZ '97",
+              "engine_name": "2JZ-GTE-Supra"
+            }
+          ],
+          "price": 106300,
+          "price_jp": 10630000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 13,
+          "maker_name": "Ford",
+          "car_id": 3444,
+          "car_name": "1932 Ford Roadster Hot Rod",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 13,
+              "maker_name": "Ford",
+              "car_id": "3391",
+              "car_name": "Shelby GT350R '16",
+              "engine_name": "Voodoo-5.2L-GT350R"
+            }
+          ],
+          "price": 400000,
+          "price_jp": 40000000,
+          "isOld": null
+        },
+        {
+          "maker_id": 117,
+          "maker_name": "McLaren",
+          "car_id": 1540,
+          "car_name": "McLaren F1 '94",
+          "car_group": "N",
+          "country_id": 4,
+          "country_name": "United Kingdom",
+          "country_code": "gb",
+          "engine_swaps": [],
+          "price": 20000000,
+          "price_jp": 2000000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250220,
       "date": "2025/2/20",
@@ -1183,35 +1351,6 @@
           "isOld": true
         }
       ]
-    },
-    {
-      "id": 20250207,
-      "date": "2025/2/7",
-      "used": [
-        {
-          "maker_id": 15,
-          "maker_name": "Honda",
-          "car_id": 821,
-          "car_name": "Civic Type R (EK) '97",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 157,
-              "maker_name": "Garage RCR",
-              "car_id": "3526",
-              "car_name": "Civic",
-              "engine_name": "K24A-Civic"
-            }
-          ],
-          "price": 51900,
-          "price_jp": 5190000,
-          "isOld": true
-        }
-      ],
-      "legend": []
     }
   ]
 }

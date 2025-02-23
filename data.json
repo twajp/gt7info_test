@@ -1,6 +1,42 @@
 {
-  "timestamp": "2025-02-22T00:09:56.530275+00:00",
+  "timestamp": "2025-02-23T00:12:01.157328+00:00",
   "content": [
+    {
+      "id": 20250223,
+      "date": "2025/2/23",
+      "used": [
+        {
+          "maker_id": 117,
+          "maker_name": "McLaren",
+          "car_id": 1722,
+          "car_name": "MP4-12C '10",
+          "car_group": "N",
+          "country_id": 4,
+          "country_name": "United Kingdom",
+          "country_code": "gb",
+          "engine_swaps": [],
+          "price": 184100,
+          "price_jp": 18410000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 140,
+          "maker_name": "De Tomaso",
+          "car_id": 3505,
+          "car_name": "Mangusta (Christian Dior)",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 500000,
+          "price_jp": 50000000,
+          "isOld": null
+        }
+      ]
+    },
     {
       "id": 20250222,
       "date": "2025/2/22",
@@ -1341,49 +1377,6 @@
           ],
           "price": 220000,
           "price_jp": 22000000,
-          "isOld": true
-        }
-      ],
-      "legend": []
-    },
-    {
-      "id": 20250209,
-      "date": "2025/2/9",
-      "used": [
-        {
-          "maker_id": 10,
-          "maker_name": "Daihatsu",
-          "car_id": 145,
-          "car_name": "Copen '02",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [],
-          "price": 13300,
-          "price_jp": 1330000,
-          "isOld": false
-        },
-        {
-          "maker_id": 7,
-          "maker_name": "Chevrolet",
-          "car_id": 41,
-          "car_name": "Corvette Stingray (C3) '69",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 7,
-              "maker_name": "Chevrolet",
-              "car_id": "3449",
-              "car_name": "Corvette C7 ZR1 '19",
-              "engine_name": "LT5-Corvette-C7"
-            }
-          ],
-          "price": 51700,
-          "price_jp": 5170000,
           "isOld": true
         }
       ],

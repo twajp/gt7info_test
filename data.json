@@ -1,6 +1,57 @@
 {
-  "timestamp": "2025-02-25T00:11:50.553448+00:00",
+  "timestamp": "2025-02-26T00:10:51.712549+00:00",
   "content": [
+    {
+      "id": 20250226,
+      "date": "2025/2/26",
+      "used": [
+        {
+          "maker_id": 13,
+          "maker_name": "Ford",
+          "car_id": 1729,
+          "car_name": "Mustang Mach 1 '71",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 13,
+              "maker_name": "Ford",
+              "car_id": "2138",
+              "car_name": "Mustang GT '15",
+              "engine_name": "Coyote-5.0L-Mustang"
+            }
+          ],
+          "price": 36500,
+          "price_jp": 3650000,
+          "isOld": true
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 210,
+          "car_name": "R34 GT-R V-spec II Nur '02",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "954",
+              "car_name": "R92CP '92",
+              "engine_name": "VRH35Z-R92CP"
+            }
+          ],
+          "price": 396400,
+          "price_jp": 39640000,
+          "isOld": false
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20250225,
       "date": "2025/2/25",
@@ -1173,86 +1224,6 @@
           "engine_swaps": [],
           "price": 4450000,
           "price_jp": 445000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20250212,
-      "date": "2025/2/12",
-      "used": [
-        {
-          "maker_id": 86,
-          "maker_name": "Alpine",
-          "car_id": 1796,
-          "car_name": "A110 '72",
-          "car_group": "N",
-          "country_id": 6,
-          "country_name": "France",
-          "country_code": "fr",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "1448",
-              "car_name": "SILVIA spec-R Aero (S15) '02",
-              "engine_name": "SR20DET-Silvia-S15"
-            }
-          ],
-          "price": 132600,
-          "price_jp": 13260000,
-          "isOld": true
-        },
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 3513,
-          "car_name": "Silvia K's Type S (S14) '94",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 7,
-              "maker_name": "Chevrolet",
-              "car_id": "3449",
-              "car_name": "Corvette C7 ZR1 '19",
-              "engine_name": "LT5-Corvette-C7"
-            }
-          ],
-          "price": 53600,
-          "price_jp": 5360000,
-          "isOld": true
-        },
-        {
-          "maker_id": 110,
-          "maker_name": "Ferrari",
-          "car_id": 1544,
-          "car_name": "430 Scuderia '07",
-          "car_group": null,
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 363500,
-          "price_jp": 36350000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 13,
-          "maker_name": "Ford",
-          "car_id": 1565,
-          "car_name": "Mark IV Race Car '67",
-          "car_group": "X",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [],
-          "price": 6750000,
-          "price_jp": 675000000,
           "isOld": true
         }
       ]

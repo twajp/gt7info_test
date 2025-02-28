@@ -1,6 +1,27 @@
 {
-  "timestamp": "2025-02-27T00:11:01.561417+00:00",
+  "timestamp": "2025-02-28T00:10:39.702151+00:00",
   "content": [
+    {
+      "id": 20250228,
+      "date": "2025/2/28",
+      "used": [],
+      "legend": [
+        {
+          "maker_id": 22,
+          "maker_name": "Mercedes-Benz",
+          "car_id": 3397,
+          "car_name": "CLK-LM '98",
+          "car_group": "2",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 8500000,
+          "price_jp": 850000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250227,
       "date": "2025/2/27",
@@ -305,7 +326,15 @@
           "country_id": 2,
           "country_name": "Japan",
           "country_code": "jp",
-          "engine_swaps": [],
+          "engine_swaps": [
+            {
+              "maker_id": 38,
+              "maker_name": "Subaru",
+              "car_id": "3550",
+              "car_name": "Impreza Rally Car '98",
+              "engine_name": "EJ20-Impreza-Rally"
+            }
+          ],
           "price": 52600,
           "price_jp": 5260000,
           "isOld": true
@@ -996,7 +1025,15 @@
           "country_id": 3,
           "country_name": "United States",
           "country_code": "us",
-          "engine_swaps": [],
+          "engine_swaps": [
+            {
+              "maker_id": 13,
+              "maker_name": "Ford",
+              "car_id": "3264",
+              "car_name": "Focus Gr.B Rally Car",
+              "engine_name": "L4-Focus-Gr.B"
+            }
+          ],
           "price": 198100,
           "price_jp": 19810000,
           "isOld": true
@@ -1103,108 +1140,6 @@
         }
       ],
       "legend": []
-    },
-    {
-      "id": 20250214,
-      "date": "2025/2/14",
-      "used": [
-        {
-          "maker_id": 43,
-          "maker_name": "Toyota",
-          "car_id": 810,
-          "car_name": "Sprinter Trueno 1600GT APEX (AE86) '83",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 43,
-              "maker_name": "Toyota",
-              "car_id": "207",
-              "car_name": "MR2 GT-S '97",
-              "engine_name": "3S-GTE-MR2"
-            }
-          ],
-          "price": 58200,
-          "price_jp": 5820000,
-          "isOld": true
-        },
-        {
-          "maker_id": 46,
-          "maker_name": "Volkswagen",
-          "car_id": 1773,
-          "car_name": "Scirocco R '10",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 37500,
-          "price_jp": 3750000,
-          "isOld": false
-        },
-        {
-          "maker_id": 6,
-          "maker_name": "BMW",
-          "car_id": 3344,
-          "car_name": "M3 Sport Evolution '89",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 43,
-              "maker_name": "Toyota",
-              "car_id": "3418",
-              "car_name": "GR Supra RZ '20",
-              "engine_name": "B58-GR-Supra-'20"
-            }
-          ],
-          "price": 165000,
-          "price_jp": 16500000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 7,
-          "maker_name": "Chevrolet",
-          "car_id": 818,
-          "car_name": "Corvette (C2) '63",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 7,
-              "maker_name": "Chevrolet",
-              "car_id": "3449",
-              "car_name": "Corvette C7 ZR1 '19",
-              "engine_name": "LT5-Corvette-C7"
-            }
-          ],
-          "price": 234000,
-          "price_jp": 23400000,
-          "isOld": true
-        },
-        {
-          "maker_id": 110,
-          "maker_name": "Ferrari",
-          "car_id": 2011,
-          "car_name": "500 Mondial Pinin Farina Coupe '54",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 2600000,
-          "price_jp": 260000000,
-          "isOld": true
-        }
-      ]
     }
   ]
 }

@@ -1,6 +1,86 @@
 {
-  "timestamp": "2025-03-08T00:08:41.705054+00:00",
+  "timestamp": "2025-03-09T00:09:44.391851+00:00",
   "content": [
+    {
+      "id": 20250309,
+      "date": "2025/3/9",
+      "used": [
+        {
+          "maker_id": 43,
+          "maker_name": "Toyota",
+          "car_id": 63,
+          "car_name": "Corolla Levin 1600GT APEX (AE86) '83",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 43,
+              "maker_name": "Toyota",
+              "car_id": "207",
+              "car_name": "MR2 GT-S '97",
+              "engine_name": "3S-GTE-MR2"
+            }
+          ],
+          "price": 51900,
+          "price_jp": 5190000,
+          "isOld": true
+        },
+        {
+          "maker_id": 125,
+          "maker_name": "Abarth",
+          "car_id": 1973,
+          "car_name": "Abarth 500 '09",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 23500,
+          "price_jp": 2350000,
+          "isOld": false
+        },
+        {
+          "maker_id": 13,
+          "maker_name": "Ford",
+          "car_id": 3555,
+          "car_name": "Escort RS Cosworth '92",
+          "car_group": null,
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 13,
+              "maker_name": "Ford",
+              "car_id": "3264",
+              "car_name": "Focus Gr.B Rally Car",
+              "engine_name": "L4-Focus-Gr.B"
+            }
+          ],
+          "price": 123900,
+          "price_jp": 12390000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 110,
+          "maker_name": "Ferrari",
+          "car_id": 2010,
+          "car_name": "250 GTO '62",
+          "car_group": "X",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 20000000,
+          "price_jp": 2000000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250308,
       "date": "2025/3/8",
@@ -1106,42 +1186,6 @@
         }
       ],
       "legend": []
-    },
-    {
-      "id": 20250223,
-      "date": "2025/2/23",
-      "used": [
-        {
-          "maker_id": 117,
-          "maker_name": "McLaren",
-          "car_id": 1722,
-          "car_name": "MP4-12C '10",
-          "car_group": "N",
-          "country_id": 4,
-          "country_name": "United Kingdom",
-          "country_code": "gb",
-          "engine_swaps": [],
-          "price": 184100,
-          "price_jp": 18410000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 140,
-          "maker_name": "De Tomaso",
-          "car_id": 3505,
-          "car_name": "Mangusta (Christian Dior)",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 500000,
-          "price_jp": 50000000,
-          "isOld": null
-        }
-      ]
     }
   ]
 }

@@ -1,6 +1,122 @@
 {
-  "timestamp": "2025-03-13T00:10:57.947411+00:00",
+  "timestamp": "2025-03-14T00:10:30.266405+00:00",
   "content": [
+    {
+      "id": 20250314,
+      "date": "2025/3/14",
+      "used": [
+        {
+          "maker_id": 52,
+          "maker_name": "Pontiac",
+          "car_id": 1985,
+          "car_name": "Firebird Trans Am '78",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 7,
+              "maker_name": "Chevrolet",
+              "car_id": "1480",
+              "car_name": "Corvette ZR1 (C6) '09",
+              "engine_name": "LS9-Corvette"
+            }
+          ],
+          "price": 98300,
+          "price_jp": 9830000,
+          "isOld": true
+        },
+        {
+          "maker_id": 10,
+          "maker_name": "Daihatsu",
+          "car_id": 145,
+          "car_name": "Copen '02",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 14100,
+          "price_jp": 1410000,
+          "isOld": false
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 709,
+          "car_name": "Fairlady Z 300ZX TT 2seater '89",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "3345",
+              "car_name": "GT-R NISMO '17",
+              "engine_name": "VR38DETT-GT-R-NISMO"
+            }
+          ],
+          "price": 60200,
+          "price_jp": 6020000,
+          "isOld": true
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 1458,
+          "car_name": "Fairlady Z (Z34) '08",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "1466",
+              "car_name": "GT-R GT500 '08",
+              "engine_name": "VK45DE-GT-R"
+            }
+          ],
+          "price": 32300,
+          "price_jp": 3230000,
+          "isOld": false
+        },
+        {
+          "maker_id": 110,
+          "maker_name": "Ferrari",
+          "car_id": 1410,
+          "car_name": "512 BB '76",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 289400,
+          "price_jp": 28940000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 153,
+          "maker_name": "AMG",
+          "car_id": 3388,
+          "car_name": "300 SEL 6.8 AMG '71",
+          "car_group": "X",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 700000,
+          "price_jp": 70000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250313,
       "date": "2025/3/13",
@@ -1214,27 +1330,6 @@
         }
       ],
       "legend": []
-    },
-    {
-      "id": 20250228,
-      "date": "2025/2/28",
-      "used": [],
-      "legend": [
-        {
-          "maker_id": 22,
-          "maker_name": "Mercedes-Benz",
-          "car_id": 3397,
-          "car_name": "CLK-LM '98",
-          "car_group": "2",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 8500000,
-          "price_jp": 850000000,
-          "isOld": true
-        }
-      ]
     }
   ]
 }

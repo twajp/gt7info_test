@@ -1,6 +1,86 @@
 {
-  "timestamp": "2025-03-21T00:10:50.651138+00:00",
+  "timestamp": "2025-03-22T00:10:55.493849+00:00",
   "content": [
+    {
+      "id": 20250322,
+      "date": "2025/3/22",
+      "used": [
+        {
+          "maker_id": 3,
+          "maker_name": "Alfa Romeo",
+          "car_id": 3530,
+          "car_name": "Giulia Sprint GT Veloce '67",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [
+            {
+              "maker_id": 157,
+              "maker_name": "Garage RCR",
+              "car_id": "3526",
+              "car_name": "Civic",
+              "engine_name": "K24A-Civic"
+            }
+          ],
+          "price": 179700,
+          "price_jp": 17970000,
+          "isOld": true
+        },
+        {
+          "maker_id": 46,
+          "maker_name": "Volkswagen",
+          "car_id": 1773,
+          "car_name": "Scirocco R '10",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 38700,
+          "price_jp": 3870000,
+          "isOld": false
+        },
+        {
+          "maker_id": 6,
+          "maker_name": "BMW",
+          "car_id": 3344,
+          "car_name": "M3 Sport Evolution '89",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [
+            {
+              "maker_id": 43,
+              "maker_name": "Toyota",
+              "car_id": "3418",
+              "car_name": "GR Supra RZ '20",
+              "engine_name": "B58-GR-Supra-'20"
+            }
+          ],
+          "price": 172000,
+          "price_jp": 17200000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 110,
+          "maker_name": "Ferrari",
+          "car_id": 2017,
+          "car_name": "GTO '84",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 3500000,
+          "price_jp": 350000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250321,
       "date": "2025/3/21",
@@ -1273,27 +1353,6 @@
           "isOld": true
         }
       ]
-    },
-    {
-      "id": 20250308,
-      "date": "2025/3/8",
-      "used": [
-        {
-          "maker_id": 110,
-          "maker_name": "Ferrari",
-          "car_id": 1504,
-          "car_name": "458 Italia '09",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 250400,
-          "price_jp": 25040000,
-          "isOld": false
-        }
-      ],
-      "legend": []
     }
   ]
 }

@@ -1,6 +1,72 @@
 {
-  "timestamp": "2025-03-23T00:11:14.842482+00:00",
+  "timestamp": "2025-03-24T00:11:37.089964+00:00",
   "content": [
+    {
+      "id": 20250324,
+      "date": "2025/3/24",
+      "used": [
+        {
+          "maker_id": 57,
+          "maker_name": "Autobianchi",
+          "car_id": 3442,
+          "car_name": "A112 Abarth '85",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [
+            {
+              "maker_id": 157,
+              "maker_name": "Garage RCR",
+              "car_id": "3526",
+              "car_name": "Civic",
+              "engine_name": "K24A-Civic"
+            }
+          ],
+          "price": 29700,
+          "price_jp": 2970000,
+          "isOld": true
+        },
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 37,
+          "car_name": "Civic SiR-II (EG) '93",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 15,
+              "maker_name": "Honda",
+              "car_id": "203",
+              "car_name": "Integra Type R (DC2) '98",
+              "engine_name": "B18C-Integra-'98"
+            }
+          ],
+          "price": 48000,
+          "price_jp": 4800000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 7,
+          "maker_name": "Chevrolet",
+          "car_id": 2059,
+          "car_name": "Corvette Stingray Racer Concept '59",
+          "car_group": "X",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [],
+          "price": 4000000,
+          "price_jp": 400000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250323,
       "date": "2025/3/23",
@@ -1262,108 +1328,6 @@
           "engine_swaps": [],
           "price": 992000,
           "price_jp": 99200000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20250310,
-      "date": "2025/3/10",
-      "used": [
-        {
-          "maker_id": 69,
-          "maker_name": "Volvo",
-          "car_id": 3549,
-          "car_name": "240 SE Estate '93",
-          "car_group": "N",
-          "country_id": 12,
-          "country_name": "Sweden",
-          "country_code": "se",
-          "engine_swaps": [],
-          "price": 41200,
-          "price_jp": 4120000,
-          "isOld": true
-        },
-        {
-          "maker_id": 15,
-          "maker_name": "Honda",
-          "car_id": 293,
-          "car_name": "NSX Type R '92",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 15,
-              "maker_name": "Honda",
-              "car_id": "3348",
-              "car_name": "NSX CONCEPT-GT '16",
-              "engine_name": "HR-414E-NSX"
-            }
-          ],
-          "price": 404400,
-          "price_jp": 40440000,
-          "isOld": true
-        },
-        {
-          "maker_id": 136,
-          "maker_name": "Porsche",
-          "car_id": 3358,
-          "car_name": "911 GT3 (996) '01",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 158400,
-          "price_jp": 15840000,
-          "isOld": false
-        },
-        {
-          "maker_id": 25,
-          "maker_name": "Mitsubishi",
-          "car_id": 799,
-          "car_name": "Lancer Evolution VIII MR GSR '04",
-          "car_group": null,
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 25,
-              "maker_name": "Mitsubishi",
-              "car_id": "3230",
-              "car_name": "Lancer Evolution Final Gr.B Rally Car",
-              "engine_name": "Evo-Final-Gr.B"
-            }
-          ],
-          "price": 65900,
-          "price_jp": 6590000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 7,
-          "maker_name": "Chevrolet",
-          "car_id": 3464,
-          "car_name": "Corvette (C1) '58",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 7,
-              "maker_name": "Chevrolet",
-              "car_id": "3449",
-              "car_name": "Corvette C7 ZR1 '19",
-              "engine_name": "LT5-Corvette-C7"
-            }
-          ],
-          "price": 119000,
-          "price_jp": 11900000,
           "isOld": true
         }
       ]

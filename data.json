@@ -1,6 +1,57 @@
 {
-  "timestamp": "2025-03-25T00:10:57.637540+00:00",
+  "timestamp": "2025-03-26T00:10:49.783822+00:00",
   "content": [
+    {
+      "id": 20250326,
+      "date": "2025/3/26",
+      "used": [
+        {
+          "maker_id": 25,
+          "maker_name": "Mitsubishi",
+          "car_id": 931,
+          "car_name": "Lancer Evolution III GSR '95",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 25,
+              "maker_name": "Mitsubishi",
+              "car_id": "3230",
+              "car_name": "Lancer Evolution Final Gr.B Rally Car",
+              "engine_name": "Evo-Final-Gr.B"
+            }
+          ],
+          "price": 83500,
+          "price_jp": 8350000,
+          "isOld": true
+        },
+        {
+          "maker_id": 13,
+          "maker_name": "Ford",
+          "car_id": 3466,
+          "car_name": "Sierra RS 500 Cosworth '87",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 13,
+              "maker_name": "Ford",
+              "car_id": "3264",
+              "car_name": "Focus Gr.B Rally Car",
+              "engine_name": "L4-Focus-Gr.B"
+            }
+          ],
+          "price": 181200,
+          "price_jp": 18120000,
+          "isOld": true
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20250325,
       "date": "2025/3/25",
@@ -1176,86 +1227,6 @@
           "engine_swaps": [],
           "price": 242000,
           "price_jp": 24200000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20250312,
-      "date": "2025/3/12",
-      "used": [
-        {
-          "maker_id": 65,
-          "maker_name": "DMC",
-          "car_id": 1027,
-          "car_name": "DeLorean S2 '04",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 151,
-              "maker_name": "Roadster Shop",
-              "car_id": "3426",
-              "car_name": "Roadster Shop Rampage",
-              "engine_name": "LS7-Rampage"
-            }
-          ],
-          "price": 451400,
-          "price_jp": 45140000,
-          "isOld": false
-        },
-        {
-          "maker_id": 51,
-          "maker_name": "MINI",
-          "car_id": 1370,
-          "car_name": "MINI Cooper S '05",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 157,
-              "maker_name": "Garage RCR",
-              "car_id": "3526",
-              "car_name": "Civic",
-              "engine_name": "K24A-Civic"
-            }
-          ],
-          "price": 20700,
-          "price_jp": 2070000,
-          "isOld": false
-        },
-        {
-          "maker_id": 34,
-          "maker_name": "Renault",
-          "car_id": 334,
-          "car_name": "Clio V6 24V '00",
-          "car_group": "N",
-          "country_id": 6,
-          "country_name": "France",
-          "country_code": "fr",
-          "engine_swaps": [],
-          "price": 75000,
-          "price_jp": 7500000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 17,
-          "maker_name": "Jaguar",
-          "car_id": 1067,
-          "car_name": "XJR-9 '88",
-          "car_group": "1",
-          "country_id": 4,
-          "country_name": "United Kingdom",
-          "country_code": "gb",
-          "engine_swaps": [],
-          "price": 3000000,
-          "price_jp": 300000000,
           "isOld": true
         }
       ]

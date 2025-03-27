@@ -1,6 +1,71 @@
 {
-  "timestamp": "2025-03-26T00:10:49.783822+00:00",
+  "timestamp": "2025-03-27T00:10:36.053448+00:00",
   "content": [
+    {
+      "id": 20250327,
+      "date": "2025/3/27",
+      "used": [
+        {
+          "maker_id": 125,
+          "maker_name": "Abarth",
+          "car_id": 3438,
+          "car_name": "Abarth 595 SS '70",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [
+            {
+              "maker_id": 15,
+              "maker_name": "Honda",
+              "car_id": "3467",
+              "car_name": "Civic Type R Limited Edition (FK8) '20",
+              "engine_name": "K20C1-Civic-'20"
+            }
+          ],
+          "price": 47000,
+          "price_jp": 4700000,
+          "isOld": true
+        },
+        {
+          "maker_id": 6,
+          "maker_name": "BMW",
+          "car_id": 3454,
+          "car_name": "3.0 CSL '71",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 138000,
+          "price_jp": 13800000,
+          "isOld": true
+        },
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 514,
+          "car_name": "S2000 '99",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 157,
+              "maker_name": "Garage RCR",
+              "car_id": "3526",
+              "car_name": "Civic",
+              "engine_name": "K24A-Civic"
+            }
+          ],
+          "price": 98400,
+          "price_jp": 9840000,
+          "isOld": true
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20250326,
       "date": "2025/3/26",
@@ -1155,78 +1220,6 @@
           "engine_swaps": [],
           "price": 700000,
           "price_jp": 70000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20250313,
-      "date": "2025/3/13",
-      "used": [
-        {
-          "maker_id": 15,
-          "maker_name": "Honda",
-          "car_id": 821,
-          "car_name": "Civic Type R (EK) '97",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 157,
-              "maker_name": "Garage RCR",
-              "car_id": "3526",
-              "car_name": "Civic",
-              "engine_name": "K24A-Civic"
-            }
-          ],
-          "price": 49300,
-          "price_jp": 4930000,
-          "isOld": true
-        },
-        {
-          "maker_id": 5,
-          "maker_name": "Audi",
-          "car_id": 959,
-          "car_name": "TT Coupe 3.2 quattro '03",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 49800,
-          "price_jp": 4980000,
-          "isOld": false
-        },
-        {
-          "maker_id": 112,
-          "maker_name": "Lamborghini",
-          "car_id": 1545,
-          "car_name": "Murcielago LP 640 '09",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 337100,
-          "price_jp": 33710000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 52,
-          "maker_name": "Pontiac",
-          "car_id": 3462,
-          "car_name": "GTO 'The Judge' '69",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [],
-          "price": 242000,
-          "price_jp": 24200000,
           "isOld": true
         }
       ]

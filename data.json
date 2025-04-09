@@ -1,6 +1,12 @@
 {
-  "timestamp": "2025-04-08T00:11:21.081384+00:00",
+  "timestamp": "2025-04-09T00:10:57.664362+00:00",
   "content": [
+    {
+      "id": 20250409,
+      "date": "2025/4/9",
+      "used": [],
+      "legend": []
+    },
     {
       "id": 20250408,
       "date": "2025/4/8",
@@ -1301,57 +1307,6 @@
           ],
           "price": 98400,
           "price_jp": 9840000,
-          "isOld": true
-        }
-      ],
-      "legend": []
-    },
-    {
-      "id": 20250326,
-      "date": "2025/3/26",
-      "used": [
-        {
-          "maker_id": 25,
-          "maker_name": "Mitsubishi",
-          "car_id": 931,
-          "car_name": "Lancer Evolution III GSR '95",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 25,
-              "maker_name": "Mitsubishi",
-              "car_id": "3230",
-              "car_name": "Lancer Evolution Final Gr.B Rally Car",
-              "engine_name": "Evo-Final-Gr.B"
-            }
-          ],
-          "price": 83500,
-          "price_jp": 8350000,
-          "isOld": true
-        },
-        {
-          "maker_id": 13,
-          "maker_name": "Ford",
-          "car_id": 3466,
-          "car_name": "Sierra RS 500 Cosworth '87",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 13,
-              "maker_name": "Ford",
-              "car_id": "3264",
-              "car_name": "Focus Gr.B Rally Car",
-              "engine_name": "L4-Focus-Gr.B"
-            }
-          ],
-          "price": 181200,
-          "price_jp": 18120000,
           "isOld": true
         }
       ],

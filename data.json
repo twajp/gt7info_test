@@ -1,6 +1,92 @@
 {
-  "timestamp": "2025-04-12T00:10:30.856095+00:00",
+  "timestamp": "2025-04-13T02:03:57.148460+00:00",
   "content": [
+    {
+      "id": 20250413,
+      "date": "2025/4/13",
+      "used": [
+        {
+          "maker_id": 125,
+          "maker_name": "Abarth",
+          "car_id": 1973,
+          "car_name": "Abarth 500 '09",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 26400,
+          "price_jp": 2640000,
+          "isOld": false
+        },
+        {
+          "maker_id": 69,
+          "maker_name": "Volvo",
+          "car_id": 3549,
+          "car_name": "240 SE Estate '93",
+          "car_group": "N",
+          "country_id": 12,
+          "country_name": "Sweden",
+          "country_code": "se",
+          "engine_swaps": [],
+          "price": 46600,
+          "price_jp": 4660000,
+          "isOld": true
+        },
+        {
+          "maker_id": 11,
+          "maker_name": "Dodge",
+          "car_id": 3377,
+          "car_name": "Super Bee '70",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [],
+          "price": 70600,
+          "price_jp": 7060000,
+          "isOld": true
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 102,
+          "car_name": "Skyline GTS-R (R31) '87",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "210",
+              "car_name": "R34 GT-R V-spec II Nur '02",
+              "engine_name": "RB26DETT-GT-R-R34"
+            }
+          ],
+          "price": 166500,
+          "price_jp": 16650000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 140,
+          "car_name": "NSX GT500 '00",
+          "car_group": "3",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 1500000,
+          "price_jp": 150000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250412,
       "date": "2025/4/12",
@@ -1312,121 +1398,6 @@
           "isOld": true
         }
       ]
-    },
-    {
-      "id": 20250330,
-      "date": "2025/3/30",
-      "used": [
-        {
-          "maker_id": 32,
-          "maker_name": "Peugeot",
-          "car_id": 3564,
-          "car_name": "205 GTI '88",
-          "car_group": null,
-          "country_id": 6,
-          "country_name": "France",
-          "country_code": "fr",
-          "engine_swaps": [],
-          "price": 59300,
-          "price_jp": 5930000,
-          "isOld": true
-        },
-        {
-          "maker_id": 3,
-          "maker_name": "Alfa Romeo",
-          "car_id": 1933,
-          "car_name": "MiTo '09",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 22000,
-          "price_jp": 2200000,
-          "isOld": false
-        },
-        {
-          "maker_id": 39,
-          "maker_name": "Suzuki",
-          "car_id": 779,
-          "car_name": "Cappuccino (EA11R) '91",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 21,
-              "maker_name": "Mazda",
-              "car_id": "205",
-              "car_name": "RX-7 Spirit R Type A (FD) '02",
-              "engine_name": "13B-REW-RX-7"
-            }
-          ],
-          "price": 17700,
-          "price_jp": 1770000,
-          "isOld": true
-        },
-        {
-          "maker_id": 38,
-          "maker_name": "Subaru",
-          "car_id": 3432,
-          "car_name": "Impreza Sedan WRX STi '04",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 136,
-              "maker_name": "Porsche",
-              "car_id": "3558",
-              "car_name": "911 Turbo S (992) '20",
-              "engine_name": "DKH-911"
-            }
-          ],
-          "price": 45300,
-          "price_jp": 4530000,
-          "isOld": false
-        },
-        {
-          "maker_id": 15,
-          "maker_name": "Honda",
-          "car_id": 203,
-          "car_name": "Integra Type R (DC2) '98",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 15,
-              "maker_name": "Honda",
-              "car_id": "3467",
-              "car_name": "Civic Type R Limited Edition (FK8) '20",
-              "engine_name": "K20C1-Civic-'20"
-            }
-          ],
-          "price": 67300,
-          "price_jp": 6730000,
-          "isOld": true
-        },
-        {
-          "maker_id": 43,
-          "maker_name": "Toyota",
-          "car_id": 345,
-          "car_name": "Sprinter Trueno 1600GT APEX (S.Shigeno Version)",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [],
-          "price": 104600,
-          "price_jp": 10460000,
-          "isOld": null
-        }
-      ],
-      "legend": []
     }
   ]
 }

@@ -1,6 +1,100 @@
 {
-  "timestamp": "2025-04-14T00:11:55.954806+00:00",
+  "timestamp": "2025-04-15T00:11:58.977488+00:00",
   "content": [
+    {
+      "id": 20250415,
+      "date": "2025/4/15",
+      "used": [
+        {
+          "maker_id": 7,
+          "maker_name": "Chevrolet",
+          "car_id": 41,
+          "car_name": "Corvette Stingray (C3) '69",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 7,
+              "maker_name": "Chevrolet",
+              "car_id": "3449",
+              "car_name": "Corvette C7 ZR1 '19",
+              "engine_name": "LT5-Corvette-C7"
+            }
+          ],
+          "price": 71500,
+          "price_jp": 7150000,
+          "isOld": true
+        },
+        {
+          "maker_id": 7,
+          "maker_name": "Chevrolet",
+          "car_id": 41,
+          "car_name": "Corvette Stingray (C3) '69",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 7,
+              "maker_name": "Chevrolet",
+              "car_id": "3449",
+              "car_name": "Corvette C7 ZR1 '19",
+              "engine_name": "LT5-Corvette-C7"
+            }
+          ],
+          "price": 71500,
+          "price_jp": 7150000,
+          "isOld": true
+        },
+        {
+          "maker_id": 43,
+          "maker_name": "Toyota",
+          "car_id": 1044,
+          "car_name": "Sports 800 '65",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 45900,
+          "price_jp": 4590000,
+          "isOld": true
+        },
+        {
+          "maker_id": 12,
+          "maker_name": "Fiat",
+          "car_id": 1527,
+          "car_name": "500 1.2 8V Lounge SS '08",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 12700,
+          "price_jp": 1270000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 116,
+          "maker_name": "Maserati",
+          "car_id": 3489,
+          "car_name": "A6GCS/53 Spyder '54",
+          "car_group": "X",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 3000000,
+          "price_jp": 300000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250414,
       "date": "2025/4/14",
@@ -1322,122 +1416,6 @@
           "engine_swaps": [],
           "price": 20000000,
           "price_jp": 2000000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20250401,
-      "date": "2025/4/1",
-      "used": [
-        {
-          "maker_id": 110,
-          "maker_name": "Ferrari",
-          "car_id": 1410,
-          "car_name": "512 BB '76",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 350000,
-          "price_jp": 35000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 110,
-          "maker_name": "Ferrari",
-          "car_id": 1410,
-          "car_name": "512 BB '76",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 350000,
-          "price_jp": 35000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 48,
-          "car_name": "Fairlady 240ZG (HS30) '71",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 151,
-              "maker_name": "Roadster Shop",
-              "car_id": "3426",
-              "car_name": "Roadster Shop Rampage",
-              "engine_name": "LS7-Rampage"
-            }
-          ],
-          "price": 106400,
-          "price_jp": 10640000,
-          "isOld": true
-        },
-        {
-          "maker_id": 136,
-          "maker_name": "Porsche",
-          "car_id": 3439,
-          "car_name": "911 Carrera RS (993) '95",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 35,
-              "maker_name": "RUF",
-              "car_id": "3398",
-              "car_name": "CTR3 '07",
-              "engine_name": "CTR38-CTR3"
-            }
-          ],
-          "price": 215200,
-          "price_jp": 21520000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 117,
-          "maker_name": "McLaren",
-          "car_id": 3475,
-          "car_name": "MP4/4 '88",
-          "car_group": "X",
-          "country_id": 4,
-          "country_name": "United Kingdom",
-          "country_code": "gb",
-          "engine_swaps": [],
-          "price": 12000000,
-          "price_jp": 1200000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 36,
-          "maker_name": "Shelby",
-          "car_id": 1925,
-          "car_name": "G.T.350 '65",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 13,
-              "maker_name": "Ford",
-              "car_id": "3391",
-              "car_name": "Shelby GT350R '16",
-              "engine_name": "Voodoo-5.2L-GT350R"
-            }
-          ],
-          "price": 455000,
-          "price_jp": 45500000,
           "isOld": true
         }
       ]

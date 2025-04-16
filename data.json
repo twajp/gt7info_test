@@ -1,6 +1,78 @@
 {
-  "timestamp": "2025-04-15T00:11:58.977488+00:00",
+  "timestamp": "2025-04-16T00:10:59.741073+00:00",
   "content": [
+    {
+      "id": 20250416,
+      "date": "2025/4/16",
+      "used": [
+        {
+          "maker_id": 7,
+          "maker_name": "Chevrolet",
+          "car_id": 1542,
+          "car_name": "Corvette Convertible (C3) '69",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 7,
+              "maker_name": "Chevrolet",
+              "car_id": "3449",
+              "car_name": "Corvette C7 ZR1 '19",
+              "engine_name": "LT5-Corvette-C7"
+            }
+          ],
+          "price": 53800,
+          "price_jp": 5380000,
+          "isOld": true
+        },
+        {
+          "maker_id": 112,
+          "maker_name": "Lamborghini",
+          "car_id": 1506,
+          "car_name": "Gallardo LP 560-4 '08",
+          "car_group": null,
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 253400,
+          "price_jp": 25340000,
+          "isOld": false
+        },
+        {
+          "maker_id": 110,
+          "maker_name": "Ferrari",
+          "car_id": 1504,
+          "car_name": "458 Italia '09",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 243100,
+          "price_jp": 24310000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 22,
+          "maker_name": "Mercedes-Benz",
+          "car_id": 3428,
+          "car_name": "S Barker Tourer '29",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 13000000,
+          "price_jp": 1300000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250415,
       "date": "2025/4/15",
@@ -1264,158 +1336,6 @@
           ],
           "price": 30100,
           "price_jp": 3010000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20250402,
-      "date": "2025/4/2",
-      "used": [
-        {
-          "maker_id": 15,
-          "maker_name": "Honda",
-          "car_id": 135,
-          "car_name": "S800 '66",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 15,
-              "maker_name": "Honda",
-              "car_id": "2156",
-              "car_name": "2&4 powered by RC213V",
-              "engine_name": "SE75E-2&4"
-            }
-          ],
-          "price": 42300,
-          "price_jp": 4230000,
-          "isOld": true
-        },
-        {
-          "maker_id": 46,
-          "maker_name": "Volkswagen",
-          "car_id": 1778,
-          "car_name": "Volkswagen 1200 '66",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 136,
-              "maker_name": "Porsche",
-              "car_id": "3431",
-              "car_name": "911 Carrera RS (964) '92",
-              "engine_name": "M64/03-911"
-            }
-          ],
-          "price": 29500,
-          "price_jp": 2950000,
-          "isOld": true
-        },
-        {
-          "maker_id": 46,
-          "maker_name": "Volkswagen",
-          "car_id": 1773,
-          "car_name": "Scirocco R '10",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 38700,
-          "price_jp": 3870000,
-          "isOld": false
-        },
-        {
-          "maker_id": 6,
-          "maker_name": "BMW",
-          "car_id": 3453,
-          "car_name": "M3 '89",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 39,
-              "maker_name": "Suzuki",
-              "car_id": "3508",
-              "car_name": "SUZUKI Vision Gran Turismo (Gr.3 Version)",
-              "engine_name": "V8-Suzuki-VGT-Gr.3"
-            }
-          ],
-          "price": 76900,
-          "price_jp": 7690000,
-          "isOld": true
-        },
-        {
-          "maker_id": 38,
-          "maker_name": "Subaru",
-          "car_id": 379,
-          "car_name": "Impreza Coupe WRX Type R STi Ver.VI '99",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 38,
-              "maker_name": "Subaru",
-              "car_id": "3550",
-              "car_name": "Impreza Rally Car '98",
-              "engine_name": "EJ20-Impreza-Rally"
-            }
-          ],
-          "price": 58900,
-          "price_jp": 5890000,
-          "isOld": true
-        },
-        {
-          "maker_id": 22,
-          "maker_name": "Mercedes-Benz",
-          "car_id": 1528,
-          "car_name": "SLR McLaren '09",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 521900,
-          "price_jp": 52190000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 86,
-          "maker_name": "Alpine",
-          "car_id": 3457,
-          "car_name": "A220 Race Car '68",
-          "car_group": "X",
-          "country_id": 6,
-          "country_name": "France",
-          "country_code": "fr",
-          "engine_swaps": [],
-          "price": 330000,
-          "price_jp": 33000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 110,
-          "maker_name": "Ferrari",
-          "car_id": 1551,
-          "car_name": "330 P4 '67",
-          "car_group": "X",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 20000000,
-          "price_jp": 2000000000,
           "isOld": true
         }
       ]

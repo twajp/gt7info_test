@@ -1,6 +1,91 @@
 {
-  "timestamp": "2025-04-16T00:10:59.741073+00:00",
+  "timestamp": "2025-04-17T00:10:58.590570+00:00",
   "content": [
+    {
+      "id": 20250417,
+      "date": "2025/4/17",
+      "used": [
+        {
+          "maker_id": 32,
+          "maker_name": "Peugeot",
+          "car_id": 3564,
+          "car_name": "205 GTI '88",
+          "car_group": null,
+          "country_id": 6,
+          "country_name": "France",
+          "country_code": "fr",
+          "engine_swaps": [],
+          "price": 70000,
+          "price_jp": 7000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 32,
+          "maker_name": "Peugeot",
+          "car_id": 3564,
+          "car_name": "205 GTI '88",
+          "car_group": null,
+          "country_id": 6,
+          "country_name": "France",
+          "country_code": "fr",
+          "engine_swaps": [],
+          "price": 70000,
+          "price_jp": 7000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 32,
+          "maker_name": "Peugeot",
+          "car_id": 3564,
+          "car_name": "205 GTI '88",
+          "car_group": null,
+          "country_id": 6,
+          "country_name": "France",
+          "country_code": "fr",
+          "engine_swaps": [],
+          "price": 70000,
+          "price_jp": 7000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 293,
+          "car_name": "NSX Type R '92",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 15,
+              "maker_name": "Honda",
+              "car_id": "3348",
+              "car_name": "NSX CONCEPT-GT '16",
+              "engine_name": "HR-414E-NSX"
+            }
+          ],
+          "price": 385600,
+          "price_jp": 38560000,
+          "isOld": true
+        },
+        {
+          "maker_id": 136,
+          "maker_name": "Porsche",
+          "car_id": 3358,
+          "car_name": "911 GT3 (996) '01",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 158500,
+          "price_jp": 15850000,
+          "isOld": false
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20250416,
       "date": "2025/4/16",
@@ -1148,197 +1233,6 @@
       "date": "2025/4/4",
       "used": [],
       "legend": []
-    },
-    {
-      "id": 20250403,
-      "date": "2025/4/3",
-      "used": [
-        {
-          "maker_id": 34,
-          "maker_name": "Renault",
-          "car_id": 173,
-          "car_name": "R5 Turbo '80",
-          "car_group": "N",
-          "country_id": 6,
-          "country_name": "France",
-          "country_code": "fr",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "1448",
-              "car_name": "SILVIA spec-R Aero (S15) '02",
-              "engine_name": "SR20DET-Silvia-S15"
-            }
-          ],
-          "price": 160000,
-          "price_jp": 16000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 919,
-          "car_name": "Silvia Q's (S13) '88",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "1448",
-              "car_name": "SILVIA spec-R Aero (S15) '02",
-              "engine_name": "SR20DET-Silvia-S15"
-            },
-            {
-              "maker_id": 38,
-              "maker_name": "Subaru",
-              "car_id": "3339",
-              "car_name": "BRZ Drift Car '17",
-              "engine_name": "LS7-BRZ"
-            }
-          ],
-          "price": 34200,
-          "price_jp": 3420000,
-          "isOld": true
-        },
-        {
-          "maker_id": 25,
-          "maker_name": "Mitsubishi",
-          "car_id": 211,
-          "car_name": "Lancer Evolution V GSR '98",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 25,
-              "maker_name": "Mitsubishi",
-              "car_id": "3230",
-              "car_name": "Lancer Evolution Final Gr.B Rally Car",
-              "engine_name": "Evo-Final-Gr.B"
-            }
-          ],
-          "price": 65100,
-          "price_jp": 6510000,
-          "isOld": true
-        },
-        {
-          "maker_id": 43,
-          "maker_name": "Toyota",
-          "car_id": 843,
-          "car_name": "Supra 3.0GT Turbo A '88",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 43,
-              "maker_name": "Toyota",
-              "car_id": "82",
-              "car_name": "Supra RZ '97",
-              "engine_name": "2JZ-GTE-Supra"
-            }
-          ],
-          "price": 107400,
-          "price_jp": 10740000,
-          "isOld": true
-        },
-        {
-          "maker_id": 21,
-          "maker_name": "Mazda",
-          "car_id": 205,
-          "car_name": "RX-7 Spirit R Type A (FD) '02",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 21,
-              "maker_name": "Mazda",
-              "car_id": "296",
-              "car_name": "787B '91",
-              "engine_name": "R26B-787B"
-            }
-          ],
-          "price": 224600,
-          "price_jp": 22460000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 136,
-          "maker_name": "Porsche",
-          "car_id": 3509,
-          "car_name": "911 Carrera RS (901) '73",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 136,
-              "maker_name": "Porsche",
-              "car_id": "3519",
-              "car_name": "959 '87",
-              "engine_name": "959.50-959"
-            }
-          ],
-          "price": 799000,
-          "price_jp": 79900000,
-          "isOld": true
-        },
-        {
-          "maker_id": 155,
-          "maker_name": "NISMO",
-          "car_id": 3520,
-          "car_name": "400R '95",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "3345",
-              "car_name": "GT-R NISMO '17",
-              "engine_name": "VR38DETT-GT-R-NISMO"
-            }
-          ],
-          "price": 1600000,
-          "price_jp": 160000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 146,
-          "maker_name": "Jeep",
-          "car_id": 3430,
-          "car_name": "Willys MB '45",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 11,
-              "maker_name": "Dodge",
-              "car_id": "2152",
-              "car_name": "Charger SRT Hellcat '15",
-              "engine_name": "Hellcat-Charger"
-            }
-          ],
-          "price": 30100,
-          "price_jp": 3010000,
-          "isOld": true
-        }
-      ]
     }
   ]
 }

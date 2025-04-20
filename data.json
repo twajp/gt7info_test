@@ -1,6 +1,71 @@
 {
-  "timestamp": "2025-04-19T00:10:37.529849+00:00",
+  "timestamp": "2025-04-20T00:11:54.671340+00:00",
   "content": [
+    {
+      "id": 20250420,
+      "date": "2025/4/20",
+      "used": [
+        {
+          "maker_id": 39,
+          "maker_name": "Suzuki",
+          "car_id": 1385,
+          "car_name": "Swift Sport '07",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 14600,
+          "price_jp": 1460000,
+          "isOld": false
+        },
+        {
+          "maker_id": 46,
+          "maker_name": "Volkswagen",
+          "car_id": 3403,
+          "car_name": "Golf I GTI '83",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [
+            {
+              "maker_id": 5,
+              "maker_name": "Audi",
+              "car_id": "1927",
+              "car_name": "Sport quattro S1 Pikes Peak '87",
+              "engine_name": "R5-20vT-Quattro-Pikes"
+            }
+          ],
+          "price": 41000,
+          "price_jp": 4100000,
+          "isOld": true
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 104,
+          "car_name": "Sileighty '98",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 157,
+              "maker_name": "Garage RCR",
+              "car_id": "3526",
+              "car_name": "Civic",
+              "engine_name": "K24A-Civic"
+            }
+          ],
+          "price": 75200,
+          "price_jp": 7520000,
+          "isOld": true
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20250419,
       "date": "2025/4/19",
@@ -1344,63 +1409,6 @@
           "isOld": true
         }
       ]
-    },
-    {
-      "id": 20250406,
-      "date": "2025/4/6",
-      "used": [
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 1461,
-          "car_name": "Silvia K's Dia Selection (S13) '90",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "1448",
-              "car_name": "SILVIA spec-R Aero (S15) '02",
-              "engine_name": "SR20DET-Silvia-S15"
-            }
-          ],
-          "price": 51900,
-          "price_jp": 5190000,
-          "isOld": true
-        },
-        {
-          "maker_id": 117,
-          "maker_name": "McLaren",
-          "car_id": 1722,
-          "car_name": "MP4-12C '10",
-          "car_group": "N",
-          "country_id": 4,
-          "country_name": "United Kingdom",
-          "country_code": "gb",
-          "engine_swaps": [],
-          "price": 193900,
-          "price_jp": 19390000,
-          "isOld": false
-        },
-        {
-          "maker_id": 153,
-          "maker_name": "AMG",
-          "car_id": 1507,
-          "car_name": "SLS AMG '10",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 320900,
-          "price_jp": 32090000,
-          "isOld": false
-        }
-      ],
-      "legend": []
     }
   ]
 }

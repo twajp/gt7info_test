@@ -1,6 +1,57 @@
 {
-  "timestamp": "2025-04-25T00:11:37.369887+00:00",
+  "timestamp": "2025-04-26T00:11:54.410529+00:00",
   "content": [
+    {
+      "id": 20250426,
+      "date": "2025/4/26",
+      "used": [
+        {
+          "maker_id": 86,
+          "maker_name": "Alpine",
+          "car_id": 1796,
+          "car_name": "A110 '72",
+          "car_group": "N",
+          "country_id": 6,
+          "country_name": "France",
+          "country_code": "fr",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "1448",
+              "car_name": "SILVIA spec-R Aero (S15) '02",
+              "engine_name": "SR20DET-Silvia-S15"
+            }
+          ],
+          "price": 129900,
+          "price_jp": 12990000,
+          "isOld": true
+        },
+        {
+          "maker_id": 57,
+          "maker_name": "Autobianchi",
+          "car_id": 3442,
+          "car_name": "A112 Abarth '85",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [
+            {
+              "maker_id": 157,
+              "maker_name": "Garage RCR",
+              "car_id": "3526",
+              "car_name": "Civic",
+              "engine_name": "K24A-Civic"
+            }
+          ],
+          "price": 29300,
+          "price_jp": 2930000,
+          "isOld": true
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20250425,
       "date": "2025/4/25",
@@ -1238,50 +1289,6 @@
           "engine_swaps": [],
           "price": 1500000,
           "price_jp": 150000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20250412,
-      "date": "2025/4/12",
-      "used": [
-        {
-          "maker_id": 43,
-          "maker_name": "Toyota",
-          "car_id": 63,
-          "car_name": "Corolla Levin 1600GT APEX (AE86) '83",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 43,
-              "maker_name": "Toyota",
-              "car_id": "207",
-              "car_name": "MR2 GT-S '97",
-              "engine_name": "3S-GTE-MR2"
-            }
-          ],
-          "price": 51200,
-          "price_jp": 5120000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 136,
-          "maker_name": "Porsche",
-          "car_id": 3446,
-          "car_name": "Spyder type 550/1500RS '55",
-          "car_group": "X",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 4850000,
-          "price_jp": 485000000,
           "isOld": true
         }
       ]

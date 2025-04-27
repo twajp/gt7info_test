@@ -1,6 +1,42 @@
 {
-  "timestamp": "2025-04-26T00:11:54.410529+00:00",
+  "timestamp": "2025-04-27T00:12:29.422310+00:00",
   "content": [
+    {
+      "id": 20250427,
+      "date": "2025/4/27",
+      "used": [
+        {
+          "maker_id": 5,
+          "maker_name": "Audi",
+          "car_id": 1541,
+          "car_name": "TTS Coupe '09",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 56300,
+          "price_jp": 5630000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 4,
+          "maker_name": "Aston Martin",
+          "car_id": 3445,
+          "car_name": "DB5 '64",
+          "car_group": "N",
+          "country_id": 4,
+          "country_name": "United Kingdom",
+          "country_code": "gb",
+          "engine_swaps": [],
+          "price": 892000,
+          "price_jp": 89200000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250426,
       "date": "2025/4/26",
@@ -1206,92 +1242,6 @@
         }
       ],
       "legend": []
-    },
-    {
-      "id": 20250413,
-      "date": "2025/4/13",
-      "used": [
-        {
-          "maker_id": 125,
-          "maker_name": "Abarth",
-          "car_id": 1973,
-          "car_name": "Abarth 500 '09",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 26400,
-          "price_jp": 2640000,
-          "isOld": false
-        },
-        {
-          "maker_id": 69,
-          "maker_name": "Volvo",
-          "car_id": 3549,
-          "car_name": "240 SE Estate '93",
-          "car_group": "N",
-          "country_id": 12,
-          "country_name": "Sweden",
-          "country_code": "se",
-          "engine_swaps": [],
-          "price": 46600,
-          "price_jp": 4660000,
-          "isOld": true
-        },
-        {
-          "maker_id": 11,
-          "maker_name": "Dodge",
-          "car_id": 3377,
-          "car_name": "Super Bee '70",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [],
-          "price": 70600,
-          "price_jp": 7060000,
-          "isOld": true
-        },
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 102,
-          "car_name": "Skyline GTS-R (R31) '87",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "210",
-              "car_name": "R34 GT-R V-spec II Nur '02",
-              "engine_name": "RB26DETT-GT-R-R34"
-            }
-          ],
-          "price": 166500,
-          "price_jp": 16650000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 15,
-          "maker_name": "Honda",
-          "car_id": 140,
-          "car_name": "NSX GT500 '00",
-          "car_group": "3",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [],
-          "price": 1500000,
-          "price_jp": 150000000,
-          "isOld": true
-        }
-      ]
     }
   ]
 }

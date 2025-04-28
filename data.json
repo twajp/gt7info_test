@@ -1,6 +1,108 @@
 {
-  "timestamp": "2025-04-27T00:12:29.422310+00:00",
+  "timestamp": "2025-04-28T00:11:32.206294+00:00",
   "content": [
+    {
+      "id": 20250428,
+      "date": "2025/4/28",
+      "used": [
+        {
+          "maker_id": 18,
+          "maker_name": "Lancia",
+          "car_id": 829,
+          "car_name": "Delta HF Integrale Evoluzione '91",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "3345",
+              "car_name": "GT-R NISMO '17",
+              "engine_name": "VR38DETT-GT-R-NISMO"
+            }
+          ],
+          "price": 105000,
+          "price_jp": 10500000,
+          "isOld": true
+        },
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 396,
+          "car_name": "NSX Type R '02",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 15,
+              "maker_name": "Honda",
+              "car_id": "3348",
+              "car_name": "NSX CONCEPT-GT '16",
+              "engine_name": "HR-414E-NSX"
+            }
+          ],
+          "price": 447400,
+          "price_jp": 44740000,
+          "isOld": false
+        },
+        {
+          "maker_id": 6,
+          "maker_name": "BMW",
+          "car_id": 1399,
+          "car_name": "M3 '07",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [
+            {
+              "maker_id": 6,
+              "maker_name": "BMW",
+              "car_id": "1902",
+              "car_name": "Z4 GT3 '11",
+              "engine_name": "P65B44-Z4"
+            }
+          ],
+          "price": 70500,
+          "price_jp": 7050000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 43,
+          "maker_name": "Toyota",
+          "car_id": 116,
+          "car_name": "GT-One (TS020) '99",
+          "car_group": null,
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 2500000,
+          "price_jp": 250000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 3493,
+          "car_name": "Skyline Super Silhouette Group 5 '84",
+          "car_group": "3",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 1150000,
+          "price_jp": 115000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250427,
       "date": "2025/4/27",
@@ -1155,93 +1257,6 @@
           "isOld": true
         }
       ]
-    },
-    {
-      "id": 20250414,
-      "date": "2025/4/14",
-      "used": [
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 773,
-          "car_name": "R32 GT-R V-spec II '94",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "954",
-              "car_name": "R92CP '92",
-              "engine_name": "VRH35Z-R92CP"
-            }
-          ],
-          "price": 176500,
-          "price_jp": 17650000,
-          "isOld": true
-        },
-        {
-          "maker_id": 25,
-          "maker_name": "Mitsubishi",
-          "car_id": 301,
-          "car_name": "Lancer Evolution IV GSR '96",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 25,
-              "maker_name": "Mitsubishi",
-              "car_id": "3230",
-              "car_name": "Lancer Evolution Final Gr.B Rally Car",
-              "engine_name": "Evo-Final-Gr.B"
-            }
-          ],
-          "price": 44200,
-          "price_jp": 4420000,
-          "isOld": true
-        },
-        {
-          "maker_id": 7,
-          "maker_name": "Chevrolet",
-          "car_id": 1480,
-          "car_name": "Corvette ZR1 (C6) '09",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 113,
-              "maker_name": "Bugatti",
-              "car_id": "3473",
-              "car_name": "Chiron '16",
-              "engine_name": "8.0-WR16-64v4T-Chiron"
-            }
-          ],
-          "price": 107400,
-          "price_jp": 10740000,
-          "isOld": false
-        },
-        {
-          "maker_id": 5,
-          "maker_name": "Audi",
-          "car_id": 1365,
-          "car_name": "R8 4.2 '07",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 144600,
-          "price_jp": 14460000,
-          "isOld": false
-        }
-      ],
-      "legend": []
     }
   ]
 }

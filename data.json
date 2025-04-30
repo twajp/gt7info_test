@@ -1,6 +1,134 @@
 {
-  "timestamp": "2025-04-29T00:11:52.250203+00:00",
+  "timestamp": "2025-04-30T00:11:47.375158+00:00",
   "content": [
+    {
+      "id": 20250430,
+      "date": "2025/4/30",
+      "used": [
+        {
+          "maker_id": 12,
+          "maker_name": "Fiat",
+          "car_id": 1523,
+          "car_name": "500 F '68",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 18800,
+          "price_jp": 1880000,
+          "isOld": true
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 3513,
+          "car_name": "Silvia K's Type S (S14) '94",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 7,
+              "maker_name": "Chevrolet",
+              "car_id": "3449",
+              "car_name": "Corvette C7 ZR1 '19",
+              "engine_name": "LT5-Corvette-C7"
+            }
+          ],
+          "price": 48800,
+          "price_jp": 4880000,
+          "isOld": true
+        },
+        {
+          "maker_id": 110,
+          "maker_name": "Ferrari",
+          "car_id": 3443,
+          "car_name": "308 GTB '75",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 172000,
+          "price_jp": 17200000,
+          "isOld": true
+        },
+        {
+          "maker_id": 110,
+          "maker_name": "Ferrari",
+          "car_id": 1544,
+          "car_name": "430 Scuderia '07",
+          "car_group": null,
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 370200,
+          "price_jp": 37020000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 22,
+          "maker_name": "Mercedes-Benz",
+          "car_id": 3557,
+          "car_name": "W 196 R '55",
+          "car_group": null,
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 20000000,
+          "price_jp": 2000000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 136,
+          "maker_name": "Porsche",
+          "car_id": 3490,
+          "car_name": "Carrera GTS (904) '64",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 2300000,
+          "price_jp": 230000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 116,
+          "maker_name": "Maserati",
+          "car_id": 3421,
+          "car_name": "Merak SS '80",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 64200,
+          "price_jp": 6420000,
+          "isOld": true
+        },
+        {
+          "maker_id": 43,
+          "maker_name": "Toyota",
+          "car_id": 1470,
+          "car_name": "Supra GT500 '97",
+          "car_group": "3",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 1800000,
+          "price_jp": 180000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250429,
       "date": "2025/4/29",
@@ -288,52 +416,7 @@
     {
       "id": 20250426,
       "date": "2025/4/26",
-      "used": [
-        {
-          "maker_id": 86,
-          "maker_name": "Alpine",
-          "car_id": 1796,
-          "car_name": "A110 '72",
-          "car_group": "N",
-          "country_id": 6,
-          "country_name": "France",
-          "country_code": "fr",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "1448",
-              "car_name": "SILVIA spec-R Aero (S15) '02",
-              "engine_name": "SR20DET-Silvia-S15"
-            }
-          ],
-          "price": 129900,
-          "price_jp": 12990000,
-          "isOld": true
-        },
-        {
-          "maker_id": 57,
-          "maker_name": "Autobianchi",
-          "car_id": 3442,
-          "car_name": "A112 Abarth '85",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [
-            {
-              "maker_id": 157,
-              "maker_name": "Garage RCR",
-              "car_id": "3526",
-              "car_name": "Civic",
-              "engine_name": "K24A-Civic"
-            }
-          ],
-          "price": 29300,
-          "price_jp": 2930000,
-          "isOld": true
-        }
-      ],
+      "used": [],
       "legend": []
     },
     {
@@ -1237,78 +1320,6 @@
         }
       ],
       "legend": []
-    },
-    {
-      "id": 20250416,
-      "date": "2025/4/16",
-      "used": [
-        {
-          "maker_id": 7,
-          "maker_name": "Chevrolet",
-          "car_id": 1542,
-          "car_name": "Corvette Convertible (C3) '69",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 7,
-              "maker_name": "Chevrolet",
-              "car_id": "3449",
-              "car_name": "Corvette C7 ZR1 '19",
-              "engine_name": "LT5-Corvette-C7"
-            }
-          ],
-          "price": 53800,
-          "price_jp": 5380000,
-          "isOld": true
-        },
-        {
-          "maker_id": 112,
-          "maker_name": "Lamborghini",
-          "car_id": 1506,
-          "car_name": "Gallardo LP 560-4 '08",
-          "car_group": null,
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 253400,
-          "price_jp": 25340000,
-          "isOld": false
-        },
-        {
-          "maker_id": 110,
-          "maker_name": "Ferrari",
-          "car_id": 1504,
-          "car_name": "458 Italia '09",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 243100,
-          "price_jp": 24310000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 22,
-          "maker_name": "Mercedes-Benz",
-          "car_id": 3428,
-          "car_name": "S Barker Tourer '29",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 13000000,
-          "price_jp": 1300000000,
-          "isOld": true
-        }
-      ]
     }
   ]
 }

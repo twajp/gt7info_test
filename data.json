@@ -1,6 +1,57 @@
 {
-  "timestamp": "2025-05-04T00:12:32.630139+00:00",
+  "timestamp": "2025-05-05T00:11:55.389203+00:00",
   "content": [
+    {
+      "id": 20250505,
+      "date": "2025/5/5",
+      "used": [
+        {
+          "maker_id": 25,
+          "maker_name": "Mitsubishi",
+          "car_id": 931,
+          "car_name": "Lancer Evolution III GSR '95",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 25,
+              "maker_name": "Mitsubishi",
+              "car_id": "3230",
+              "car_name": "Lancer Evolution Final Gr.B Rally Car",
+              "engine_name": "Evo-Final-Gr.B"
+            }
+          ],
+          "price": 92200,
+          "price_jp": 9220000,
+          "isOld": true
+        },
+        {
+          "maker_id": 44,
+          "maker_name": "TVR",
+          "car_id": 187,
+          "car_name": "Tuscan Speed 6 '00",
+          "car_group": "N",
+          "country_id": 4,
+          "country_name": "United Kingdom",
+          "country_code": "gb",
+          "engine_swaps": [
+            {
+              "maker_id": 7,
+              "maker_name": "Chevrolet",
+              "car_id": "3387",
+              "car_name": "Camaro ZL1 1LE Package '18",
+              "engine_name": "LT4-Camaro"
+            }
+          ],
+          "price": 71700,
+          "price_jp": 7170000,
+          "isOld": true
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20250504,
       "date": "2025/5/4",
@@ -1219,86 +1270,6 @@
           ],
           "price": 3100000,
           "price_jp": 310000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20250421,
-      "date": "2025/4/21",
-      "used": [
-        {
-          "maker_id": 3,
-          "maker_name": "Alfa Romeo",
-          "car_id": 3530,
-          "car_name": "Giulia Sprint GT Veloce '67",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [
-            {
-              "maker_id": 157,
-              "maker_name": "Garage RCR",
-              "car_id": "3526",
-              "car_name": "Civic",
-              "engine_name": "K24A-Civic"
-            }
-          ],
-          "price": 166200,
-          "price_jp": 16620000,
-          "isOld": true
-        },
-        {
-          "maker_id": 13,
-          "maker_name": "Ford",
-          "car_id": 3555,
-          "car_name": "Escort RS Cosworth '92",
-          "car_group": null,
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 13,
-              "maker_name": "Ford",
-              "car_id": "3264",
-              "car_name": "Focus Gr.B Rally Car",
-              "engine_name": "L4-Focus-Gr.B"
-            }
-          ],
-          "price": 129000,
-          "price_jp": 12900000,
-          "isOld": true
-        },
-        {
-          "maker_id": 43,
-          "maker_name": "Toyota",
-          "car_id": 3471,
-          "car_name": "Celica GT-Four (ST205) '94",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [],
-          "price": 78100,
-          "price_jp": 7810000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 17,
-          "maker_name": "Jaguar",
-          "car_id": 1553,
-          "car_name": "XJ13 '66",
-          "car_group": "X",
-          "country_id": 4,
-          "country_name": "United Kingdom",
-          "country_code": "gb",
-          "engine_swaps": [],
-          "price": 12000000,
-          "price_jp": 1200000000,
           "isOld": true
         }
       ]

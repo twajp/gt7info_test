@@ -1,6 +1,146 @@
 {
-  "timestamp": "2025-05-07T00:12:02.369538+00:00",
+  "timestamp": "2025-05-08T00:11:56.101049+00:00",
   "content": [
+    {
+      "id": 20250508,
+      "date": "2025/5/8",
+      "used": [
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 3563,
+          "car_name": "Civic Si Extra (EF) '87",
+          "car_group": null,
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 15,
+              "maker_name": "Honda",
+              "car_id": "203",
+              "car_name": "Integra Type R (DC2) '98",
+              "engine_name": "B18C-Integra-'98"
+            }
+          ],
+          "price": 70000,
+          "price_jp": 7000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 37,
+          "car_name": "Civic SiR-II (EG) '93",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 15,
+              "maker_name": "Honda",
+              "car_id": "203",
+              "car_name": "Integra Type R (DC2) '98",
+              "engine_name": "B18C-Integra-'98"
+            }
+          ],
+          "price": 60000,
+          "price_jp": 6000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 821,
+          "car_name": "Civic Type R (EK) '97",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 157,
+              "maker_name": "Garage RCR",
+              "car_id": "3526",
+              "car_name": "Civic",
+              "engine_name": "K24A-Civic"
+            }
+          ],
+          "price": 65000,
+          "price_jp": 6500000,
+          "isOld": true
+        },
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 204,
+          "car_name": "Civic Type R (EK) '98",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 15,
+              "maker_name": "Honda",
+              "car_id": "3467",
+              "car_name": "Civic Type R Limited Edition (FK8) '20",
+              "engine_name": "K20C1-Civic-'20"
+            }
+          ],
+          "price": 65000,
+          "price_jp": 6500000,
+          "isOld": true
+        },
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 1689,
+          "car_name": "Civic Type R (EK) Touring Car",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 157,
+              "maker_name": "Garage RCR",
+              "car_id": "3526",
+              "car_name": "Civic",
+              "engine_name": "K24A-Civic"
+            }
+          ],
+          "price": 140000,
+          "price_jp": 14000000,
+          "isOld": null
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 17,
+          "maker_name": "Jaguar",
+          "car_id": 543,
+          "car_name": "XJ220 '92",
+          "car_group": "N",
+          "country_id": 4,
+          "country_name": "United Kingdom",
+          "country_code": "gb",
+          "engine_swaps": [
+            {
+              "maker_id": 17,
+              "maker_name": "Jaguar",
+              "car_id": "1067",
+              "car_name": "XJR-9 '88",
+              "engine_name": "V12-XJR-9"
+            }
+          ],
+          "price": 554000,
+          "price_jp": 55400000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250507,
       "date": "2025/5/7",
@@ -1144,71 +1284,6 @@
           "isOld": true
         }
       ]
-    },
-    {
-      "id": 20250424,
-      "date": "2025/4/24",
-      "used": [
-        {
-          "maker_id": 110,
-          "maker_name": "Ferrari",
-          "car_id": 1410,
-          "car_name": "512 BB '76",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 291000,
-          "price_jp": 29100000,
-          "isOld": true
-        },
-        {
-          "maker_id": 43,
-          "maker_name": "Toyota",
-          "car_id": 82,
-          "car_name": "Supra RZ '97",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 30,
-              "maker_name": "Pagani",
-              "car_id": "2050",
-              "car_name": "Huayra '13",
-              "engine_name": "M158-AMG-Huayra"
-            }
-          ],
-          "price": 185300,
-          "price_jp": 18530000,
-          "isOld": true
-        },
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 1384,
-          "car_name": "Fairlady Z Version S (Z33) '07",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "210",
-              "car_name": "R34 GT-R V-spec II Nur '02",
-              "engine_name": "RB26DETT-GT-R-R34"
-            }
-          ],
-          "price": 27900,
-          "price_jp": 2790000,
-          "isOld": false
-        }
-      ],
-      "legend": []
     }
   ]
 }

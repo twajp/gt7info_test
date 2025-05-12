@@ -1,54 +1,6 @@
 {
-  "timestamp": "2025-05-11T00:12:57.716598+00:00",
+  "timestamp": "2025-05-12T00:12:35.315422+00:00",
   "used": {
-    "3439": {
-      "maker_id": 136,
-      "maker_name": "Porsche",
-      "car_id": 3439,
-      "car_name": "911 Carrera RS (993) '95",
-      "car_group": "N",
-      "country_id": 5,
-      "country_name": "Germany",
-      "country_code": "de",
-      "engine_swaps": [
-        {
-          "maker_id": 35,
-          "maker_name": "RUF",
-          "car_id": "3398",
-          "car_name": "CTR3 '07",
-          "engine_name": "CTR38-CTR3"
-        }
-      ],
-      "price": 215200,
-      "price_jp": 21520000,
-      "isOld": true,
-      "lastSeen": "2025/04/08",
-      "sinceLastSeen": 33
-    },
-    "451": {
-      "maker_id": 38,
-      "maker_name": "Subaru",
-      "car_id": 451,
-      "car_name": "Impreza 22B-STi '98",
-      "car_group": "N",
-      "country_id": 2,
-      "country_name": "Japan",
-      "country_code": "jp",
-      "engine_swaps": [
-        {
-          "maker_id": 38,
-          "maker_name": "Subaru",
-          "car_id": "3550",
-          "car_name": "Impreza Rally Car '98",
-          "engine_name": "EJ20-Impreza-Rally"
-        }
-      ],
-      "price": 166400,
-      "price_jp": 16640000,
-      "isOld": true,
-      "lastSeen": "2025/04/08",
-      "sinceLastSeen": 33
-    },
     "205": {
       "maker_id": 21,
       "maker_name": "Mazda",
@@ -71,7 +23,7 @@
       "price_jp": 22460000,
       "isOld": false,
       "lastSeen": "2025/04/09",
-      "sinceLastSeen": 32
+      "sinceLastSeen": 33
     },
     "1528": {
       "maker_id": 22,
@@ -87,47 +39,7 @@
       "price_jp": 52190000,
       "isOld": false,
       "lastSeen": "2025/04/09",
-      "sinceLastSeen": 32
-    },
-    "203": {
-      "maker_id": 15,
-      "maker_name": "Honda",
-      "car_id": 203,
-      "car_name": "Integra Type R (DC2) '98",
-      "car_group": "N",
-      "country_id": 2,
-      "country_name": "Japan",
-      "country_code": "jp",
-      "engine_swaps": [
-        {
-          "maker_id": 15,
-          "maker_name": "Honda",
-          "car_id": "3467",
-          "car_name": "Civic Type R Limited Edition (FK8) '20",
-          "engine_name": "K20C1-Civic-'20"
-        }
-      ],
-      "price": 67300,
-      "price_jp": 6730000,
-      "isOld": true,
-      "lastSeen": "2025/04/09",
-      "sinceLastSeen": 32
-    },
-    "1537": {
-      "maker_id": 43,
-      "maker_name": "Toyota",
-      "car_id": 1537,
-      "car_name": "Prius G '09",
-      "car_group": "N",
-      "country_id": 2,
-      "country_name": "Japan",
-      "country_code": "jp",
-      "engine_swaps": [],
-      "price": 20000,
-      "price_jp": 2000000,
-      "isOld": false,
-      "lastSeen": "2025/04/11",
-      "sinceLastSeen": 30
+      "sinceLastSeen": 33
     },
     "211": {
       "maker_id": 25,
@@ -151,38 +63,7 @@
       "price_jp": 6510000,
       "isOld": true,
       "lastSeen": "2025/04/11",
-      "sinceLastSeen": 30
-    },
-    "919": {
-      "maker_id": 28,
-      "maker_name": "Nissan",
-      "car_id": 919,
-      "car_name": "Silvia Q's (S13) '88",
-      "car_group": "N",
-      "country_id": 2,
-      "country_name": "Japan",
-      "country_code": "jp",
-      "engine_swaps": [
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": "1448",
-          "car_name": "SILVIA spec-R Aero (S15) '02",
-          "engine_name": "SR20DET-Silvia-S15"
-        },
-        {
-          "maker_id": 38,
-          "maker_name": "Subaru",
-          "car_id": "3339",
-          "car_name": "BRZ Drift Car '17",
-          "engine_name": "LS7-BRZ"
-        }
-      ],
-      "price": 34200,
-      "price_jp": 3420000,
-      "isOld": true,
-      "lastSeen": "2025/04/11",
-      "sinceLastSeen": 30
+      "sinceLastSeen": 31
     },
     "379": {
       "maker_id": 38,
@@ -206,7 +87,7 @@
       "price_jp": 5890000,
       "isOld": true,
       "lastSeen": "2025/04/11",
-      "sinceLastSeen": 30
+      "sinceLastSeen": 31
     },
     "1507": {
       "maker_id": 153,
@@ -222,7 +103,7 @@
       "price_jp": 32090000,
       "isOld": false,
       "lastSeen": "2025/04/12",
-      "sinceLastSeen": 29
+      "sinceLastSeen": 30
     },
     "1578": {
       "maker_id": 3,
@@ -238,7 +119,7 @@
       "price_jp": 30130000,
       "isOld": false,
       "lastSeen": "2025/04/12",
-      "sinceLastSeen": 29
+      "sinceLastSeen": 30
     },
     "843": {
       "maker_id": 43,
@@ -262,47 +143,7 @@
       "price_jp": 10740000,
       "isOld": true,
       "lastSeen": "2025/04/12",
-      "sinceLastSeen": 29
-    },
-    "3547": {
-      "maker_id": 34,
-      "maker_name": "Renault",
-      "car_id": 3547,
-      "car_name": "R4 GTL '85",
-      "car_group": "N",
-      "country_id": 6,
-      "country_name": "France",
-      "country_code": "fr",
-      "engine_swaps": [],
-      "price": 26600,
-      "price_jp": 2660000,
-      "isOld": true,
-      "lastSeen": "2025/04/13",
-      "sinceLastSeen": 28
-    },
-    "1461": {
-      "maker_id": 28,
-      "maker_name": "Nissan",
-      "car_id": 1461,
-      "car_name": "Silvia K's Dia Selection (S13) '90",
-      "car_group": "N",
-      "country_id": 2,
-      "country_name": "Japan",
-      "country_code": "jp",
-      "engine_swaps": [
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": "1448",
-          "car_name": "SILVIA spec-R Aero (S15) '02",
-          "engine_name": "SR20DET-Silvia-S15"
-        }
-      ],
-      "price": 51900,
-      "price_jp": 5190000,
-      "isOld": true,
-      "lastSeen": "2025/04/13",
-      "sinceLastSeen": 28
+      "sinceLastSeen": 30
     },
     "78": {
       "maker_id": 28,
@@ -326,7 +167,7 @@
       "price_jp": 5910000,
       "isOld": true,
       "lastSeen": "2025/04/14",
-      "sinceLastSeen": 27
+      "sinceLastSeen": 28
     },
     "1539": {
       "maker_id": 116,
@@ -342,7 +183,7 @@
       "price_jp": 14600000,
       "isOld": false,
       "lastSeen": "2025/04/14",
-      "sinceLastSeen": 27
+      "sinceLastSeen": 28
     },
     "1722": {
       "maker_id": 117,
@@ -358,7 +199,7 @@
       "price_jp": 19390000,
       "isOld": false,
       "lastSeen": "2025/04/14",
-      "sinceLastSeen": 27
+      "sinceLastSeen": 28
     },
     "1893": {
       "maker_id": 6,
@@ -374,7 +215,7 @@
       "price_jp": 25900000,
       "isOld": false,
       "lastSeen": "2025/04/15",
-      "sinceLastSeen": 26
+      "sinceLastSeen": 27
     },
     "3422": {
       "maker_id": 6,
@@ -398,7 +239,7 @@
       "price_jp": 21120000,
       "isOld": true,
       "lastSeen": "2025/04/16",
-      "sinceLastSeen": 25
+      "sinceLastSeen": 26
     },
     "374": {
       "maker_id": 21,
@@ -422,7 +263,7 @@
       "price_jp": 6020000,
       "isOld": true,
       "lastSeen": "2025/04/17",
-      "sinceLastSeen": 24
+      "sinceLastSeen": 25
     },
     "942": {
       "maker_id": 7,
@@ -446,7 +287,7 @@
       "price_jp": 7890000,
       "isOld": true,
       "lastSeen": "2025/04/17",
-      "sinceLastSeen": 24
+      "sinceLastSeen": 25
     },
     "201": {
       "maker_id": 21,
@@ -470,7 +311,7 @@
       "price_jp": 3120000,
       "isOld": true,
       "lastSeen": "2025/04/17",
-      "sinceLastSeen": 24
+      "sinceLastSeen": 25
     },
     "3551": {
       "maker_id": 6,
@@ -494,7 +335,7 @@
       "price_jp": 7280000,
       "isOld": true,
       "lastSeen": "2025/04/17",
-      "sinceLastSeen": 24
+      "sinceLastSeen": 25
     },
     "3404": {
       "maker_id": 136,
@@ -510,7 +351,7 @@
       "price_jp": 41590000,
       "isOld": true,
       "lastSeen": "2025/04/17",
-      "sinceLastSeen": 24
+      "sinceLastSeen": 25
     },
     "137": {
       "maker_id": 15,
@@ -534,7 +375,7 @@
       "price_jp": 1590000,
       "isOld": true,
       "lastSeen": "2025/04/18",
-      "sinceLastSeen": 23
+      "sinceLastSeen": 24
     },
     "1729": {
       "maker_id": 13,
@@ -558,7 +399,7 @@
       "price_jp": 3750000,
       "isOld": true,
       "lastSeen": "2025/04/18",
-      "sinceLastSeen": 23
+      "sinceLastSeen": 24
     },
     "1671": {
       "maker_id": 46,
@@ -582,7 +423,7 @@
       "price_jp": 5560000,
       "isOld": true,
       "lastSeen": "2025/04/18",
-      "sinceLastSeen": 23
+      "sinceLastSeen": 24
     },
     "3549": {
       "maker_id": 69,
@@ -598,7 +439,7 @@
       "price_jp": 4660000,
       "isOld": true,
       "lastSeen": "2025/04/19",
-      "sinceLastSeen": 22
+      "sinceLastSeen": 23
     },
     "1895": {
       "maker_id": 110,
@@ -614,7 +455,7 @@
       "price_jp": 35230000,
       "isOld": true,
       "lastSeen": "2025/04/19",
-      "sinceLastSeen": 22
+      "sinceLastSeen": 23
     },
     "3384": {
       "maker_id": 25,
@@ -645,7 +486,7 @@
       "price_jp": 4500000,
       "isOld": true,
       "lastSeen": "2025/04/19",
-      "sinceLastSeen": 22
+      "sinceLastSeen": 23
     },
     "3377": {
       "maker_id": 11,
@@ -661,7 +502,7 @@
       "price_jp": 7060000,
       "isOld": true,
       "lastSeen": "2025/04/20",
-      "sinceLastSeen": 21
+      "sinceLastSeen": 22
     },
     "1973": {
       "maker_id": 125,
@@ -677,7 +518,7 @@
       "price_jp": 2640000,
       "isOld": false,
       "lastSeen": "2025/04/20",
-      "sinceLastSeen": 21
+      "sinceLastSeen": 22
     },
     "63": {
       "maker_id": 43,
@@ -701,7 +542,7 @@
       "price_jp": 5120000,
       "isOld": true,
       "lastSeen": "2025/04/20",
-      "sinceLastSeen": 21
+      "sinceLastSeen": 22
     },
     "1402": {
       "maker_id": 11,
@@ -717,7 +558,7 @@
       "price_jp": 11400000,
       "isOld": false,
       "lastSeen": "2025/04/20",
-      "sinceLastSeen": 21
+      "sinceLastSeen": 22
     },
     "773": {
       "maker_id": 28,
@@ -741,7 +582,7 @@
       "price_jp": 17650000,
       "isOld": true,
       "lastSeen": "2025/04/21",
-      "sinceLastSeen": 20
+      "sinceLastSeen": 21
     },
     "301": {
       "maker_id": 25,
@@ -765,7 +606,7 @@
       "price_jp": 4420000,
       "isOld": true,
       "lastSeen": "2025/04/21",
-      "sinceLastSeen": 20
+      "sinceLastSeen": 21
     },
     "102": {
       "maker_id": 28,
@@ -789,7 +630,7 @@
       "price_jp": 16650000,
       "isOld": true,
       "lastSeen": "2025/04/21",
-      "sinceLastSeen": 20
+      "sinceLastSeen": 21
     },
     "1506": {
       "maker_id": 112,
@@ -805,7 +646,7 @@
       "price_jp": 25340000,
       "isOld": false,
       "lastSeen": "2025/04/22",
-      "sinceLastSeen": 19
+      "sinceLastSeen": 20
     },
     "1480": {
       "maker_id": 7,
@@ -829,7 +670,7 @@
       "price_jp": 10740000,
       "isOld": false,
       "lastSeen": "2025/04/22",
-      "sinceLastSeen": 19
+      "sinceLastSeen": 20
     },
     "1365": {
       "maker_id": 5,
@@ -845,7 +686,7 @@
       "price_jp": 14460000,
       "isOld": false,
       "lastSeen": "2025/04/22",
-      "sinceLastSeen": 19
+      "sinceLastSeen": 20
     },
     "293": {
       "maker_id": 15,
@@ -869,7 +710,7 @@
       "price_jp": 38560000,
       "isOld": true,
       "lastSeen": "2025/04/23",
-      "sinceLastSeen": 18
+      "sinceLastSeen": 19
     },
     "1542": {
       "maker_id": 7,
@@ -893,7 +734,7 @@
       "price_jp": 5380000,
       "isOld": true,
       "lastSeen": "2025/04/23",
-      "sinceLastSeen": 18
+      "sinceLastSeen": 19
     },
     "1504": {
       "maker_id": 110,
@@ -909,7 +750,7 @@
       "price_jp": 24310000,
       "isOld": false,
       "lastSeen": "2025/04/23",
-      "sinceLastSeen": 18
+      "sinceLastSeen": 19
     },
     "1527": {
       "maker_id": 12,
@@ -925,7 +766,7 @@
       "price_jp": 1270000,
       "isOld": false,
       "lastSeen": "2025/04/23",
-      "sinceLastSeen": 18
+      "sinceLastSeen": 19
     },
     "1044": {
       "maker_id": 43,
@@ -941,7 +782,7 @@
       "price_jp": 4590000,
       "isOld": true,
       "lastSeen": "2025/04/24",
-      "sinceLastSeen": 17
+      "sinceLastSeen": 18
     },
     "3403": {
       "maker_id": 46,
@@ -965,7 +806,7 @@
       "price_jp": 4100000,
       "isOld": true,
       "lastSeen": "2025/04/26",
-      "sinceLastSeen": 15
+      "sinceLastSeen": 16
     },
     "3359": {
       "maker_id": 136,
@@ -989,7 +830,7 @@
       "price_jp": 13990000,
       "isOld": false,
       "lastSeen": "2025/04/26",
-      "sinceLastSeen": 15
+      "sinceLastSeen": 16
     },
     "799": {
       "maker_id": 25,
@@ -1013,7 +854,7 @@
       "price_jp": 6240000,
       "isOld": false,
       "lastSeen": "2025/04/26",
-      "sinceLastSeen": 15
+      "sinceLastSeen": 16
     },
     "3434": {
       "maker_id": 110,
@@ -1029,7 +870,7 @@
       "price_jp": 45000000,
       "isOld": true,
       "lastSeen": "2025/04/27",
-      "sinceLastSeen": 14
+      "sinceLastSeen": 15
     },
     "1508": {
       "maker_id": 25,
@@ -1053,7 +894,7 @@
       "price_jp": 16360000,
       "isOld": true,
       "lastSeen": "2025/04/27",
-      "sinceLastSeen": 14
+      "sinceLastSeen": 15
     },
     "145": {
       "maker_id": 10,
@@ -1069,7 +910,7 @@
       "price_jp": 1400000,
       "isOld": false,
       "lastSeen": "2025/04/27",
-      "sinceLastSeen": 14
+      "sinceLastSeen": 15
     },
     "1545": {
       "maker_id": 112,
@@ -1085,7 +926,7 @@
       "price_jp": 34300000,
       "isOld": false,
       "lastSeen": "2025/04/28",
-      "sinceLastSeen": 13
+      "sinceLastSeen": 14
     },
     "3555": {
       "maker_id": 13,
@@ -1109,7 +950,7 @@
       "price_jp": 12900000,
       "isOld": true,
       "lastSeen": "2025/04/28",
-      "sinceLastSeen": 13
+      "sinceLastSeen": 14
     },
     "1385": {
       "maker_id": 39,
@@ -1125,7 +966,7 @@
       "price_jp": 1460000,
       "isOld": false,
       "lastSeen": "2025/04/28",
-      "sinceLastSeen": 13
+      "sinceLastSeen": 14
     },
     "1985": {
       "maker_id": 52,
@@ -1149,7 +990,7 @@
       "price_jp": 9600000,
       "isOld": true,
       "lastSeen": "2025/04/28",
-      "sinceLastSeen": 13
+      "sinceLastSeen": 14
     },
     "1027": {
       "maker_id": 65,
@@ -1173,7 +1014,7 @@
       "price_jp": 42820000,
       "isOld": false,
       "lastSeen": "2025/04/29",
-      "sinceLastSeen": 12
+      "sinceLastSeen": 13
     },
     "3471": {
       "maker_id": 43,
@@ -1189,7 +1030,7 @@
       "price_jp": 7810000,
       "isOld": true,
       "lastSeen": "2025/04/29",
-      "sinceLastSeen": 12
+      "sinceLastSeen": 13
     },
     "3530": {
       "maker_id": 3,
@@ -1213,7 +1054,7 @@
       "price_jp": 16620000,
       "isOld": true,
       "lastSeen": "2025/04/29",
-      "sinceLastSeen": 12
+      "sinceLastSeen": 13
     },
     "104": {
       "maker_id": 28,
@@ -1237,7 +1078,7 @@
       "price_jp": 7520000,
       "isOld": true,
       "lastSeen": "2025/04/29",
-      "sinceLastSeen": 12
+      "sinceLastSeen": 13
     },
     "533": {
       "maker_id": 18,
@@ -1253,7 +1094,7 @@
       "price_jp": 50530000,
       "isOld": true,
       "lastSeen": "2025/04/29",
-      "sinceLastSeen": 12
+      "sinceLastSeen": 13
     },
     "3358": {
       "maker_id": 136,
@@ -1269,7 +1110,7 @@
       "price_jp": 15850000,
       "isOld": false,
       "lastSeen": "2025/04/30",
-      "sinceLastSeen": 11
+      "sinceLastSeen": 12
     },
     "82": {
       "maker_id": 43,
@@ -1293,7 +1134,7 @@
       "price_jp": 18530000,
       "isOld": true,
       "lastSeen": "2025/04/30",
-      "sinceLastSeen": 11
+      "sinceLastSeen": 12
     },
     "1384": {
       "maker_id": 28,
@@ -1317,7 +1158,7 @@
       "price_jp": 2790000,
       "isOld": false,
       "lastSeen": "2025/04/30",
-      "sinceLastSeen": 11
+      "sinceLastSeen": 12
     },
     "1370": {
       "maker_id": 51,
@@ -1341,7 +1182,7 @@
       "price_jp": 2110000,
       "isOld": false,
       "lastSeen": "2025/04/30",
-      "sinceLastSeen": 11
+      "sinceLastSeen": 12
     },
     "1458": {
       "maker_id": 28,
@@ -1365,7 +1206,7 @@
       "price_jp": 3530000,
       "isOld": false,
       "lastSeen": "2025/04/30",
-      "sinceLastSeen": 11
+      "sinceLastSeen": 12
     },
     "24": {
       "maker_id": 28,
@@ -1389,7 +1230,7 @@
       "price_jp": 4880000,
       "isOld": true,
       "lastSeen": "2025/04/30",
-      "sinceLastSeen": 11
+      "sinceLastSeen": 12
     },
     "3356": {
       "maker_id": 51,
@@ -1413,7 +1254,7 @@
       "price_jp": 4010000,
       "isOld": true,
       "lastSeen": "2025/04/30",
-      "sinceLastSeen": 11
+      "sinceLastSeen": 12
     },
     "1796": {
       "maker_id": 86,
@@ -1437,7 +1278,7 @@
       "price_jp": 12990000,
       "isOld": true,
       "lastSeen": "2025/05/01",
-      "sinceLastSeen": 10
+      "sinceLastSeen": 11
     },
     "1410": {
       "maker_id": 110,
@@ -1453,7 +1294,7 @@
       "price_jp": 29100000,
       "isOld": true,
       "lastSeen": "2025/05/01",
-      "sinceLastSeen": 10
+      "sinceLastSeen": 11
     },
     "334": {
       "maker_id": 34,
@@ -1469,7 +1310,7 @@
       "price_jp": 7500000,
       "isOld": true,
       "lastSeen": "2025/05/01",
-      "sinceLastSeen": 10
+      "sinceLastSeen": 11
     },
     "959": {
       "maker_id": 5,
@@ -1485,7 +1326,7 @@
       "price_jp": 4210000,
       "isOld": false,
       "lastSeen": "2025/05/03",
-      "sinceLastSeen": 8
+      "sinceLastSeen": 9
     },
     "1426": {
       "maker_id": 13,
@@ -1509,7 +1350,7 @@
       "price_jp": 41020000,
       "isOld": false,
       "lastSeen": "2025/05/03",
-      "sinceLastSeen": 8
+      "sinceLastSeen": 9
     },
     "3385": {
       "maker_id": 136,
@@ -1533,7 +1374,7 @@
       "price_jp": 25000000,
       "isOld": true,
       "lastSeen": "2025/05/04",
-      "sinceLastSeen": 7
+      "sinceLastSeen": 8
     },
     "1541": {
       "maker_id": 5,
@@ -1549,7 +1390,7 @@
       "price_jp": 5630000,
       "isOld": false,
       "lastSeen": "2025/05/04",
-      "sinceLastSeen": 7
+      "sinceLastSeen": 8
     },
     "3513": {
       "maker_id": 28,
@@ -1573,7 +1414,7 @@
       "price_jp": 4880000,
       "isOld": true,
       "lastSeen": "2025/05/05",
-      "sinceLastSeen": 6
+      "sinceLastSeen": 7
     },
     "709": {
       "maker_id": 28,
@@ -1597,7 +1438,7 @@
       "price_jp": 5330000,
       "isOld": true,
       "lastSeen": "2025/05/05",
-      "sinceLastSeen": 6
+      "sinceLastSeen": 7
     },
     "1399": {
       "maker_id": 6,
@@ -1621,7 +1462,7 @@
       "price_jp": 7050000,
       "isOld": false,
       "lastSeen": "2025/05/05",
-      "sinceLastSeen": 6
+      "sinceLastSeen": 7
     },
     "810": {
       "maker_id": 43,
@@ -1645,7 +1486,7 @@
       "price_jp": 4820000,
       "isOld": true,
       "lastSeen": "2025/05/05",
-      "sinceLastSeen": 6
+      "sinceLastSeen": 7
     },
     "41": {
       "maker_id": 7,
@@ -1669,7 +1510,7 @@
       "price_jp": 6240000,
       "isOld": true,
       "lastSeen": "2025/05/07",
-      "sinceLastSeen": 4
+      "sinceLastSeen": 5
     },
     "207": {
       "maker_id": 43,
@@ -1693,7 +1534,7 @@
       "price_jp": 5760000,
       "isOld": true,
       "lastSeen": "2025/05/07",
-      "sinceLastSeen": 4
+      "sinceLastSeen": 5
     },
     "3442": {
       "maker_id": 57,
@@ -1717,7 +1558,7 @@
       "price_jp": 2930000,
       "isOld": true,
       "lastSeen": "2025/05/07",
-      "sinceLastSeen": 4
+      "sinceLastSeen": 5
     },
     "1373": {
       "maker_id": 11,
@@ -1733,7 +1574,7 @@
       "price_jp": 10320000,
       "isOld": false,
       "lastSeen": "2025/05/07",
-      "sinceLastSeen": 4
+      "sinceLastSeen": 5
     },
     "3431": {
       "maker_id": 136,
@@ -1757,7 +1598,7 @@
       "price_jp": 22310000,
       "isOld": true,
       "lastSeen": "2025/05/08",
-      "sinceLastSeen": 3
+      "sinceLastSeen": 4
     },
     "1378": {
       "maker_id": 110,
@@ -1773,7 +1614,7 @@
       "price_jp": 19760000,
       "isOld": false,
       "lastSeen": "2025/05/08",
-      "sinceLastSeen": 3
+      "sinceLastSeen": 4
     },
     "3438": {
       "maker_id": 125,
@@ -1797,7 +1638,7 @@
       "price_jp": 4890000,
       "isOld": true,
       "lastSeen": "2025/05/08",
-      "sinceLastSeen": 3
+      "sinceLastSeen": 4
     },
     "1523": {
       "maker_id": 12,
@@ -1813,7 +1654,7 @@
       "price_jp": 1880000,
       "isOld": true,
       "lastSeen": "2025/05/08",
-      "sinceLastSeen": 3
+      "sinceLastSeen": 4
     },
     "396": {
       "maker_id": 15,
@@ -1837,7 +1678,7 @@
       "price_jp": 44740000,
       "isOld": false,
       "lastSeen": "2025/05/08",
-      "sinceLastSeen": 3
+      "sinceLastSeen": 4
     },
     "3524": {
       "maker_id": 28,
@@ -1861,7 +1702,7 @@
       "price_jp": 39610000,
       "isOld": true,
       "lastSeen": "2025/05/09",
-      "sinceLastSeen": 2
+      "sinceLastSeen": 3
     },
     "3341": {
       "maker_id": 140,
@@ -1885,7 +1726,7 @@
       "price_jp": 17900000,
       "isOld": true,
       "lastSeen": "2025/05/09",
-      "sinceLastSeen": 2
+      "sinceLastSeen": 3
     },
     "3564": {
       "maker_id": 32,
@@ -1901,7 +1742,7 @@
       "price_jp": 5930000,
       "isOld": true,
       "lastSeen": "2025/05/10",
-      "sinceLastSeen": 1
+      "sinceLastSeen": 2
     },
     "3389": {
       "maker_id": 6,
@@ -1925,7 +1766,7 @@
       "price_jp": 6930000,
       "isOld": false,
       "lastSeen": "2025/05/10",
-      "sinceLastSeen": 1
+      "sinceLastSeen": 2
     },
     "1448": {
       "maker_id": 28,
@@ -1949,7 +1790,7 @@
       "price_jp": 5870000,
       "isOld": false,
       "lastSeen": "2025/05/10",
-      "sinceLastSeen": 1
+      "sinceLastSeen": 2
     },
     "3454": {
       "maker_id": 6,
@@ -1965,7 +1806,7 @@
       "price_jp": 14090000,
       "isOld": true,
       "lastSeen": "2025/05/10",
-      "sinceLastSeen": 1
+      "sinceLastSeen": 2
     },
     "688": {
       "maker_id": 15,
@@ -1989,7 +1830,7 @@
       "price_jp": 5890000,
       "isOld": true,
       "lastSeen": "2025/05/10",
-      "sinceLastSeen": 1
+      "sinceLastSeen": 2
     },
     "829": {
       "maker_id": 18,
@@ -2013,503 +1854,7 @@
       "price_jp": 10500000,
       "isOld": true,
       "lastSeen": "2025/05/10",
-      "sinceLastSeen": 1
-    },
-    "3432": {
-      "maker_id": 38,
-      "maker_name": "Subaru",
-      "car_id": 3432,
-      "car_name": "Impreza Sedan WRX STi '04",
-      "car_group": "N",
-      "country_id": 2,
-      "country_name": "Japan",
-      "country_code": "jp",
-      "engine_swaps": [
-        {
-          "maker_id": 136,
-          "maker_name": "Porsche",
-          "car_id": "3558",
-          "car_name": "911 Turbo S (992) '20",
-          "engine_name": "DKH-911"
-        }
-      ],
-      "price": 45300,
-      "price_jp": 4530000,
-      "isOld": false,
-      "lastSeen": "2025/05/11",
-      "sinceLastSeen": 0
-    },
-    "345": {
-      "maker_id": 43,
-      "maker_name": "Toyota",
-      "car_id": 345,
-      "car_name": "Sprinter Trueno 1600GT APEX (S.Shigeno Version)",
-      "car_group": "N",
-      "country_id": 2,
-      "country_name": "Japan",
-      "country_code": "jp",
-      "engine_swaps": [],
-      "price": 104600,
-      "price_jp": 10460000,
-      "isOld": null,
-      "lastSeen": "2025/05/11",
-      "sinceLastSeen": 0
-    },
-    "1481": {
-      "maker_id": 112,
-      "maker_name": "Lamborghini",
-      "car_id": 1481,
-      "car_name": "Countach 25th Anniversary '88",
-      "car_group": "N",
-      "country_id": 7,
-      "country_name": "Italy",
-      "country_code": "it",
-      "engine_swaps": [
-        {
-          "maker_id": 112,
-          "maker_name": "Lamborghini",
-          "car_id": "3392",
-          "car_name": "Aventador LP 750-4 SV '15",
-          "engine_name": "L539-Aventador-SV"
-        }
-      ],
-      "price": 655200,
-      "price_jp": 65520000,
-      "isOld": true,
-      "lastSeen": "2025/05/11",
-      "sinceLastSeen": 0
-    },
-    "3398": {
-      "maker_id": 35,
-      "maker_name": "RUF",
-      "car_id": 3398,
-      "car_name": "CTR3 '07",
-      "car_group": "N",
-      "country_id": 5,
-      "country_name": "Germany",
-      "country_code": "de",
-      "engine_swaps": [],
-      "price": 788800,
-      "price_jp": 78880000,
-      "isOld": false,
-      "lastSeen": "2025/05/11",
-      "sinceLastSeen": 0
-    },
-    "210": {
-      "maker_id": 28,
-      "maker_name": "Nissan",
-      "car_id": 210,
-      "car_name": "R34 GT-R V-spec II Nur '02",
-      "car_group": "N",
-      "country_id": 2,
-      "country_name": "Japan",
-      "country_code": "jp",
-      "engine_swaps": [
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": "954",
-          "car_name": "R92CP '92",
-          "engine_name": "VRH35Z-R92CP"
-        }
-      ],
-      "price": 388500,
-      "price_jp": 38850000,
-      "isOld": false,
-      "lastSeen": "2025/05/11",
-      "sinceLastSeen": 0
-    },
-    "173": {
-      "maker_id": 34,
-      "maker_name": "Renault",
-      "car_id": 173,
-      "car_name": "R5 Turbo '80",
-      "car_group": "N",
-      "country_id": 6,
-      "country_name": "France",
-      "country_code": "fr",
-      "engine_swaps": [
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": "1448",
-          "car_name": "SILVIA spec-R Aero (S15) '02",
-          "engine_name": "SR20DET-Silvia-S15"
-        }
-      ],
-      "price": 160000,
-      "price_jp": 16000000,
-      "isOld": true,
-      "lastSeen": "2025/05/11",
-      "sinceLastSeen": 0
-    },
-    "1778": {
-      "maker_id": 46,
-      "maker_name": "Volkswagen",
-      "car_id": 1778,
-      "car_name": "Volkswagen 1200 '66",
-      "car_group": "N",
-      "country_id": 5,
-      "country_name": "Germany",
-      "country_code": "de",
-      "engine_swaps": [
-        {
-          "maker_id": 136,
-          "maker_name": "Porsche",
-          "car_id": "3431",
-          "car_name": "911 Carrera RS (964) '92",
-          "engine_name": "M64/03-911"
-        }
-      ],
-      "price": 29500,
-      "price_jp": 2950000,
-      "isOld": true,
-      "lastSeen": "2025/05/11",
-      "sinceLastSeen": 0
-    },
-    "514": {
-      "maker_id": 15,
-      "maker_name": "Honda",
-      "car_id": 514,
-      "car_name": "S2000 '99",
-      "car_group": "N",
-      "country_id": 2,
-      "country_name": "Japan",
-      "country_code": "jp",
-      "engine_swaps": [
-        {
-          "maker_id": 157,
-          "maker_name": "Garage RCR",
-          "car_id": "3526",
-          "car_name": "Civic",
-          "engine_name": "K24A-Civic"
-        }
-      ],
-      "price": 97300,
-      "price_jp": 9730000,
-      "isOld": true,
-      "lastSeen": "2025/05/11",
-      "sinceLastSeen": 0
-    },
-    "1990": {
-      "maker_id": 112,
-      "maker_name": "Lamborghini",
-      "car_id": 1990,
-      "car_name": "Diablo GT '00",
-      "car_group": "N",
-      "country_id": 7,
-      "country_name": "Italy",
-      "country_code": "it",
-      "engine_swaps": [],
-      "price": 830900,
-      "price_jp": 83090000,
-      "isOld": true,
-      "lastSeen": "2025/05/11",
-      "sinceLastSeen": 0
-    },
-    "655": {
-      "maker_id": 6,
-      "maker_name": "BMW",
-      "car_id": 655,
-      "car_name": "Z4 3.0i '03",
-      "car_group": null,
-      "country_id": 5,
-      "country_name": "Germany",
-      "country_code": "de",
-      "engine_swaps": [
-        {
-          "maker_id": 43,
-          "maker_name": "Toyota",
-          "car_id": "82",
-          "car_name": "Supra RZ '97",
-          "engine_name": "2JZ-GTE-Supra"
-        }
-      ],
-      "price": 53700,
-      "price_jp": 5370000,
-      "isOld": false,
-      "lastSeen": "2025/05/11",
-      "sinceLastSeen": 0
-    },
-    "135": {
-      "maker_id": 15,
-      "maker_name": "Honda",
-      "car_id": 135,
-      "car_name": "S800 '66",
-      "car_group": "N",
-      "country_id": 2,
-      "country_name": "Japan",
-      "country_code": "jp",
-      "engine_swaps": [
-        {
-          "maker_id": 15,
-          "maker_name": "Honda",
-          "car_id": "2156",
-          "car_name": "2&4 powered by RC213V",
-          "engine_name": "SE75E-2&4"
-        }
-      ],
-      "price": 42300,
-      "price_jp": 4230000,
-      "isOld": true,
-      "lastSeen": "2025/05/11",
-      "sinceLastSeen": 0
-    },
-    "821": {
-      "maker_id": 15,
-      "maker_name": "Honda",
-      "car_id": 821,
-      "car_name": "Civic Type R (EK) '97",
-      "car_group": "N",
-      "country_id": 2,
-      "country_name": "Japan",
-      "country_code": "jp",
-      "engine_swaps": [
-        {
-          "maker_id": 157,
-          "maker_name": "Garage RCR",
-          "car_id": "3526",
-          "car_name": "Civic",
-          "engine_name": "K24A-Civic"
-        }
-      ],
-      "price": 65000,
-      "price_jp": 6500000,
-      "isOld": true,
-      "lastSeen": "2025/05/11",
-      "sinceLastSeen": 0
-    },
-    "37": {
-      "maker_id": 15,
-      "maker_name": "Honda",
-      "car_id": 37,
-      "car_name": "Civic SiR-II (EG) '93",
-      "car_group": "N",
-      "country_id": 2,
-      "country_name": "Japan",
-      "country_code": "jp",
-      "engine_swaps": [
-        {
-          "maker_id": 15,
-          "maker_name": "Honda",
-          "car_id": "203",
-          "car_name": "Integra Type R (DC2) '98",
-          "engine_name": "B18C-Integra-'98"
-        }
-      ],
-      "price": 60000,
-      "price_jp": 6000000,
-      "isOld": true,
-      "lastSeen": "2025/05/11",
-      "sinceLastSeen": 0
-    },
-    "3563": {
-      "maker_id": 15,
-      "maker_name": "Honda",
-      "car_id": 3563,
-      "car_name": "Civic Si Extra (EF) '87",
-      "car_group": null,
-      "country_id": 2,
-      "country_name": "Japan",
-      "country_code": "jp",
-      "engine_swaps": [
-        {
-          "maker_id": 15,
-          "maker_name": "Honda",
-          "car_id": "203",
-          "car_name": "Integra Type R (DC2) '98",
-          "engine_name": "B18C-Integra-'98"
-        }
-      ],
-      "price": 70000,
-      "price_jp": 7000000,
-      "isOld": true,
-      "lastSeen": "2025/05/11",
-      "sinceLastSeen": 0
-    },
-    "1689": {
-      "maker_id": 15,
-      "maker_name": "Honda",
-      "car_id": 1689,
-      "car_name": "Civic Type R (EK) Touring Car",
-      "car_group": "N",
-      "country_id": 2,
-      "country_name": "Japan",
-      "country_code": "jp",
-      "engine_swaps": [
-        {
-          "maker_id": 157,
-          "maker_name": "Garage RCR",
-          "car_id": "3526",
-          "car_name": "Civic",
-          "engine_name": "K24A-Civic"
-        }
-      ],
-      "price": 140000,
-      "price_jp": 14000000,
-      "isOld": null,
-      "lastSeen": "2025/05/11",
-      "sinceLastSeen": 0
-    },
-    "204": {
-      "maker_id": 15,
-      "maker_name": "Honda",
-      "car_id": 204,
-      "car_name": "Civic Type R (EK) '98",
-      "car_group": "N",
-      "country_id": 2,
-      "country_name": "Japan",
-      "country_code": "jp",
-      "engine_swaps": [
-        {
-          "maker_id": 15,
-          "maker_name": "Honda",
-          "car_id": "3467",
-          "car_name": "Civic Type R Limited Edition (FK8) '20",
-          "engine_name": "K20C1-Civic-'20"
-        }
-      ],
-      "price": 65000,
-      "price_jp": 6500000,
-      "isOld": true,
-      "lastSeen": "2025/05/11",
-      "sinceLastSeen": 0
-    },
-    "3466": {
-      "maker_id": 13,
-      "maker_name": "Ford",
-      "car_id": 3466,
-      "car_name": "Sierra RS 500 Cosworth '87",
-      "car_group": "N",
-      "country_id": 3,
-      "country_name": "United States",
-      "country_code": "us",
-      "engine_swaps": [
-        {
-          "maker_id": 13,
-          "maker_name": "Ford",
-          "car_id": "3264",
-          "car_name": "Focus Gr.B Rally Car",
-          "engine_name": "L4-Focus-Gr.B"
-        }
-      ],
-      "price": 190600,
-      "price_jp": 19060000,
-      "isOld": true,
-      "lastSeen": "2025/05/11",
-      "sinceLastSeen": 0
-    },
-    "3424": {
-      "maker_id": 25,
-      "maker_name": "Mitsubishi",
-      "car_id": 3424,
-      "car_name": "Lancer Evolution IX MR GSR '06",
-      "car_group": "N",
-      "country_id": 2,
-      "country_name": "Japan",
-      "country_code": "jp",
-      "engine_swaps": [
-        {
-          "maker_id": 25,
-          "maker_name": "Mitsubishi",
-          "car_id": "3230",
-          "car_name": "Lancer Evolution Final Gr.B Rally Car",
-          "engine_name": "Evo-Final-Gr.B"
-        }
-      ],
-      "price": 97900,
-      "price_jp": 9790000,
-      "isOld": false,
-      "lastSeen": "2025/05/11",
-      "sinceLastSeen": 0
-    },
-    "779": {
-      "maker_id": 39,
-      "maker_name": "Suzuki",
-      "car_id": 779,
-      "car_name": "Cappuccino (EA11R) '91",
-      "car_group": "N",
-      "country_id": 2,
-      "country_name": "Japan",
-      "country_code": "jp",
-      "engine_swaps": [
-        {
-          "maker_id": 21,
-          "maker_name": "Mazda",
-          "car_id": "205",
-          "car_name": "RX-7 Spirit R Type A (FD) '02",
-          "engine_name": "13B-REW-RX-7"
-        }
-      ],
-      "price": 17700,
-      "price_jp": 1770000,
-      "isOld": true,
-      "lastSeen": "2025/05/11",
-      "sinceLastSeen": 0
-    },
-    "48": {
-      "maker_id": 28,
-      "maker_name": "Nissan",
-      "car_id": 48,
-      "car_name": "Fairlady 240ZG (HS30) '71",
-      "car_group": "N",
-      "country_id": 2,
-      "country_name": "Japan",
-      "country_code": "jp",
-      "engine_swaps": [
-        {
-          "maker_id": 151,
-          "maker_name": "Roadster Shop",
-          "car_id": "3426",
-          "car_name": "Roadster Shop Rampage",
-          "engine_name": "LS7-Rampage"
-        }
-      ],
-      "price": 106400,
-      "price_jp": 10640000,
-      "isOld": true,
-      "lastSeen": "2025/05/11",
-      "sinceLastSeen": 0
-    },
-    "489": {
-      "maker_id": 28,
-      "maker_name": "Nissan",
-      "car_id": 489,
-      "car_name": "R33 GT-R V-spec '97",
-      "car_group": "N",
-      "country_id": 2,
-      "country_name": "Japan",
-      "country_code": "jp",
-      "engine_swaps": [
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": "954",
-          "car_name": "R92CP '92",
-          "engine_name": "VRH35Z-R92CP"
-        }
-      ],
-      "price": 155200,
-      "price_jp": 15520000,
-      "isOld": true,
-      "lastSeen": "2025/05/11",
-      "sinceLastSeen": 0
-    },
-    "1933": {
-      "maker_id": 3,
-      "maker_name": "Alfa Romeo",
-      "car_id": 1933,
-      "car_name": "MiTo '09",
-      "car_group": "N",
-      "country_id": 7,
-      "country_name": "Italy",
-      "country_code": "it",
-      "engine_swaps": [],
-      "price": 22000,
-      "price_jp": 2200000,
-      "isOld": false,
-      "lastSeen": "2025/05/11",
-      "sinceLastSeen": 0
+      "sinceLastSeen": 2
     },
     "3453": {
       "maker_id": 6,
@@ -2533,31 +1878,7 @@
       "price_jp": 10000000,
       "isOld": true,
       "lastSeen": "2025/05/11",
-      "sinceLastSeen": 0
-    },
-    "931": {
-      "maker_id": 25,
-      "maker_name": "Mitsubishi",
-      "car_id": 931,
-      "car_name": "Lancer Evolution III GSR '95",
-      "car_group": "N",
-      "country_id": 2,
-      "country_name": "Japan",
-      "country_code": "jp",
-      "engine_swaps": [
-        {
-          "maker_id": 25,
-          "maker_name": "Mitsubishi",
-          "car_id": "3230",
-          "car_name": "Lancer Evolution Final Gr.B Rally Car",
-          "engine_name": "Evo-Final-Gr.B"
-        }
-      ],
-      "price": 92200,
-      "price_jp": 9220000,
-      "isOld": true,
-      "lastSeen": "2025/05/11",
-      "sinceLastSeen": 0
+      "sinceLastSeen": 1
     },
     "187": {
       "maker_id": 44,
@@ -2581,6 +1902,717 @@
       "price_jp": 7170000,
       "isOld": true,
       "lastSeen": "2025/05/11",
+      "sinceLastSeen": 1
+    },
+    "1544": {
+      "maker_id": 110,
+      "maker_name": "Ferrari",
+      "car_id": 1544,
+      "car_name": "430 Scuderia '07",
+      "car_group": null,
+      "country_id": 7,
+      "country_name": "Italy",
+      "country_code": "it",
+      "engine_swaps": [],
+      "price": 370200,
+      "price_jp": 37020000,
+      "isOld": false,
+      "lastSeen": "2025/05/11",
+      "sinceLastSeen": 1
+    },
+    "3443": {
+      "maker_id": 110,
+      "maker_name": "Ferrari",
+      "car_id": 3443,
+      "car_name": "308 GTB '75",
+      "car_group": "N",
+      "country_id": 7,
+      "country_name": "Italy",
+      "country_code": "it",
+      "engine_swaps": [],
+      "price": 172000,
+      "price_jp": 17200000,
+      "isOld": true,
+      "lastSeen": "2025/05/11",
+      "sinceLastSeen": 1
+    },
+    "3439": {
+      "maker_id": 136,
+      "maker_name": "Porsche",
+      "car_id": 3439,
+      "car_name": "911 Carrera RS (993) '95",
+      "car_group": "N",
+      "country_id": 5,
+      "country_name": "Germany",
+      "country_code": "de",
+      "engine_swaps": [
+        {
+          "maker_id": 35,
+          "maker_name": "RUF",
+          "car_id": "3398",
+          "car_name": "CTR3 '07",
+          "engine_name": "CTR38-CTR3"
+        }
+      ],
+      "price": 215200,
+      "price_jp": 21520000,
+      "isOld": true,
+      "lastSeen": "2025/05/12",
+      "sinceLastSeen": 0
+    },
+    "451": {
+      "maker_id": 38,
+      "maker_name": "Subaru",
+      "car_id": 451,
+      "car_name": "Impreza 22B-STi '98",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 38,
+          "maker_name": "Subaru",
+          "car_id": "3550",
+          "car_name": "Impreza Rally Car '98",
+          "engine_name": "EJ20-Impreza-Rally"
+        }
+      ],
+      "price": 166400,
+      "price_jp": 16640000,
+      "isOld": true,
+      "lastSeen": "2025/05/12",
+      "sinceLastSeen": 0
+    },
+    "203": {
+      "maker_id": 15,
+      "maker_name": "Honda",
+      "car_id": 203,
+      "car_name": "Integra Type R (DC2) '98",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": "3467",
+          "car_name": "Civic Type R Limited Edition (FK8) '20",
+          "engine_name": "K20C1-Civic-'20"
+        }
+      ],
+      "price": 67300,
+      "price_jp": 6730000,
+      "isOld": true,
+      "lastSeen": "2025/05/12",
+      "sinceLastSeen": 0
+    },
+    "1537": {
+      "maker_id": 43,
+      "maker_name": "Toyota",
+      "car_id": 1537,
+      "car_name": "Prius G '09",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [],
+      "price": 20000,
+      "price_jp": 2000000,
+      "isOld": false,
+      "lastSeen": "2025/05/12",
+      "sinceLastSeen": 0
+    },
+    "919": {
+      "maker_id": 28,
+      "maker_name": "Nissan",
+      "car_id": 919,
+      "car_name": "Silvia Q's (S13) '88",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": "1448",
+          "car_name": "SILVIA spec-R Aero (S15) '02",
+          "engine_name": "SR20DET-Silvia-S15"
+        },
+        {
+          "maker_id": 38,
+          "maker_name": "Subaru",
+          "car_id": "3339",
+          "car_name": "BRZ Drift Car '17",
+          "engine_name": "LS7-BRZ"
+        }
+      ],
+      "price": 34200,
+      "price_jp": 3420000,
+      "isOld": true,
+      "lastSeen": "2025/05/12",
+      "sinceLastSeen": 0
+    },
+    "3547": {
+      "maker_id": 34,
+      "maker_name": "Renault",
+      "car_id": 3547,
+      "car_name": "R4 GTL '85",
+      "car_group": "N",
+      "country_id": 6,
+      "country_name": "France",
+      "country_code": "fr",
+      "engine_swaps": [],
+      "price": 26600,
+      "price_jp": 2660000,
+      "isOld": true,
+      "lastSeen": "2025/05/12",
+      "sinceLastSeen": 0
+    },
+    "1461": {
+      "maker_id": 28,
+      "maker_name": "Nissan",
+      "car_id": 1461,
+      "car_name": "Silvia K's Dia Selection (S13) '90",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": "1448",
+          "car_name": "SILVIA spec-R Aero (S15) '02",
+          "engine_name": "SR20DET-Silvia-S15"
+        }
+      ],
+      "price": 51900,
+      "price_jp": 5190000,
+      "isOld": true,
+      "lastSeen": "2025/05/12",
+      "sinceLastSeen": 0
+    },
+    "3432": {
+      "maker_id": 38,
+      "maker_name": "Subaru",
+      "car_id": 3432,
+      "car_name": "Impreza Sedan WRX STi '04",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 136,
+          "maker_name": "Porsche",
+          "car_id": "3558",
+          "car_name": "911 Turbo S (992) '20",
+          "engine_name": "DKH-911"
+        }
+      ],
+      "price": 45300,
+      "price_jp": 4530000,
+      "isOld": false,
+      "lastSeen": "2025/05/12",
+      "sinceLastSeen": 0
+    },
+    "345": {
+      "maker_id": 43,
+      "maker_name": "Toyota",
+      "car_id": 345,
+      "car_name": "Sprinter Trueno 1600GT APEX (S.Shigeno Version)",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [],
+      "price": 104600,
+      "price_jp": 10460000,
+      "isOld": null,
+      "lastSeen": "2025/05/12",
+      "sinceLastSeen": 0
+    },
+    "1481": {
+      "maker_id": 112,
+      "maker_name": "Lamborghini",
+      "car_id": 1481,
+      "car_name": "Countach 25th Anniversary '88",
+      "car_group": "N",
+      "country_id": 7,
+      "country_name": "Italy",
+      "country_code": "it",
+      "engine_swaps": [
+        {
+          "maker_id": 112,
+          "maker_name": "Lamborghini",
+          "car_id": "3392",
+          "car_name": "Aventador LP 750-4 SV '15",
+          "engine_name": "L539-Aventador-SV"
+        }
+      ],
+      "price": 655200,
+      "price_jp": 65520000,
+      "isOld": true,
+      "lastSeen": "2025/05/12",
+      "sinceLastSeen": 0
+    },
+    "3398": {
+      "maker_id": 35,
+      "maker_name": "RUF",
+      "car_id": 3398,
+      "car_name": "CTR3 '07",
+      "car_group": "N",
+      "country_id": 5,
+      "country_name": "Germany",
+      "country_code": "de",
+      "engine_swaps": [],
+      "price": 788800,
+      "price_jp": 78880000,
+      "isOld": false,
+      "lastSeen": "2025/05/12",
+      "sinceLastSeen": 0
+    },
+    "210": {
+      "maker_id": 28,
+      "maker_name": "Nissan",
+      "car_id": 210,
+      "car_name": "R34 GT-R V-spec II Nur '02",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": "954",
+          "car_name": "R92CP '92",
+          "engine_name": "VRH35Z-R92CP"
+        }
+      ],
+      "price": 388500,
+      "price_jp": 38850000,
+      "isOld": false,
+      "lastSeen": "2025/05/12",
+      "sinceLastSeen": 0
+    },
+    "173": {
+      "maker_id": 34,
+      "maker_name": "Renault",
+      "car_id": 173,
+      "car_name": "R5 Turbo '80",
+      "car_group": "N",
+      "country_id": 6,
+      "country_name": "France",
+      "country_code": "fr",
+      "engine_swaps": [
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": "1448",
+          "car_name": "SILVIA spec-R Aero (S15) '02",
+          "engine_name": "SR20DET-Silvia-S15"
+        }
+      ],
+      "price": 160000,
+      "price_jp": 16000000,
+      "isOld": true,
+      "lastSeen": "2025/05/12",
+      "sinceLastSeen": 0
+    },
+    "1778": {
+      "maker_id": 46,
+      "maker_name": "Volkswagen",
+      "car_id": 1778,
+      "car_name": "Volkswagen 1200 '66",
+      "car_group": "N",
+      "country_id": 5,
+      "country_name": "Germany",
+      "country_code": "de",
+      "engine_swaps": [
+        {
+          "maker_id": 136,
+          "maker_name": "Porsche",
+          "car_id": "3431",
+          "car_name": "911 Carrera RS (964) '92",
+          "engine_name": "M64/03-911"
+        }
+      ],
+      "price": 29500,
+      "price_jp": 2950000,
+      "isOld": true,
+      "lastSeen": "2025/05/12",
+      "sinceLastSeen": 0
+    },
+    "514": {
+      "maker_id": 15,
+      "maker_name": "Honda",
+      "car_id": 514,
+      "car_name": "S2000 '99",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 157,
+          "maker_name": "Garage RCR",
+          "car_id": "3526",
+          "car_name": "Civic",
+          "engine_name": "K24A-Civic"
+        }
+      ],
+      "price": 97300,
+      "price_jp": 9730000,
+      "isOld": true,
+      "lastSeen": "2025/05/12",
+      "sinceLastSeen": 0
+    },
+    "1990": {
+      "maker_id": 112,
+      "maker_name": "Lamborghini",
+      "car_id": 1990,
+      "car_name": "Diablo GT '00",
+      "car_group": "N",
+      "country_id": 7,
+      "country_name": "Italy",
+      "country_code": "it",
+      "engine_swaps": [],
+      "price": 830900,
+      "price_jp": 83090000,
+      "isOld": true,
+      "lastSeen": "2025/05/12",
+      "sinceLastSeen": 0
+    },
+    "655": {
+      "maker_id": 6,
+      "maker_name": "BMW",
+      "car_id": 655,
+      "car_name": "Z4 3.0i '03",
+      "car_group": null,
+      "country_id": 5,
+      "country_name": "Germany",
+      "country_code": "de",
+      "engine_swaps": [
+        {
+          "maker_id": 43,
+          "maker_name": "Toyota",
+          "car_id": "82",
+          "car_name": "Supra RZ '97",
+          "engine_name": "2JZ-GTE-Supra"
+        }
+      ],
+      "price": 53700,
+      "price_jp": 5370000,
+      "isOld": false,
+      "lastSeen": "2025/05/12",
+      "sinceLastSeen": 0
+    },
+    "135": {
+      "maker_id": 15,
+      "maker_name": "Honda",
+      "car_id": 135,
+      "car_name": "S800 '66",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": "2156",
+          "car_name": "2&4 powered by RC213V",
+          "engine_name": "SE75E-2&4"
+        }
+      ],
+      "price": 42300,
+      "price_jp": 4230000,
+      "isOld": true,
+      "lastSeen": "2025/05/12",
+      "sinceLastSeen": 0
+    },
+    "821": {
+      "maker_id": 15,
+      "maker_name": "Honda",
+      "car_id": 821,
+      "car_name": "Civic Type R (EK) '97",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 157,
+          "maker_name": "Garage RCR",
+          "car_id": "3526",
+          "car_name": "Civic",
+          "engine_name": "K24A-Civic"
+        }
+      ],
+      "price": 65000,
+      "price_jp": 6500000,
+      "isOld": true,
+      "lastSeen": "2025/05/12",
+      "sinceLastSeen": 0
+    },
+    "37": {
+      "maker_id": 15,
+      "maker_name": "Honda",
+      "car_id": 37,
+      "car_name": "Civic SiR-II (EG) '93",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": "203",
+          "car_name": "Integra Type R (DC2) '98",
+          "engine_name": "B18C-Integra-'98"
+        }
+      ],
+      "price": 60000,
+      "price_jp": 6000000,
+      "isOld": true,
+      "lastSeen": "2025/05/12",
+      "sinceLastSeen": 0
+    },
+    "3563": {
+      "maker_id": 15,
+      "maker_name": "Honda",
+      "car_id": 3563,
+      "car_name": "Civic Si Extra (EF) '87",
+      "car_group": null,
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": "203",
+          "car_name": "Integra Type R (DC2) '98",
+          "engine_name": "B18C-Integra-'98"
+        }
+      ],
+      "price": 70000,
+      "price_jp": 7000000,
+      "isOld": true,
+      "lastSeen": "2025/05/12",
+      "sinceLastSeen": 0
+    },
+    "1689": {
+      "maker_id": 15,
+      "maker_name": "Honda",
+      "car_id": 1689,
+      "car_name": "Civic Type R (EK) Touring Car",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 157,
+          "maker_name": "Garage RCR",
+          "car_id": "3526",
+          "car_name": "Civic",
+          "engine_name": "K24A-Civic"
+        }
+      ],
+      "price": 140000,
+      "price_jp": 14000000,
+      "isOld": null,
+      "lastSeen": "2025/05/12",
+      "sinceLastSeen": 0
+    },
+    "204": {
+      "maker_id": 15,
+      "maker_name": "Honda",
+      "car_id": 204,
+      "car_name": "Civic Type R (EK) '98",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": "3467",
+          "car_name": "Civic Type R Limited Edition (FK8) '20",
+          "engine_name": "K20C1-Civic-'20"
+        }
+      ],
+      "price": 65000,
+      "price_jp": 6500000,
+      "isOld": true,
+      "lastSeen": "2025/05/12",
+      "sinceLastSeen": 0
+    },
+    "3466": {
+      "maker_id": 13,
+      "maker_name": "Ford",
+      "car_id": 3466,
+      "car_name": "Sierra RS 500 Cosworth '87",
+      "car_group": "N",
+      "country_id": 3,
+      "country_name": "United States",
+      "country_code": "us",
+      "engine_swaps": [
+        {
+          "maker_id": 13,
+          "maker_name": "Ford",
+          "car_id": "3264",
+          "car_name": "Focus Gr.B Rally Car",
+          "engine_name": "L4-Focus-Gr.B"
+        }
+      ],
+      "price": 190600,
+      "price_jp": 19060000,
+      "isOld": true,
+      "lastSeen": "2025/05/12",
+      "sinceLastSeen": 0
+    },
+    "3424": {
+      "maker_id": 25,
+      "maker_name": "Mitsubishi",
+      "car_id": 3424,
+      "car_name": "Lancer Evolution IX MR GSR '06",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 25,
+          "maker_name": "Mitsubishi",
+          "car_id": "3230",
+          "car_name": "Lancer Evolution Final Gr.B Rally Car",
+          "engine_name": "Evo-Final-Gr.B"
+        }
+      ],
+      "price": 97900,
+      "price_jp": 9790000,
+      "isOld": false,
+      "lastSeen": "2025/05/12",
+      "sinceLastSeen": 0
+    },
+    "779": {
+      "maker_id": 39,
+      "maker_name": "Suzuki",
+      "car_id": 779,
+      "car_name": "Cappuccino (EA11R) '91",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 21,
+          "maker_name": "Mazda",
+          "car_id": "205",
+          "car_name": "RX-7 Spirit R Type A (FD) '02",
+          "engine_name": "13B-REW-RX-7"
+        }
+      ],
+      "price": 17700,
+      "price_jp": 1770000,
+      "isOld": true,
+      "lastSeen": "2025/05/12",
+      "sinceLastSeen": 0
+    },
+    "48": {
+      "maker_id": 28,
+      "maker_name": "Nissan",
+      "car_id": 48,
+      "car_name": "Fairlady 240ZG (HS30) '71",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 151,
+          "maker_name": "Roadster Shop",
+          "car_id": "3426",
+          "car_name": "Roadster Shop Rampage",
+          "engine_name": "LS7-Rampage"
+        }
+      ],
+      "price": 106400,
+      "price_jp": 10640000,
+      "isOld": true,
+      "lastSeen": "2025/05/12",
+      "sinceLastSeen": 0
+    },
+    "489": {
+      "maker_id": 28,
+      "maker_name": "Nissan",
+      "car_id": 489,
+      "car_name": "R33 GT-R V-spec '97",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": "954",
+          "car_name": "R92CP '92",
+          "engine_name": "VRH35Z-R92CP"
+        }
+      ],
+      "price": 155200,
+      "price_jp": 15520000,
+      "isOld": true,
+      "lastSeen": "2025/05/12",
+      "sinceLastSeen": 0
+    },
+    "1933": {
+      "maker_id": 3,
+      "maker_name": "Alfa Romeo",
+      "car_id": 1933,
+      "car_name": "MiTo '09",
+      "car_group": "N",
+      "country_id": 7,
+      "country_name": "Italy",
+      "country_code": "it",
+      "engine_swaps": [],
+      "price": 22000,
+      "price_jp": 2200000,
+      "isOld": false,
+      "lastSeen": "2025/05/12",
+      "sinceLastSeen": 0
+    },
+    "931": {
+      "maker_id": 25,
+      "maker_name": "Mitsubishi",
+      "car_id": 931,
+      "car_name": "Lancer Evolution III GSR '95",
+      "car_group": "N",
+      "country_id": 2,
+      "country_name": "Japan",
+      "country_code": "jp",
+      "engine_swaps": [
+        {
+          "maker_id": 25,
+          "maker_name": "Mitsubishi",
+          "car_id": "3230",
+          "car_name": "Lancer Evolution Final Gr.B Rally Car",
+          "engine_name": "Evo-Final-Gr.B"
+        }
+      ],
+      "price": 92200,
+      "price_jp": 9220000,
+      "isOld": true,
+      "lastSeen": "2025/05/12",
       "sinceLastSeen": 0
     },
     "3344": {
@@ -2604,7 +2636,7 @@
       "price": 162000,
       "price_jp": 16200000,
       "isOld": true,
-      "lastSeen": "2025/05/11",
+      "lastSeen": "2025/05/12",
       "sinceLastSeen": 0
     },
     "1773": {
@@ -2620,39 +2652,7 @@
       "price": 39500,
       "price_jp": 3950000,
       "isOld": false,
-      "lastSeen": "2025/05/11",
-      "sinceLastSeen": 0
-    },
-    "1544": {
-      "maker_id": 110,
-      "maker_name": "Ferrari",
-      "car_id": 1544,
-      "car_name": "430 Scuderia '07",
-      "car_group": null,
-      "country_id": 7,
-      "country_name": "Italy",
-      "country_code": "it",
-      "engine_swaps": [],
-      "price": 370200,
-      "price_jp": 37020000,
-      "isOld": false,
-      "lastSeen": "2025/05/11",
-      "sinceLastSeen": 0
-    },
-    "3443": {
-      "maker_id": 110,
-      "maker_name": "Ferrari",
-      "car_id": 3443,
-      "car_name": "308 GTB '75",
-      "car_group": "N",
-      "country_id": 7,
-      "country_name": "Italy",
-      "country_code": "it",
-      "engine_swaps": [],
-      "price": 172000,
-      "price_jp": 17200000,
-      "isOld": true,
-      "lastSeen": "2025/05/11",
+      "lastSeen": "2025/05/12",
       "sinceLastSeen": 0
     }
   },
@@ -2671,7 +2671,7 @@
       "price_jp": 260000000,
       "isOld": true,
       "lastSeen": "2025/02/21",
-      "sinceLastSeen": 79
+      "sinceLastSeen": 80
     },
     "818": {
       "maker_id": 7,
@@ -2695,7 +2695,7 @@
       "price_jp": 23400000,
       "isOld": true,
       "lastSeen": "2025/02/23",
-      "sinceLastSeen": 77
+      "sinceLastSeen": 78
     },
     "3410": {
       "maker_id": 136,
@@ -2711,7 +2711,7 @@
       "price_jp": 1800000000,
       "isOld": true,
       "lastSeen": "2025/02/26",
-      "sinceLastSeen": 74
+      "sinceLastSeen": 75
     },
     "3444": {
       "maker_id": 13,
@@ -2735,7 +2735,7 @@
       "price_jp": 40000000,
       "isOld": null,
       "lastSeen": "2025/02/28",
-      "sinceLastSeen": 72
+      "sinceLastSeen": 73
     },
     "1069": {
       "maker_id": 93,
@@ -2751,7 +2751,7 @@
       "price_jp": 250000000,
       "isOld": true,
       "lastSeen": "2025/02/28",
-      "sinceLastSeen": 72
+      "sinceLastSeen": 73
     },
     "3363": {
       "maker_id": 4,
@@ -2767,7 +2767,7 @@
       "price_jp": 600000000,
       "isOld": true,
       "lastSeen": "2025/03/02",
-      "sinceLastSeen": 70
+      "sinceLastSeen": 71
     },
     "2018": {
       "maker_id": 110,
@@ -2783,7 +2783,7 @@
       "price_jp": 61000000,
       "isOld": true,
       "lastSeen": "2025/03/04",
-      "sinceLastSeen": 68
+      "sinceLastSeen": 69
     },
     "3505": {
       "maker_id": 140,
@@ -2799,7 +2799,7 @@
       "price_jp": 50000000,
       "isOld": null,
       "lastSeen": "2025/03/04",
-      "sinceLastSeen": 68
+      "sinceLastSeen": 69
     },
     "3397": {
       "maker_id": 22,
@@ -2815,7 +2815,7 @@
       "price_jp": 850000000,
       "isOld": true,
       "lastSeen": "2025/03/07",
-      "sinceLastSeen": 65
+      "sinceLastSeen": 66
     },
     "1932": {
       "maker_id": 125,
@@ -2831,7 +2831,7 @@
       "price_jp": 100000000,
       "isOld": true,
       "lastSeen": "2025/03/09",
-      "sinceLastSeen": 63
+      "sinceLastSeen": 64
     },
     "3415": {
       "maker_id": 3,
@@ -2847,7 +2847,7 @@
       "price_jp": 2000000000,
       "isOld": true,
       "lastSeen": "2025/03/10",
-      "sinceLastSeen": 62
+      "sinceLastSeen": 63
     },
     "105": {
       "maker_id": 32,
@@ -2863,7 +2863,7 @@
       "price_jp": 100000000,
       "isOld": true,
       "lastSeen": "2025/03/11",
-      "sinceLastSeen": 61
+      "sinceLastSeen": 62
     },
     "3487": {
       "maker_id": 13,
@@ -2887,7 +2887,7 @@
       "price_jp": 31900000,
       "isOld": true,
       "lastSeen": "2025/03/12",
-      "sinceLastSeen": 60
+      "sinceLastSeen": 61
     },
     "216": {
       "maker_id": 6,
@@ -2903,7 +2903,7 @@
       "price_jp": 2000000000,
       "isOld": true,
       "lastSeen": "2025/03/13",
-      "sinceLastSeen": 59
+      "sinceLastSeen": 60
     },
     "781": {
       "maker_id": 43,
@@ -2919,7 +2919,7 @@
       "price_jp": 25000000,
       "isOld": true,
       "lastSeen": "2025/03/14",
-      "sinceLastSeen": 58
+      "sinceLastSeen": 59
     },
     "808": {
       "maker_id": 39,
@@ -2935,7 +2935,7 @@
       "price_jp": 170000000,
       "isOld": true,
       "lastSeen": "2025/03/15",
-      "sinceLastSeen": 57
+      "sinceLastSeen": 58
     },
     "2010": {
       "maker_id": 110,
@@ -2951,7 +2951,7 @@
       "price_jp": 2000000000,
       "isOld": true,
       "lastSeen": "2025/03/16",
-      "sinceLastSeen": 56
+      "sinceLastSeen": 57
     },
     "3464": {
       "maker_id": 7,
@@ -2975,7 +2975,7 @@
       "price_jp": 11900000,
       "isOld": true,
       "lastSeen": "2025/03/17",
-      "sinceLastSeen": 55
+      "sinceLastSeen": 56
     },
     "604": {
       "maker_id": 43,
@@ -2991,7 +2991,7 @@
       "price_jp": 99200000,
       "isOld": true,
       "lastSeen": "2025/03/19",
-      "sinceLastSeen": 53
+      "sinceLastSeen": 54
     },
     "3462": {
       "maker_id": 52,
@@ -3007,7 +3007,7 @@
       "price_jp": 24200000,
       "isOld": true,
       "lastSeen": "2025/03/20",
-      "sinceLastSeen": 52
+      "sinceLastSeen": 53
     },
     "1986": {
       "maker_id": 34,
@@ -3031,7 +3031,7 @@
       "price_jp": 3250000,
       "isOld": true,
       "lastSeen": "2025/03/21",
-      "sinceLastSeen": 51
+      "sinceLastSeen": 52
     },
     "3388": {
       "maker_id": 153,
@@ -3047,7 +3047,7 @@
       "price_jp": 70000000,
       "isOld": true,
       "lastSeen": "2025/03/21",
-      "sinceLastSeen": 51
+      "sinceLastSeen": 52
     },
     "1067": {
       "maker_id": 17,
@@ -3063,7 +3063,7 @@
       "price_jp": 300000000,
       "isOld": true,
       "lastSeen": "2025/03/22",
-      "sinceLastSeen": 50
+      "sinceLastSeen": 51
     },
     "665": {
       "maker_id": 55,
@@ -3087,7 +3087,7 @@
       "price_jp": 40200000,
       "isOld": true,
       "lastSeen": "2025/03/26",
-      "sinceLastSeen": 46
+      "sinceLastSeen": 47
     },
     "954": {
       "maker_id": 28,
@@ -3103,7 +3103,7 @@
       "price_jp": 200000000,
       "isOld": true,
       "lastSeen": "2025/03/26",
-      "sinceLastSeen": 46
+      "sinceLastSeen": 47
     },
     "296": {
       "maker_id": 21,
@@ -3119,7 +3119,7 @@
       "price_jp": 330000000,
       "isOld": true,
       "lastSeen": "2025/03/27",
-      "sinceLastSeen": 45
+      "sinceLastSeen": 46
     },
     "3441": {
       "maker_id": 22,
@@ -3135,7 +3135,7 @@
       "price_jp": 2000000000,
       "isOld": true,
       "lastSeen": "2025/03/29",
-      "sinceLastSeen": 43
+      "sinceLastSeen": 44
     },
     "2059": {
       "maker_id": 7,
@@ -3151,7 +3151,7 @@
       "price_jp": 400000000,
       "isOld": true,
       "lastSeen": "2025/03/30",
-      "sinceLastSeen": 42
+      "sinceLastSeen": 43
     },
     "1935": {
       "maker_id": 13,
@@ -3167,7 +3167,7 @@
       "price_jp": 670000000,
       "isOld": true,
       "lastSeen": "2025/03/31",
-      "sinceLastSeen": 41
+      "sinceLastSeen": 42
     },
     "998": {
       "maker_id": 22,
@@ -3183,7 +3183,7 @@
       "price_jp": 350000000,
       "isOld": true,
       "lastSeen": "2025/03/31",
-      "sinceLastSeen": 41
+      "sinceLastSeen": 42
     },
     "3550": {
       "maker_id": 38,
@@ -3199,7 +3199,7 @@
       "price_jp": 65000000,
       "isOld": true,
       "lastSeen": "2025/04/01",
-      "sinceLastSeen": 40
+      "sinceLastSeen": 41
     },
     "1582": {
       "maker_id": 112,
@@ -3215,7 +3215,7 @@
       "price_jp": 430000000,
       "isOld": true,
       "lastSeen": "2025/04/01",
-      "sinceLastSeen": 40
+      "sinceLastSeen": 41
     },
     "2017": {
       "maker_id": 110,
@@ -3231,7 +3231,7 @@
       "price_jp": 350000000,
       "isOld": true,
       "lastSeen": "2025/04/01",
-      "sinceLastSeen": 40
+      "sinceLastSeen": 41
     },
     "3365": {
       "maker_id": 136,
@@ -3255,7 +3255,7 @@
       "price_jp": 160000000,
       "isOld": true,
       "lastSeen": "2025/04/05",
-      "sinceLastSeen": 36
+      "sinceLastSeen": 37
     },
     "3556": {
       "maker_id": 22,
@@ -3271,7 +3271,7 @@
       "price_jp": 4600000,
       "isOld": true,
       "lastSeen": "2025/04/05",
-      "sinceLastSeen": 36
+      "sinceLastSeen": 37
     },
     "1543": {
       "maker_id": 11,
@@ -3295,7 +3295,7 @@
       "price_jp": 21400000,
       "isOld": true,
       "lastSeen": "2025/04/06",
-      "sinceLastSeen": 35
+      "sinceLastSeen": 36
     },
     "3457": {
       "maker_id": 86,
@@ -3311,7 +3311,7 @@
       "price_jp": 33000000,
       "isOld": true,
       "lastSeen": "2025/04/08",
-      "sinceLastSeen": 33
+      "sinceLastSeen": 34
     },
     "1551": {
       "maker_id": 110,
@@ -3327,7 +3327,7 @@
       "price_jp": 2000000000,
       "isOld": true,
       "lastSeen": "2025/04/08",
-      "sinceLastSeen": 33
+      "sinceLastSeen": 34
     },
     "1645": {
       "maker_id": 3,
@@ -3343,7 +3343,7 @@
       "price_jp": 380000000,
       "isOld": true,
       "lastSeen": "2025/04/08",
-      "sinceLastSeen": 33
+      "sinceLastSeen": 34
     },
     "3520": {
       "maker_id": 155,
@@ -3367,7 +3367,7 @@
       "price_jp": 160000000,
       "isOld": true,
       "lastSeen": "2025/04/09",
-      "sinceLastSeen": 32
+      "sinceLastSeen": 33
     },
     "1925": {
       "maker_id": 36,
@@ -3391,7 +3391,7 @@
       "price_jp": 45500000,
       "isOld": true,
       "lastSeen": "2025/04/09",
-      "sinceLastSeen": 32
+      "sinceLastSeen": 33
     },
     "3509": {
       "maker_id": 136,
@@ -3415,7 +3415,7 @@
       "price_jp": 79900000,
       "isOld": true,
       "lastSeen": "2025/04/10",
-      "sinceLastSeen": 31
+      "sinceLastSeen": 32
     },
     "3430": {
       "maker_id": 146,
@@ -3439,7 +3439,7 @@
       "price_jp": 3010000,
       "isOld": true,
       "lastSeen": "2025/04/11",
-      "sinceLastSeen": 30
+      "sinceLastSeen": 31
     },
     "3361": {
       "maker_id": 17,
@@ -3455,7 +3455,7 @@
       "price_jp": 21800000,
       "isOld": true,
       "lastSeen": "2025/04/13",
-      "sinceLastSeen": 28
+      "sinceLastSeen": 29
     },
     "836": {
       "maker_id": 28,
@@ -3479,7 +3479,7 @@
       "price_jp": 54200000,
       "isOld": true,
       "lastSeen": "2025/04/13",
-      "sinceLastSeen": 28
+      "sinceLastSeen": 29
     },
     "3514": {
       "maker_id": 9,
@@ -3503,7 +3503,7 @@
       "price_jp": 4710000,
       "isOld": true,
       "lastSeen": "2025/04/14",
-      "sinceLastSeen": 27
+      "sinceLastSeen": 28
     },
     "3525": {
       "maker_id": 15,
@@ -3519,7 +3519,7 @@
       "price_jp": 250000000,
       "isOld": true,
       "lastSeen": "2025/04/16",
-      "sinceLastSeen": 25
+      "sinceLastSeen": 26
     },
     "3437": {
       "maker_id": 140,
@@ -3535,7 +3535,7 @@
       "price_jp": 31500000,
       "isOld": true,
       "lastSeen": "2025/04/17",
-      "sinceLastSeen": 24
+      "sinceLastSeen": 25
     },
     "315": {
       "maker_id": 36,
@@ -3551,7 +3551,7 @@
       "price_jp": 250000000,
       "isOld": true,
       "lastSeen": "2025/04/17",
-      "sinceLastSeen": 24
+      "sinceLastSeen": 25
     },
     "1927": {
       "maker_id": 5,
@@ -3567,7 +3567,7 @@
       "price_jp": 180000000,
       "isOld": true,
       "lastSeen": "2025/04/17",
-      "sinceLastSeen": 24
+      "sinceLastSeen": 25
     },
     "837": {
       "maker_id": 28,
@@ -3591,7 +3591,7 @@
       "price_jp": 19400000,
       "isOld": true,
       "lastSeen": "2025/04/17",
-      "sinceLastSeen": 24
+      "sinceLastSeen": 25
     },
     "575": {
       "maker_id": 22,
@@ -3615,7 +3615,7 @@
       "price_jp": 29000000,
       "isOld": true,
       "lastSeen": "2025/04/19",
-      "sinceLastSeen": 22
+      "sinceLastSeen": 23
     },
     "140": {
       "maker_id": 15,
@@ -3631,7 +3631,7 @@
       "price_jp": 150000000,
       "isOld": true,
       "lastSeen": "2025/04/21",
-      "sinceLastSeen": 20
+      "sinceLastSeen": 21
     },
     "3446": {
       "maker_id": 136,
@@ -3647,7 +3647,7 @@
       "price_jp": 485000000,
       "isOld": true,
       "lastSeen": "2025/04/21",
-      "sinceLastSeen": 20
+      "sinceLastSeen": 21
     },
     "3428": {
       "maker_id": 22,
@@ -3663,7 +3663,7 @@
       "price_jp": 1300000000,
       "isOld": true,
       "lastSeen": "2025/04/23",
-      "sinceLastSeen": 18
+      "sinceLastSeen": 19
     },
     "1984": {
       "maker_id": 117,
@@ -3679,7 +3679,7 @@
       "price_jp": 1600000000,
       "isOld": true,
       "lastSeen": "2025/04/25",
-      "sinceLastSeen": 16
+      "sinceLastSeen": 17
     },
     "3538": {
       "maker_id": 11,
@@ -3703,7 +3703,7 @@
       "price_jp": 15800000,
       "isOld": true,
       "lastSeen": "2025/04/26",
-      "sinceLastSeen": 15
+      "sinceLastSeen": 16
     },
     "387": {
       "maker_id": 22,
@@ -3719,7 +3719,7 @@
       "price_jp": 170000000,
       "isOld": true,
       "lastSeen": "2025/04/26",
-      "sinceLastSeen": 15
+      "sinceLastSeen": 16
     },
     "1409": {
       "maker_id": 110,
@@ -3743,7 +3743,7 @@
       "price_jp": 310000000,
       "isOld": true,
       "lastSeen": "2025/04/27",
-      "sinceLastSeen": 14
+      "sinceLastSeen": 15
     },
     "3429": {
       "maker_id": 28,
@@ -3767,7 +3767,7 @@
       "price_jp": 31200000,
       "isOld": true,
       "lastSeen": "2025/04/27",
-      "sinceLastSeen": 14
+      "sinceLastSeen": 15
     },
     "1484": {
       "maker_id": 112,
@@ -3783,7 +3783,7 @@
       "price_jp": 135000000,
       "isOld": true,
       "lastSeen": "2025/04/28",
-      "sinceLastSeen": 13
+      "sinceLastSeen": 14
     },
     "3376": {
       "maker_id": 17,
@@ -3799,7 +3799,7 @@
       "price_jp": 600000000,
       "isOld": true,
       "lastSeen": "2025/04/28",
-      "sinceLastSeen": 13
+      "sinceLastSeen": 14
     },
     "1553": {
       "maker_id": 17,
@@ -3815,7 +3815,7 @@
       "price_jp": 1200000000,
       "isOld": true,
       "lastSeen": "2025/04/28",
-      "sinceLastSeen": 13
+      "sinceLastSeen": 14
     },
     "485": {
       "maker_id": 28,
@@ -3831,7 +3831,7 @@
       "price_jp": 250000000,
       "isOld": true,
       "lastSeen": "2025/04/28",
-      "sinceLastSeen": 13
+      "sinceLastSeen": 14
     },
     "1926": {
       "maker_id": 36,
@@ -3847,7 +3847,7 @@
       "price_jp": 2000000000,
       "isOld": true,
       "lastSeen": "2025/04/29",
-      "sinceLastSeen": 12
+      "sinceLastSeen": 13
     },
     "36": {
       "maker_id": 7,
@@ -3863,7 +3863,7 @@
       "price_jp": 16200000,
       "isOld": true,
       "lastSeen": "2025/05/04",
-      "sinceLastSeen": 7
+      "sinceLastSeen": 8
     },
     "31": {
       "maker_id": 7,
@@ -3887,7 +3887,7 @@
       "price_jp": 12800000,
       "isOld": true,
       "lastSeen": "2025/05/04",
-      "sinceLastSeen": 7
+      "sinceLastSeen": 8
     },
     "116": {
       "maker_id": 43,
@@ -3903,7 +3903,7 @@
       "price_jp": 250000000,
       "isOld": true,
       "lastSeen": "2025/05/05",
-      "sinceLastSeen": 6
+      "sinceLastSeen": 7
     },
     "3445": {
       "maker_id": 4,
@@ -3919,7 +3919,7 @@
       "price_jp": 89200000,
       "isOld": true,
       "lastSeen": "2025/05/05",
-      "sinceLastSeen": 6
+      "sinceLastSeen": 7
     },
     "1931": {
       "maker_id": 110,
@@ -3935,7 +3935,7 @@
       "price_jp": 780000000,
       "isOld": true,
       "lastSeen": "2025/05/05",
-      "sinceLastSeen": 6
+      "sinceLastSeen": 7
     },
     "3475": {
       "maker_id": 117,
@@ -3951,7 +3951,7 @@
       "price_jp": 1200000000,
       "isOld": true,
       "lastSeen": "2025/05/06",
-      "sinceLastSeen": 5
+      "sinceLastSeen": 6
     },
     "1470": {
       "maker_id": 43,
@@ -3967,7 +3967,7 @@
       "price_jp": 180000000,
       "isOld": true,
       "lastSeen": "2025/05/07",
-      "sinceLastSeen": 4
+      "sinceLastSeen": 5
     },
     "3493": {
       "maker_id": 28,
@@ -3983,7 +3983,7 @@
       "price_jp": 115000000,
       "isOld": true,
       "lastSeen": "2025/05/07",
-      "sinceLastSeen": 4
+      "sinceLastSeen": 5
     },
     "3489": {
       "maker_id": 116,
@@ -3999,7 +3999,7 @@
       "price_jp": 300000000,
       "isOld": true,
       "lastSeen": "2025/05/08",
-      "sinceLastSeen": 3
+      "sinceLastSeen": 4
     },
     "3490": {
       "maker_id": 136,
@@ -4015,7 +4015,7 @@
       "price_jp": 230000000,
       "isOld": true,
       "lastSeen": "2025/05/08",
-      "sinceLastSeen": 3
+      "sinceLastSeen": 4
     },
     "3557": {
       "maker_id": 22,
@@ -4031,7 +4031,7 @@
       "price_jp": 2000000000,
       "isOld": true,
       "lastSeen": "2025/05/09",
-      "sinceLastSeen": 2
+      "sinceLastSeen": 3
     },
     "3421": {
       "maker_id": 116,
@@ -4047,7 +4047,23 @@
       "price_jp": 6420000,
       "isOld": true,
       "lastSeen": "2025/05/09",
-      "sinceLastSeen": 2
+      "sinceLastSeen": 3
+    },
+    "1540": {
+      "maker_id": 117,
+      "maker_name": "McLaren",
+      "car_id": 1540,
+      "car_name": "McLaren F1 '94",
+      "car_group": "N",
+      "country_id": 4,
+      "country_name": "United Kingdom",
+      "country_code": "gb",
+      "engine_swaps": [],
+      "price": 20000000,
+      "price_jp": 2000000000,
+      "isOld": true,
+      "lastSeen": "2025/05/11",
+      "sinceLastSeen": 1
     },
     "1900": {
       "maker_id": 55,
@@ -4062,7 +4078,7 @@
       "price": 1600000,
       "price_jp": 160000000,
       "isOld": true,
-      "lastSeen": "2025/05/11",
+      "lastSeen": "2025/05/12",
       "sinceLastSeen": 0
     },
     "3362": {
@@ -4078,7 +4094,7 @@
       "price": 4450000,
       "price_jp": 445000000,
       "isOld": true,
-      "lastSeen": "2025/05/11",
+      "lastSeen": "2025/05/12",
       "sinceLastSeen": 0
     },
     "3375": {
@@ -4102,7 +4118,7 @@
       "price": 618000,
       "price_jp": 61800000,
       "isOld": true,
-      "lastSeen": "2025/05/11",
+      "lastSeen": "2025/05/12",
       "sinceLastSeen": 0
     },
     "1565": {
@@ -4118,7 +4134,7 @@
       "price": 6750000,
       "price_jp": 675000000,
       "isOld": true,
-      "lastSeen": "2025/05/11",
+      "lastSeen": "2025/05/12",
       "sinceLastSeen": 0
     },
     "3373": {
@@ -4134,7 +4150,7 @@
       "price": 1300000,
       "price_jp": 130000000,
       "isOld": true,
-      "lastSeen": "2025/05/11",
+      "lastSeen": "2025/05/12",
       "sinceLastSeen": 0
     },
     "3400": {
@@ -4150,7 +4166,7 @@
       "price": 10000000,
       "price_jp": 1000000000,
       "isOld": true,
-      "lastSeen": "2025/05/11",
+      "lastSeen": "2025/05/12",
       "sinceLastSeen": 0
     },
     "543": {
@@ -4174,7 +4190,7 @@
       "price": 554000,
       "price_jp": 55400000,
       "isOld": true,
-      "lastSeen": "2025/05/11",
+      "lastSeen": "2025/05/12",
       "sinceLastSeen": 0
     },
     "1975": {
@@ -4190,7 +4206,7 @@
       "price": 600000,
       "price_jp": 60000000,
       "isOld": true,
-      "lastSeen": "2025/05/11",
+      "lastSeen": "2025/05/12",
       "sinceLastSeen": 0
     },
     "365": {
@@ -4206,7 +4222,7 @@
       "price": 800000,
       "price_jp": 80000000,
       "isOld": true,
-      "lastSeen": "2025/05/11",
+      "lastSeen": "2025/05/12",
       "sinceLastSeen": 0
     },
     "3519": {
@@ -4222,23 +4238,7 @@
       "price": 1950000,
       "price_jp": 195000000,
       "isOld": true,
-      "lastSeen": "2025/05/11",
-      "sinceLastSeen": 0
-    },
-    "1540": {
-      "maker_id": 117,
-      "maker_name": "McLaren",
-      "car_id": 1540,
-      "car_name": "McLaren F1 '94",
-      "car_group": "N",
-      "country_id": 4,
-      "country_name": "United Kingdom",
-      "country_code": "gb",
-      "engine_swaps": [],
-      "price": 20000000,
-      "price_jp": 2000000000,
-      "isOld": true,
-      "lastSeen": "2025/05/11",
+      "lastSeen": "2025/05/12",
       "sinceLastSeen": 0
     }
   }

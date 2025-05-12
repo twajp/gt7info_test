@@ -1,6 +1,158 @@
 {
-  "timestamp": "2025-05-11T00:12:57.716598+00:00",
+  "timestamp": "2025-05-12T00:12:35.315422+00:00",
   "content": [
+    {
+      "id": 20250512,
+      "date": "2025/5/12",
+      "used": [
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 919,
+          "car_name": "Silvia Q's (S13) '88",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "1448",
+              "car_name": "SILVIA spec-R Aero (S15) '02",
+              "engine_name": "SR20DET-Silvia-S15"
+            },
+            {
+              "maker_id": 38,
+              "maker_name": "Subaru",
+              "car_id": "3339",
+              "car_name": "BRZ Drift Car '17",
+              "engine_name": "LS7-BRZ"
+            }
+          ],
+          "price": 34200,
+          "price_jp": 3420000,
+          "isOld": true
+        },
+        {
+          "maker_id": 43,
+          "maker_name": "Toyota",
+          "car_id": 1537,
+          "car_name": "Prius G '09",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 20000,
+          "price_jp": 2000000,
+          "isOld": false
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 1461,
+          "car_name": "Silvia K's Dia Selection (S13) '90",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "1448",
+              "car_name": "SILVIA spec-R Aero (S15) '02",
+              "engine_name": "SR20DET-Silvia-S15"
+            }
+          ],
+          "price": 51900,
+          "price_jp": 5190000,
+          "isOld": true
+        },
+        {
+          "maker_id": 34,
+          "maker_name": "Renault",
+          "car_id": 3547,
+          "car_name": "R4 GTL '85",
+          "car_group": "N",
+          "country_id": 6,
+          "country_name": "France",
+          "country_code": "fr",
+          "engine_swaps": [],
+          "price": 26600,
+          "price_jp": 2660000,
+          "isOld": true
+        },
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 203,
+          "car_name": "Integra Type R (DC2) '98",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 15,
+              "maker_name": "Honda",
+              "car_id": "3467",
+              "car_name": "Civic Type R Limited Edition (FK8) '20",
+              "engine_name": "K20C1-Civic-'20"
+            }
+          ],
+          "price": 67300,
+          "price_jp": 6730000,
+          "isOld": true
+        },
+        {
+          "maker_id": 38,
+          "maker_name": "Subaru",
+          "car_id": 451,
+          "car_name": "Impreza 22B-STi '98",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 38,
+              "maker_name": "Subaru",
+              "car_id": "3550",
+              "car_name": "Impreza Rally Car '98",
+              "engine_name": "EJ20-Impreza-Rally"
+            }
+          ],
+          "price": 166400,
+          "price_jp": 16640000,
+          "isOld": true
+        },
+        {
+          "maker_id": 136,
+          "maker_name": "Porsche",
+          "car_id": 3439,
+          "car_name": "911 Carrera RS (993) '95",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [
+            {
+              "maker_id": 35,
+              "maker_name": "RUF",
+              "car_id": "3398",
+              "car_name": "CTR3 '07",
+              "engine_name": "CTR38-CTR3"
+            }
+          ],
+          "price": 215200,
+          "price_jp": 21520000,
+          "isOld": true
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20250511,
       "date": "2025/5/11",
@@ -1332,108 +1484,6 @@
           "engine_swaps": [],
           "price": 12000000,
           "price_jp": 1200000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20250428,
-      "date": "2025/4/28",
-      "used": [
-        {
-          "maker_id": 18,
-          "maker_name": "Lancia",
-          "car_id": 829,
-          "car_name": "Delta HF Integrale Evoluzione '91",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "3345",
-              "car_name": "GT-R NISMO '17",
-              "engine_name": "VR38DETT-GT-R-NISMO"
-            }
-          ],
-          "price": 105000,
-          "price_jp": 10500000,
-          "isOld": true
-        },
-        {
-          "maker_id": 15,
-          "maker_name": "Honda",
-          "car_id": 396,
-          "car_name": "NSX Type R '02",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 15,
-              "maker_name": "Honda",
-              "car_id": "3348",
-              "car_name": "NSX CONCEPT-GT '16",
-              "engine_name": "HR-414E-NSX"
-            }
-          ],
-          "price": 447400,
-          "price_jp": 44740000,
-          "isOld": false
-        },
-        {
-          "maker_id": 6,
-          "maker_name": "BMW",
-          "car_id": 1399,
-          "car_name": "M3 '07",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 6,
-              "maker_name": "BMW",
-              "car_id": "1902",
-              "car_name": "Z4 GT3 '11",
-              "engine_name": "P65B44-Z4"
-            }
-          ],
-          "price": 70500,
-          "price_jp": 7050000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 43,
-          "maker_name": "Toyota",
-          "car_id": 116,
-          "car_name": "GT-One (TS020) '99",
-          "car_group": null,
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [],
-          "price": 2500000,
-          "price_jp": 250000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 3493,
-          "car_name": "Skyline Super Silhouette Group 5 '84",
-          "car_group": "3",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [],
-          "price": 1150000,
-          "price_jp": 115000000,
           "isOld": true
         }
       ]

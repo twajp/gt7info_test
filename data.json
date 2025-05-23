@@ -1,6 +1,12 @@
 {
-  "timestamp": "2025-05-22T00:11:57.306179+00:00",
+  "timestamp": "2025-05-23T00:11:57.718918+00:00",
   "content": [
+    {
+      "id": 20250523,
+      "date": "2025/5/23",
+      "used": [],
+      "legend": []
+    },
     {
       "id": 20250522,
       "date": "2025/5/22",
@@ -1315,122 +1321,6 @@
           ],
           "price": 618000,
           "price_jp": 61800000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20250509,
-      "date": "2025/5/9",
-      "used": [
-        {
-          "maker_id": 15,
-          "maker_name": "Honda",
-          "car_id": 135,
-          "car_name": "S800 '66",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 15,
-              "maker_name": "Honda",
-              "car_id": "2156",
-              "car_name": "2&4 powered by RC213V",
-              "engine_name": "SE75E-2&4"
-            }
-          ],
-          "price": 42300,
-          "price_jp": 4230000,
-          "isOld": true
-        },
-        {
-          "maker_id": 15,
-          "maker_name": "Honda",
-          "car_id": 514,
-          "car_name": "S2000 '99",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 157,
-              "maker_name": "Garage RCR",
-              "car_id": "3526",
-              "car_name": "Civic",
-              "engine_name": "K24A-Civic"
-            }
-          ],
-          "price": 97300,
-          "price_jp": 9730000,
-          "isOld": true
-        },
-        {
-          "maker_id": 6,
-          "maker_name": "BMW",
-          "car_id": 655,
-          "car_name": "Z4 3.0i '03",
-          "car_group": null,
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 43,
-              "maker_name": "Toyota",
-              "car_id": "82",
-              "car_name": "Supra RZ '97",
-              "engine_name": "2JZ-GTE-Supra"
-            }
-          ],
-          "price": 53700,
-          "price_jp": 5370000,
-          "isOld": false
-        },
-        {
-          "maker_id": 112,
-          "maker_name": "Lamborghini",
-          "car_id": 1990,
-          "car_name": "Diablo GT '00",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 830900,
-          "price_jp": 83090000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 136,
-          "maker_name": "Porsche",
-          "car_id": 3373,
-          "car_name": "962 C '88",
-          "car_group": "1",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 1300000,
-          "price_jp": 130000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 136,
-          "maker_name": "Porsche",
-          "car_id": 3400,
-          "car_name": "911 GT1 Strassenversion '97",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 10000000,
-          "price_jp": 1000000000,
           "isOld": true
         }
       ]

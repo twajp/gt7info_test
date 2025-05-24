@@ -1,6 +1,12 @@
 {
-  "timestamp": "2025-05-23T00:11:57.718918+00:00",
+  "timestamp": "2025-05-24T00:11:08.196890+00:00",
   "content": [
+    {
+      "id": 20250524,
+      "date": "2025/5/24",
+      "used": [],
+      "legend": []
+    },
     {
       "id": 20250523,
       "date": "2025/5/23",
@@ -1175,152 +1181,6 @@
           "engine_swaps": [],
           "price": 4450000,
           "price_jp": 445000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20250510,
-      "date": "2025/5/10",
-      "used": [
-        {
-          "maker_id": 46,
-          "maker_name": "Volkswagen",
-          "car_id": 1778,
-          "car_name": "Volkswagen 1200 '66",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 136,
-              "maker_name": "Porsche",
-              "car_id": "3431",
-              "car_name": "911 Carrera RS (964) '92",
-              "engine_name": "M64/03-911"
-            }
-          ],
-          "price": 29500,
-          "price_jp": 2950000,
-          "isOld": true
-        },
-        {
-          "maker_id": 34,
-          "maker_name": "Renault",
-          "car_id": 173,
-          "car_name": "R5 Turbo '80",
-          "car_group": "N",
-          "country_id": 6,
-          "country_name": "France",
-          "country_code": "fr",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "1448",
-              "car_name": "SILVIA spec-R Aero (S15) '02",
-              "engine_name": "SR20DET-Silvia-S15"
-            }
-          ],
-          "price": 160000,
-          "price_jp": 16000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 35,
-          "maker_name": "RUF",
-          "car_id": 3398,
-          "car_name": "CTR3 '07",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 788800,
-          "price_jp": 78880000,
-          "isOld": false
-        },
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 210,
-          "car_name": "R34 GT-R V-spec II Nur '02",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "954",
-              "car_name": "R92CP '92",
-              "engine_name": "VRH35Z-R92CP"
-            }
-          ],
-          "price": 388500,
-          "price_jp": 38850000,
-          "isOld": false
-        },
-        {
-          "maker_id": 112,
-          "maker_name": "Lamborghini",
-          "car_id": 1481,
-          "car_name": "Countach 25th Anniversary '88",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [
-            {
-              "maker_id": 112,
-              "maker_name": "Lamborghini",
-              "car_id": "3392",
-              "car_name": "Aventador LP 750-4 SV '15",
-              "engine_name": "L539-Aventador-SV"
-            }
-          ],
-          "price": 655200,
-          "price_jp": 65520000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 13,
-          "maker_name": "Ford",
-          "car_id": 1565,
-          "car_name": "Mark IV Race Car '67",
-          "car_group": "X",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [],
-          "price": 6750000,
-          "price_jp": 675000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 136,
-          "maker_name": "Porsche",
-          "car_id": 3375,
-          "car_name": "356 A/1500 GS Carrera '56",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 136,
-              "maker_name": "Porsche",
-              "car_id": "3519",
-              "car_name": "959 '87",
-              "engine_name": "959.50-959"
-            }
-          ],
-          "price": 618000,
-          "price_jp": 61800000,
           "isOld": true
         }
       ]

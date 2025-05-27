@@ -1,6 +1,158 @@
 {
-  "timestamp": "2025-05-26T00:11:57.103270+00:00",
+  "timestamp": "2025-05-27T00:12:03.978985+00:00",
   "content": [
+    {
+      "id": 20250527,
+      "date": "2025/5/27",
+      "used": [
+        {
+          "maker_id": 13,
+          "maker_name": "Ford",
+          "car_id": 3555,
+          "car_name": "Escort RS Cosworth '92",
+          "car_group": null,
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 13,
+              "maker_name": "Ford",
+              "car_id": "3264",
+              "car_name": "Focus Gr.B Rally Car",
+              "engine_name": "L4-Focus-Gr.B"
+            }
+          ],
+          "price": 150000,
+          "price_jp": 15000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 13,
+          "maker_name": "Ford",
+          "car_id": 3555,
+          "car_name": "Escort RS Cosworth '92",
+          "car_group": null,
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 13,
+              "maker_name": "Ford",
+              "car_id": "3264",
+              "car_name": "Focus Gr.B Rally Car",
+              "engine_name": "L4-Focus-Gr.B"
+            }
+          ],
+          "price": 150000,
+          "price_jp": 15000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 39,
+          "maker_name": "Suzuki",
+          "car_id": 1385,
+          "car_name": "Swift Sport '07",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 12800,
+          "price_jp": 1280000,
+          "isOld": false
+        },
+        {
+          "maker_id": 46,
+          "maker_name": "Volkswagen",
+          "car_id": 3403,
+          "car_name": "Golf I GTI '83",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [
+            {
+              "maker_id": 5,
+              "maker_name": "Audi",
+              "car_id": "1927",
+              "car_name": "Sport quattro S1 Pikes Peak '87",
+              "engine_name": "R5-20vT-Quattro-Pikes"
+            }
+          ],
+          "price": 43700,
+          "price_jp": 4370000,
+          "isOld": true
+        },
+        {
+          "maker_id": 11,
+          "maker_name": "Dodge",
+          "car_id": 3377,
+          "car_name": "Super Bee '70",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [],
+          "price": 67800,
+          "price_jp": 6780000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 22,
+          "maker_name": "Mercedes-Benz",
+          "car_id": 387,
+          "car_name": "300 SL Coupe '54",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 1700000,
+          "price_jp": 170000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 836,
+          "car_name": "Skyline 2000GT-R (KPGC110) '73",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "3493",
+              "car_name": "Skyline Super Silhouette Group 5 '84",
+              "engine_name": "LZ20B-Skyline"
+            }
+          ],
+          "price": 542000,
+          "price_jp": 54200000,
+          "isOld": true
+        },
+        {
+          "maker_id": 22,
+          "maker_name": "Mercedes-Benz",
+          "car_id": 3397,
+          "car_name": "CLK-LM '98",
+          "car_group": "2",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 8500000,
+          "price_jp": 850000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250526,
       "date": "2025/5/26",
@@ -1046,78 +1198,6 @@
         }
       ],
       "legend": []
-    },
-    {
-      "id": 20250513,
-      "date": "2025/5/13",
-      "used": [
-        {
-          "maker_id": 46,
-          "maker_name": "Volkswagen",
-          "car_id": 1773,
-          "car_name": "Scirocco R '10",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 40600,
-          "price_jp": 4060000,
-          "isOld": false
-        },
-        {
-          "maker_id": 22,
-          "maker_name": "Mercedes-Benz",
-          "car_id": 1528,
-          "car_name": "SLR McLaren '09",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 521900,
-          "price_jp": 52190000,
-          "isOld": false
-        },
-        {
-          "maker_id": 21,
-          "maker_name": "Mazda",
-          "car_id": 205,
-          "car_name": "RX-7 Spirit R Type A (FD) '02",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 21,
-              "maker_name": "Mazda",
-              "car_id": "296",
-              "car_name": "787B '91",
-              "engine_name": "R26B-787B"
-            }
-          ],
-          "price": 224600,
-          "price_jp": 22460000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 4,
-          "maker_name": "Aston Martin",
-          "car_id": 3445,
-          "car_name": "DB5 '64",
-          "car_group": "N",
-          "country_id": 4,
-          "country_name": "United Kingdom",
-          "country_code": "gb",
-          "engine_swaps": [],
-          "price": 892000,
-          "price_jp": 89200000,
-          "isOld": true
-        }
-      ]
     }
   ]
 }

@@ -1,6 +1,122 @@
 {
-  "timestamp": "2025-05-27T00:12:03.978985+00:00",
+  "timestamp": "2025-05-28T00:11:57.824003+00:00",
   "content": [
+    {
+      "id": 20250528,
+      "date": "2025/5/28",
+      "used": [
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 102,
+          "car_name": "Skyline GTS-R (R31) '87",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "210",
+              "car_name": "R34 GT-R V-spec II Nur '02",
+              "engine_name": "RB26DETT-GT-R-R34"
+            }
+          ],
+          "price": 171900,
+          "price_jp": 17190000,
+          "isOld": true
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 773,
+          "car_name": "R32 GT-R V-spec II '94",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "954",
+              "car_name": "R92CP '92",
+              "engine_name": "VRH35Z-R92CP"
+            }
+          ],
+          "price": 171400,
+          "price_jp": 17140000,
+          "isOld": true
+        },
+        {
+          "maker_id": 110,
+          "maker_name": "Ferrari",
+          "car_id": 1504,
+          "car_name": "458 Italia '09",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 252200,
+          "price_jp": 25220000,
+          "isOld": false
+        },
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 293,
+          "car_name": "NSX Type R '92",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 15,
+              "maker_name": "Honda",
+              "car_id": "3348",
+              "car_name": "NSX CONCEPT-GT '16",
+              "engine_name": "HR-414E-NSX"
+            }
+          ],
+          "price": 399200,
+          "price_jp": 39920000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 3,
+          "maker_name": "Alfa Romeo",
+          "car_id": 3415,
+          "car_name": "8C 2900B Touring Berlinetta '38",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 20000000,
+          "price_jp": 2000000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 32,
+          "maker_name": "Peugeot",
+          "car_id": 105,
+          "car_name": "205 Turbo 16 Evolution 2 '86",
+          "car_group": "B",
+          "country_id": 6,
+          "country_name": "France",
+          "country_code": "fr",
+          "engine_swaps": [],
+          "price": 1000000,
+          "price_jp": 100000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250527,
       "date": "2025/5/27",
@@ -1155,49 +1271,6 @@
           "isOld": true
         }
       ]
-    },
-    {
-      "id": 20250514,
-      "date": "2025/5/14",
-      "used": [
-        {
-          "maker_id": 6,
-          "maker_name": "BMW",
-          "car_id": 3453,
-          "car_name": "M3 '89",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 39,
-              "maker_name": "Suzuki",
-              "car_id": "3508",
-              "car_name": "SUZUKI Vision Gran Turismo (Gr.3 Version)",
-              "engine_name": "V8-Suzuki-VGT-Gr.3"
-            }
-          ],
-          "price": 76900,
-          "price_jp": 7690000,
-          "isOld": true
-        },
-        {
-          "maker_id": 3,
-          "maker_name": "Alfa Romeo",
-          "car_id": 1578,
-          "car_name": "8C Competizione '08",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 301300,
-          "price_jp": 30130000,
-          "isOld": false
-        }
-      ],
-      "legend": []
     }
   ]
 }

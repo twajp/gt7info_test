@@ -1,6 +1,144 @@
 {
-  "timestamp": "2025-06-15T00:14:05.939559+00:00",
+  "timestamp": "2025-06-16T00:13:05.613377+00:00",
   "content": [
+    {
+      "id": 20250616,
+      "date": "2025/6/16",
+      "used": [
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 1461,
+          "car_name": "Silvia K's Dia Selection (S13) '90",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "1448",
+              "car_name": "SILVIA spec-R Aero (S15) '02",
+              "engine_name": "SR20DET-Silvia-S15"
+            }
+          ],
+          "price": 48900,
+          "price_jp": 4890000,
+          "isOld": true
+        },
+        {
+          "maker_id": 34,
+          "maker_name": "Renault",
+          "car_id": 173,
+          "car_name": "R5 Turbo '80",
+          "car_group": "N",
+          "country_id": 6,
+          "country_name": "France",
+          "country_code": "fr",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "1448",
+              "car_name": "SILVIA spec-R Aero (S15) '02",
+              "engine_name": "SR20DET-Silvia-S15"
+            }
+          ],
+          "price": 157500,
+          "price_jp": 15750000,
+          "isOld": true
+        },
+        {
+          "maker_id": 34,
+          "maker_name": "Renault",
+          "car_id": 3547,
+          "car_name": "R4 GTL '85",
+          "car_group": "N",
+          "country_id": 6,
+          "country_name": "France",
+          "country_code": "fr",
+          "engine_swaps": [],
+          "price": 27300,
+          "price_jp": 2730000,
+          "isOld": true
+        },
+        {
+          "maker_id": 46,
+          "maker_name": "Volkswagen",
+          "car_id": 1773,
+          "car_name": "Scirocco R '10",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 39500,
+          "price_jp": 3950000,
+          "isOld": false
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 489,
+          "car_name": "R33 GT-R V-spec '97",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "954",
+              "car_name": "R92CP '92",
+              "engine_name": "VRH35Z-R92CP"
+            }
+          ],
+          "price": 160500,
+          "price_jp": 16050000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 7,
+          "maker_name": "Chevrolet",
+          "car_id": 3464,
+          "car_name": "Corvette (C1) '58",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 7,
+              "maker_name": "Chevrolet",
+              "car_id": "3449",
+              "car_name": "Corvette C7 ZR1 '19",
+              "engine_name": "LT5-Corvette-C7"
+            }
+          ],
+          "price": 107000,
+          "price_jp": 10700000,
+          "isOld": true
+        },
+        {
+          "maker_id": 110,
+          "maker_name": "Ferrari",
+          "car_id": 2017,
+          "car_name": "GTO '84",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 3500000,
+          "price_jp": 350000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250615,
       "date": "2025/6/15",
@@ -1227,35 +1365,6 @@
           "isOld": true
         }
       ]
-    },
-    {
-      "id": 20250602,
-      "date": "2025/6/2",
-      "used": [
-        {
-          "maker_id": 43,
-          "maker_name": "Toyota",
-          "car_id": 810,
-          "car_name": "Sprinter Trueno 1600GT APEX (AE86) '83",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 43,
-              "maker_name": "Toyota",
-              "car_id": "207",
-              "car_name": "MR2 GT-S '97",
-              "engine_name": "3S-GTE-MR2"
-            }
-          ],
-          "price": 58200,
-          "price_jp": 5820000,
-          "isOld": true
-        }
-      ],
-      "legend": []
     }
   ]
 }

@@ -1,6 +1,115 @@
 {
-  "timestamp": "2025-06-17T00:11:38.840267+00:00",
+  "timestamp": "2025-06-18T00:12:00.615464+00:00",
   "content": [
+    {
+      "id": 20250618,
+      "date": "2025/6/18",
+      "used": [
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 135,
+          "car_name": "S800 '66",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 15,
+              "maker_name": "Honda",
+              "car_id": "2156",
+              "car_name": "2&4 powered by RC213V",
+              "engine_name": "SE75E-2&4"
+            }
+          ],
+          "price": 52100,
+          "price_jp": 5210000,
+          "isOld": true
+        },
+        {
+          "maker_id": 13,
+          "maker_name": "Ford",
+          "car_id": 3466,
+          "car_name": "Sierra RS 500 Cosworth '87",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 13,
+              "maker_name": "Ford",
+              "car_id": "3264",
+              "car_name": "Focus Gr.B Rally Car",
+              "engine_name": "L4-Focus-Gr.B"
+            }
+          ],
+          "price": 198900,
+          "price_jp": 19890000,
+          "isOld": true
+        },
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 514,
+          "car_name": "S2000 '99",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 157,
+              "maker_name": "Garage RCR",
+              "car_id": "3526",
+              "car_name": "Civic",
+              "engine_name": "K24A-Civic"
+            }
+          ],
+          "price": 99400,
+          "price_jp": 9940000,
+          "isOld": true
+        },
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 203,
+          "car_name": "Integra Type R (DC2) '98",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 15,
+              "maker_name": "Honda",
+              "car_id": "3467",
+              "car_name": "Civic Type R Limited Edition (FK8) '20",
+              "engine_name": "K20C1-Civic-'20"
+            }
+          ],
+          "price": 65500,
+          "price_jp": 6550000,
+          "isOld": true
+        },
+        {
+          "maker_id": 43,
+          "maker_name": "Toyota",
+          "car_id": 345,
+          "car_name": "Sprinter Trueno 1600GT APEX (S.Shigeno Version)",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 99500,
+          "price_jp": 9950000,
+          "isOld": null
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20250617,
       "date": "2025/6/17",
@@ -1290,57 +1399,6 @@
           "isOld": true
         }
       ]
-    },
-    {
-      "id": 20250604,
-      "date": "2025/6/4",
-      "used": [
-        {
-          "maker_id": 57,
-          "maker_name": "Autobianchi",
-          "car_id": 3442,
-          "car_name": "A112 Abarth '85",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [
-            {
-              "maker_id": 157,
-              "maker_name": "Garage RCR",
-              "car_id": "3526",
-              "car_name": "Civic",
-              "engine_name": "K24A-Civic"
-            }
-          ],
-          "price": 29800,
-          "price_jp": 2980000,
-          "isOld": true
-        },
-        {
-          "maker_id": 18,
-          "maker_name": "Lancia",
-          "car_id": 829,
-          "car_name": "Delta HF Integrale Evoluzione '91",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "3345",
-              "car_name": "GT-R NISMO '17",
-              "engine_name": "VR38DETT-GT-R-NISMO"
-            }
-          ],
-          "price": 98900,
-          "price_jp": 9890000,
-          "isOld": true
-        }
-      ],
-      "legend": []
     }
   ]
 }

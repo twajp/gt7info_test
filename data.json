@@ -1,6 +1,86 @@
 {
-  "timestamp": "2025-06-18T00:12:00.615464+00:00",
+  "timestamp": "2025-06-19T00:11:50.796018+00:00",
   "content": [
+    {
+      "id": 20250619,
+      "date": "2025/6/19",
+      "used": [
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 48,
+          "car_name": "Fairlady 240ZG (HS30) '71",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 151,
+              "maker_name": "Roadster Shop",
+              "car_id": "3426",
+              "car_name": "Roadster Shop Rampage",
+              "engine_name": "LS7-Rampage"
+            }
+          ],
+          "price": 102800,
+          "price_jp": 10280000,
+          "isOld": true
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 210,
+          "car_name": "R34 GT-R V-spec II Nur '02",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "954",
+              "car_name": "R92CP '92",
+              "engine_name": "VRH35Z-R92CP"
+            }
+          ],
+          "price": 399800,
+          "price_jp": 39980000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 38,
+          "maker_name": "Subaru",
+          "car_id": 3550,
+          "car_name": "Impreza Rally Car '98",
+          "car_group": null,
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 650000,
+          "price_jp": 65000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 21,
+          "maker_name": "Mazda",
+          "car_id": 296,
+          "car_name": "787B '91",
+          "car_group": "1",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 3300000,
+          "price_jp": 330000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250618,
       "date": "2025/6/18",
@@ -1275,130 +1355,6 @@
         }
       ],
       "legend": []
-    },
-    {
-      "id": 20250605,
-      "date": "2025/6/5",
-      "used": [
-        {
-          "maker_id": 15,
-          "maker_name": "Honda",
-          "car_id": 37,
-          "car_name": "Civic SiR-II (EG) '93",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 15,
-              "maker_name": "Honda",
-              "car_id": "203",
-              "car_name": "Integra Type R (DC2) '98",
-              "engine_name": "B18C-Integra-'98"
-            }
-          ],
-          "price": 48200,
-          "price_jp": 4820000,
-          "isOld": true
-        },
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 24,
-          "car_name": "180SX Type X '96",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "3345",
-              "car_name": "GT-R NISMO '17",
-              "engine_name": "VR38DETT-GT-R-NISMO"
-            }
-          ],
-          "price": 53800,
-          "price_jp": 5380000,
-          "isOld": true
-        },
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 1384,
-          "car_name": "Fairlady Z Version S (Z33) '07",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "210",
-              "car_name": "R34 GT-R V-spec II Nur '02",
-              "engine_name": "RB26DETT-GT-R-R34"
-            }
-          ],
-          "price": 30300,
-          "price_jp": 3030000,
-          "isOld": false
-        },
-        {
-          "maker_id": 13,
-          "maker_name": "Ford",
-          "car_id": 1426,
-          "car_name": "Ford GT '06",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 156,
-              "maker_name": "Greening Auto Company",
-              "car_id": "3522",
-              "car_name": "Maverick",
-              "engine_name": "Windsor-351-Maverick"
-            }
-          ],
-          "price": 408700,
-          "price_jp": 40870000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 17,
-          "maker_name": "Jaguar",
-          "car_id": 1553,
-          "car_name": "XJ13 '66",
-          "car_group": "X",
-          "country_id": 4,
-          "country_name": "United Kingdom",
-          "country_code": "gb",
-          "engine_swaps": [],
-          "price": 12000000,
-          "price_jp": 1200000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 110,
-          "maker_name": "Ferrari",
-          "car_id": 2010,
-          "car_name": "250 GTO '62",
-          "car_group": "X",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 20000000,
-          "price_jp": 2000000000,
-          "isOld": true
-        }
-      ]
     }
   ]
 }

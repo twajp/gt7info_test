@@ -1,6 +1,78 @@
 {
-  "timestamp": "2025-06-23T00:12:15.369762+00:00",
+  "timestamp": "2025-06-24T00:12:09.310796+00:00",
   "content": [
+    {
+      "id": 20250624,
+      "date": "2025/6/24",
+      "used": [
+        {
+          "maker_id": 110,
+          "maker_name": "Ferrari",
+          "car_id": 1895,
+          "car_name": "Dino 246 GT '71",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 400000,
+          "price_jp": 40000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 6,
+          "maker_name": "BMW",
+          "car_id": 3344,
+          "car_name": "M3 Sport Evolution '89",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [
+            {
+              "maker_id": 43,
+              "maker_name": "Toyota",
+              "car_id": "3418",
+              "car_name": "GR Supra RZ '20",
+              "engine_name": "B58-GR-Supra-'20"
+            }
+          ],
+          "price": 162200,
+          "price_jp": 16220000,
+          "isOld": true
+        },
+        {
+          "maker_id": 3,
+          "maker_name": "Alfa Romeo",
+          "car_id": 1578,
+          "car_name": "8C Competizione '08",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 289700,
+          "price_jp": 28970000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 110,
+          "maker_name": "Ferrari",
+          "car_id": 3362,
+          "car_name": "F50 '95",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 4450000,
+          "price_jp": 445000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250623,
       "date": "2025/6/23",
@@ -1126,152 +1198,6 @@
         }
       ],
       "legend": []
-    },
-    {
-      "id": 20250610,
-      "date": "2025/6/10",
-      "used": [
-        {
-          "maker_id": 6,
-          "maker_name": "BMW",
-          "car_id": 3422,
-          "car_name": "3.0 CSL '73",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 6,
-              "maker_name": "BMW",
-              "car_id": "1902",
-              "car_name": "Z4 GT3 '11",
-              "engine_name": "P65B44-Z4"
-            }
-          ],
-          "price": 250000,
-          "price_jp": 25000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 46,
-          "maker_name": "Volkswagen",
-          "car_id": 1778,
-          "car_name": "Volkswagen 1200 '66",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 136,
-              "maker_name": "Porsche",
-              "car_id": "3431",
-              "car_name": "911 Carrera RS (964) '92",
-              "engine_name": "M64/03-911"
-            }
-          ],
-          "price": 30400,
-          "price_jp": 3040000,
-          "isOld": true
-        },
-        {
-          "maker_id": 43,
-          "maker_name": "Toyota",
-          "car_id": 207,
-          "car_name": "MR2 GT-S '97",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 5,
-              "maker_name": "Audi",
-              "car_id": "1365",
-              "car_name": "R8 4.2 '07",
-              "engine_name": "BYH-R8"
-            }
-          ],
-          "price": 51100,
-          "price_jp": 5110000,
-          "isOld": true
-        },
-        {
-          "maker_id": 136,
-          "maker_name": "Porsche",
-          "car_id": 3431,
-          "car_name": "911 Carrera RS (964) '92",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 136,
-              "maker_name": "Porsche",
-              "car_id": "3519",
-              "car_name": "959 '87",
-              "engine_name": "959.50-959"
-            }
-          ],
-          "price": 225000,
-          "price_jp": 22500000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 3493,
-          "car_name": "Skyline Super Silhouette Group 5 '84",
-          "car_group": "3",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [],
-          "price": 1150000,
-          "price_jp": 115000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 153,
-          "maker_name": "AMG",
-          "car_id": 3388,
-          "car_name": "300 SEL 6.8 AMG '71",
-          "car_group": "X",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 700000,
-          "price_jp": 70000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 110,
-          "maker_name": "Ferrari",
-          "car_id": 1409,
-          "car_name": "F40 '92",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [
-            {
-              "maker_id": 110,
-              "maker_name": "Ferrari",
-              "car_id": "1474",
-              "car_name": "Enzo Ferrari '02",
-              "engine_name": "F140B-Enzo"
-            }
-          ],
-          "price": 3100000,
-          "price_jp": 310000000,
-          "isOld": true
-        }
-      ]
     }
   ]
 }

@@ -1,6 +1,57 @@
 {
-  "timestamp": "2025-06-25T00:11:49.060482+00:00",
+  "timestamp": "2025-06-26T00:11:43.558270+00:00",
   "content": [
+    {
+      "id": 20250626,
+      "date": "2025/6/26",
+      "used": [
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 137,
+          "car_name": "Beat '91",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 15,
+              "maker_name": "Honda",
+              "car_id": "3467",
+              "car_name": "Civic Type R Limited Edition (FK8) '20",
+              "engine_name": "K20C1-Civic-'20"
+            }
+          ],
+          "price": 15400,
+          "price_jp": 1540000,
+          "isOld": true
+        },
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 3563,
+          "car_name": "Civic Si Extra (EF) '87",
+          "car_group": null,
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 15,
+              "maker_name": "Honda",
+              "car_id": "203",
+              "car_name": "Integra Type R (DC2) '98",
+              "engine_name": "B18C-Integra-'98"
+            }
+          ],
+          "price": 55900,
+          "price_jp": 5590000,
+          "isOld": true
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20250625,
       "date": "2025/6/25",
@@ -1058,65 +1109,6 @@
         }
       ],
       "legend": []
-    },
-    {
-      "id": 20250612,
-      "date": "2025/6/12",
-      "used": [
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 919,
-          "car_name": "Silvia Q's (S13) '88",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "1448",
-              "car_name": "SILVIA spec-R Aero (S15) '02",
-              "engine_name": "SR20DET-Silvia-S15"
-            },
-            {
-              "maker_id": 38,
-              "maker_name": "Subaru",
-              "car_id": "3339",
-              "car_name": "BRZ Drift Car '17",
-              "engine_name": "LS7-BRZ"
-            }
-          ],
-          "price": 28800,
-          "price_jp": 2880000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 34,
-          "maker_name": "Renault",
-          "car_id": 1986,
-          "car_name": "R8 Gordini '66",
-          "car_group": "X",
-          "country_id": 6,
-          "country_name": "France",
-          "country_code": "fr",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "1448",
-              "car_name": "SILVIA spec-R Aero (S15) '02",
-              "engine_name": "SR20DET-Silvia-S15"
-            }
-          ],
-          "price": 32500,
-          "price_jp": 3250000,
-          "isOld": true
-        }
-      ]
     }
   ]
 }

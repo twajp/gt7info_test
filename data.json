@@ -1,6 +1,130 @@
 {
-  "timestamp": "2025-06-30T00:12:56.582758+00:00",
+  "timestamp": "2025-07-01T00:13:16.643272+00:00",
   "content": [
+    {
+      "id": 20250701,
+      "date": "2025/7/1",
+      "used": [
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 821,
+          "car_name": "Civic Type R (EK) '97",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 157,
+              "maker_name": "Garage RCR",
+              "car_id": "3526",
+              "car_name": "Civic",
+              "engine_name": "K24A-Civic"
+            }
+          ],
+          "price": 57000,
+          "price_jp": 5700000,
+          "isOld": true
+        },
+        {
+          "maker_id": 6,
+          "maker_name": "BMW",
+          "car_id": 3551,
+          "car_name": "M3 '97",
+          "car_group": null,
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [
+            {
+              "maker_id": 38,
+              "maker_name": "Subaru",
+              "car_id": "3339",
+              "car_name": "BRZ Drift Car '17",
+              "engine_name": "LS7-BRZ"
+            }
+          ],
+          "price": 84200,
+          "price_jp": 8420000,
+          "isOld": true
+        },
+        {
+          "maker_id": 110,
+          "maker_name": "Ferrari",
+          "car_id": 3434,
+          "car_name": "Testarossa '91",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 372000,
+          "price_jp": 37200000,
+          "isOld": true
+        },
+        {
+          "maker_id": 6,
+          "maker_name": "BMW",
+          "car_id": 1893,
+          "car_name": "Z8 '01",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 257800,
+          "price_jp": 25780000,
+          "isOld": false
+        },
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 1689,
+          "car_name": "Civic Type R (EK) Touring Car",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 157,
+              "maker_name": "Garage RCR",
+              "car_id": "3526",
+              "car_name": "Civic",
+              "engine_name": "K24A-Civic"
+            }
+          ],
+          "price": 122100,
+          "price_jp": 12210000,
+          "isOld": null
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 837,
+          "car_name": "Skyline Hard Top 2000GT-R (KPGC10) '70",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "3493",
+              "car_name": "Skyline Super Silhouette Group 5 '84",
+              "engine_name": "LZ20B-Skyline"
+            }
+          ],
+          "price": 194000,
+          "price_jp": 19400000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250630,
       "date": "2025/6/30",
@@ -1095,136 +1219,6 @@
         }
       ],
       "legend": []
-    },
-    {
-      "id": 20250617,
-      "date": "2025/6/17",
-      "used": [
-        {
-          "maker_id": 6,
-          "maker_name": "BMW",
-          "car_id": 3453,
-          "car_name": "M3 '89",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 39,
-              "maker_name": "Suzuki",
-              "car_id": "3508",
-              "car_name": "SUZUKI Vision Gran Turismo (Gr.3 Version)",
-              "engine_name": "V8-Suzuki-VGT-Gr.3"
-            }
-          ],
-          "price": 82300,
-          "price_jp": 8230000,
-          "isOld": true
-        },
-        {
-          "maker_id": 25,
-          "maker_name": "Mitsubishi",
-          "car_id": 931,
-          "car_name": "Lancer Evolution III GSR '95",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 25,
-              "maker_name": "Mitsubishi",
-              "car_id": "3230",
-              "car_name": "Lancer Evolution Final Gr.B Rally Car",
-              "engine_name": "Evo-Final-Gr.B"
-            }
-          ],
-          "price": 87300,
-          "price_jp": 8730000,
-          "isOld": true
-        },
-        {
-          "maker_id": 22,
-          "maker_name": "Mercedes-Benz",
-          "car_id": 1528,
-          "car_name": "SLR McLaren '09",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 492000,
-          "price_jp": 49200000,
-          "isOld": false
-        },
-        {
-          "maker_id": 21,
-          "maker_name": "Mazda",
-          "car_id": 205,
-          "car_name": "RX-7 Spirit R Type A (FD) '02",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 21,
-              "maker_name": "Mazda",
-              "car_id": "296",
-              "car_name": "787B '91",
-              "engine_name": "R26B-787B"
-            }
-          ],
-          "price": 215300,
-          "price_jp": 21530000,
-          "isOld": false
-        },
-        {
-          "maker_id": 35,
-          "maker_name": "RUF",
-          "car_id": 3398,
-          "car_name": "CTR3 '07",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 805400,
-          "price_jp": 80540000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 13,
-          "maker_name": "Ford",
-          "car_id": 1935,
-          "car_name": "GT40 Mark I '66",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [],
-          "price": 6700000,
-          "price_jp": 670000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 112,
-          "maker_name": "Lamborghini",
-          "car_id": 1582,
-          "car_name": "Miura P400 Bertone Prototype '67",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 4300000,
-          "price_jp": 430000000,
-          "isOld": true
-        }
-      ]
     }
   ]
 }

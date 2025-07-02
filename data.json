@@ -1,6 +1,107 @@
 {
-  "timestamp": "2025-07-01T00:13:16.643272+00:00",
+  "timestamp": "2025-07-02T00:11:53.971685+00:00",
   "content": [
+    {
+      "id": 20250702,
+      "date": "2025/7/2",
+      "used": [
+        {
+          "maker_id": 52,
+          "maker_name": "Pontiac",
+          "car_id": 1985,
+          "car_name": "Firebird Trans Am '78",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 7,
+              "maker_name": "Chevrolet",
+              "car_id": "1480",
+              "car_name": "Corvette ZR1 (C6) '09",
+              "engine_name": "LS9-Corvette"
+            }
+          ],
+          "price": 94200,
+          "price_jp": 9420000,
+          "isOld": true
+        },
+        {
+          "maker_id": 13,
+          "maker_name": "Ford",
+          "car_id": 1729,
+          "car_name": "Mustang Mach 1 '71",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 13,
+              "maker_name": "Ford",
+              "car_id": "2138",
+              "car_name": "Mustang GT '15",
+              "engine_name": "Coyote-5.0L-Mustang"
+            }
+          ],
+          "price": 36200,
+          "price_jp": 3620000,
+          "isOld": true
+        },
+        {
+          "maker_id": 110,
+          "maker_name": "Ferrari",
+          "car_id": 1895,
+          "car_name": "Dino 246 GT '71",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 330500,
+          "price_jp": 33050000,
+          "isOld": true
+        },
+        {
+          "maker_id": 136,
+          "maker_name": "Porsche",
+          "car_id": 3404,
+          "car_name": "911 Carrera RS CS (993) '95",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [
+            {
+              "maker_id": 136,
+              "maker_name": "Porsche",
+              "car_id": "3539",
+              "car_name": "911 GT3 RS (992) '22",
+              "engine_name": "MDYA-911"
+            }
+          ],
+          "price": 413800,
+          "price_jp": 41380000,
+          "isOld": true
+        },
+        {
+          "maker_id": 11,
+          "maker_name": "Dodge",
+          "car_id": 1402,
+          "car_name": "Viper SRT10 Coupe '06",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [],
+          "price": 115000,
+          "price_jp": 11500000,
+          "isOld": false
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20250701,
       "date": "2025/7/1",
@@ -1110,115 +1211,6 @@
           "isOld": true
         }
       ]
-    },
-    {
-      "id": 20250618,
-      "date": "2025/6/18",
-      "used": [
-        {
-          "maker_id": 15,
-          "maker_name": "Honda",
-          "car_id": 135,
-          "car_name": "S800 '66",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 15,
-              "maker_name": "Honda",
-              "car_id": "2156",
-              "car_name": "2&4 powered by RC213V",
-              "engine_name": "SE75E-2&4"
-            }
-          ],
-          "price": 52100,
-          "price_jp": 5210000,
-          "isOld": true
-        },
-        {
-          "maker_id": 13,
-          "maker_name": "Ford",
-          "car_id": 3466,
-          "car_name": "Sierra RS 500 Cosworth '87",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 13,
-              "maker_name": "Ford",
-              "car_id": "3264",
-              "car_name": "Focus Gr.B Rally Car",
-              "engine_name": "L4-Focus-Gr.B"
-            }
-          ],
-          "price": 198900,
-          "price_jp": 19890000,
-          "isOld": true
-        },
-        {
-          "maker_id": 15,
-          "maker_name": "Honda",
-          "car_id": 514,
-          "car_name": "S2000 '99",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 157,
-              "maker_name": "Garage RCR",
-              "car_id": "3526",
-              "car_name": "Civic",
-              "engine_name": "K24A-Civic"
-            }
-          ],
-          "price": 99400,
-          "price_jp": 9940000,
-          "isOld": true
-        },
-        {
-          "maker_id": 15,
-          "maker_name": "Honda",
-          "car_id": 203,
-          "car_name": "Integra Type R (DC2) '98",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 15,
-              "maker_name": "Honda",
-              "car_id": "3467",
-              "car_name": "Civic Type R Limited Edition (FK8) '20",
-              "engine_name": "K20C1-Civic-'20"
-            }
-          ],
-          "price": 65500,
-          "price_jp": 6550000,
-          "isOld": true
-        },
-        {
-          "maker_id": 43,
-          "maker_name": "Toyota",
-          "car_id": 345,
-          "car_name": "Sprinter Trueno 1600GT APEX (S.Shigeno Version)",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [],
-          "price": 99500,
-          "price_jp": 9950000,
-          "isOld": null
-        }
-      ],
-      "legend": []
     }
   ]
 }

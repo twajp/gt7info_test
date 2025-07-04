@@ -1,6 +1,27 @@
 {
-  "timestamp": "2025-07-03T00:11:55.942836+00:00",
+  "timestamp": "2025-07-04T00:12:19.482319+00:00",
   "content": [
+    {
+      "id": 20250704,
+      "date": "2025/7/4",
+      "used": [
+        {
+          "maker_id": 10,
+          "maker_name": "Daihatsu",
+          "car_id": 145,
+          "car_name": "Copen '02",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 14700,
+          "price_jp": 1470000,
+          "isOld": false
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20250703,
       "date": "2025/7/3",
@@ -1117,94 +1138,6 @@
         }
       ],
       "legend": []
-    },
-    {
-      "id": 20250620,
-      "date": "2025/6/20",
-      "used": [
-        {
-          "maker_id": 46,
-          "maker_name": "Volkswagen",
-          "car_id": 1671,
-          "car_name": "Sambabus Typ 2 '62",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 136,
-              "maker_name": "Porsche",
-              "car_id": "3431",
-              "car_name": "911 Carrera RS (964) '92",
-              "engine_name": "M64/03-911"
-            }
-          ],
-          "price": 56400,
-          "price_jp": 5640000,
-          "isOld": true
-        },
-        {
-          "maker_id": 136,
-          "maker_name": "Porsche",
-          "car_id": 3439,
-          "car_name": "911 Carrera RS (993) '95",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 35,
-              "maker_name": "RUF",
-              "car_id": "3398",
-              "car_name": "CTR3 '07",
-              "engine_name": "CTR38-CTR3"
-            }
-          ],
-          "price": 229200,
-          "price_jp": 22920000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 55,
-          "maker_name": "Plymouth",
-          "car_id": 665,
-          "car_name": "Superbird '70",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 11,
-              "maker_name": "Dodge",
-              "car_id": "2152",
-              "car_name": "Charger SRT Hellcat '15",
-              "engine_name": "Hellcat-Charger"
-            }
-          ],
-          "price": 402000,
-          "price_jp": 40200000,
-          "isOld": true
-        },
-        {
-          "maker_id": 22,
-          "maker_name": "Mercedes-Benz",
-          "car_id": 998,
-          "car_name": "Sauber Mercedes C9 '89",
-          "car_group": "1",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 3500000,
-          "price_jp": 350000000,
-          "isOld": true
-        }
-      ]
     }
   ]
 }

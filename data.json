@@ -1,6 +1,72 @@
 {
-  "timestamp": "2025-07-05T00:11:17.510436+00:00",
+  "timestamp": "2025-07-06T00:13:06.884249+00:00",
   "content": [
+    {
+      "id": 20250706,
+      "date": "2025/7/6",
+      "used": [
+        {
+          "maker_id": 3,
+          "maker_name": "Alfa Romeo",
+          "car_id": 3530,
+          "car_name": "Giulia Sprint GT Veloce '67",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [
+            {
+              "maker_id": 157,
+              "maker_name": "Garage RCR",
+              "car_id": "3526",
+              "car_name": "Civic",
+              "engine_name": "K24A-Civic"
+            }
+          ],
+          "price": 164200,
+          "price_jp": 16420000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 3525,
+          "car_name": "RA272 '65",
+          "car_group": "X",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 2500000,
+          "price_jp": 250000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 22,
+          "maker_name": "Mercedes-Benz",
+          "car_id": 575,
+          "car_name": "190 E 2.5-16 Evolution II '91",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [
+            {
+              "maker_id": 153,
+              "maker_name": "AMG",
+              "car_id": "3531",
+              "car_name": "GT3 '20",
+              "engine_name": "M159-AMG-GT3-'20"
+            }
+          ],
+          "price": 299000,
+          "price_jp": 29900000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250705,
       "date": "2025/7/5",
@@ -1040,72 +1106,6 @@
           ],
           "price": 203000,
           "price_jp": 20300000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20250622,
-      "date": "2025/6/22",
-      "used": [
-        {
-          "maker_id": 38,
-          "maker_name": "Subaru",
-          "car_id": 451,
-          "car_name": "Impreza 22B-STi '98",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 38,
-              "maker_name": "Subaru",
-              "car_id": "3550",
-              "car_name": "Impreza Rally Car '98",
-              "engine_name": "EJ20-Impreza-Rally"
-            }
-          ],
-          "price": 173000,
-          "price_jp": 17300000,
-          "isOld": true
-        },
-        {
-          "maker_id": 6,
-          "maker_name": "BMW",
-          "car_id": 655,
-          "car_name": "Z4 3.0i '03",
-          "car_group": null,
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 43,
-              "maker_name": "Toyota",
-              "car_id": "82",
-              "car_name": "Supra RZ '97",
-              "engine_name": "2JZ-GTE-Supra"
-            }
-          ],
-          "price": 48900,
-          "price_jp": 4890000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 22,
-          "maker_name": "Mercedes-Benz",
-          "car_id": 3441,
-          "car_name": "300 SL (W194) '52",
-          "car_group": "X",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 20000000,
-          "price_jp": 2000000000,
           "isOld": true
         }
       ]

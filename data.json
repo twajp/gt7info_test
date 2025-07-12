@@ -1,6 +1,64 @@
 {
-  "timestamp": "2025-07-11T00:12:50.053419+00:00",
+  "timestamp": "2025-07-12T00:12:03.980273+00:00",
   "content": [
+    {
+      "id": 20250712,
+      "date": "2025/7/12",
+      "used": [
+        {
+          "maker_id": 13,
+          "maker_name": "Ford",
+          "car_id": 3555,
+          "car_name": "Escort RS Cosworth '92",
+          "car_group": null,
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 13,
+              "maker_name": "Ford",
+              "car_id": "3264",
+              "car_name": "Focus Gr.B Rally Car",
+              "engine_name": "L4-Focus-Gr.B"
+            }
+          ],
+          "price": 129800,
+          "price_jp": 12980000,
+          "isOld": true
+        },
+        {
+          "maker_id": 43,
+          "maker_name": "Toyota",
+          "car_id": 3471,
+          "car_name": "Celica GT-Four (ST205) '94",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 72300,
+          "price_jp": 7230000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 22,
+          "maker_name": "Mercedes-Benz",
+          "car_id": 3428,
+          "car_name": "S Barker Tourer '29",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 13000000,
+          "price_jp": 1300000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250711,
       "date": "2025/7/11",
@@ -1175,180 +1233,6 @@
         }
       ],
       "legend": []
-    },
-    {
-      "id": 20250628,
-      "date": "2025/6/28",
-      "used": [
-        {
-          "maker_id": 43,
-          "maker_name": "Toyota",
-          "car_id": 63,
-          "car_name": "Corolla Levin 1600GT APEX (AE86) '83",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 43,
-              "maker_name": "Toyota",
-              "car_id": "207",
-              "car_name": "MR2 GT-S '97",
-              "engine_name": "3S-GTE-MR2"
-            }
-          ],
-          "price": 50200,
-          "price_jp": 5020000,
-          "isOld": true
-        },
-        {
-          "maker_id": 125,
-          "maker_name": "Abarth",
-          "car_id": 1973,
-          "car_name": "Abarth 500 '09",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 23500,
-          "price_jp": 2350000,
-          "isOld": false
-        },
-        {
-          "maker_id": 69,
-          "maker_name": "Volvo",
-          "car_id": 3549,
-          "car_name": "240 SE Estate '93",
-          "car_group": "N",
-          "country_id": 12,
-          "country_name": "Sweden",
-          "country_code": "se",
-          "engine_swaps": [],
-          "price": 48600,
-          "price_jp": 4860000,
-          "isOld": true
-        },
-        {
-          "maker_id": 38,
-          "maker_name": "Subaru",
-          "car_id": 379,
-          "car_name": "Impreza Coupe WRX Type R STi Ver.VI '99",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 38,
-              "maker_name": "Subaru",
-              "car_id": "3550",
-              "car_name": "Impreza Rally Car '98",
-              "engine_name": "EJ20-Impreza-Rally"
-            }
-          ],
-          "price": 62700,
-          "price_jp": 6270000,
-          "isOld": true
-        },
-        {
-          "maker_id": 25,
-          "maker_name": "Mitsubishi",
-          "car_id": 211,
-          "car_name": "Lancer Evolution V GSR '98",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 25,
-              "maker_name": "Mitsubishi",
-              "car_id": "3230",
-              "car_name": "Lancer Evolution Final Gr.B Rally Car",
-              "engine_name": "Evo-Final-Gr.B"
-            }
-          ],
-          "price": 73400,
-          "price_jp": 7340000,
-          "isOld": true
-        },
-        {
-          "maker_id": 7,
-          "maker_name": "Chevrolet",
-          "car_id": 3570,
-          "car_name": "Corvette Z06 (C5) '01",
-          "car_group": null,
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [],
-          "price": 48700,
-          "price_jp": 4870000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 110,
-          "maker_name": "Ferrari",
-          "car_id": 1551,
-          "car_name": "330 P4 '67",
-          "car_group": "X",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 20000000,
-          "price_jp": 2000000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 136,
-          "maker_name": "Porsche",
-          "car_id": 3509,
-          "car_name": "911 Carrera RS (901) '73",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 136,
-              "maker_name": "Porsche",
-              "car_id": "3519",
-              "car_name": "959 '87",
-              "engine_name": "959.50-959"
-            }
-          ],
-          "price": 799000,
-          "price_jp": 79900000,
-          "isOld": true
-        },
-        {
-          "maker_id": 155,
-          "maker_name": "NISMO",
-          "car_id": 3520,
-          "car_name": "400R '95",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "3345",
-              "car_name": "GT-R NISMO '17",
-              "engine_name": "VR38DETT-GT-R-NISMO"
-            }
-          ],
-          "price": 1600000,
-          "price_jp": 160000000,
-          "isOld": true
-        }
-      ]
     }
   ]
 }

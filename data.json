@@ -1,6 +1,72 @@
 {
-  "timestamp": "2025-07-13T00:13:58.872973+00:00",
+  "timestamp": "2025-07-14T00:12:44.030944+00:00",
   "content": [
+    {
+      "id": 20250714,
+      "date": "2025/7/14",
+      "used": [
+        {
+          "maker_id": 12,
+          "maker_name": "Fiat",
+          "car_id": 1523,
+          "car_name": "500 F '68",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [
+            {
+              "maker_id": 15,
+              "maker_name": "Honda",
+              "car_id": "2156",
+              "car_name": "2&4 powered by RC213V",
+              "engine_name": "SE75E-2&4"
+            }
+          ],
+          "price": 16000,
+          "price_jp": 1600000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 117,
+          "maker_name": "McLaren",
+          "car_id": 1984,
+          "car_name": "McLaren F1 GTR - BMW '95",
+          "car_group": "3",
+          "country_id": 4,
+          "country_name": "United Kingdom",
+          "country_code": "gb",
+          "engine_swaps": [],
+          "price": 16000000,
+          "price_jp": 1600000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 11,
+          "maker_name": "Dodge",
+          "car_id": 3538,
+          "car_name": "Charger R/T 426 Hemi '68",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 11,
+              "maker_name": "Dodge",
+              "car_id": "3486",
+              "car_name": "Challenger SRT Demon '18",
+              "engine_name": "Demon-Challenger"
+            }
+          ],
+          "price": 154000,
+          "price_jp": 15400000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250713,
       "date": "2025/7/13",
@@ -1130,129 +1196,6 @@
           ],
           "price": 194000,
           "price_jp": 19400000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20250630,
-      "date": "2025/6/30",
-      "used": [
-        {
-          "maker_id": 12,
-          "maker_name": "Fiat",
-          "car_id": 1527,
-          "car_name": "500 1.2 8V Lounge SS '08",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 12500,
-          "price_jp": 1250000,
-          "isOld": false
-        },
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 78,
-          "car_name": "Silvia K's Aero (S14) '96",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 7,
-              "maker_name": "Chevrolet",
-              "car_id": "3449",
-              "car_name": "Corvette C7 ZR1 '19",
-              "engine_name": "LT5-Corvette-C7"
-            }
-          ],
-          "price": 58100,
-          "price_jp": 5810000,
-          "isOld": true
-        },
-        {
-          "maker_id": 25,
-          "maker_name": "Mitsubishi",
-          "car_id": 3384,
-          "car_name": "GTO Twin Turbo '91",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 11,
-              "maker_name": "Dodge",
-              "car_id": "3486",
-              "car_name": "Challenger SRT Demon '18",
-              "engine_name": "Demon-Challenger"
-            },
-            {
-              "maker_id": 39,
-              "maker_name": "Suzuki",
-              "car_id": "808",
-              "car_name": "V6 Escudo Pikes Peak Special spec.98",
-              "engine_name": "H25A-Escudo"
-            }
-          ],
-          "price": 42300,
-          "price_jp": 4230000,
-          "isOld": true
-        },
-        {
-          "maker_id": 153,
-          "maker_name": "AMG",
-          "car_id": 1507,
-          "car_name": "SLS AMG '10",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 319400,
-          "price_jp": 31940000,
-          "isOld": false
-        },
-        {
-          "maker_id": 116,
-          "maker_name": "Maserati",
-          "car_id": 1539,
-          "car_name": "GranTurismo S '08",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 142400,
-          "price_jp": 14240000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 146,
-          "maker_name": "Jeep",
-          "car_id": 3430,
-          "car_name": "Willys MB '45",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 11,
-              "maker_name": "Dodge",
-              "car_id": "2152",
-              "car_name": "Charger SRT Hellcat '15",
-              "engine_name": "Hellcat-Charger"
-            }
-          ],
-          "price": 33100,
-          "price_jp": 3310000,
           "isOld": true
         }
       ]

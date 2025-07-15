@@ -1,6 +1,108 @@
 {
-  "timestamp": "2025-07-14T00:12:44.030944+00:00",
+  "timestamp": "2025-07-15T00:13:02.416339+00:00",
   "content": [
+    {
+      "id": 20250715,
+      "date": "2025/7/15",
+      "used": [
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 3513,
+          "car_name": "Silvia K's Type S (S14) '94",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 7,
+              "maker_name": "Chevrolet",
+              "car_id": "3449",
+              "car_name": "Corvette C7 ZR1 '19",
+              "engine_name": "LT5-Corvette-C7"
+            },
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "3345",
+              "car_name": "GT-R NISMO '17",
+              "engine_name": "VR38DETT-GT-R-NISMO"
+            }
+          ],
+          "price": 44900,
+          "price_jp": 4490000,
+          "isOld": true
+        },
+        {
+          "maker_id": 125,
+          "maker_name": "Abarth",
+          "car_id": 3438,
+          "car_name": "Abarth 595 SS '70",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [
+            {
+              "maker_id": 15,
+              "maker_name": "Honda",
+              "car_id": "3467",
+              "car_name": "Civic Type R Limited Edition (FK8) '20",
+              "engine_name": "K20C1-Civic-'20"
+            }
+          ],
+          "price": 47000,
+          "price_jp": 4700000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 485,
+          "car_name": "GT-R GT500 '99",
+          "car_group": "3",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 2200000,
+          "price_jp": 220000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 3429,
+          "car_name": "Fairlady Z 432 '69",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "210",
+              "car_name": "R34 GT-R V-spec II Nur '02",
+              "engine_name": "RB26DETT-GT-R-R34"
+            },
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "1448",
+              "car_name": "SILVIA spec-R Aero (S15) '02",
+              "engine_name": "SR20DET-Silvia-S15"
+            }
+          ],
+          "price": 312000,
+          "price_jp": 31200000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250714,
       "date": "2025/7/14",
@@ -1075,130 +1177,6 @@
         }
       ],
       "legend": []
-    },
-    {
-      "id": 20250701,
-      "date": "2025/7/1",
-      "used": [
-        {
-          "maker_id": 15,
-          "maker_name": "Honda",
-          "car_id": 821,
-          "car_name": "Civic Type R (EK) '97",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 157,
-              "maker_name": "Garage RCR",
-              "car_id": "3526",
-              "car_name": "Civic",
-              "engine_name": "K24A-Civic"
-            }
-          ],
-          "price": 57000,
-          "price_jp": 5700000,
-          "isOld": true
-        },
-        {
-          "maker_id": 6,
-          "maker_name": "BMW",
-          "car_id": 3551,
-          "car_name": "M3 '97",
-          "car_group": null,
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 38,
-              "maker_name": "Subaru",
-              "car_id": "3339",
-              "car_name": "BRZ Drift Car '17",
-              "engine_name": "LS7-BRZ"
-            }
-          ],
-          "price": 84200,
-          "price_jp": 8420000,
-          "isOld": true
-        },
-        {
-          "maker_id": 110,
-          "maker_name": "Ferrari",
-          "car_id": 3434,
-          "car_name": "Testarossa '91",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 372000,
-          "price_jp": 37200000,
-          "isOld": true
-        },
-        {
-          "maker_id": 6,
-          "maker_name": "BMW",
-          "car_id": 1893,
-          "car_name": "Z8 '01",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 257800,
-          "price_jp": 25780000,
-          "isOld": false
-        },
-        {
-          "maker_id": 15,
-          "maker_name": "Honda",
-          "car_id": 1689,
-          "car_name": "Civic Type R (EK) Touring Car",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 157,
-              "maker_name": "Garage RCR",
-              "car_id": "3526",
-              "car_name": "Civic",
-              "engine_name": "K24A-Civic"
-            }
-          ],
-          "price": 122100,
-          "price_jp": 12210000,
-          "isOld": null
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 837,
-          "car_name": "Skyline Hard Top 2000GT-R (KPGC10) '70",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "3493",
-              "car_name": "Skyline Super Silhouette Group 5 '84",
-              "engine_name": "LZ20B-Skyline"
-            }
-          ],
-          "price": 194000,
-          "price_jp": 19400000,
-          "isOld": true
-        }
-      ]
     }
   ]
 }

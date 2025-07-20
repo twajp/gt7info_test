@@ -1,6 +1,129 @@
 {
-  "timestamp": "2025-07-19T00:12:42.579468+00:00",
+  "timestamp": "2025-07-20T00:13:47.502369+00:00",
   "content": [
+    {
+      "id": 20250720,
+      "date": "2025/7/20",
+      "used": [
+        {
+          "maker_id": 3,
+          "maker_name": "Alfa Romeo",
+          "car_id": 1933,
+          "car_name": "MiTo '09",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 23300,
+          "price_jp": 2330000,
+          "isOld": false
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 709,
+          "car_name": "Fairlady Z 300ZX TT 2seater '89",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "3345",
+              "car_name": "GT-R NISMO '17",
+              "engine_name": "VR38DETT-GT-R-NISMO"
+            },
+            {
+              "maker_id": 151,
+              "maker_name": "Roadster Shop",
+              "car_id": "3426",
+              "car_name": "Roadster Shop Rampage",
+              "engine_name": "LS7-Rampage"
+            }
+          ],
+          "price": 60700,
+          "price_jp": 6070000,
+          "isOld": true
+        },
+        {
+          "maker_id": 5,
+          "maker_name": "Audi",
+          "car_id": 1541,
+          "car_name": "TTS Coupe '09",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 62200,
+          "price_jp": 6220000,
+          "isOld": false
+        },
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 396,
+          "car_name": "NSX Type R '02",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 15,
+              "maker_name": "Honda",
+              "car_id": "3348",
+              "car_name": "NSX CONCEPT-GT '16",
+              "engine_name": "HR-414E-NSX"
+            }
+          ],
+          "price": 435000,
+          "price_jp": 43500000,
+          "isOld": false
+        },
+        {
+          "maker_id": 6,
+          "maker_name": "BMW",
+          "car_id": 1399,
+          "car_name": "M3 '07",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [
+            {
+              "maker_id": 6,
+              "maker_name": "BMW",
+              "car_id": "1902",
+              "car_name": "Z4 GT3 '11",
+              "engine_name": "P65B44-Z4"
+            }
+          ],
+          "price": 74300,
+          "price_jp": 7430000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 112,
+          "maker_name": "Lamborghini",
+          "car_id": 1484,
+          "car_name": "Countach LP400 '74",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 1350000,
+          "price_jp": 135000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250719,
       "date": "2025/7/19",
@@ -1173,72 +1296,6 @@
           "engine_swaps": [],
           "price": 4750000,
           "price_jp": 475000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20250706,
-      "date": "2025/7/6",
-      "used": [
-        {
-          "maker_id": 3,
-          "maker_name": "Alfa Romeo",
-          "car_id": 3530,
-          "car_name": "Giulia Sprint GT Veloce '67",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [
-            {
-              "maker_id": 157,
-              "maker_name": "Garage RCR",
-              "car_id": "3526",
-              "car_name": "Civic",
-              "engine_name": "K24A-Civic"
-            }
-          ],
-          "price": 164200,
-          "price_jp": 16420000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 15,
-          "maker_name": "Honda",
-          "car_id": 3525,
-          "car_name": "RA272 '65",
-          "car_group": "X",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [],
-          "price": 2500000,
-          "price_jp": 250000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 22,
-          "maker_name": "Mercedes-Benz",
-          "car_id": 575,
-          "car_name": "190 E 2.5-16 Evolution II '91",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 153,
-              "maker_name": "AMG",
-              "car_id": "3531",
-              "car_name": "GT3 '20",
-              "engine_name": "M159-AMG-GT3-'20"
-            }
-          ],
-          "price": 299000,
-          "price_jp": 29900000,
           "isOld": true
         }
       ]

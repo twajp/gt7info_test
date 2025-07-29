@@ -1,6 +1,92 @@
 {
-  "timestamp": "2025-07-28T00:13:38.686413+00:00",
+  "timestamp": "2025-07-29T00:13:44.639437+00:00",
   "content": [
+    {
+      "id": 20250729,
+      "date": "2025/7/29",
+      "used": [
+        {
+          "maker_id": 46,
+          "maker_name": "Volkswagen",
+          "car_id": 1773,
+          "car_name": "Scirocco R '10",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 43300,
+          "price_jp": 4330000,
+          "isOld": false
+        },
+        {
+          "maker_id": 22,
+          "maker_name": "Mercedes-Benz",
+          "car_id": 1528,
+          "car_name": "SLR McLaren '09",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 523400,
+          "price_jp": 52340000,
+          "isOld": false
+        },
+        {
+          "maker_id": 21,
+          "maker_name": "Mazda",
+          "car_id": 205,
+          "car_name": "RX-7 Spirit R Type A (FD) '02",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 21,
+              "maker_name": "Mazda",
+              "car_id": "296",
+              "car_name": "787B '91",
+              "engine_name": "R26B-787B"
+            }
+          ],
+          "price": 215900,
+          "price_jp": 21590000,
+          "isOld": false
+        },
+        {
+          "maker_id": 3,
+          "maker_name": "Alfa Romeo",
+          "car_id": 1578,
+          "car_name": "8C Competizione '08",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 304400,
+          "price_jp": 30440000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 116,
+          "maker_name": "Maserati",
+          "car_id": 3489,
+          "car_name": "A6GCS/53 Spyder '54",
+          "car_group": "X",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 2800000,
+          "price_jp": 280000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250728,
       "date": "2025/7/28",
@@ -1296,108 +1382,6 @@
           "engine_swaps": [],
           "price": 20000000,
           "price_jp": 2000000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20250715,
-      "date": "2025/7/15",
-      "used": [
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 3513,
-          "car_name": "Silvia K's Type S (S14) '94",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 7,
-              "maker_name": "Chevrolet",
-              "car_id": "3449",
-              "car_name": "Corvette C7 ZR1 '19",
-              "engine_name": "LT5-Corvette-C7"
-            },
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "3345",
-              "car_name": "GT-R NISMO '17",
-              "engine_name": "VR38DETT-GT-R-NISMO"
-            }
-          ],
-          "price": 44900,
-          "price_jp": 4490000,
-          "isOld": true
-        },
-        {
-          "maker_id": 125,
-          "maker_name": "Abarth",
-          "car_id": 3438,
-          "car_name": "Abarth 595 SS '70",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [
-            {
-              "maker_id": 15,
-              "maker_name": "Honda",
-              "car_id": "3467",
-              "car_name": "Civic Type R Limited Edition (FK8) '20",
-              "engine_name": "K20C1-Civic-'20"
-            }
-          ],
-          "price": 47000,
-          "price_jp": 4700000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 485,
-          "car_name": "GT-R GT500 '99",
-          "car_group": "3",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [],
-          "price": 2200000,
-          "price_jp": 220000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 3429,
-          "car_name": "Fairlady Z 432 '69",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "210",
-              "car_name": "R34 GT-R V-spec II Nur '02",
-              "engine_name": "RB26DETT-GT-R-R34"
-            },
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "1448",
-              "car_name": "SILVIA spec-R Aero (S15) '02",
-              "engine_name": "SR20DET-Silvia-S15"
-            }
-          ],
-          "price": 312000,
-          "price_jp": 31200000,
           "isOld": true
         }
       ]

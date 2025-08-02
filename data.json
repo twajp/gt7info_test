@@ -1,6 +1,12 @@
 {
-  "timestamp": "2025-08-01T00:14:55.116127+00:00",
+  "timestamp": "2025-08-02T00:12:11.950355+00:00",
   "content": [
+    {
+      "id": 20250802,
+      "date": "2025/8/2",
+      "used": [],
+      "legend": []
+    },
     {
       "id": 20250801,
       "date": "2025/8/1",
@@ -1299,49 +1305,6 @@
           "isOld": true
         }
       ]
-    },
-    {
-      "id": 20250719,
-      "date": "2025/7/19",
-      "used": [
-        {
-          "maker_id": 39,
-          "maker_name": "Suzuki",
-          "car_id": 779,
-          "car_name": "Cappuccino (EA11R) '91",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 21,
-              "maker_name": "Mazda",
-              "car_id": "205",
-              "car_name": "RX-7 Spirit R Type A (FD) '02",
-              "engine_name": "13B-REW-RX-7"
-            }
-          ],
-          "price": 16500,
-          "price_jp": 1650000,
-          "isOld": true
-        },
-        {
-          "maker_id": 5,
-          "maker_name": "Audi",
-          "car_id": 959,
-          "car_name": "TT Coupe 3.2 quattro '03",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 47400,
-          "price_jp": 4740000,
-          "isOld": false
-        }
-      ],
-      "legend": []
     }
   ]
 }

@@ -1,6 +1,27 @@
 {
-  "timestamp": "2025-08-09T00:11:59.431396+00:00",
+  "timestamp": "2025-08-10T00:14:02.349172+00:00",
   "content": [
+    {
+      "id": 20250810,
+      "date": "2025/8/10",
+      "used": [
+        {
+          "maker_id": 110,
+          "maker_name": "Ferrari",
+          "car_id": 3434,
+          "car_name": "Testarossa '91",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 402900,
+          "price_jp": 40290000,
+          "isOld": true
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20250809,
       "date": "2025/8/9",
@@ -1242,94 +1263,6 @@
           "engine_swaps": [],
           "price": 1600000,
           "price_jp": 160000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20250727,
-      "date": "2025/7/27",
-      "used": [
-        {
-          "maker_id": 15,
-          "maker_name": "Honda",
-          "car_id": 135,
-          "car_name": "S800 '66",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 15,
-              "maker_name": "Honda",
-              "car_id": "2156",
-              "car_name": "2&4 powered by RC213V",
-              "engine_name": "SE75E-2&4"
-            }
-          ],
-          "price": 42300,
-          "price_jp": 4230000,
-          "isOld": true
-        },
-        {
-          "maker_id": 7,
-          "maker_name": "Chevrolet",
-          "car_id": 41,
-          "car_name": "Corvette Stingray (C3) '69",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 7,
-              "maker_name": "Chevrolet",
-              "car_id": "3449",
-              "car_name": "Corvette C7 ZR1 '19",
-              "engine_name": "LT5-Corvette-C7"
-            }
-          ],
-          "price": 64100,
-          "price_jp": 6410000,
-          "isOld": true
-        },
-        {
-          "maker_id": 13,
-          "maker_name": "Ford",
-          "car_id": 3466,
-          "car_name": "Sierra RS 500 Cosworth '87",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 13,
-              "maker_name": "Ford",
-              "car_id": "3264",
-              "car_name": "Focus Gr.B Rally Car",
-              "engine_name": "L4-Focus-Gr.B"
-            }
-          ],
-          "price": 184900,
-          "price_jp": 18490000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 136,
-          "maker_name": "Porsche",
-          "car_id": 3490,
-          "car_name": "Carrera GTS (904) '64",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 2100000,
-          "price_jp": 210000000,
           "isOld": true
         }
       ]

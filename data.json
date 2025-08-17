@@ -1,6 +1,78 @@
 {
-  "timestamp": "2025-08-16T00:11:54.540199+00:00",
+  "timestamp": "2025-08-17T00:13:02.645194+00:00",
   "content": [
+    {
+      "id": 20250817,
+      "date": "2025/8/17",
+      "used": [
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 773,
+          "car_name": "R32 GT-R V-spec II '94",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "954",
+              "car_name": "R92CP '92",
+              "engine_name": "VRH35Z-R92CP"
+            }
+          ],
+          "price": 178300,
+          "price_jp": 17830000,
+          "isOld": true
+        },
+        {
+          "maker_id": 110,
+          "maker_name": "Ferrari",
+          "car_id": 1504,
+          "car_name": "458 Italia '09",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 248100,
+          "price_jp": 24810000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 4,
+          "maker_name": "Aston Martin",
+          "car_id": 3363,
+          "car_name": "DB3S '53",
+          "car_group": "X",
+          "country_id": 4,
+          "country_name": "United Kingdom",
+          "country_code": "gb",
+          "engine_swaps": [],
+          "price": 6000000,
+          "price_jp": 600000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 140,
+          "maker_name": "De Tomaso",
+          "car_id": 3505,
+          "car_name": "Mangusta (Christian Dior)",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 500000,
+          "price_jp": 50000000,
+          "isOld": null
+        }
+      ]
+    },
     {
       "id": 20250816,
       "date": "2025/8/16",
@@ -1310,71 +1382,6 @@
           "isOld": true
         }
       ]
-    },
-    {
-      "id": 20250803,
-      "date": "2025/8/3",
-      "used": [
-        {
-          "maker_id": 21,
-          "maker_name": "Mazda",
-          "car_id": 201,
-          "car_name": "Eunos Roadster (NA) '89",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 21,
-              "maker_name": "Mazda",
-              "car_id": "205",
-              "car_name": "RX-7 Spirit R Type A (FD) '02",
-              "engine_name": "13B-REW-RX-7"
-            }
-          ],
-          "price": 27900,
-          "price_jp": 2790000,
-          "isOld": true
-        },
-        {
-          "maker_id": 43,
-          "maker_name": "Toyota",
-          "car_id": 63,
-          "car_name": "Corolla Levin 1600GT APEX (AE86) '83",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 43,
-              "maker_name": "Toyota",
-              "car_id": "207",
-              "car_name": "MR2 GT-S '97",
-              "engine_name": "3S-GTE-MR2"
-            }
-          ],
-          "price": 51800,
-          "price_jp": 5180000,
-          "isOld": true
-        },
-        {
-          "maker_id": 35,
-          "maker_name": "RUF",
-          "car_id": 3398,
-          "car_name": "CTR3 '07",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 792800,
-          "price_jp": 79280000,
-          "isOld": false
-        }
-      ],
-      "legend": []
     }
   ]
 }

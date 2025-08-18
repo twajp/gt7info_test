@@ -1,6 +1,72 @@
 {
-  "timestamp": "2025-08-17T00:13:02.645194+00:00",
+  "timestamp": "2025-08-18T00:13:02.646686+00:00",
   "content": [
+    {
+      "id": 20250818,
+      "date": "2025/8/18",
+      "used": [
+        {
+          "maker_id": 25,
+          "maker_name": "Mitsubishi",
+          "car_id": 301,
+          "car_name": "Lancer Evolution IV GSR '96",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 25,
+              "maker_name": "Mitsubishi",
+              "car_id": "3230",
+              "car_name": "Lancer Evolution Final Gr.B Rally Car",
+              "engine_name": "Evo-Final-Gr.B"
+            }
+          ],
+          "price": 41300,
+          "price_jp": 4130000,
+          "isOld": true
+        },
+        {
+          "maker_id": 7,
+          "maker_name": "Chevrolet",
+          "car_id": 1542,
+          "car_name": "Corvette Convertible (C3) '69",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 7,
+              "maker_name": "Chevrolet",
+              "car_id": "3449",
+              "car_name": "Corvette C7 ZR1 '19",
+              "engine_name": "LT5-Corvette-C7"
+            }
+          ],
+          "price": 47500,
+          "price_jp": 4750000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 110,
+          "maker_name": "Ferrari",
+          "car_id": 2018,
+          "car_name": "365 GTB4 '71",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 610000,
+          "price_jp": 61000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250817,
       "date": "2025/8/17",
@@ -1274,114 +1340,6 @@
         }
       ],
       "legend": []
-    },
-    {
-      "id": 20250804,
-      "date": "2025/8/4",
-      "used": [
-        {
-          "maker_id": 125,
-          "maker_name": "Abarth",
-          "car_id": 1973,
-          "car_name": "Abarth 500 '09",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 21800,
-          "price_jp": 2180000,
-          "isOld": false
-        },
-        {
-          "maker_id": 69,
-          "maker_name": "Volvo",
-          "car_id": 3549,
-          "car_name": "240 SE Estate '93",
-          "car_group": "N",
-          "country_id": 12,
-          "country_name": "Sweden",
-          "country_code": "se",
-          "engine_swaps": [],
-          "price": 43900,
-          "price_jp": 4390000,
-          "isOld": true
-        },
-        {
-          "maker_id": 112,
-          "maker_name": "Lamborghini",
-          "car_id": 1481,
-          "car_name": "Countach 25th Anniversary '88",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [
-            {
-              "maker_id": 112,
-              "maker_name": "Lamborghini",
-              "car_id": "3392",
-              "car_name": "Aventador LP 750-4 SV '15",
-              "engine_name": "L539-Aventador-SV"
-            }
-          ],
-          "price": 706300,
-          "price_jp": 70630000,
-          "isOld": true
-        },
-        {
-          "maker_id": 112,
-          "maker_name": "Lamborghini",
-          "car_id": 1990,
-          "car_name": "Diablo GT '00",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 830500,
-          "price_jp": 83050000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 13,
-          "maker_name": "Ford",
-          "car_id": 1565,
-          "car_name": "Mark IV Race Car '67",
-          "car_group": "X",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [],
-          "price": 6750000,
-          "price_jp": 675000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 17,
-          "maker_name": "Jaguar",
-          "car_id": 543,
-          "car_name": "XJ220 '92",
-          "car_group": "N",
-          "country_id": 4,
-          "country_name": "United Kingdom",
-          "country_code": "gb",
-          "engine_swaps": [
-            {
-              "maker_id": 17,
-              "maker_name": "Jaguar",
-              "car_id": "1067",
-              "car_name": "XJR-9 '88",
-              "engine_name": "V12-XJR-9"
-            }
-          ],
-          "price": 565000,
-          "price_jp": 56500000,
-          "isOld": true
-        }
-      ]
     }
   ]
 }

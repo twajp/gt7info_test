@@ -1,6 +1,189 @@
 {
-  "timestamp": "2025-08-18T00:13:02.646686+00:00",
+  "timestamp": "2025-08-19T00:11:39.110176+00:00",
   "content": [
+    {
+      "id": 20250819,
+      "date": "2025/8/19",
+      "used": [
+        {
+          "maker_id": 7,
+          "maker_name": "Chevrolet",
+          "car_id": 41,
+          "car_name": "Corvette Stingray (C3) '69",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 7,
+              "maker_name": "Chevrolet",
+              "car_id": "3449",
+              "car_name": "Corvette C7 ZR1 '19",
+              "engine_name": "LT5-Corvette-C7"
+            }
+          ],
+          "price": 71500,
+          "price_jp": 7150000,
+          "isOld": true
+        },
+        {
+          "maker_id": 18,
+          "maker_name": "Lancia",
+          "car_id": 829,
+          "car_name": "Delta HF Integrale Evoluzione '91",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "3345",
+              "car_name": "GT-R NISMO '17",
+              "engine_name": "VR38DETT-GT-R-NISMO"
+            }
+          ],
+          "price": 103200,
+          "price_jp": 10320000,
+          "isOld": true
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 3513,
+          "car_name": "Silvia K's Type S (S14) '94",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 7,
+              "maker_name": "Chevrolet",
+              "car_id": "3449",
+              "car_name": "Corvette C7 ZR1 '19",
+              "engine_name": "LT5-Corvette-C7"
+            },
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "3345",
+              "car_name": "GT-R NISMO '17",
+              "engine_name": "VR38DETT-GT-R-NISMO"
+            }
+          ],
+          "price": 46100,
+          "price_jp": 4610000,
+          "isOld": true
+        },
+        {
+          "maker_id": 25,
+          "maker_name": "Mitsubishi",
+          "car_id": 1508,
+          "car_name": "Lancer Evolution VI GSR T.M. SCP '99",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 25,
+              "maker_name": "Mitsubishi",
+              "car_id": "3230",
+              "car_name": "Lancer Evolution Final Gr.B Rally Car",
+              "engine_name": "Evo-Final-Gr.B"
+            }
+          ],
+          "price": 164100,
+          "price_jp": 16410000,
+          "isOld": true
+        },
+        {
+          "maker_id": 18,
+          "maker_name": "Lancia",
+          "car_id": 533,
+          "car_name": "Stratos '73",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 495200,
+          "price_jp": 49520000,
+          "isOld": true
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 104,
+          "car_name": "Sileighty '98",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 157,
+              "maker_name": "Garage RCR",
+              "car_id": "3526",
+              "car_name": "Civic",
+              "engine_name": "K24A-Civic"
+            }
+          ],
+          "price": 72800,
+          "price_jp": 7280000,
+          "isOld": true
+        },
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 293,
+          "car_name": "NSX Type R '92",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 15,
+              "maker_name": "Honda",
+              "car_id": "3348",
+              "car_name": "NSX CONCEPT-GT '16",
+              "engine_name": "HR-414E-NSX"
+            }
+          ],
+          "price": 389500,
+          "price_jp": 38950000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 110,
+          "maker_name": "Ferrari",
+          "car_id": 1409,
+          "car_name": "F40 '92",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [
+            {
+              "maker_id": 110,
+              "maker_name": "Ferrari",
+              "car_id": "1474",
+              "car_name": "Enzo Ferrari '02",
+              "engine_name": "F140B-Enzo"
+            }
+          ],
+          "price": 3100000,
+          "price_jp": 310000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250818,
       "date": "2025/8/18",
@@ -1225,121 +1408,6 @@
           "isOld": true
         }
       ]
-    },
-    {
-      "id": 20250805,
-      "date": "2025/8/5",
-      "used": [
-        {
-          "maker_id": 43,
-          "maker_name": "Toyota",
-          "car_id": 1044,
-          "car_name": "Sports 800 '65",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [],
-          "price": 47700,
-          "price_jp": 4770000,
-          "isOld": true
-        },
-        {
-          "maker_id": 12,
-          "maker_name": "Fiat",
-          "car_id": 1527,
-          "car_name": "500 1.2 8V Lounge SS '08",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 12800,
-          "price_jp": 1280000,
-          "isOld": false
-        },
-        {
-          "maker_id": 15,
-          "maker_name": "Honda",
-          "car_id": 203,
-          "car_name": "Integra Type R (DC2) '98",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 15,
-              "maker_name": "Honda",
-              "car_id": "3467",
-              "car_name": "Civic Type R Limited Edition (FK8) '20",
-              "engine_name": "K20C1-Civic-'20"
-            }
-          ],
-          "price": 61400,
-          "price_jp": 6140000,
-          "isOld": true
-        },
-        {
-          "maker_id": 6,
-          "maker_name": "BMW",
-          "car_id": 655,
-          "car_name": "Z4 3.0i '03",
-          "car_group": null,
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 43,
-              "maker_name": "Toyota",
-              "car_id": "82",
-              "car_name": "Supra RZ '97",
-              "engine_name": "2JZ-GTE-Supra"
-            }
-          ],
-          "price": 43700,
-          "price_jp": 4370000,
-          "isOld": false
-        },
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 210,
-          "car_name": "R34 GT-R V-spec II Nur '02",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "954",
-              "car_name": "R92CP '92",
-              "engine_name": "VRH35Z-R92CP"
-            }
-          ],
-          "price": 387000,
-          "price_jp": 38700000,
-          "isOld": false
-        },
-        {
-          "maker_id": 43,
-          "maker_name": "Toyota",
-          "car_id": 345,
-          "car_name": "Sprinter Trueno 1600GT APEX (S.Shigeno Version)",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [],
-          "price": 99200,
-          "price_jp": 9920000,
-          "isOld": null
-        }
-      ],
-      "legend": []
     }
   ]
 }

@@ -1,6 +1,108 @@
 {
-  "timestamp": "2025-08-22T00:11:47.887488+00:00",
+  "timestamp": "2025-08-23T00:10:59.497323+00:00",
   "content": [
+    {
+      "id": 20250823,
+      "date": "2025/8/23",
+      "used": [
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 48,
+          "car_name": "Fairlady 240ZG (HS30) '71",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 151,
+              "maker_name": "Roadster Shop",
+              "car_id": "3426",
+              "car_name": "Roadster Shop Rampage",
+              "engine_name": "LS7-Rampage"
+            }
+          ],
+          "price": 97400,
+          "price_jp": 9740000,
+          "isOld": true
+        },
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 37,
+          "car_name": "Civic SiR-II (EG) '93",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 15,
+              "maker_name": "Honda",
+              "car_id": "203",
+              "car_name": "Integra Type R (DC2) '98",
+              "engine_name": "B18C-Integra-'98"
+            }
+          ],
+          "price": 50100,
+          "price_jp": 5010000,
+          "isOld": true
+        },
+        {
+          "maker_id": 112,
+          "maker_name": "Lamborghini",
+          "car_id": 1545,
+          "car_name": "Murcielago LP 640 '09",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 327700,
+          "price_jp": 32770000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 836,
+          "car_name": "Skyline 2000GT-R (KPGC110) '73",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "3493",
+              "car_name": "Skyline Super Silhouette Group 5 '84",
+              "engine_name": "LZ20B-Skyline"
+            }
+          ],
+          "price": 542000,
+          "price_jp": 54200000,
+          "isOld": true
+        },
+        {
+          "maker_id": 22,
+          "maker_name": "Mercedes-Benz",
+          "car_id": 3397,
+          "car_name": "CLK-LM '98",
+          "car_group": "2",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 8500000,
+          "price_jp": 850000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250822,
       "date": "2025/8/22",
@@ -1165,93 +1267,6 @@
           "engine_swaps": [],
           "price": 402900,
           "price_jp": 40290000,
-          "isOld": true
-        }
-      ],
-      "legend": []
-    },
-    {
-      "id": 20250809,
-      "date": "2025/8/9",
-      "used": [
-        {
-          "maker_id": 52,
-          "maker_name": "Pontiac",
-          "car_id": 1985,
-          "car_name": "Firebird Trans Am '78",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 7,
-              "maker_name": "Chevrolet",
-              "car_id": "1480",
-              "car_name": "Corvette ZR1 (C6) '09",
-              "engine_name": "LS9-Corvette"
-            }
-          ],
-          "price": 86600,
-          "price_jp": 8660000,
-          "isOld": true
-        },
-        {
-          "maker_id": 10,
-          "maker_name": "Daihatsu",
-          "car_id": 145,
-          "car_name": "Copen '02",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [],
-          "price": 16100,
-          "price_jp": 1610000,
-          "isOld": false
-        },
-        {
-          "maker_id": 6,
-          "maker_name": "BMW",
-          "car_id": 3551,
-          "car_name": "M3 '97",
-          "car_group": null,
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 38,
-              "maker_name": "Subaru",
-              "car_id": "3339",
-              "car_name": "BRZ Drift Car '17",
-              "engine_name": "LS7-BRZ"
-            }
-          ],
-          "price": 80400,
-          "price_jp": 8040000,
-          "isOld": true
-        },
-        {
-          "maker_id": 13,
-          "maker_name": "Ford",
-          "car_id": 1729,
-          "car_name": "Mustang Mach 1 '71",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 13,
-              "maker_name": "Ford",
-              "car_id": "2138",
-              "car_name": "Mustang GT '15",
-              "engine_name": "Coyote-5.0L-Mustang"
-            }
-          ],
-          "price": 41400,
-          "price_jp": 4140000,
           "isOld": true
         }
       ],

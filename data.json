@@ -1,6 +1,144 @@
 {
-  "timestamp": "2025-08-24T00:13:12.642436+00:00",
+  "timestamp": "2025-08-25T00:11:42.545368+00:00",
   "content": [
+    {
+      "id": 20250825,
+      "date": "2025/8/25",
+      "used": [
+        {
+          "maker_id": 12,
+          "maker_name": "Fiat",
+          "car_id": 1523,
+          "car_name": "500 F '68",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [
+            {
+              "maker_id": 15,
+              "maker_name": "Honda",
+              "car_id": "2156",
+              "car_name": "2&4 powered by RC213V",
+              "engine_name": "SE75E-2&4"
+            }
+          ],
+          "price": 17800,
+          "price_jp": 1780000,
+          "isOld": true
+        },
+        {
+          "maker_id": 125,
+          "maker_name": "Abarth",
+          "car_id": 3438,
+          "car_name": "Abarth 595 SS '70",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [
+            {
+              "maker_id": 15,
+              "maker_name": "Honda",
+              "car_id": "3467",
+              "car_name": "Civic Type R Limited Edition (FK8) '20",
+              "engine_name": "K20C1-Civic-'20"
+            }
+          ],
+          "price": 53200,
+          "price_jp": 5320000,
+          "isOld": true
+        },
+        {
+          "maker_id": 5,
+          "maker_name": "Audi",
+          "car_id": 959,
+          "car_name": "TT Coupe 3.2 quattro '03",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 47600,
+          "price_jp": 4760000,
+          "isOld": false
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 1384,
+          "car_name": "Fairlady Z Version S (Z33) '07",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "210",
+              "car_name": "R34 GT-R V-spec II Nur '02",
+              "engine_name": "RB26DETT-GT-R-R34"
+            }
+          ],
+          "price": 27000,
+          "price_jp": 2700000,
+          "isOld": false
+        },
+        {
+          "maker_id": 13,
+          "maker_name": "Ford",
+          "car_id": 1426,
+          "car_name": "Ford GT '06",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 156,
+              "maker_name": "Greening Auto Company",
+              "car_id": "3522",
+              "car_name": "Maverick",
+              "engine_name": "Windsor-351-Maverick"
+            }
+          ],
+          "price": 411600,
+          "price_jp": 41160000,
+          "isOld": false
+        },
+        {
+          "maker_id": 5,
+          "maker_name": "Audi",
+          "car_id": 1541,
+          "car_name": "TTS Coupe '09",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 57300,
+          "price_jp": 5730000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 32,
+          "maker_name": "Peugeot",
+          "car_id": 105,
+          "car_name": "205 Turbo 16 Evolution 2 '86",
+          "car_group": "B",
+          "country_id": 6,
+          "country_name": "France",
+          "country_code": "fr",
+          "engine_swaps": [],
+          "price": 1000000,
+          "price_jp": 100000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250824,
       "date": "2025/8/24",
@@ -1255,64 +1393,6 @@
           ],
           "price": 203000,
           "price_jp": 20300000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20250811,
-      "date": "2025/8/11",
-      "used": [
-        {
-          "maker_id": 39,
-          "maker_name": "Suzuki",
-          "car_id": 1385,
-          "car_name": "Swift Sport '07",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [],
-          "price": 13600,
-          "price_jp": 1360000,
-          "isOld": false
-        },
-        {
-          "maker_id": 46,
-          "maker_name": "Volkswagen",
-          "car_id": 3403,
-          "car_name": "Golf I GTI '83",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 5,
-              "maker_name": "Audi",
-              "car_id": "1927",
-              "car_name": "Sport quattro S1 Pikes Peak '87",
-              "engine_name": "R5-20vT-Quattro-Pikes"
-            }
-          ],
-          "price": 42100,
-          "price_jp": 4210000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 17,
-          "maker_name": "Jaguar",
-          "car_id": 3361,
-          "car_name": "E-type Coupe '61",
-          "car_group": "N",
-          "country_id": 4,
-          "country_name": "United Kingdom",
-          "country_code": "gb",
-          "engine_swaps": [],
-          "price": 205000,
-          "price_jp": 20500000,
           "isOld": true
         }
       ]

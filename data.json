@@ -1,6 +1,158 @@
 {
-  "timestamp": "2025-08-25T00:11:42.545368+00:00",
+  "timestamp": "2025-08-26T00:11:57.526295+00:00",
   "content": [
+    {
+      "id": 20250826,
+      "date": "2025/8/26",
+      "used": [
+        {
+          "maker_id": 110,
+          "maker_name": "Ferrari",
+          "car_id": 3434,
+          "car_name": "Testarossa '91",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 450000,
+          "price_jp": 45000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 6,
+          "maker_name": "BMW",
+          "car_id": 3551,
+          "car_name": "M3 '97",
+          "car_group": null,
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [
+            {
+              "maker_id": 38,
+              "maker_name": "Subaru",
+              "car_id": "3339",
+              "car_name": "BRZ Drift Car '17",
+              "engine_name": "LS7-BRZ"
+            }
+          ],
+          "price": 90000,
+          "price_jp": 9000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 65,
+          "maker_name": "DMC",
+          "car_id": 1027,
+          "car_name": "DeLorean S2 '04",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 151,
+              "maker_name": "Roadster Shop",
+              "car_id": "3426",
+              "car_name": "Roadster Shop Rampage",
+              "engine_name": "LS7-Rampage"
+            }
+          ],
+          "price": 442600,
+          "price_jp": 44260000,
+          "isOld": false
+        },
+        {
+          "maker_id": 110,
+          "maker_name": "Ferrari",
+          "car_id": 3443,
+          "car_name": "308 GTB '75",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 179000,
+          "price_jp": 17900000,
+          "isOld": true
+        },
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 396,
+          "car_name": "NSX Type R '02",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 15,
+              "maker_name": "Honda",
+              "car_id": "3348",
+              "car_name": "NSX CONCEPT-GT '16",
+              "engine_name": "HR-414E-NSX"
+            }
+          ],
+          "price": 444200,
+          "price_jp": 44420000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 110,
+          "maker_name": "Ferrari",
+          "car_id": 3362,
+          "car_name": "F50 '95",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 4450000,
+          "price_jp": 445000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 9,
+          "maker_name": "Citroen",
+          "car_id": 3514,
+          "car_name": "DS 21 Pallas '70",
+          "car_group": "N",
+          "country_id": 6,
+          "country_name": "France",
+          "country_code": "fr",
+          "engine_swaps": [
+            {
+              "maker_id": 136,
+              "maker_name": "Porsche",
+              "car_id": "3431",
+              "car_name": "911 Carrera RS (964) '92",
+              "engine_name": "M64/03-911"
+            }
+          ],
+          "price": 47100,
+          "price_jp": 4710000,
+          "isOld": true
+        },
+        {
+          "maker_id": 6,
+          "maker_name": "BMW",
+          "car_id": 216,
+          "car_name": "McLaren F1 GTR Race Car '97",
+          "car_group": "2",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 20000000,
+          "price_jp": 2000000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250825,
       "date": "2025/8/25",
@@ -1283,116 +1435,6 @@
           "engine_swaps": [],
           "price": 146000,
           "price_jp": 14600000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20250812,
-      "date": "2025/8/12",
-      "used": [
-        {
-          "maker_id": 140,
-          "maker_name": "De Tomaso",
-          "car_id": 3341,
-          "car_name": "Pantera '71",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [
-            {
-              "maker_id": 13,
-              "maker_name": "Ford",
-              "car_id": "2138",
-              "car_name": "Mustang GT '15",
-              "engine_name": "Coyote-5.0L-Mustang"
-            }
-          ],
-          "price": 200000,
-          "price_jp": 20000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 3,
-          "maker_name": "Alfa Romeo",
-          "car_id": 3530,
-          "car_name": "Giulia Sprint GT Veloce '67",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [
-            {
-              "maker_id": 157,
-              "maker_name": "Garage RCR",
-              "car_id": "3526",
-              "car_name": "Civic",
-              "engine_name": "K24A-Civic"
-            }
-          ],
-          "price": 164900,
-          "price_jp": 16490000,
-          "isOld": true
-        },
-        {
-          "maker_id": 6,
-          "maker_name": "BMW",
-          "car_id": 1893,
-          "car_name": "Z8 '01",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 265100,
-          "price_jp": 26510000,
-          "isOld": false
-        },
-        {
-          "maker_id": 15,
-          "maker_name": "Honda",
-          "car_id": 1689,
-          "car_name": "Civic Type R (EK) Touring Car",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 157,
-              "maker_name": "Garage RCR",
-              "car_id": "3526",
-              "car_name": "Civic",
-              "engine_name": "K24A-Civic"
-            }
-          ],
-          "price": 122800,
-          "price_jp": 12280000,
-          "isOld": null
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 11,
-          "maker_name": "Dodge",
-          "car_id": 1543,
-          "car_name": "Challenger R/T '70",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 11,
-              "maker_name": "Dodge",
-              "car_id": "2152",
-              "car_name": "Charger SRT Hellcat '15",
-              "engine_name": "Hellcat-Charger"
-            }
-          ],
-          "price": 203000,
-          "price_jp": 20300000,
           "isOld": true
         }
       ]

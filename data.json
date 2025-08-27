@@ -1,6 +1,158 @@
 {
-  "timestamp": "2025-08-26T00:11:57.526295+00:00",
+  "timestamp": "2025-08-27T00:10:58.768401+00:00",
   "content": [
+    {
+      "id": 20250827,
+      "date": "2025/8/27",
+      "used": [
+        {
+          "maker_id": 3,
+          "maker_name": "Alfa Romeo",
+          "car_id": 1933,
+          "car_name": "MiTo '09",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 25600,
+          "price_jp": 2560000,
+          "isOld": false
+        },
+        {
+          "maker_id": 6,
+          "maker_name": "BMW",
+          "car_id": 3454,
+          "car_name": "3.0 CSL '71",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 143000,
+          "price_jp": 14300000,
+          "isOld": true
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 24,
+          "car_name": "180SX Type X '96",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "3345",
+              "car_name": "GT-R NISMO '17",
+              "engine_name": "VR38DETT-GT-R-NISMO"
+            }
+          ],
+          "price": 49200,
+          "price_jp": 4920000,
+          "isOld": true
+        },
+        {
+          "maker_id": 140,
+          "maker_name": "De Tomaso",
+          "car_id": 3341,
+          "car_name": "Pantera '71",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [
+            {
+              "maker_id": 13,
+              "maker_name": "Ford",
+              "car_id": "2138",
+              "car_name": "Mustang GT '15",
+              "engine_name": "Coyote-5.0L-Mustang"
+            }
+          ],
+          "price": 177300,
+          "price_jp": 17730000,
+          "isOld": true
+        },
+        {
+          "maker_id": 110,
+          "maker_name": "Ferrari",
+          "car_id": 1410,
+          "car_name": "512 BB '76",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 308600,
+          "price_jp": 30860000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 13,
+          "maker_name": "Ford",
+          "car_id": 3487,
+          "car_name": "Mustang Boss 429 '69",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 13,
+              "maker_name": "Ford",
+              "car_id": "3391",
+              "car_name": "Shelby GT350R '16",
+              "engine_name": "Voodoo-5.2L-GT350R"
+            }
+          ],
+          "price": 294000,
+          "price_jp": 29400000,
+          "isOld": true
+        },
+        {
+          "maker_id": 43,
+          "maker_name": "Toyota",
+          "car_id": 781,
+          "car_name": "Celica GT-FOUR Rally Car (ST205) '95",
+          "car_group": "B",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 230000,
+          "price_jp": 23000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 39,
+          "maker_name": "Suzuki",
+          "car_id": 808,
+          "car_name": "V6 Escudo Pikes Peak Special spec.98",
+          "car_group": "X",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 39,
+              "maker_name": "Suzuki",
+              "car_id": "3508",
+              "car_name": "SUZUKI Vision Gran Turismo (Gr.3 Version)",
+              "engine_name": "V8-Suzuki-VGT-Gr.3"
+            }
+          ],
+          "price": 1700000,
+          "price_jp": 170000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20250826,
       "date": "2025/8/26",
@@ -1347,94 +1499,6 @@
           "engine_swaps": [],
           "price": 18000000,
           "price_jp": 1800000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20250813,
-      "date": "2025/8/13",
-      "used": [
-        {
-          "maker_id": 15,
-          "maker_name": "Honda",
-          "car_id": 204,
-          "car_name": "Civic Type R (EK) '98",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 15,
-              "maker_name": "Honda",
-              "car_id": "3467",
-              "car_name": "Civic Type R Limited Edition (FK8) '20",
-              "engine_name": "K20C1-Civic-'20"
-            }
-          ],
-          "price": 47000,
-          "price_jp": 4700000,
-          "isOld": true
-        },
-        {
-          "maker_id": 51,
-          "maker_name": "MINI",
-          "car_id": 3356,
-          "car_name": "Mini-Cooper 'S' '65",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 15,
-              "maker_name": "Honda",
-              "car_id": "3467",
-              "car_name": "Civic Type R Limited Edition (FK8) '20",
-              "engine_name": "K20C1-Civic-'20"
-            }
-          ],
-          "price": 43600,
-          "price_jp": 4360000,
-          "isOld": true
-        },
-        {
-          "maker_id": 136,
-          "maker_name": "Porsche",
-          "car_id": 3404,
-          "car_name": "911 Carrera RS CS (993) '95",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 136,
-              "maker_name": "Porsche",
-              "car_id": "3539",
-              "car_name": "911 GT3 RS (992) '22",
-              "engine_name": "MDYA-911"
-            }
-          ],
-          "price": 409200,
-          "price_jp": 40920000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 7,
-          "maker_name": "Chevrolet",
-          "car_id": 36,
-          "car_name": "Chevelle SS 454 Sport Coupé '70",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [],
-          "price": 146000,
-          "price_jp": 14600000,
           "isOld": true
         }
       ]

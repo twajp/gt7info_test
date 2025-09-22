@@ -1,6 +1,63 @@
 {
-  "timestamp": "2025-09-21T00:11:50.796281+00:00",
+  "timestamp": "2025-09-22T00:12:11.525493+00:00",
   "content": [
+    {
+      "id": 20250922,
+      "date": "2025/9/22",
+      "used": [
+        {
+          "maker_id": 86,
+          "maker_name": "Alpine",
+          "car_id": 1796,
+          "car_name": "A110 '72",
+          "car_group": "N",
+          "country_id": 6,
+          "country_name": "France",
+          "country_code": "fr",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "1448",
+              "car_name": "SILVIA spec-R Aero (S15) '02",
+              "engine_name": "SR20DET-Silvia-S15"
+            }
+          ],
+          "price": 143800,
+          "price_jp": 14380000,
+          "isOld": true
+        },
+        {
+          "maker_id": 110,
+          "maker_name": "Ferrari",
+          "car_id": 3434,
+          "car_name": "Testarossa '91",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 402900,
+          "price_jp": 40290000,
+          "isOld": true
+        },
+        {
+          "maker_id": 6,
+          "maker_name": "BMW",
+          "car_id": 1893,
+          "car_name": "Z8 '01",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 265100,
+          "price_jp": 26510000,
+          "isOld": false
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20250921,
       "date": "2025/9/21",
@@ -1399,130 +1456,6 @@
           ],
           "price": 154000,
           "price_jp": 15400000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20250908,
-      "date": "2025/9/8",
-      "used": [
-        {
-          "maker_id": 43,
-          "maker_name": "Toyota",
-          "car_id": 82,
-          "car_name": "Supra RZ '97",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 30,
-              "maker_name": "Pagani",
-              "car_id": "2050",
-              "car_name": "Huayra '13",
-              "engine_name": "M158-AMG-Huayra"
-            }
-          ],
-          "price": 220000,
-          "price_jp": 22000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 43,
-          "maker_name": "Toyota",
-          "car_id": 82,
-          "car_name": "Supra RZ '97",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 30,
-              "maker_name": "Pagani",
-              "car_id": "2050",
-              "car_name": "Huayra '13",
-              "engine_name": "M158-AMG-Huayra"
-            }
-          ],
-          "price": 220000,
-          "price_jp": 22000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 6,
-          "maker_name": "BMW",
-          "car_id": 3453,
-          "car_name": "M3 '89",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 39,
-              "maker_name": "Suzuki",
-              "car_id": "3508",
-              "car_name": "SUZUKI Vision Gran Turismo (Gr.3 Version)",
-              "engine_name": "V8-Suzuki-VGT-Gr.3"
-            }
-          ],
-          "price": 79000,
-          "price_jp": 7900000,
-          "isOld": true
-        },
-        {
-          "maker_id": 38,
-          "maker_name": "Subaru",
-          "car_id": 451,
-          "car_name": "Impreza 22B-STi '98",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 38,
-              "maker_name": "Subaru",
-              "car_id": "3550",
-              "car_name": "Impreza Rally Car '98",
-              "engine_name": "EJ20-Impreza-Rally"
-            }
-          ],
-          "price": 166900,
-          "price_jp": 16690000,
-          "isOld": true
-        },
-        {
-          "maker_id": 22,
-          "maker_name": "Mercedes-Benz",
-          "car_id": 1528,
-          "car_name": "SLR McLaren '09",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 523400,
-          "price_jp": 52340000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 7,
-          "maker_name": "Chevrolet",
-          "car_id": 2059,
-          "car_name": "Corvette Stingray Racer Concept '59",
-          "car_group": "X",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [],
-          "price": 4000000,
-          "price_jp": 400000000,
           "isOld": true
         }
       ]

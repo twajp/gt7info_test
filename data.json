@@ -1,6 +1,77 @@
 {
-  "timestamp": "2025-09-26T00:10:30.349105+00:00",
+  "timestamp": "2025-09-27T00:10:00.310774+00:00",
   "content": [
+    {
+      "id": 20250927,
+      "date": "2025/9/27",
+      "used": [
+        {
+          "maker_id": 32,
+          "maker_name": "Peugeot",
+          "car_id": 3564,
+          "car_name": "205 GTI '88",
+          "car_group": null,
+          "country_id": 6,
+          "country_name": "France",
+          "country_code": "fr",
+          "engine_swaps": [],
+          "price": 54100,
+          "price_jp": 5410000,
+          "isOld": true
+        },
+        {
+          "maker_id": 46,
+          "maker_name": "Volkswagen",
+          "car_id": 1778,
+          "car_name": "Volkswagen 1200 '66",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [
+            {
+              "maker_id": 136,
+              "maker_name": "Porsche",
+              "car_id": "3431",
+              "car_name": "911 Carrera RS (964) '92",
+              "engine_name": "M64/03-911"
+            }
+          ],
+          "price": 31900,
+          "price_jp": 3190000,
+          "isOld": true
+        },
+        {
+          "maker_id": 11,
+          "maker_name": "Dodge",
+          "car_id": 3377,
+          "car_name": "Super Bee '70",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [],
+          "price": 61100,
+          "price_jp": 6110000,
+          "isOld": true
+        },
+        {
+          "maker_id": 5,
+          "maker_name": "Audi",
+          "car_id": 1365,
+          "car_name": "R8 4.2 '07",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 136500,
+          "price_jp": 13650000,
+          "isOld": false
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20250926,
       "date": "2025/9/26",
@@ -1493,144 +1564,6 @@
           "engine_swaps": [],
           "price": 6700000,
           "price_jp": 670000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20250913,
-      "date": "2025/9/13",
-      "used": [
-        {
-          "maker_id": 12,
-          "maker_name": "Fiat",
-          "car_id": 1527,
-          "car_name": "500 1.2 8V Lounge SS '08",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 12800,
-          "price_jp": 1280000,
-          "isOld": false
-        },
-        {
-          "maker_id": 15,
-          "maker_name": "Honda",
-          "car_id": 821,
-          "car_name": "Civic Type R (EK) '97",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 157,
-              "maker_name": "Garage RCR",
-              "car_id": "3526",
-              "car_name": "Civic",
-              "engine_name": "K24A-Civic"
-            }
-          ],
-          "price": 58100,
-          "price_jp": 5810000,
-          "isOld": true
-        },
-        {
-          "maker_id": 38,
-          "maker_name": "Subaru",
-          "car_id": 3432,
-          "car_name": "Impreza Sedan WRX STi '04",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 136,
-              "maker_name": "Porsche",
-              "car_id": "3558",
-              "car_name": "911 Turbo S (992) '20",
-              "engine_name": "DKH-911"
-            }
-          ],
-          "price": 49900,
-          "price_jp": 4990000,
-          "isOld": false
-        },
-        {
-          "maker_id": 136,
-          "maker_name": "Porsche",
-          "car_id": 3439,
-          "car_name": "911 Carrera RS (993) '95",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 35,
-              "maker_name": "RUF",
-              "car_id": "3398",
-              "car_name": "CTR3 '07",
-              "engine_name": "CTR38-CTR3"
-            }
-          ],
-          "price": 233300,
-          "price_jp": 23330000,
-          "isOld": true
-        },
-        {
-          "maker_id": 25,
-          "maker_name": "Mitsubishi",
-          "car_id": 3424,
-          "car_name": "Lancer Evolution IX MR GSR '06",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 25,
-              "maker_name": "Mitsubishi",
-              "car_id": "3230",
-              "car_name": "Lancer Evolution Final Gr.B Rally Car",
-              "engine_name": "Evo-Final-Gr.B"
-            }
-          ],
-          "price": 95600,
-          "price_jp": 9560000,
-          "isOld": false
-        },
-        {
-          "maker_id": 35,
-          "maker_name": "RUF",
-          "car_id": 3398,
-          "car_name": "CTR3 '07",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 792800,
-          "price_jp": 79280000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 38,
-          "maker_name": "Subaru",
-          "car_id": 3550,
-          "car_name": "Impreza Rally Car '98",
-          "car_group": null,
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [],
-          "price": 650000,
-          "price_jp": 65000000,
           "isOld": true
         }
       ]

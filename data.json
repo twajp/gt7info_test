@@ -1,6 +1,57 @@
 {
-  "timestamp": "2025-10-02T00:10:05.781907+00:00",
+  "timestamp": "2025-10-03T00:09:59.417615+00:00",
   "content": [
+    {
+      "id": 20251003,
+      "date": "2025/10/3",
+      "used": [
+        {
+          "maker_id": 125,
+          "maker_name": "Abarth",
+          "car_id": 3438,
+          "car_name": "Abarth 595 SS '70",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [
+            {
+              "maker_id": 15,
+              "maker_name": "Honda",
+              "car_id": "3467",
+              "car_name": "Civic Type R Limited Edition (FK8) '20",
+              "engine_name": "K20C1-Civic-'20"
+            }
+          ],
+          "price": 53100,
+          "price_jp": 5310000,
+          "isOld": true
+        },
+        {
+          "maker_id": 43,
+          "maker_name": "Toyota",
+          "car_id": 3471,
+          "car_name": "Celica GT-Four (ST205) '94",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 50,
+              "maker_name": "Lexus",
+              "car_id": "1516",
+              "car_name": "SC430 GT500 '08",
+              "engine_name": "3UZ-FE-SC430"
+            }
+          ],
+          "price": 65500,
+          "price_jp": 6550000,
+          "isOld": true
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20251002,
       "date": "2025/10/2",
@@ -1382,71 +1433,6 @@
           "price": 45700,
           "price_jp": 4570000,
           "isOld": true
-        }
-      ],
-      "legend": []
-    },
-    {
-      "id": 20250919,
-      "date": "2025/9/19",
-      "used": [
-        {
-          "maker_id": 15,
-          "maker_name": "Honda",
-          "car_id": 204,
-          "car_name": "Civic Type R (EK) '98",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 15,
-              "maker_name": "Honda",
-              "car_id": "3467",
-              "car_name": "Civic Type R Limited Edition (FK8) '20",
-              "engine_name": "K20C1-Civic-'20"
-            }
-          ],
-          "price": 47000,
-          "price_jp": 4700000,
-          "isOld": true
-        },
-        {
-          "maker_id": 136,
-          "maker_name": "Porsche",
-          "car_id": 3385,
-          "car_name": "911 Turbo (930) '81",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 136,
-              "maker_name": "Porsche",
-              "car_id": "3311",
-              "car_name": "911 RSR (991) '17",
-              "engine_name": "M97/80-911"
-            }
-          ],
-          "price": 223900,
-          "price_jp": 22390000,
-          "isOld": true
-        },
-        {
-          "maker_id": 117,
-          "maker_name": "McLaren",
-          "car_id": 1722,
-          "car_name": "MP4-12C '10",
-          "car_group": "N",
-          "country_id": 4,
-          "country_name": "United Kingdom",
-          "country_code": "gb",
-          "engine_swaps": [],
-          "price": 187100,
-          "price_jp": 18710000,
-          "isOld": false
         }
       ],
       "legend": []

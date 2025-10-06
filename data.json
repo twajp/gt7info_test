@@ -1,6 +1,130 @@
 {
-  "timestamp": "2025-10-05T00:12:05.880249+00:00",
+  "timestamp": "2025-10-06T00:11:11.524373+00:00",
   "content": [
+    {
+      "id": 20251006,
+      "date": "2025/10/6",
+      "used": [
+        {
+          "maker_id": 6,
+          "maker_name": "BMW",
+          "car_id": 3422,
+          "car_name": "3.0 CSL '73",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [
+            {
+              "maker_id": 6,
+              "maker_name": "BMW",
+              "car_id": "1902",
+              "car_name": "Z4 GT3 '11",
+              "engine_name": "P65B44-Z4"
+            }
+          ],
+          "price": 205200,
+          "price_jp": 20520000,
+          "isOld": true
+        },
+        {
+          "maker_id": 5,
+          "maker_name": "Audi",
+          "car_id": 959,
+          "car_name": "TT Coupe 3.2 quattro '03",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 43300,
+          "price_jp": 4330000,
+          "isOld": false
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 1458,
+          "car_name": "Fairlady Z (Z34) '08",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "1466",
+              "car_name": "GT-R GT500 '08",
+              "engine_name": "VK45DE-GT-R"
+            }
+          ],
+          "price": 37100,
+          "price_jp": 3710000,
+          "isOld": false
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 1384,
+          "car_name": "Fairlady Z Version S (Z33) '07",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "210",
+              "car_name": "R34 GT-R V-spec II Nur '02",
+              "engine_name": "RB26DETT-GT-R-R34"
+            }
+          ],
+          "price": 26800,
+          "price_jp": 2680000,
+          "isOld": false
+        },
+        {
+          "maker_id": 13,
+          "maker_name": "Ford",
+          "car_id": 1426,
+          "car_name": "Ford GT '06",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 156,
+              "maker_name": "Greening Auto Company",
+              "car_id": "3522",
+              "car_name": "Maverick",
+              "engine_name": "Windsor-351-Maverick"
+            }
+          ],
+          "price": 397100,
+          "price_jp": 39710000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 140,
+          "car_name": "NSX GT500 '00",
+          "car_group": "3",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 1650000,
+          "price_jp": 165000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20251005,
       "date": "2025/10/5",
@@ -1311,63 +1435,6 @@
           "isOld": true
         }
       ]
-    },
-    {
-      "id": 20250922,
-      "date": "2025/9/22",
-      "used": [
-        {
-          "maker_id": 86,
-          "maker_name": "Alpine",
-          "car_id": 1796,
-          "car_name": "A110 '72",
-          "car_group": "N",
-          "country_id": 6,
-          "country_name": "France",
-          "country_code": "fr",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "1448",
-              "car_name": "SILVIA spec-R Aero (S15) '02",
-              "engine_name": "SR20DET-Silvia-S15"
-            }
-          ],
-          "price": 143800,
-          "price_jp": 14380000,
-          "isOld": true
-        },
-        {
-          "maker_id": 110,
-          "maker_name": "Ferrari",
-          "car_id": 3434,
-          "car_name": "Testarossa '91",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 402900,
-          "price_jp": 40290000,
-          "isOld": true
-        },
-        {
-          "maker_id": 6,
-          "maker_name": "BMW",
-          "car_id": 1893,
-          "car_name": "Z8 '01",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 265100,
-          "price_jp": 26510000,
-          "isOld": false
-        }
-      ],
-      "legend": []
     }
   ]
 }

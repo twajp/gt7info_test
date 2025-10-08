@@ -1,6 +1,164 @@
 {
-  "timestamp": "2025-10-07T00:11:44.832355+00:00",
+  "timestamp": "2025-10-08T00:10:57.844407+00:00",
   "content": [
+    {
+      "id": 20251008,
+      "date": "2025/10/8",
+      "used": [
+        {
+          "maker_id": 34,
+          "maker_name": "Renault",
+          "car_id": 3567,
+          "car_name": "Kangoo 1.4 '01",
+          "car_group": null,
+          "country_id": 6,
+          "country_name": "France",
+          "country_code": "fr",
+          "engine_swaps": [],
+          "price": 14200,
+          "price_jp": 1420000,
+          "isOld": false
+        },
+        {
+          "maker_id": 43,
+          "maker_name": "Toyota",
+          "car_id": 1537,
+          "car_name": "Prius G '09",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 19400,
+          "price_jp": 1940000,
+          "isOld": false
+        },
+        {
+          "maker_id": 9,
+          "maker_name": "Citroen",
+          "car_id": 3573,
+          "car_name": "BX 19 TRS '87",
+          "car_group": null,
+          "country_id": 6,
+          "country_name": "France",
+          "country_code": "fr",
+          "engine_swaps": [],
+          "price": 22700,
+          "price_jp": 2270000,
+          "isOld": true
+        },
+        {
+          "maker_id": 34,
+          "maker_name": "Renault",
+          "car_id": 173,
+          "car_name": "R5 Turbo '80",
+          "car_group": "N",
+          "country_id": 6,
+          "country_name": "France",
+          "country_code": "fr",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "1448",
+              "car_name": "SILVIA spec-R Aero (S15) '02",
+              "engine_name": "SR20DET-Silvia-S15"
+            }
+          ],
+          "price": 161400,
+          "price_jp": 16140000,
+          "isOld": true
+        },
+        {
+          "maker_id": 65,
+          "maker_name": "DMC",
+          "car_id": 1027,
+          "car_name": "DeLorean S2 '04",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 151,
+              "maker_name": "Roadster Shop",
+              "car_id": "3426",
+              "car_name": "Roadster Shop Rampage",
+              "engine_name": "LS7-Rampage"
+            }
+          ],
+          "price": 462400,
+          "price_jp": 46240000,
+          "isOld": false
+        },
+        {
+          "maker_id": 110,
+          "maker_name": "Ferrari",
+          "car_id": 3443,
+          "car_name": "308 GTB '75",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 176100,
+          "price_jp": 17610000,
+          "isOld": true
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 24,
+          "car_name": "180SX Type X '96",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "3345",
+              "car_name": "GT-R NISMO '17",
+              "engine_name": "VR38DETT-GT-R-NISMO"
+            }
+          ],
+          "price": 57400,
+          "price_jp": 5740000,
+          "isOld": true
+        },
+        {
+          "maker_id": 110,
+          "maker_name": "Ferrari",
+          "car_id": 1410,
+          "car_name": "512 BB '76",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 299300,
+          "price_jp": 29930000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 22,
+          "maker_name": "Mercedes-Benz",
+          "car_id": 387,
+          "car_name": "300 SL Coupe '54",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 1650000,
+          "price_jp": 165000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20251007,
       "date": "2025/10/7",
@@ -1237,63 +1395,6 @@
           "price_jp": 17900000,
           "isOld": true
         },
-        {
-          "maker_id": 36,
-          "maker_name": "Shelby",
-          "car_id": 1925,
-          "car_name": "G.T.350 '65",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 13,
-              "maker_name": "Ford",
-              "car_id": "3391",
-              "car_name": "Shelby GT350R '16",
-              "engine_name": "Voodoo-5.2L-GT350R"
-            }
-          ],
-          "price": 455000,
-          "price_jp": 45500000,
-          "isOld": true
-        },
-        {
-          "maker_id": 86,
-          "maker_name": "Alpine",
-          "car_id": 3457,
-          "car_name": "A220 Race Car '68",
-          "car_group": "X",
-          "country_id": 6,
-          "country_name": "France",
-          "country_code": "fr",
-          "engine_swaps": [],
-          "price": 330000,
-          "price_jp": 33000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 110,
-          "maker_name": "Ferrari",
-          "car_id": 1551,
-          "car_name": "330 P4 '67",
-          "car_group": "X",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 20000000,
-          "price_jp": 2000000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20250924,
-      "date": "2025/9/24",
-      "used": [],
-      "legend": [
         {
           "maker_id": 36,
           "maker_name": "Shelby",

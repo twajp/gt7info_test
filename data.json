@@ -1,6 +1,182 @@
 {
-  "timestamp": "2025-10-08T00:10:57.844407+00:00",
+  "timestamp": "2025-10-09T00:10:34.561268+00:00",
   "content": [
+    {
+      "id": 20251009,
+      "date": "2025/10/9",
+      "used": [
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 773,
+          "car_name": "R32 GT-R V-spec II '94",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "954",
+              "car_name": "R92CP '92",
+              "engine_name": "VRH35Z-R92CP"
+            }
+          ],
+          "price": 200000,
+          "price_jp": 20000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 3524,
+          "car_name": "GT-R NISMO (R32) '90",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "3345",
+              "car_name": "GT-R NISMO '17",
+              "engine_name": "VR38DETT-GT-R-NISMO"
+            }
+          ],
+          "price": 400000,
+          "price_jp": 40000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 489,
+          "car_name": "R33 GT-R V-spec '97",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "954",
+              "car_name": "R92CP '92",
+              "engine_name": "VRH35Z-R92CP"
+            }
+          ],
+          "price": 180000,
+          "price_jp": 18000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 140,
+          "maker_name": "De Tomaso",
+          "car_id": 3341,
+          "car_name": "Pantera '71",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [
+            {
+              "maker_id": 13,
+              "maker_name": "Ford",
+              "car_id": "2138",
+              "car_name": "Mustang GT '15",
+              "engine_name": "Coyote-5.0L-Mustang"
+            }
+          ],
+          "price": 166500,
+          "price_jp": 16650000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 837,
+          "car_name": "Skyline Hard Top 2000GT-R (KPGC10) '70",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "3493",
+              "car_name": "Skyline Super Silhouette Group 5 '84",
+              "engine_name": "LZ20B-Skyline"
+            }
+          ],
+          "price": 194000,
+          "price_jp": 19400000,
+          "isOld": true
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 836,
+          "car_name": "Skyline 2000GT-R (KPGC110) '73",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "3493",
+              "car_name": "Skyline Super Silhouette Group 5 '84",
+              "engine_name": "LZ20B-Skyline"
+            }
+          ],
+          "price": 537000,
+          "price_jp": 53700000,
+          "isOld": true
+        },
+        {
+          "maker_id": 155,
+          "maker_name": "NISMO",
+          "car_id": 3520,
+          "car_name": "400R '95",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "3345",
+              "car_name": "GT-R NISMO '17",
+              "engine_name": "VR38DETT-GT-R-NISMO"
+            }
+          ],
+          "price": 1600000,
+          "price_jp": 160000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 117,
+          "maker_name": "McLaren",
+          "car_id": 1984,
+          "car_name": "McLaren F1 GTR - BMW '95",
+          "car_group": "3",
+          "country_id": 4,
+          "country_name": "United Kingdom",
+          "country_code": "gb",
+          "engine_swaps": [],
+          "price": 17000000,
+          "price_jp": 1700000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20251008,
       "date": "2025/10/8",
@@ -1313,136 +1489,6 @@
           ],
           "price": 31300,
           "price_jp": 3130000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20250925,
-      "date": "2025/9/25",
-      "used": [
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 1448,
-          "car_name": "SILVIA spec-R Aero (S15) '02",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 43,
-              "maker_name": "Toyota",
-              "car_id": "82",
-              "car_name": "Supra RZ '97",
-              "engine_name": "2JZ-GTE-Supra"
-            }
-          ],
-          "price": 68000,
-          "price_jp": 6800000,
-          "isOld": false
-        },
-        {
-          "maker_id": 9,
-          "maker_name": "Citroen",
-          "car_id": 3573,
-          "car_name": "BX 19 TRS '87",
-          "car_group": null,
-          "country_id": 6,
-          "country_name": "France",
-          "country_code": "fr",
-          "engine_swaps": [],
-          "price": 30000,
-          "price_jp": 3000000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 43,
-          "maker_name": "Toyota",
-          "car_id": 3584,
-          "car_name": "Land Cruiser FJ40V '74",
-          "car_group": null,
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [],
-          "price": 44100,
-          "price_jp": 4410000,
-          "isOld": true
-        },
-        {
-          "maker_id": 11,
-          "maker_name": "Dodge",
-          "car_id": 1543,
-          "car_name": "Challenger R/T '70",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 11,
-              "maker_name": "Dodge",
-              "car_id": "2152",
-              "car_name": "Charger SRT Hellcat '15",
-              "engine_name": "Hellcat-Charger"
-            }
-          ],
-          "price": 179000,
-          "price_jp": 17900000,
-          "isOld": true
-        },
-        {
-          "maker_id": 36,
-          "maker_name": "Shelby",
-          "car_id": 1925,
-          "car_name": "G.T.350 '65",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 13,
-              "maker_name": "Ford",
-              "car_id": "3391",
-              "car_name": "Shelby GT350R '16",
-              "engine_name": "Voodoo-5.2L-GT350R"
-            }
-          ],
-          "price": 455000,
-          "price_jp": 45500000,
-          "isOld": true
-        },
-        {
-          "maker_id": 86,
-          "maker_name": "Alpine",
-          "car_id": 3457,
-          "car_name": "A220 Race Car '68",
-          "car_group": "X",
-          "country_id": 6,
-          "country_name": "France",
-          "country_code": "fr",
-          "engine_swaps": [],
-          "price": 330000,
-          "price_jp": 33000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 110,
-          "maker_name": "Ferrari",
-          "car_id": 1551,
-          "car_name": "330 P4 '67",
-          "car_group": "X",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 20000000,
-          "price_jp": 2000000000,
           "isOld": true
         }
       ]

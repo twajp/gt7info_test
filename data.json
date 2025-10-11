@@ -1,6 +1,12 @@
 {
-  "timestamp": "2025-10-10T00:11:53.048687+00:00",
+  "timestamp": "2025-10-11T00:11:01.220693+00:00",
   "content": [
+    {
+      "id": 20251011,
+      "date": "2025/10/11",
+      "used": [],
+      "legend": []
+    },
     {
       "id": 20251010,
       "date": "2025/10/10",
@@ -1478,77 +1484,6 @@
           "isOld": true
         }
       ]
-    },
-    {
-      "id": 20250927,
-      "date": "2025/9/27",
-      "used": [
-        {
-          "maker_id": 32,
-          "maker_name": "Peugeot",
-          "car_id": 3564,
-          "car_name": "205 GTI '88",
-          "car_group": null,
-          "country_id": 6,
-          "country_name": "France",
-          "country_code": "fr",
-          "engine_swaps": [],
-          "price": 54100,
-          "price_jp": 5410000,
-          "isOld": true
-        },
-        {
-          "maker_id": 46,
-          "maker_name": "Volkswagen",
-          "car_id": 1778,
-          "car_name": "Volkswagen 1200 '66",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 136,
-              "maker_name": "Porsche",
-              "car_id": "3431",
-              "car_name": "911 Carrera RS (964) '92",
-              "engine_name": "M64/03-911"
-            }
-          ],
-          "price": 31900,
-          "price_jp": 3190000,
-          "isOld": true
-        },
-        {
-          "maker_id": 11,
-          "maker_name": "Dodge",
-          "car_id": 3377,
-          "car_name": "Super Bee '70",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [],
-          "price": 61100,
-          "price_jp": 6110000,
-          "isOld": true
-        },
-        {
-          "maker_id": 5,
-          "maker_name": "Audi",
-          "car_id": 1365,
-          "car_name": "R8 4.2 '07",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 136500,
-          "price_jp": 13650000,
-          "isOld": false
-        }
-      ],
-      "legend": []
     }
   ]
 }

@@ -1,6 +1,130 @@
 {
-  "timestamp": "2025-10-13T00:11:38.335044+00:00",
+  "timestamp": "2025-10-14T00:11:59.351372+00:00",
   "content": [
+    {
+      "id": 20251014,
+      "date": "2025/10/14",
+      "used": [
+        {
+          "maker_id": 3,
+          "maker_name": "Alfa Romeo",
+          "car_id": 3530,
+          "car_name": "Giulia Sprint GT Veloce '67",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [
+            {
+              "maker_id": 157,
+              "maker_name": "Garage RCR",
+              "car_id": "3526",
+              "car_name": "Civic",
+              "engine_name": "K24A-Civic"
+            }
+          ],
+          "price": 180000,
+          "price_jp": 18000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 136,
+          "maker_name": "Porsche",
+          "car_id": 3385,
+          "car_name": "911 Turbo (930) '81",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [
+            {
+              "maker_id": 136,
+              "maker_name": "Porsche",
+              "car_id": "3311",
+              "car_name": "911 RSR (991) '17",
+              "engine_name": "M97/80-911"
+            }
+          ],
+          "price": 250000,
+          "price_jp": 25000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 137,
+          "car_name": "Beat '91",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 15,
+              "maker_name": "Honda",
+              "car_id": "3467",
+              "car_name": "Civic Type R Limited Edition (FK8) '20",
+              "engine_name": "K20C1-Civic-'20"
+            }
+          ],
+          "price": 14900,
+          "price_jp": 1490000,
+          "isOld": true
+        },
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 3563,
+          "car_name": "Civic Si Extra (EF) '87",
+          "car_group": null,
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 15,
+              "maker_name": "Honda",
+              "car_id": "203",
+              "car_name": "Integra Type R (DC2) '98",
+              "engine_name": "B18C-Integra-'98"
+            }
+          ],
+          "price": 50700,
+          "price_jp": 5070000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 43,
+          "maker_name": "Toyota",
+          "car_id": 3584,
+          "car_name": "Land Cruiser FJ40V '74",
+          "car_group": null,
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 44100,
+          "price_jp": 4410000,
+          "isOld": true
+        },
+        {
+          "maker_id": 36,
+          "maker_name": "Shelby",
+          "car_id": 315,
+          "car_name": "Cobra 427 '66",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [],
+          "price": 2700000,
+          "price_jp": 270000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20251013,
       "date": "2025/10/13",
@@ -1302,180 +1426,6 @@
         }
       ],
       "legend": []
-    },
-    {
-      "id": 20250930,
-      "date": "2025/9/30",
-      "used": [
-        {
-          "maker_id": 43,
-          "maker_name": "Toyota",
-          "car_id": 3471,
-          "car_name": "Celica GT-Four (ST205) '94",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 50,
-              "maker_name": "Lexus",
-              "car_id": "1516",
-              "car_name": "SC430 GT500 '08",
-              "engine_name": "3UZ-FE-SC430"
-            }
-          ],
-          "price": 90000,
-          "price_jp": 9000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 136,
-          "maker_name": "Porsche",
-          "car_id": 3439,
-          "car_name": "911 Carrera RS (993) '95",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 35,
-              "maker_name": "RUF",
-              "car_id": "3398",
-              "car_name": "CTR3 '07",
-              "engine_name": "CTR38-CTR3"
-            }
-          ],
-          "price": 260000,
-          "price_jp": 26000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 48,
-          "car_name": "Fairlady 240ZG (HS30) '71",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 151,
-              "maker_name": "Roadster Shop",
-              "car_id": "3426",
-              "car_name": "Roadster Shop Rampage",
-              "engine_name": "LS7-Rampage"
-            }
-          ],
-          "price": 98200,
-          "price_jp": 9820000,
-          "isOld": true
-        },
-        {
-          "maker_id": 7,
-          "maker_name": "Chevrolet",
-          "car_id": 1542,
-          "car_name": "Corvette Convertible (C3) '69",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 7,
-              "maker_name": "Chevrolet",
-              "car_id": "3449",
-              "car_name": "Corvette C7 ZR1 '19",
-              "engine_name": "LT5-Corvette-C7"
-            }
-          ],
-          "price": 47000,
-          "price_jp": 4700000,
-          "isOld": true
-        },
-        {
-          "maker_id": 25,
-          "maker_name": "Mitsubishi",
-          "car_id": 1508,
-          "car_name": "Lancer Evolution VI GSR T.M. SCP '99",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 25,
-              "maker_name": "Mitsubishi",
-              "car_id": "3230",
-              "car_name": "Lancer Evolution Final Gr.B Rally Car",
-              "engine_name": "Evo-Final-Gr.B"
-            }
-          ],
-          "price": 165200,
-          "price_jp": 16520000,
-          "isOld": true
-        },
-        {
-          "maker_id": 136,
-          "maker_name": "Porsche",
-          "car_id": 3358,
-          "car_name": "911 GT3 (996) '01",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 161700,
-          "price_jp": 16170000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 22,
-          "maker_name": "Mercedes-Benz",
-          "car_id": 3557,
-          "car_name": "W 196 R '55",
-          "car_group": null,
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 20000000,
-          "price_jp": 2000000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 52,
-          "maker_name": "Pontiac",
-          "car_id": 3462,
-          "car_name": "GTO 'The Judge' '69",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [],
-          "price": 209000,
-          "price_jp": 20900000,
-          "isOld": true
-        },
-        {
-          "maker_id": 36,
-          "maker_name": "Shelby",
-          "car_id": 315,
-          "car_name": "Cobra 427 '66",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [],
-          "price": 2700000,
-          "price_jp": 270000000,
-          "isOld": true
-        }
-      ]
     }
   ]
 }

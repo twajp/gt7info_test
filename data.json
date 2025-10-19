@@ -1,6 +1,78 @@
 {
-  "timestamp": "2025-10-18T00:09:58.405792+00:00",
+  "timestamp": "2025-10-19T00:12:52.652561+00:00",
   "content": [
+    {
+      "id": 20251019,
+      "date": "2025/10/19",
+      "used": [
+        {
+          "maker_id": 43,
+          "maker_name": "Toyota",
+          "car_id": 1044,
+          "car_name": "Sports 800 '65",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 49200,
+          "price_jp": 4920000,
+          "isOld": true
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 489,
+          "car_name": "R33 GT-R V-spec '97",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "954",
+              "car_name": "R92CP '92",
+              "engine_name": "VRH35Z-R92CP"
+            }
+          ],
+          "price": 161000,
+          "price_jp": 16100000,
+          "isOld": true
+        },
+        {
+          "maker_id": 22,
+          "maker_name": "Mercedes-Benz",
+          "car_id": 1528,
+          "car_name": "SLR McLaren '09",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 512200,
+          "price_jp": 51220000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 3493,
+          "car_name": "Skyline Super Silhouette Group 5 '84",
+          "car_group": "3",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 1150000,
+          "price_jp": 115000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20251018,
       "date": "2025/10/18",
@@ -1534,12 +1606,6 @@
           "isOld": true
         }
       ]
-    },
-    {
-      "id": 20251005,
-      "date": "2025/10/5",
-      "used": [],
-      "legend": []
     }
   ]
 }

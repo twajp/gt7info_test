@@ -1,6 +1,64 @@
 {
-  "timestamp": "2025-10-19T00:12:52.652561+00:00",
+  "timestamp": "2025-10-20T00:12:20.781805+00:00",
   "content": [
+    {
+      "id": 20251020,
+      "date": "2025/10/20",
+      "used": [
+        {
+          "maker_id": 46,
+          "maker_name": "Volkswagen",
+          "car_id": 1773,
+          "car_name": "Scirocco R '10",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 38100,
+          "price_jp": 3810000,
+          "isOld": false
+        },
+        {
+          "maker_id": 21,
+          "maker_name": "Mazda",
+          "car_id": 205,
+          "car_name": "RX-7 Spirit R Type A (FD) '02",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 21,
+              "maker_name": "Mazda",
+              "car_id": "296",
+              "car_name": "787B '91",
+              "engine_name": "R26B-787B"
+            }
+          ],
+          "price": 216400,
+          "price_jp": 21640000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 18,
+          "maker_name": "Lancia",
+          "car_id": 761,
+          "car_name": "Lancia Delta HF Integrale Rally Car '92",
+          "car_group": null,
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 327700,
+          "price_jp": 32770000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20251019,
       "date": "2025/10/19",
@@ -1479,130 +1537,6 @@
           "engine_swaps": [],
           "price": 13000000,
           "price_jp": 1300000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20251006,
-      "date": "2025/10/6",
-      "used": [
-        {
-          "maker_id": 6,
-          "maker_name": "BMW",
-          "car_id": 3422,
-          "car_name": "3.0 CSL '73",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 6,
-              "maker_name": "BMW",
-              "car_id": "1902",
-              "car_name": "Z4 GT3 '11",
-              "engine_name": "P65B44-Z4"
-            }
-          ],
-          "price": 205200,
-          "price_jp": 20520000,
-          "isOld": true
-        },
-        {
-          "maker_id": 5,
-          "maker_name": "Audi",
-          "car_id": 959,
-          "car_name": "TT Coupe 3.2 quattro '03",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 43300,
-          "price_jp": 4330000,
-          "isOld": false
-        },
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 1458,
-          "car_name": "Fairlady Z (Z34) '08",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "1466",
-              "car_name": "GT-R GT500 '08",
-              "engine_name": "VK45DE-GT-R"
-            }
-          ],
-          "price": 37100,
-          "price_jp": 3710000,
-          "isOld": false
-        },
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 1384,
-          "car_name": "Fairlady Z Version S (Z33) '07",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "210",
-              "car_name": "R34 GT-R V-spec II Nur '02",
-              "engine_name": "RB26DETT-GT-R-R34"
-            }
-          ],
-          "price": 26800,
-          "price_jp": 2680000,
-          "isOld": false
-        },
-        {
-          "maker_id": 13,
-          "maker_name": "Ford",
-          "car_id": 1426,
-          "car_name": "Ford GT '06",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 156,
-              "maker_name": "Greening Auto Company",
-              "car_id": "3522",
-              "car_name": "Maverick",
-              "engine_name": "Windsor-351-Maverick"
-            }
-          ],
-          "price": 397100,
-          "price_jp": 39710000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 15,
-          "maker_name": "Honda",
-          "car_id": 140,
-          "car_name": "NSX GT500 '00",
-          "car_group": "3",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [],
-          "price": 1650000,
-          "price_jp": 165000000,
           "isOld": true
         }
       ]

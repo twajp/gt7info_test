@@ -1,6 +1,64 @@
 {
-  "timestamp": "2025-10-23T00:11:20.871015+00:00",
+  "timestamp": "2025-10-24T00:09:22.663902+00:00",
   "content": [
+    {
+      "id": 20251024,
+      "date": "2025/10/24",
+      "used": [
+        {
+          "maker_id": 25,
+          "maker_name": "Mitsubishi",
+          "car_id": 3424,
+          "car_name": "Lancer Evolution IX MR GSR '06",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 25,
+              "maker_name": "Mitsubishi",
+              "car_id": "3230",
+              "car_name": "Lancer Evolution Final Gr.B Rally Car",
+              "engine_name": "Evo-Final-Gr.B"
+            }
+          ],
+          "price": 98100,
+          "price_jp": 9810000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 136,
+          "maker_name": "Porsche",
+          "car_id": 3490,
+          "car_name": "Carrera GTS (904) '64",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 2200000,
+          "price_jp": 220000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 116,
+          "maker_name": "Maserati",
+          "car_id": 3421,
+          "car_name": "Merak SS '80",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 61500,
+          "price_jp": 6150000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20251023,
       "date": "2025/10/23",
@@ -1170,166 +1228,6 @@
       "date": "2025/10/11",
       "used": [],
       "legend": []
-    },
-    {
-      "id": 20251010,
-      "date": "2025/10/10",
-      "used": [
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 919,
-          "car_name": "Silvia Q's (S13) '88",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "1448",
-              "car_name": "SILVIA spec-R Aero (S15) '02",
-              "engine_name": "SR20DET-Silvia-S15"
-            },
-            {
-              "maker_id": 38,
-              "maker_name": "Subaru",
-              "car_id": "3339",
-              "car_name": "BRZ Drift Car '17",
-              "engine_name": "LS7-BRZ"
-            }
-          ],
-          "price": 31500,
-          "price_jp": 3150000,
-          "isOld": true
-        },
-        {
-          "maker_id": 51,
-          "maker_name": "MINI",
-          "car_id": 1370,
-          "car_name": "MINI Cooper S '05",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 157,
-              "maker_name": "Garage RCR",
-              "car_id": "3526",
-              "car_name": "Civic",
-              "engine_name": "K24A-Civic"
-            }
-          ],
-          "price": 23600,
-          "price_jp": 2360000,
-          "isOld": false
-        },
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 709,
-          "car_name": "Fairlady Z 300ZX TT 2seater '89",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "3345",
-              "car_name": "GT-R NISMO '17",
-              "engine_name": "VR38DETT-GT-R-NISMO"
-            },
-            {
-              "maker_id": 151,
-              "maker_name": "Roadster Shop",
-              "car_id": "3426",
-              "car_name": "Roadster Shop Rampage",
-              "engine_name": "LS7-Rampage"
-            }
-          ],
-          "price": 56200,
-          "price_jp": 5620000,
-          "isOld": true
-        },
-        {
-          "maker_id": 110,
-          "maker_name": "Ferrari",
-          "car_id": 1544,
-          "car_name": "430 Scuderia '07",
-          "car_group": null,
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 378100,
-          "price_jp": 37810000,
-          "isOld": false
-        },
-        {
-          "maker_id": 6,
-          "maker_name": "BMW",
-          "car_id": 1399,
-          "car_name": "M3 '07",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 6,
-              "maker_name": "BMW",
-              "car_id": "1902",
-              "car_name": "Z4 GT3 '11",
-              "engine_name": "P65B44-Z4"
-            }
-          ],
-          "price": 77600,
-          "price_jp": 7760000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 11,
-          "maker_name": "Dodge",
-          "car_id": 3538,
-          "car_name": "Charger R/T 426 Hemi '68",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 11,
-              "maker_name": "Dodge",
-              "car_id": "3486",
-              "car_name": "Challenger SRT Demon '18",
-              "engine_name": "Demon-Challenger"
-            }
-          ],
-          "price": 147000,
-          "price_jp": 14700000,
-          "isOld": true
-        },
-        {
-          "maker_id": 110,
-          "maker_name": "Ferrari",
-          "car_id": 1931,
-          "car_name": "250 GT Berlinetta passo corto '61",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 6850000,
-          "price_jp": 685000000,
-          "isOld": true
-        }
-      ]
     }
   ]
 }

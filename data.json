@@ -1,6 +1,93 @@
 {
-  "timestamp": "2025-10-30T00:12:06.112729+00:00",
+  "timestamp": "2025-10-31T00:11:43.871314+00:00",
   "content": [
+    {
+      "id": 20251031,
+      "date": "2025/10/31",
+      "used": [
+        {
+          "maker_id": 3,
+          "maker_name": "Alfa Romeo",
+          "car_id": 3530,
+          "car_name": "Giulia Sprint GT Veloce '67",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [
+            {
+              "maker_id": 157,
+              "maker_name": "Garage RCR",
+              "car_id": "3526",
+              "car_name": "Civic",
+              "engine_name": "K24A-Civic"
+            }
+          ],
+          "price": 171300,
+          "price_jp": 17130000,
+          "isOld": true
+        },
+        {
+          "maker_id": 13,
+          "maker_name": "Ford",
+          "car_id": 1729,
+          "car_name": "Mustang Mach 1 '71",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 13,
+              "maker_name": "Ford",
+              "car_id": "2138",
+              "car_name": "Mustang GT '15",
+              "engine_name": "Coyote-5.0L-Mustang"
+            }
+          ],
+          "price": 40800,
+          "price_jp": 4080000,
+          "isOld": true
+        },
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 1689,
+          "car_name": "Civic Type R (EK) Touring Car",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 157,
+              "maker_name": "Garage RCR",
+              "car_id": "3526",
+              "car_name": "Civic",
+              "engine_name": "K24A-Civic"
+            }
+          ],
+          "price": 120700,
+          "price_jp": 12070000,
+          "isOld": null
+        },
+        {
+          "maker_id": 110,
+          "maker_name": "Ferrari",
+          "car_id": 3434,
+          "car_name": "Testarossa '91",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 365800,
+          "price_jp": 36580000,
+          "isOld": true
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20251030,
       "date": "2025/10/30",
@@ -1244,108 +1331,6 @@
           "engine_swaps": [],
           "price": 2500000,
           "price_jp": 250000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20251017,
-      "date": "2025/10/17",
-      "used": [
-        {
-          "maker_id": 21,
-          "maker_name": "Mazda",
-          "car_id": 201,
-          "car_name": "Eunos Roadster (NA) '89",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 21,
-              "maker_name": "Mazda",
-              "car_id": "205",
-              "car_name": "RX-7 Spirit R Type A (FD) '02",
-              "engine_name": "13B-REW-RX-7"
-            }
-          ],
-          "price": 30500,
-          "price_jp": 3050000,
-          "isOld": true
-        },
-        {
-          "maker_id": 7,
-          "maker_name": "Chevrolet",
-          "car_id": 41,
-          "car_name": "Corvette Stingray (C3) '69",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 7,
-              "maker_name": "Chevrolet",
-              "car_id": "3449",
-              "car_name": "Corvette C7 ZR1 '19",
-              "engine_name": "LT5-Corvette-C7"
-            }
-          ],
-          "price": 58600,
-          "price_jp": 5860000,
-          "isOld": true
-        },
-        {
-          "maker_id": 13,
-          "maker_name": "Ford",
-          "car_id": 3466,
-          "car_name": "Sierra RS 500 Cosworth '87",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 13,
-              "maker_name": "Ford",
-              "car_id": "3264",
-              "car_name": "Focus Gr.B Rally Car",
-              "engine_name": "L4-Focus-Gr.B"
-            }
-          ],
-          "price": 196400,
-          "price_jp": 19640000,
-          "isOld": true
-        },
-        {
-          "maker_id": 110,
-          "maker_name": "Ferrari",
-          "car_id": 1378,
-          "car_name": "F430 '06",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 209600,
-          "price_jp": 20960000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 112,
-          "maker_name": "Lamborghini",
-          "car_id": 1484,
-          "car_name": "Countach LP400 '74",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 1250000,
-          "price_jp": 125000000,
           "isOld": true
         }
       ]

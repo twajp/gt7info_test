@@ -1,6 +1,27 @@
 {
-  "timestamp": "2025-11-07T00:11:48.938391+00:00",
+  "timestamp": "2025-11-08T00:11:37.984568+00:00",
   "content": [
+    {
+      "id": 20251108,
+      "date": "2025/11/8",
+      "used": [],
+      "legend": [
+        {
+          "maker_id": 17,
+          "maker_name": "Jaguar",
+          "car_id": 3361,
+          "car_name": "E-type Coupe '61",
+          "car_group": "N",
+          "country_id": 4,
+          "country_name": "United Kingdom",
+          "country_code": "gb",
+          "engine_swaps": [],
+          "price": 172000,
+          "price_jp": 17200000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20251107,
       "date": "2025/11/7",
@@ -1345,70 +1366,6 @@
           "engine_swaps": [],
           "price": 2800000,
           "price_jp": 280000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20251025,
-      "date": "2025/10/25",
-      "used": [
-        {
-          "maker_id": 10,
-          "maker_name": "Daihatsu",
-          "car_id": 145,
-          "car_name": "Copen '02",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [],
-          "price": 14400,
-          "price_jp": 1440000,
-          "isOld": false
-        },
-        {
-          "maker_id": 39,
-          "maker_name": "Suzuki",
-          "car_id": 1385,
-          "car_name": "Swift Sport '07",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [],
-          "price": 12000,
-          "price_jp": 1200000,
-          "isOld": false
-        },
-        {
-          "maker_id": 35,
-          "maker_name": "RUF",
-          "car_id": 3398,
-          "car_name": "CTR3 '07",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 787400,
-          "price_jp": 78740000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 43,
-          "maker_name": "Toyota",
-          "car_id": 1470,
-          "car_name": "Supra GT500 '97",
-          "car_group": "3",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [],
-          "price": 1600000,
-          "price_jp": 160000000,
           "isOld": true
         }
       ]

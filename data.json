@@ -1,6 +1,27 @@
 {
-  "timestamp": "2025-11-09T00:12:58.220324+00:00",
+  "timestamp": "2025-11-10T00:12:42.344701+00:00",
   "content": [
+    {
+      "id": 20251110,
+      "date": "2025/11/10",
+      "used": [],
+      "legend": [
+        {
+          "maker_id": 136,
+          "maker_name": "Porsche",
+          "car_id": 3410,
+          "car_name": "917K '70",
+          "car_group": "X",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 20000000,
+          "price_jp": 2000000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20251109,
       "date": "2025/11/9",
@@ -1272,86 +1293,6 @@
           "engine_swaps": [],
           "price": 650000,
           "price_jp": 65000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20251027,
-      "date": "2025/10/27",
-      "used": [
-        {
-          "maker_id": 52,
-          "maker_name": "Pontiac",
-          "car_id": 1985,
-          "car_name": "Firebird Trans Am '78",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 7,
-              "maker_name": "Chevrolet",
-              "car_id": "1480",
-              "car_name": "Corvette ZR1 (C6) '09",
-              "engine_name": "LS9-Corvette"
-            }
-          ],
-          "price": 82700,
-          "price_jp": 8270000,
-          "isOld": true
-        },
-        {
-          "maker_id": 6,
-          "maker_name": "BMW",
-          "car_id": 655,
-          "car_name": "Z4 3.0i '03",
-          "car_group": null,
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 43,
-              "maker_name": "Toyota",
-              "car_id": "82",
-              "car_name": "Supra RZ '97",
-              "engine_name": "2JZ-GTE-Supra"
-            }
-          ],
-          "price": 53400,
-          "price_jp": 5340000,
-          "isOld": false
-        },
-        {
-          "maker_id": 43,
-          "maker_name": "Toyota",
-          "car_id": 345,
-          "car_name": "Sprinter Trueno 1600GT APEX (S.Shigeno Version)",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [],
-          "price": 99500,
-          "price_jp": 9950000,
-          "isOld": null
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 21,
-          "maker_name": "Mazda",
-          "car_id": 1975,
-          "car_name": "RX500 '70",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [],
-          "price": 600000,
-          "price_jp": 60000000,
           "isOld": true
         }
       ]

@@ -1,6 +1,57 @@
 {
-  "timestamp": "2025-11-19T00:13:19.633481+00:00",
+  "timestamp": "2025-11-20T00:11:58.753212+00:00",
   "content": [
+    {
+      "id": 20251120,
+      "date": "2025/11/20",
+      "used": [
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 919,
+          "car_name": "Silvia Q's (S13) '88",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "1448",
+              "car_name": "SILVIA spec-R Aero (S15) '02",
+              "engine_name": "SR20DET-Silvia-S15"
+            },
+            {
+              "maker_id": 38,
+              "maker_name": "Subaru",
+              "car_id": "3339",
+              "car_name": "BRZ Drift Car '17",
+              "engine_name": "LS7-BRZ"
+            }
+          ],
+          "price": 31500,
+          "price_jp": 3150000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 3,
+          "maker_name": "Alfa Romeo",
+          "car_id": 3415,
+          "car_name": "8C 2900B Touring Berlinetta '38",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 20000000,
+          "price_jp": 2000000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20251119,
       "date": "2025/11/19",
@@ -1176,35 +1227,6 @@
           "engine_swaps": [],
           "price": 61100,
           "price_jp": 6110000,
-          "isOld": true
-        }
-      ],
-      "legend": []
-    },
-    {
-      "id": 20251106,
-      "date": "2025/11/6",
-      "used": [
-        {
-          "maker_id": 46,
-          "maker_name": "Volkswagen",
-          "car_id": 1778,
-          "car_name": "Volkswagen 1200 '66",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 136,
-              "maker_name": "Porsche",
-              "car_id": "3431",
-              "car_name": "911 Carrera RS (964) '92",
-              "engine_name": "M64/03-911"
-            }
-          ],
-          "price": 31900,
-          "price_jp": 3190000,
           "isOld": true
         }
       ],

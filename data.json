@@ -1,6 +1,72 @@
 {
-  "timestamp": "2025-11-22T00:11:12.036088+00:00",
+  "timestamp": "2025-11-23T00:13:37.986105+00:00",
   "content": [
+    {
+      "id": 20251123,
+      "date": "2025/11/23",
+      "used": [
+        {
+          "maker_id": 43,
+          "maker_name": "Toyota",
+          "car_id": 82,
+          "car_name": "Supra RZ '97",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 30,
+              "maker_name": "Pagani",
+              "car_id": "2050",
+              "car_name": "Huayra '13",
+              "engine_name": "M158-AMG-Huayra"
+            }
+          ],
+          "price": 181700,
+          "price_jp": 18170000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 6,
+          "maker_name": "BMW",
+          "car_id": 216,
+          "car_name": "McLaren F1 GTR Race Car '97",
+          "car_group": "2",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 20000000,
+          "price_jp": 2000000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 13,
+          "maker_name": "Ford",
+          "car_id": 3487,
+          "car_name": "Mustang Boss 429 '69",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 13,
+              "maker_name": "Ford",
+              "car_id": "3391",
+              "car_name": "Shelby GT350R '16",
+              "engine_name": "Voodoo-5.2L-GT350R"
+            }
+          ],
+          "price": 349000,
+          "price_jp": 34900000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20251122,
       "date": "2025/11/22",
@@ -1236,130 +1302,6 @@
           "engine_swaps": [],
           "price": 20000000,
           "price_jp": 2000000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20251109,
-      "date": "2025/11/9",
-      "used": [
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 48,
-          "car_name": "Fairlady 240ZG (HS30) '71",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 151,
-              "maker_name": "Roadster Shop",
-              "car_id": "3426",
-              "car_name": "Roadster Shop Rampage",
-              "engine_name": "LS7-Rampage"
-            }
-          ],
-          "price": 98200,
-          "price_jp": 9820000,
-          "isOld": true
-        },
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 102,
-          "car_name": "Skyline GTS-R (R31) '87",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "210",
-              "car_name": "R34 GT-R V-spec II Nur '02",
-              "engine_name": "RB26DETT-GT-R-R34"
-            }
-          ],
-          "price": 169000,
-          "price_jp": 16900000,
-          "isOld": true
-        },
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 773,
-          "car_name": "R32 GT-R V-spec II '94",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "954",
-              "car_name": "R92CP '92",
-              "engine_name": "VRH35Z-R92CP"
-            }
-          ],
-          "price": 173400,
-          "price_jp": 17340000,
-          "isOld": true
-        },
-        {
-          "maker_id": 25,
-          "maker_name": "Mitsubishi",
-          "car_id": 301,
-          "car_name": "Lancer Evolution IV GSR '96",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 25,
-              "maker_name": "Mitsubishi",
-              "car_id": "3230",
-              "car_name": "Lancer Evolution Final Gr.B Rally Car",
-              "engine_name": "Evo-Final-Gr.B"
-            }
-          ],
-          "price": 46300,
-          "price_jp": 4630000,
-          "isOld": true
-        },
-        {
-          "maker_id": 5,
-          "maker_name": "Audi",
-          "car_id": 1365,
-          "car_name": "R8 4.2 '07",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 136500,
-          "price_jp": 13650000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 7,
-          "maker_name": "Chevrolet",
-          "car_id": 36,
-          "car_name": "Chevelle SS 454 Sport Coupé '70",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [],
-          "price": 146000,
-          "price_jp": 14600000,
           "isOld": true
         }
       ]

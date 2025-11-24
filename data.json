@@ -1,6 +1,129 @@
 {
-  "timestamp": "2025-11-23T05:15:02.128092+00:00",
+  "timestamp": "2025-11-24T00:13:06.582023+00:00",
   "content": [
+    {
+      "id": 20251124,
+      "date": "2025/11/24",
+      "used": [
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 709,
+          "car_name": "Fairlady Z 300ZX TT 2seater '89",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "3345",
+              "car_name": "GT-R NISMO '17",
+              "engine_name": "VR38DETT-GT-R-NISMO"
+            },
+            {
+              "maker_id": 151,
+              "maker_name": "Roadster Shop",
+              "car_id": "3426",
+              "car_name": "Roadster Shop Rampage",
+              "engine_name": "LS7-Rampage"
+            }
+          ],
+          "price": 56200,
+          "price_jp": 5620000,
+          "isOld": true
+        },
+        {
+          "maker_id": 110,
+          "maker_name": "Ferrari",
+          "car_id": 1544,
+          "car_name": "430 Scuderia '07",
+          "car_group": null,
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 378100,
+          "price_jp": 37810000,
+          "isOld": false
+        },
+        {
+          "maker_id": 6,
+          "maker_name": "BMW",
+          "car_id": 1399,
+          "car_name": "M3 '07",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [
+            {
+              "maker_id": 6,
+              "maker_name": "BMW",
+              "car_id": "1902",
+              "car_name": "Z4 GT3 '11",
+              "engine_name": "P65B44-Z4"
+            }
+          ],
+          "price": 77600,
+          "price_jp": 7760000,
+          "isOld": false
+        },
+        {
+          "maker_id": 11,
+          "maker_name": "Dodge",
+          "car_id": 1373,
+          "car_name": "Viper GTS '02",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [],
+          "price": 106600,
+          "price_jp": 10660000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 43,
+          "maker_name": "Toyota",
+          "car_id": 781,
+          "car_name": "Celica GT-FOUR Rally Car (ST205) '95",
+          "car_group": "B",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 210000,
+          "price_jp": 21000000,
+          "isOld": true
+        },
+        {
+          "maker_id": 39,
+          "maker_name": "Suzuki",
+          "car_id": 808,
+          "car_name": "V6 Escudo Pikes Peak Special spec.98",
+          "car_group": "X",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 39,
+              "maker_name": "Suzuki",
+              "car_id": "3508",
+              "car_name": "SUZUKI Vision Gran Turismo (Gr.3 Version)",
+              "engine_name": "V8-Suzuki-VGT-Gr.3"
+            }
+          ],
+          "price": 1700000,
+          "price_jp": 170000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20251123,
       "date": "2025/11/23",
@@ -1281,27 +1404,6 @@
           "engine_swaps": [],
           "price": 310000,
           "price_jp": 31000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20251110,
-      "date": "2025/11/10",
-      "used": [],
-      "legend": [
-        {
-          "maker_id": 136,
-          "maker_name": "Porsche",
-          "car_id": 3410,
-          "car_name": "917K '70",
-          "car_group": "X",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 20000000,
-          "price_jp": 2000000000,
           "isOld": true
         }
       ]

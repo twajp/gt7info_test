@@ -1,6 +1,108 @@
 {
-  "timestamp": "2025-11-29T00:11:51.606975+00:00",
+  "timestamp": "2025-11-30T00:14:13.131600+00:00",
   "content": [
+    {
+      "id": 20251130,
+      "date": "2025/11/30",
+      "used": [
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 821,
+          "car_name": "Civic Type R (EK) '97",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 157,
+              "maker_name": "Garage RCR",
+              "car_id": "3526",
+              "car_name": "Civic",
+              "engine_name": "K24A-Civic"
+            }
+          ],
+          "price": 53500,
+          "price_jp": 5350000,
+          "isOld": true
+        },
+        {
+          "maker_id": 38,
+          "maker_name": "Subaru",
+          "car_id": 451,
+          "car_name": "Impreza 22B-STi '98",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 38,
+              "maker_name": "Subaru",
+              "car_id": "3550",
+              "car_name": "Impreza Rally Car '98",
+              "engine_name": "EJ20-Impreza-Rally"
+            }
+          ],
+          "price": 163100,
+          "price_jp": 16310000,
+          "isOld": true
+        },
+        {
+          "maker_id": 110,
+          "maker_name": "Ferrari",
+          "car_id": 1378,
+          "car_name": "F430 '06",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 209600,
+          "price_jp": 20960000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 7,
+          "maker_name": "Chevrolet",
+          "car_id": 3464,
+          "car_name": "Corvette (C1) '58",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 7,
+              "maker_name": "Chevrolet",
+              "car_id": "3449",
+              "car_name": "Corvette C7 ZR1 '19",
+              "engine_name": "LT5-Corvette-C7"
+            }
+          ],
+          "price": 122000,
+          "price_jp": 12200000,
+          "isOld": true
+        },
+        {
+          "maker_id": 43,
+          "maker_name": "Toyota",
+          "car_id": 604,
+          "car_name": "2000GT '67",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 982000,
+          "price_jp": 98200000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20251129,
       "date": "2025/11/29",
@@ -1245,71 +1347,6 @@
           ],
           "price": 26800,
           "price_jp": 2680000,
-          "isOld": false
-        }
-      ],
-      "legend": []
-    },
-    {
-      "id": 20251116,
-      "date": "2025/11/16",
-      "used": [
-        {
-          "maker_id": 34,
-          "maker_name": "Renault",
-          "car_id": 3567,
-          "car_name": "Kangoo 1.4 '01",
-          "car_group": null,
-          "country_id": 6,
-          "country_name": "France",
-          "country_code": "fr",
-          "engine_swaps": [],
-          "price": 14200,
-          "price_jp": 1420000,
-          "isOld": false
-        },
-        {
-          "maker_id": 43,
-          "maker_name": "Toyota",
-          "car_id": 3471,
-          "car_name": "Celica GT-Four (ST205) '94",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 50,
-              "maker_name": "Lexus",
-              "car_id": "1516",
-              "car_name": "SC430 GT500 '08",
-              "engine_name": "3UZ-FE-SC430"
-            }
-          ],
-          "price": 65500,
-          "price_jp": 6550000,
-          "isOld": true
-        },
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 1458,
-          "car_name": "Fairlady Z (Z34) '08",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "1466",
-              "car_name": "GT-R GT500 '08",
-              "engine_name": "VK45DE-GT-R"
-            }
-          ],
-          "price": 37100,
-          "price_jp": 3710000,
           "isOld": false
         }
       ],

@@ -1,6 +1,78 @@
 {
-  "timestamp": "2025-12-02T00:11:58.455257+00:00",
+  "timestamp": "2025-12-03T00:12:04.909674+00:00",
   "content": [
+    {
+      "id": 20251203,
+      "date": "2025/12/3",
+      "used": [
+        {
+          "maker_id": 10,
+          "maker_name": "Daihatsu",
+          "car_id": 145,
+          "car_name": "Copen '02",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 14400,
+          "price_jp": 1440000,
+          "isOld": false
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 489,
+          "car_name": "R33 GT-R V-spec '97",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "954",
+              "car_name": "R92CP '92",
+              "engine_name": "VRH35Z-R92CP"
+            }
+          ],
+          "price": 161000,
+          "price_jp": 16100000,
+          "isOld": true
+        },
+        {
+          "maker_id": 22,
+          "maker_name": "Mercedes-Benz",
+          "car_id": 1528,
+          "car_name": "SLR McLaren '09",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 512200,
+          "price_jp": 51220000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 153,
+          "maker_name": "AMG",
+          "car_id": 3388,
+          "car_name": "300 SEL 6.8 AMG '71",
+          "car_group": "X",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 700000,
+          "price_jp": 70000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20251202,
       "date": "2025/12/2",
@@ -1203,108 +1275,6 @@
           "engine_swaps": [],
           "price": 20000000,
           "price_jp": 2000000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20251119,
-      "date": "2025/11/19",
-      "used": [
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 24,
-          "car_name": "180SX Type X '96",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "3345",
-              "car_name": "GT-R NISMO '17",
-              "engine_name": "VR38DETT-GT-R-NISMO"
-            }
-          ],
-          "price": 57400,
-          "price_jp": 5740000,
-          "isOld": true
-        },
-        {
-          "maker_id": 13,
-          "maker_name": "Ford",
-          "car_id": 1426,
-          "car_name": "Ford GT '06",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 156,
-              "maker_name": "Greening Auto Company",
-              "car_id": "3522",
-              "car_name": "Maverick",
-              "engine_name": "Windsor-351-Maverick"
-            }
-          ],
-          "price": 397100,
-          "price_jp": 39710000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 125,
-          "maker_name": "Abarth",
-          "car_id": 1932,
-          "car_name": "1500 Biposto Bertone B.A.T 1 '52",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 1000000,
-          "price_jp": 100000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 836,
-          "car_name": "Skyline 2000GT-R (KPGC110) '73",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "3493",
-              "car_name": "Skyline Super Silhouette Group 5 '84",
-              "engine_name": "LZ20B-Skyline"
-            }
-          ],
-          "price": 537000,
-          "price_jp": 53700000,
-          "isOld": true
-        },
-        {
-          "maker_id": 22,
-          "maker_name": "Mercedes-Benz",
-          "car_id": 3397,
-          "car_name": "CLK-LM '98",
-          "car_group": "2",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 8500000,
-          "price_jp": 850000000,
           "isOld": true
         }
       ]

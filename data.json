@@ -1,6 +1,107 @@
 {
-  "timestamp": "2026-07-25T01:14:52.695546+00:00",
+  "timestamp": "2026-07-26T01:17:47.806606+00:00",
   "content": [
+    {
+      "id": 20260726,
+      "date": "2026/7/26",
+      "used": [
+        {
+          "maker_id": 15,
+          "maker_name": "Honda",
+          "car_id": 3563,
+          "car_name": "Civic Si Extra (EF) '87",
+          "car_group": null,
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 15,
+              "maker_name": "Honda",
+              "car_id": "203",
+              "car_name": "Integra Type R (DC2) '98",
+              "engine_name": "B18C-Integra-'98"
+            }
+          ],
+          "price": 55100,
+          "price_jp": 5510000,
+          "isOld": true
+        },
+        {
+          "maker_id": 21,
+          "maker_name": "Mazda",
+          "car_id": 201,
+          "car_name": "Eunos Roadster (NA) '89",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 21,
+              "maker_name": "Mazda",
+              "car_id": "205",
+              "car_name": "RX-7 Spirit R Type A (FD) '02",
+              "engine_name": "13B-REW-RX-7"
+            }
+          ],
+          "price": 29600,
+          "price_jp": 2960000,
+          "isOld": true
+        },
+        {
+          "maker_id": 25,
+          "maker_name": "Mitsubishi",
+          "car_id": 1508,
+          "car_name": "Lancer Evolution VI GSR T.M. SCP '99",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 25,
+              "maker_name": "Mitsubishi",
+              "car_id": "3230",
+              "car_name": "Lancer Evolution Final Gr.B Rally Car",
+              "engine_name": "Evo-Final-Gr.B"
+            }
+          ],
+          "price": 165200,
+          "price_jp": 16520000,
+          "isOld": true
+        },
+        {
+          "maker_id": 18,
+          "maker_name": "Lancia",
+          "car_id": 533,
+          "car_name": "Stratos '73",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 539800,
+          "price_jp": 53980000,
+          "isOld": true
+        },
+        {
+          "maker_id": 112,
+          "maker_name": "Lamborghini",
+          "car_id": 1506,
+          "car_name": "Gallardo LP 560-4 '08",
+          "car_group": null,
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 251300,
+          "price_jp": 25130000,
+          "isOld": false
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20260725,
       "date": "2026/7/25",
@@ -1051,86 +1152,6 @@
           "engine_swaps": [],
           "price": 20000000,
           "price_jp": 2000000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20260712,
-      "date": "2026/7/12",
-      "used": [
-        {
-          "maker_id": 34,
-          "maker_name": "Renault",
-          "car_id": 729,
-          "car_name": "Avantime 3.0 V6 24V '02",
-          "car_group": null,
-          "country_id": 6,
-          "country_name": "France",
-          "country_code": "fr",
-          "engine_swaps": [
-            {
-              "maker_id": 46,
-              "maker_name": "Volkswagen",
-              "car_id": "2192",
-              "car_name": "Volkswagen GTI VGT (Gr.3)",
-              "engine_name": "GTI-VGT-Gr.3"
-            }
-          ],
-          "price": 39300,
-          "price_jp": 3930000,
-          "isOld": false
-        },
-        {
-          "maker_id": 34,
-          "maker_name": "Renault",
-          "car_id": 3603,
-          "car_name": "Twingo '93",
-          "car_group": null,
-          "country_id": 6,
-          "country_name": "France",
-          "country_code": "fr",
-          "engine_swaps": [],
-          "price": 12400,
-          "price_jp": 1240000,
-          "isOld": true
-        },
-        {
-          "maker_id": 13,
-          "maker_name": "Ford",
-          "car_id": 1729,
-          "car_name": "Mustang Mach 1 '71",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 13,
-              "maker_name": "Ford",
-              "car_id": "2138",
-              "car_name": "Mustang GT '15",
-              "engine_name": "Coyote-5.0L-Mustang"
-            }
-          ],
-          "price": 43100,
-          "price_jp": 4310000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 4,
-          "maker_name": "Aston Martin",
-          "car_id": 3445,
-          "car_name": "DB5 '64",
-          "car_group": "N",
-          "country_id": 4,
-          "country_name": "United Kingdom",
-          "country_code": "gb",
-          "engine_swaps": [],
-          "price": 883000,
-          "price_jp": 88300000,
           "isOld": true
         }
       ]

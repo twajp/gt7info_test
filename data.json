@@ -1,6 +1,35 @@
 {
-  "timestamp": "2026-07-28T01:09:10.741695+00:00",
+  "timestamp": "2026-07-29T01:12:57.853948+00:00",
   "content": [
+    {
+      "id": 20260729,
+      "date": "2026/7/29",
+      "used": [
+        {
+          "maker_id": 13,
+          "maker_name": "Ford",
+          "car_id": 3555,
+          "car_name": "Escort RS Cosworth '92",
+          "car_group": null,
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 13,
+              "maker_name": "Ford",
+              "car_id": "3264",
+              "car_name": "Focus Gr.B Rally Car",
+              "engine_name": "L4-Focus-Gr.B"
+            }
+          ],
+          "price": 128900,
+          "price_jp": 12890000,
+          "isOld": true
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20260728,
       "date": "2026/7/28",
@@ -1037,79 +1066,6 @@
           "engine_swaps": [],
           "price": 600000,
           "price_jp": 60000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20260715,
-      "date": "2026/7/15",
-      "used": [
-        {
-          "maker_id": 25,
-          "maker_name": "Mitsubishi",
-          "car_id": 211,
-          "car_name": "Lancer Evolution V GSR '98",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 25,
-              "maker_name": "Mitsubishi",
-              "car_id": "3230",
-              "car_name": "Lancer Evolution Final Gr.B Rally Car",
-              "engine_name": "Evo-Final-Gr.B"
-            }
-          ],
-          "price": 64800,
-          "price_jp": 6480000,
-          "isOld": true
-        },
-        {
-          "maker_id": 25,
-          "maker_name": "Mitsubishi",
-          "car_id": 3384,
-          "car_name": "GTO Twin Turbo '91",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 11,
-              "maker_name": "Dodge",
-              "car_id": "3486",
-              "car_name": "Challenger SRT Demon '18",
-              "engine_name": "Demon-Challenger"
-            },
-            {
-              "maker_id": 39,
-              "maker_name": "Suzuki",
-              "car_id": "808",
-              "car_name": "V6 Escudo Pikes Peak Special spec.98",
-              "engine_name": "H25A-Escudo"
-            }
-          ],
-          "price": 45600,
-          "price_jp": 4560000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 17,
-          "maker_name": "Jaguar",
-          "car_id": 3376,
-          "car_name": "D-type '54",
-          "car_group": "X",
-          "country_id": 4,
-          "country_name": "United Kingdom",
-          "country_code": "gb",
-          "engine_swaps": [],
-          "price": 5300000,
-          "price_jp": 530000000,
           "isOld": true
         }
       ]

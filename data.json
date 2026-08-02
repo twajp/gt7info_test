@@ -1,6 +1,77 @@
 {
-  "timestamp": "2026-08-01T01:19:23.879005+00:00",
+  "timestamp": "2026-08-02T01:17:25.615798+00:00",
   "content": [
+    {
+      "id": 20260802,
+      "date": "2026/8/2",
+      "used": [
+        {
+          "maker_id": 5,
+          "maker_name": "Audi",
+          "car_id": 959,
+          "car_name": "TT Coupe 3.2 quattro '03",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 49800,
+          "price_jp": 4980000,
+          "isOld": false
+        },
+        {
+          "maker_id": 65,
+          "maker_name": "DMC",
+          "car_id": 1027,
+          "car_name": "DeLorean S2 '04",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 151,
+              "maker_name": "Roadster Shop",
+              "car_id": "3426",
+              "car_name": "Roadster Shop Rampage",
+              "engine_name": "LS7-Rampage"
+            }
+          ],
+          "price": 462300,
+          "price_jp": 46230000,
+          "isOld": false
+        },
+        {
+          "maker_id": 110,
+          "maker_name": "Ferrari",
+          "car_id": 3443,
+          "car_name": "308 GTB '75",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 178300,
+          "price_jp": 17830000,
+          "isOld": true
+        },
+        {
+          "maker_id": 112,
+          "maker_name": "Lamborghini",
+          "car_id": 1545,
+          "car_name": "Murcielago LP 640 '09",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 316200,
+          "price_jp": 31620000,
+          "isOld": false
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20260801,
       "date": "2026/8/1",
@@ -945,64 +1016,6 @@
         }
       ],
       "legend": []
-    },
-    {
-      "id": 20260719,
-      "date": "2026/7/19",
-      "used": [
-        {
-          "maker_id": 136,
-          "maker_name": "Porsche",
-          "car_id": 3385,
-          "car_name": "911 Turbo (930) '81",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 136,
-              "maker_name": "Porsche",
-              "car_id": "3311",
-              "car_name": "911 RSR (991) '17",
-              "engine_name": "M97/80-911"
-            }
-          ],
-          "price": 224800,
-          "price_jp": 22480000,
-          "isOld": true
-        },
-        {
-          "maker_id": 116,
-          "maker_name": "Maserati",
-          "car_id": 1539,
-          "car_name": "GranTurismo S '08",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 147200,
-          "price_jp": 14720000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 112,
-          "maker_name": "Lamborghini",
-          "car_id": 1484,
-          "car_name": "Countach LP400 '74",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 1250000,
-          "price_jp": 125000000,
-          "isOld": true
-        }
-      ]
     }
   ]
 }

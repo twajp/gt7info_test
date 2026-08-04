@@ -1,6 +1,92 @@
 {
-  "timestamp": "2026-08-03T01:17:54.870895+00:00",
+  "timestamp": "2026-08-04T01:10:04.387128+00:00",
   "content": [
+    {
+      "id": 20260804,
+      "date": "2026/8/4",
+      "used": [
+        {
+          "maker_id": 10,
+          "maker_name": "Daihatsu",
+          "car_id": 145,
+          "car_name": "Copen '02",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 14300,
+          "price_jp": 1430000,
+          "isOld": false
+        },
+        {
+          "maker_id": 39,
+          "maker_name": "Suzuki",
+          "car_id": 1385,
+          "car_name": "Swift Sport '07",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 12900,
+          "price_jp": 1290000,
+          "isOld": false
+        },
+        {
+          "maker_id": 13,
+          "maker_name": "Ford",
+          "car_id": 1426,
+          "car_name": "Ford GT '06",
+          "car_group": "N",
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 156,
+              "maker_name": "Greening Auto Company",
+              "car_id": "3522",
+              "car_name": "Maverick",
+              "engine_name": "Windsor-351-Maverick"
+            }
+          ],
+          "price": 398300,
+          "price_jp": 39830000,
+          "isOld": false
+        },
+        {
+          "maker_id": 5,
+          "maker_name": "Audi",
+          "car_id": 1541,
+          "car_name": "TTS Coupe '09",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 61200,
+          "price_jp": 6120000,
+          "isOld": false
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 17,
+          "maker_name": "Jaguar",
+          "car_id": 3361,
+          "car_name": "E-type Coupe '61",
+          "car_group": "N",
+          "country_id": 4,
+          "country_name": "United Kingdom",
+          "country_code": "gb",
+          "engine_swaps": [],
+          "price": 186000,
+          "price_jp": 18600000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20260803,
       "date": "2026/8/3",
@@ -1038,114 +1124,6 @@
           "engine_swaps": [],
           "price": 2800000,
           "price_jp": 280000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20260721,
-      "date": "2026/7/21",
-      "used": [
-        {
-          "maker_id": 9,
-          "maker_name": "Citroen",
-          "car_id": 3573,
-          "car_name": "BX 19 TRS '87",
-          "car_group": null,
-          "country_id": 6,
-          "country_name": "France",
-          "country_code": "fr",
-          "engine_swaps": [
-            {
-              "maker_id": 5,
-              "maker_name": "Audi",
-              "car_id": "1927",
-              "car_name": "Sport quattro S1 Pikes Peak '87",
-              "engine_name": "R5-20vT-Quattro-Pikes"
-            }
-          ],
-          "price": 26900,
-          "price_jp": 2690000,
-          "isOld": true
-        },
-        {
-          "maker_id": 34,
-          "maker_name": "Renault",
-          "car_id": 3547,
-          "car_name": "R4 GTL '85",
-          "car_group": "N",
-          "country_id": 6,
-          "country_name": "France",
-          "country_code": "fr",
-          "engine_swaps": [],
-          "price": 27100,
-          "price_jp": 2710000,
-          "isOld": true
-        },
-        {
-          "maker_id": 38,
-          "maker_name": "Subaru",
-          "car_id": 379,
-          "car_name": "Impreza Coupe WRX Type R STi Ver.VI '99",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 38,
-              "maker_name": "Subaru",
-              "car_id": "3550",
-              "car_name": "Impreza Rally Car '98",
-              "engine_name": "EJ20-Impreza-Rally"
-            }
-          ],
-          "price": 53500,
-          "price_jp": 5350000,
-          "isOld": true
-        },
-        {
-          "maker_id": 6,
-          "maker_name": "BMW",
-          "car_id": 1893,
-          "car_name": "Z8 '01",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 266200,
-          "price_jp": 26620000,
-          "isOld": false
-        },
-        {
-          "maker_id": 35,
-          "maker_name": "RUF",
-          "car_id": 3398,
-          "car_name": "CTR3 '07",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 788800,
-          "price_jp": 78880000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 18,
-          "maker_name": "Lancia",
-          "car_id": 761,
-          "car_name": "Lancia Delta HF Integrale Rally Car '92",
-          "car_group": null,
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 350000,
-          "price_jp": 35000000,
           "isOld": true
         }
       ]

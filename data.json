@@ -1,6 +1,35 @@
 {
-  "timestamp": "2026-08-05T01:09:34.359803+00:00",
+  "timestamp": "2026-08-06T01:08:13.825145+00:00",
   "content": [
+    {
+      "id": 20260806,
+      "date": "2026/8/6",
+      "used": [
+        {
+          "maker_id": 57,
+          "maker_name": "Autobianchi",
+          "car_id": 3442,
+          "car_name": "A112 Abarth '85",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [
+            {
+              "maker_id": 157,
+              "maker_name": "Garage RCR",
+              "car_id": "3526",
+              "car_name": "Civic",
+              "engine_name": "K24A-Civic"
+            }
+          ],
+          "price": 28900,
+          "price_jp": 2890000,
+          "isOld": true
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20260805,
       "date": "2026/8/5",
@@ -1080,50 +1109,6 @@
           "engine_swaps": [],
           "price": 61500,
           "price_jp": 6150000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20260723,
-      "date": "2026/7/23",
-      "used": [
-        {
-          "maker_id": 21,
-          "maker_name": "Mazda",
-          "car_id": 967,
-          "car_name": "efini RX-7 Type R (FD) '91",
-          "car_group": null,
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [],
-          "price": 66700,
-          "price_jp": 6670000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 17,
-          "maker_name": "Jaguar",
-          "car_id": 543,
-          "car_name": "XJ220 '92",
-          "car_group": "N",
-          "country_id": 4,
-          "country_name": "United Kingdom",
-          "country_code": "gb",
-          "engine_swaps": [
-            {
-              "maker_id": 17,
-              "maker_name": "Jaguar",
-              "car_id": "1067",
-              "car_name": "XJR-9 '88",
-              "engine_name": "V12-XJR-9"
-            }
-          ],
-          "price": 548000,
-          "price_jp": 54800000,
           "isOld": true
         }
       ]

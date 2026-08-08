@@ -1,6 +1,35 @@
 {
-  "timestamp": "2026-08-07T01:53:15.051478+00:00",
+  "timestamp": "2026-08-08T00:34:35.394900+00:00",
   "content": [
+    {
+      "id": 20260808,
+      "date": "2026/8/8",
+      "used": [
+        {
+          "maker_id": 43,
+          "maker_name": "Toyota",
+          "car_id": 82,
+          "car_name": "Supra RZ '97",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 30,
+              "maker_name": "Pagani",
+              "car_id": "2050",
+              "car_name": "Huayra '13",
+              "engine_name": "M158-AMG-Huayra"
+            }
+          ],
+          "price": 190800,
+          "price_jp": 19080000,
+          "isOld": true
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20260807,
       "date": "2026/8/7",
@@ -1084,92 +1113,6 @@
         }
       ],
       "legend": []
-    },
-    {
-      "id": 20260725,
-      "date": "2026/7/25",
-      "used": [
-        {
-          "maker_id": 7,
-          "maker_name": "Chevrolet",
-          "car_id": 1542,
-          "car_name": "Corvette Convertible (C3) '69",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 7,
-              "maker_name": "Chevrolet",
-              "car_id": "3449",
-              "car_name": "Corvette C7 ZR1 '19",
-              "engine_name": "LT5-Corvette-C7"
-            }
-          ],
-          "price": 47000,
-          "price_jp": 4700000,
-          "isOld": true
-        },
-        {
-          "maker_id": 5,
-          "maker_name": "Audi",
-          "car_id": 1365,
-          "car_name": "R8 4.2 '07",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 137900,
-          "price_jp": 13790000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 3,
-          "maker_name": "Alfa Romeo",
-          "car_id": 365,
-          "car_name": "155 2.5 V6 TI '93",
-          "car_group": "4",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 650000,
-          "price_jp": 65000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 55,
-          "maker_name": "Plymouth",
-          "car_id": 1900,
-          "car_name": "XNR Ghia Roadster '60",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [],
-          "price": 3000000,
-          "price_jp": 300000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 13,
-          "maker_name": "Ford",
-          "car_id": 1565,
-          "car_name": "Mark IV Race Car '67",
-          "car_group": "X",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [],
-          "price": 6750000,
-          "price_jp": 675000000,
-          "isOld": true
-        }
-      ]
     }
   ]
 }

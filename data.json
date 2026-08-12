@@ -1,6 +1,50 @@
 {
-  "timestamp": "2026-08-11T00:37:44.101654+00:00",
+  "timestamp": "2026-08-12T00:43:48.861148+00:00",
   "content": [
+    {
+      "id": 20260812,
+      "date": "2026/8/12",
+      "used": [
+        {
+          "maker_id": 136,
+          "maker_name": "Porsche",
+          "car_id": 3431,
+          "car_name": "911 Carrera RS (964) '92",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [
+            {
+              "maker_id": 136,
+              "maker_name": "Porsche",
+              "car_id": "3519",
+              "car_name": "959 '87",
+              "engine_name": "959.50-959"
+            }
+          ],
+          "price": 218000,
+          "price_jp": 21800000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 140,
+          "maker_name": "De Tomaso",
+          "car_id": 3505,
+          "car_name": "Mangusta (Christian Dior)",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [],
+          "price": 500000,
+          "price_jp": 50000000,
+          "isOld": null
+        }
+      ]
+    },
     {
       "id": 20260811,
       "date": "2026/8/11",
@@ -1149,35 +1193,6 @@
           "price": 69200,
           "price_jp": 6920000,
           "isOld": false
-        }
-      ],
-      "legend": []
-    },
-    {
-      "id": 20260729,
-      "date": "2026/7/29",
-      "used": [
-        {
-          "maker_id": 13,
-          "maker_name": "Ford",
-          "car_id": 3555,
-          "car_name": "Escort RS Cosworth '92",
-          "car_group": null,
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 13,
-              "maker_name": "Ford",
-              "car_id": "3264",
-              "car_name": "Focus Gr.B Rally Car",
-              "engine_name": "L4-Focus-Gr.B"
-            }
-          ],
-          "price": 128900,
-          "price_jp": 12890000,
-          "isOld": true
         }
       ],
       "legend": []

@@ -1,6 +1,130 @@
 {
-  "timestamp": "2026-08-22T00:23:01.779969+00:00",
+  "timestamp": "2026-08-23T00:08:02.380627+00:00",
   "content": [
+    {
+      "id": 20260823,
+      "date": "2026/8/23",
+      "used": [
+        {
+          "maker_id": 34,
+          "maker_name": "Renault",
+          "car_id": 729,
+          "car_name": "Avantime 3.0 V6 24V '02",
+          "car_group": null,
+          "country_id": 6,
+          "country_name": "France",
+          "country_code": "fr",
+          "engine_swaps": [
+            {
+              "maker_id": 46,
+              "maker_name": "Volkswagen",
+              "car_id": "2192",
+              "car_name": "Volkswagen GTI VGT (Gr.3)",
+              "engine_name": "GTI-VGT-Gr.3"
+            }
+          ],
+          "price": 39900,
+          "price_jp": 3990000,
+          "isOld": false
+        },
+        {
+          "maker_id": 136,
+          "maker_name": "Porsche",
+          "car_id": 3404,
+          "car_name": "911 Carrera RS CS (993) '95",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [
+            {
+              "maker_id": 136,
+              "maker_name": "Porsche",
+              "car_id": "3539",
+              "car_name": "911 GT3 RS (992) '22",
+              "engine_name": "MDYA-911"
+            }
+          ],
+          "price": 430400,
+          "price_jp": 43040000,
+          "isOld": true
+        },
+        {
+          "maker_id": 7,
+          "maker_name": "Chevrolet",
+          "car_id": 3570,
+          "car_name": "Corvette Z06 (C5) '01",
+          "car_group": null,
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [],
+          "price": 53500,
+          "price_jp": 5350000,
+          "isOld": false
+        },
+        {
+          "maker_id": 136,
+          "maker_name": "Porsche",
+          "car_id": 3439,
+          "car_name": "911 Carrera RS (993) '95",
+          "car_group": "N",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [
+            {
+              "maker_id": 35,
+              "maker_name": "RUF",
+              "car_id": "3398",
+              "car_name": "CTR3 '07",
+              "engine_name": "CTR38-CTR3"
+            }
+          ],
+          "price": 229500,
+          "price_jp": 22950000,
+          "isOld": true
+        },
+        {
+          "maker_id": 112,
+          "maker_name": "Lamborghini",
+          "car_id": 1481,
+          "car_name": "Countach 25th Anniversary '88",
+          "car_group": "N",
+          "country_id": 7,
+          "country_name": "Italy",
+          "country_code": "it",
+          "engine_swaps": [
+            {
+              "maker_id": 112,
+              "maker_name": "Lamborghini",
+              "car_id": "3392",
+              "car_name": "Aventador LP 750-4 SV '15",
+              "engine_name": "L539-Aventador-SV"
+            }
+          ],
+          "price": 699400,
+          "price_jp": 69940000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 17,
+          "maker_name": "Jaguar",
+          "car_id": 1553,
+          "car_name": "XJ13 '66",
+          "car_group": "X",
+          "country_id": 4,
+          "country_name": "United Kingdom",
+          "country_code": "gb",
+          "engine_swaps": [],
+          "price": 12000000,
+          "price_jp": 1200000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20260822,
       "date": "2026/8/22",
@@ -1259,108 +1383,6 @@
           "price": 300000,
           "price_jp": 30000000,
           "isOld": null
-        }
-      ]
-    },
-    {
-      "id": 20260809,
-      "date": "2026/8/9",
-      "used": [
-        {
-          "maker_id": 46,
-          "maker_name": "Volkswagen",
-          "car_id": 3403,
-          "car_name": "Golf I GTI '83",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 5,
-              "maker_name": "Audi",
-              "car_id": "1927",
-              "car_name": "Sport quattro S1 Pikes Peak '87",
-              "engine_name": "R5-20vT-Quattro-Pikes"
-            }
-          ],
-          "price": 41700,
-          "price_jp": 4170000,
-          "isOld": true
-        },
-        {
-          "maker_id": 43,
-          "maker_name": "Toyota",
-          "car_id": 207,
-          "car_name": "MR2 GT-S '97",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 5,
-              "maker_name": "Audi",
-              "car_id": "1365",
-              "car_name": "R8 4.2 '07",
-              "engine_name": "BYH-R8"
-            }
-          ],
-          "price": 54900,
-          "price_jp": 5490000,
-          "isOld": true
-        },
-        {
-          "maker_id": 110,
-          "maker_name": "Ferrari",
-          "car_id": 1544,
-          "car_name": "430 Scuderia '07",
-          "car_group": null,
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 370400,
-          "price_jp": 37040000,
-          "isOld": false
-        },
-        {
-          "maker_id": 6,
-          "maker_name": "BMW",
-          "car_id": 1399,
-          "car_name": "M3 '07",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 6,
-              "maker_name": "BMW",
-              "car_id": "1902",
-              "car_name": "Z4 GT3 '11",
-              "engine_name": "P65B44-Z4"
-            }
-          ],
-          "price": 68500,
-          "price_jp": 6850000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 110,
-          "maker_name": "Ferrari",
-          "car_id": 1551,
-          "car_name": "330 P4 '67",
-          "car_group": "X",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 20000000,
-          "price_jp": 2000000000,
-          "isOld": true
         }
       ]
     }

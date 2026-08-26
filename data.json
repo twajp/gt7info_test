@@ -1,6 +1,115 @@
 {
-  "timestamp": "2026-08-25T00:23:35.409631+00:00",
+  "timestamp": "2026-08-26T00:24:59.566543+00:00",
   "content": [
+    {
+      "id": 20260826,
+      "date": "2026/8/26",
+      "used": [
+        {
+          "maker_id": 43,
+          "maker_name": "Toyota",
+          "car_id": 1537,
+          "car_name": "Prius G '09",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [],
+          "price": 21500,
+          "price_jp": 2150000,
+          "isOld": false
+        },
+        {
+          "maker_id": 25,
+          "maker_name": "Mitsubishi",
+          "car_id": 211,
+          "car_name": "Lancer Evolution V GSR '98",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 25,
+              "maker_name": "Mitsubishi",
+              "car_id": "3230",
+              "car_name": "Lancer Evolution Final Gr.B Rally Car",
+              "engine_name": "Evo-Final-Gr.B"
+            }
+          ],
+          "price": 76300,
+          "price_jp": 7630000,
+          "isOld": true
+        },
+        {
+          "maker_id": 25,
+          "maker_name": "Mitsubishi",
+          "car_id": 3384,
+          "car_name": "GTO Twin Turbo '91",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 11,
+              "maker_name": "Dodge",
+              "car_id": "3486",
+              "car_name": "Challenger SRT Demon '18",
+              "engine_name": "Demon-Challenger"
+            },
+            {
+              "maker_id": 39,
+              "maker_name": "Suzuki",
+              "car_id": "808",
+              "car_name": "V6 Escudo Pikes Peak Special spec.98",
+              "engine_name": "H25A-Escudo"
+            }
+          ],
+          "price": 45000,
+          "price_jp": 4500000,
+          "isOld": true
+        },
+        {
+          "maker_id": 28,
+          "maker_name": "Nissan",
+          "car_id": 102,
+          "car_name": "Skyline GTS-R (R31) '87",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 28,
+              "maker_name": "Nissan",
+              "car_id": "210",
+              "car_name": "R34 GT-R V-spec II Nur '02",
+              "engine_name": "RB26DETT-GT-R-R34"
+            }
+          ],
+          "price": 162800,
+          "price_jp": 16280000,
+          "isOld": true
+        }
+      ],
+      "legend": [
+        {
+          "maker_id": 153,
+          "maker_name": "AMG",
+          "car_id": 3388,
+          "car_name": "300 SEL 6.8 AMG '71",
+          "car_group": "X",
+          "country_id": 5,
+          "country_name": "Germany",
+          "country_code": "de",
+          "engine_swaps": [],
+          "price": 700000,
+          "price_jp": 70000000,
+          "isOld": true
+        }
+      ]
+    },
     {
       "id": 20260825,
       "date": "2026/8/25",
@@ -1403,50 +1512,6 @@
           "price": 595000,
           "price_jp": 59500000,
           "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20260812,
-      "date": "2026/8/12",
-      "used": [
-        {
-          "maker_id": 136,
-          "maker_name": "Porsche",
-          "car_id": 3431,
-          "car_name": "911 Carrera RS (964) '92",
-          "car_group": "N",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [
-            {
-              "maker_id": 136,
-              "maker_name": "Porsche",
-              "car_id": "3519",
-              "car_name": "959 '87",
-              "engine_name": "959.50-959"
-            }
-          ],
-          "price": 218000,
-          "price_jp": 21800000,
-          "isOld": true
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 140,
-          "maker_name": "De Tomaso",
-          "car_id": 3505,
-          "car_name": "Mangusta (Christian Dior)",
-          "car_group": "N",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 500000,
-          "price_jp": 50000000,
-          "isOld": null
         }
       ]
     }

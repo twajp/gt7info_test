@@ -1,6 +1,57 @@
 {
-  "timestamp": "2026-09-06T01:21:49.319139+00:00",
+  "timestamp": "2026-09-07T01:19:46.884009+00:00",
   "content": [
+    {
+      "id": 20260907,
+      "date": "2026/9/7",
+      "used": [
+        {
+          "maker_id": 43,
+          "maker_name": "Toyota",
+          "car_id": 63,
+          "car_name": "Corolla Levin 1600GT APEX (AE86) '83",
+          "car_group": "N",
+          "country_id": 2,
+          "country_name": "Japan",
+          "country_code": "jp",
+          "engine_swaps": [
+            {
+              "maker_id": 43,
+              "maker_name": "Toyota",
+              "car_id": "207",
+              "car_name": "MR2 GT-S '97",
+              "engine_name": "3S-GTE-MR2"
+            }
+          ],
+          "price": 58200,
+          "price_jp": 5820000,
+          "isOld": true
+        },
+        {
+          "maker_id": 13,
+          "maker_name": "Ford",
+          "car_id": 3555,
+          "car_name": "Escort RS Cosworth '92",
+          "car_group": null,
+          "country_id": 3,
+          "country_name": "United States",
+          "country_code": "us",
+          "engine_swaps": [
+            {
+              "maker_id": 13,
+              "maker_name": "Ford",
+              "car_id": "3264",
+              "car_name": "Focus Gr.B Rally Car",
+              "engine_name": "L4-Focus-Gr.B"
+            }
+          ],
+          "price": 132500,
+          "price_jp": 13250000,
+          "isOld": true
+        }
+      ],
+      "legend": []
+    },
     {
       "id": 20260906,
       "date": "2026/9/6",
@@ -1242,114 +1293,6 @@
           ],
           "price": 1700000,
           "price_jp": 170000000,
-          "isOld": true
-        }
-      ]
-    },
-    {
-      "id": 20260824,
-      "date": "2026/8/24",
-      "used": [
-        {
-          "maker_id": 34,
-          "maker_name": "Renault",
-          "car_id": 3603,
-          "car_name": "Twingo '93",
-          "car_group": null,
-          "country_id": 6,
-          "country_name": "France",
-          "country_code": "fr",
-          "engine_swaps": [],
-          "price": 12200,
-          "price_jp": 1220000,
-          "isOld": true
-        },
-        {
-          "maker_id": 13,
-          "maker_name": "Ford",
-          "car_id": 1729,
-          "car_name": "Mustang Mach 1 '71",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [
-            {
-              "maker_id": 13,
-              "maker_name": "Ford",
-              "car_id": "2138",
-              "car_name": "Mustang GT '15",
-              "engine_name": "Coyote-5.0L-Mustang"
-            }
-          ],
-          "price": 36200,
-          "price_jp": 3620000,
-          "isOld": true
-        },
-        {
-          "maker_id": 11,
-          "maker_name": "Dodge",
-          "car_id": 3377,
-          "car_name": "Super Bee '70",
-          "car_group": "N",
-          "country_id": 3,
-          "country_name": "United States",
-          "country_code": "us",
-          "engine_swaps": [],
-          "price": 60200,
-          "price_jp": 6020000,
-          "isOld": true
-        },
-        {
-          "maker_id": 28,
-          "maker_name": "Nissan",
-          "car_id": 210,
-          "car_name": "R34 GT-R V-spec II Nur '02",
-          "car_group": "N",
-          "country_id": 2,
-          "country_name": "Japan",
-          "country_code": "jp",
-          "engine_swaps": [
-            {
-              "maker_id": 28,
-              "maker_name": "Nissan",
-              "car_id": "954",
-              "car_name": "R92CP '92",
-              "engine_name": "VRH35Z-R92CP"
-            }
-          ],
-          "price": 387000,
-          "price_jp": 38700000,
-          "isOld": false
-        }
-      ],
-      "legend": [
-        {
-          "maker_id": 110,
-          "maker_name": "Ferrari",
-          "car_id": 2010,
-          "car_name": "250 GTO '62",
-          "car_group": "X",
-          "country_id": 7,
-          "country_name": "Italy",
-          "country_code": "it",
-          "engine_swaps": [],
-          "price": 20000000,
-          "price_jp": 2000000000,
-          "isOld": true
-        },
-        {
-          "maker_id": 6,
-          "maker_name": "BMW",
-          "car_id": 216,
-          "car_name": "McLaren F1 GTR Race Car '97",
-          "car_group": "2",
-          "country_id": 5,
-          "country_name": "Germany",
-          "country_code": "de",
-          "engine_swaps": [],
-          "price": 20000000,
-          "price_jp": 2000000000,
           "isOld": true
         }
       ]
